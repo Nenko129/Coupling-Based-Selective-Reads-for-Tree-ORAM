@@ -1,0 +1,29 @@
+{
+  "family": "free_compressed",
+  "arm": "selective",
+  "kind": "sde",
+  "layout": "host",
+  "N": 4096,
+  "B": 64,
+  "profile": [
+    4,
+    3,
+    4
+  ],
+  "R": 256,
+  "compact": false,
+  "fusion": false,
+  "root_retained": true,
+  "plb": 8,
+  "llc": 32,
+  "rho": 128,
+  "warmup": 2048,
+  "requests": 4096,
+  "trace_seed": 101,
+  "oram_seed": 1001,
+  "workload": "uniform",
+  "suite": "formal",
+  "driver": "run_frontend_minimal.py",
+  "experiment_class": "selective_minimal_frontend_v1",
+  "id": "MIN_formal_free_compressed_sde_B64_seed101"
+}

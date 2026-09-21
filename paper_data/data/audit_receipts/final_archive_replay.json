@@ -1,0 +1,176 @@
+{
+  "status": "passed",
+  "checked_on": "2026-09-17T15:44:01.930061",
+  "archive": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\论文实验章节完整证据_2026-09-16\\source_evidence\\Selective_最小组合审阅包.zip",
+  "archive_sha256": "abf7dbb5f7346a96376f35a685c5cae24e871a8d5e89c4a4dd36276bd898661b",
+  "old_receipt_archive_sha256": "eb3646f187a210145b42a57917a33a0b15eafe5785e4bc452027a9fd98d68987",
+  "old_receipt_matches_final_archive": false,
+  "manifest_files": 379,
+  "all_member_hashes_verified": true,
+  "replica": "D:\\projects\\SDE-R0\\tmp\\final_archive_review_20260917_4372phay\\workspace\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16",
+  "contract_checks": {
+    "status": "passed",
+    "coupling_cases": [
+      {
+        "family": "IR",
+        "layout": "uniform",
+        "boundaries": 193,
+        "full_probe_bytes": 1720320,
+        "selective_bytes": 1344088,
+        "saving_pct": 21.869884672619044,
+        "projected_state_equal": true,
+        "exact_ciphertext_state_equal": false
+      },
+      {
+        "family": "IR",
+        "layout": "depth",
+        "boundaries": 193,
+        "full_probe_bytes": 1370112,
+        "selective_bytes": 1105576,
+        "saving_pct": 19.30761864723468,
+        "projected_state_equal": true,
+        "exact_ciphertext_state_equal": false
+      },
+      {
+        "family": "AB",
+        "layout": "uniform",
+        "boundaries": 193,
+        "full_probe_bytes": 2747620,
+        "selective_bytes": 2000204,
+        "saving_pct": 27.202305995734488,
+        "projected_state_equal": true,
+        "exact_ciphertext_state_equal": false
+      },
+      {
+        "family": "AB",
+        "layout": "depth",
+        "boundaries": 193,
+        "full_probe_bytes": 2686400,
+        "selective_bytes": 2004428,
+        "saving_pct": 25.38609291244789,
+        "projected_state_equal": true,
+        "exact_ciphertext_state_equal": false
+      }
+    ],
+    "complete_boundary_checks": 772,
+    "active_faults": [
+      {
+        "family": "IR",
+        "layout": "uniform",
+        "arm": "full_probe",
+        "rejected": true,
+        "no_retry_io": true
+      },
+      {
+        "family": "IR",
+        "layout": "uniform",
+        "arm": "selective",
+        "rejected": true,
+        "no_retry_io": true
+      },
+      {
+        "family": "IR",
+        "layout": "depth",
+        "arm": "full_probe",
+        "rejected": true,
+        "no_retry_io": true
+      },
+      {
+        "family": "IR",
+        "layout": "depth",
+        "arm": "selective",
+        "rejected": true,
+        "no_retry_io": true
+      },
+      {
+        "family": "AB",
+        "layout": "uniform",
+        "arm": "full_probe",
+        "rejected": true,
+        "no_retry_io": true
+      },
+      {
+        "family": "AB",
+        "layout": "uniform",
+        "arm": "selective",
+        "rejected": true,
+        "no_retry_io": true
+      },
+      {
+        "family": "AB",
+        "layout": "depth",
+        "arm": "full_probe",
+        "rejected": true,
+        "no_retry_io": true
+      },
+      {
+        "family": "AB",
+        "layout": "depth",
+        "arm": "selective",
+        "rejected": true,
+        "no_retry_io": true
+      }
+    ],
+    "source_hashes": {
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\src\\check_minimal_contract.py": "464d115ad065f617fedeba9cdfec1901fd22545e16e82150a68181334d98a695",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\src\\dispatch.py": "e1b9fdf87d9700ec35c30ff45feab77293f55b83d9637bc8add7e09c93247f9c",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\src\\minimal_runtime.py": "a8f07767ed4f5d9609a76ba8ae009966e0b73d997f207991bb0424c24ccf1eb4",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\src\\prepare_matrix.py": "04d9aeca1ab4b805c8ec03818fba325fe876bf73a070241e68ebb48c11973538",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\src\\run_frontend_minimal.py": "db3486ce911ae612440db8c5be2d9313d010e8133ec5580b38814062a1335d94",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\src\\run_minimal.py": "39a81638ddf277953f744f59b4a2f25e0cd582406737ec576bdc4c533b9708b4",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\cached_cost.py": "934888be7780bc1d01ae4687cfa2d1fd5ce7baf1435c46cb3512cff4ffdd7a25",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\cached_transport.py": "25c88f7ca32ab5d394acd019348c32de268ecd2133b560625f3cc9dd370174c3",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\heterogeneous_fusion.py": "23a1c85b20f10aa2c4b28e13228351fac771a811ada2b18062a9d8c45de59380",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\heterogeneous_oram.py": "6d312f8674efc788314f2ab5612a90979b50213ca79f601a777ef00a2dfb8fd5",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496"
+    },
+    "scope": "finite projected-state regression and authentication failure checks, not universal proof or tail certificate"
+  },
+  "replays": [
+    {
+      "id": "MIN_pilot_AB_depth_selective_B64_seed101",
+      "status": "passed",
+      "compared_fields": [
+        "spec",
+        "trace",
+        "source_hashes",
+        "answer_sha256",
+        "bytes_per_request",
+        "rpc_per_request"
+      ],
+      "bytes_per_request": 12240.572916666666,
+      "rpc_per_request": 4.776041666666667,
+      "answer_sha256": "87dfd8546208391d20f8cca0609c019017382a1fb52e935111f7ba329d45b92e",
+      "replayed_receipt_sha256": "65db53712cc210ba973913a52f857f8c7695f552a4a3b12b35aa9f78f1498095"
+    },
+    {
+      "id": "MIN_pilot_free_compressed_sde_B64_seed101",
+      "status": "passed",
+      "compared_fields": [
+        "spec",
+        "trace",
+        "source_hashes",
+        "answer_sha256",
+        "bytes_per_request",
+        "rpc_per_request"
+      ],
+      "bytes_per_request": 10899.5625,
+      "rpc_per_request": 2.671875,
+      "answer_sha256": "011f9aa43869494cb4b110bae5fb7f43205997bb4490dd89808ea6328f8d641f",
+      "replayed_receipt_sha256": "0365e0c521a0b89335d695bfa2817d8a1ead6e3de44427b2d41949824b50d6dc"
+    }
+  ],
+  "scope": "Fresh clean-directory replay of the final archived minimal artifact: all member hashes, contract checker and two pilot cases. Does not rerun the full formal matrix or certify native-system security. Frozen original bundle is unchanged; this receipt supersedes the stale replay binding."
+}

@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "reachable_counterexample": [
+    {
+      "implementation": "transfer_backend",
+      "reachable_stash_replacement_rejected": true
+    },
+    {
+      "implementation": "transfer_backend_fixed",
+      "reachable_stash_replacement_rejected": false
+    }
+  ],
+  "true_duplicate_still_rejected": true,
+  "successful_trace_differential": [
+    {
+      "kind": "path",
+      "rpcs": 127,
+      "exact_transcript": true
+    },
+    {
+      "kind": "deferred",
+      "rpcs": 163,
+      "exact_transcript": true
+    },
+    {
+      "kind": "sde",
+      "rpcs": 163,
+      "exact_transcript": true
+    },
+    {
+      "kind": "ring",
+      "rpcs": 237,
+      "exact_transcript": true
+    },
+    {
+      "kind": "r0",
+      "rpcs": 237,
+      "exact_transcript": true
+    }
+  ],
+  "source_sha256": "6adc12ca99d32a2628f14a1fdac557eda95161fc2851ee11019d4f2b7526bb18"
+}

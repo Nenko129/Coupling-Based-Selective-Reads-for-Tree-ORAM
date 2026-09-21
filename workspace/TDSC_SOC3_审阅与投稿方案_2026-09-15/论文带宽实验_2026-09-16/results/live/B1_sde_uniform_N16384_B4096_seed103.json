@@ -1,0 +1,8 @@
+{
+  "id": "B1_sde_uniform_N16384_B4096_seed103",
+  "pid": 23848,
+  "stage": "passed",
+  "time": 1789511398.5021484,
+  "receipt": "results\\formal_core\\B1_sde_uniform_N16384_B4096_seed103.json",
+  "elapsed_seconds": 458.33216524124146
+}

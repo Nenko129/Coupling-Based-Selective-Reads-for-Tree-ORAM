@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "pdf_sha256": "461ac29d2d91fdb9b25fcd8798a8c7cfa433b6c71e2f3a4c17e157c8f67ff08b",
+  "render_sha256": "a96f524c5fbf19380d7ec7126b305ecdc389204ce57bf47c0397a276efd37d71",
+  "numeric_audit_sha256": "160738050b42202ca230b5287393daddcbd8912396dbe860f87ea51421f93e48",
+  "review": "Final Poppler page inspected: titles, compact/fusion state labels, legends, 16 bars, confidence intervals and scope footnote legible; no clipping or literal escape artifacts.",
+  "method": "model visual inspection of final PDF rendering"
+}

@@ -1,0 +1,85 @@
+{
+  "stage": "complete",
+  "shard": 4,
+  "shards": 8,
+  "completed": 15,
+  "assigned": 15,
+  "rows": [
+    {
+      "index": 4,
+      "id": "MIN_formal_IR_depth_full_probe_B64_seed102",
+      "status": "reused"
+    },
+    {
+      "index": 12,
+      "id": "MIN_formal_IR_depth_base_B64_seed105",
+      "status": "reused"
+    },
+    {
+      "index": 20,
+      "id": "MIN_formal_IR_depth_selective_B4096_seed102",
+      "status": "passed"
+    },
+    {
+      "index": 28,
+      "id": "MIN_formal_IR_depth_full_probe_B4096_seed105",
+      "status": "passed"
+    },
+    {
+      "index": 36,
+      "id": "MIN_formal_IR_uniform_base_B64_seed104",
+      "status": "passed"
+    },
+    {
+      "index": 44,
+      "id": "MIN_formal_AB_depth_full_probe_B64_seed102",
+      "status": "passed"
+    },
+    {
+      "index": 52,
+      "id": "MIN_formal_AB_depth_base_B64_seed105",
+      "status": "passed"
+    },
+    {
+      "index": 60,
+      "id": "MIN_formal_AB_depth_selective_B4096_seed102",
+      "status": "passed"
+    },
+    {
+      "index": 68,
+      "id": "MIN_formal_AB_depth_full_probe_B4096_seed105",
+      "status": "passed"
+    },
+    {
+      "index": 76,
+      "id": "MIN_formal_AB_uniform_base_B64_seed104",
+      "status": "passed"
+    },
+    {
+      "index": 84,
+      "id": "MIN_formal_free_compressed_deferred_B64_seed103",
+      "status": "passed"
+    },
+    {
+      "index": 92,
+      "id": "MIN_formal_free_compressed_deferred_B4096_seed102",
+      "status": "passed"
+    },
+    {
+      "index": 100,
+      "id": "MIN_formal_rho_deferred_B64_seed101",
+      "status": "passed"
+    },
+    {
+      "index": 108,
+      "id": "MIN_formal_rho_deferred_B64_seed105",
+      "status": "passed"
+    },
+    {
+      "index": 116,
+      "id": "MIN_formal_rho_deferred_B4096_seed104",
+      "status": "passed"
+    }
+  ],
+  "time": 1789567480.1454966
+}

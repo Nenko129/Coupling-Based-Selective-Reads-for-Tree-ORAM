@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "packages": [
+    {
+      "manifest": "SOC3_audit_2026-09-15\\BUNDLE_MANIFEST.json",
+      "manifest_sha256": "bf2ab79f810ac931e3a35c412922193220ed273c79830cf3f9a674984a69a166",
+      "files_checked": 238,
+      "unchanged": true
+    },
+    {
+      "manifest": "TDSC_SOC3_审阅与投稿方案_2026-09-15\\MANIFEST.sha256.json",
+      "manifest_sha256": "2349347c47ba0b75b2440c7df00733d4ab4a405205bd38c9806779ea30f95e89",
+      "files_checked": 20,
+      "unchanged": true
+    },
+    {
+      "manifest": "TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\PREPARATION_MANIFEST.sha256.json",
+      "manifest_sha256": "b3d3fde806793835b5e1e1dc113a8c7e12cea53d9acd52f987f54349fcb79e9b",
+      "files_checked": 160,
+      "unchanged": true
+    },
+    {
+      "manifest": "TDSC_SOC3_审阅与投稿方案_2026-09-15\\四框架Selective扩展_2026-09-15\\MANIFEST.sha256.json",
+      "manifest_sha256": "6c9ffa2914ed5a69d55413852d68cb96e468456d9b3e94cfedc0911619d758cc",
+      "files_checked": 9,
+      "unchanged": true
+    },
+    {
+      "manifest": "TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\MANIFEST.sha256.json",
+      "manifest_sha256": "eaba28a3fafee72e843218c8db558daef94c121f855774da198d87fb50131ffa",
+      "files_checked": 46,
+      "unchanged": true
+    },
+    {
+      "manifest": "TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\MANIFEST.sha256.json",
+      "manifest_sha256": "65697546a0d52b39def1308557892cfd38859a06ec8e26bb2df1f8777f0a8899",
+      "files_checked": 24,
+      "unchanged": true
+    },
+    {
+      "manifest": "TDSC_SOC3_审阅与投稿方案_2026-09-15\\IR_AB_深入分析_2026-09-16\\MANIFEST.sha256.json",
+      "manifest_sha256": "874f48e2c4e02b0e9523bc852307543b4a1b65eb470d723dc20e41639280170e",
+      "files_checked": 17,
+      "unchanged": true
+    }
+  ]
+}

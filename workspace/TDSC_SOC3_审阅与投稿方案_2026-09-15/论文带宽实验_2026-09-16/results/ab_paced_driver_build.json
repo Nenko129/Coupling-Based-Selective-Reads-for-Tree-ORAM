@@ -1,0 +1,8 @@
+{
+  "status": "generated",
+  "base_sha256": "70030f4e774f9fd8f265336c8b134f0eca6ec3c41ce657bd88457ed0bff95bec",
+  "output_sha256": "89c176d40e444cf86a4ccb8b31a14304ff23a6e948c55e1a69c85e9953f602b7",
+  "generator_sha256": "1d8125498649d2c03869a2e48957057bdd21f5b47795d1ab701cc50b082d1f94",
+  "controlled_edits": 6,
+  "old_evidence_preserved": true
+}

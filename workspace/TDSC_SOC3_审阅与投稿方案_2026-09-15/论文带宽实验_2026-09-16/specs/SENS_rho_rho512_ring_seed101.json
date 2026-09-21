@@ -1,0 +1,24 @@
+{
+  "id": "SENS_rho_rho512_ring_seed101",
+  "family": "rho",
+  "kind": "ring",
+  "N": 4096,
+  "B": 64,
+  "profile": [
+    4,
+    3,
+    4
+  ],
+  "plb": 8,
+  "llc": 32,
+  "rho": 512,
+  "R": 256,
+  "warmup": 2048,
+  "requests": 4096,
+  "trace_seed": 101,
+  "oram_seed": 1001,
+  "workload": "zipf09",
+  "study": "frontend_sensitivity",
+  "condition": "rho512",
+  "experiment_class": "formal_frontend_sensitivity"
+}

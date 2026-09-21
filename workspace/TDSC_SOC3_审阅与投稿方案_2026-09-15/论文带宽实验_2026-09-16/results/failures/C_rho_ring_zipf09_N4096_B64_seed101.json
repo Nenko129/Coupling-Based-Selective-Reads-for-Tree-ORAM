@@ -1,0 +1,26 @@
+{
+  "spec": {
+    "id": "C_rho_ring_zipf09_N4096_B64_seed101",
+    "family": "rho",
+    "kind": "ring",
+    "N": 4096,
+    "B": 64,
+    "profile": [
+      4,
+      3,
+      4
+    ],
+    "plb": 8,
+    "llc": 32,
+    "rho": 128,
+    "R": 256,
+    "warmup": 2048,
+    "requests": 4096,
+    "trace_seed": 101,
+    "oram_seed": 1001,
+    "workload": "zipf09",
+    "experiment_class": "formal_composition"
+  },
+  "status": "failed",
+  "error": "Traceback (most recent call last):\n  File \"D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_composition.py\", line 63, in main\n    try:run(spec)\n        ^^^^^^^^^\n  File \"D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_composition.py\", line 37, in run\n    execute(part)\n  File \"D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_composition.py\", line 26, in execute\n    answers=front.run(requests) if family=='rho' else [front.access(a,v) for a,v in requests]\n            ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\frontends.py\", line 186, in run\n    previous=self.front.tick(slot,old,admit=admission)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\composition_runtime.py\", line 26, in tick\n    def tick(self,*args,**kwargs):return self.tree.transfer(*args,**kwargs)\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\transfer_backend.py\", line 81, in transfer\n    need(a not in self.stash,'duplicate admission in stash')\n  File \"D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py\", line 28, in need\n    if not ok: raise Reject(message)\n               ^^^^^^^^^^^^^^^^^^^^^\noptimized_oram.Reject: duplicate admission in stash\n"
+}

@@ -1,0 +1,29 @@
+{
+  "family": "free_compressed",
+  "arm": "base",
+  "kind": "deferred",
+  "layout": "host",
+  "N": 128,
+  "B": 64,
+  "profile": [
+    4,
+    3,
+    4
+  ],
+  "R": 256,
+  "compact": false,
+  "fusion": false,
+  "root_retained": true,
+  "plb": 8,
+  "llc": 8,
+  "rho": 16,
+  "warmup": 128,
+  "requests": 256,
+  "trace_seed": 101,
+  "oram_seed": 1001,
+  "workload": "uniform",
+  "suite": "pilot",
+  "driver": "run_frontend_minimal.py",
+  "experiment_class": "selective_minimal_frontend_v1",
+  "id": "MIN_pilot_free_compressed_deferred_B64_seed101"
+}

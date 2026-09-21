@@ -1,0 +1,12 @@
+{
+  "stage": "running",
+  "pid": 22128,
+  "completed": 180,
+  "total": 180,
+  "last": {
+    "id": "CC_AB_depth_ring_N4096_B4096_seed105",
+    "status": "passed",
+    "bytes_per_request": 184278.13671875
+  },
+  "time": 1789522065.152675
+}

@@ -1,0 +1,1771 @@
+{
+  "rows": [
+    {
+      "family": "core",
+      "workload": "hot90",
+      "N": 16384,
+      "B": 4096,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_core",
+      "baseline": "path",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        35.92718431075319,
+        35.95249866864534,
+        35.81311562162831,
+        35.88566896588037,
+        35.848278381178964
+      ],
+      "paired_mean_saving_pct": 35.88534918961724,
+      "ci95": [
+        35.814969550023584,
+        35.95572882921089
+      ],
+      "baseline_mean_bytes": 541272.0,
+      "selective_mean_bytes": 347034.652734375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "core",
+      "workload": "hot90",
+      "N": 16384,
+      "B": 4096,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_core",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.285188943512125,
+        24.315102906309015,
+        24.15039403631717,
+        24.236130283311585,
+        24.19194584993677
+      ],
+      "paired_mean_saving_pct": 24.23575240387733,
+      "ci95": [
+        24.152584822482098,
+        24.318919985272565
+      ],
+      "baseline_mean_bytes": 458045.40234375,
+      "selective_mean_bytes": 347034.652734375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "core",
+      "workload": "hot90",
+      "N": 16384,
+      "B": 4096,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_core",
+      "baseline": "ring",
+      "selective": "gc_ring",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.577902261252536,
+        21.34222549849063,
+        21.262385184416253,
+        21.61507468017835,
+        21.51029419323711
+      ],
+      "paired_mean_saving_pct": 21.461576363514975,
+      "ci95": [
+        21.27185287819234,
+        21.65129984883761
+      ],
+      "baseline_mean_bytes": 418668.196875,
+      "selective_mean_bytes": 328815.284375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "core",
+      "workload": "hot90",
+      "N": 16384,
+      "B": 4096,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_core",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        26.675765166472466,
+        26.459021587151632,
+        26.535761000620216,
+        26.747670990288686,
+        26.749346779871274
+      ],
+      "paired_mean_saving_pct": 26.633513104880855,
+      "ci95": [
+        26.471337498442313,
+        26.795688711319396
+      ],
+      "baseline_mean_bytes": 418668.196875,
+      "selective_mean_bytes": 307162.09609375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "core",
+      "workload": "hot90",
+      "N": 16384,
+      "B": 4096,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_core",
+      "baseline": "gc_ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        6.500543918377144,
+        6.50513712228512,
+        6.6974035580771085,
+        6.5479379984973,
+        6.674827651325909
+      ],
+      "paired_mean_saving_pct": 6.5851700497125165,
+      "ci95": [
+        6.468051572948813,
+        6.70228852647622
+      ],
+      "baseline_mean_bytes": 328815.284375,
+      "selective_mean_bytes": 307162.09609375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "core",
+      "workload": "uniform",
+      "N": 16384,
+      "B": 4096,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_core",
+      "baseline": "path",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        35.78005439328563,
+        35.82186021422685,
+        35.818884728934805,
+        35.785426937611774,
+        35.77625547148661
+      ],
+      "paired_mean_saving_pct": 35.796496349109134,
+      "ci95": [
+        35.769101345808274,
+        35.823891352409994
+      ],
+      "baseline_mean_bytes": 541272.0,
+      "selective_mean_bytes": 347515.58828125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "core",
+      "workload": "uniform",
+      "N": 16384,
+      "B": 4096,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_core",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.11132560097008,
+        24.16072751658088,
+        24.157211387247933,
+        24.11767433364509,
+        24.106836417169784
+      ],
+      "paired_mean_saving_pct": 24.130755051122755,
+      "ci95": [
+        24.09838239079085,
+        24.16312771145466
+      ],
+      "baseline_mean_bytes": 458045.40234375,
+      "selective_mean_bytes": 347515.58828125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "core",
+      "workload": "uniform",
+      "N": 16384,
+      "B": 4096,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_core",
+      "baseline": "ring",
+      "selective": "gc_ring",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.468649079570657,
+        21.28147714142322,
+        21.39837528583226,
+        21.386331865207197,
+        21.525715639029343
+      ],
+      "paired_mean_saving_pct": 21.412109802212534,
+      "ci95": [
+        21.297598678612943,
+        21.526620925812125
+      ],
+      "baseline_mean_bytes": 418371.8,
+      "selective_mean_bytes": 328789.5890625,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "core",
+      "workload": "uniform",
+      "N": 16384,
+      "B": 4096,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_core",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        26.54964415296075,
+        26.542735559471986,
+        26.511866983274647,
+        26.682070416287683,
+        26.389352887937445
+      ],
+      "paired_mean_saving_pct": 26.535133999986503,
+      "ci95": [
+        26.40542300512291,
+        26.664844994850096
+      ],
+      "baseline_mean_bytes": 418371.8,
+      "selective_mean_bytes": 307356.26328125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "core",
+      "workload": "uniform",
+      "N": 16384,
+      "B": 4096,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_core",
+      "baseline": "gc_ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        6.470021225711919,
+        6.68363458432899,
+        6.5055801531296975,
+        6.736409426920886,
+        6.197746546545179
+      ],
+      "paired_mean_saving_pct": 6.518678387327334,
+      "ci95": [
+        6.255169258745033,
+        6.782187515909635
+      ],
+      "baseline_mean_bytes": 328789.5890625,
+      "selective_mean_bytes": 307356.26328125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "hot90",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.861352038200664,
+        21.75263608008099,
+        21.845422800136983,
+        21.831862999481054,
+        21.825729068320555
+      ],
+      "paired_mean_saving_pct": 21.82340059724405,
+      "ci95": [
+        21.771421198668705,
+        21.875379995819394
+      ],
+      "baseline_mean_bytes": 39065.3125,
+      "selective_mean_bytes": 30539.927734375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "hot90",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.480579253588488,
+        24.349288195785178,
+        24.440311118840764,
+        24.4747657050178,
+        24.40760519948
+      ],
+      "paired_mean_saving_pct": 24.430509894542446,
+      "ci95": [
+        24.3634049598962,
+        24.49761482918869
+      ],
+      "baseline_mean_bytes": 57952.89921875,
+      "selective_mean_bytes": 43794.68125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "scan",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.866271391238378,
+        21.95577036558294,
+        21.79349200550763,
+        21.91938067271757,
+        21.833815719223317
+      ],
+      "paired_mean_saving_pct": 21.873746030853965,
+      "ci95": [
+        21.79303424005832,
+        21.954457821649612
+      ],
+      "baseline_mean_bytes": 18071.5234375,
+      "selective_mean_bytes": 14118.604296875,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "scan",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.532537784488017,
+        24.626704249182286,
+        24.53819418746478,
+        24.58743707977812,
+        24.445660500939027
+      ],
+      "paired_mean_saving_pct": 24.546106760370446,
+      "ci95": [
+        24.461572492926674,
+        24.630641027814217
+      ],
+      "baseline_mean_bytes": 26783.5328125,
+      "selective_mean_bytes": 20209.2140625,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.804448807232458,
+        21.869265809536266,
+        21.835991099440676,
+        21.823691956278456,
+        21.871802804641383
+      ],
+      "paired_mean_saving_pct": 21.841040095425846,
+      "ci95": [
+        21.804794947741936,
+        21.877285243109757
+      ],
+      "baseline_mean_bytes": 40951.3125,
+      "selective_mean_bytes": 32007.114453125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.465183129934687,
+        24.53105323652842,
+        24.498572330698444,
+        24.421605878167195,
+        24.53023718594024
+      ],
+      "paired_mean_saving_pct": 24.4893303522538,
+      "ci95": [
+        24.431525341872074,
+        24.547135362635522
+      ],
+      "baseline_mean_bytes": 60771.84765625,
+      "selective_mean_bytes": 45889.190625,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "zipf09",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.821356097560972,
+        21.873094512195124,
+        21.753439024390243,
+        21.80946434146559,
+        21.78578194251475
+      ],
+      "paired_mean_saving_pct": 21.808627183625337,
+      "ci95": [
+        21.753493944620235,
+        21.86376042263044
+      ],
+      "baseline_mean_bytes": 40042.8046875,
+      "selective_mean_bytes": 31310.00390625,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "zipf09",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.402940376216044,
+        24.49110598514296,
+        24.449800115196208,
+        24.454260405274585,
+        24.463836606627996
+      ],
+      "paired_mean_saving_pct": 24.452388697691557,
+      "ci95": [
+        24.412706781518043,
+        24.49207061386507
+      ],
+      "baseline_mean_bytes": 59411.184375,
+      "selective_mean_bytes": 44883.7125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_raw",
+      "workload": "hot90",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.8179080179424,
+        21.83946707649499,
+        21.723346708327828,
+        21.809176151017205,
+        21.85314865957514
+      ],
+      "paired_mean_saving_pct": 21.80860932267151,
+      "ci95": [
+        21.745624841051374,
+        21.87159380429165
+      ],
+      "baseline_mean_bytes": 46356.41796875,
+      "selective_mean_bytes": 36246.708984375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_raw",
+      "workload": "hot90",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.464648137469048,
+        24.471299472806884,
+        24.37665093779503,
+        24.470928943685532,
+        24.447647845493215
+      ],
+      "paired_mean_saving_pct": 24.44623506744994,
+      "ci95": [
+        24.396487089556818,
+        24.495983045343063
+      ],
+      "baseline_mean_bytes": 68777.69453125,
+      "selective_mean_bytes": 51964.109375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_raw",
+      "workload": "scan",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.81948679643676,
+        21.779614779144286,
+        21.80619612400594,
+        21.728350756911098,
+        21.90397749974702
+      ],
+      "paired_mean_saving_pct": 21.80752519124902,
+      "ci95": [
+        21.727788809481304,
+        21.887261573016737
+      ],
+      "baseline_mean_bytes": 18722.01171875,
+      "selective_mean_bytes": 14639.204296875,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_raw",
+      "workload": "scan",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.410424609246217,
+        24.41286251857263,
+        24.595938158475448,
+        24.418081074217824,
+        24.546147167439525
+      ],
+      "paired_mean_saving_pct": 24.47669070559033,
+      "ci95": [
+        24.367479885902682,
+        24.585901525277976
+      ],
+      "baseline_mean_bytes": 27744.71640625,
+      "selective_mean_bytes": 20953.7109375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_raw",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.869604781189867,
+        21.90003408507428,
+        21.815571974253324,
+        21.852634728747123,
+        21.82534854610133
+      ],
+      "paired_mean_saving_pct": 21.852638823073185,
+      "ci95": [
+        21.810290684602425,
+        21.894986961543946
+      ],
+      "baseline_mean_bytes": 48979.828125,
+      "selective_mean_bytes": 38276.415234375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_raw",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.430148183694968,
+        24.50473337787932,
+        24.452048875735322,
+        24.46075515646036,
+        24.502471654993286
+      ],
+      "paired_mean_saving_pct": 24.47003144975265,
+      "ci95": [
+        24.429526321224667,
+        24.510536578280632
+      ],
+      "baseline_mean_bytes": 72656.990625,
+      "selective_mean_bytes": 54877.79453125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_raw",
+      "workload": "zipf09",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.842735650100863,
+        21.94590050138119,
+        21.796106484083587,
+        21.829851670572296,
+        21.782268958758245
+      ],
+      "paired_mean_saving_pct": 21.839372652979236,
+      "ci95": [
+        21.75942517143734,
+        21.919320134521133
+      ],
+      "baseline_mean_bytes": 47829.0625,
+      "selective_mean_bytes": 37383.47109375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_raw",
+      "workload": "zipf09",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.500927772727678,
+        24.562903083408262,
+        24.459590703840938,
+        24.50288363989237,
+        24.478357455365252
+      ],
+      "paired_mean_saving_pct": 24.5009325310469,
+      "ci95": [
+        24.452591532342947,
+        24.549273529750852
+      ],
+      "baseline_mean_bytes": 70963.65,
+      "selective_mean_bytes": 53576.87265625,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "hot90",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        8.468217983984472,
+        8.300448923751713,
+        8.295778237053785,
+        8.274396180463173,
+        8.214533185588447
+      ],
+      "paired_mean_saving_pct": 8.310674902168318,
+      "ci95": [
+        8.193362820097217,
+        8.427986984239418
+      ],
+      "baseline_mean_bytes": 7966.70078125,
+      "selective_mean_bytes": 7304.640234375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "hot90",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        11.781331194599698,
+        11.607271765012793,
+        11.621772419615395,
+        11.645882572202805,
+        11.614518209600554
+      ],
+      "paired_mean_saving_pct": 11.654155232206248,
+      "ci95": [
+        11.564059776941793,
+        11.744250687470704
+      ],
+      "baseline_mean_bytes": 9409.81015625,
+      "selective_mean_bytes": 8313.1921875,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "scan",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        8.31573049864497,
+        8.321513611328902,
+        8.272935464783892,
+        8.287586016916515,
+        8.293754670446042
+      ],
+      "paired_mean_saving_pct": 8.298304052424063,
+      "ci95": [
+        8.273304457099108,
+        8.323303647749018
+      ],
+      "baseline_mean_bytes": 46100.01171875,
+      "selective_mean_bytes": 42274.492578125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "scan",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        11.660695517847442,
+        11.688034988095254,
+        11.607245530437648,
+        11.633901672852588,
+        11.629616563127643
+      ],
+      "paired_mean_saving_pct": 11.643898854472114,
+      "ci95": [
+        11.605239810688024,
+        11.682557898256205
+      ],
+      "baseline_mean_bytes": 54523.2703125,
+      "selective_mean_bytes": 48174.63203125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        8.285233450339714,
+        8.324395405518514,
+        8.318318093173282,
+        8.257375456264116,
+        8.264548502991687
+      ],
+      "paired_mean_saving_pct": 8.289974181657463,
+      "ci95": [
+        8.252109462754118,
+        8.327838900560808
+      ],
+      "baseline_mean_bytes": 44276.2671875,
+      "selective_mean_bytes": 40605.76796875,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        11.625919405799735,
+        11.669291787135883,
+        11.660714368258374,
+        11.648780141016712,
+        11.62940802811847
+      ],
+      "paired_mean_saving_pct": 11.646822746065835,
+      "ci95": [
+        11.623248385703182,
+        11.670397106428489
+      ],
+      "baseline_mean_bytes": 52377.03203125,
+      "selective_mean_bytes": 46276.7734375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "zipf09",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        8.319835243875184,
+        8.290443383196067,
+        8.29233287525386,
+        8.358208265897972,
+        8.219415214858305
+      ],
+      "paired_mean_saving_pct": 8.296046996616278,
+      "ci95": [
+        8.232894223606612,
+        8.359199769625944
+      ],
+      "baseline_mean_bytes": 28868.415625,
+      "selective_mean_bytes": 26473.2671875,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "zipf09",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        11.655786546963586,
+        11.661320686493838,
+        11.625088995422061,
+        11.653256773225518,
+        11.594870601830554
+      ],
+      "paired_mean_saving_pct": 11.638064720787112,
+      "ci95": [
+        11.60338802800396,
+        11.672741413570263
+      ],
+      "baseline_mean_bytes": 34130.853125,
+      "selective_mean_bytes": 30158.61640625,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "AB",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 4096,
+      "profile": [
+        7,
+        6,
+        6
+      ],
+      "layout": "depth",
+      "cached_levels": 5,
+      "R": 256,
+      "source_folder": "formal_cached_components",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        25.756510947534352,
+        25.720934675957498,
+        26.124017727560023,
+        26.13325495473188,
+        26.000856848459144
+      ],
+      "paired_mean_saving_pct": 25.94711503084858,
+      "ci95": [
+        25.70165601526642,
+        26.19257404643074
+      ],
+      "baseline_mean_bytes": 184194.909375,
+      "selective_mean_bytes": 136401.11171875,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "AB",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        7,
+        6,
+        6
+      ],
+      "layout": "depth",
+      "cached_levels": 5,
+      "R": 256,
+      "source_folder": "formal_cached_components",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        25.652954257699744,
+        26.0926588594109,
+        25.726435559140093,
+        25.27460796923663,
+        26.105459582239522
+      ],
+      "paired_mean_saving_pct": 25.770423245545377,
+      "ci95": [
+        25.34135161049055,
+        26.199494880600206
+      ],
+      "baseline_mean_bytes": 15695.6796875,
+      "selective_mean_bytes": 11650.73515625,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "AB",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 4096,
+      "profile": [
+        7,
+        6,
+        6
+      ],
+      "layout": "uniform",
+      "cached_levels": 5,
+      "R": 256,
+      "source_folder": "formal_cached_components",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        23.86543192714243,
+        23.940400375609972,
+        24.21467492328967,
+        24.292114023868837,
+        23.58737625130656
+      ],
+      "paired_mean_saving_pct": 23.979999500243494,
+      "ci95": [
+        23.628072151228785,
+        24.331926849258203
+      ],
+      "baseline_mean_bytes": 171895.65703125,
+      "selective_mean_bytes": 130674.75234375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "AB",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        7,
+        6,
+        6
+      ],
+      "layout": "uniform",
+      "cached_levels": 5,
+      "R": 256,
+      "source_folder": "formal_cached_components",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        25.043864521401172,
+        24.56460079087104,
+        25.00012054525027,
+        25.020398504473217,
+        24.522211525307192
+      ],
+      "paired_mean_saving_pct": 24.830239177460577,
+      "ci95": [
+        24.50402115990666,
+        25.156457195014493
+      ],
+      "baseline_mean_bytes": 15388.86015625,
+      "selective_mean_bytes": 11567.740625,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "IR",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 4096,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": "depth",
+      "cached_levels": 6,
+      "R": 480,
+      "source_folder": "formal_cached_admitted",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.628913971911047,
+        21.549086873845415,
+        21.51690409317758,
+        21.419441094201396,
+        21.52738978643636
+      ],
+      "paired_mean_saving_pct": 21.528347163914358,
+      "ci95": [
+        21.435147457893237,
+        21.62154686993548
+      ],
+      "baseline_mean_bytes": 142642.2734375,
+      "selective_mean_bytes": 111933.749609375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "IR",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": "depth",
+      "cached_levels": 6,
+      "R": 480,
+      "source_folder": "formal_cached_admitted",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        19.359845972001278,
+        19.350027586115527,
+        19.22099270269171,
+        18.95222917579501,
+        19.341368479527134
+      ],
+      "paired_mean_saving_pct": 19.24489278322613,
+      "ci95": [
+        19.030011067355307,
+        19.459774499096955
+      ],
+      "baseline_mean_bytes": 8255.3984375,
+      "selective_mean_bytes": 6666.655859375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "IR",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 4096,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": "uniform",
+      "cached_levels": 6,
+      "R": 480,
+      "source_folder": "formal_cached_admitted",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        22.886514023867054,
+        22.95519854212712,
+        23.102974323838154,
+        22.71168070465963,
+        22.869863231561595
+      ],
+      "paired_mean_saving_pct": 22.905246165210713,
+      "ci95": [
+        22.728923213151397,
+        23.08156911727003
+      ],
+      "baseline_mean_bytes": 197719.5703125,
+      "selective_mean_bytes": 152431.416015625,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "IR",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "layout": "uniform",
+      "cached_levels": 6,
+      "R": 480,
+      "source_folder": "formal_cached_admitted",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        20.31394145240898,
+        20.373322664291415,
+        20.26012722914051,
+        20.187756377158784,
+        20.124663839533696
+      ],
+      "paired_mean_saving_pct": 20.251962312506677,
+      "ci95": [
+        20.129414859611902,
+        20.374509765401452
+      ],
+      "baseline_mean_bytes": 9577.9453125,
+      "selective_mean_bytes": 7638.2234375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    }
+  ],
+  "method": "mean of per-run paired savings; two-sided Student t at run level",
+  "no_instruction_to_drop_negative_results": true,
+  "complete_experiment_chapter": false
+}

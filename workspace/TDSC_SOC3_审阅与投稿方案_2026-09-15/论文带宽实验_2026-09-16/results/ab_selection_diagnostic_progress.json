@@ -1,0 +1,95 @@
+{
+  "policy": "dummy_first",
+  "spec": {
+    "N": 4096,
+    "B": 64,
+    "L": 11,
+    "X": 16,
+    "plb": 8,
+    "cached_levels": 6,
+    "R": 500,
+    "Y": 4,
+    "seed": 5101,
+    "profile": [
+      5,
+      5,
+      7
+    ],
+    "high": 48,
+    "low": 32,
+    "llc_sets": 8,
+    "llc_ways": 2,
+    "Q": 4096,
+    "gap": 8,
+    "W": 65536,
+    "bottom_dummy": 0,
+    "kind": "ring",
+    "policy": "dummy_first"
+  },
+  "snapshots": [
+    {
+      "clock": 8192,
+      "completed": 1024,
+      "queued": 0,
+      "stash": 1,
+      "background_slots": 0,
+      "draining": false
+    },
+    {
+      "clock": 16384,
+      "completed": 2048,
+      "queued": 0,
+      "stash": 3,
+      "background_slots": 0,
+      "draining": false
+    },
+    {
+      "clock": 24576,
+      "completed": 3072,
+      "queued": 0,
+      "stash": 1,
+      "background_slots": 0,
+      "draining": false
+    },
+    {
+      "clock": 32768,
+      "completed": 4096,
+      "queued": 0,
+      "stash": 2,
+      "background_slots": 0,
+      "draining": false
+    },
+    {
+      "clock": 40960,
+      "completed": 4096,
+      "queued": 0,
+      "stash": 0,
+      "background_slots": 0,
+      "draining": false
+    },
+    {
+      "clock": 49152,
+      "completed": 4096,
+      "queued": 0,
+      "stash": 1,
+      "background_slots": 0,
+      "draining": false
+    },
+    {
+      "clock": 57344,
+      "completed": 4096,
+      "queued": 0,
+      "stash": 0,
+      "background_slots": 0,
+      "draining": false
+    },
+    {
+      "clock": 65536,
+      "completed": 4096,
+      "queued": 0,
+      "stash": 0,
+      "background_slots": 0,
+      "draining": false
+    }
+  ]
+}

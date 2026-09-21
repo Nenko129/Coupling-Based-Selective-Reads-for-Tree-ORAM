@@ -1,0 +1,1779 @@
+{
+  "status": "complete_conditional_batch_audited",
+  "completed": 60,
+  "expected": 60,
+  "missing": [],
+  "failures": [],
+  "receipts": [
+    {
+      "id": "ABDF_uniform_ring_uniform_seed101",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_ring_uniform_seed101.json",
+      "sha256": "14665aafdf78b3218cb6ce4e7dadf026a74a5a958d1710c6829cb9979bbab343"
+    },
+    {
+      "id": "ABDF_uniform_gc_ring_uniform_seed101",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_gc_ring_uniform_seed101.json",
+      "sha256": "dde5db1c336f59a1a44d0455accb934820f3fb807e223e87405a1ec318f38073"
+    },
+    {
+      "id": "ABDF_uniform_r0_uniform_seed101",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_r0_uniform_seed101.json",
+      "sha256": "408a1b94fc7519ec617e1ce2382a7f0d7bab832a921f6e6891c941ba197d758f"
+    },
+    {
+      "id": "ABDF_bottom_d0_ring_uniform_seed101",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_ring_uniform_seed101.json",
+      "sha256": "88d75dd0e1ab425527d1931c7ce959880b9dfd6b3e5b017849d30673ea467693"
+    },
+    {
+      "id": "ABDF_bottom_d0_gc_ring_uniform_seed101",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_gc_ring_uniform_seed101.json",
+      "sha256": "2c0417371d72775611ea8e0b3c2d190fc3abfc7acd92031034ffa08f2c727372"
+    },
+    {
+      "id": "ABDF_bottom_d0_r0_uniform_seed101",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_r0_uniform_seed101.json",
+      "sha256": "849b2911a23ea7da9d7ef25bc23b581fb65236cf6b655b832e15742ce374cb16"
+    },
+    {
+      "id": "ABDF_uniform_ring_hot90_seed101",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_ring_hot90_seed101.json",
+      "sha256": "532600496c6ae4381f368cbeed7963067685c6f84f60c2a4090726ccaf8219da"
+    },
+    {
+      "id": "ABDF_uniform_gc_ring_hot90_seed101",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_gc_ring_hot90_seed101.json",
+      "sha256": "b23709520d68e7613d36644bd52ef18389b79a16673e658a39a58e322ecd2901"
+    },
+    {
+      "id": "ABDF_uniform_r0_hot90_seed101",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_r0_hot90_seed101.json",
+      "sha256": "1deaa9d8bf1a662e1467c35b0fd50d0d28e0c1c164392a08f9495b92205c31dd"
+    },
+    {
+      "id": "ABDF_bottom_d0_ring_hot90_seed101",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_ring_hot90_seed101.json",
+      "sha256": "433c19c4ac7cbe75e4852d5c708e266820795ade1f0ee73d3d217515d166e7a2"
+    },
+    {
+      "id": "ABDF_bottom_d0_gc_ring_hot90_seed101",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_gc_ring_hot90_seed101.json",
+      "sha256": "2db5cec1c0e51021f9911a3ffa8684d0ca7fc51a638274e98213cf8df2f28e1d"
+    },
+    {
+      "id": "ABDF_bottom_d0_r0_hot90_seed101",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_r0_hot90_seed101.json",
+      "sha256": "28354bfb5709fa043b81724e81b8e78b3c824f7c65f666e4835022711118b746"
+    },
+    {
+      "id": "ABDF_uniform_ring_uniform_seed102",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_ring_uniform_seed102.json",
+      "sha256": "da18da76413742190cd87ef57daf2e6a6ed0263067550643abe6f971b6c018eb"
+    },
+    {
+      "id": "ABDF_uniform_gc_ring_uniform_seed102",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_gc_ring_uniform_seed102.json",
+      "sha256": "b337f98343f63b8cff9288acb095fefe9bddee1ab6715d2e4eb088a27a3198df"
+    },
+    {
+      "id": "ABDF_uniform_r0_uniform_seed102",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_r0_uniform_seed102.json",
+      "sha256": "a4b6a4cfa4c074a87594e80315b75357e8ce3f89f7d7708e37fc413f8b23e7fb"
+    },
+    {
+      "id": "ABDF_bottom_d0_ring_uniform_seed102",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_ring_uniform_seed102.json",
+      "sha256": "b3aef928aa2f4a59ee528575929681db2e702c38040c0530d55c27aea3c9f6e3"
+    },
+    {
+      "id": "ABDF_bottom_d0_gc_ring_uniform_seed102",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_gc_ring_uniform_seed102.json",
+      "sha256": "41e5e767cf921c9d844f8685f81ed338b2f4f4f897fc323d066e04a56baa510b"
+    },
+    {
+      "id": "ABDF_bottom_d0_r0_uniform_seed102",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_r0_uniform_seed102.json",
+      "sha256": "359c5c9270413676d0d2996f8ebe350c9958c871be1c435104dbb0cb5c8f7a4a"
+    },
+    {
+      "id": "ABDF_uniform_ring_hot90_seed102",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_ring_hot90_seed102.json",
+      "sha256": "25a858da9ed84cb910fe910dabdb7b6bd2abbfa04834527044ec53a368c61dc5"
+    },
+    {
+      "id": "ABDF_uniform_gc_ring_hot90_seed102",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_gc_ring_hot90_seed102.json",
+      "sha256": "cff42329e077cb44de9efb2a8c230ce8a549825258c1cf08b4d2142cda6fec8f"
+    },
+    {
+      "id": "ABDF_uniform_r0_hot90_seed102",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_r0_hot90_seed102.json",
+      "sha256": "796dea6d51b66e24a00ad0842be5e7e0edec0e5f83adf9ed363d36454b67b1a6"
+    },
+    {
+      "id": "ABDF_bottom_d0_ring_hot90_seed102",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_ring_hot90_seed102.json",
+      "sha256": "53e4b15104f445f5b2c0a4b73ea6218e2aadef3fad020502cccf0db4920e16b1"
+    },
+    {
+      "id": "ABDF_bottom_d0_gc_ring_hot90_seed102",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_gc_ring_hot90_seed102.json",
+      "sha256": "12c31639b18d862d8958078be0b9d45c6ccc9effb8789d9429ecf6f975c4a83e"
+    },
+    {
+      "id": "ABDF_bottom_d0_r0_hot90_seed102",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_r0_hot90_seed102.json",
+      "sha256": "4e77ab5f21b28eb64f1a231d588151a5e651935aca2683f4053d323b32a46e21"
+    },
+    {
+      "id": "ABDF_uniform_ring_uniform_seed103",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_ring_uniform_seed103.json",
+      "sha256": "1163ad86f276efc1187e18510ea1e98edb730b1eee2010944d6f4bd429e8fc82"
+    },
+    {
+      "id": "ABDF_uniform_gc_ring_uniform_seed103",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_gc_ring_uniform_seed103.json",
+      "sha256": "7474d397ceb870247a05dc4b30903571010e7dbe27684520c259617851d5cff3"
+    },
+    {
+      "id": "ABDF_uniform_r0_uniform_seed103",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_r0_uniform_seed103.json",
+      "sha256": "53e4ed7ad09766a5067fb6536f637d36be64f3619a008060e90866b1a1b22279"
+    },
+    {
+      "id": "ABDF_bottom_d0_ring_uniform_seed103",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_ring_uniform_seed103.json",
+      "sha256": "b32b5bbfbd942605e6e95eb49e3690906ba2be14988bb43d10b5d2d9749ee672"
+    },
+    {
+      "id": "ABDF_bottom_d0_gc_ring_uniform_seed103",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_gc_ring_uniform_seed103.json",
+      "sha256": "1b657f021fb7abcb311ba0685993e78bb89da0b1d92c3a54ccbd8244630a1945"
+    },
+    {
+      "id": "ABDF_bottom_d0_r0_uniform_seed103",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_r0_uniform_seed103.json",
+      "sha256": "2301dd787494db074a404dc466a745e57fbd310067c30f98908fb414bdc5c3c7"
+    },
+    {
+      "id": "ABDF_uniform_ring_hot90_seed103",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_ring_hot90_seed103.json",
+      "sha256": "370fb7512d93683d3f61af5e645870082af8e21e28bd4d03fa7d76a4a8f78e2c"
+    },
+    {
+      "id": "ABDF_uniform_gc_ring_hot90_seed103",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_gc_ring_hot90_seed103.json",
+      "sha256": "07a07fe269376cda13fa38779e71bbc55a3527bf3f88c2f6c2ddd276c7921cf7"
+    },
+    {
+      "id": "ABDF_uniform_r0_hot90_seed103",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_r0_hot90_seed103.json",
+      "sha256": "5b3a5c55bc35b20c45c9ed36f2aff4aef74f4069a30b8d8a5b8d9b6d3dd727c5"
+    },
+    {
+      "id": "ABDF_bottom_d0_ring_hot90_seed103",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_ring_hot90_seed103.json",
+      "sha256": "86e38987b1e26b5d8d6ff0eb007552d5de6800805e163ce6b77ac3d088dd14a1"
+    },
+    {
+      "id": "ABDF_bottom_d0_gc_ring_hot90_seed103",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_gc_ring_hot90_seed103.json",
+      "sha256": "02ae1b10e3d77fa4ae11783b76a2acf3a58eba78e957d3f1a29834d833b121d6"
+    },
+    {
+      "id": "ABDF_bottom_d0_r0_hot90_seed103",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_r0_hot90_seed103.json",
+      "sha256": "f33e206a5d947c72ca544790691872761c76f1df74a5a6e2effc7d8381ca449d"
+    },
+    {
+      "id": "ABDF_uniform_ring_uniform_seed104",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_ring_uniform_seed104.json",
+      "sha256": "c6bb225207c3a5626f4b6f305de87564a434c64f43bf63ca5c786ae7ce0b21a2"
+    },
+    {
+      "id": "ABDF_uniform_gc_ring_uniform_seed104",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_gc_ring_uniform_seed104.json",
+      "sha256": "6f5273ce73061df913d6054492f8021969a5bc6040acd350f637ac6f5b97e5de"
+    },
+    {
+      "id": "ABDF_uniform_r0_uniform_seed104",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_r0_uniform_seed104.json",
+      "sha256": "797fc93270abfd65ea61674e5bbdbc25af2284e4782acf502d6ba4ed73ffc45e"
+    },
+    {
+      "id": "ABDF_bottom_d0_ring_uniform_seed104",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_ring_uniform_seed104.json",
+      "sha256": "4be3f3c7ddf32ef18d186f1e55aadf6918405d77283631bc4bd66472f3864ca5"
+    },
+    {
+      "id": "ABDF_bottom_d0_gc_ring_uniform_seed104",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_gc_ring_uniform_seed104.json",
+      "sha256": "1c19a53dfa11e6512c81709cde5f9b666cb552384c9758f5ba596188d5ea54d4"
+    },
+    {
+      "id": "ABDF_bottom_d0_r0_uniform_seed104",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_r0_uniform_seed104.json",
+      "sha256": "a1734e59b77bc02baa0572e8f47675b7a8de7714915da765436eb97478a8d915"
+    },
+    {
+      "id": "ABDF_uniform_ring_hot90_seed104",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_ring_hot90_seed104.json",
+      "sha256": "eca86aac937f0fba8c9ead9f1608d75a21988f7f46b0f262cbd6a9e1ee7390f9"
+    },
+    {
+      "id": "ABDF_uniform_gc_ring_hot90_seed104",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_gc_ring_hot90_seed104.json",
+      "sha256": "2982485212d2f63b50d249f2a11f916370a186c51ff25557d9b8cbe9aeca71b6"
+    },
+    {
+      "id": "ABDF_uniform_r0_hot90_seed104",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_r0_hot90_seed104.json",
+      "sha256": "be411460f911e4b6409879f04abec11d7814d00a9c2b6b3dd12fe31488834953"
+    },
+    {
+      "id": "ABDF_bottom_d0_ring_hot90_seed104",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_ring_hot90_seed104.json",
+      "sha256": "cf269f65ed7c444a4bf63098a3f4017bcc149e5b1b5479a5bb719ee16934bfff"
+    },
+    {
+      "id": "ABDF_bottom_d0_gc_ring_hot90_seed104",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_gc_ring_hot90_seed104.json",
+      "sha256": "076ba1c4f6426cba20dc338bd149eda312b1041a313779dd0458341217495afd"
+    },
+    {
+      "id": "ABDF_bottom_d0_r0_hot90_seed104",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_r0_hot90_seed104.json",
+      "sha256": "7aa594d46b60f8e8390ad61905539e091cfdd1099a03b20b99d341fb64027fb6"
+    },
+    {
+      "id": "ABDF_uniform_ring_uniform_seed105",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_ring_uniform_seed105.json",
+      "sha256": "0db80f08197a441fad390efde6390f26ee98c6f619b8ac7e9062f8096f196f2b"
+    },
+    {
+      "id": "ABDF_uniform_gc_ring_uniform_seed105",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_gc_ring_uniform_seed105.json",
+      "sha256": "068b5a46cc0051aba6f57fc342972f3ff75807f66c1379fd73d0c7a28458d06d"
+    },
+    {
+      "id": "ABDF_uniform_r0_uniform_seed105",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_r0_uniform_seed105.json",
+      "sha256": "852c5bddbdf8c24011d45ed2fd71edff09572da647de7c6ab945456b8cb44261"
+    },
+    {
+      "id": "ABDF_bottom_d0_ring_uniform_seed105",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_ring_uniform_seed105.json",
+      "sha256": "ab11ae4b8ed14ce613dd5b0d1a165ff2360c70de2fc64dc94502b03f38ea49bb"
+    },
+    {
+      "id": "ABDF_bottom_d0_gc_ring_uniform_seed105",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_gc_ring_uniform_seed105.json",
+      "sha256": "c8babdba157df81b6745e4810676e01664563a6276103eb44743bb70574d79f3"
+    },
+    {
+      "id": "ABDF_bottom_d0_r0_uniform_seed105",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_r0_uniform_seed105.json",
+      "sha256": "a7dc1066cb84076c19db51ed06e1f87b476b5494bde2310d1136d3ec8ce1f1f9"
+    },
+    {
+      "id": "ABDF_uniform_ring_hot90_seed105",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_ring_hot90_seed105.json",
+      "sha256": "b6baf11ea7adb5fa1f79bb7b8b346caa957a9b67bf753e67e102edee39da3772"
+    },
+    {
+      "id": "ABDF_uniform_gc_ring_hot90_seed105",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_gc_ring_hot90_seed105.json",
+      "sha256": "c0ad8745f60c765cfeafc59dd12c1280277911358bd1862b873428f025958512"
+    },
+    {
+      "id": "ABDF_uniform_r0_hot90_seed105",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_uniform_r0_hot90_seed105.json",
+      "sha256": "893f9fa124d4051cd6cde8ef6a53176a1ed7fb9c77cae97b4b3be027dc69b25d"
+    },
+    {
+      "id": "ABDF_bottom_d0_ring_hot90_seed105",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_ring_hot90_seed105.json",
+      "sha256": "e1fd1400698ffb89f652ee6a7995b2b504ffb4f950dd80c942f2c4cd75525bcb"
+    },
+    {
+      "id": "ABDF_bottom_d0_gc_ring_hot90_seed105",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_gc_ring_hot90_seed105.json",
+      "sha256": "05b181991ab79e8626dd6dddc84c525492977e784ee79db572382755f7a0b3ba"
+    },
+    {
+      "id": "ABDF_bottom_d0_r0_hot90_seed105",
+      "path": "results\\ab_dummy_first_periodic\\ABDF_bottom_d0_r0_hot90_seed105.json",
+      "sha256": "cd32384eb30cdcf73046d7a0cef26ac1aa6449fd40b0074ae953c80fcd2eed8f"
+    }
+  ],
+  "effects": [
+    {
+      "axis": "backend",
+      "condition": null,
+      "workload": "uniform",
+      "before": "ring",
+      "after": "gc_ring",
+      "effect": {
+        "n": 5,
+        "mean": 20.25470186174919,
+        "ci95": [
+          20.227508777353265,
+          20.281894946145115
+        ],
+        "per_seed": [
+          20.27272213403438,
+          20.241786463248935,
+          20.283740972793662,
+          20.23699066911837,
+          20.238269069550597
+        ]
+      },
+      "baseline_mean_bytes": 167473.6225,
+      "variant_mean_bytes": 133552.3425,
+      "run_cost_cv": [
+        0.00026725716284371856,
+        0.00044915151295697075
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed101",
+          "variant_id": "ABDF_uniform_gc_ring_uniform_seed101",
+          "baseline_bytes": 167512.53125,
+          "variant_bytes": 133553.18125,
+          "saving_pct": 20.27272213403438,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed102",
+          "variant_id": "ABDF_uniform_gc_ring_uniform_seed102",
+          "baseline_bytes": 167508.34375,
+          "variant_bytes": 133601.6625,
+          "saving_pct": 20.241786463248935,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed103",
+          "variant_id": "ABDF_uniform_gc_ring_uniform_seed103",
+          "baseline_bytes": 167409.73125,
+          "variant_bytes": 133452.775,
+          "saving_pct": 20.283740972793662,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed104",
+          "variant_id": "ABDF_uniform_gc_ring_uniform_seed104",
+          "baseline_bytes": 167492.88125,
+          "variant_bytes": 133597.3625,
+          "saving_pct": 20.23699066911837,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed105",
+          "variant_id": "ABDF_uniform_gc_ring_uniform_seed105",
+          "baseline_bytes": 167444.625,
+          "variant_bytes": 133556.73125,
+          "saving_pct": 20.238269069550597,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "backend",
+      "condition": null,
+      "workload": "uniform",
+      "before": "ring",
+      "after": "r0",
+      "effect": {
+        "n": 5,
+        "mean": 20.25540341956382,
+        "ci95": [
+          20.228079925414388,
+          20.28272691371325
+        ],
+        "per_seed": [
+          20.274393650773515,
+          20.243159529180176,
+          20.283726039372652,
+          20.23570703247425,
+          20.2400308460185
+        ]
+      },
+      "baseline_mean_bytes": 167473.6225,
+      "variant_mean_bytes": 133551.1675,
+      "run_cost_cv": [
+        0.00026725716284371856,
+        0.0004483855203926946
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed101",
+          "variant_id": "ABDF_uniform_r0_uniform_seed101",
+          "baseline_bytes": 167512.53125,
+          "variant_bytes": 133550.38125,
+          "saving_pct": 20.274393650773515,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed102",
+          "variant_id": "ABDF_uniform_r0_uniform_seed102",
+          "baseline_bytes": 167508.34375,
+          "variant_bytes": 133599.3625,
+          "saving_pct": 20.243159529180176,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed103",
+          "variant_id": "ABDF_uniform_r0_uniform_seed103",
+          "baseline_bytes": 167409.73125,
+          "variant_bytes": 133452.8,
+          "saving_pct": 20.283726039372652,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed104",
+          "variant_id": "ABDF_uniform_r0_uniform_seed104",
+          "baseline_bytes": 167492.88125,
+          "variant_bytes": 133599.5125,
+          "saving_pct": 20.23570703247425,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed105",
+          "variant_id": "ABDF_uniform_r0_uniform_seed105",
+          "baseline_bytes": 167444.625,
+          "variant_bytes": 133553.78125,
+          "saving_pct": 20.2400308460185,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "backend",
+      "condition": null,
+      "workload": "uniform",
+      "before": "gc_ring",
+      "after": "r0",
+      "effect": {
+        "n": 5,
+        "mean": 0.0008797662648074578,
+        "ci95": [
+          -0.0011753909320246052,
+          0.0029349234616395208
+        ],
+        "per_seed": [
+          0.0020965430952535336,
+          0.001721535463694579,
+          -1.8733218554167763e-05,
+          -0.0016093132078287553,
+          0.0022087991914720995
+        ]
+      },
+      "baseline_mean_bytes": 133552.3425,
+      "variant_mean_bytes": 133551.1675,
+      "run_cost_cv": [
+        0.00044915151295697075,
+        0.0004483855203926946
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_uniform_gc_ring_uniform_seed101",
+          "variant_id": "ABDF_uniform_r0_uniform_seed101",
+          "baseline_bytes": 133553.18125,
+          "variant_bytes": 133550.38125,
+          "saving_pct": 0.0020965430952535336,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_uniform_gc_ring_uniform_seed102",
+          "variant_id": "ABDF_uniform_r0_uniform_seed102",
+          "baseline_bytes": 133601.6625,
+          "variant_bytes": 133599.3625,
+          "saving_pct": 0.001721535463694579,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_uniform_gc_ring_uniform_seed103",
+          "variant_id": "ABDF_uniform_r0_uniform_seed103",
+          "baseline_bytes": 133452.775,
+          "variant_bytes": 133452.8,
+          "saving_pct": -1.8733218554167763e-05,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_uniform_gc_ring_uniform_seed104",
+          "variant_id": "ABDF_uniform_r0_uniform_seed104",
+          "baseline_bytes": 133597.3625,
+          "variant_bytes": 133599.5125,
+          "saving_pct": -0.0016093132078287553,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_uniform_gc_ring_uniform_seed105",
+          "variant_id": "ABDF_uniform_r0_uniform_seed105",
+          "baseline_bytes": 133556.73125,
+          "variant_bytes": 133553.78125,
+          "saving_pct": 0.0022087991914720995,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "layout",
+      "condition": "ring",
+      "workload": "uniform",
+      "before": null,
+      "after": 0,
+      "effect": {
+        "n": 5,
+        "mean": 1.6925015671611843,
+        "ci95": [
+          1.6673302531059162,
+          1.7176728812164523
+        ],
+        "per_seed": [
+          1.6959141676154421,
+          1.7061724723787197,
+          1.6659687159016445,
+          1.7158900895079099,
+          1.6785623904022051
+        ]
+      },
+      "baseline_mean_bytes": 167473.6225,
+      "variant_mean_bytes": 164639.1225,
+      "run_cost_cv": [
+        0.00026725716284371856,
+        0.0001344265399508783
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed101",
+          "variant_id": "ABDF_bottom_d0_ring_uniform_seed101",
+          "baseline_bytes": 167512.53125,
+          "variant_bytes": 164671.6625,
+          "saving_pct": 1.6959141676154421,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed102",
+          "variant_id": "ABDF_bottom_d0_ring_uniform_seed102",
+          "baseline_bytes": 167508.34375,
+          "variant_bytes": 164650.3625,
+          "saving_pct": 1.7061724723787197,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed103",
+          "variant_id": "ABDF_bottom_d0_ring_uniform_seed103",
+          "baseline_bytes": 167409.73125,
+          "variant_bytes": 164620.7375,
+          "saving_pct": 1.6659687159016445,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed104",
+          "variant_id": "ABDF_bottom_d0_ring_uniform_seed104",
+          "baseline_bytes": 167492.88125,
+          "variant_bytes": 164618.8875,
+          "saving_pct": 1.7158900895079099,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_uniform_ring_uniform_seed105",
+          "variant_id": "ABDF_bottom_d0_ring_uniform_seed105",
+          "baseline_bytes": 167444.625,
+          "variant_bytes": 164633.9625,
+          "saving_pct": 1.6785623904022051,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "layout",
+      "condition": "gc_ring",
+      "workload": "uniform",
+      "before": null,
+      "after": 0,
+      "effect": {
+        "n": 5,
+        "mean": 3.81454180363592,
+        "ci95": [
+          3.7917478151332302,
+          3.83733579213861
+        ],
+        "per_seed": [
+          3.811543425889008,
+          3.8372464115107863,
+          3.7944883499050452,
+          3.8002013325674655,
+          3.829229498307296
+        ]
+      },
+      "baseline_mean_bytes": 133552.3425,
+      "variant_mean_bytes": 128457.9275,
+      "run_cost_cv": [
+        0.00044915151295697075,
+        0.0003736668036561687
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_uniform_gc_ring_uniform_seed101",
+          "variant_id": "ABDF_bottom_d0_gc_ring_uniform_seed101",
+          "baseline_bytes": 133553.18125,
+          "variant_bytes": 128462.74375,
+          "saving_pct": 3.811543425889008,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_uniform_gc_ring_uniform_seed102",
+          "variant_id": "ABDF_bottom_d0_gc_ring_uniform_seed102",
+          "baseline_bytes": 133601.6625,
+          "variant_bytes": 128475.0375,
+          "saving_pct": 3.8372464115107863,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_uniform_gc_ring_uniform_seed103",
+          "variant_id": "ABDF_bottom_d0_gc_ring_uniform_seed103",
+          "baseline_bytes": 133452.775,
+          "variant_bytes": 128388.925,
+          "saving_pct": 3.7944883499050452,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_uniform_gc_ring_uniform_seed104",
+          "variant_id": "ABDF_bottom_d0_gc_ring_uniform_seed104",
+          "baseline_bytes": 133597.3625,
+          "variant_bytes": 128520.39375,
+          "saving_pct": 3.8002013325674655,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_uniform_gc_ring_uniform_seed105",
+          "variant_id": "ABDF_bottom_d0_gc_ring_uniform_seed105",
+          "baseline_bytes": 133556.73125,
+          "variant_bytes": 128442.5375,
+          "saving_pct": 3.829229498307296,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "layout",
+      "condition": "r0",
+      "workload": "uniform",
+      "before": null,
+      "after": 0,
+      "effect": {
+        "n": 5,
+        "mean": 3.8156609550032994,
+        "ci95": [
+          3.7921237500826424,
+          3.8391981599239564
+        ],
+        "per_seed": [
+          3.8106686423255764,
+          3.843113398089748,
+          3.796229828074038,
+          3.8023856935855305,
+          3.825907212941604
+        ]
+      },
+      "baseline_mean_bytes": 133551.1675,
+      "variant_mean_bytes": 128455.3025,
+      "run_cost_cv": [
+        0.0004483855203926946,
+        0.00037125042729820425
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_uniform_r0_uniform_seed101",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed101",
+          "baseline_bytes": 133550.38125,
+          "variant_bytes": 128461.21875,
+          "saving_pct": 3.8106686423255764,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_uniform_r0_uniform_seed102",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed102",
+          "baseline_bytes": 133599.3625,
+          "variant_bytes": 128464.9875,
+          "saving_pct": 3.843113398089748,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_uniform_r0_uniform_seed103",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed103",
+          "baseline_bytes": 133452.8,
+          "variant_bytes": 128386.625,
+          "saving_pct": 3.796229828074038,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_uniform_r0_uniform_seed104",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed104",
+          "baseline_bytes": 133599.5125,
+          "variant_bytes": 128519.54375,
+          "saving_pct": 3.8023856935855305,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_uniform_r0_uniform_seed105",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed105",
+          "baseline_bytes": 133553.78125,
+          "variant_bytes": 128444.1375,
+          "saving_pct": 3.825907212941604,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "backend",
+      "condition": 0,
+      "workload": "uniform",
+      "before": "ring",
+      "after": "gc_ring",
+      "effect": {
+        "n": 5,
+        "mean": 21.976060804796447,
+        "ci95": [
+          21.938854829865768,
+          22.013266779727125
+        ],
+        "per_seed": [
+          21.988554800677996,
+          21.970996267925003,
+          22.00926386932265,
+          21.92852490878363,
+          21.982964177272958
+        ]
+      },
+      "baseline_mean_bytes": 164639.1225,
+      "variant_mean_bytes": 128457.9275,
+      "run_cost_cv": [
+        0.0001344265399508783,
+        0.0003736668036561687
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_bottom_d0_ring_uniform_seed101",
+          "variant_id": "ABDF_bottom_d0_gc_ring_uniform_seed101",
+          "baseline_bytes": 164671.6625,
+          "variant_bytes": 128462.74375,
+          "saving_pct": 21.988554800677996,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_bottom_d0_ring_uniform_seed102",
+          "variant_id": "ABDF_bottom_d0_gc_ring_uniform_seed102",
+          "baseline_bytes": 164650.3625,
+          "variant_bytes": 128475.0375,
+          "saving_pct": 21.970996267925003,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_bottom_d0_ring_uniform_seed103",
+          "variant_id": "ABDF_bottom_d0_gc_ring_uniform_seed103",
+          "baseline_bytes": 164620.7375,
+          "variant_bytes": 128388.925,
+          "saving_pct": 22.00926386932265,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_bottom_d0_ring_uniform_seed104",
+          "variant_id": "ABDF_bottom_d0_gc_ring_uniform_seed104",
+          "baseline_bytes": 164618.8875,
+          "variant_bytes": 128520.39375,
+          "saving_pct": 21.92852490878363,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_bottom_d0_ring_uniform_seed105",
+          "variant_id": "ABDF_bottom_d0_gc_ring_uniform_seed105",
+          "baseline_bytes": 164633.9625,
+          "variant_bytes": 128442.5375,
+          "saving_pct": 21.982964177272958,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "backend",
+      "condition": 0,
+      "workload": "uniform",
+      "before": "ring",
+      "after": "r0",
+      "effect": {
+        "n": 5,
+        "mean": 21.97765511890374,
+        "ci95": [
+          21.940344894457297,
+          22.014965343350184
+        ],
+        "per_seed": [
+          21.98948088594175,
+          21.977100111152193,
+          22.010661020152455,
+          21.929041252936432,
+          21.981992324335874
+        ]
+      },
+      "baseline_mean_bytes": 164639.1225,
+      "variant_mean_bytes": 128455.3025,
+      "run_cost_cv": [
+        0.0001344265399508783,
+        0.00037125042729820425
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_bottom_d0_ring_uniform_seed101",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed101",
+          "baseline_bytes": 164671.6625,
+          "variant_bytes": 128461.21875,
+          "saving_pct": 21.98948088594175,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_bottom_d0_ring_uniform_seed102",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed102",
+          "baseline_bytes": 164650.3625,
+          "variant_bytes": 128464.9875,
+          "saving_pct": 21.977100111152193,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_bottom_d0_ring_uniform_seed103",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed103",
+          "baseline_bytes": 164620.7375,
+          "variant_bytes": 128386.625,
+          "saving_pct": 22.010661020152455,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_bottom_d0_ring_uniform_seed104",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed104",
+          "baseline_bytes": 164618.8875,
+          "variant_bytes": 128519.54375,
+          "saving_pct": 21.929041252936432,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_bottom_d0_ring_uniform_seed105",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed105",
+          "baseline_bytes": 164633.9625,
+          "variant_bytes": 128444.1375,
+          "saving_pct": 21.981992324335874,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "backend",
+      "condition": 0,
+      "workload": "uniform",
+      "before": "gc_ring",
+      "after": "r0",
+      "effect": {
+        "n": 5,
+        "mean": 0.0020433516142026598,
+        "ci95": [
+          -0.002209379401208381,
+          0.0062960826296137
+        ],
+        "per_seed": [
+          0.001187114610412543,
+          0.007822531283563361,
+          0.0017914317765321819,
+          0.000661373635113538,
+          -0.001245693234608325
+        ]
+      },
+      "baseline_mean_bytes": 128457.9275,
+      "variant_mean_bytes": 128455.3025,
+      "run_cost_cv": [
+        0.0003736668036561687,
+        0.00037125042729820425
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_bottom_d0_gc_ring_uniform_seed101",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed101",
+          "baseline_bytes": 128462.74375,
+          "variant_bytes": 128461.21875,
+          "saving_pct": 0.001187114610412543,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_bottom_d0_gc_ring_uniform_seed102",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed102",
+          "baseline_bytes": 128475.0375,
+          "variant_bytes": 128464.9875,
+          "saving_pct": 0.007822531283563361,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_bottom_d0_gc_ring_uniform_seed103",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed103",
+          "baseline_bytes": 128388.925,
+          "variant_bytes": 128386.625,
+          "saving_pct": 0.0017914317765321819,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_bottom_d0_gc_ring_uniform_seed104",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed104",
+          "baseline_bytes": 128520.39375,
+          "variant_bytes": 128519.54375,
+          "saving_pct": 0.000661373635113538,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_bottom_d0_gc_ring_uniform_seed105",
+          "variant_id": "ABDF_bottom_d0_r0_uniform_seed105",
+          "baseline_bytes": 128442.5375,
+          "variant_bytes": 128444.1375,
+          "saving_pct": -0.001245693234608325,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "backend",
+      "condition": null,
+      "workload": "hot90",
+      "before": "ring",
+      "after": "gc_ring",
+      "effect": {
+        "n": 5,
+        "mean": 20.23919234168611,
+        "ci95": [
+          20.19412903404109,
+          20.28425564933113
+        ],
+        "per_seed": [
+          20.243594539115882,
+          20.279843997985058,
+          20.208775811674627,
+          20.267681538891125,
+          20.196065820763863
+        ]
+      },
+      "baseline_mean_bytes": 167500.4975,
+      "variant_mean_bytes": 133599.73875000002,
+      "run_cost_cv": [
+        0.00036211396114553486,
+        0.0003665993072660691
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed101",
+          "variant_id": "ABDF_uniform_gc_ring_hot90_seed101",
+          "baseline_bytes": 167574.05625,
+          "variant_bytes": 133651.04375,
+          "saving_pct": 20.243594539115882,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed102",
+          "variant_id": "ABDF_uniform_gc_ring_hot90_seed102",
+          "baseline_bytes": 167486.61875,
+          "variant_bytes": 133520.59375,
+          "saving_pct": 20.279843997985058,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed103",
+          "variant_id": "ABDF_uniform_gc_ring_hot90_seed103",
+          "baseline_bytes": 167448.75625,
+          "variant_bytes": 133609.4125,
+          "saving_pct": 20.208775811674627,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed104",
+          "variant_id": "ABDF_uniform_gc_ring_hot90_seed104",
+          "baseline_bytes": 167553.1125,
+          "variant_bytes": 133593.98125,
+          "saving_pct": 20.267681538891125,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed105",
+          "variant_id": "ABDF_uniform_gc_ring_hot90_seed105",
+          "baseline_bytes": 167439.94375,
+          "variant_bytes": 133623.6625,
+          "saving_pct": 20.196065820763863,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "backend",
+      "condition": null,
+      "workload": "hot90",
+      "before": "ring",
+      "after": "r0",
+      "effect": {
+        "n": 5,
+        "mean": 20.237201576059007,
+        "ci95": [
+          20.194310796530285,
+          20.28009235558773
+        ],
+        "per_seed": [
+          20.242266767950245,
+          20.276186989415834,
+          20.207447046952907,
+          20.263518679785797,
+          20.19658839619026
+        ]
+      },
+      "baseline_mean_bytes": 167500.4975,
+      "variant_mean_bytes": 133603.07375,
+      "run_cost_cv": [
+        0.00036211396114553486,
+        0.0003513915039598686
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed101",
+          "variant_id": "ABDF_uniform_r0_hot90_seed101",
+          "baseline_bytes": 167574.05625,
+          "variant_bytes": 133653.26875,
+          "saving_pct": 20.242266767950245,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed102",
+          "variant_id": "ABDF_uniform_r0_hot90_seed102",
+          "baseline_bytes": 167486.61875,
+          "variant_bytes": 133526.71875,
+          "saving_pct": 20.276186989415834,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed103",
+          "variant_id": "ABDF_uniform_r0_hot90_seed103",
+          "baseline_bytes": 167448.75625,
+          "variant_bytes": 133611.6375,
+          "saving_pct": 20.207447046952907,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed104",
+          "variant_id": "ABDF_uniform_r0_hot90_seed104",
+          "baseline_bytes": 167553.1125,
+          "variant_bytes": 133600.95625,
+          "saving_pct": 20.263518679785797,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed105",
+          "variant_id": "ABDF_uniform_r0_hot90_seed105",
+          "baseline_bytes": 167439.94375,
+          "variant_bytes": 133622.7875,
+          "saving_pct": 20.19658839619026,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "backend",
+      "condition": null,
+      "workload": "hot90",
+      "before": "gc_ring",
+      "after": "r0",
+      "effect": {
+        "n": 5,
+        "mean": -0.002496722347868907,
+        "ci95": [
+          -0.00548111672790204,
+          0.0004876720321642259
+        ],
+        "per_seed": [
+          -0.0016647831079685815,
+          -0.004587307341874514,
+          -0.0016653018364287675,
+          -0.005221043593972574,
+          0.0006548241408999012
+        ]
+      },
+      "baseline_mean_bytes": 133599.73875000002,
+      "variant_mean_bytes": 133603.07375,
+      "run_cost_cv": [
+        0.0003665993072660691,
+        0.0003513915039598686
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_uniform_gc_ring_hot90_seed101",
+          "variant_id": "ABDF_uniform_r0_hot90_seed101",
+          "baseline_bytes": 133651.04375,
+          "variant_bytes": 133653.26875,
+          "saving_pct": -0.0016647831079685815,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_uniform_gc_ring_hot90_seed102",
+          "variant_id": "ABDF_uniform_r0_hot90_seed102",
+          "baseline_bytes": 133520.59375,
+          "variant_bytes": 133526.71875,
+          "saving_pct": -0.004587307341874514,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_uniform_gc_ring_hot90_seed103",
+          "variant_id": "ABDF_uniform_r0_hot90_seed103",
+          "baseline_bytes": 133609.4125,
+          "variant_bytes": 133611.6375,
+          "saving_pct": -0.0016653018364287675,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_uniform_gc_ring_hot90_seed104",
+          "variant_id": "ABDF_uniform_r0_hot90_seed104",
+          "baseline_bytes": 133593.98125,
+          "variant_bytes": 133600.95625,
+          "saving_pct": -0.005221043593972574,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_uniform_gc_ring_hot90_seed105",
+          "variant_id": "ABDF_uniform_r0_hot90_seed105",
+          "baseline_bytes": 133623.6625,
+          "variant_bytes": 133622.7875,
+          "saving_pct": 0.0006548241408999012,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "layout",
+      "condition": "ring",
+      "workload": "hot90",
+      "before": null,
+      "after": 0,
+      "effect": {
+        "n": 5,
+        "mean": 1.7074014887218403,
+        "ci95": [
+          1.657718405795897,
+          1.7570845716477836
+        ],
+        "per_seed": [
+          1.7563988220282711,
+          1.6828471259588196,
+          1.65686136590818,
+          1.7363524058677249,
+          1.704547723846206
+        ]
+      },
+      "baseline_mean_bytes": 167500.4975,
+      "variant_mean_bytes": 164640.575,
+      "run_cost_cv": [
+        0.00036211396114553486,
+        0.00021471822195400555
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed101",
+          "variant_id": "ABDF_bottom_d0_ring_hot90_seed101",
+          "baseline_bytes": 167574.05625,
+          "variant_bytes": 164630.7875,
+          "saving_pct": 1.7563988220282711,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed102",
+          "variant_id": "ABDF_bottom_d0_ring_hot90_seed102",
+          "baseline_bytes": 167486.61875,
+          "variant_bytes": 164668.075,
+          "saving_pct": 1.6828471259588196,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed103",
+          "variant_id": "ABDF_bottom_d0_ring_hot90_seed103",
+          "baseline_bytes": 167448.75625,
+          "variant_bytes": 164674.3625,
+          "saving_pct": 1.65686136590818,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed104",
+          "variant_id": "ABDF_bottom_d0_ring_hot90_seed104",
+          "baseline_bytes": 167553.1125,
+          "variant_bytes": 164643.8,
+          "saving_pct": 1.7363524058677249,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_uniform_ring_hot90_seed105",
+          "variant_id": "ABDF_bottom_d0_ring_hot90_seed105",
+          "baseline_bytes": 167439.94375,
+          "variant_bytes": 164585.85,
+          "saving_pct": 1.704547723846206,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "layout",
+      "condition": "gc_ring",
+      "workload": "hot90",
+      "before": null,
+      "after": 0,
+      "effect": {
+        "n": 5,
+        "mean": 3.812981117544789,
+        "ci95": [
+          3.7838443784349307,
+          3.8421178566546477
+        ],
+        "per_seed": [
+          3.8479123362626266,
+          3.8135502973675184,
+          3.786152603582471,
+          3.819244850897807,
+          3.7980454996135227
+        ]
+      },
+      "baseline_mean_bytes": 133599.73875000002,
+      "variant_mean_bytes": 128505.60375,
+      "run_cost_cv": [
+        0.0003665993072660691,
+        0.0003890296509985013
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_uniform_gc_ring_hot90_seed101",
+          "variant_id": "ABDF_bottom_d0_gc_ring_hot90_seed101",
+          "baseline_bytes": 133651.04375,
+          "variant_bytes": 128508.26875,
+          "saving_pct": 3.8479123362626266,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_uniform_gc_ring_hot90_seed102",
+          "variant_id": "ABDF_bottom_d0_gc_ring_hot90_seed102",
+          "baseline_bytes": 133520.59375,
+          "variant_bytes": 128428.71875,
+          "saving_pct": 3.8135502973675184,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_uniform_gc_ring_hot90_seed103",
+          "variant_id": "ABDF_bottom_d0_gc_ring_hot90_seed103",
+          "baseline_bytes": 133609.4125,
+          "variant_bytes": 128550.75625,
+          "saving_pct": 3.786152603582471,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_uniform_gc_ring_hot90_seed104",
+          "variant_id": "ABDF_bottom_d0_gc_ring_hot90_seed104",
+          "baseline_bytes": 133593.98125,
+          "variant_bytes": 128491.7,
+          "saving_pct": 3.819244850897807,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_uniform_gc_ring_hot90_seed105",
+          "variant_id": "ABDF_bottom_d0_gc_ring_hot90_seed105",
+          "baseline_bytes": 133623.6625,
+          "variant_bytes": 128548.575,
+          "saving_pct": 3.7980454996135227,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "layout",
+      "condition": "r0",
+      "workload": "hot90",
+      "before": null,
+      "after": 0,
+      "effect": {
+        "n": 5,
+        "mean": 3.817773179498163,
+        "ci95": [
+          3.7893488573273317,
+          3.846197501668994
+        ],
+        "per_seed": [
+          3.8505792249843407,
+          3.814573628171336,
+          3.792563540732008,
+          3.829075325199993,
+          3.8020741784031364
+        ]
+      },
+      "baseline_mean_bytes": 133603.07375,
+      "variant_mean_bytes": 128502.40875,
+      "run_cost_cv": [
+        0.0003513915039598686,
+        0.00035767019785787465
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_uniform_r0_hot90_seed101",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed101",
+          "baseline_bytes": 133653.26875,
+          "variant_bytes": 128506.84375,
+          "saving_pct": 3.8505792249843407,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_uniform_r0_hot90_seed102",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed102",
+          "baseline_bytes": 133526.71875,
+          "variant_bytes": 128433.24375,
+          "saving_pct": 3.814573628171336,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_uniform_r0_hot90_seed103",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed103",
+          "baseline_bytes": 133611.6375,
+          "variant_bytes": 128544.33125,
+          "saving_pct": 3.792563540732008,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_uniform_r0_hot90_seed104",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed104",
+          "baseline_bytes": 133600.95625,
+          "variant_bytes": 128485.275,
+          "saving_pct": 3.829075325199993,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_uniform_r0_hot90_seed105",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed105",
+          "baseline_bytes": 133622.7875,
+          "variant_bytes": 128542.35,
+          "saving_pct": 3.8020741784031364,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "backend",
+      "condition": 0,
+      "workload": "hot90",
+      "before": "ring",
+      "after": "gc_ring",
+      "effect": {
+        "n": 5,
+        "mean": 21.947787081529547,
+        "ci95": [
+          21.897556228951732,
+          21.998017934107363
+        ],
+        "per_seed": [
+          21.941533110870893,
+          22.007518002502923,
+          21.93638748715362,
+          21.957765795007155,
+          21.89573101211314
+        ]
+      },
+      "baseline_mean_bytes": 164640.575,
+      "variant_mean_bytes": 128505.60375,
+      "run_cost_cv": [
+        0.00021471822195400555,
+        0.0003890296509985013
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_bottom_d0_ring_hot90_seed101",
+          "variant_id": "ABDF_bottom_d0_gc_ring_hot90_seed101",
+          "baseline_bytes": 164630.7875,
+          "variant_bytes": 128508.26875,
+          "saving_pct": 21.941533110870893,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_bottom_d0_ring_hot90_seed102",
+          "variant_id": "ABDF_bottom_d0_gc_ring_hot90_seed102",
+          "baseline_bytes": 164668.075,
+          "variant_bytes": 128428.71875,
+          "saving_pct": 22.007518002502923,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_bottom_d0_ring_hot90_seed103",
+          "variant_id": "ABDF_bottom_d0_gc_ring_hot90_seed103",
+          "baseline_bytes": 164674.3625,
+          "variant_bytes": 128550.75625,
+          "saving_pct": 21.93638748715362,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_bottom_d0_ring_hot90_seed104",
+          "variant_id": "ABDF_bottom_d0_gc_ring_hot90_seed104",
+          "baseline_bytes": 164643.8,
+          "variant_bytes": 128491.7,
+          "saving_pct": 21.957765795007155,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_bottom_d0_ring_hot90_seed105",
+          "variant_id": "ABDF_bottom_d0_gc_ring_hot90_seed105",
+          "baseline_bytes": 164585.85,
+          "variant_bytes": 128548.575,
+          "saving_pct": 21.89573101211314,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "backend",
+      "condition": 0,
+      "workload": "hot90",
+      "before": "ring",
+      "after": "r0",
+      "effect": {
+        "n": 5,
+        "mean": 21.949727850517675,
+        "ci95": [
+          21.90229803803215,
+          21.9971576630032
+        ],
+        "per_seed": [
+          21.942398684085752,
+          22.004770050296642,
+          21.940289126669597,
+          21.961668158776703,
+          21.89951323275968
+        ]
+      },
+      "baseline_mean_bytes": 164640.575,
+      "variant_mean_bytes": 128502.40875,
+      "run_cost_cv": [
+        0.00021471822195400555,
+        0.00035767019785787465
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_bottom_d0_ring_hot90_seed101",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed101",
+          "baseline_bytes": 164630.7875,
+          "variant_bytes": 128506.84375,
+          "saving_pct": 21.942398684085752,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_bottom_d0_ring_hot90_seed102",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed102",
+          "baseline_bytes": 164668.075,
+          "variant_bytes": 128433.24375,
+          "saving_pct": 22.004770050296642,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_bottom_d0_ring_hot90_seed103",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed103",
+          "baseline_bytes": 164674.3625,
+          "variant_bytes": 128544.33125,
+          "saving_pct": 21.940289126669597,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_bottom_d0_ring_hot90_seed104",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed104",
+          "baseline_bytes": 164643.8,
+          "variant_bytes": 128485.275,
+          "saving_pct": 21.961668158776703,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_bottom_d0_ring_hot90_seed105",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed105",
+          "baseline_bytes": 164585.85,
+          "variant_bytes": 128542.35,
+          "saving_pct": 21.89951323275968,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    },
+    {
+      "axis": "backend",
+      "condition": 0,
+      "workload": "hot90",
+      "before": "gc_ring",
+      "after": "r0",
+      "effect": {
+        "n": 5,
+        "mean": 0.002485279809589791,
+        "ci95": [
+          -0.0021686471352127803,
+          0.007139206754392362
+        ],
+        "per_seed": [
+          0.0011088780619838978,
+          -0.0035233552464264406,
+          0.004998025828417685,
+          0.005000322978065963,
+          0.00484252742590785
+        ]
+      },
+      "baseline_mean_bytes": 128505.60375,
+      "variant_mean_bytes": 128502.40875,
+      "run_cost_cv": [
+        0.0003890296509985013,
+        0.00035767019785787465
+      ],
+      "needs_more_repeats": false,
+      "per_seed": [
+        {
+          "seed": 101,
+          "baseline_id": "ABDF_bottom_d0_gc_ring_hot90_seed101",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed101",
+          "baseline_bytes": 128508.26875,
+          "variant_bytes": 128506.84375,
+          "saving_pct": 0.0011088780619838978,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "ABDF_bottom_d0_gc_ring_hot90_seed102",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed102",
+          "baseline_bytes": 128428.71875,
+          "variant_bytes": 128433.24375,
+          "saving_pct": -0.0035233552464264406,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "ABDF_bottom_d0_gc_ring_hot90_seed103",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed103",
+          "baseline_bytes": 128550.75625,
+          "variant_bytes": 128544.33125,
+          "saving_pct": 0.004998025828417685,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "ABDF_bottom_d0_gc_ring_hot90_seed104",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed104",
+          "baseline_bytes": 128491.7,
+          "variant_bytes": 128485.275,
+          "saving_pct": 0.005000322978065963,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "ABDF_bottom_d0_gc_ring_hot90_seed105",
+          "variant_id": "ABDF_bottom_d0_r0_hot90_seed105",
+          "baseline_bytes": 128548.575,
+          "variant_bytes": 128542.35,
+          "saving_pct": 0.00484252742590785,
+          "baseline_background_slots": 0,
+          "variant_background_slots": 0
+        }
+      ]
+    }
+  ],
+  "plan_sha256": "958826b547790a597e35caa6185fff491eb5246f5ab60d184fe471fe39877cde",
+  "auditor_sha256": "83ba40d906598da4ed78a4c7069d816db191eeeb51b47c69c8026a5696c14124",
+  "base_auditor_sha256": "fd6e60d4e8b7f2617ab8376c58da9beb7f206aa912e845534decb2747bcf103f",
+  "analyzer_sha256": "4f417ddeaacffb4e6c613efe4b14b5145653484d97313f6795e851e96191a612",
+  "security_admission": false,
+  "native_full_AB": false,
+  "deadq_implemented": false,
+  "latency_claim": false,
+  "scope": "authenticated dummy-first CB with static bottom dummy allocation, raw recursive map, prefix cache, PLB and inclusive LLC; no DeadQ or complete adaptive capacity proof",
+  "endpoint": "same offered Q and public W; inclusive dirty LLC can remain resident; no persistence-barrier or latency claim"
+}

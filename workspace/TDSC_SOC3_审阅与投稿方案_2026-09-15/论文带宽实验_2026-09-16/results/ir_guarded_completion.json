@@ -1,0 +1,1216 @@
+{
+  "status": "passed",
+  "plan_sha256": "e11d4a653562f7bc1d616a3efa8b2f68e184e67a1acc7ec7dda831e3915b802a",
+  "source_hashes": {
+    "runtime": {
+      "base": {
+        "base": {
+          "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+          "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+          "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+          "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+        },
+        "runtime": {
+          "ir_transfer.py": "2cdede25e5be4320ae48447a5fc96db9113a980569a1aaa4a2634ffbdc6a2e9f",
+          "ir_dwb_runtime.py": "a0a39b947ac08c4d2c14091b1844406fb304edd702e65dfb2fa82d752455c6f2",
+          "ir_dwb_controller.py": "55ba05f7a010be2ea907e3431c4d15babd9e2094a52da440b646d860dc7940af",
+          "dwb_staged_frontend.py": "08491ab8de426659204721898b2a6b914974b2f4ff378c054846114575dfdfd4",
+          "heterogeneous_oram.py": "6d312f8674efc788314f2ab5612a90979b50213ca79f601a777ef00a2dfb8fd5",
+          "heterogeneous_fusion.py": "23a1c85b20f10aa2c4b28e13228351fac771a811ada2b18062a9d8c45de59380",
+          "cached_transport.py": "25c88f7ca32ab5d394acd019348c32de268ecd2133b560625f3cc9dd370174c3",
+          "fast_prf.py": "910f2a4deb1ece922c2ab51d6031d1a966e604e9a2101d90e619f0c4cc7b4d84",
+          "composition_runtime.py": "f00534055545cf47a8e39c657f2ba392864d9895a55fa6bb8bf8a733e7a492cb"
+        },
+        "frontend": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4"
+      },
+      "compressed": {
+        "dwb_compressed_frontend.py": "b9ddcfd46aeac73142d08e7345e2746fe648d5ce5ba8552915959769db1406ce",
+        "ir_compressed_controller.py": "33422104915bd4f0a213da0d06b562a2b7ab200d69e62c6c53c07d1530f22d7a"
+      }
+    },
+    "driver": "d51feff4f65177f8e00ede6b3cb2adfcbd274a9b296bb3bd7be42dc16f6bfa7f",
+    "preserved_helpers": "6e1fdec8bdd507d8fffe4ee95c9e81f1fdb39ba8e5f424a475ca063d925daa9d"
+  },
+  "observations": [
+    {
+      "id": "IRGUARD_beta14_path_seed101",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_path_seed101.json",
+      "sha256": "66d4d4fd4c691f70e0400cfe21daeea23150a9ea90b843279101860fa70e5b44",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_deferred_seed101",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_deferred_seed101.json",
+      "sha256": "d0f5c32b1b43294b6b01412919cfd9bc9bf0363395c58849469f2143b421d69c",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_sde_seed101",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_sde_seed101.json",
+      "sha256": "a2ea397f15754f72caea87fa927b1d89cbf0ce6d658985de75a4835cd9d4799e",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81997152,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_path_seed101",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_path_seed101.json",
+      "sha256": "fdf32a9000ef119f83116ee5d988f59f228fb4d991fbf6dac2f88df7959e6bd2",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 14531,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_deferred_seed101",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_deferred_seed101.json",
+      "sha256": "52e0cb249555d59614cc2e7b3d04513dee48b94c11f1b09748a591a06a9f4fd4",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 14531,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_sde_seed101",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_sde_seed101.json",
+      "sha256": "ab8d4c79c4eca315b44ba8cbc58811cda3cb2464a5b0c1edf681648f21510be1",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81935248,
+        "measurement_reset_slots": 14531,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_path_seed102",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_path_seed102.json",
+      "sha256": "d789c8634c1cdc44b704162381eee62aa0d62045593623c4c744dc06c999e778",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_deferred_seed102",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_deferred_seed102.json",
+      "sha256": "abed10fdfd1092c9b16db29ca1ca46e3208aa31dfe10665e6676549dba6f4022",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_sde_seed102",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_sde_seed102.json",
+      "sha256": "d47e1f9816a8932b6131e5738a94580619d2091f7dcca79849e744e06e41551a",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81831520,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_path_seed102",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_path_seed102.json",
+      "sha256": "9daab8f3f50eebe52d541a9e46c1fdd1fc890cf9ee561637fe1cf9d3c2bf88bb",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 14495,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_deferred_seed102",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_deferred_seed102.json",
+      "sha256": "77a445a5e1b197050b8d106b199cd426e6b3c91348b728a31f37ab7934eab7e2",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 14495,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_sde_seed102",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_sde_seed102.json",
+      "sha256": "e216aa81083081d18e98c295254c2310a9ce65d2417ddd1452336c785f62dbe6",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81927416,
+        "measurement_reset_slots": 14495,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_path_seed103",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_path_seed103.json",
+      "sha256": "34cd06caaf37c2d7e11ce466c4d082e929e4eae9227b29acb2fcaf1456dd6c8c",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_deferred_seed103",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_deferred_seed103.json",
+      "sha256": "ab08d5216b1d74a50a463d0b32e69308afe2e174f3b480bc2c7178f45db78e52",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_sde_seed103",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_sde_seed103.json",
+      "sha256": "3bd759e0e393d28fe18800a40cb423bfbf869d123fca7ac8553324fdba9fa4c2",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81975072,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_path_seed103",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_path_seed103.json",
+      "sha256": "343111e14366e978e014e4a5da3e9b38c444db31e5fa787cc6f81b5ca3d7b865",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 14279,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_deferred_seed103",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_deferred_seed103.json",
+      "sha256": "97be2439ffa621fb9f92c6fec1692f982bb712f3c9e575fc0529f5df11bf2200",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 14279,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_sde_seed103",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_sde_seed103.json",
+      "sha256": "3a77b5c2de409bf7f16e016107b997faf8c3d22ab744f03798db02797f46112f",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81888136,
+        "measurement_reset_slots": 14279,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_path_seed104",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_path_seed104.json",
+      "sha256": "65f3c2de961717f93469c802ce36a14c105dc58d30adc19059eeb8a5891dbf50",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_deferred_seed104",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_deferred_seed104.json",
+      "sha256": "af49b5905d4e84ed6b02404d6d8e38efca2b179ce9911582733749e43235995c",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_sde_seed104",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_sde_seed104.json",
+      "sha256": "a02c17f2dd56835850a69c3e8ed6588d6bda27b2a7338dca3f238f0b965dcfd0",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81854184,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_path_seed104",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_path_seed104.json",
+      "sha256": "a8db29f6e52030195085fe643450939d11c6a14d86226d322e227c6f908e76f8",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 14645,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_deferred_seed104",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_deferred_seed104.json",
+      "sha256": "1f998ef78aa5de61a52efa116816ebd6a3be09f49d30bd24afe93d93fdd81cd6",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 14645,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_sde_seed104",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_sde_seed104.json",
+      "sha256": "8f537e09d460c66a44a655d5881fdcdc0510ee7be10ebed6a586ca65e38a8c21",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 82044728,
+        "measurement_reset_slots": 14645,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_path_seed105",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_path_seed105.json",
+      "sha256": "8e3da3a573bfee2bda7db4754c983fce155c751b7c68160bd10cb752af2bcd1e",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_deferred_seed105",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_deferred_seed105.json",
+      "sha256": "2021d317c519b1ddd1069f8952d96c84d4cfa3369ec1871256899e0426a8caef",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_sde_seed105",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_sde_seed105.json",
+      "sha256": "3bfa5d533c917c7badf16756efb39cb88bcdb366071a17834305bf28ccaeb128",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81986688,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_path_seed105",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_path_seed105.json",
+      "sha256": "733cf2ec5d24d4aeca0be17f6ef8a8ea6c38abe792cb38f202f04cec63da6118",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 14466,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_deferred_seed105",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_deferred_seed105.json",
+      "sha256": "b524187664c5123a8d4da9d7529dbdb98f8c365f995591f1efef87377ed8bf8e",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 14466,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_sde_seed105",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_sde_seed105.json",
+      "sha256": "3ec4959bd42a3dd25654b727d63d4b644d74cacbe824123eb6367bf2e93df722",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81997544,
+        "measurement_reset_slots": 14466,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    }
+  ],
+  "expected": 30
+}

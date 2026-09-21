@@ -1,0 +1,1612 @@
+{
+  "reports": [
+    {
+      "family_group": "free",
+      "status": "complete_receipts_audited",
+      "expected": 160,
+      "completed": 160,
+      "missing": [],
+      "rows": [
+        {
+          "id": "C_free_raw_deferred_uniform_N4096_B64_seed101",
+          "sha256": "0d3bdeffee583ab36f80f43339bfa1c2f30dfd45ba6ccdf320d2640b672a5ede",
+          "independently_invoiced_rpcs": 30636
+        },
+        {
+          "id": "C_free_raw_sde_uniform_N4096_B64_seed101",
+          "sha256": "2f117c608fc9485aab6ad0bf7c59e8f56378ee63c23822bf21e4c9222a2827af",
+          "independently_invoiced_rpcs": 30636
+        },
+        {
+          "id": "C_free_raw_ring_uniform_N4096_B64_seed101",
+          "sha256": "852a9a1b354c58b23f312e31ce229e0d055c68e37d23ebfe089ccc67ee828d4e",
+          "independently_invoiced_rpcs": 45954
+        },
+        {
+          "id": "C_free_raw_r0_uniform_N4096_B64_seed101",
+          "sha256": "184827ce174bfec8bd2e9fbc444a944116851232d9b8dd0699eac411fd72bef3",
+          "independently_invoiced_rpcs": 45954
+        },
+        {
+          "id": "C_free_compressed_deferred_uniform_N4096_B64_seed101",
+          "sha256": "213d6204b1993da07da597d5ee68d81693a01027b33cd10c68c41667876841d5",
+          "independently_invoiced_rpcs": 25642
+        },
+        {
+          "id": "C_free_compressed_sde_uniform_N4096_B64_seed101",
+          "sha256": "a439380f5a5353cddf24d539c53f210f28657b1fce1fab5f502ad9d008bfd9d7",
+          "independently_invoiced_rpcs": 25642
+        },
+        {
+          "id": "C_free_compressed_ring_uniform_N4096_B64_seed101",
+          "sha256": "2ae25b1cc45589b91225b1e6f4975bbe43544057fa86482961443f429a15696f",
+          "independently_invoiced_rpcs": 38463
+        },
+        {
+          "id": "C_free_compressed_r0_uniform_N4096_B64_seed101",
+          "sha256": "64de0b37456a20cce37029fe9c1725101af88b0bd36d7e80b3faefb22a82f927",
+          "independently_invoiced_rpcs": 38463
+        },
+        {
+          "id": "C_free_raw_deferred_hot90_N4096_B64_seed101",
+          "sha256": "47eabde6b649498b99274fdcb13ac6a14435e21ca4148cb0599382f31cfb57de",
+          "independently_invoiced_rpcs": 28870
+        },
+        {
+          "id": "C_free_raw_sde_hot90_N4096_B64_seed101",
+          "sha256": "d0ff76738dfaa4ee16f662baf7597a3d74a9cf1b050005182397ff206f98ec02",
+          "independently_invoiced_rpcs": 28870
+        },
+        {
+          "id": "C_free_raw_ring_hot90_N4096_B64_seed101",
+          "sha256": "4be942c1efe2de65bd79e6a2c527554541b93386cb4aacff88a440c51521fa64",
+          "independently_invoiced_rpcs": 43305
+        },
+        {
+          "id": "C_free_raw_r0_hot90_N4096_B64_seed101",
+          "sha256": "179d51e1eb32cebead51569c0f4b13d2cbf23925603b92b8602a56e7e0bc29ce",
+          "independently_invoiced_rpcs": 43305
+        },
+        {
+          "id": "C_free_compressed_deferred_hot90_N4096_B64_seed101",
+          "sha256": "4c87ab9ffed8b1cc6f48b1716a00a9ad283b2075cbfb310e7ae776c094d1dfca",
+          "independently_invoiced_rpcs": 24382
+        },
+        {
+          "id": "C_free_compressed_sde_hot90_N4096_B64_seed101",
+          "sha256": "f6a7c085fc7106139a7f96d4fb49645fe1d9696430abc9cb8432448a2887b45b",
+          "independently_invoiced_rpcs": 24382
+        },
+        {
+          "id": "C_free_compressed_ring_hot90_N4096_B64_seed101",
+          "sha256": "65e962f88db72138408cb6918ebd07bb905d308bbe00d23ab64f92cc7b069195",
+          "independently_invoiced_rpcs": 36573
+        },
+        {
+          "id": "C_free_compressed_r0_hot90_N4096_B64_seed101",
+          "sha256": "f4484a3438fd7d7db1a2db0cbfc894eca58c82de7a807cdb1e49e6e2f50c4bc3",
+          "independently_invoiced_rpcs": 36573
+        },
+        {
+          "id": "C_free_raw_deferred_zipf09_N4096_B64_seed101",
+          "sha256": "2ef7f5c3e6b4ac3285fb778cdf55e8feae6f820e424e65cc132627c72f74a523",
+          "independently_invoiced_rpcs": 29792
+        },
+        {
+          "id": "C_free_raw_sde_zipf09_N4096_B64_seed101",
+          "sha256": "f64e2d3ad373b0a2466fd794406ff9286363320dced04205aa238f800e8ad82d",
+          "independently_invoiced_rpcs": 29792
+        },
+        {
+          "id": "C_free_raw_ring_zipf09_N4096_B64_seed101",
+          "sha256": "6defa4f324a6dd1a03b9933d66581689ad459809f7660f6833a147b1820e37b7",
+          "independently_invoiced_rpcs": 44688
+        },
+        {
+          "id": "C_free_raw_r0_zipf09_N4096_B64_seed101",
+          "sha256": "1b1faec403ab3d5b8e3081c8c6ba7fc960b8948c7a172047077528fa78e1f8bf",
+          "independently_invoiced_rpcs": 44688
+        },
+        {
+          "id": "C_free_compressed_deferred_zipf09_N4096_B64_seed101",
+          "sha256": "b4ea83c7ebb5a13b064a3099e1fb6679311fcb9c2041bd6b87f1ebd6e7afdb9a",
+          "independently_invoiced_rpcs": 25000
+        },
+        {
+          "id": "C_free_compressed_sde_zipf09_N4096_B64_seed101",
+          "sha256": "3e30901ff58460469e362ef2b2acbdd53605545a04f453ddd9a53b46ce01e26e",
+          "independently_invoiced_rpcs": 25000
+        },
+        {
+          "id": "C_free_compressed_ring_zipf09_N4096_B64_seed101",
+          "sha256": "cda7a6c2befd9f40ec1d5083c24070735f756f373b898cd2b9027b2cbd56f369",
+          "independently_invoiced_rpcs": 37500
+        },
+        {
+          "id": "C_free_compressed_r0_zipf09_N4096_B64_seed101",
+          "sha256": "b82b7fc85157c2528d43813ca23de2085725c7b1a28359a983cff282a8e23eff",
+          "independently_invoiced_rpcs": 37500
+        },
+        {
+          "id": "C_free_raw_deferred_scan_N4096_B64_seed101",
+          "sha256": "674c4d06dad89e59c49f7d35aec65ec59c1e48204837e0c85154c144d60061b4",
+          "independently_invoiced_rpcs": 11690
+        },
+        {
+          "id": "C_free_raw_sde_scan_N4096_B64_seed101",
+          "sha256": "196fb4a81bb8c7698a202e9967be568881726454e7c68bc1533e02774cd1ffb5",
+          "independently_invoiced_rpcs": 11690
+        },
+        {
+          "id": "C_free_raw_ring_scan_N4096_B64_seed101",
+          "sha256": "70f5de1831cf37eedfaf2d11624d81eedc647b0839064a6a658e8bc37bb0fbb8",
+          "independently_invoiced_rpcs": 17535
+        },
+        {
+          "id": "C_free_raw_r0_scan_N4096_B64_seed101",
+          "sha256": "299b1e2c3c41c0a3525f67b39fe63bc1366df3bcebf2242c3976986eaa38dbb6",
+          "independently_invoiced_rpcs": 17535
+        },
+        {
+          "id": "C_free_compressed_deferred_scan_N4096_B64_seed101",
+          "sha256": "32e508d7c4d82acdecbdfc92f831ed9b393807ea390b1345856a3bd545d1cb2f",
+          "independently_invoiced_rpcs": 11284
+        },
+        {
+          "id": "C_free_compressed_sde_scan_N4096_B64_seed101",
+          "sha256": "e903a8c5a80ae23302893d49bc9f12487eb54a699c39e26f65d38dfda40f1e73",
+          "independently_invoiced_rpcs": 11284
+        },
+        {
+          "id": "C_free_compressed_ring_scan_N4096_B64_seed101",
+          "sha256": "496a716a0c12d2d3c0809f3d8cb6f06bfa375ae3652020283fd52121790244f5",
+          "independently_invoiced_rpcs": 16926
+        },
+        {
+          "id": "C_free_compressed_r0_scan_N4096_B64_seed101",
+          "sha256": "46c7585eef857ec54e326e9197d3ebbb3b732cbd2d71369b252b22de7c21c46e",
+          "independently_invoiced_rpcs": 16926
+        },
+        {
+          "id": "C_free_raw_deferred_uniform_N4096_B64_seed102",
+          "sha256": "04a08fb3640a48587eab239e93892ff3f7a84f63627c51c18940f031523e1c3c",
+          "independently_invoiced_rpcs": 30662
+        },
+        {
+          "id": "C_free_raw_sde_uniform_N4096_B64_seed102",
+          "sha256": "2616a69ed4d18e3c38161098e5ab5a096ffc4622ef3ce58f2394f306212cc1ab",
+          "independently_invoiced_rpcs": 30662
+        },
+        {
+          "id": "C_free_raw_ring_uniform_N4096_B64_seed102",
+          "sha256": "112d032808de6b98eadcc2686721b3f0ff45cd6b0c4c2d0808f9b7a36bdd330f",
+          "independently_invoiced_rpcs": 45993
+        },
+        {
+          "id": "C_free_raw_r0_uniform_N4096_B64_seed102",
+          "sha256": "f1f5759e7427a6dfeabf1e5b224b0b020efe4e782383c056d062f4b33611c11a",
+          "independently_invoiced_rpcs": 45993
+        },
+        {
+          "id": "C_free_compressed_deferred_uniform_N4096_B64_seed102",
+          "sha256": "9e04a68018ed83e2376e7bd1b424a9ffd7e7c8e7e6336b1467dcb780530edcb2",
+          "independently_invoiced_rpcs": 25634
+        },
+        {
+          "id": "C_free_compressed_sde_uniform_N4096_B64_seed102",
+          "sha256": "3aaaf2e66b70d7a6adf89b911eb7c70142bdefb035e2c1285269858025c4fb3e",
+          "independently_invoiced_rpcs": 25634
+        },
+        {
+          "id": "C_free_compressed_ring_uniform_N4096_B64_seed102",
+          "sha256": "d4d1dfb9cd7031e812dc73327942f52cbe614af3d959c942acdff3fb69d88d7e",
+          "independently_invoiced_rpcs": 38451
+        },
+        {
+          "id": "C_free_compressed_r0_uniform_N4096_B64_seed102",
+          "sha256": "eae627c48077b4613b65e9246d09746000adc92a231d6e53881ef627d6cf38d6",
+          "independently_invoiced_rpcs": 38451
+        },
+        {
+          "id": "C_free_raw_deferred_hot90_N4096_B64_seed102",
+          "sha256": "58c2f44ba04b75956d236b3c2fa04778c8016099c4f6170950ac90943c6ae153",
+          "independently_invoiced_rpcs": 28820
+        },
+        {
+          "id": "C_free_raw_sde_hot90_N4096_B64_seed102",
+          "sha256": "c13afc5f24dfc8f8f802b38341ebc8690a5d0b2c5ff8a353cd6cfedf0a49083a",
+          "independently_invoiced_rpcs": 28820
+        },
+        {
+          "id": "C_free_raw_ring_hot90_N4096_B64_seed102",
+          "sha256": "956b91abfff5ba863904007aaf0c1653deaaf178de7812b3d819658f9e92e3c3",
+          "independently_invoiced_rpcs": 43230
+        },
+        {
+          "id": "C_free_raw_r0_hot90_N4096_B64_seed102",
+          "sha256": "f40ef49c97a22ba16414b30279cc3cf876d2ae1b16364b7091ab210e81eb9c77",
+          "independently_invoiced_rpcs": 43230
+        },
+        {
+          "id": "C_free_compressed_deferred_hot90_N4096_B64_seed102",
+          "sha256": "439bffc5bb253a0a6702387369df80ce93e77072c22b9a5a4a689c8a23796f63",
+          "independently_invoiced_rpcs": 24370
+        },
+        {
+          "id": "C_free_compressed_sde_hot90_N4096_B64_seed102",
+          "sha256": "8cdb136808a2a0102153e2b6b553bd5f947d15669d9685715c59f4dc9dfdbbd2",
+          "independently_invoiced_rpcs": 24370
+        },
+        {
+          "id": "C_free_compressed_ring_hot90_N4096_B64_seed102",
+          "sha256": "607aec9aeb4886934cf2bd4c5f569b9806f149eff9a44d1a244672bfe28f9b16",
+          "independently_invoiced_rpcs": 36555
+        },
+        {
+          "id": "C_free_compressed_r0_hot90_N4096_B64_seed102",
+          "sha256": "30658e37d2b0d778d99039b2b9879ca740a4ed12c30fc19f0e96a6d7aeda39ea",
+          "independently_invoiced_rpcs": 36555
+        },
+        {
+          "id": "C_free_raw_deferred_zipf09_N4096_B64_seed102",
+          "sha256": "e4aaf5edb742a03eef154e78fe12863696352e840622dccd784d6f05e801c642",
+          "independently_invoiced_rpcs": 29954
+        },
+        {
+          "id": "C_free_raw_sde_zipf09_N4096_B64_seed102",
+          "sha256": "1f6757c5c5d3b57130a142410825f7e43a32235064eaba990621f8518b783f76",
+          "independently_invoiced_rpcs": 29954
+        },
+        {
+          "id": "C_free_raw_ring_zipf09_N4096_B64_seed102",
+          "sha256": "714146af314583301236526c1cf4f96f14df1cde1ef381797c3da7b391c00ce4",
+          "independently_invoiced_rpcs": 44931
+        },
+        {
+          "id": "C_free_raw_r0_zipf09_N4096_B64_seed102",
+          "sha256": "2e3e69cd72f8cae792faa5c22fcfddc6fa0e7717d432ec80812658e95b27dc3d",
+          "independently_invoiced_rpcs": 44931
+        },
+        {
+          "id": "C_free_compressed_deferred_zipf09_N4096_B64_seed102",
+          "sha256": "9e4904256a8a2efece7a9f1eef0ce6cfe76b27fc14a587840954ef8f3529b00a",
+          "independently_invoiced_rpcs": 25088
+        },
+        {
+          "id": "C_free_compressed_sde_zipf09_N4096_B64_seed102",
+          "sha256": "3a33f11c856003232ea913853a2c9a335ed513549aa8e7aed65853db1c248488",
+          "independently_invoiced_rpcs": 25088
+        },
+        {
+          "id": "C_free_compressed_ring_zipf09_N4096_B64_seed102",
+          "sha256": "0f81c0cce674c6535713a66fdad9e360caf81b2504de6dfc9a6c7cc9e3f02fe2",
+          "independently_invoiced_rpcs": 37632
+        },
+        {
+          "id": "C_free_compressed_r0_zipf09_N4096_B64_seed102",
+          "sha256": "5401dae542e4a72293e9529fc9d3fe1af94cac2a85a0101985073ffd626d14f8",
+          "independently_invoiced_rpcs": 37632
+        },
+        {
+          "id": "C_free_raw_deferred_scan_N4096_B64_seed102",
+          "sha256": "114ad7432452fab6ee4486a64689458303db0103203c5b886cf06fa09a57074d",
+          "independently_invoiced_rpcs": 11690
+        },
+        {
+          "id": "C_free_raw_sde_scan_N4096_B64_seed102",
+          "sha256": "d448c8ed074f4530ae7927b9d87116bdf00991ae96f7efdc486661a6cc155d8a",
+          "independently_invoiced_rpcs": 11690
+        },
+        {
+          "id": "C_free_raw_ring_scan_N4096_B64_seed102",
+          "sha256": "d017861f5069d2e9f84fedd9d847e6773d7496331058c782b8e01ae8d7e9ecc7",
+          "independently_invoiced_rpcs": 17535
+        },
+        {
+          "id": "C_free_raw_r0_scan_N4096_B64_seed102",
+          "sha256": "4514a080f375c7035a05c15d441a43cc586b74e1e179cf20115fe69d40cb6061",
+          "independently_invoiced_rpcs": 17535
+        },
+        {
+          "id": "C_free_compressed_deferred_scan_N4096_B64_seed102",
+          "sha256": "57bc0a3454da24b5db15770c7f3375ee846d6e8f180a6ad9287b7b95da776fa3",
+          "independently_invoiced_rpcs": 11284
+        },
+        {
+          "id": "C_free_compressed_sde_scan_N4096_B64_seed102",
+          "sha256": "1c0f7a0a97797c4fb07a113252aa3887cc0a2dddcecb8055a619a0c6479f36e8",
+          "independently_invoiced_rpcs": 11284
+        },
+        {
+          "id": "C_free_compressed_ring_scan_N4096_B64_seed102",
+          "sha256": "1161aaa0279afd04433a83c115d29ba474913d1748fd218d6abe1b320ec7e25a",
+          "independently_invoiced_rpcs": 16926
+        },
+        {
+          "id": "C_free_compressed_r0_scan_N4096_B64_seed102",
+          "sha256": "ac381b7f6cf571198c33a00621617caf5466e7d409c263d28af8cf67ffd950ef",
+          "independently_invoiced_rpcs": 16926
+        },
+        {
+          "id": "C_free_raw_deferred_uniform_N4096_B64_seed103",
+          "sha256": "6ccfa943143d12727193a1e707fa4bb57f0de6edeb48b49ed8dd1dfe2a3688ff",
+          "independently_invoiced_rpcs": 30496
+        },
+        {
+          "id": "C_free_raw_sde_uniform_N4096_B64_seed103",
+          "sha256": "1818d2edfd3ed35e4ac6f0ff80d95590848811286712af3ec061fbd34251c4bf",
+          "independently_invoiced_rpcs": 30496
+        },
+        {
+          "id": "C_free_raw_ring_uniform_N4096_B64_seed103",
+          "sha256": "36faef5553a53083920ff0d94d4868ca47e0895961d4c55c247968cdb61311b4",
+          "independently_invoiced_rpcs": 45744
+        },
+        {
+          "id": "C_free_raw_r0_uniform_N4096_B64_seed103",
+          "sha256": "5dcab3487518a1dd132cd5f77c9cc87804990f75feb2bd041c8d6ce0e82b6814",
+          "independently_invoiced_rpcs": 45744
+        },
+        {
+          "id": "C_free_compressed_deferred_uniform_N4096_B64_seed103",
+          "sha256": "51d62ba805fe9194702450af202dafc49eedfb92c920966c13f41f564dcc1fd6",
+          "independently_invoiced_rpcs": 25534
+        },
+        {
+          "id": "C_free_compressed_sde_uniform_N4096_B64_seed103",
+          "sha256": "902fcf30c314899999e641d213858690c960bff9ce838a3da6c48f26e72e05e6",
+          "independently_invoiced_rpcs": 25534
+        },
+        {
+          "id": "C_free_compressed_ring_uniform_N4096_B64_seed103",
+          "sha256": "6981d4f2d9eafe9268e02a74012aa2ce091bef5ebf1b5343a1688074cb1a9735",
+          "independently_invoiced_rpcs": 38301
+        },
+        {
+          "id": "C_free_compressed_r0_uniform_N4096_B64_seed103",
+          "sha256": "0bf8570a212502668a2aba5efc07db9d476c19b7f71931712aca997594909ed2",
+          "independently_invoiced_rpcs": 38301
+        },
+        {
+          "id": "C_free_raw_deferred_hot90_N4096_B64_seed103",
+          "sha256": "6c81202b2806d0c48c02bc04eec2706c79bea4f59cae8330b27e63fb5404112b",
+          "independently_invoiced_rpcs": 28870
+        },
+        {
+          "id": "C_free_raw_sde_hot90_N4096_B64_seed103",
+          "sha256": "a167f218161baa2a06b08b096635ca35875ccdd1958cf3dcd837f88e4778f7d5",
+          "independently_invoiced_rpcs": 28870
+        },
+        {
+          "id": "C_free_raw_ring_hot90_N4096_B64_seed103",
+          "sha256": "e3a344326fde5a30d739305cf352f5d0e939668913e13298b33a0d176648576d",
+          "independently_invoiced_rpcs": 43305
+        },
+        {
+          "id": "C_free_raw_r0_hot90_N4096_B64_seed103",
+          "sha256": "1f73422c356358467e39679fac261be27f4ac6aace128b49358c8ec2902684b7",
+          "independently_invoiced_rpcs": 43305
+        },
+        {
+          "id": "C_free_compressed_deferred_hot90_N4096_B64_seed103",
+          "sha256": "a78bd1e8f7eb077a45d4ae8a451f84a935e081e9e04c860d7af8f8497629807d",
+          "independently_invoiced_rpcs": 24394
+        },
+        {
+          "id": "C_free_compressed_sde_hot90_N4096_B64_seed103",
+          "sha256": "656b668c4a3de4354efa00fbe67b59b5a57e2013ffe60d74ffce8637b879ff80",
+          "independently_invoiced_rpcs": 24394
+        },
+        {
+          "id": "C_free_compressed_ring_hot90_N4096_B64_seed103",
+          "sha256": "c53c59154e1fa29c4aa21b84e53a42f3ca04a470dd5f719adaf305e8edb11b6b",
+          "independently_invoiced_rpcs": 36591
+        },
+        {
+          "id": "C_free_compressed_r0_hot90_N4096_B64_seed103",
+          "sha256": "3f077dfb543d66f7506dd1c70fdc3a7403d30c497827f48b534b554555668331",
+          "independently_invoiced_rpcs": 36591
+        },
+        {
+          "id": "C_free_raw_deferred_zipf09_N4096_B64_seed103",
+          "sha256": "badb9fcb9f6f80d362a7380d2a88dc6c9eacc1aef3b42eda18e7fb6d90da45dd",
+          "independently_invoiced_rpcs": 29834
+        },
+        {
+          "id": "C_free_raw_sde_zipf09_N4096_B64_seed103",
+          "sha256": "06fd6336c9ca2b0e2cfa453967ead3402e404606fda3d05077553258a513e097",
+          "independently_invoiced_rpcs": 29834
+        },
+        {
+          "id": "C_free_raw_ring_zipf09_N4096_B64_seed103",
+          "sha256": "99a7e422d5ee434a4b7e19101db6ecdfd2d5880d43e11446cd2f5781531d4c3b",
+          "independently_invoiced_rpcs": 44751
+        },
+        {
+          "id": "C_free_raw_r0_zipf09_N4096_B64_seed103",
+          "sha256": "4be958e23b4019932a0bb48796a159bbac434661338170742d855ad332fe433c",
+          "independently_invoiced_rpcs": 44751
+        },
+        {
+          "id": "C_free_compressed_deferred_zipf09_N4096_B64_seed103",
+          "sha256": "f84f02611e745e2b42d84788a762364647f498fc3ad4087a6c279181fc36bc9d",
+          "independently_invoiced_rpcs": 25000
+        },
+        {
+          "id": "C_free_compressed_sde_zipf09_N4096_B64_seed103",
+          "sha256": "9ad5ed760cc34f636b83694dd0459e0a2e0d531a2f85cdd3500e48c1f3bb8018",
+          "independently_invoiced_rpcs": 25000
+        },
+        {
+          "id": "C_free_compressed_ring_zipf09_N4096_B64_seed103",
+          "sha256": "711a7b88c70be372227940ae325bea766fe2648b02ccd75a53ab55b334cda379",
+          "independently_invoiced_rpcs": 37500
+        },
+        {
+          "id": "C_free_compressed_r0_zipf09_N4096_B64_seed103",
+          "sha256": "939fa724f3da5b956edd095c32765d6519872e3863851d3c4f7ea7c4a4c2c622",
+          "independently_invoiced_rpcs": 37500
+        },
+        {
+          "id": "C_free_raw_deferred_scan_N4096_B64_seed103",
+          "sha256": "f63b628c94cd33eeb6a99b0ba482b362237aa24e59b2c59fefb4e72977c852e3",
+          "independently_invoiced_rpcs": 11690
+        },
+        {
+          "id": "C_free_raw_sde_scan_N4096_B64_seed103",
+          "sha256": "929960ab8e504d8c3e88180297dd50aaf82fa83c783d19ea61f52c9bb89d0246",
+          "independently_invoiced_rpcs": 11690
+        },
+        {
+          "id": "C_free_raw_ring_scan_N4096_B64_seed103",
+          "sha256": "db1f38f053b356b3836245611fd7cfd9a539cb3320dfff1570712b64ef66b38f",
+          "independently_invoiced_rpcs": 17535
+        },
+        {
+          "id": "C_free_raw_r0_scan_N4096_B64_seed103",
+          "sha256": "3fa8480f28f5ead47ec722f28bcce67aa7bbd9674a3919a0798fde7985718176",
+          "independently_invoiced_rpcs": 17535
+        },
+        {
+          "id": "C_free_compressed_deferred_scan_N4096_B64_seed103",
+          "sha256": "6d34b55d896da4fbc2411c0aacd95b104d94f276ce259b3dfd2f825272207015",
+          "independently_invoiced_rpcs": 11284
+        },
+        {
+          "id": "C_free_compressed_sde_scan_N4096_B64_seed103",
+          "sha256": "88a7aeeb135f1f8574c493c1e3321fdcde95742fc11758d1a0653bb68bf87524",
+          "independently_invoiced_rpcs": 11284
+        },
+        {
+          "id": "C_free_compressed_ring_scan_N4096_B64_seed103",
+          "sha256": "527f503e58d7f828bddba9b1d66d2f87e8783dff5a6842b9511c256d309e55f6",
+          "independently_invoiced_rpcs": 16926
+        },
+        {
+          "id": "C_free_compressed_r0_scan_N4096_B64_seed103",
+          "sha256": "59fd516e1143e75c3a9ce32d6564ae6b020fd0e7e5385017a468363f07432b25",
+          "independently_invoiced_rpcs": 16926
+        },
+        {
+          "id": "C_free_raw_deferred_uniform_N4096_B64_seed104",
+          "sha256": "e97e6af41c03faec99ee16857a0dc5c62ffb71268a16467e5ff58d0798b6cf45",
+          "independently_invoiced_rpcs": 30566
+        },
+        {
+          "id": "C_free_raw_sde_uniform_N4096_B64_seed104",
+          "sha256": "b3536de5df065ee1d5379d491e0938850c77db62793b48099f5ca4e49d1a3846",
+          "independently_invoiced_rpcs": 30566
+        },
+        {
+          "id": "C_free_raw_ring_uniform_N4096_B64_seed104",
+          "sha256": "b981bc04157e39d608395eaa77ef8e338fa0a57bf31cb851bd1c5accd98c7f7b",
+          "independently_invoiced_rpcs": 45849
+        },
+        {
+          "id": "C_free_raw_r0_uniform_N4096_B64_seed104",
+          "sha256": "8bd23b9e7922933ee0f5d628e397d50e61288467c36580995edcd1e4f294c9df",
+          "independently_invoiced_rpcs": 45849
+        },
+        {
+          "id": "C_free_compressed_deferred_uniform_N4096_B64_seed104",
+          "sha256": "2140b7f7eef91a6b64f6d206726c282fbcc411aad57133f55df5e22942ba261d",
+          "independently_invoiced_rpcs": 25456
+        },
+        {
+          "id": "C_free_compressed_sde_uniform_N4096_B64_seed104",
+          "sha256": "e30eaa213c270a03a6da317c3176c2a888f944519febe3eab0a79e7f36851adb",
+          "independently_invoiced_rpcs": 25456
+        },
+        {
+          "id": "C_free_compressed_ring_uniform_N4096_B64_seed104",
+          "sha256": "69f310772a21704c5bed40ddbf5e0e0bada501357317b488784598ce9df21338",
+          "independently_invoiced_rpcs": 38184
+        },
+        {
+          "id": "C_free_compressed_r0_uniform_N4096_B64_seed104",
+          "sha256": "a55efa808b5fb5d04cf6f59be8c06ffefd29d333e9ae10ed25f0e1d1547b1aba",
+          "independently_invoiced_rpcs": 38184
+        },
+        {
+          "id": "C_free_raw_deferred_hot90_N4096_B64_seed104",
+          "sha256": "d60962e080b857cb39adaae93a5208f53a446fac5300863c8a1c281030149ab8",
+          "independently_invoiced_rpcs": 29128
+        },
+        {
+          "id": "C_free_raw_sde_hot90_N4096_B64_seed104",
+          "sha256": "315e3e301c1cd3053f81bfbae22f12bb281214233a2464656738a8b6285fec64",
+          "independently_invoiced_rpcs": 29128
+        },
+        {
+          "id": "C_free_raw_ring_hot90_N4096_B64_seed104",
+          "sha256": "757fd7f1a2e0112e363aa8ffc48814a7b268130f02f355b95590ccf5c520eb81",
+          "independently_invoiced_rpcs": 43692
+        },
+        {
+          "id": "C_free_raw_r0_hot90_N4096_B64_seed104",
+          "sha256": "3089a7aebbb881e8a9a941c29948871527f7cdb73b11b57265a6e9d9a50fc7cc",
+          "independently_invoiced_rpcs": 43692
+        },
+        {
+          "id": "C_free_compressed_deferred_hot90_N4096_B64_seed104",
+          "sha256": "4a6a2ca3f2ed4ce5d7e3c25894efa0fdea1ba9a36ac75e0a54d7ab5ce51805f7",
+          "independently_invoiced_rpcs": 24440
+        },
+        {
+          "id": "C_free_compressed_sde_hot90_N4096_B64_seed104",
+          "sha256": "d73358dc3a56e82d975414c78c9fcb61fe811c71a20394d726be0f801606297c",
+          "independently_invoiced_rpcs": 24440
+        },
+        {
+          "id": "C_free_compressed_ring_hot90_N4096_B64_seed104",
+          "sha256": "826b9a95cae6f57c37f00ff59b66afd59bbb92d9ce65f5ed388e6e8259fb3b48",
+          "independently_invoiced_rpcs": 36660
+        },
+        {
+          "id": "C_free_compressed_r0_hot90_N4096_B64_seed104",
+          "sha256": "a886262e3304b029a585d5ba896fa539ee7725e5e7082ef0112fd303437d6645",
+          "independently_invoiced_rpcs": 36660
+        },
+        {
+          "id": "C_free_raw_deferred_zipf09_N4096_B64_seed104",
+          "sha256": "eed911df53de784f72a0919a7c7cb6ce8188277cc4fbf23516d2bb1fcaf9dc1e",
+          "independently_invoiced_rpcs": 29814
+        },
+        {
+          "id": "C_free_raw_sde_zipf09_N4096_B64_seed104",
+          "sha256": "b4d91fdb7930ceb1b7e657c0d9b00c6c52fee7f1e8e7ba0038db1aa07f97ead6",
+          "independently_invoiced_rpcs": 29814
+        },
+        {
+          "id": "C_free_raw_ring_zipf09_N4096_B64_seed104",
+          "sha256": "cf2352df64107b24e3a1f069ca89f42cfa52fba4356b6ed0b4949c0e6726b798",
+          "independently_invoiced_rpcs": 44721
+        },
+        {
+          "id": "C_free_raw_r0_zipf09_N4096_B64_seed104",
+          "sha256": "3dcc8aa44a4f59b77fa387f639a0a7d136593586166892b7e02e2e8ae6236171",
+          "independently_invoiced_rpcs": 44721
+        },
+        {
+          "id": "C_free_compressed_deferred_zipf09_N4096_B64_seed104",
+          "sha256": "3958e293398289cfda87fe5e6386df1c3e08ec7789d3d2292cfb48262b7ecb0b",
+          "independently_invoiced_rpcs": 24882
+        },
+        {
+          "id": "C_free_compressed_sde_zipf09_N4096_B64_seed104",
+          "sha256": "20fdbb2707dc4deba4602dde855c5bb7f1e313b745a27ef2baa28d865d27198d",
+          "independently_invoiced_rpcs": 24882
+        },
+        {
+          "id": "C_free_compressed_ring_zipf09_N4096_B64_seed104",
+          "sha256": "ac0259e8d0276738e461a672db6a6c87cad0b36dc1f3ee87554d6d88456fb7d6",
+          "independently_invoiced_rpcs": 37323
+        },
+        {
+          "id": "C_free_compressed_r0_zipf09_N4096_B64_seed104",
+          "sha256": "1f0da43882ef958fd167e05c581534f7e5a61c942a354d6530abca9ff5f22183",
+          "independently_invoiced_rpcs": 37323
+        },
+        {
+          "id": "C_free_raw_deferred_scan_N4096_B64_seed104",
+          "sha256": "6cf0db362df53b1e647180c8035aa074163467d55056a1a52aaee422a261b0e9",
+          "independently_invoiced_rpcs": 11690
+        },
+        {
+          "id": "C_free_raw_sde_scan_N4096_B64_seed104",
+          "sha256": "d17cba819512ff6186218c819643d352c4a58da6693644a0d1de5ac1d953da9d",
+          "independently_invoiced_rpcs": 11690
+        },
+        {
+          "id": "C_free_raw_ring_scan_N4096_B64_seed104",
+          "sha256": "278091ce0f894f3b354b494d028d70f22b2298616bb0910e649c5efe3a79cc89",
+          "independently_invoiced_rpcs": 17535
+        },
+        {
+          "id": "C_free_raw_r0_scan_N4096_B64_seed104",
+          "sha256": "75d0c77070219794f347f6776516fb9d423d08b3ecaf1b22fad192c388540e51",
+          "independently_invoiced_rpcs": 17535
+        },
+        {
+          "id": "C_free_compressed_deferred_scan_N4096_B64_seed104",
+          "sha256": "baeebbe1fd198c51c829e8f383733677db5c3e681077439917d426ae32312c91",
+          "independently_invoiced_rpcs": 11284
+        },
+        {
+          "id": "C_free_compressed_sde_scan_N4096_B64_seed104",
+          "sha256": "0dfebaa1190ffd1d1199132fcc95da2d88667035a73a15be43f269d8c4a44837",
+          "independently_invoiced_rpcs": 11284
+        },
+        {
+          "id": "C_free_compressed_ring_scan_N4096_B64_seed104",
+          "sha256": "99b9def16ddb60e42b4e471530e2884ae6ccf2ccce92650ee5366cf79c2d6124",
+          "independently_invoiced_rpcs": 16926
+        },
+        {
+          "id": "C_free_compressed_r0_scan_N4096_B64_seed104",
+          "sha256": "83f9e05efdcb2ae6fa3d33aadb8db6858d77183796a8d3c77ecfc9f507ecfcf1",
+          "independently_invoiced_rpcs": 16926
+        },
+        {
+          "id": "C_free_raw_deferred_uniform_N4096_B64_seed105",
+          "sha256": "87e01a52f9ec50a1e3f1f9fa993d074a3b88da5d552c71c3d4ac8b2ce0ccec93",
+          "independently_invoiced_rpcs": 30552
+        },
+        {
+          "id": "C_free_raw_sde_uniform_N4096_B64_seed105",
+          "sha256": "c8c5bdba9c72c11f0b91d4e29dc076effe4c049a447bcbcf4ff475336238dc2b",
+          "independently_invoiced_rpcs": 30552
+        },
+        {
+          "id": "C_free_raw_ring_uniform_N4096_B64_seed105",
+          "sha256": "0e75948b3fa425bd3976afeade5cb97d0c1dd1063252164eaa271af41ce228b7",
+          "independently_invoiced_rpcs": 45828
+        },
+        {
+          "id": "C_free_raw_r0_uniform_N4096_B64_seed105",
+          "sha256": "982b9a4a170c7b4589430a9eae83784e62acbf0f3af76bae2ab9bbd00e3dd3d7",
+          "independently_invoiced_rpcs": 45828
+        },
+        {
+          "id": "C_free_compressed_deferred_uniform_N4096_B64_seed105",
+          "sha256": "376e71f700ff7aa303088ee776e564b30068af32b7203ab06eefc70ec03c30a3",
+          "independently_invoiced_rpcs": 25582
+        },
+        {
+          "id": "C_free_compressed_sde_uniform_N4096_B64_seed105",
+          "sha256": "fa8251042f00c2fa7e28a1110d63334eef848cb4ee73b77a345a52a5936bfca1",
+          "independently_invoiced_rpcs": 25582
+        },
+        {
+          "id": "C_free_compressed_ring_uniform_N4096_B64_seed105",
+          "sha256": "485e597590901b1d574d9c5cbad7dfb2cd0dc2cebcdb41487fdcbdcff47ff4ac",
+          "independently_invoiced_rpcs": 38373
+        },
+        {
+          "id": "C_free_compressed_r0_uniform_N4096_B64_seed105",
+          "sha256": "a8988699fc8c9dbaa56c4bcd38e60e6ead597019c5f4e0846c74bcfebf1dc97e",
+          "independently_invoiced_rpcs": 38373
+        },
+        {
+          "id": "C_free_raw_deferred_hot90_N4096_B64_seed105",
+          "sha256": "c1682948597e4a98061c53414171b936165dd815890341940ce7dee804a53ae7",
+          "independently_invoiced_rpcs": 29034
+        },
+        {
+          "id": "C_free_raw_sde_hot90_N4096_B64_seed105",
+          "sha256": "d250e77693bd9c38c7e435d24fd8b2c8da95b901898dde95de955c253e882ac5",
+          "independently_invoiced_rpcs": 29034
+        },
+        {
+          "id": "C_free_raw_ring_hot90_N4096_B64_seed105",
+          "sha256": "a4ba499d0a114824003856f11e49fb7c7f47c74d16146fb1bd5137ee38dc62b3",
+          "independently_invoiced_rpcs": 43551
+        },
+        {
+          "id": "C_free_raw_r0_hot90_N4096_B64_seed105",
+          "sha256": "a112b49df62ffffbd622f5b7d69eaf3b2afe61d1aed24ba98475e3d4525a975d",
+          "independently_invoiced_rpcs": 43551
+        },
+        {
+          "id": "C_free_compressed_deferred_hot90_N4096_B64_seed105",
+          "sha256": "2f220440c94a9fc3ee17e214a325975df4e45dac60ad29ea3bc27b0af633750b",
+          "independently_invoiced_rpcs": 24374
+        },
+        {
+          "id": "C_free_compressed_sde_hot90_N4096_B64_seed105",
+          "sha256": "9b0d70848dbeb94660dca501089e93de563fb62bc1413ed407c3f0862c24eadc",
+          "independently_invoiced_rpcs": 24374
+        },
+        {
+          "id": "C_free_compressed_ring_hot90_N4096_B64_seed105",
+          "sha256": "622266fce301ccb6156231b55f1f86c4fd8b6f54a2ac93217bcbce5a12b4af51",
+          "independently_invoiced_rpcs": 36561
+        },
+        {
+          "id": "C_free_compressed_r0_hot90_N4096_B64_seed105",
+          "sha256": "710f9ca3c2f2a6177efd213af591200695e0e4245bd13911f965672291a07172",
+          "independently_invoiced_rpcs": 36561
+        },
+        {
+          "id": "C_free_raw_deferred_zipf09_N4096_B64_seed105",
+          "sha256": "f5b49ea8e94bff2bcc206a0b138e0be1a4cc86a36fcd04c9c3e2a22442091d85",
+          "independently_invoiced_rpcs": 29926
+        },
+        {
+          "id": "C_free_raw_sde_zipf09_N4096_B64_seed105",
+          "sha256": "7c285962ec8412cad4e76ef14f533dbc415d7afcf5a808425be8f8f85b37cb2b",
+          "independently_invoiced_rpcs": 29926
+        },
+        {
+          "id": "C_free_raw_ring_zipf09_N4096_B64_seed105",
+          "sha256": "43440d5fa6428de7775bcf29c4afe463e94b7b3767b5eab3a2fbb813bb1a60d3",
+          "independently_invoiced_rpcs": 44889
+        },
+        {
+          "id": "C_free_raw_r0_zipf09_N4096_B64_seed105",
+          "sha256": "271adcb53b1fddfbbe884353cac7ec4bfc57e2c2ce18d1f035d0889cee1cb7fb",
+          "independently_invoiced_rpcs": 44889
+        },
+        {
+          "id": "C_free_compressed_deferred_zipf09_N4096_B64_seed105",
+          "sha256": "73d662988f12dec5975b0b70013de92f33cd234cae9defc5aae4523208da23fa",
+          "independently_invoiced_rpcs": 25042
+        },
+        {
+          "id": "C_free_compressed_sde_zipf09_N4096_B64_seed105",
+          "sha256": "620b85d1a85af511015e6df241b3d62d8efb63bd436b9308aead399164b6fe86",
+          "independently_invoiced_rpcs": 25042
+        },
+        {
+          "id": "C_free_compressed_ring_zipf09_N4096_B64_seed105",
+          "sha256": "df21f0af516e5c986a2f897ef2faf808b87cceaf28020012e381f512ac5571d2",
+          "independently_invoiced_rpcs": 37563
+        },
+        {
+          "id": "C_free_compressed_r0_zipf09_N4096_B64_seed105",
+          "sha256": "905d5a667b78895d73f5b6a88de75c2efe0342450714158e3742a90bf46c1350",
+          "independently_invoiced_rpcs": 37563
+        },
+        {
+          "id": "C_free_raw_deferred_scan_N4096_B64_seed105",
+          "sha256": "76ee4b3d8a51be096321de234f4df49f1a551947a9ec9e61003a67639746d483",
+          "independently_invoiced_rpcs": 11690
+        },
+        {
+          "id": "C_free_raw_sde_scan_N4096_B64_seed105",
+          "sha256": "197c8025f5b6a0e99b68351be98611615189b1d67c024fc05790a4aac6ae30a9",
+          "independently_invoiced_rpcs": 11690
+        },
+        {
+          "id": "C_free_raw_ring_scan_N4096_B64_seed105",
+          "sha256": "9c4b0b4cdf8ef1ea7651c9b364c66c7e2d2cd33836e7c8fab9ee412f2221ab8b",
+          "independently_invoiced_rpcs": 17535
+        },
+        {
+          "id": "C_free_raw_r0_scan_N4096_B64_seed105",
+          "sha256": "4119331af8795f560a4d1eee63ec11f4915f299d648d8ca4091b9d32406c02d7",
+          "independently_invoiced_rpcs": 17535
+        },
+        {
+          "id": "C_free_compressed_deferred_scan_N4096_B64_seed105",
+          "sha256": "6f5d53dcdfddc2c7553dd8642111389d0ac9d9a9fe09dc32181f10137951adf2",
+          "independently_invoiced_rpcs": 11284
+        },
+        {
+          "id": "C_free_compressed_sde_scan_N4096_B64_seed105",
+          "sha256": "b6c8c8c7db72420b03ffceda8c62dd15a027a7b145a0ee62654b60ed511d0db0",
+          "independently_invoiced_rpcs": 11284
+        },
+        {
+          "id": "C_free_compressed_ring_scan_N4096_B64_seed105",
+          "sha256": "ca49df40d01354d0bb406e6977f1c91e5187d99938fd97e90ef96207bfa43ab6",
+          "independently_invoiced_rpcs": 16926
+        },
+        {
+          "id": "C_free_compressed_r0_scan_N4096_B64_seed105",
+          "sha256": "f676dee7ad8d3aa1f7d9d0924422c2d988ff5fe544bfb56c3a9e18f75d454664",
+          "independently_invoiced_rpcs": 16926
+        }
+      ],
+      "schedule_groups": [
+        {
+          "family": "free_raw",
+          "workload": "uniform",
+          "seed": 101,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "uniform",
+          "seed": 101,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "hot90",
+          "seed": 101,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "hot90",
+          "seed": 101,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "zipf09",
+          "seed": 101,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "zipf09",
+          "seed": 101,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "scan",
+          "seed": 101,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "scan",
+          "seed": 101,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "uniform",
+          "seed": 102,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "uniform",
+          "seed": 102,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "hot90",
+          "seed": 102,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "hot90",
+          "seed": 102,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "zipf09",
+          "seed": 102,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "zipf09",
+          "seed": 102,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "scan",
+          "seed": 102,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "scan",
+          "seed": 102,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "uniform",
+          "seed": 103,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "uniform",
+          "seed": 103,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "hot90",
+          "seed": 103,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "hot90",
+          "seed": 103,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "zipf09",
+          "seed": 103,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "zipf09",
+          "seed": 103,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "scan",
+          "seed": 103,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "scan",
+          "seed": 103,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "uniform",
+          "seed": 104,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "uniform",
+          "seed": 104,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "hot90",
+          "seed": 104,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "hot90",
+          "seed": 104,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "zipf09",
+          "seed": 104,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "zipf09",
+          "seed": 104,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "scan",
+          "seed": 104,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "scan",
+          "seed": 104,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "uniform",
+          "seed": 105,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "uniform",
+          "seed": 105,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "hot90",
+          "seed": 105,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "hot90",
+          "seed": 105,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "zipf09",
+          "seed": 105,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "zipf09",
+          "seed": 105,
+          "backends": 4
+        },
+        {
+          "family": "free_raw",
+          "workload": "scan",
+          "seed": 105,
+          "backends": 4
+        },
+        {
+          "family": "free_compressed",
+          "workload": "scan",
+          "seed": 105,
+          "backends": 4
+        }
+      ],
+      "security_scope": "receipt/functional/ledger audit; not new native-system security proof"
+    },
+    {
+      "family_group": "rho",
+      "status": "complete_receipts_audited",
+      "expected": 80,
+      "completed": 80,
+      "missing": [],
+      "rows": [
+        {
+          "id": "C2_rho_deferred_uniform_N4096_B64_seed101",
+          "sha256": "120a2b2f2fc2ecd7e4016267246e687908b0bb1e41aeb238846e4acacdb36325",
+          "independently_invoiced_rpcs": 34174
+        },
+        {
+          "id": "C2_rho_sde_uniform_N4096_B64_seed101",
+          "sha256": "da2739512448dafd748f437a9dcfc1ab4931a5523d338315b22285ead8a22773",
+          "independently_invoiced_rpcs": 34174
+        },
+        {
+          "id": "C2_rho_ring_uniform_N4096_B64_seed101",
+          "sha256": "7ba30b9f501dd2b98adf71db8b893ee5e9ffb00b1242b53f247480a79a43dd90",
+          "independently_invoiced_rpcs": 39432
+        },
+        {
+          "id": "C2_rho_r0_uniform_N4096_B64_seed101",
+          "sha256": "d7f745d2f6375d4871b4c0551e5f03d1ed0f05b1e0e7338abc0c6b085fb4ed6e",
+          "independently_invoiced_rpcs": 39432
+        },
+        {
+          "id": "C2_rho_deferred_hot90_N4096_B64_seed101",
+          "sha256": "50f5e470ae5d9a608632eddac6c01e388dffbdc563b6374a867c47a8026adac7",
+          "independently_invoiced_rpcs": 6100
+        },
+        {
+          "id": "C2_rho_sde_hot90_N4096_B64_seed101",
+          "sha256": "6cdd4098fab135297a7d9f2caf2e276416ab42bb860e39bce62ad7a5fdd6e296",
+          "independently_invoiced_rpcs": 6100
+        },
+        {
+          "id": "C2_rho_ring_hot90_N4096_B64_seed101",
+          "sha256": "99270c644d2957c0824a66f8f02aca8dd8ca17a9b4761674300cb55ced8c7457",
+          "independently_invoiced_rpcs": 7038
+        },
+        {
+          "id": "C2_rho_r0_hot90_N4096_B64_seed101",
+          "sha256": "f3f9410130302b1a199239a78dbff8c1be9d87560c6daf43cfce545d8ac7c707",
+          "independently_invoiced_rpcs": 7038
+        },
+        {
+          "id": "C2_rho_deferred_zipf09_N4096_B64_seed101",
+          "sha256": "ef2cc773e9733fb92f8aea14349cfa9bf531010d2461f4071e04d13d1d463d0a",
+          "independently_invoiced_rpcs": 22404
+        },
+        {
+          "id": "C2_rho_sde_zipf09_N4096_B64_seed101",
+          "sha256": "bd00eebdc910276991b6f827c62f82ef71f554bf57169060955518562703be39",
+          "independently_invoiced_rpcs": 22404
+        },
+        {
+          "id": "C2_rho_ring_zipf09_N4096_B64_seed101",
+          "sha256": "207b46c239be305858e262e3a63f89f65c67b3d095ca41e3a811b529bbf06dd1",
+          "independently_invoiced_rpcs": 25851
+        },
+        {
+          "id": "C2_rho_r0_zipf09_N4096_B64_seed101",
+          "sha256": "14dcb8b52e18479099dd67c14de4c7ffb45cec220496751311b3540114c047e8",
+          "independently_invoiced_rpcs": 25851
+        },
+        {
+          "id": "C2_rho_deferred_scan_N4096_B64_seed101",
+          "sha256": "a2a19ddfdec7a5e17d77c2b6b8dd683f34a1e1697418204ed490b7cdc8c274c9",
+          "independently_invoiced_rpcs": 35498
+        },
+        {
+          "id": "C2_rho_sde_scan_N4096_B64_seed101",
+          "sha256": "c6bc300b74f5c876bba7e2f0dad043835fc710c56fdebbd78515c328370e6579",
+          "independently_invoiced_rpcs": 35498
+        },
+        {
+          "id": "C2_rho_ring_scan_N4096_B64_seed101",
+          "sha256": "8ff13519bf77c7b13018a3a628a313e447325ccc70d0a5c2ce2a1420555ec306",
+          "independently_invoiced_rpcs": 40959
+        },
+        {
+          "id": "C2_rho_r0_scan_N4096_B64_seed101",
+          "sha256": "4c18315282cceb6446c2b0d4f3baadd56285a52cdee51d35cff91c84d3e2b849",
+          "independently_invoiced_rpcs": 40959
+        },
+        {
+          "id": "C2_rho_deferred_uniform_N4096_B64_seed102",
+          "sha256": "c0ec980a5013b8b40ae98f973dfb6e5ea14a4bae7c0c29bcb39b6b71f1b397ee",
+          "independently_invoiced_rpcs": 34104
+        },
+        {
+          "id": "C2_rho_sde_uniform_N4096_B64_seed102",
+          "sha256": "98969a12464144e6d38a42567e5a5485c55191d9222290badb17ce1d54fc6926",
+          "independently_invoiced_rpcs": 34104
+        },
+        {
+          "id": "C2_rho_ring_uniform_N4096_B64_seed102",
+          "sha256": "4c64cb6fbb507b92047cfb97f86bcfe4672a12feaa1f81b026664c444502528e",
+          "independently_invoiced_rpcs": 39351
+        },
+        {
+          "id": "C2_rho_r0_uniform_N4096_B64_seed102",
+          "sha256": "98cd16f02f442b4c5745ad132356911cfe6ec8b56d2e67ff87efc2287050ed12",
+          "independently_invoiced_rpcs": 39351
+        },
+        {
+          "id": "C2_rho_deferred_hot90_N4096_B64_seed102",
+          "sha256": "5d631f23c5786a236489d343af19e63c967240ec2e9deb3fdf445ec8e4f7dcf9",
+          "independently_invoiced_rpcs": 6126
+        },
+        {
+          "id": "C2_rho_sde_hot90_N4096_B64_seed102",
+          "sha256": "d3f3fc3e4c8b1c173efd75645667b6a486af7558cea9b491d06dd92d2c28eb2b",
+          "independently_invoiced_rpcs": 6126
+        },
+        {
+          "id": "C2_rho_ring_hot90_N4096_B64_seed102",
+          "sha256": "5b43a84a49f93d32a228a544dacc4b73e7ae6dc72bac72eee1dcd535b8407dcf",
+          "independently_invoiced_rpcs": 7068
+        },
+        {
+          "id": "C2_rho_r0_hot90_N4096_B64_seed102",
+          "sha256": "127da2671a4028a1a71d5b5788c3c59a87548069978464b162915047b1872e2a",
+          "independently_invoiced_rpcs": 7068
+        },
+        {
+          "id": "C2_rho_deferred_zipf09_N4096_B64_seed102",
+          "sha256": "dc0f3b8ef254d8baec90ae619e97a77102c38cf4102cee808619aef977e8dd99",
+          "independently_invoiced_rpcs": 21798
+        },
+        {
+          "id": "C2_rho_sde_zipf09_N4096_B64_seed102",
+          "sha256": "ce1e0682cf40b4bccbd5e726d86ffbbf505437389e8d2dd4eceac5efa84f465e",
+          "independently_invoiced_rpcs": 21798
+        },
+        {
+          "id": "C2_rho_ring_zipf09_N4096_B64_seed102",
+          "sha256": "d554c3c7931271376279534008c118fce508fb09088fc85608b5e68b377eb76d",
+          "independently_invoiced_rpcs": 25152
+        },
+        {
+          "id": "C2_rho_r0_zipf09_N4096_B64_seed102",
+          "sha256": "d799ee89d80a9c7808c9164f0e322f9723fa935d0e702a1027feecd02a09f1f8",
+          "independently_invoiced_rpcs": 25152
+        },
+        {
+          "id": "C2_rho_deferred_scan_N4096_B64_seed102",
+          "sha256": "b8163a50c5cea47563754165790c1272cf06258fe356572e4eb7861ea747dbac",
+          "independently_invoiced_rpcs": 35498
+        },
+        {
+          "id": "C2_rho_sde_scan_N4096_B64_seed102",
+          "sha256": "949ce3bc42a74250b2c4795efca395e20034aaff31aed9e3145d8c9653a14a05",
+          "independently_invoiced_rpcs": 35498
+        },
+        {
+          "id": "C2_rho_ring_scan_N4096_B64_seed102",
+          "sha256": "24323598b5bb175f2a9dcd6af7564e20451126b1d17f058d1556629c08807f12",
+          "independently_invoiced_rpcs": 40959
+        },
+        {
+          "id": "C2_rho_r0_scan_N4096_B64_seed102",
+          "sha256": "5a106f8e8b9f6366d7cea2addeca30d05e04898eb9ca764b759ddca02105d505",
+          "independently_invoiced_rpcs": 40959
+        },
+        {
+          "id": "C2_rho_deferred_uniform_N4096_B64_seed103",
+          "sha256": "f525bc9610a1d54880dbe539c73b34cfbb76ee10cd9bbed89c8b08f9b2db576e",
+          "independently_invoiced_rpcs": 34102
+        },
+        {
+          "id": "C2_rho_sde_uniform_N4096_B64_seed103",
+          "sha256": "72c028e33c9815d05d19f5a2a254eaa813aad759e168802b518a0a0baf549c23",
+          "independently_invoiced_rpcs": 34102
+        },
+        {
+          "id": "C2_rho_ring_uniform_N4096_B64_seed103",
+          "sha256": "475270d5cc6d6e23a9efd600b1d0e3a6578a5ff123523ed75dae2be2fe38a5aa",
+          "independently_invoiced_rpcs": 39348
+        },
+        {
+          "id": "C2_rho_r0_uniform_N4096_B64_seed103",
+          "sha256": "0c313127b1f9fe002062f1fd7b9c27c7a6adc619371de431ec083a34935d440d",
+          "independently_invoiced_rpcs": 39348
+        },
+        {
+          "id": "C2_rho_deferred_hot90_N4096_B64_seed103",
+          "sha256": "5b29638cb5c80e2d7501035c5c77b6c7a27933d9dd4caa616eb2bf9df9329449",
+          "independently_invoiced_rpcs": 6102
+        },
+        {
+          "id": "C2_rho_sde_hot90_N4096_B64_seed103",
+          "sha256": "047eeed7fbd4da9a4c7ee6734e912af5d4c3f0bcce02de71a86cd951bed15771",
+          "independently_invoiced_rpcs": 6102
+        },
+        {
+          "id": "C2_rho_ring_hot90_N4096_B64_seed103",
+          "sha256": "d529bda09a74c527e3bda4370c5174321e94bcb78a06bced22575d0d06f9f1a4",
+          "independently_invoiced_rpcs": 7041
+        },
+        {
+          "id": "C2_rho_r0_hot90_N4096_B64_seed103",
+          "sha256": "81ef000c97bf93be2b10f3d9faae829f821341e8ac2d83aaa93311793c7ff98a",
+          "independently_invoiced_rpcs": 7041
+        },
+        {
+          "id": "C2_rho_deferred_zipf09_N4096_B64_seed103",
+          "sha256": "3b4978bd7ffcfb7504fa6c07059404de48ce4747af5c9a2153cd85f648be6704",
+          "independently_invoiced_rpcs": 22446
+        },
+        {
+          "id": "C2_rho_sde_zipf09_N4096_B64_seed103",
+          "sha256": "354107594daf67162a7d97715558727c14254fcc509e1c8086c9984f7c0fb140",
+          "independently_invoiced_rpcs": 22446
+        },
+        {
+          "id": "C2_rho_ring_zipf09_N4096_B64_seed103",
+          "sha256": "fccf678f530e99fdb56bd673026621fcee494ecb9ad559bb0d1fb6eb1c0cc5e6",
+          "independently_invoiced_rpcs": 25899
+        },
+        {
+          "id": "C2_rho_r0_zipf09_N4096_B64_seed103",
+          "sha256": "50f3d95a05a8d43b01b80400486a439d4c1e374e6df19a03461f90929d7ed8f5",
+          "independently_invoiced_rpcs": 25899
+        },
+        {
+          "id": "C2_rho_deferred_scan_N4096_B64_seed103",
+          "sha256": "b88b3ddcbcacd5c0165ba182ab81e12c9c50353b85952aadee6a0a336bef4937",
+          "independently_invoiced_rpcs": 35498
+        },
+        {
+          "id": "C2_rho_sde_scan_N4096_B64_seed103",
+          "sha256": "6841bc7a3282340dcc92700ae472e8f14ff08610ace14bbdd5ea2269c19fe805",
+          "independently_invoiced_rpcs": 35498
+        },
+        {
+          "id": "C2_rho_ring_scan_N4096_B64_seed103",
+          "sha256": "f25bc206573f73a46ddda008eaea90e56a5b1bf12615d80f1a7be82fa30718f8",
+          "independently_invoiced_rpcs": 40959
+        },
+        {
+          "id": "C2_rho_r0_scan_N4096_B64_seed103",
+          "sha256": "bb0528645860f93ac2e840626419f8354144c622b53467737d885fc0040d4ce3",
+          "independently_invoiced_rpcs": 40959
+        },
+        {
+          "id": "C2_rho_deferred_uniform_N4096_B64_seed104",
+          "sha256": "8112cb9e0669bc830856e8147e0997954bc5dc358ac6f55156459d0299c4aeea",
+          "independently_invoiced_rpcs": 34044
+        },
+        {
+          "id": "C2_rho_sde_uniform_N4096_B64_seed104",
+          "sha256": "31f51431f2ce8e42f392083c2c71a1245223513e2582ab68b736bd4ab16fa6c0",
+          "independently_invoiced_rpcs": 34044
+        },
+        {
+          "id": "C2_rho_ring_uniform_N4096_B64_seed104",
+          "sha256": "e3a0fa1f3517e345cc1c30659abc4e9b145cddb552beff414db92fb03d114eca",
+          "independently_invoiced_rpcs": 39282
+        },
+        {
+          "id": "C2_rho_r0_uniform_N4096_B64_seed104",
+          "sha256": "150f3f60e58a9e728c19e7628193b3e2c5cb97135d43295269c383ce01b8f418",
+          "independently_invoiced_rpcs": 39282
+        },
+        {
+          "id": "C2_rho_deferred_hot90_N4096_B64_seed104",
+          "sha256": "47a256cadc109473fc7314475fc548a5b1d2c086457274845532744ffa475cde",
+          "independently_invoiced_rpcs": 6172
+        },
+        {
+          "id": "C2_rho_sde_hot90_N4096_B64_seed104",
+          "sha256": "c70b209c9d981139da0be1a148fa8932d6cd2902df2185a9127fea1090b4d4b5",
+          "independently_invoiced_rpcs": 6172
+        },
+        {
+          "id": "C2_rho_ring_hot90_N4096_B64_seed104",
+          "sha256": "2096a0184466757682592e5f0c2fe8bf1b651f3104ce16b11a141105970d4043",
+          "independently_invoiced_rpcs": 7122
+        },
+        {
+          "id": "C2_rho_r0_hot90_N4096_B64_seed104",
+          "sha256": "1ad0048b77b6049d27f8bfe1c1fd335743d957a342f512b89517acb7028b61cc",
+          "independently_invoiced_rpcs": 7122
+        },
+        {
+          "id": "C2_rho_deferred_zipf09_N4096_B64_seed104",
+          "sha256": "276bb4957541cb9b209d70f4f73af0cf82300e0cf62b91746cd702acdaf113d3",
+          "independently_invoiced_rpcs": 22794
+        },
+        {
+          "id": "C2_rho_sde_zipf09_N4096_B64_seed104",
+          "sha256": "cbb2ec7d43b07726baa9a251d60f319b330954d3afd4e9ae420fb2631ba553ff",
+          "independently_invoiced_rpcs": 22794
+        },
+        {
+          "id": "C2_rho_ring_zipf09_N4096_B64_seed104",
+          "sha256": "07ab13a23645672c9464f4ac7b4acf8f287a506d5143aad8299893e4abb6a91d",
+          "independently_invoiced_rpcs": 26301
+        },
+        {
+          "id": "C2_rho_r0_zipf09_N4096_B64_seed104",
+          "sha256": "787dd9b864ced3db8a83fbdf16dc082e4aaf1e9bd96aee571ad9fb6da832bcc7",
+          "independently_invoiced_rpcs": 26301
+        },
+        {
+          "id": "C2_rho_deferred_scan_N4096_B64_seed104",
+          "sha256": "0489f4bd1e4152ec7ca5ef50c3f1604bccb59e765e95b94bf4f1de9aeef688e4",
+          "independently_invoiced_rpcs": 35498
+        },
+        {
+          "id": "C2_rho_sde_scan_N4096_B64_seed104",
+          "sha256": "435de68fad1b2a2195ba79887afcf2e872ce63fac4661ab4d7814c73268c4f8e",
+          "independently_invoiced_rpcs": 35498
+        },
+        {
+          "id": "C2_rho_ring_scan_N4096_B64_seed104",
+          "sha256": "039fa2be965c3d45c366450eb86617966773d9aa82a1681f35f63ac6ce4e5f0a",
+          "independently_invoiced_rpcs": 40959
+        },
+        {
+          "id": "C2_rho_r0_scan_N4096_B64_seed104",
+          "sha256": "d5e9d3e607bb95b3368ae34468912a6097ab9c0e828d574a8cf85e7410aee538",
+          "independently_invoiced_rpcs": 40959
+        },
+        {
+          "id": "C2_rho_deferred_uniform_N4096_B64_seed105",
+          "sha256": "4887440b21781589cc92fd0e585df2096b01e588be73d95b859198c4f6a78658",
+          "independently_invoiced_rpcs": 34042
+        },
+        {
+          "id": "C2_rho_sde_uniform_N4096_B64_seed105",
+          "sha256": "ef8c6b27be8a93bcc38d93e15527f99f7722c2cbd189b4f9d4f5b785fd04f6f8",
+          "independently_invoiced_rpcs": 34042
+        },
+        {
+          "id": "C2_rho_ring_uniform_N4096_B64_seed105",
+          "sha256": "6730d2c634eeddee9122d6b23befcf13fe50f6fe83b25218fa48ffc05c8e0354",
+          "independently_invoiced_rpcs": 39279
+        },
+        {
+          "id": "C2_rho_r0_uniform_N4096_B64_seed105",
+          "sha256": "be1e1e8fd1717d87eae6247dd509c3c0f2a86fcbb7cc3c001f4932eeda0f3141",
+          "independently_invoiced_rpcs": 39279
+        },
+        {
+          "id": "C2_rho_deferred_hot90_N4096_B64_seed105",
+          "sha256": "3c59824c4757d7e6827b7edd04716e7b94b0779ae92d30b44afef7d476f6b8d2",
+          "independently_invoiced_rpcs": 6172
+        },
+        {
+          "id": "C2_rho_sde_hot90_N4096_B64_seed105",
+          "sha256": "e43980d5388b93ef3be72427c020834615fa14e42b2183af3709a613dfb69c59",
+          "independently_invoiced_rpcs": 6172
+        },
+        {
+          "id": "C2_rho_ring_hot90_N4096_B64_seed105",
+          "sha256": "b4acbf65a37d932012c7bfa323dfe7d645b9e28a920b787d85df4895447aecdc",
+          "independently_invoiced_rpcs": 7122
+        },
+        {
+          "id": "C2_rho_r0_hot90_N4096_B64_seed105",
+          "sha256": "089c94eac75165eef1bb993a06c419a79643e71c2782600e7cf9792cf0684690",
+          "independently_invoiced_rpcs": 7122
+        },
+        {
+          "id": "C2_rho_deferred_zipf09_N4096_B64_seed105",
+          "sha256": "1ac8cbb8f909acd1ef0d8d452e88fb768388d0bbc12dc6da5d04236c5d509e43",
+          "independently_invoiced_rpcs": 21702
+        },
+        {
+          "id": "C2_rho_sde_zipf09_N4096_B64_seed105",
+          "sha256": "62fecc7b1de206246246dc85fff019ade91549ea19eb133726c5964a8c587a7f",
+          "independently_invoiced_rpcs": 21702
+        },
+        {
+          "id": "C2_rho_ring_zipf09_N4096_B64_seed105",
+          "sha256": "61d83f3d09fb28b5843e9fb6065d91680afd960362b10c864363aa716e69322f",
+          "independently_invoiced_rpcs": 25041
+        },
+        {
+          "id": "C2_rho_r0_zipf09_N4096_B64_seed105",
+          "sha256": "048c8c68dc399ef824ca7586149c5ecd925d0d468720ad448a074c2bde936474",
+          "independently_invoiced_rpcs": 25041
+        },
+        {
+          "id": "C2_rho_deferred_scan_N4096_B64_seed105",
+          "sha256": "b6c9a2dfef56f7b165ed7ce2f83fb72d6a95fc62cf0b865bae5e56ee6cfc1b20",
+          "independently_invoiced_rpcs": 35498
+        },
+        {
+          "id": "C2_rho_sde_scan_N4096_B64_seed105",
+          "sha256": "1fcd45996931cab71f657be44a308503f9e0685b77cf8ff3c8896dbca9ee2822",
+          "independently_invoiced_rpcs": 35498
+        },
+        {
+          "id": "C2_rho_ring_scan_N4096_B64_seed105",
+          "sha256": "090325cc202f5cf3a3fb2f5d252168e6ca855a2bcce12a00e6b8a1ffdd5f1253",
+          "independently_invoiced_rpcs": 40959
+        },
+        {
+          "id": "C2_rho_r0_scan_N4096_B64_seed105",
+          "sha256": "8868e45954de89b5b6e83d06e9a77634263cc4411e67467e3f98d67c542bfa87",
+          "independently_invoiced_rpcs": 40959
+        }
+      ],
+      "schedule_groups": [
+        {
+          "family": "rho",
+          "workload": "uniform",
+          "seed": 101,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "hot90",
+          "seed": 101,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "zipf09",
+          "seed": 101,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "scan",
+          "seed": 101,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "uniform",
+          "seed": 102,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "hot90",
+          "seed": 102,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "zipf09",
+          "seed": 102,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "scan",
+          "seed": 102,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "uniform",
+          "seed": 103,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "hot90",
+          "seed": 103,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "zipf09",
+          "seed": 103,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "scan",
+          "seed": 103,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "uniform",
+          "seed": 104,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "hot90",
+          "seed": 104,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "zipf09",
+          "seed": 104,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "scan",
+          "seed": 104,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "uniform",
+          "seed": 105,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "hot90",
+          "seed": 105,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "zipf09",
+          "seed": 105,
+          "backends": 4
+        },
+        {
+          "family": "rho",
+          "workload": "scan",
+          "seed": 105,
+          "backends": 4
+        }
+      ],
+      "security_scope": "receipt/functional/ledger audit; not new native-system security proof"
+    }
+  ],
+  "checker_sha256": "62d74a5c986e916b169bbe26b284bfdbfcaa7f9033a0c4dd5c1e772ec2901b97",
+  "runtime_identity": {
+    "core": {
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+    },
+    "composition": {
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\frontends.py": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\transfer_backend.py": "34d593fa1dee61f412fce3a11269d1e05e0e5f2c893107a436d5d53c73be4ff7",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\composition_runtime.py": "f00534055545cf47a8e39c657f2ba392864d9895a55fa6bb8bf8a733e7a492cb",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_composition.py": "2d979c9682b3053b4276671b2a40e48f0a90479d06c6ec416dfbb7ce266d85a2"
+    }
+  }
+}

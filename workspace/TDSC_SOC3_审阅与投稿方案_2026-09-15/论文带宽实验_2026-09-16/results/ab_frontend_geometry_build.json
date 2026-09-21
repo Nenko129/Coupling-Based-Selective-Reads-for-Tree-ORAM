@@ -1,0 +1,9 @@
+{
+  "source_sha256": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4",
+  "target_sha256": "60b00e6ac900eb00c7eab40a0f570ea609fffd915700a26bec7b04f5aed1dc1e",
+  "generator_sha256": "c0e6d39cf78206052c4f9c982c49a774eb70d49ef405f017ca1f6b051b3a3f7d",
+  "changes": [
+    "optional explicit public height",
+    "preserve the original height formula when omitted"
+  ]
+}

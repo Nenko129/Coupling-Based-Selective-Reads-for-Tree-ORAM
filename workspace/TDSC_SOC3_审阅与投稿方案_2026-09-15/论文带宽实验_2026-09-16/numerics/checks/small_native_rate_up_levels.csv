@@ -1,0 +1,4 @@
+height,mass_upper_hex,mean_upper_hex,unknown_prob_hex,unknown_moment_hex,exit_prob_hex,exit_moment_hex,seconds
+1,0x1.ee35fbc70b94p-1,0x1.2ae7e629cc92p+0,0x1.28aaa14352a04p-5,0x1.6d521def02b86p-2,0x0p+0,0x0p+0,0.000684368
+2,0x1.dc49573942cf7p-1,0x1.e1849e5647c78p+0,0x1.2eb188c63980ep-4,0x1.c333641f561a2p-1,0x1.816e48fe7868ap-10,0x1.5f757311f0262p-7,0.000565056
+3,0x1.b7fe72b964feap-1,0x1.b61277c4ef9c5p+1,0x1.3af960b02b568p-3,0x1.14596e87fbad6p+1,0x1.88faee7beee64p-8,0x1.6d2a71e934bcfp-5,0.000514942

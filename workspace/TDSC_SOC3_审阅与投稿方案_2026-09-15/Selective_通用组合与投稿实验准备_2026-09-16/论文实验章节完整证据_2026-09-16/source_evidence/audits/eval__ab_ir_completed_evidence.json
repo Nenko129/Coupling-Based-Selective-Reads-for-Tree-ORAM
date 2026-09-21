@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "tables_audit_sha256": "297249dbac8131b70f3aa62972345d61f0216c7d18c54aaaeec38ed57753bf82",
+  "exports_audit_sha256": "435773149299a0073ab3103b99c853b7efafe67ef304d788f703b64bbcfc3bac",
+  "visual_review_sha256": "beb4a366fa939a8f7e66012518192e019826986bd6d1e391a9f52a27d2309449",
+  "producer_sha256": "13eb3a1cca46565f9af2368b5af44737943d2d025d13d68fa58ba57f95063d41",
+  "ab_source_sha256": "22c6189ff5d3ff0c6471578fcd1773c8762d447c549020d3b406f2270b6481c7",
+  "ir_source_sha256": "c5e218727beff6426a4e9a05ea9ab97358884788864331304aebcc8fe51ed8e5",
+  "report_hashes": {
+    "57_AB_CB完整图表与覆盖范围.md": "4a4a2e969b9129dddfa916ff8531fd5458ccd5d157293a8ae9a1660b926549fe",
+    "59_IR压缩图表与压力边界.md": "c03acf80c303910069b8869e6bab2d745e2af96fd6355792028a1ba14eec1640"
+  },
+  "ab_runs": 60,
+  "ir_outcomes": 75,
+  "ir_reused_controls": 60,
+  "ir_incomplete": 12,
+  "main_ir_reset_slots": 0,
+  "ab_measurement_background_slots": 0,
+  "native_full_systems": false
+}

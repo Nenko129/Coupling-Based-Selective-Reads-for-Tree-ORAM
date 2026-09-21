@@ -1,0 +1,6 @@
+{
+  "source_sha256": "2993b49ac938036882980884f5dc9dd85d9fb6ff8b5aedfe3bbd980530f817ab",
+  "output_sha256": "ca3959eefab2e38e836cca71677bdfedeedbd6f5d10b3b9b8258897d6acc6f26",
+  "generator_sha256": "a18a78a16d9895668bcc74ce3a0996bca4cb8107260aeb05266db048422038ca",
+  "scope": "unvalidated generated kernel; must compile, run rounding/pointwise checks and audit before numerical admission"
+}

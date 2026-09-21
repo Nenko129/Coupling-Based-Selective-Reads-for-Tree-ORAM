@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this artifact."
+title: "Coupling-Based Selective Reads for Tree ORAM: Experimental Artifact"
+type: software
+version: "r8.6"
+authors:
+  - family-names: Ma
+    given-names: Siyuan
+    orcid: "https://orcid.org/0009-0004-6569-6093"
+  - family-names: Liao
+    given-names: Taoteng
+    orcid: "https://orcid.org/0009-0004-4453-8096"
+  - family-names: Huang
+    given-names: Xinyuan
+    orcid: "https://orcid.org/0009-0003-3782-0774"
+  - family-names: Li
+    given-names: Tingquan
+    orcid: "https://orcid.org/0009-0007-2243-7691"
+  - family-names: Wen
+    given-names: Yanlong
+    email: "wenyl@nankai.edu.cn"
+    orcid: "https://orcid.org/0000-0002-8006-9109"

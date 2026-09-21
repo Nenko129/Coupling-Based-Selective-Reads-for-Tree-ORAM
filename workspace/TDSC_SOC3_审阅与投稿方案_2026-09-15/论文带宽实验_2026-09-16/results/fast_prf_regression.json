@@ -1,0 +1,774 @@
+{
+  "status": "passed",
+  "primitive": {
+    "core": {
+      "lengths": [
+        {
+          "length": 0,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 1,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 15,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 16,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 31,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 63,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 64,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 65,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 128,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 4096,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 8193,
+          "ciphertext_and_counters_equal": true
+        }
+      ],
+      "boundary_cases": [
+        {
+          "method": "stream",
+          "calls_remaining": 0,
+          "identical": true
+        },
+        {
+          "method": "stream",
+          "calls_remaining": 1,
+          "identical": true
+        },
+        {
+          "method": "stream",
+          "calls_remaining": 2,
+          "identical": true
+        },
+        {
+          "method": "stream",
+          "calls_remaining": 3,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 0,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 1,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 2,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 3,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 0,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 1,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 2,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 3,
+          "identical": true
+        },
+        {
+          "case": "nonce_limit",
+          "identical": true
+        },
+        {
+          "case": "short_ciphertext",
+          "identical": true
+        }
+      ]
+    },
+    "heterogeneous": {
+      "lengths": [
+        {
+          "length": 0,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 1,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 15,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 16,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 31,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 63,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 64,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 65,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 128,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 4096,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 8193,
+          "ciphertext_and_counters_equal": true
+        }
+      ],
+      "boundary_cases": [
+        {
+          "method": "stream",
+          "calls_remaining": 0,
+          "identical": true
+        },
+        {
+          "method": "stream",
+          "calls_remaining": 1,
+          "identical": true
+        },
+        {
+          "method": "stream",
+          "calls_remaining": 2,
+          "identical": true
+        },
+        {
+          "method": "stream",
+          "calls_remaining": 3,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 0,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 1,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 2,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 3,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 0,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 1,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 2,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 3,
+          "identical": true
+        },
+        {
+          "case": "nonce_limit",
+          "identical": true
+        },
+        {
+          "case": "short_ciphertext",
+          "identical": true
+        }
+      ]
+    }
+  },
+  "complete_runs": [
+    {
+      "configs": [
+        {
+          "kind": "deferred",
+          "L": 3,
+          "N": 8,
+          "B": 64,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.07101019995752722,
+      "optimized_harness_seconds": 0.058681100024841726
+    },
+    {
+      "configs": [
+        {
+          "kind": "gc_ring",
+          "L": 3,
+          "N": 8,
+          "B": 64,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.1070188001031056,
+      "optimized_harness_seconds": 0.09747960011009127
+    },
+    {
+      "configs": [
+        {
+          "kind": "path",
+          "L": 3,
+          "N": 8,
+          "B": 64,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.0693855999270454,
+      "optimized_harness_seconds": 0.0421106000430882
+    },
+    {
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 3,
+          "N": 8,
+          "B": 64,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.07561060006264597,
+      "optimized_harness_seconds": 0.07328749995213002
+    },
+    {
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 3,
+          "N": 8,
+          "B": 64,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.122971500037238,
+      "optimized_harness_seconds": 0.10628690000157803
+    },
+    {
+      "configs": [
+        {
+          "kind": "sde",
+          "L": 3,
+          "N": 8,
+          "B": 64,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.05055379995610565,
+      "optimized_harness_seconds": 0.03767979994881898
+    },
+    {
+      "configs": [
+        {
+          "kind": "deferred",
+          "L": 3,
+          "N": 8,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 1.1144164999714121,
+      "optimized_harness_seconds": 0.4007578999735415
+    },
+    {
+      "configs": [
+        {
+          "kind": "gc_ring",
+          "L": 3,
+          "N": 8,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.8433811999857426,
+      "optimized_harness_seconds": 0.36870730004739016
+    },
+    {
+      "configs": [
+        {
+          "kind": "path",
+          "L": 3,
+          "N": 8,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 1.3553690999979153,
+      "optimized_harness_seconds": 0.5022370999213308
+    },
+    {
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 3,
+          "N": 8,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.6845792999956757,
+      "optimized_harness_seconds": 0.2641542999772355
+    },
+    {
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 3,
+          "N": 8,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 1.04844869999215,
+      "optimized_harness_seconds": 0.3591191000305116
+    },
+    {
+      "configs": [
+        {
+          "kind": "sde",
+          "L": 3,
+          "N": 8,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.8621161000337452,
+      "optimized_harness_seconds": 0.30943879997357726
+    },
+    {
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 3,
+          "N": 8,
+          "B": 64,
+          "Z": 7,
+          "A": 6,
+          "S": 6,
+          "R": 128,
+          "tree": 0,
+          "compact": false,
+          "fused": false
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.09405099996365607,
+      "optimized_harness_seconds": 0.07732919999398291
+    },
+    {
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 3,
+          "N": 8,
+          "B": 64,
+          "Z": 7,
+          "A": 6,
+          "S": 6,
+          "R": 128,
+          "tree": 0,
+          "compact": false,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.0962336000520736,
+      "optimized_harness_seconds": 0.09526279999408871
+    },
+    {
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 3,
+          "N": 8,
+          "B": 64,
+          "Z": 7,
+          "A": 6,
+          "S": 6,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": false
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.0827999000903219,
+      "optimized_harness_seconds": 0.07378989993594587
+    },
+    {
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 3,
+          "N": 8,
+          "B": 64,
+          "Z": 7,
+          "A": 6,
+          "S": 6,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.08579380006995052,
+      "optimized_harness_seconds": 0.07885900000110269
+    },
+    {
+      "configs": [
+        {
+          "kind": "sde",
+          "L": 3,
+          "N": 8,
+          "B": 256,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "sde",
+          "L": 1,
+          "N": 1,
+          "B": 64,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.13511749997269362,
+      "optimized_harness_seconds": 0.10588920000009239
+    },
+    {
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 3,
+          "N": 8,
+          "B": 256,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "r0",
+          "L": 1,
+          "N": 1,
+          "B": 64,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "exact_frames_state_randomness": true,
+      "original_harness_seconds": 0.1600961999502033,
+      "optimized_harness_seconds": 0.15489260002505034
+    }
+  ],
+  "cached_runs": [
+    {
+      "config": {
+        "kind": "sde",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": true,
+        "Z_by_depth": [
+          4,
+          2,
+          3,
+          4
+        ],
+        "S_by_depth": []
+      },
+      "exact_remote_and_local_states": true
+    },
+    {
+      "config": {
+        "kind": "sde",
+        "L": 3,
+        "N": 8,
+        "B": 4096,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": true,
+        "Z_by_depth": [
+          4,
+          2,
+          3,
+          4
+        ],
+        "S_by_depth": []
+      },
+      "exact_remote_and_local_states": true
+    },
+    {
+      "config": {
+        "kind": "r0",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": true,
+        "Z_by_depth": [],
+        "S_by_depth": [
+          3,
+          2,
+          2,
+          3
+        ]
+      },
+      "exact_remote_and_local_states": true
+    },
+    {
+      "config": {
+        "kind": "r0",
+        "L": 3,
+        "N": 8,
+        "B": 4096,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": true,
+        "Z_by_depth": [],
+        "S_by_depth": [
+          3,
+          2,
+          2,
+          3
+        ]
+      },
+      "exact_remote_and_local_states": true
+    }
+  ],
+  "attacks": [
+    {
+      "kind": "sde",
+      "attack": "body_bitflip",
+      "exact_failed_prefix": true
+    },
+    {
+      "kind": "sde",
+      "attack": "replay_sequence",
+      "exact_failed_prefix": true
+    },
+    {
+      "kind": "sde",
+      "attack": "bad_ack",
+      "exact_failed_prefix": true
+    },
+    {
+      "kind": "r0",
+      "attack": "body_bitflip",
+      "exact_failed_prefix": true
+    },
+    {
+      "kind": "r0",
+      "attack": "replay_sequence",
+      "exact_failed_prefix": true
+    },
+    {
+      "kind": "r0",
+      "attack": "bad_ack",
+      "exact_failed_prefix": true
+    }
+  ],
+  "source_hashes": {
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+  },
+  "accelerator_sha256": "910f2a4deb1ece922c2ab51d6031d1a966e604e9a2101d90e619f0c4cc7b4d84",
+  "checker_sha256": "0c829248b8386e91e6ec43c3fb62761d622e13e627425dda76b02942a4d5932d",
+  "heterogeneous_sha256": "6d312f8674efc788314f2ab5612a90979b50213ca79f601a777ef00a2dfb8fd5",
+  "timing_scope": "harness implementation only; not an ORAM latency result"
+}

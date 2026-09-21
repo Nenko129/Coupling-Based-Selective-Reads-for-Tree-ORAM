@@ -1,0 +1,125 @@
+{
+  "status": "passed",
+  "source_sha256": "e28cdc7f5f07e300f9d2c3d6b36429793003be9ac27afb67ccdea30689cd6b00",
+  "report_sha256": "ed3b4bd15549fe667c631fb9c8b9aaed98a556a763185801169a99cd4f117d03",
+  "auditor_sha256": "0d648f40b2f9832b2c9377165d062d509fd7afb7ea9433f5478c03a683d52199",
+  "traces": [
+    {
+      "path": "results\\ab_deadq_routed_wire\\zero_extra_encrypted_witness.jsonl.gz",
+      "frames": 95,
+      "commits": 6,
+      "bill": {
+        "rpc": 95,
+        "request_bytes": 3807,
+        "response_bytes": 17912,
+        "control_bytes": 5518,
+        "metadata_bytes": 2042,
+        "proof_bytes": 10624,
+        "reads": 46,
+        "data_record_bytes": 3535,
+        "updates": 37,
+        "commits": 6,
+        "total_bytes": 21719
+      }
+    },
+    {
+      "path": "results\\ab_deadq_routed_wire\\trial_901.jsonl.gz",
+      "frames": 3603,
+      "commits": 200,
+      "bill": {
+        "rpc": 3603,
+        "request_bytes": 149035,
+        "response_bytes": 804615,
+        "control_bytes": 202806,
+        "metadata_bytes": 102418,
+        "proof_bytes": 512480,
+        "reads": 1906,
+        "data_record_bytes": 135946,
+        "updates": 1297,
+        "commits": 200,
+        "total_bytes": 953650
+      }
+    },
+    {
+      "path": "results\\ab_deadq_routed_wire\\trial_902.jsonl.gz",
+      "frames": 3571,
+      "commits": 200,
+      "bill": {
+        "rpc": 3571,
+        "request_bytes": 148788,
+        "response_bytes": 798623,
+        "control_bytes": 201698,
+        "metadata_bytes": 101094,
+        "proof_bytes": 507360,
+        "reads": 1871,
+        "data_record_bytes": 137259,
+        "updates": 1300,
+        "commits": 200,
+        "total_bytes": 947411
+      }
+    },
+    {
+      "path": "results\\ab_deadq_routed_wire\\trial_903.jsonl.gz",
+      "frames": 3596,
+      "commits": 200,
+      "bill": {
+        "rpc": 3596,
+        "request_bytes": 149444,
+        "response_bytes": 803786,
+        "control_bytes": 202792,
+        "metadata_bytes": 103839,
+        "proof_bytes": 511360,
+        "reads": 1892,
+        "data_record_bytes": 135239,
+        "updates": 1304,
+        "commits": 200,
+        "total_bytes": 953230
+      }
+    },
+    {
+      "path": "results\\ab_deadq_routed_wire\\trial_904.jsonl.gz",
+      "frames": 3758,
+      "commits": 200,
+      "bill": {
+        "rpc": 3758,
+        "request_bytes": 154467,
+        "response_bytes": 840665,
+        "control_bytes": 210568,
+        "metadata_bytes": 108813,
+        "proof_bytes": 537280,
+        "reads": 2009,
+        "data_record_bytes": 138471,
+        "updates": 1349,
+        "commits": 200,
+        "total_bytes": 995132
+      }
+    },
+    {
+      "path": "results\\ab_deadq_routed_wire\\trial_905.jsonl.gz",
+      "frames": 3741,
+      "commits": 200,
+      "bill": {
+        "rpc": 3741,
+        "request_bytes": 153541,
+        "response_bytes": 835172,
+        "control_bytes": 208950,
+        "metadata_bytes": 107439,
+        "proof_bytes": 534560,
+        "reads": 2019,
+        "data_record_bytes": 137764,
+        "updates": 1322,
+        "commits": 200,
+        "total_bytes": 988713
+      }
+    }
+  ],
+  "rejected_wire_corruptions": [
+    "read proof",
+    "write proof/new root",
+    "final commit"
+  ],
+  "native_AB": false,
+  "CB_integration": false,
+  "security_proof": false,
+  "bandwidth_improvement_claim": false
+}

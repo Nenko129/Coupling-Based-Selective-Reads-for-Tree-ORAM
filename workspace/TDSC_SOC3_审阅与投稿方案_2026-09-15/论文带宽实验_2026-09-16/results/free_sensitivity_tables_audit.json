@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "runs": 160,
+  "cells": 32,
+  "paired_comparisons": 36,
+  "markdown_effect_rows": 36,
+  "source_sha256": "0fd54075dc6accd334674fd0de61282c415040aa59a6ac56c42a75784a8a443d",
+  "report_sha256": "2cb22159816e3290ed7b86a68979fb420fd22511c4d6c9d98206a1a603376daf",
+  "checker_sha256": "fea8a2496bab1b6dd0794f1d2f07b537e87215ea2f6ee7efbca1ed6ed5447599",
+  "raw_references": 160,
+  "security_proof": false,
+  "latency_claim": false
+}

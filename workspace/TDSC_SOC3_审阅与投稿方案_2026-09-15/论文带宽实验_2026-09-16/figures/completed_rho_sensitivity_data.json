@@ -1,0 +1,1743 @@
+{
+  "source_sha256": "742e33d8d6cda3c9cb6983acbc823d9b1d25b14bf02208540fd832e68e4beda4",
+  "runs": 180,
+  "new_runs": 120,
+  "reused": 60,
+  "series": [
+    {
+      "panel": "selective",
+      "configuration": "uniform/ratio1",
+      "baseline": "deferred",
+      "variant": "sde",
+      "gid": "selective_0_0",
+      "ids": [
+        [
+          "SENS_rho_ratio1_deferred_seed101",
+          "SENS_rho_ratio1_sde_seed101"
+        ],
+        [
+          "SENS_rho_ratio1_deferred_seed102",
+          "SENS_rho_ratio1_sde_seed102"
+        ],
+        [
+          "SENS_rho_ratio1_deferred_seed103",
+          "SENS_rho_ratio1_sde_seed103"
+        ],
+        [
+          "SENS_rho_ratio1_deferred_seed104",
+          "SENS_rho_ratio1_sde_seed104"
+        ],
+        [
+          "SENS_rho_ratio1_deferred_seed105",
+          "SENS_rho_ratio1_sde_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 14.121595072378822,
+      "ci95": [
+        14.069338862183786,
+        14.173851282573859
+      ],
+      "values": [
+        14.178733453483316,
+        14.113777413387663,
+        14.061719580691722,
+        14.119187596949722,
+        14.134557317381692
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "uniform/ratio1",
+      "baseline": "ring",
+      "variant": "r0",
+      "gid": "selective_0_1",
+      "ids": [
+        [
+          "SENS_rho_ratio1_ring_seed101",
+          "SENS_rho_ratio1_r0_seed101"
+        ],
+        [
+          "SENS_rho_ratio1_ring_seed102",
+          "SENS_rho_ratio1_r0_seed102"
+        ],
+        [
+          "SENS_rho_ratio1_ring_seed103",
+          "SENS_rho_ratio1_r0_seed103"
+        ],
+        [
+          "SENS_rho_ratio1_ring_seed104",
+          "SENS_rho_ratio1_r0_seed104"
+        ],
+        [
+          "SENS_rho_ratio1_ring_seed105",
+          "SENS_rho_ratio1_r0_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 17.862930542389126,
+      "ci95": [
+        17.80787806617744,
+        17.91798301860081
+      ],
+      "values": [
+        17.905261548573115,
+        17.820749456578877,
+        17.91561461949094,
+        17.828740941934573,
+        17.844286145368127
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "uniform/ratio1",
+      "kind": "deferred",
+      "gid": "absolute_0_0",
+      "ids": [
+        "SENS_rho_ratio1_deferred_seed101",
+        "SENS_rho_ratio1_deferred_seed102",
+        "SENS_rho_ratio1_deferred_seed103",
+        "SENS_rho_ratio1_deferred_seed104",
+        "SENS_rho_ratio1_deferred_seed105"
+      ],
+      "n": 5,
+      "mean": 26818.6953125,
+      "ci95": [
+        26774.682731746343,
+        26862.707893253657
+      ],
+      "values": [
+        26839.28515625,
+        26814.2109375,
+        26770.65234375,
+        26864.359375,
+        26804.96875
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "uniform/ratio1",
+      "kind": "sde",
+      "gid": "absolute_0_1",
+      "ids": [
+        "SENS_rho_ratio1_sde_seed101",
+        "SENS_rho_ratio1_sde_seed102",
+        "SENS_rho_ratio1_sde_seed103",
+        "SENS_rho_ratio1_sde_seed104",
+        "SENS_rho_ratio1_sde_seed105"
+      ],
+      "n": 5,
+      "mean": 23031.46015625,
+      "ci95": [
+        23000.623694535134,
+        23062.296617964865
+      ],
+      "values": [
+        23033.814453125,
+        23029.712890625,
+        23006.23828125,
+        23071.330078125,
+        23016.205078125
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "uniform/ratio1",
+      "kind": "ring",
+      "gid": "absolute_0_2",
+      "ids": [
+        "SENS_rho_ratio1_ring_seed101",
+        "SENS_rho_ratio1_ring_seed102",
+        "SENS_rho_ratio1_ring_seed103",
+        "SENS_rho_ratio1_ring_seed104",
+        "SENS_rho_ratio1_ring_seed105"
+      ],
+      "n": 5,
+      "mean": 35189.13203125,
+      "ci95": [
+        35149.967203276196,
+        35228.29685922381
+      ],
+      "values": [
+        35208.1171875,
+        35188.30859375,
+        35148.17578125,
+        35229.5234375,
+        35171.53515625
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "uniform/ratio1",
+      "kind": "r0",
+      "gid": "absolute_0_3",
+      "ids": [
+        "SENS_rho_ratio1_r0_seed101",
+        "SENS_rho_ratio1_r0_seed102",
+        "SENS_rho_ratio1_r0_seed103",
+        "SENS_rho_ratio1_r0_seed104",
+        "SENS_rho_ratio1_r0_seed105"
+      ],
+      "n": 5,
+      "mean": 28903.3265625,
+      "ci95": [
+        28859.300442342992,
+        28947.352682657005
+      ],
+      "values": [
+        28904.01171875,
+        28917.48828125,
+        28851.1640625,
+        28948.54296875,
+        28895.42578125
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "uniform/base",
+      "baseline": "deferred",
+      "variant": "sde",
+      "gid": "selective_1_0",
+      "ids": [
+        [
+          "C2_rho_deferred_uniform_N4096_B64_seed101",
+          "C2_rho_sde_uniform_N4096_B64_seed101"
+        ],
+        [
+          "C2_rho_deferred_uniform_N4096_B64_seed102",
+          "C2_rho_sde_uniform_N4096_B64_seed102"
+        ],
+        [
+          "C2_rho_deferred_uniform_N4096_B64_seed103",
+          "C2_rho_sde_uniform_N4096_B64_seed103"
+        ],
+        [
+          "C2_rho_deferred_uniform_N4096_B64_seed104",
+          "C2_rho_sde_uniform_N4096_B64_seed104"
+        ],
+        [
+          "C2_rho_deferred_uniform_N4096_B64_seed105",
+          "C2_rho_sde_uniform_N4096_B64_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 8.289974181657463,
+      "ci95": [
+        8.252109462754118,
+        8.327838900560808
+      ],
+      "values": [
+        8.285233450339714,
+        8.324395405518514,
+        8.318318093173282,
+        8.257375456264116,
+        8.264548502991687
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "uniform/base",
+      "baseline": "ring",
+      "variant": "r0",
+      "gid": "selective_1_1",
+      "ids": [
+        [
+          "C2_rho_ring_uniform_N4096_B64_seed101",
+          "C2_rho_r0_uniform_N4096_B64_seed101"
+        ],
+        [
+          "C2_rho_ring_uniform_N4096_B64_seed102",
+          "C2_rho_r0_uniform_N4096_B64_seed102"
+        ],
+        [
+          "C2_rho_ring_uniform_N4096_B64_seed103",
+          "C2_rho_r0_uniform_N4096_B64_seed103"
+        ],
+        [
+          "C2_rho_ring_uniform_N4096_B64_seed104",
+          "C2_rho_r0_uniform_N4096_B64_seed104"
+        ],
+        [
+          "C2_rho_ring_uniform_N4096_B64_seed105",
+          "C2_rho_r0_uniform_N4096_B64_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 11.646822746065835,
+      "ci95": [
+        11.623248385703182,
+        11.670397106428489
+      ],
+      "values": [
+        11.625919405799735,
+        11.669291787135883,
+        11.660714368258374,
+        11.648780141016712,
+        11.62940802811847
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "uniform/base",
+      "kind": "deferred",
+      "gid": "absolute_1_0",
+      "ids": [
+        "C2_rho_deferred_uniform_N4096_B64_seed101",
+        "C2_rho_deferred_uniform_N4096_B64_seed102",
+        "C2_rho_deferred_uniform_N4096_B64_seed103",
+        "C2_rho_deferred_uniform_N4096_B64_seed104",
+        "C2_rho_deferred_uniform_N4096_B64_seed105"
+      ],
+      "n": 5,
+      "mean": 44276.2671875,
+      "ci95": [
+        44188.529266593534,
+        44364.00510840647
+      ],
+      "values": [
+        44381.9296875,
+        44290.56640625,
+        44286.6015625,
+        44213.1015625,
+        44209.13671875
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "uniform/base",
+      "kind": "sde",
+      "gid": "absolute_1_1",
+      "ids": [
+        "C2_rho_sde_uniform_N4096_B64_seed101",
+        "C2_rho_sde_uniform_N4096_B64_seed102",
+        "C2_rho_sde_uniform_N4096_B64_seed103",
+        "C2_rho_sde_uniform_N4096_B64_seed104",
+        "C2_rho_sde_uniform_N4096_B64_seed105"
+      ],
+      "n": 5,
+      "mean": 40605.76796875,
+      "ci95": [
+        40531.67621574559,
+        40679.85972175441
+      ],
+      "values": [
+        40704.783203125,
+        40603.64453125,
+        40602.701171875,
+        40562.259765625,
+        40555.451171875
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "uniform/base",
+      "kind": "ring",
+      "gid": "absolute_1_2",
+      "ids": [
+        "C2_rho_ring_uniform_N4096_B64_seed101",
+        "C2_rho_ring_uniform_N4096_B64_seed102",
+        "C2_rho_ring_uniform_N4096_B64_seed103",
+        "C2_rho_ring_uniform_N4096_B64_seed104",
+        "C2_rho_ring_uniform_N4096_B64_seed105"
+      ],
+      "n": 5,
+      "mean": 52377.03203125,
+      "ci95": [
+        52280.50270320882,
+        52473.561359291176
+      ],
+      "values": [
+        52492.82421875,
+        52388.46875,
+        52393.5390625,
+        52309.29296875,
+        52301.03515625
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "uniform/base",
+      "kind": "r0",
+      "gid": "absolute_1_3",
+      "ids": [
+        "C2_rho_r0_uniform_N4096_B64_seed101",
+        "C2_rho_r0_uniform_N4096_B64_seed102",
+        "C2_rho_r0_uniform_N4096_B64_seed103",
+        "C2_rho_r0_uniform_N4096_B64_seed104",
+        "C2_rho_r0_uniform_N4096_B64_seed105"
+      ],
+      "n": 5,
+      "mean": 46276.7734375,
+      "ci95": [
+        46189.05755309075,
+        46364.48932190925
+      ],
+      "values": [
+        46390.05078125,
+        46275.10546875,
+        46284.078125,
+        46215.8984375,
+        46218.734375
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "uniform/ratio5",
+      "baseline": "deferred",
+      "variant": "sde",
+      "gid": "selective_2_0",
+      "ids": [
+        [
+          "SENS_rho_ratio5_deferred_seed101",
+          "SENS_rho_ratio5_sde_seed101"
+        ],
+        [
+          "SENS_rho_ratio5_deferred_seed102",
+          "SENS_rho_ratio5_sde_seed102"
+        ],
+        [
+          "SENS_rho_ratio5_deferred_seed103",
+          "SENS_rho_ratio5_sde_seed103"
+        ],
+        [
+          "SENS_rho_ratio5_deferred_seed104",
+          "SENS_rho_ratio5_sde_seed104"
+        ],
+        [
+          "SENS_rho_ratio5_deferred_seed105",
+          "SENS_rho_ratio5_sde_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 5.864057751549597,
+      "ci95": [
+        5.837310588689492,
+        5.890804914409701
+      ],
+      "values": [
+        5.860786099715909,
+        5.88843717022467,
+        5.883984105206608,
+        5.841080375707863,
+        5.846001006892932
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "uniform/ratio5",
+      "baseline": "ring",
+      "variant": "r0",
+      "gid": "selective_2_1",
+      "ids": [
+        [
+          "SENS_rho_ratio5_ring_seed101",
+          "SENS_rho_ratio5_r0_seed101"
+        ],
+        [
+          "SENS_rho_ratio5_ring_seed102",
+          "SENS_rho_ratio5_r0_seed102"
+        ],
+        [
+          "SENS_rho_ratio5_ring_seed103",
+          "SENS_rho_ratio5_r0_seed103"
+        ],
+        [
+          "SENS_rho_ratio5_ring_seed104",
+          "SENS_rho_ratio5_r0_seed104"
+        ],
+        [
+          "SENS_rho_ratio5_ring_seed105",
+          "SENS_rho_ratio5_r0_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 8.629131970966261,
+      "ci95": [
+        8.611633344174138,
+        8.646630597758385
+      ],
+      "values": [
+        8.613359448355984,
+        8.645584833649023,
+        8.639446605932877,
+        8.630987439797423,
+        8.616281527096003
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "uniform/ratio5",
+      "kind": "deferred",
+      "gid": "absolute_2_0",
+      "ids": [
+        "SENS_rho_ratio5_deferred_seed101",
+        "SENS_rho_ratio5_deferred_seed102",
+        "SENS_rho_ratio5_deferred_seed103",
+        "SENS_rho_ratio5_deferred_seed104",
+        "SENS_rho_ratio5_deferred_seed105"
+      ],
+      "n": 5,
+      "mean": 62593.0234375,
+      "ci95": [
+        62469.33300041391,
+        62716.71387458609
+      ],
+      "values": [
+        62741.5234375,
+        62612.91015625,
+        62608.9453125,
+        62502.8515625,
+        62498.88671875
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "uniform/ratio5",
+      "kind": "sde",
+      "gid": "absolute_2_1",
+      "ids": [
+        "SENS_rho_ratio5_sde_seed101",
+        "SENS_rho_ratio5_sde_seed102",
+        "SENS_rho_ratio5_sde_seed103",
+        "SENS_rho_ratio5_sde_seed104",
+        "SENS_rho_ratio5_sde_seed105"
+      ],
+      "n": 5,
+      "mean": 58922.52421875,
+      "ci95": [
+        58813.053925125576,
+        59031.99451237442
+      ],
+      "values": [
+        59064.376953125,
+        58925.98828125,
+        58925.044921875,
+        58852.009765625,
+        58845.201171875
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "uniform/ratio5",
+      "kind": "ring",
+      "gid": "absolute_2_2",
+      "ids": [
+        "SENS_rho_ratio5_ring_seed101",
+        "SENS_rho_ratio5_ring_seed102",
+        "SENS_rho_ratio5_ring_seed103",
+        "SENS_rho_ratio5_ring_seed104",
+        "SENS_rho_ratio5_ring_seed105"
+      ],
+      "n": 5,
+      "mean": 70693.78828125,
+      "ci95": [
+        70561.32000288715,
+        70826.25655961286
+      ],
+      "values": [
+        70852.41796875,
+        70710.8125,
+        70715.8828125,
+        70599.04296875,
+        70590.78515625
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "uniform/ratio5",
+      "kind": "r0",
+      "gid": "absolute_2_3",
+      "ids": [
+        "SENS_rho_ratio5_r0_seed101",
+        "SENS_rho_ratio5_r0_seed102",
+        "SENS_rho_ratio5_r0_seed103",
+        "SENS_rho_ratio5_r0_seed104",
+        "SENS_rho_ratio5_r0_seed105"
+      ],
+      "n": 5,
+      "mean": 64593.5296875,
+      "ci95": [
+        64470.12734512096,
+        64716.93202987903
+      ],
+      "values": [
+        64749.64453125,
+        64597.44921875,
+        64606.421875,
+        64505.6484375,
+        64508.484375
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "hot90/llc8",
+      "baseline": "deferred",
+      "variant": "sde",
+      "gid": "selective_3_0",
+      "ids": [
+        [
+          "SENS_rho_llc8_deferred_seed101",
+          "SENS_rho_llc8_sde_seed101"
+        ],
+        [
+          "SENS_rho_llc8_deferred_seed102",
+          "SENS_rho_llc8_sde_seed102"
+        ],
+        [
+          "SENS_rho_llc8_deferred_seed103",
+          "SENS_rho_llc8_sde_seed103"
+        ],
+        [
+          "SENS_rho_llc8_deferred_seed104",
+          "SENS_rho_llc8_sde_seed104"
+        ],
+        [
+          "SENS_rho_llc8_deferred_seed105",
+          "SENS_rho_llc8_sde_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 8.322640313714126,
+      "ci95": [
+        8.304740268645737,
+        8.340540358782516
+      ],
+      "values": [
+        8.335329747961296,
+        8.339141621674106,
+        8.310371180570165,
+        8.321400568896154,
+        8.306958449468915
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "hot90/llc8",
+      "baseline": "ring",
+      "variant": "r0",
+      "gid": "selective_3_1",
+      "ids": [
+        [
+          "SENS_rho_llc8_ring_seed101",
+          "SENS_rho_llc8_r0_seed101"
+        ],
+        [
+          "SENS_rho_llc8_ring_seed102",
+          "SENS_rho_llc8_r0_seed102"
+        ],
+        [
+          "SENS_rho_llc8_ring_seed103",
+          "SENS_rho_llc8_r0_seed103"
+        ],
+        [
+          "SENS_rho_llc8_ring_seed104",
+          "SENS_rho_llc8_r0_seed104"
+        ],
+        [
+          "SENS_rho_llc8_ring_seed105",
+          "SENS_rho_llc8_r0_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 11.647670396072993,
+      "ci95": [
+        11.624254575067438,
+        11.671086217078548
+      ],
+      "values": [
+        11.646441933200046,
+        11.652815396305149,
+        11.615993683040626,
+        11.65983992477624,
+        11.663261043042905
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "hot90/llc8",
+      "kind": "deferred",
+      "gid": "absolute_3_0",
+      "ids": [
+        "SENS_rho_llc8_deferred_seed101",
+        "SENS_rho_llc8_deferred_seed102",
+        "SENS_rho_llc8_deferred_seed103",
+        "SENS_rho_llc8_deferred_seed104",
+        "SENS_rho_llc8_deferred_seed105"
+      ],
+      "n": 5,
+      "mean": 14571.25703125,
+      "ci95": [
+        14445.635011229231,
+        14696.879051270767
+      ],
+      "values": [
+        14495.38671875,
+        14644.34765625,
+        14485.453125,
+        14711.87890625,
+        14519.21875
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "hot90/llc8",
+      "kind": "sde",
+      "gid": "absolute_3_1",
+      "ids": [
+        "SENS_rho_llc8_sde_seed101",
+        "SENS_rho_llc8_sde_seed102",
+        "SENS_rho_llc8_sde_seed103",
+        "SENS_rho_llc8_sde_seed104",
+        "SENS_rho_llc8_sde_seed105"
+      ],
+      "n": 5,
+      "mean": 13358.53984375,
+      "ci95": [
+        13244.21296713451,
+        13472.866720365491
+      ],
+      "values": [
+        13287.1484375,
+        13423.134765625,
+        13281.658203125,
+        13487.64453125,
+        13313.11328125
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "hot90/llc8",
+      "kind": "ring",
+      "gid": "absolute_3_2",
+      "ids": [
+        "SENS_rho_llc8_ring_seed101",
+        "SENS_rho_llc8_ring_seed102",
+        "SENS_rho_llc8_ring_seed103",
+        "SENS_rho_llc8_ring_seed104",
+        "SENS_rho_llc8_ring_seed105"
+      ],
+      "n": 5,
+      "mean": 17212.8015625,
+      "ci95": [
+        17062.09448168813,
+        17363.50864331187
+      ],
+      "values": [
+        17109.50390625,
+        17299.19921875,
+        17116.62109375,
+        17381.4765625,
+        17157.20703125
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "hot90/llc8",
+      "kind": "r0",
+      "gid": "absolute_3_3",
+      "ids": [
+        "SENS_rho_llc8_r0_seed101",
+        "SENS_rho_llc8_r0_seed102",
+        "SENS_rho_llc8_r0_seed103",
+        "SENS_rho_llc8_r0_seed104",
+        "SENS_rho_llc8_r0_seed105"
+      ],
+      "n": 5,
+      "mean": 15207.9015625,
+      "ci95": [
+        15076.821956701433,
+        15338.981168298566
+      ],
+      "values": [
+        15116.85546875,
+        15283.35546875,
+        15128.35546875,
+        15354.82421875,
+        15156.1171875
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "hot90/base",
+      "baseline": "deferred",
+      "variant": "sde",
+      "gid": "selective_4_0",
+      "ids": [
+        [
+          "C2_rho_deferred_hot90_N4096_B64_seed101",
+          "C2_rho_sde_hot90_N4096_B64_seed101"
+        ],
+        [
+          "C2_rho_deferred_hot90_N4096_B64_seed102",
+          "C2_rho_sde_hot90_N4096_B64_seed102"
+        ],
+        [
+          "C2_rho_deferred_hot90_N4096_B64_seed103",
+          "C2_rho_sde_hot90_N4096_B64_seed103"
+        ],
+        [
+          "C2_rho_deferred_hot90_N4096_B64_seed104",
+          "C2_rho_sde_hot90_N4096_B64_seed104"
+        ],
+        [
+          "C2_rho_deferred_hot90_N4096_B64_seed105",
+          "C2_rho_sde_hot90_N4096_B64_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 8.310674902168318,
+      "ci95": [
+        8.193362820097217,
+        8.427986984239418
+      ],
+      "values": [
+        8.468217983984472,
+        8.300448923751713,
+        8.295778237053785,
+        8.274396180463173,
+        8.214533185588447
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "hot90/base",
+      "baseline": "ring",
+      "variant": "r0",
+      "gid": "selective_4_1",
+      "ids": [
+        [
+          "C2_rho_ring_hot90_N4096_B64_seed101",
+          "C2_rho_r0_hot90_N4096_B64_seed101"
+        ],
+        [
+          "C2_rho_ring_hot90_N4096_B64_seed102",
+          "C2_rho_r0_hot90_N4096_B64_seed102"
+        ],
+        [
+          "C2_rho_ring_hot90_N4096_B64_seed103",
+          "C2_rho_r0_hot90_N4096_B64_seed103"
+        ],
+        [
+          "C2_rho_ring_hot90_N4096_B64_seed104",
+          "C2_rho_r0_hot90_N4096_B64_seed104"
+        ],
+        [
+          "C2_rho_ring_hot90_N4096_B64_seed105",
+          "C2_rho_r0_hot90_N4096_B64_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 11.654155232206248,
+      "ci95": [
+        11.564059776941793,
+        11.744250687470704
+      ],
+      "values": [
+        11.781331194599698,
+        11.607271765012793,
+        11.621772419615395,
+        11.645882572202805,
+        11.614518209600554
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "hot90/base",
+      "kind": "deferred",
+      "gid": "absolute_4_0",
+      "ids": [
+        "C2_rho_deferred_hot90_N4096_B64_seed101",
+        "C2_rho_deferred_hot90_N4096_B64_seed102",
+        "C2_rho_deferred_hot90_N4096_B64_seed103",
+        "C2_rho_deferred_hot90_N4096_B64_seed104",
+        "C2_rho_deferred_hot90_N4096_B64_seed105"
+      ],
+      "n": 5,
+      "mean": 7966.70078125,
+      "ci95": [
+        7908.136077482004,
+        8025.265485017995
+      ],
+      "values": [
+        7921.0234375,
+        7954.7890625,
+        7924.98828125,
+        8016.3515625,
+        8016.3515625
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "hot90/base",
+      "kind": "sde",
+      "gid": "absolute_4_1",
+      "ids": [
+        "C2_rho_sde_hot90_N4096_B64_seed101",
+        "C2_rho_sde_hot90_N4096_B64_seed102",
+        "C2_rho_sde_hot90_N4096_B64_seed103",
+        "C2_rho_sde_hot90_N4096_B64_seed104",
+        "C2_rho_sde_hot90_N4096_B64_seed105"
+      ],
+      "n": 5,
+      "mean": 7304.640234375,
+      "ci95": [
+        7243.778507596956,
+        7365.501961153043
+      ],
+      "values": [
+        7250.25390625,
+        7294.505859375,
+        7267.548828125,
+        7353.046875,
+        7357.845703125
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "hot90/base",
+      "kind": "ring",
+      "gid": "absolute_4_2",
+      "ids": [
+        "C2_rho_ring_hot90_N4096_B64_seed101",
+        "C2_rho_ring_hot90_N4096_B64_seed102",
+        "C2_rho_ring_hot90_N4096_B64_seed103",
+        "C2_rho_ring_hot90_N4096_B64_seed104",
+        "C2_rho_ring_hot90_N4096_B64_seed105"
+      ],
+      "n": 5,
+      "mean": 9409.81015625,
+      "ci95": [
+        9334.588747889582,
+        9485.031564610417
+      ],
+      "values": [
+        9351.328125,
+        9388.41015625,
+        9360.39453125,
+        9473.640625,
+        9475.27734375
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "hot90/base",
+      "kind": "r0",
+      "gid": "absolute_4_3",
+      "ids": [
+        "C2_rho_r0_hot90_N4096_B64_seed101",
+        "C2_rho_r0_hot90_N4096_B64_seed102",
+        "C2_rho_r0_hot90_N4096_B64_seed103",
+        "C2_rho_r0_hot90_N4096_B64_seed104",
+        "C2_rho_r0_hot90_N4096_B64_seed105"
+      ],
+      "n": 5,
+      "mean": 8313.1921875,
+      "ci95": [
+        8242.506415843509,
+        8383.877959156493
+      ],
+      "values": [
+        8249.6171875,
+        8298.671875,
+        8272.55078125,
+        8370.3515625,
+        8374.76953125
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "hot90/llc128",
+      "baseline": "deferred",
+      "variant": "sde",
+      "gid": "selective_5_0",
+      "ids": [
+        [
+          "SENS_rho_llc128_deferred_seed101",
+          "SENS_rho_llc128_sde_seed101"
+        ],
+        [
+          "SENS_rho_llc128_deferred_seed102",
+          "SENS_rho_llc128_sde_seed102"
+        ],
+        [
+          "SENS_rho_llc128_deferred_seed103",
+          "SENS_rho_llc128_sde_seed103"
+        ],
+        [
+          "SENS_rho_llc128_deferred_seed104",
+          "SENS_rho_llc128_sde_seed104"
+        ],
+        [
+          "SENS_rho_llc128_deferred_seed105",
+          "SENS_rho_llc128_sde_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 8.255639195144564,
+      "ci95": [
+        8.184402775131232,
+        8.326875615157896
+      ],
+      "values": [
+        8.202364549334218,
+        8.307597126933985,
+        8.18633578981538,
+        8.27807122078198,
+        8.303827288857256
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "hot90/llc128",
+      "baseline": "ring",
+      "variant": "r0",
+      "gid": "selective_5_1",
+      "ids": [
+        [
+          "SENS_rho_llc128_ring_seed101",
+          "SENS_rho_llc128_r0_seed101"
+        ],
+        [
+          "SENS_rho_llc128_ring_seed102",
+          "SENS_rho_llc128_r0_seed102"
+        ],
+        [
+          "SENS_rho_llc128_ring_seed103",
+          "SENS_rho_llc128_r0_seed103"
+        ],
+        [
+          "SENS_rho_llc128_ring_seed104",
+          "SENS_rho_llc128_r0_seed104"
+        ],
+        [
+          "SENS_rho_llc128_ring_seed105",
+          "SENS_rho_llc128_r0_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 11.590204052111265,
+      "ci95": [
+        11.499872071007292,
+        11.680536033215237
+      ],
+      "values": [
+        11.5583955975604,
+        11.665664333727877,
+        11.634525476214597,
+        11.480526419890126,
+        11.61190843316332
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "hot90/llc128",
+      "kind": "deferred",
+      "gid": "absolute_5_0",
+      "ids": [
+        "SENS_rho_llc128_deferred_seed101",
+        "SENS_rho_llc128_deferred_seed102",
+        "SENS_rho_llc128_deferred_seed103",
+        "SENS_rho_llc128_deferred_seed104",
+        "SENS_rho_llc128_deferred_seed105"
+      ],
+      "n": 5,
+      "mean": 4488.84140625,
+      "ci95": [
+        4333.949468472392,
+        4643.733344027607
+      ],
+      "values": [
+        4312.06640625,
+        4659.65625,
+        4524.59375,
+        4480.89453125,
+        4466.99609375
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "hot90/llc128",
+      "kind": "sde",
+      "gid": "absolute_5_1",
+      "ids": [
+        "SENS_rho_llc128_sde_seed101",
+        "SENS_rho_llc128_sde_seed102",
+        "SENS_rho_llc128_sde_seed103",
+        "SENS_rho_llc128_sde_seed104",
+        "SENS_rho_llc128_sde_seed105"
+      ],
+      "n": 5,
+      "mean": 4118.2296875,
+      "ci95": [
+        3977.7216968660555,
+        4258.737678133945
+      ],
+      "values": [
+        3958.375,
+        4272.55078125,
+        4154.1953125,
+        4109.962890625,
+        4096.064453125
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "hot90/llc128",
+      "kind": "ring",
+      "gid": "absolute_5_2",
+      "ids": [
+        "SENS_rho_llc128_ring_seed101",
+        "SENS_rho_llc128_ring_seed102",
+        "SENS_rho_llc128_ring_seed103",
+        "SENS_rho_llc128_ring_seed104",
+        "SENS_rho_llc128_ring_seed105"
+      ],
+      "n": 5,
+      "mean": 5304.5984375,
+      "ci95": [
+        5123.292123094106,
+        5485.904751905894
+      ],
+      "values": [
+        5099.4453125,
+        5501.48828125,
+        5359.85546875,
+        5292.828125,
+        5269.375
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "hot90/llc128",
+      "kind": "r0",
+      "gid": "absolute_5_3",
+      "ids": [
+        "SENS_rho_llc128_r0_seed101",
+        "SENS_rho_llc128_r0_seed102",
+        "SENS_rho_llc128_r0_seed103",
+        "SENS_rho_llc128_r0_seed104",
+        "SENS_rho_llc128_r0_seed105"
+      ],
+      "n": 5,
+      "mean": 4689.7359375,
+      "ci95": [
+        4532.177695817016,
+        4847.2941791829835
+      ],
+      "values": [
+        4510.03125,
+        4859.703125,
+        4736.26171875,
+        4685.18359375,
+        4657.5
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "zipf09/rho32",
+      "baseline": "deferred",
+      "variant": "sde",
+      "gid": "selective_6_0",
+      "ids": [
+        [
+          "SENS_rho_rho32_deferred_seed101",
+          "SENS_rho_rho32_sde_seed101"
+        ],
+        [
+          "SENS_rho_rho32_deferred_seed102",
+          "SENS_rho_rho32_sde_seed102"
+        ],
+        [
+          "SENS_rho_rho32_deferred_seed103",
+          "SENS_rho_rho32_sde_seed103"
+        ],
+        [
+          "SENS_rho_rho32_deferred_seed104",
+          "SENS_rho_rho32_sde_seed104"
+        ],
+        [
+          "SENS_rho_rho32_deferred_seed105",
+          "SENS_rho_rho32_sde_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 9.341964573093549,
+      "ci95": [
+        9.311748102384366,
+        9.372181043802732
+      ],
+      "values": [
+        9.340532587371941,
+        9.309779499370052,
+        9.328373600281525,
+        9.36157383221724,
+        9.369563346226983
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "zipf09/rho32",
+      "baseline": "ring",
+      "variant": "r0",
+      "gid": "selective_6_1",
+      "ids": [
+        [
+          "SENS_rho_rho32_ring_seed101",
+          "SENS_rho_rho32_r0_seed101"
+        ],
+        [
+          "SENS_rho_rho32_ring_seed102",
+          "SENS_rho_rho32_r0_seed102"
+        ],
+        [
+          "SENS_rho_rho32_ring_seed103",
+          "SENS_rho_rho32_r0_seed103"
+        ],
+        [
+          "SENS_rho_rho32_ring_seed104",
+          "SENS_rho_rho32_r0_seed104"
+        ],
+        [
+          "SENS_rho_rho32_ring_seed105",
+          "SENS_rho_rho32_r0_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 12.830047006685279,
+      "ci95": [
+        12.775865193936738,
+        12.884228819433819
+      ],
+      "values": [
+        12.843185169503702,
+        12.760330578512402,
+        12.817923380762009,
+        12.858208799798366,
+        12.870587104849918
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "zipf09/rho32",
+      "kind": "deferred",
+      "gid": "absolute_6_0",
+      "ids": [
+        "SENS_rho_rho32_deferred_seed101",
+        "SENS_rho_rho32_deferred_seed102",
+        "SENS_rho_rho32_deferred_seed103",
+        "SENS_rho_rho32_deferred_seed104",
+        "SENS_rho_rho32_deferred_seed105"
+      ],
+      "n": 5,
+      "mean": 30195.93125,
+      "ci95": [
+        29938.378742317433,
+        30453.48375768257
+      ],
+      "values": [
+        30106.5625,
+        30123.921875,
+        30303.9453125,
+        30492.6484375,
+        29952.578125
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "zipf09/rho32",
+      "kind": "sde",
+      "gid": "absolute_6_1",
+      "ids": [
+        "SENS_rho_rho32_sde_seed101",
+        "SENS_rho_rho32_sde_seed102",
+        "SENS_rho_rho32_sde_seed103",
+        "SENS_rho_rho32_sde_seed104",
+        "SENS_rho_rho32_sde_seed105"
+      ],
+      "n": 5,
+      "mean": 27375.037890625,
+      "ci95": [
+        27141.449505041703,
+        27608.6262762083
+      ],
+      "values": [
+        27294.44921875,
+        27319.451171875,
+        27477.080078125,
+        27638.056640625,
+        27146.15234375
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "zipf09/rho32",
+      "kind": "ring",
+      "gid": "absolute_6_2",
+      "ids": [
+        "SENS_rho_rho32_ring_seed101",
+        "SENS_rho_rho32_ring_seed102",
+        "SENS_rho_rho32_ring_seed103",
+        "SENS_rho_rho32_ring_seed104",
+        "SENS_rho_rho32_ring_seed105"
+      ],
+      "n": 5,
+      "mean": 36393.9296875,
+      "ci95": [
+        36077.5124047417,
+        36710.3469702583
+      ],
+      "values": [
+        36294.72265625,
+        36288.18359375,
+        36525.7890625,
+        36761.140625,
+        36099.8125
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "zipf09/rho32",
+      "kind": "r0",
+      "gid": "absolute_6_3",
+      "ids": [
+        "SENS_rho_rho32_r0_seed101",
+        "SENS_rho_rho32_r0_seed102",
+        "SENS_rho_rho32_r0_seed103",
+        "SENS_rho_rho32_r0_seed104",
+        "SENS_rho_rho32_r0_seed105"
+      ],
+      "n": 5,
+      "mean": 31724.565625,
+      "ci95": [
+        31449.403100566808,
+        31999.72814943319
+      ],
+      "values": [
+        31633.32421875,
+        31657.69140625,
+        31843.94140625,
+        32034.31640625,
+        31453.5546875
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "zipf09/base",
+      "baseline": "deferred",
+      "variant": "sde",
+      "gid": "selective_7_0",
+      "ids": [
+        [
+          "C2_rho_deferred_zipf09_N4096_B64_seed101",
+          "C2_rho_sde_zipf09_N4096_B64_seed101"
+        ],
+        [
+          "C2_rho_deferred_zipf09_N4096_B64_seed102",
+          "C2_rho_sde_zipf09_N4096_B64_seed102"
+        ],
+        [
+          "C2_rho_deferred_zipf09_N4096_B64_seed103",
+          "C2_rho_sde_zipf09_N4096_B64_seed103"
+        ],
+        [
+          "C2_rho_deferred_zipf09_N4096_B64_seed104",
+          "C2_rho_sde_zipf09_N4096_B64_seed104"
+        ],
+        [
+          "C2_rho_deferred_zipf09_N4096_B64_seed105",
+          "C2_rho_sde_zipf09_N4096_B64_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 8.296046996616278,
+      "ci95": [
+        8.232894223606612,
+        8.359199769625944
+      ],
+      "values": [
+        8.319835243875184,
+        8.290443383196067,
+        8.29233287525386,
+        8.358208265897972,
+        8.219415214858305
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "zipf09/base",
+      "baseline": "ring",
+      "variant": "r0",
+      "gid": "selective_7_1",
+      "ids": [
+        [
+          "C2_rho_ring_zipf09_N4096_B64_seed101",
+          "C2_rho_r0_zipf09_N4096_B64_seed101"
+        ],
+        [
+          "C2_rho_ring_zipf09_N4096_B64_seed102",
+          "C2_rho_r0_zipf09_N4096_B64_seed102"
+        ],
+        [
+          "C2_rho_ring_zipf09_N4096_B64_seed103",
+          "C2_rho_r0_zipf09_N4096_B64_seed103"
+        ],
+        [
+          "C2_rho_ring_zipf09_N4096_B64_seed104",
+          "C2_rho_r0_zipf09_N4096_B64_seed104"
+        ],
+        [
+          "C2_rho_ring_zipf09_N4096_B64_seed105",
+          "C2_rho_r0_zipf09_N4096_B64_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 11.638064720787112,
+      "ci95": [
+        11.60338802800396,
+        11.672741413570263
+      ],
+      "values": [
+        11.655786546963586,
+        11.661320686493838,
+        11.625088995422061,
+        11.653256773225518,
+        11.594870601830554
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "zipf09/base",
+      "kind": "deferred",
+      "gid": "absolute_7_0",
+      "ids": [
+        "C2_rho_deferred_zipf09_N4096_B64_seed101",
+        "C2_rho_deferred_zipf09_N4096_B64_seed102",
+        "C2_rho_deferred_zipf09_N4096_B64_seed103",
+        "C2_rho_deferred_zipf09_N4096_B64_seed104",
+        "C2_rho_deferred_zipf09_N4096_B64_seed105"
+      ],
+      "n": 5,
+      "mean": 28868.415625,
+      "ci95": [
+        28120.79749893213,
+        29616.033751067873
+      ],
+      "values": [
+        29096.03515625,
+        28309.4921875,
+        29149.66796875,
+        29602.51953125,
+        28184.36328125
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "zipf09/base",
+      "kind": "sde",
+      "gid": "absolute_7_1",
+      "ids": [
+        "C2_rho_sde_zipf09_N4096_B64_seed101",
+        "C2_rho_sde_zipf09_N4096_B64_seed102",
+        "C2_rho_sde_zipf09_N4096_B64_seed103",
+        "C2_rho_sde_zipf09_N4096_B64_seed104",
+        "C2_rho_sde_zipf09_N4096_B64_seed105"
+      ],
+      "n": 5,
+      "mean": 26473.2671875,
+      "ci95": [
+        25803.302690523546,
+        27143.231684476457
+      ],
+      "values": [
+        26675.29296875,
+        25962.509765625,
+        26732.48046875,
+        27128.279296875,
+        25867.7734375
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "zipf09/base",
+      "kind": "ring",
+      "gid": "absolute_7_2",
+      "ids": [
+        "C2_rho_ring_zipf09_N4096_B64_seed101",
+        "C2_rho_ring_zipf09_N4096_B64_seed102",
+        "C2_rho_ring_zipf09_N4096_B64_seed103",
+        "C2_rho_ring_zipf09_N4096_B64_seed104",
+        "C2_rho_ring_zipf09_N4096_B64_seed105"
+      ],
+      "n": 5,
+      "mean": 34130.853125,
+      "ci95": [
+        33263.65497703525,
+        34998.05127296475
+      ],
+      "values": [
+        34394.12890625,
+        33489.921875,
+        34461.26171875,
+        34979.32421875,
+        33329.62890625
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "zipf09/base",
+      "kind": "r0",
+      "gid": "absolute_7_3",
+      "ids": [
+        "C2_rho_r0_zipf09_N4096_B64_seed101",
+        "C2_rho_r0_zipf09_N4096_B64_seed102",
+        "C2_rho_r0_zipf09_N4096_B64_seed103",
+        "C2_rho_r0_zipf09_N4096_B64_seed104",
+        "C2_rho_r0_zipf09_N4096_B64_seed105"
+      ],
+      "n": 5,
+      "mean": 30158.61640625,
+      "ci95": [
+        29397.238743208287,
+        30919.99406929171
+      ],
+      "values": [
+        30385.22265625,
+        29584.5546875,
+        30455.109375,
+        30903.09375,
+        29465.1015625
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "zipf09/rho512",
+      "baseline": "deferred",
+      "variant": "sde",
+      "gid": "selective_8_0",
+      "ids": [
+        [
+          "SENS_rho_rho512_deferred_seed101",
+          "SENS_rho_rho512_sde_seed101"
+        ],
+        [
+          "SENS_rho_rho512_deferred_seed102",
+          "SENS_rho_rho512_sde_seed102"
+        ],
+        [
+          "SENS_rho_rho512_deferred_seed103",
+          "SENS_rho_rho512_sde_seed103"
+        ],
+        [
+          "SENS_rho_rho512_deferred_seed104",
+          "SENS_rho_rho512_sde_seed104"
+        ],
+        [
+          "SENS_rho_rho512_deferred_seed105",
+          "SENS_rho_rho512_sde_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 7.459214199133388,
+      "ci95": [
+        7.405956255598447,
+        7.512472142668329
+      ],
+      "values": [
+        7.4160686495346795,
+        7.412454813836211,
+        7.483885949054791,
+        7.474879797310918,
+        7.50878178593034
+      ]
+    },
+    {
+      "panel": "selective",
+      "configuration": "zipf09/rho512",
+      "baseline": "ring",
+      "variant": "r0",
+      "gid": "selective_8_1",
+      "ids": [
+        [
+          "SENS_rho_rho512_ring_seed101",
+          "SENS_rho_rho512_r0_seed101"
+        ],
+        [
+          "SENS_rho_rho512_ring_seed102",
+          "SENS_rho_rho512_r0_seed102"
+        ],
+        [
+          "SENS_rho_rho512_ring_seed103",
+          "SENS_rho_rho512_r0_seed103"
+        ],
+        [
+          "SENS_rho_rho512_ring_seed104",
+          "SENS_rho_rho512_r0_seed104"
+        ],
+        [
+          "SENS_rho_rho512_ring_seed105",
+          "SENS_rho_rho512_r0_seed105"
+        ]
+      ],
+      "n": 5,
+      "mean": 10.643851538104002,
+      "ci95": [
+        10.599983803599532,
+        10.687719272608472
+      ],
+      "values": [
+        10.637195362367091,
+        10.585174670622422,
+        10.668992710597347,
+        10.669680117405056,
+        10.65821482952809
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "zipf09/rho512",
+      "kind": "deferred",
+      "gid": "absolute_8_0",
+      "ids": [
+        "SENS_rho_rho512_deferred_seed101",
+        "SENS_rho_rho512_deferred_seed102",
+        "SENS_rho_rho512_deferred_seed103",
+        "SENS_rho_rho512_deferred_seed104",
+        "SENS_rho_rho512_deferred_seed105"
+      ],
+      "n": 5,
+      "mean": 24280.984375,
+      "ci95": [
+        23707.551290075975,
+        24854.417459924025
+      ],
+      "values": [
+        24505.35546875,
+        23754.80859375,
+        24644.27734375,
+        24692.9921875,
+        23807.48828125
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "zipf09/rho512",
+      "kind": "sde",
+      "gid": "absolute_8_1",
+      "ids": [
+        "SENS_rho_rho512_sde_seed101",
+        "SENS_rho_rho512_sde_seed102",
+        "SENS_rho_rho512_sde_seed103",
+        "SENS_rho_rho512_sde_seed104",
+        "SENS_rho_rho512_sde_seed105"
+      ],
+      "n": 5,
+      "mean": 22469.8,
+      "ci95": [
+        21940.12070696183,
+        22999.47929303817
+      ],
+      "values": [
+        22688.021484375,
+        21993.994140625,
+        22799.927734375,
+        22847.220703125,
+        22019.8359375
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "zipf09/rho512",
+      "kind": "ring",
+      "gid": "absolute_8_2",
+      "ids": [
+        "SENS_rho_rho512_ring_seed101",
+        "SENS_rho_rho512_ring_seed102",
+        "SENS_rho_rho512_ring_seed103",
+        "SENS_rho_rho512_ring_seed104",
+        "SENS_rho_rho512_ring_seed105"
+      ],
+      "n": 5,
+      "mean": 28265.43671875,
+      "ci95": [
+        27586.01675653121,
+        28944.856680968787
+      ],
+      "values": [
+        28532.875,
+        27642.98828125,
+        28687.8359375,
+        28759.94140625,
+        27703.54296875
+      ]
+    },
+    {
+      "panel": "absolute",
+      "configuration": "zipf09/rho512",
+      "kind": "r0",
+      "gid": "absolute_8_3",
+      "ids": [
+        "SENS_rho_rho512_r0_seed101",
+        "SENS_rho_rho512_r0_seed102",
+        "SENS_rho_rho512_r0_seed103",
+        "SENS_rho_rho512_r0_seed104",
+        "SENS_rho_rho512_r0_seed105"
+      ],
+      "n": 5,
+      "mean": 25256.80546875,
+      "ci95": [
+        24657.61292256508,
+        25855.99801493492
+      ],
+      "values": [
+        25497.77734375,
+        24716.9296875,
+        25627.1328125,
+        25691.34765625,
+        24750.83984375
+      ]
+    }
+  ],
+  "axes_max": {
+    "selective": 20,
+    "absolute": 70
+  },
+  "absolute_scale": 1024,
+  "configurations": [
+    [
+      "uniform/ratio1",
+      "Uniform / n = 1"
+    ],
+    [
+      "uniform/base",
+      "Uniform / n = 3"
+    ],
+    [
+      "uniform/ratio5",
+      "Uniform / n = 5"
+    ],
+    [
+      "hot90/llc8",
+      "Hot-90 / LLC = 8"
+    ],
+    [
+      "hot90/base",
+      "Hot-90 / LLC = 32"
+    ],
+    [
+      "hot90/llc128",
+      "Hot-90 / LLC = 128"
+    ],
+    [
+      "zipf09/rho32",
+      "Zipf(0.9) / rho = 32"
+    ],
+    [
+      "zipf09/base",
+      "Zipf(0.9) / rho = 128"
+    ],
+    [
+      "zipf09/rho512",
+      "Zipf(0.9) / rho = 512"
+    ]
+  ]
+}

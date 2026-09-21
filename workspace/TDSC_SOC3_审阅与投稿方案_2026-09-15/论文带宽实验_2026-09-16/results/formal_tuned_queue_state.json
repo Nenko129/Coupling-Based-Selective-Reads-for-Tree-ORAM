@@ -1,0 +1,12 @@
+{
+  "stage": "running",
+  "pid": 47116,
+  "completed": 50,
+  "total": 50,
+  "last": {
+    "id": "B3_ring_hot90_seed105",
+    "status": "passed",
+    "bytes_per_request": 339898.12109375
+  },
+  "time": 1789531550.5280037
+}

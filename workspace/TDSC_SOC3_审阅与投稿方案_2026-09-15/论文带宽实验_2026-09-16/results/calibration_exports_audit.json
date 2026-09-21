@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "raw_rows": 40,
+  "groups": 8,
+  "pdf_pages": 1,
+  "fonts_embedded": true,
+  "vector_content": true,
+  "snapshot_sha256": "01faebc2f8b3df13f880a72a3e19bf1be0e81c12db583c26c2251ad2981d1581",
+  "pdf_sha256": "afc70ca457389c36a184a51d27de427829b303512f90400438c760955e6ff545",
+  "checker_sha256": "82ba133b5b7494e67cf575b7b10c95a8e8e5479b7429596119664a1e09166b4c",
+  "export_receipt_sha256": "81b8840bf84b8dc9429c2b090eb37192a46ac84881dd45e5b8950cc773f7e380"
+}

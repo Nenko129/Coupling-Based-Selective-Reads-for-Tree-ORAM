@@ -1,0 +1,29 @@
+{
+  "family": "rho",
+  "arm": "selective",
+  "kind": "sde",
+  "layout": "host",
+  "N": 4096,
+  "B": 4096,
+  "profile": [
+    4,
+    3,
+    4
+  ],
+  "R": 256,
+  "compact": false,
+  "fusion": false,
+  "root_retained": true,
+  "plb": 8,
+  "llc": 32,
+  "rho": 128,
+  "warmup": 2048,
+  "requests": 4096,
+  "trace_seed": 104,
+  "oram_seed": 1004,
+  "workload": "uniform",
+  "suite": "formal",
+  "driver": "run_frontend_minimal.py",
+  "experiment_class": "selective_minimal_frontend_v1",
+  "id": "MIN_formal_rho_sde_B4096_seed104"
+}

@@ -1,0 +1,94 @@
+{
+  "jobs": [
+    {
+      "profile": "uniform43_h13",
+      "mode": "up",
+      "grid_sha256": "d071ced22c6e9f276b86c7594a3732de8abc22ffdd5abbcca0ef2dedb7f1c39e",
+      "metadata_sha256": "e9cd677bed98c95cebd78fe34ce64481bce722149c5264c5b7500492207d064c",
+      "log_sha256": "577ec998872b92f9fa3873f6bd5e7afaeccd8108a3c66797c3ca35029f1f3dac",
+      "prefix": "numerics\\grids\\uniform43_h13_up_c280",
+      "height": 13,
+      "cap": 280,
+      "poisson_cutoff": 128
+    },
+    {
+      "profile": "uniform43_h13",
+      "mode": "next",
+      "grid_sha256": "801e764fee5b1b64096ef62ed40bb33d727cb51c1756d8988a2b83e456c3e797",
+      "metadata_sha256": "87ba169a8dc103ecca0aece0725e622e4433b29ecf8241b359497c4199511bac",
+      "log_sha256": "e45d105596f8995109e046ec06160cf6a62f9fcd307de5628a75e29c114d6b68",
+      "prefix": "numerics\\grids\\uniform43_h13_next_c280",
+      "height": 13,
+      "cap": 280,
+      "poisson_cutoff": 128
+    },
+    {
+      "profile": "uniform76_h12",
+      "mode": "up",
+      "grid_sha256": "668434c3870b07f2d3f25c034cd2f6f900ff8864c9e1015617b909bfbe3f4a83",
+      "metadata_sha256": "c3aa6ced51f6522b90f94ffbd4c39f2b1fbbadab14dc558564df80c846f27ff6",
+      "log_sha256": "866979387d61dd0c652a8c389f443b4cdf930bb79c334aecc1e30bd5459bb252",
+      "prefix": "numerics\\grids\\uniform76_h12_up_c280",
+      "height": 12,
+      "cap": 280,
+      "poisson_cutoff": 128
+    },
+    {
+      "profile": "uniform76_h12",
+      "mode": "next",
+      "grid_sha256": "e97d0fdfb6bb96a70d51f2e16c4d2697e942710bdc06fcc0e6a8050f363c2842",
+      "metadata_sha256": "0a5c572374ca45b7421d8bdf7d798f20e71305f62788cc92e590905fd2e979cd",
+      "log_sha256": "9523dec0f7d5e81ff0362025cdac92363242d7ac345cb26762e609730705c881",
+      "prefix": "numerics\\grids\\uniform76_h12_next_c280",
+      "height": 12,
+      "cap": 280,
+      "poisson_cutoff": 128
+    },
+    {
+      "profile": "IR43_scaled_L12",
+      "mode": "up",
+      "grid_sha256": "fc2d32184897bd97149ed92bf625849ee5c2d105f129ada072a72a039fefbd24",
+      "metadata_sha256": "3a4a2c6095dad20c2d1f4a2d87d001b6e1803fd16b7588d7e9c6b2009293f861",
+      "log_sha256": "4a319ceb29eaf67dd8afc740de9ab4d5a79e992e4ab0c8f0976b3e90680a0db7",
+      "prefix": "numerics\\grids\\IR43_scaled_L12_up_c280",
+      "height": 13,
+      "cap": 280,
+      "poisson_cutoff": 128
+    },
+    {
+      "profile": "IR43_scaled_L12",
+      "mode": "next",
+      "grid_sha256": "095cc0d5398e8c442073b43af3d252caf520b558d5f47a7d57748b40b1040467",
+      "metadata_sha256": "8f53d32e74bdf17896bd22d3a0091ad230e6aab58d974373672d2275086ddeba",
+      "log_sha256": "24ad9a5d3403360f49206d0f5bce82809528782b1c774c2fcc08f5a7f36cc0d7",
+      "prefix": "numerics\\grids\\IR43_scaled_L12_next_c280",
+      "height": 13,
+      "cap": 280,
+      "poisson_cutoff": 128
+    },
+    {
+      "profile": "IR43_native_leaf4",
+      "mode": "up",
+      "grid_sha256": "ae9de9e0f6aba1997bbdaef1bf7247894457d2a9aa563e078a3b4f67426b1623",
+      "metadata_sha256": "988b21500a72621455e442a14bc60aa7ed4013de9e52e59f9db10d9ad3b0b81c",
+      "log_sha256": "960d6834002ab197b22d93502b1db4043bfa187318fcc1abe3acfb5778c677e6",
+      "prefix": "numerics\\grids\\IR43_native_leaf4_up_c280",
+      "height": 25,
+      "cap": 280,
+      "poisson_cutoff": 128
+    },
+    {
+      "profile": "IR43_native_leaf4",
+      "mode": "next",
+      "grid_sha256": "84b4504c6344e949bdc98352fadabb8a13ec6e7f317bd77c52b158654da7377a",
+      "metadata_sha256": "e0c72ce138342cc5ce31927fd90ef0e0eb9a88652b4472e261a5b1dd0339a296",
+      "log_sha256": "980a12f4f33186333263539dfbe209efb1aec84b832f660c75dc70a0f746368c",
+      "prefix": "numerics\\grids\\IR43_native_leaf4_next_c280",
+      "height": 25,
+      "cap": 280,
+      "poisson_cutoff": 128
+    }
+  ],
+  "all_jobs_complete": true,
+  "practical_parameter_admission_not_yet_audited": true
+}

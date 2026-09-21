@@ -1,0 +1,41 @@
+{
+  "family": "IR",
+  "arm": "base",
+  "layout": "depth",
+  "N": 4096,
+  "B": 4096,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "R": 480,
+  "compact": false,
+  "fusion": false,
+  "root_retained": true,
+  "cached_levels": 6,
+  "terminal_bytes": 32768,
+  "warmup": 12288,
+  "requests": 24576,
+  "workload": "uniform",
+  "trace_seed": 103,
+  "oram_seed": 1003,
+  "suite": "formal",
+  "driver": "run_minimal.py",
+  "Z_by_depth": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4
+  ],
+  "id": "MIN_formal_IR_depth_base_B4096_seed103"
+}

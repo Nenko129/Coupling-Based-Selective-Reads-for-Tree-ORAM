@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+Comparison & Workload & Base & Variant & n & Base B/op & Variant B/op & Saving (pct) & CI low & CI high & RPC saving & Scope \\
+\midrule
+SDE/Path & uniform & path & sde & 5 & 527664.0 & 338932.570703125 & 35.76734992284389 & 35.657788906122875 & 35.87691093956491 & -33.3251953125 & same tuning search; N=16384, B=4096 \\
+SDE/Deferred & uniform & deferred & sde & 5 & 446997.05859375 & 338932.570703125 & 24.175659730423106 & 24.0463268786389 & 24.304992582207312 & 0.0 & same tuning search; N=16384, B=4096 \\
+R0/Ring & uniform & ring & r0 & 5 & 339710.71328125 & 253539.88828125 & 25.365870760789118 & 25.18573460053921 & 25.546006921039027 & 0.0 & same tuning search; N=16384, B=4096 \\
+SDE/Path & hot90 & path & sde & 5 & 527664.0 & 338824.321875 & 35.78786464966342 & 35.68241131592788 & 35.89331798339896 & -33.3251953125 & same tuning search; N=16384, B=4096 \\
+SDE/Deferred & hot90 & deferred & sde & 5 & 446997.05859375 & 338824.321875 & 24.199876629850937 & 24.075392750544697 & 24.324360509157177 & 0.0 & same tuning search; N=16384, B=4096 \\
+R0/Ring & hot90 & ring & r0 & 5 & 339520.46484375 & 253302.41171875 & 25.393937218101218 & 25.157124177090378 & 25.63075025911206 & 0.0 & same tuning search; N=16384, B=4096 \\
+\bottomrule
+\end{tabular}

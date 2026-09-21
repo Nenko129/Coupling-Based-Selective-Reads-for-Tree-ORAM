@@ -1,0 +1,573 @@
+{
+  "status": "passed",
+  "differential_configs": [
+    {
+      "kind": "path",
+      "fusion": true,
+      "cut": 0,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 599268,
+      "full_reference_bytes": 599268,
+      "local_cache": {
+        "bucket_records": 0,
+        "global_tag_records": 0,
+        "bytes": 0
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "path",
+      "fusion": true,
+      "cut": 1,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 466824,
+      "full_reference_bytes": 599268,
+      "local_cache": {
+        "bucket_records": 1,
+        "global_tag_records": 1,
+        "bytes": 652
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "path",
+      "fusion": true,
+      "cut": 2,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 369872,
+      "full_reference_bytes": 599268,
+      "local_cache": {
+        "bucket_records": 3,
+        "global_tag_records": 3,
+        "bytes": 1572
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "path",
+      "fusion": true,
+      "cut": 4,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 171200,
+      "full_reference_bytes": 599268,
+      "local_cache": {
+        "bucket_records": 15,
+        "global_tag_records": 15,
+        "bytes": 7540
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "deferred",
+      "fusion": true,
+      "cut": 0,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 665044,
+      "full_reference_bytes": 665044,
+      "local_cache": {
+        "bucket_records": 0,
+        "global_tag_records": 0,
+        "bytes": 0
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "deferred",
+      "fusion": true,
+      "cut": 1,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 524928,
+      "full_reference_bytes": 665044,
+      "local_cache": {
+        "bucket_records": 1,
+        "global_tag_records": 1,
+        "bytes": 652
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "deferred",
+      "fusion": true,
+      "cut": 2,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 414224,
+      "full_reference_bytes": 665044,
+      "local_cache": {
+        "bucket_records": 3,
+        "global_tag_records": 3,
+        "bytes": 1572
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "deferred",
+      "fusion": true,
+      "cut": 4,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 188048,
+      "full_reference_bytes": 665044,
+      "local_cache": {
+        "bucket_records": 15,
+        "global_tag_records": 15,
+        "bytes": 7540
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "sde",
+      "fusion": true,
+      "cut": 0,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 555108,
+      "full_reference_bytes": 555108,
+      "local_cache": {
+        "bucket_records": 0,
+        "global_tag_records": 0,
+        "bytes": 0
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "sde",
+      "fusion": true,
+      "cut": 1,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 447024,
+      "full_reference_bytes": 555108,
+      "local_cache": {
+        "bucket_records": 1,
+        "global_tag_records": 1,
+        "bytes": 652
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "sde",
+      "fusion": true,
+      "cut": 2,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 357488,
+      "full_reference_bytes": 555108,
+      "local_cache": {
+        "bucket_records": 3,
+        "global_tag_records": 3,
+        "bytes": 1572
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "sde",
+      "fusion": true,
+      "cut": 4,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 188048,
+      "full_reference_bytes": 555108,
+      "local_cache": {
+        "bucket_records": 15,
+        "global_tag_records": 15,
+        "bytes": 7540
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "ring",
+      "fusion": false,
+      "cut": 0,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 1362876,
+      "full_reference_bytes": 1362876,
+      "local_cache": {
+        "bucket_records": 0,
+        "global_tag_records": 0,
+        "bytes": 0
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "ring",
+      "fusion": false,
+      "cut": 1,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 1160544,
+      "full_reference_bytes": 1362876,
+      "local_cache": {
+        "bucket_records": 1,
+        "global_tag_records": 1,
+        "bytes": 1788
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "ring",
+      "fusion": false,
+      "cut": 2,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 895468,
+      "full_reference_bytes": 1362876,
+      "local_cache": {
+        "bucket_records": 3,
+        "global_tag_records": 3,
+        "bytes": 4948
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "ring",
+      "fusion": false,
+      "cut": 4,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 315080,
+      "full_reference_bytes": 1362876,
+      "local_cache": {
+        "bucket_records": 15,
+        "global_tag_records": 15,
+        "bytes": 24996
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "ring",
+      "fusion": true,
+      "cut": 0,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 1232964,
+      "full_reference_bytes": 1232964,
+      "local_cache": {
+        "bucket_records": 0,
+        "global_tag_records": 0,
+        "bytes": 0
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "ring",
+      "fusion": true,
+      "cut": 1,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 1039016,
+      "full_reference_bytes": 1232964,
+      "local_cache": {
+        "bucket_records": 1,
+        "global_tag_records": 1,
+        "bytes": 1788
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "ring",
+      "fusion": true,
+      "cut": 2,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 807760,
+      "full_reference_bytes": 1232964,
+      "local_cache": {
+        "bucket_records": 3,
+        "global_tag_records": 3,
+        "bytes": 4948
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "ring",
+      "fusion": true,
+      "cut": 4,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 292640,
+      "full_reference_bytes": 1232964,
+      "local_cache": {
+        "bucket_records": 15,
+        "global_tag_records": 15,
+        "bytes": 24996
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "gc_ring",
+      "fusion": false,
+      "cut": 0,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 1027080,
+      "full_reference_bytes": 1027080,
+      "local_cache": {
+        "bucket_records": 0,
+        "global_tag_records": 0,
+        "bytes": 0
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "gc_ring",
+      "fusion": false,
+      "cut": 1,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 866332,
+      "full_reference_bytes": 1027080,
+      "local_cache": {
+        "bucket_records": 1,
+        "global_tag_records": 1,
+        "bytes": 1788
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "gc_ring",
+      "fusion": false,
+      "cut": 2,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 682916,
+      "full_reference_bytes": 1027080,
+      "local_cache": {
+        "bucket_records": 3,
+        "global_tag_records": 3,
+        "bytes": 4948
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "gc_ring",
+      "fusion": false,
+      "cut": 4,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 312796,
+      "full_reference_bytes": 1027080,
+      "local_cache": {
+        "bucket_records": 15,
+        "global_tag_records": 15,
+        "bytes": 24996
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "gc_ring",
+      "fusion": true,
+      "cut": 0,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 991476,
+      "full_reference_bytes": 991476,
+      "local_cache": {
+        "bucket_records": 0,
+        "global_tag_records": 0,
+        "bytes": 0
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "gc_ring",
+      "fusion": true,
+      "cut": 1,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 831624,
+      "full_reference_bytes": 991476,
+      "local_cache": {
+        "bucket_records": 1,
+        "global_tag_records": 1,
+        "bytes": 1788
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "gc_ring",
+      "fusion": true,
+      "cut": 2,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 660320,
+      "full_reference_bytes": 991476,
+      "local_cache": {
+        "bucket_records": 3,
+        "global_tag_records": 3,
+        "bytes": 4948
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "gc_ring",
+      "fusion": true,
+      "cut": 4,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 297872,
+      "full_reference_bytes": 991476,
+      "local_cache": {
+        "bucket_records": 15,
+        "global_tag_records": 15,
+        "bytes": 24996
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "r0",
+      "fusion": false,
+      "cut": 0,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 901428,
+      "full_reference_bytes": 901428,
+      "local_cache": {
+        "bucket_records": 0,
+        "global_tag_records": 0,
+        "bytes": 0
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "r0",
+      "fusion": false,
+      "cut": 1,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 887524,
+      "full_reference_bytes": 901428,
+      "local_cache": {
+        "bucket_records": 1,
+        "global_tag_records": 1,
+        "bytes": 128
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "r0",
+      "fusion": false,
+      "cut": 2,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 721340,
+      "full_reference_bytes": 901428,
+      "local_cache": {
+        "bucket_records": 3,
+        "global_tag_records": 3,
+        "bytes": 3288
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "r0",
+      "fusion": false,
+      "cut": 4,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 317172,
+      "full_reference_bytes": 901428,
+      "local_cache": {
+        "bucket_records": 15,
+        "global_tag_records": 15,
+        "bytes": 23336
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "r0",
+      "fusion": true,
+      "cut": 0,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 849112,
+      "full_reference_bytes": 849112,
+      "local_cache": {
+        "bucket_records": 0,
+        "global_tag_records": 0,
+        "bytes": 0
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "r0",
+      "fusion": true,
+      "cut": 1,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 839368,
+      "full_reference_bytes": 849112,
+      "local_cache": {
+        "bucket_records": 1,
+        "global_tag_records": 1,
+        "bytes": 128
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "r0",
+      "fusion": true,
+      "cut": 2,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 670320,
+      "full_reference_bytes": 849112,
+      "local_cache": {
+        "bucket_records": 3,
+        "global_tag_records": 3,
+        "bytes": 3288
+      },
+      "remote_holds_no_cached_objects": true
+    },
+    {
+      "kind": "r0",
+      "fusion": true,
+      "cut": 4,
+      "logical_transcript_state_and_random_tape_identical": true,
+      "remote_actual_bytes": 290240,
+      "full_reference_bytes": 849112,
+      "local_cache": {
+        "bucket_records": 15,
+        "global_tag_records": 15,
+        "bytes": 23336
+      },
+      "remote_holds_no_cached_objects": true
+    }
+  ],
+  "active_rejections": [
+    {
+      "kind": "sde",
+      "mutation": "header",
+      "rejected": true,
+      "no_local_commit_on_bad_ack": true,
+      "no_retry_io": true
+    },
+    {
+      "kind": "sde",
+      "mutation": "slots",
+      "rejected": true,
+      "no_local_commit_on_bad_ack": true,
+      "no_retry_io": true
+    },
+    {
+      "kind": "sde",
+      "mutation": "ack",
+      "rejected": true,
+      "no_local_commit_on_bad_ack": true,
+      "no_retry_io": true
+    },
+    {
+      "kind": "sde",
+      "mutation": "sequence",
+      "rejected": true,
+      "no_local_commit_on_bad_ack": true,
+      "no_retry_io": true
+    },
+    {
+      "kind": "r0",
+      "mutation": "header",
+      "rejected": true,
+      "no_local_commit_on_bad_ack": true,
+      "no_retry_io": true
+    },
+    {
+      "kind": "r0",
+      "mutation": "slots",
+      "rejected": true,
+      "no_local_commit_on_bad_ack": true,
+      "no_retry_io": true
+    },
+    {
+      "kind": "r0",
+      "mutation": "ack",
+      "rejected": true,
+      "no_local_commit_on_bad_ack": true,
+      "no_retry_io": true
+    },
+    {
+      "kind": "r0",
+      "mutation": "sequence",
+      "rejected": true,
+      "no_local_commit_on_bad_ack": true,
+      "no_retry_io": true
+    }
+  ],
+  "scope": "static public tree-top representation, preserves remap/service policy; not native IR-Stash hit cancellation",
+  "source_hashes": {
+    "cached_transport.py": "25c88f7ca32ab5d394acd019348c32de268ecd2133b560625f3cc9dd370174c3",
+    "heterogeneous_oram.py": "6d312f8674efc788314f2ab5612a90979b50213ca79f601a777ef00a2dfb8fd5",
+    "check_cached_transport.py": "17cbee5ea6a49c6f2f387a943cfd216741fcc5ee441a07ea6cf1d0b2a59cd290"
+  }
+}

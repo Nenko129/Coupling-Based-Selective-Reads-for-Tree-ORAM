@@ -1,0 +1,18 @@
+[
+  {
+    "kind": "ring",
+    "S": 9,
+    "B1": 512,
+    "online_requests": 180,
+    "frames": 4215,
+    "passes": true
+  },
+  {
+    "kind": "r0",
+    "S": 5,
+    "B1": 404,
+    "online_requests": 180,
+    "frames": 4218,
+    "passes": true
+  }
+]

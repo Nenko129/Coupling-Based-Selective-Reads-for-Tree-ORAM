@@ -1,0 +1,38 @@
+{
+  "reason": "Switch future launches to byte-identical validated HMAC prefix reuse; all live children are left running",
+  "time": "2026-09-16T04:09:45.4277532+08:00",
+  "dispatchers": [
+    {
+      "pid": 51616,
+      "command": "\"C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" -B -X utf8 TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/src/batch_core.py --batch TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/formal_core_plan.json --workers 4",
+      "children": [
+        {
+          "ProcessId": 33068,
+          "CommandLine": "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -B -X utf8 D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py --spec D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\B1_ring_hot90_N16384_B4096_seed101.json"
+        },
+        {
+          "ProcessId": 55128,
+          "CommandLine": "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -B -X utf8 D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py --spec D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\B1_gc_ring_hot90_N16384_B4096_seed101.json"
+        },
+        {
+          "ProcessId": 32700,
+          "CommandLine": "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -B -X utf8 D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py --spec D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\B1_r0_hot90_N16384_B4096_seed101.json"
+        },
+        {
+          "ProcessId": 48612,
+          "CommandLine": "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -B -X utf8 D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py --spec D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\B1_path_uniform_N16384_B4096_seed102.json"
+        }
+      ]
+    },
+    {
+      "pid": 34384,
+      "command": "\"C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" -B -X utf8 TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/src/queued_core_batch.py --plan TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/formal_ablation_plan.json --min-free-gib 3",
+      "children": [
+        {
+          "ProcessId": 54656,
+          "CommandLine": "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -B -X utf8 D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py --spec D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\B2_R0_43_cf01_seed101.json"
+        }
+      ]
+    }
+  ]
+}

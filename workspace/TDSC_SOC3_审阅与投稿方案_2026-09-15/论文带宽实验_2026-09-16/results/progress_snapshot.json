@@ -1,0 +1,40 @@
+{
+  "pilot_completed": 8,
+  "static_component_pilots": 8,
+  "formal_core_completed": 0,
+  "formal_core_planned": 60,
+  "formal_composition_completed": 7,
+  "formal_composition_planned": 240,
+  "pilot_component_effects": [
+    {
+      "family": "IR静态Z",
+      "layout": "同质",
+      "baseline": "deferred",
+      "selective": "sde",
+      "saving_pct": 21.56479939280218
+    },
+    {
+      "family": "IR静态Z",
+      "layout": "逐层",
+      "baseline": "deferred",
+      "selective": "sde",
+      "saving_pct": 20.834011438002133
+    },
+    {
+      "family": "AB静态S",
+      "layout": "同质",
+      "baseline": "ring",
+      "selective": "r0",
+      "saving_pct": 31.749871848675426
+    },
+    {
+      "family": "AB静态S",
+      "layout": "逐层",
+      "baseline": "ring",
+      "selective": "r0",
+      "saving_pct": 32.39053537353323
+    }
+  ],
+  "goal_complete": false,
+  "scope": "snapshot from completed receipts; does not establish liveness of outstanding processes"
+}

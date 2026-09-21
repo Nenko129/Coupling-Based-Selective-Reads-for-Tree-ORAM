@@ -1,0 +1,678 @@
+{
+  "source_sha256": "4c2ae0aa15b6c5bfbc7bd7bc01fbfad238143de2bf874812cf62d96377c6f861",
+  "rows": [
+    {
+      "family": "free_compressed",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.804448807232458,
+        21.869265809536266,
+        21.835991099440676,
+        21.823691956278456,
+        21.871802804641383
+      ],
+      "paired_mean_saving_pct": 21.841040095425846,
+      "ci95": [
+        21.804794947741936,
+        21.877285243109757
+      ],
+      "baseline_mean_bytes": 40951.3125,
+      "selective_mean_bytes": 32007.114453125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "hot90",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.861352038200664,
+        21.75263608008099,
+        21.845422800136983,
+        21.831862999481054,
+        21.825729068320555
+      ],
+      "paired_mean_saving_pct": 21.82340059724405,
+      "ci95": [
+        21.771421198668705,
+        21.875379995819394
+      ],
+      "baseline_mean_bytes": 39065.3125,
+      "selective_mean_bytes": 30539.927734375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "zipf09",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.821356097560972,
+        21.873094512195124,
+        21.753439024390243,
+        21.80946434146559,
+        21.78578194251475
+      ],
+      "paired_mean_saving_pct": 21.808627183625337,
+      "ci95": [
+        21.753493944620235,
+        21.86376042263044
+      ],
+      "baseline_mean_bytes": 40042.8046875,
+      "selective_mean_bytes": 31310.00390625,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "scan",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        21.866271391238378,
+        21.95577036558294,
+        21.79349200550763,
+        21.91938067271757,
+        21.833815719223317
+      ],
+      "paired_mean_saving_pct": 21.873746030853965,
+      "ci95": [
+        21.79303424005832,
+        21.954457821649612
+      ],
+      "baseline_mean_bytes": 18071.5234375,
+      "selective_mean_bytes": 14118.604296875,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.465183129934687,
+        24.53105323652842,
+        24.498572330698444,
+        24.421605878167195,
+        24.53023718594024
+      ],
+      "paired_mean_saving_pct": 24.4893303522538,
+      "ci95": [
+        24.431525341872074,
+        24.547135362635522
+      ],
+      "baseline_mean_bytes": 60771.84765625,
+      "selective_mean_bytes": 45889.190625,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "hot90",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.480579253588488,
+        24.349288195785178,
+        24.440311118840764,
+        24.4747657050178,
+        24.40760519948
+      ],
+      "paired_mean_saving_pct": 24.430509894542446,
+      "ci95": [
+        24.3634049598962,
+        24.49761482918869
+      ],
+      "baseline_mean_bytes": 57952.89921875,
+      "selective_mean_bytes": 43794.68125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "zipf09",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.402940376216044,
+        24.49110598514296,
+        24.449800115196208,
+        24.454260405274585,
+        24.463836606627996
+      ],
+      "paired_mean_saving_pct": 24.452388697691557,
+      "ci95": [
+        24.412706781518043,
+        24.49207061386507
+      ],
+      "baseline_mean_bytes": 59411.184375,
+      "selective_mean_bytes": 44883.7125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "scan",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_composition",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        24.532537784488017,
+        24.626704249182286,
+        24.53819418746478,
+        24.58743707977812,
+        24.445660500939027
+      ],
+      "paired_mean_saving_pct": 24.546106760370446,
+      "ci95": [
+        24.461572492926674,
+        24.630641027814217
+      ],
+      "baseline_mean_bytes": 26783.5328125,
+      "selective_mean_bytes": 20209.2140625,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        8.285233450339714,
+        8.324395405518514,
+        8.318318093173282,
+        8.257375456264116,
+        8.264548502991687
+      ],
+      "paired_mean_saving_pct": 8.289974181657463,
+      "ci95": [
+        8.252109462754118,
+        8.327838900560808
+      ],
+      "baseline_mean_bytes": 44276.2671875,
+      "selective_mean_bytes": 40605.76796875,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "hot90",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        8.468217983984472,
+        8.300448923751713,
+        8.295778237053785,
+        8.274396180463173,
+        8.214533185588447
+      ],
+      "paired_mean_saving_pct": 8.310674902168318,
+      "ci95": [
+        8.193362820097217,
+        8.427986984239418
+      ],
+      "baseline_mean_bytes": 7966.70078125,
+      "selective_mean_bytes": 7304.640234375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "zipf09",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        8.319835243875184,
+        8.290443383196067,
+        8.29233287525386,
+        8.358208265897972,
+        8.219415214858305
+      ],
+      "paired_mean_saving_pct": 8.296046996616278,
+      "ci95": [
+        8.232894223606612,
+        8.359199769625944
+      ],
+      "baseline_mean_bytes": 28868.415625,
+      "selective_mean_bytes": 26473.2671875,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "scan",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "deferred",
+      "selective": "sde",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        8.31573049864497,
+        8.321513611328902,
+        8.272935464783892,
+        8.287586016916515,
+        8.293754670446042
+      ],
+      "paired_mean_saving_pct": 8.298304052424063,
+      "ci95": [
+        8.273304457099108,
+        8.323303647749018
+      ],
+      "baseline_mean_bytes": 46100.01171875,
+      "selective_mean_bytes": 42274.492578125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "uniform",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        11.625919405799735,
+        11.669291787135883,
+        11.660714368258374,
+        11.648780141016712,
+        11.62940802811847
+      ],
+      "paired_mean_saving_pct": 11.646822746065835,
+      "ci95": [
+        11.623248385703182,
+        11.670397106428489
+      ],
+      "baseline_mean_bytes": 52377.03203125,
+      "selective_mean_bytes": 46276.7734375,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "hot90",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        11.781331194599698,
+        11.607271765012793,
+        11.621772419615395,
+        11.645882572202805,
+        11.614518209600554
+      ],
+      "paired_mean_saving_pct": 11.654155232206248,
+      "ci95": [
+        11.564059776941793,
+        11.744250687470704
+      ],
+      "baseline_mean_bytes": 9409.81015625,
+      "selective_mean_bytes": 8313.1921875,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "zipf09",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        11.655786546963586,
+        11.661320686493838,
+        11.625088995422061,
+        11.653256773225518,
+        11.594870601830554
+      ],
+      "paired_mean_saving_pct": 11.638064720787112,
+      "ci95": [
+        11.60338802800396,
+        11.672741413570263
+      ],
+      "baseline_mean_bytes": 34130.853125,
+      "selective_mean_bytes": 30158.61640625,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    },
+    {
+      "family": "rho",
+      "workload": "scan",
+      "N": 4096,
+      "B": 64,
+      "profile": [
+        4,
+        3,
+        4
+      ],
+      "layout": null,
+      "cached_levels": 0,
+      "R": 256,
+      "source_folder": "formal_rho_fixed",
+      "baseline": "ring",
+      "selective": "r0",
+      "n": 5,
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "paired_savings_pct": [
+        11.660695517847442,
+        11.688034988095254,
+        11.607245530437648,
+        11.633901672852588,
+        11.629616563127643
+      ],
+      "paired_mean_saving_pct": 11.643898854472114,
+      "ci95": [
+        11.605239810688024,
+        11.682557898256205
+      ],
+      "baseline_mean_bytes": 54523.2703125,
+      "selective_mean_bytes": 48174.63203125,
+      "complete_initial_repeats": true,
+      "needs_more_repeats": false,
+      "claim_status": "initial n=5 evidence; inspect precision and whole-batch audit"
+    }
+  ],
+  "partial": false
+}

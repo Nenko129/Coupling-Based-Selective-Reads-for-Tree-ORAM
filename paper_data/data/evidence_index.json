@@ -1,0 +1,132 @@
+{
+  "created": "2026-09-17",
+  "scope": "Manuscript reproduction package; original evidence retained.",
+  "evidence": [
+    {
+      "alias": "core_fusion_proof",
+      "source": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\proofs\\01_fusion.md",
+      "bytes": 12264,
+      "sha256": "c4eeb8ec3839f16e4f470590ad115e6eec547a46bed74142bbc09979284a3a77",
+      "included": "data/audit_receipts/core_fusion_proof.md"
+    },
+    {
+      "alias": "core_parameterized_proof",
+      "source": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\proofs\\02_parameterized_reduction.md",
+      "bytes": 8094,
+      "sha256": "de7c83c975bf30c676c67c1532369c12ec6d87c2acc54685fd0fa10fe658f244",
+      "included": "data/audit_receipts/core_parameterized_proof.md"
+    },
+    {
+      "alias": "core_numerical_proof",
+      "source": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\proofs\\03_numerical_audit.md",
+      "bytes": 5132,
+      "sha256": "f0be84ca892246242978f3ea4e81de1ed4bb166047a5d4e5033655150038c321",
+      "included": "data/audit_receipts/core_numerical_proof.md"
+    },
+    {
+      "alias": "complete_reduction",
+      "source": "D:\\projects\\SDE-R0\\selective_oram_final_chain_2026-09-11\\proofs\\01_reduction_complete.md",
+      "bytes": 14799,
+      "sha256": "044cb8546d72eeccbbb31e63655e18812f5861b48ba4ee164876c5bee41b2735",
+      "included": "data/audit_receipts/complete_reduction.md"
+    },
+    {
+      "alias": "fusion_receipt",
+      "source": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\receipts\\final_run\\fusion.json",
+      "bytes": 6327,
+      "sha256": "19b36b5407a089046967fea67ff602931df600bedcde36c57a7ace51d7765123",
+      "included": "data/audit_receipts/fusion_receipt.json"
+    },
+    {
+      "alias": "numerical_receipt",
+      "source": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\receipts\\final_run\\numerical\\receipt.json",
+      "bytes": 6994,
+      "sha256": "e00b7d725955c40c28b244a57a235d44bd949e255905d414e5558fe54dc3fe08",
+      "included": "data/audit_receipts/numerical_receipt.json"
+    },
+    {
+      "alias": "integrated_receipt",
+      "source": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\receipts\\final_run\\integrated\\receipt.json",
+      "bytes": 57807,
+      "sha256": "4acf9f356ab3fbb15c42cbdb0e273421a9765cf839795cb928e7135f2db63637",
+      "included": "data/audit_receipts/integrated_receipt.json"
+    },
+    {
+      "alias": "final_archive_replay",
+      "source": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\投稿证据复核与文献整理_2026-09-17\\final_archive_replay.json",
+      "bytes": 9108,
+      "sha256": "5c3c01a850b492b8accdc11f87a19531ff8a66729bea4cb850742e70cb8cf56f",
+      "included": "data/audit_receipts/final_archive_replay.json"
+    },
+    {
+      "alias": "evidence_audit",
+      "source": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\投稿证据复核与文献整理_2026-09-17\\evidence_audit.json",
+      "bytes": 35543,
+      "sha256": "0a4478aa03f4a143ade32130fbdd3a7c09f6fa58c6302496bbb079da940e3770",
+      "included": "data/audit_receipts/evidence_audit.json"
+    },
+    {
+      "alias": "capacity_binding_review",
+      "source": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\投稿证据复核与文献整理_2026-09-17\\capacity_binding_review.json",
+      "bytes": 863,
+      "sha256": "6ddc101826d21214cf99fc633ec948a85a9bae907dafd7e443efb9c21ea79c93",
+      "included": "data/audit_receipts/capacity_binding_review.json"
+    },
+    {
+      "alias": "tuned_window_audit",
+      "source": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\results\\tuned_model_window_audit.json",
+      "bytes": 52014,
+      "sha256": "171b23f1a088cc9264c74be62b8ca0873bf741014b9ff2abc844e51b27e05446",
+      "included": "data/audit_receipts/tuned_window_audit.json"
+    },
+    {
+      "alias": "composition_contract",
+      "source": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\02_最小组合协议与证明.md",
+      "bytes": 10000,
+      "sha256": "a94a7b4b7424147744df13d97eb8ade89add82c13ff5340b3245269fb4147c79",
+      "included": "data/audit_receipts/composition_contract.md"
+    },
+    {
+      "alias": "final_minimal_archive",
+      "source": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\论文实验章节完整证据_2026-09-16\\source_evidence\\Selective_最小组合审阅包.zip",
+      "bytes": 2497941,
+      "sha256": "abf7dbb5f7346a96376f35a685c5cae24e871a8d5e89c4a4dd36276bd898661b"
+    },
+    {
+      "alias": "variant_contract",
+      "source": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\variant_contract.json",
+      "bytes": 4266,
+      "sha256": "ca7dbe4fabebd0ecc39186612bfd3650fab9b687b30013508e12bcb09e1180b7",
+      "included": "data/audit_receipts/variant_contract.json"
+    },
+    {
+      "alias": "public_trace_download_receipt",
+      "source": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\datasets\\download_receipt.json",
+      "bytes": 1327,
+      "sha256": "5e243afd7c2ed16d4a94bb136277670fc0c948f362208acf019010ed3dfd4b61",
+      "included": "data/audit_receipts/public_trace_download_receipt.json"
+    },
+    {
+      "alias": "host_contract_checks",
+      "source": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\minimal_contract_checks.json",
+      "bytes": 6580,
+      "sha256": "db88607eb05f65cc6317295bba8162c54467539797b9db002b03a093b32303e4",
+      "included": "data/audit_receipts/host_contract_checks.json"
+    },
+    {
+      "alias": "frontend_reset_checks",
+      "source": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\frontend_reset_checks.json",
+      "bytes": 19505,
+      "sha256": "d18b2400a8538d87029375529f0c864097ac4f4d91092414c52d74e68a8ed82f",
+      "included": "data/audit_receipts/frontend_reset_checks.json"
+    },
+    {
+      "alias": "frontend_schedule_pairs",
+      "source": "D:\\projects\\SDE-R0\\写论文\\TDSC_manuscript\\data\\audit_receipts\\frontend_schedule_pairs.json",
+      "provenance": "Derived index of the 40 original formal frontend receipts; source path and SHA-256 retained per arm.",
+      "bytes": 49428,
+      "sha256": "af6696569a28aa65f3e84fa49c1a65b798a6bc78afd6fbd06b59ff70e6bda9ac",
+      "included": "data/audit_receipts/frontend_schedule_pairs.json"
+    }
+  ]
+}

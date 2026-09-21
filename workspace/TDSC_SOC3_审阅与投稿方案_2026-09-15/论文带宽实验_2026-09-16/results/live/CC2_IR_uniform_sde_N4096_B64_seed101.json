@@ -1,0 +1,8 @@
+{
+  "id": "CC2_IR_uniform_sde_N4096_B64_seed101",
+  "pid": 49828,
+  "stage": "passed",
+  "time": 1789504386.5170944,
+  "receipt": "results\\formal_cached_admitted\\CC2_IR_uniform_sde_N4096_B64_seed101.json",
+  "elapsed_seconds": 26.81718611717224
+}

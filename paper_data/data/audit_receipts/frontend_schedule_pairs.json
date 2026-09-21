@@ -1,0 +1,1157 @@
+{
+  "status": "passed",
+  "scope": "Reindexed existing frozen receipts; no experiments rerun. Equality is a paired control, not a proof of frontend privacy or random independence.",
+  "main_formal_links": [
+    "Definition 1",
+    "Proposition 6",
+    "Proposition 7"
+  ],
+  "pair_count": 20,
+  "receipt_count": 40,
+  "checked_phases": [
+    "warmup",
+    "measurement"
+  ],
+  "pairs": [
+    {
+      "family": "free_compressed",
+      "B": 64,
+      "trace_seed": 101,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_deferred_B64_seed101.json",
+          "sha256": "18c103cd597b73734f49177a5b70dcaeb8737dc78ab23e006afbc45f82693d41",
+          "spec_id": "MIN_formal_free_compressed_deferred_B64_seed101",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4795,
+                "remove_admit_sha256": "a91b62f7f910ec0e8590c4d614b8e86ace775c7f3e0fd8bd3cd8d4f6f058323f"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9616,
+                "remove_admit_sha256": "0a93cdde18e6d23df562b765d3e8822432c4950b8119510873acdc1b83565ca2"
+              }
+            ]
+          },
+          "answer_sha256": "8faf4f517c8d90f77a362ff87995f6ccc4368bbd58eb9bb0d5beee8bd6576d3d"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_sde_B64_seed101.json",
+          "sha256": "e97eb186e6ea3a90f71526c12bef0418220fd3aa8e0a3a7dc4385af093962f80",
+          "spec_id": "MIN_formal_free_compressed_sde_B64_seed101",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4795,
+                "remove_admit_sha256": "a91b62f7f910ec0e8590c4d614b8e86ace775c7f3e0fd8bd3cd8d4f6f058323f"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9616,
+                "remove_admit_sha256": "0a93cdde18e6d23df562b765d3e8822432c4950b8119510873acdc1b83565ca2"
+              }
+            ]
+          },
+          "answer_sha256": "8faf4f517c8d90f77a362ff87995f6ccc4368bbd58eb9bb0d5beee8bd6576d3d"
+        }
+      }
+    },
+    {
+      "family": "free_compressed",
+      "B": 64,
+      "trace_seed": 102,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_deferred_B64_seed102.json",
+          "sha256": "7c17b1e3ed8b0306a5674f347243e83a8aa9b605da97ee351694ecae2768d73f",
+          "spec_id": "MIN_formal_free_compressed_deferred_B64_seed102",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4763,
+                "remove_admit_sha256": "bb92dd3f8648e8612b88c338c23edae41c3719f772bf4151da2d77d0d0c17e47"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9613,
+                "remove_admit_sha256": "f56cf306cd566742ad60e218d4a088e8f0042d5b04aa4b6fac08c77edbeda0ff"
+              }
+            ]
+          },
+          "answer_sha256": "3f2acac29cbbcb2e66bed4feff75e64cc9a80745ec7590fd9551294b74f7e8bf"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_sde_B64_seed102.json",
+          "sha256": "3cbbbbb7da9618985075e93723c831c7ac7084734f2567934b79074cfa620f34",
+          "spec_id": "MIN_formal_free_compressed_sde_B64_seed102",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4763,
+                "remove_admit_sha256": "bb92dd3f8648e8612b88c338c23edae41c3719f772bf4151da2d77d0d0c17e47"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9613,
+                "remove_admit_sha256": "f56cf306cd566742ad60e218d4a088e8f0042d5b04aa4b6fac08c77edbeda0ff"
+              }
+            ]
+          },
+          "answer_sha256": "3f2acac29cbbcb2e66bed4feff75e64cc9a80745ec7590fd9551294b74f7e8bf"
+        }
+      }
+    },
+    {
+      "family": "free_compressed",
+      "B": 64,
+      "trace_seed": 103,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_deferred_B64_seed103.json",
+          "sha256": "e72ac9257ae1c15eca681fae8b648dbec38a6e31f075bb27e16c69ae330cbbd5",
+          "spec_id": "MIN_formal_free_compressed_deferred_B64_seed103",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4775,
+                "remove_admit_sha256": "b88b6b2863524a14ce0c143b5d363bb023cfd3f392b777188357cdc45efd7f73"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9575,
+                "remove_admit_sha256": "ab283e70a97506a8383a69bf6e3a2c312938287f864d2abc82710ec06c552d01"
+              }
+            ]
+          },
+          "answer_sha256": "17f7290094dbafa209b260b3f97566ce2620c3c0a3e03270f1135ade8343f437"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_sde_B64_seed103.json",
+          "sha256": "095eca05d96cf81d08c4db661a99ebac5d6d51df745de631e8fe1b7fbe1a55f0",
+          "spec_id": "MIN_formal_free_compressed_sde_B64_seed103",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4775,
+                "remove_admit_sha256": "b88b6b2863524a14ce0c143b5d363bb023cfd3f392b777188357cdc45efd7f73"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9575,
+                "remove_admit_sha256": "ab283e70a97506a8383a69bf6e3a2c312938287f864d2abc82710ec06c552d01"
+              }
+            ]
+          },
+          "answer_sha256": "17f7290094dbafa209b260b3f97566ce2620c3c0a3e03270f1135ade8343f437"
+        }
+      }
+    },
+    {
+      "family": "free_compressed",
+      "B": 64,
+      "trace_seed": 104,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_deferred_B64_seed104.json",
+          "sha256": "e8ba942932885083a6133b95ea260bda9a3d66af33668801c731ea9e01c6ce90",
+          "spec_id": "MIN_formal_free_compressed_deferred_B64_seed104",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4807,
+                "remove_admit_sha256": "578c406af5a149dc891b4fe6c57a1bd7a7e170c7f7addb2ebb314f52ef49ee6c"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9546,
+                "remove_admit_sha256": "d64548cb5629bbc5890b80524ee056b23821147b1e630fabab64bbd2f3a9eb87"
+              }
+            ]
+          },
+          "answer_sha256": "ad11837183db4004926388d7fd62d31c9569ef2d10cad7ba09b025431f9478db"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_sde_B64_seed104.json",
+          "sha256": "0e5d438e57ed043410f7f0b1c8ef3266b67f3360f144fc403e1c46bbc29624e1",
+          "spec_id": "MIN_formal_free_compressed_sde_B64_seed104",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4807,
+                "remove_admit_sha256": "578c406af5a149dc891b4fe6c57a1bd7a7e170c7f7addb2ebb314f52ef49ee6c"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9546,
+                "remove_admit_sha256": "d64548cb5629bbc5890b80524ee056b23821147b1e630fabab64bbd2f3a9eb87"
+              }
+            ]
+          },
+          "answer_sha256": "ad11837183db4004926388d7fd62d31c9569ef2d10cad7ba09b025431f9478db"
+        }
+      }
+    },
+    {
+      "family": "free_compressed",
+      "B": 64,
+      "trace_seed": 105,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_deferred_B64_seed105.json",
+          "sha256": "dade7003432b137232146f17049f503b5be1bddc814563c4ea38a649cbbb2a08",
+          "spec_id": "MIN_formal_free_compressed_deferred_B64_seed105",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4767,
+                "remove_admit_sha256": "d7ce61ef497eae37649cd28e4099b7c37899bdb837ca75868dccdfcfe9e3090c"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9593,
+                "remove_admit_sha256": "f7bfbe31d21df019a7be476689ad7e76aca81b5e7c7e9b131a5bcc9321e4cc5f"
+              }
+            ]
+          },
+          "answer_sha256": "26aceb7c6ec2b665af51c418fa14deb50c988cb3c47bb57f1da621c960dce6a2"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_sde_B64_seed105.json",
+          "sha256": "434a98b9fc6ccd7e1d8bd090cbb2a090589ff215ea71aa62391b3e42a0601ae1",
+          "spec_id": "MIN_formal_free_compressed_sde_B64_seed105",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4767,
+                "remove_admit_sha256": "d7ce61ef497eae37649cd28e4099b7c37899bdb837ca75868dccdfcfe9e3090c"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9593,
+                "remove_admit_sha256": "f7bfbe31d21df019a7be476689ad7e76aca81b5e7c7e9b131a5bcc9321e4cc5f"
+              }
+            ]
+          },
+          "answer_sha256": "26aceb7c6ec2b665af51c418fa14deb50c988cb3c47bb57f1da621c960dce6a2"
+        }
+      }
+    },
+    {
+      "family": "free_compressed",
+      "B": 4096,
+      "trace_seed": 101,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_deferred_B4096_seed101.json",
+          "sha256": "007011e5f7e4938ff4ad1743d6c5cde2b304d40c204fa822b722dbf614d07e95",
+          "spec_id": "MIN_formal_free_compressed_deferred_B4096_seed101",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4795,
+                "remove_admit_sha256": "a91b62f7f910ec0e8590c4d614b8e86ace775c7f3e0fd8bd3cd8d4f6f058323f"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9616,
+                "remove_admit_sha256": "0a93cdde18e6d23df562b765d3e8822432c4950b8119510873acdc1b83565ca2"
+              }
+            ]
+          },
+          "answer_sha256": "93559398ed07a0cbbfa8053102cc73e9f146f9592589b8a110135ff4f8525965"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_sde_B4096_seed101.json",
+          "sha256": "c73a5876baa70beb52c79e42bb706068b0f4c037182c033a6e57da9793aa1b68",
+          "spec_id": "MIN_formal_free_compressed_sde_B4096_seed101",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4795,
+                "remove_admit_sha256": "a91b62f7f910ec0e8590c4d614b8e86ace775c7f3e0fd8bd3cd8d4f6f058323f"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9616,
+                "remove_admit_sha256": "0a93cdde18e6d23df562b765d3e8822432c4950b8119510873acdc1b83565ca2"
+              }
+            ]
+          },
+          "answer_sha256": "93559398ed07a0cbbfa8053102cc73e9f146f9592589b8a110135ff4f8525965"
+        }
+      }
+    },
+    {
+      "family": "free_compressed",
+      "B": 4096,
+      "trace_seed": 102,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_deferred_B4096_seed102.json",
+          "sha256": "48e2d96e33196a100911ad1593c5e407b129d0345246a7a473cd82ad9da6e126",
+          "spec_id": "MIN_formal_free_compressed_deferred_B4096_seed102",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4763,
+                "remove_admit_sha256": "bb92dd3f8648e8612b88c338c23edae41c3719f772bf4151da2d77d0d0c17e47"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9613,
+                "remove_admit_sha256": "f56cf306cd566742ad60e218d4a088e8f0042d5b04aa4b6fac08c77edbeda0ff"
+              }
+            ]
+          },
+          "answer_sha256": "14a34258ba7302bd7b9f839b1b20708da9d7658edc8ebdc1b6b6700368982e17"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_sde_B4096_seed102.json",
+          "sha256": "893c1f121f87f174fb9d3e780db211a7658e94711fe1c0894134d233f5b88edc",
+          "spec_id": "MIN_formal_free_compressed_sde_B4096_seed102",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4763,
+                "remove_admit_sha256": "bb92dd3f8648e8612b88c338c23edae41c3719f772bf4151da2d77d0d0c17e47"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9613,
+                "remove_admit_sha256": "f56cf306cd566742ad60e218d4a088e8f0042d5b04aa4b6fac08c77edbeda0ff"
+              }
+            ]
+          },
+          "answer_sha256": "14a34258ba7302bd7b9f839b1b20708da9d7658edc8ebdc1b6b6700368982e17"
+        }
+      }
+    },
+    {
+      "family": "free_compressed",
+      "B": 4096,
+      "trace_seed": 103,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_deferred_B4096_seed103.json",
+          "sha256": "d514a537be011944aad0087622ba51f374c470e40be6200adc7fc74e94c2fea8",
+          "spec_id": "MIN_formal_free_compressed_deferred_B4096_seed103",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4775,
+                "remove_admit_sha256": "b88b6b2863524a14ce0c143b5d363bb023cfd3f392b777188357cdc45efd7f73"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9575,
+                "remove_admit_sha256": "ab283e70a97506a8383a69bf6e3a2c312938287f864d2abc82710ec06c552d01"
+              }
+            ]
+          },
+          "answer_sha256": "ac27acf63bcd30e25e8f041ed45aac9e57c60d851de1324a2922cd4c30295476"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_sde_B4096_seed103.json",
+          "sha256": "30266dfc65da3b279bc3f2c903044363d79a2765140d83b9e4ada59aef039855",
+          "spec_id": "MIN_formal_free_compressed_sde_B4096_seed103",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4775,
+                "remove_admit_sha256": "b88b6b2863524a14ce0c143b5d363bb023cfd3f392b777188357cdc45efd7f73"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9575,
+                "remove_admit_sha256": "ab283e70a97506a8383a69bf6e3a2c312938287f864d2abc82710ec06c552d01"
+              }
+            ]
+          },
+          "answer_sha256": "ac27acf63bcd30e25e8f041ed45aac9e57c60d851de1324a2922cd4c30295476"
+        }
+      }
+    },
+    {
+      "family": "free_compressed",
+      "B": 4096,
+      "trace_seed": 104,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_deferred_B4096_seed104.json",
+          "sha256": "429ca4ff635a11407dc1316af8bf603da29cada999f041b3b8c32053ef736b50",
+          "spec_id": "MIN_formal_free_compressed_deferred_B4096_seed104",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4807,
+                "remove_admit_sha256": "578c406af5a149dc891b4fe6c57a1bd7a7e170c7f7addb2ebb314f52ef49ee6c"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9546,
+                "remove_admit_sha256": "d64548cb5629bbc5890b80524ee056b23821147b1e630fabab64bbd2f3a9eb87"
+              }
+            ]
+          },
+          "answer_sha256": "7a41c6809c07af2967c4c7f70828321d15038179876d919aa3fca454d5e7e8eb"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_sde_B4096_seed104.json",
+          "sha256": "7cbc02012f93ec0e6892e8262fe984131e98fc26e92e90a4072ce6f040f93a2e",
+          "spec_id": "MIN_formal_free_compressed_sde_B4096_seed104",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4807,
+                "remove_admit_sha256": "578c406af5a149dc891b4fe6c57a1bd7a7e170c7f7addb2ebb314f52ef49ee6c"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9546,
+                "remove_admit_sha256": "d64548cb5629bbc5890b80524ee056b23821147b1e630fabab64bbd2f3a9eb87"
+              }
+            ]
+          },
+          "answer_sha256": "7a41c6809c07af2967c4c7f70828321d15038179876d919aa3fca454d5e7e8eb"
+        }
+      }
+    },
+    {
+      "family": "free_compressed",
+      "B": 4096,
+      "trace_seed": 105,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_deferred_B4096_seed105.json",
+          "sha256": "142c5ace287d117b69a33f320191656f827b713ad0be5fe78bcce82ede621f31",
+          "spec_id": "MIN_formal_free_compressed_deferred_B4096_seed105",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4767,
+                "remove_admit_sha256": "d7ce61ef497eae37649cd28e4099b7c37899bdb837ca75868dccdfcfe9e3090c"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9593,
+                "remove_admit_sha256": "f7bfbe31d21df019a7be476689ad7e76aca81b5e7c7e9b131a5bcc9321e4cc5f"
+              }
+            ]
+          },
+          "answer_sha256": "f445314bf2489591aa3b641cca077bac001c873b65c028b133312d09de03fee7"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_free_compressed_sde_B4096_seed105.json",
+          "sha256": "72fc514398616d27b0cb4c294c4133cd16cf27c6ff36dc10fbe3e4f74e224880",
+          "spec_id": "MIN_formal_free_compressed_sde_B4096_seed105",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 4767,
+                "remove_admit_sha256": "d7ce61ef497eae37649cd28e4099b7c37899bdb837ca75868dccdfcfe9e3090c"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 9593,
+                "remove_admit_sha256": "f7bfbe31d21df019a7be476689ad7e76aca81b5e7c7e9b131a5bcc9321e4cc5f"
+              }
+            ]
+          },
+          "answer_sha256": "f445314bf2489591aa3b641cca077bac001c873b65c028b133312d09de03fee7"
+        }
+      }
+    },
+    {
+      "family": "rho",
+      "B": 64,
+      "trace_seed": 101,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_deferred_B64_seed101.json",
+          "sha256": "5cb6e5d1864dc4147aab2d9acd93ca7bb150149b590a6ec6f7942288ac11adc9",
+          "spec_id": "MIN_formal_rho_deferred_B64_seed101",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5907,
+                "remove_admit_sha256": "5240e2776f4772741fc6d4135ac46249bfd24e1a2b464c946883ecf3e2807aae"
+              },
+              {
+                "slots": 1969,
+                "remove_admit_sha256": "dd695e057b96ed655dc75215b5022ce19eb222e77495f64e1ed73bb3f19f567a"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11829,
+                "remove_admit_sha256": "b151874b789b9662a3c129c735950e61e2f840cb8fd89ca3d988311bffc027bc"
+              },
+              {
+                "slots": 3943,
+                "remove_admit_sha256": "8a17893f66be5037d70e05b965e51c95401aee710ed48934d218e49a666486d7"
+              }
+            ]
+          },
+          "answer_sha256": "8faf4f517c8d90f77a362ff87995f6ccc4368bbd58eb9bb0d5beee8bd6576d3d"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_sde_B64_seed101.json",
+          "sha256": "4740307c0dcf656bfcf5d4c850a02f2dc79d69c86b252a46bcdade152ffa8909",
+          "spec_id": "MIN_formal_rho_sde_B64_seed101",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5907,
+                "remove_admit_sha256": "5240e2776f4772741fc6d4135ac46249bfd24e1a2b464c946883ecf3e2807aae"
+              },
+              {
+                "slots": 1969,
+                "remove_admit_sha256": "dd695e057b96ed655dc75215b5022ce19eb222e77495f64e1ed73bb3f19f567a"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11829,
+                "remove_admit_sha256": "b151874b789b9662a3c129c735950e61e2f840cb8fd89ca3d988311bffc027bc"
+              },
+              {
+                "slots": 3943,
+                "remove_admit_sha256": "8a17893f66be5037d70e05b965e51c95401aee710ed48934d218e49a666486d7"
+              }
+            ]
+          },
+          "answer_sha256": "8faf4f517c8d90f77a362ff87995f6ccc4368bbd58eb9bb0d5beee8bd6576d3d"
+        }
+      }
+    },
+    {
+      "family": "rho",
+      "B": 64,
+      "trace_seed": 102,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_deferred_B64_seed102.json",
+          "sha256": "600226c15ff07b37302c3338a920ff381fa842287edbfcc03ca8a1e8eecfb144",
+          "spec_id": "MIN_formal_rho_deferred_B64_seed102",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5898,
+                "remove_admit_sha256": "fff5b6aa639c9f649f2c6542c028725735c3e1694f24631b4ef8908da73a17ae"
+              },
+              {
+                "slots": 1966,
+                "remove_admit_sha256": "bda0c16196e8e083d8794617e583a99ad141c944c4ebf21ceda38794dfcfc173"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11805,
+                "remove_admit_sha256": "b4b588de90633d58d830020dffebcf8ff4858cd055ca8585ce08a1ab61d1a112"
+              },
+              {
+                "slots": 3935,
+                "remove_admit_sha256": "1f0854bab3a54253f55c27ce8c2798b0ba597fbc57146c5933492bb38a26ef27"
+              }
+            ]
+          },
+          "answer_sha256": "3f2acac29cbbcb2e66bed4feff75e64cc9a80745ec7590fd9551294b74f7e8bf"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_sde_B64_seed102.json",
+          "sha256": "6704a524644b91b7ab135ee3c7b0aa87cc85fa63a71c871d467827dbb3ee4f83",
+          "spec_id": "MIN_formal_rho_sde_B64_seed102",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5898,
+                "remove_admit_sha256": "fff5b6aa639c9f649f2c6542c028725735c3e1694f24631b4ef8908da73a17ae"
+              },
+              {
+                "slots": 1966,
+                "remove_admit_sha256": "bda0c16196e8e083d8794617e583a99ad141c944c4ebf21ceda38794dfcfc173"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11805,
+                "remove_admit_sha256": "b4b588de90633d58d830020dffebcf8ff4858cd055ca8585ce08a1ab61d1a112"
+              },
+              {
+                "slots": 3935,
+                "remove_admit_sha256": "1f0854bab3a54253f55c27ce8c2798b0ba597fbc57146c5933492bb38a26ef27"
+              }
+            ]
+          },
+          "answer_sha256": "3f2acac29cbbcb2e66bed4feff75e64cc9a80745ec7590fd9551294b74f7e8bf"
+        }
+      }
+    },
+    {
+      "family": "rho",
+      "B": 64,
+      "trace_seed": 103,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_deferred_B64_seed103.json",
+          "sha256": "ca04688e5fc8bd6f9261fbf717cca801ac547080f64e4223ea91d4913dc9be0b",
+          "spec_id": "MIN_formal_rho_deferred_B64_seed103",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5901,
+                "remove_admit_sha256": "b1c18f2d05fee3bad837ce177bcd3da0218b8f99f5cda8d6591873536d1b50fb"
+              },
+              {
+                "slots": 1967,
+                "remove_admit_sha256": "492ca022d74c7b85ff5388b437ee1173e2fa1ad7db32142bcb981580a6418670"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11805,
+                "remove_admit_sha256": "c2e09093ad270f901f4daef7c315d4ae53a320c59738c43707f07f67a75487fb"
+              },
+              {
+                "slots": 3935,
+                "remove_admit_sha256": "4f89d2ae083479c758b181bef9d655eb0cb6db93efdbc288316ac66423a1843b"
+              }
+            ]
+          },
+          "answer_sha256": "17f7290094dbafa209b260b3f97566ce2620c3c0a3e03270f1135ade8343f437"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_sde_B64_seed103.json",
+          "sha256": "8f2b1a9f5d28d4b0d2181551b61c00303ea672aeebc3cf0359caf02879c64b7d",
+          "spec_id": "MIN_formal_rho_sde_B64_seed103",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5901,
+                "remove_admit_sha256": "b1c18f2d05fee3bad837ce177bcd3da0218b8f99f5cda8d6591873536d1b50fb"
+              },
+              {
+                "slots": 1967,
+                "remove_admit_sha256": "492ca022d74c7b85ff5388b437ee1173e2fa1ad7db32142bcb981580a6418670"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11805,
+                "remove_admit_sha256": "c2e09093ad270f901f4daef7c315d4ae53a320c59738c43707f07f67a75487fb"
+              },
+              {
+                "slots": 3935,
+                "remove_admit_sha256": "4f89d2ae083479c758b181bef9d655eb0cb6db93efdbc288316ac66423a1843b"
+              }
+            ]
+          },
+          "answer_sha256": "17f7290094dbafa209b260b3f97566ce2620c3c0a3e03270f1135ade8343f437"
+        }
+      }
+    },
+    {
+      "family": "rho",
+      "B": 64,
+      "trace_seed": 104,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_deferred_B64_seed104.json",
+          "sha256": "eea74fddb6a6ab811a399a20669fe6196e8ea41de44ac22ba28db5785a8db960",
+          "spec_id": "MIN_formal_rho_deferred_B64_seed104",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5907,
+                "remove_admit_sha256": "415bddf388671db0ce6d6aad241d64060e04fc55811c6b885f09edd0effb2d08"
+              },
+              {
+                "slots": 1969,
+                "remove_admit_sha256": "263d2f8d74e2b204ff797bdc80f3010c0099b4b05dd7c8e6ca92863fdc572c5f"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11784,
+                "remove_admit_sha256": "70083544a28fcd1163831f66d1643667eb482a6fedaa04cd43e0c4ffc331f6d2"
+              },
+              {
+                "slots": 3928,
+                "remove_admit_sha256": "7b196c8d4dd833796cf2f7892eab1795dabf3b0fda9368674208d69494ac6a5f"
+              }
+            ]
+          },
+          "answer_sha256": "ad11837183db4004926388d7fd62d31c9569ef2d10cad7ba09b025431f9478db"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_sde_B64_seed104.json",
+          "sha256": "6788990d47a99a1ca619b106bb6a5256ab6b53384454d21e17232f8f37f42d22",
+          "spec_id": "MIN_formal_rho_sde_B64_seed104",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5907,
+                "remove_admit_sha256": "415bddf388671db0ce6d6aad241d64060e04fc55811c6b885f09edd0effb2d08"
+              },
+              {
+                "slots": 1969,
+                "remove_admit_sha256": "263d2f8d74e2b204ff797bdc80f3010c0099b4b05dd7c8e6ca92863fdc572c5f"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11784,
+                "remove_admit_sha256": "70083544a28fcd1163831f66d1643667eb482a6fedaa04cd43e0c4ffc331f6d2"
+              },
+              {
+                "slots": 3928,
+                "remove_admit_sha256": "7b196c8d4dd833796cf2f7892eab1795dabf3b0fda9368674208d69494ac6a5f"
+              }
+            ]
+          },
+          "answer_sha256": "ad11837183db4004926388d7fd62d31c9569ef2d10cad7ba09b025431f9478db"
+        }
+      }
+    },
+    {
+      "family": "rho",
+      "B": 64,
+      "trace_seed": 105,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_deferred_B64_seed105.json",
+          "sha256": "4b91e0e679e10682db0ce333f3b5fe5fbe234539baf9a47f4042907177e7ce63",
+          "spec_id": "MIN_formal_rho_deferred_B64_seed105",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5865,
+                "remove_admit_sha256": "a1e073527d27922b94429ee80f3837f883326b0cf55a7c2af3673c773aaaa954"
+              },
+              {
+                "slots": 1955,
+                "remove_admit_sha256": "41d8888148e56a7c90761948c1c8d8354e2cf8404fbdb2ba359f3d17fd056a24"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11784,
+                "remove_admit_sha256": "6d6de0b001151256499171e974b1620950aed7825fb1e97720ed45df9f925c3f"
+              },
+              {
+                "slots": 3928,
+                "remove_admit_sha256": "3a3bb03fe81daa04c472db9e638d210babe35ceb5c54a27c20955ff8b971c138"
+              }
+            ]
+          },
+          "answer_sha256": "26aceb7c6ec2b665af51c418fa14deb50c988cb3c47bb57f1da621c960dce6a2"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_sde_B64_seed105.json",
+          "sha256": "4f598528807f747312bbec1bc6a08ff8fdd18f3aaf07a6bce132864f9510aeaa",
+          "spec_id": "MIN_formal_rho_sde_B64_seed105",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5865,
+                "remove_admit_sha256": "a1e073527d27922b94429ee80f3837f883326b0cf55a7c2af3673c773aaaa954"
+              },
+              {
+                "slots": 1955,
+                "remove_admit_sha256": "41d8888148e56a7c90761948c1c8d8354e2cf8404fbdb2ba359f3d17fd056a24"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11784,
+                "remove_admit_sha256": "6d6de0b001151256499171e974b1620950aed7825fb1e97720ed45df9f925c3f"
+              },
+              {
+                "slots": 3928,
+                "remove_admit_sha256": "3a3bb03fe81daa04c472db9e638d210babe35ceb5c54a27c20955ff8b971c138"
+              }
+            ]
+          },
+          "answer_sha256": "26aceb7c6ec2b665af51c418fa14deb50c988cb3c47bb57f1da621c960dce6a2"
+        }
+      }
+    },
+    {
+      "family": "rho",
+      "B": 4096,
+      "trace_seed": 101,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_deferred_B4096_seed101.json",
+          "sha256": "0aa3fc540320b925ac297bcdc2dc466b41e585a17c2ed61cc9dc4e47a931f6d8",
+          "spec_id": "MIN_formal_rho_deferred_B4096_seed101",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5907,
+                "remove_admit_sha256": "5240e2776f4772741fc6d4135ac46249bfd24e1a2b464c946883ecf3e2807aae"
+              },
+              {
+                "slots": 1969,
+                "remove_admit_sha256": "dd695e057b96ed655dc75215b5022ce19eb222e77495f64e1ed73bb3f19f567a"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11829,
+                "remove_admit_sha256": "b151874b789b9662a3c129c735950e61e2f840cb8fd89ca3d988311bffc027bc"
+              },
+              {
+                "slots": 3943,
+                "remove_admit_sha256": "8a17893f66be5037d70e05b965e51c95401aee710ed48934d218e49a666486d7"
+              }
+            ]
+          },
+          "answer_sha256": "93559398ed07a0cbbfa8053102cc73e9f146f9592589b8a110135ff4f8525965"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_sde_B4096_seed101.json",
+          "sha256": "a8c946664570a0329ffea74601b241606a133935b02e5c2669d9fda451e11ce6",
+          "spec_id": "MIN_formal_rho_sde_B4096_seed101",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5907,
+                "remove_admit_sha256": "5240e2776f4772741fc6d4135ac46249bfd24e1a2b464c946883ecf3e2807aae"
+              },
+              {
+                "slots": 1969,
+                "remove_admit_sha256": "dd695e057b96ed655dc75215b5022ce19eb222e77495f64e1ed73bb3f19f567a"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11829,
+                "remove_admit_sha256": "b151874b789b9662a3c129c735950e61e2f840cb8fd89ca3d988311bffc027bc"
+              },
+              {
+                "slots": 3943,
+                "remove_admit_sha256": "8a17893f66be5037d70e05b965e51c95401aee710ed48934d218e49a666486d7"
+              }
+            ]
+          },
+          "answer_sha256": "93559398ed07a0cbbfa8053102cc73e9f146f9592589b8a110135ff4f8525965"
+        }
+      }
+    },
+    {
+      "family": "rho",
+      "B": 4096,
+      "trace_seed": 102,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_deferred_B4096_seed102.json",
+          "sha256": "d4c03902ead66c5e7a21741ddad988d67d253eddbb398866466980d9bb1f0d49",
+          "spec_id": "MIN_formal_rho_deferred_B4096_seed102",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5898,
+                "remove_admit_sha256": "fff5b6aa639c9f649f2c6542c028725735c3e1694f24631b4ef8908da73a17ae"
+              },
+              {
+                "slots": 1966,
+                "remove_admit_sha256": "bda0c16196e8e083d8794617e583a99ad141c944c4ebf21ceda38794dfcfc173"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11805,
+                "remove_admit_sha256": "b4b588de90633d58d830020dffebcf8ff4858cd055ca8585ce08a1ab61d1a112"
+              },
+              {
+                "slots": 3935,
+                "remove_admit_sha256": "1f0854bab3a54253f55c27ce8c2798b0ba597fbc57146c5933492bb38a26ef27"
+              }
+            ]
+          },
+          "answer_sha256": "14a34258ba7302bd7b9f839b1b20708da9d7658edc8ebdc1b6b6700368982e17"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_sde_B4096_seed102.json",
+          "sha256": "232eeb0b2f1fe6ead242cda13afb762e93bc907c0d925b516f99cc36288f9a60",
+          "spec_id": "MIN_formal_rho_sde_B4096_seed102",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5898,
+                "remove_admit_sha256": "fff5b6aa639c9f649f2c6542c028725735c3e1694f24631b4ef8908da73a17ae"
+              },
+              {
+                "slots": 1966,
+                "remove_admit_sha256": "bda0c16196e8e083d8794617e583a99ad141c944c4ebf21ceda38794dfcfc173"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11805,
+                "remove_admit_sha256": "b4b588de90633d58d830020dffebcf8ff4858cd055ca8585ce08a1ab61d1a112"
+              },
+              {
+                "slots": 3935,
+                "remove_admit_sha256": "1f0854bab3a54253f55c27ce8c2798b0ba597fbc57146c5933492bb38a26ef27"
+              }
+            ]
+          },
+          "answer_sha256": "14a34258ba7302bd7b9f839b1b20708da9d7658edc8ebdc1b6b6700368982e17"
+        }
+      }
+    },
+    {
+      "family": "rho",
+      "B": 4096,
+      "trace_seed": 103,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_deferred_B4096_seed103.json",
+          "sha256": "cd3660630103746fc359620154f4e89877570db3d43e3e48a31851adff8f568c",
+          "spec_id": "MIN_formal_rho_deferred_B4096_seed103",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5901,
+                "remove_admit_sha256": "b1c18f2d05fee3bad837ce177bcd3da0218b8f99f5cda8d6591873536d1b50fb"
+              },
+              {
+                "slots": 1967,
+                "remove_admit_sha256": "492ca022d74c7b85ff5388b437ee1173e2fa1ad7db32142bcb981580a6418670"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11805,
+                "remove_admit_sha256": "c2e09093ad270f901f4daef7c315d4ae53a320c59738c43707f07f67a75487fb"
+              },
+              {
+                "slots": 3935,
+                "remove_admit_sha256": "4f89d2ae083479c758b181bef9d655eb0cb6db93efdbc288316ac66423a1843b"
+              }
+            ]
+          },
+          "answer_sha256": "ac27acf63bcd30e25e8f041ed45aac9e57c60d851de1324a2922cd4c30295476"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_sde_B4096_seed103.json",
+          "sha256": "d58b2c3ffdf08b1429567aa472914e9bb3a677544c561f2eef640fb909ea55ef",
+          "spec_id": "MIN_formal_rho_sde_B4096_seed103",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5901,
+                "remove_admit_sha256": "b1c18f2d05fee3bad837ce177bcd3da0218b8f99f5cda8d6591873536d1b50fb"
+              },
+              {
+                "slots": 1967,
+                "remove_admit_sha256": "492ca022d74c7b85ff5388b437ee1173e2fa1ad7db32142bcb981580a6418670"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11805,
+                "remove_admit_sha256": "c2e09093ad270f901f4daef7c315d4ae53a320c59738c43707f07f67a75487fb"
+              },
+              {
+                "slots": 3935,
+                "remove_admit_sha256": "4f89d2ae083479c758b181bef9d655eb0cb6db93efdbc288316ac66423a1843b"
+              }
+            ]
+          },
+          "answer_sha256": "ac27acf63bcd30e25e8f041ed45aac9e57c60d851de1324a2922cd4c30295476"
+        }
+      }
+    },
+    {
+      "family": "rho",
+      "B": 4096,
+      "trace_seed": 104,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_deferred_B4096_seed104.json",
+          "sha256": "db73fee986ea65554bc6cbc79ff4692d63e9e963a998c21a7a4d1c4d64ebb35a",
+          "spec_id": "MIN_formal_rho_deferred_B4096_seed104",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5907,
+                "remove_admit_sha256": "415bddf388671db0ce6d6aad241d64060e04fc55811c6b885f09edd0effb2d08"
+              },
+              {
+                "slots": 1969,
+                "remove_admit_sha256": "263d2f8d74e2b204ff797bdc80f3010c0099b4b05dd7c8e6ca92863fdc572c5f"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11784,
+                "remove_admit_sha256": "70083544a28fcd1163831f66d1643667eb482a6fedaa04cd43e0c4ffc331f6d2"
+              },
+              {
+                "slots": 3928,
+                "remove_admit_sha256": "7b196c8d4dd833796cf2f7892eab1795dabf3b0fda9368674208d69494ac6a5f"
+              }
+            ]
+          },
+          "answer_sha256": "7a41c6809c07af2967c4c7f70828321d15038179876d919aa3fca454d5e7e8eb"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_sde_B4096_seed104.json",
+          "sha256": "18555bbbe202fde6f9d0e47632d150cab8d4d2bb39bab4e49a4d937763fbac18",
+          "spec_id": "MIN_formal_rho_sde_B4096_seed104",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5907,
+                "remove_admit_sha256": "415bddf388671db0ce6d6aad241d64060e04fc55811c6b885f09edd0effb2d08"
+              },
+              {
+                "slots": 1969,
+                "remove_admit_sha256": "263d2f8d74e2b204ff797bdc80f3010c0099b4b05dd7c8e6ca92863fdc572c5f"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11784,
+                "remove_admit_sha256": "70083544a28fcd1163831f66d1643667eb482a6fedaa04cd43e0c4ffc331f6d2"
+              },
+              {
+                "slots": 3928,
+                "remove_admit_sha256": "7b196c8d4dd833796cf2f7892eab1795dabf3b0fda9368674208d69494ac6a5f"
+              }
+            ]
+          },
+          "answer_sha256": "7a41c6809c07af2967c4c7f70828321d15038179876d919aa3fca454d5e7e8eb"
+        }
+      }
+    },
+    {
+      "family": "rho",
+      "B": 4096,
+      "trace_seed": 105,
+      "equal_schedules": true,
+      "equal_answers": true,
+      "arms": {
+        "deferred": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_deferred_B4096_seed105.json",
+          "sha256": "201894d09e7e4c5b612d55e818f0e1970ed353c413c66923bb58c1b104fb28db",
+          "spec_id": "MIN_formal_rho_deferred_B4096_seed105",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5865,
+                "remove_admit_sha256": "a1e073527d27922b94429ee80f3837f883326b0cf55a7c2af3673c773aaaa954"
+              },
+              {
+                "slots": 1955,
+                "remove_admit_sha256": "41d8888148e56a7c90761948c1c8d8354e2cf8404fbdb2ba359f3d17fd056a24"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11784,
+                "remove_admit_sha256": "6d6de0b001151256499171e974b1620950aed7825fb1e97720ed45df9f925c3f"
+              },
+              {
+                "slots": 3928,
+                "remove_admit_sha256": "3a3bb03fe81daa04c472db9e638d210babe35ceb5c54a27c20955ff8b971c138"
+              }
+            ]
+          },
+          "answer_sha256": "f445314bf2489591aa3b641cca077bac001c873b65c028b133312d09de03fee7"
+        },
+        "sde": {
+          "receipt": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\results\\formal\\MIN_formal_rho_sde_B4096_seed105.json",
+          "sha256": "81c214193cccf843cf592ea2aa852663116221f6520a1ad8daadaa1d2d36a020",
+          "spec_id": "MIN_formal_rho_sde_B4096_seed105",
+          "schedules": {
+            "warmup": [
+              {
+                "slots": 5865,
+                "remove_admit_sha256": "a1e073527d27922b94429ee80f3837f883326b0cf55a7c2af3673c773aaaa954"
+              },
+              {
+                "slots": 1955,
+                "remove_admit_sha256": "41d8888148e56a7c90761948c1c8d8354e2cf8404fbdb2ba359f3d17fd056a24"
+              }
+            ],
+            "measurement": [
+              {
+                "slots": 11784,
+                "remove_admit_sha256": "6d6de0b001151256499171e974b1620950aed7825fb1e97720ed45df9f925c3f"
+              },
+              {
+                "slots": 3928,
+                "remove_admit_sha256": "3a3bb03fe81daa04c472db9e638d210babe35ceb5c54a27c20955ff8b971c138"
+              }
+            ]
+          },
+          "answer_sha256": "f445314bf2489591aa3b641cca077bac001c873b65c028b133312d09de03fee7"
+        }
+      }
+    }
+  ]
+}

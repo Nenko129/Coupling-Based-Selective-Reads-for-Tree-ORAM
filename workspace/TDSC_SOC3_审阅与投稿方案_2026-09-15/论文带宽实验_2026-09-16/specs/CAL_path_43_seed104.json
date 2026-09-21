@@ -1,0 +1,24 @@
+{
+  "id": "CAL_path_43_seed104",
+  "kind": "path",
+  "N": 256,
+  "B": 64,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "map_B": 512,
+  "terminal_bytes": 32768,
+  "compact": true,
+  "fusion": true,
+  "R": 256,
+  "trace_seed": 104,
+  "oram_seed": 1004,
+  "workload": "uniform",
+  "study": "complete_period_calibration",
+  "experiment_class": "formal_calibration",
+  "warmup": 1280,
+  "requests": 3072,
+  "period_slots": 768
+}

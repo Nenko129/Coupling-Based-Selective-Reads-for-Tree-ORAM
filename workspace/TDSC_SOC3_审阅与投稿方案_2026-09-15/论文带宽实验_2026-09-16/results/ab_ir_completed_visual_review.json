@@ -1,0 +1,26 @@
+{
+  "status": "visually_reviewed",
+  "numerical_audit_sha256": "435773149299a0073ab3103b99c853b7efafe67ef304d788f703b64bbcfc3bac",
+  "figures": [
+    {
+      "stem": "completed_ab_cb_bandwidth",
+      "svg_sha256": "e8218dc975f1032cfa08cc7253949b52c4b50ea34384a3e105109f9a27723f94",
+      "png_sha256": "c5ad85b82f3daaad8f07b03f5813714c4078f2fe867b766a749f0dcc7f49556e",
+      "image_pixels": [
+        2190,
+        1107
+      ]
+    },
+    {
+      "stem": "completed_ir_compressed",
+      "svg_sha256": "626e6f1c9633d30c4e09327c8828cc19d842e45b19f143786dfd6713fd52a3cf",
+      "png_sha256": "49009bb7b88864c78f97d170a9ed26ef8d4bf19f0a9681a7d1a01015945ec8ca",
+      "image_pixels": [
+        2334,
+        1158
+      ]
+    }
+  ],
+  "unresolved_layout_defects": [],
+  "review": "Both final PNGs inspected. AB near-zero tick labels reduced to five to avoid overlap. IR includes all 15 stress outcomes with legible warmup completion counts. Captions, baselines, units and error intervals visible."
+}

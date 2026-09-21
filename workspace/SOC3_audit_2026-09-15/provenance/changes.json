@@ -1,0 +1,39 @@
+{
+  "changed_received_files": [
+    {
+      "path": "research_20260914/optimization_v1/variant_contract.json",
+      "received_sha256": "547d235780ec8d966bdca9d1c259b3050fa6a81167920e1d3a233ede20b97f76",
+      "audited_sha256": "ca7dbe4fabebd0ecc39186612bfd3650fab9b687b30013508e12bcb09e1180b7"
+    },
+    {
+      "path": "research_20260914/optimization_v1/src/optimized_gate.py",
+      "received_sha256": "c71657071068c2d069b7b9f376c67b818f5a6b56d4c400ff3186f7152d065681",
+      "audited_sha256": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b"
+    },
+    {
+      "path": "research_20260914/optimization_v1/src/variant_tests.py",
+      "received_sha256": "c4caad72176f60c1890f3801f498d519cbb8de1b7a4e3b11f16c4cc28cc3d04f",
+      "audited_sha256": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+    }
+  ],
+  "explanation": {
+    "src/variant_tests.py": "Replace hard-coded D drive dependency paths with bundle-relative paths.",
+    "src/optimized_gate.py": "Audit scope ID, exact domain, nonnegative components, model/seed binding and explicit deterministic-height rule.",
+    "variant_contract.json": "New explicitly scoped audit identity; raw received contract remains in received ZIP."
+  },
+  "unchanged_algorithm_files": [
+    "optimized_oram.py",
+    "fused_logical.py",
+    "optimized_cost.py",
+    "ghost_z7a6.cpp"
+  ],
+  "new_material": [
+    "proofs/01_fusion.md",
+    "proofs/02_parameterized_reduction.md",
+    "proofs/03_numerical_audit.md",
+    "audit/*.py",
+    "receipts/final_run",
+    "README.md",
+    "AUDIT_REPORT.md"
+  ]
+}

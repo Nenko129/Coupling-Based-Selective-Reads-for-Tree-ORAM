@@ -1,0 +1,21 @@
+{
+  "status": "visually_reviewed",
+  "reviewer": "assistant inspection of final Poppler rendering through view_image",
+  "pdf_sha256": "83ae3e3e3f7f55c072a5146bd076367cdf79fa912c94ed37470970797dfdb10b",
+  "rendered_png_sha256": "baab9cc661ea899e87b0e59a18632fc96977e6f5c915ffbd0f9c1e66fb0328cc",
+  "rendered_pixels": [
+    1727,
+    710
+  ],
+  "numerical_audit_sha256": "c8fa10f363d39d172f6be0a972dfb173bfd499963cecc788e7c23b099e9c10b4",
+  "pages_reviewed": [
+    1
+  ],
+  "findings": [
+    "No clipped titles, axis labels, values or footnotes",
+    "Paired means and error bars readable with separated labels",
+    "Both workloads, five seeds, finite window, parameters and resource boundary visible",
+    "Vector PDF and embedded fonts separately verified"
+  ],
+  "unresolved_layout_defects": []
+}

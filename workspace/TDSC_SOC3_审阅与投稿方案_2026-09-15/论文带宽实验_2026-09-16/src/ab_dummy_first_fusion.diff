@@ -1,0 +1,26 @@
+--- cb_fusion.py
++++ ab_dummy_first_fusion.py
+@@ -1,19 +1,13 @@
+ """CB logical read with public-count neutral fusion and retained green records.
+ 
+-Policy: a non-target bucket samples all unused slots while G<Y; afterwards it
+-samples unused dummy slots. The target always wins if present. The policy is a
+-specific instantiation of String ORAM's permitted selection, not author code.
++Policy: the target wins; otherwise prefer an unused dummy, using green only
++when none remains and the quota permits. This is a separately named protocol
++revision, not author code and not a guarantee of strictly dummy-only reads.
+ """
+ from cb_oram import Record,node,need,ui
+ 
+ 
+-def eligible_slots(c,h,address):
+-    matches=[j for j,x in h.live.items() if x.address==address]
+-    need(len(matches)<=1,'multiple target slots')
+-    if matches:return tuple(matches)
+-    out=tuple(j for j in range(c.n) if not(h.used>>j&1) and (h.green<c.Y or j not in h.live))
+-    need(bool(out),'no CB eligible slot before public threshold')
+-    return out
++from ab_dummy_first_policy import eligible_slots
+ 
+ 
+ def logical_slot(tree,b,h,address):

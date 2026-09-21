@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "runs": 60,
+  "comparisons": 14,
+  "source_sha256": "8d71960805d1bf90ebf328d2e50445d56f966df4072c53338977aae9346f10ad",
+  "export_receipt_sha256": "40b4e3500c9347029cb32fcc1e2fa1d05b2009deefb823cadec2310d71471fe8",
+  "checker_sha256": "6177b6ae7b8baa8337e2dbb304475a261b37573c8cdb63700267c1dbbe2d38d0",
+  "pdf_sha256": "e625f299224e8c5cd66725c4752d9f00fb2b0837fb58af3b4e1b9f48ca470254",
+  "pages": 1,
+  "vector_content": true,
+  "embedded_fonts": true,
+  "visual_review_separate": true
+}

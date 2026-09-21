@@ -1,0 +1,5919 @@
+{
+  "items": [
+    {
+      "spec": {
+        "id": "B1_path_uniform_N16384_B4096_seed101",
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf00_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_deferred_N4096_B64_seed101",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_deferred_uniform_N16384_B4096_seed101",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf01_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_sde_N4096_B64_seed101",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_sde_uniform_N16384_B4096_seed101",
+        "kind": "sde",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf10_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_deferred_N4096_B64_seed101",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_ring_uniform_N16384_B4096_seed101",
+        "kind": "ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf00_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_sde_N4096_B64_seed101",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_gc_ring_uniform_N16384_B4096_seed101",
+        "kind": "gc_ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf01_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_ring_N4096_B64_seed101",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_r0_uniform_N16384_B4096_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf10_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_r0_N4096_B64_seed101",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_path_hot90_N16384_B4096_seed101",
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf11_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_ring_N4096_B64_seed101",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_deferred_hot90_N16384_B4096_seed101",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_large_map_cf00_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 4096,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_r0_N4096_B64_seed101",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_sde_hot90_N16384_B4096_seed101",
+        "kind": "sde",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf00_seed102",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_deferred_N4096_B4096_seed101",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_ring_hot90_N16384_B4096_seed101",
+        "kind": "ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf01_seed102",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_sde_N4096_B4096_seed101",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_gc_ring_hot90_N16384_B4096_seed101",
+        "kind": "gc_ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf10_seed102",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_deferred_N4096_B4096_seed101",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_r0_hot90_N16384_B4096_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf00_seed102",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_sde_N4096_B4096_seed101",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_path_uniform_N16384_B4096_seed102",
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf01_seed102",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_ring_N4096_B4096_seed101",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_deferred_uniform_N16384_B4096_seed102",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf10_seed102",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_r0_N4096_B4096_seed101",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_sde_uniform_N16384_B4096_seed102",
+        "kind": "sde",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf11_seed102",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_ring_N4096_B4096_seed101",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_ring_uniform_N16384_B4096_seed102",
+        "kind": "ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_large_map_cf00_seed102",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 4096,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_r0_N4096_B4096_seed101",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_gc_ring_uniform_N16384_B4096_seed102",
+        "kind": "gc_ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf00_seed103",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_deferred_N4096_B64_seed102",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_r0_uniform_N16384_B4096_seed102",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf01_seed103",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_sde_N4096_B64_seed102",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_path_hot90_N16384_B4096_seed102",
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf10_seed103",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_deferred_N4096_B64_seed102",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_deferred_hot90_N16384_B4096_seed102",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf00_seed103",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_sde_N4096_B64_seed102",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_sde_hot90_N16384_B4096_seed102",
+        "kind": "sde",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf01_seed103",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_ring_N4096_B64_seed102",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_ring_hot90_N16384_B4096_seed102",
+        "kind": "ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf10_seed103",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_r0_N4096_B64_seed102",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_gc_ring_hot90_N16384_B4096_seed102",
+        "kind": "gc_ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf11_seed103",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_ring_N4096_B64_seed102",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_r0_hot90_N16384_B4096_seed102",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_large_map_cf00_seed103",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 4096,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_r0_N4096_B64_seed102",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_path_uniform_N16384_B4096_seed103",
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf00_seed104",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_deferred_N4096_B4096_seed102",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_deferred_uniform_N16384_B4096_seed103",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf01_seed104",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_sde_N4096_B4096_seed102",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_sde_uniform_N16384_B4096_seed103",
+        "kind": "sde",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf10_seed104",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_deferred_N4096_B4096_seed102",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_ring_uniform_N16384_B4096_seed103",
+        "kind": "ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf00_seed104",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_sde_N4096_B4096_seed102",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_gc_ring_uniform_N16384_B4096_seed103",
+        "kind": "gc_ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf01_seed104",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_ring_N4096_B4096_seed102",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_r0_uniform_N16384_B4096_seed103",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf10_seed104",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_r0_N4096_B4096_seed102",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_path_hot90_N16384_B4096_seed103",
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf11_seed104",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_ring_N4096_B4096_seed102",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_deferred_hot90_N16384_B4096_seed103",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_large_map_cf00_seed104",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 4096,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_r0_N4096_B4096_seed102",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_sde_hot90_N16384_B4096_seed103",
+        "kind": "sde",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf00_seed105",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_deferred_N4096_B64_seed103",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_ring_hot90_N16384_B4096_seed103",
+        "kind": "ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf01_seed105",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_sde_N4096_B64_seed103",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_gc_ring_hot90_N16384_B4096_seed103",
+        "kind": "gc_ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_cf10_seed105",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_deferred_N4096_B64_seed103",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_r0_hot90_N16384_B4096_seed103",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf00_seed105",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_sde_N4096_B64_seed103",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_path_uniform_N16384_B4096_seed104",
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf01_seed105",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_ring_N4096_B64_seed103",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_deferred_uniform_N16384_B4096_seed104",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf10_seed105",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_r0_N4096_B64_seed103",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_sde_uniform_N16384_B4096_seed104",
+        "kind": "sde",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_76_cf11_seed105",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_ring_N4096_B64_seed103",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_ring_uniform_N16384_B4096_seed104",
+        "kind": "ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "B2_R0_43_large_map_cf00_seed105",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 4096,
+        "terminal_bytes": 32768,
+        "compact": false,
+        "fusion": false,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_ablation"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_r0_N4096_B64_seed103",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_gc_ring_uniform_N16384_B4096_seed104",
+        "kind": "gc_ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_deferred_N4096_B4096_seed103",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_r0_uniform_N16384_B4096_seed104",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_sde_N4096_B4096_seed103",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_path_hot90_N16384_B4096_seed104",
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_deferred_N4096_B4096_seed103",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_deferred_hot90_N16384_B4096_seed104",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_sde_N4096_B4096_seed103",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_sde_hot90_N16384_B4096_seed104",
+        "kind": "sde",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_ring_N4096_B4096_seed103",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_ring_hot90_N16384_B4096_seed104",
+        "kind": "ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_r0_N4096_B4096_seed103",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_gc_ring_hot90_N16384_B4096_seed104",
+        "kind": "gc_ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_ring_N4096_B4096_seed103",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_r0_hot90_N16384_B4096_seed104",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_r0_N4096_B4096_seed103",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_path_uniform_N16384_B4096_seed105",
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_deferred_N4096_B64_seed104",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_deferred_uniform_N16384_B4096_seed105",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_sde_N4096_B64_seed104",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_sde_uniform_N16384_B4096_seed105",
+        "kind": "sde",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_deferred_N4096_B64_seed104",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_ring_uniform_N16384_B4096_seed105",
+        "kind": "ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_sde_N4096_B64_seed104",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_gc_ring_uniform_N16384_B4096_seed105",
+        "kind": "gc_ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_ring_N4096_B64_seed104",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_r0_uniform_N16384_B4096_seed105",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_r0_N4096_B64_seed104",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_path_hot90_N16384_B4096_seed105",
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_ring_N4096_B64_seed104",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_deferred_hot90_N16384_B4096_seed105",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_r0_N4096_B64_seed104",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_sde_hot90_N16384_B4096_seed105",
+        "kind": "sde",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_deferred_N4096_B4096_seed104",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_ring_hot90_N16384_B4096_seed105",
+        "kind": "ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_sde_N4096_B4096_seed104",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_gc_ring_hot90_N16384_B4096_seed105",
+        "kind": "gc_ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_deferred_N4096_B4096_seed104",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "B1_r0_hot90_N16384_B4096_seed105",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "experiment_class": "formal_core"
+      },
+      "mode": "core"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_sde_N4096_B4096_seed104",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_ring_N4096_B4096_seed104",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_r0_N4096_B4096_seed104",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_ring_N4096_B4096_seed104",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_r0_N4096_B4096_seed104",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_deferred_N4096_B64_seed105",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_sde_N4096_B64_seed105",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_deferred_N4096_B64_seed105",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_sde_N4096_B64_seed105",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_ring_N4096_B64_seed105",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_r0_N4096_B64_seed105",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_ring_N4096_B64_seed105",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_r0_N4096_B64_seed105",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_deferred_N4096_B4096_seed105",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_uniform_sde_N4096_B4096_seed105",
+        "family": "IR",
+        "layout": "uniform",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_deferred_N4096_B4096_seed105",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC2_IR_depth_sde_N4096_B4096_seed105",
+        "family": "IR",
+        "layout": "depth",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 480,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 6,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_admitted",
+        "Z_by_depth": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_ring_N4096_B4096_seed105",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_uniform_r0_N4096_B4096_seed105",
+        "family": "AB",
+        "layout": "uniform",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_ring_N4096_B4096_seed105",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    },
+    {
+      "spec": {
+        "id": "CC_AB_depth_r0_N4096_B4096_seed105",
+        "family": "AB",
+        "layout": "depth",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          6
+        ],
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "warmup": 2048,
+        "requests": 4096,
+        "cached_levels": 5,
+        "workload": "uniform",
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "experiment_class": "formal_cached_components",
+        "S_by_depth": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4
+        ]
+      },
+      "mode": "cached"
+    }
+  ],
+  "source_plan_hashes": {
+    "formal_core_plan.json": "451ba4898f4d2ffdc2c8fdca570d5bbca8c70a7203553dc13c182c5c13abf0e2",
+    "formal_ablation_plan.json": "9afee927038badb7c97eb662d8d418832fb2b94594f884d945bbe8a23b062499",
+    "formal_cached_admitted_plan.json": "b2a1f7f693c0237ae3299a4ec619eae5586a620c7cb19048848d623f4948965a"
+  },
+  "drain_pids": [
+    30356,
+    32700,
+    33068,
+    48612,
+    54656,
+    55128
+  ],
+  "scheduling": "round-robin across core, ablation and cached plans; independent inputs and estimator unchanged",
+  "aliases": "five B2 cf11 aliases remain in the original ablation plan and are not re-executed"
+}

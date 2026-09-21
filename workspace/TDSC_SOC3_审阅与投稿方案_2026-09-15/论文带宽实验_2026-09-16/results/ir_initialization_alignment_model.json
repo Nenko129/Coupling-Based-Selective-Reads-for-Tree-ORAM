@@ -1,0 +1,753 @@
+{
+  "status": "model_evaluated",
+  "rows": [
+    {
+      "policy": {
+        "name": "known_order_remote_hold",
+        "secret_order": false,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "uniform_dummy"
+      },
+      "requests": 1,
+      "max_tv": "1/4",
+      "left": [
+        0
+      ],
+      "right": [
+        1
+      ],
+      "left_pmf": {
+        "0": "3/4",
+        "1": "1/4"
+      },
+      "right_pmf": {
+        "0": "1/2",
+        "1": "1/2"
+      }
+    },
+    {
+      "policy": {
+        "name": "known_order_remote_hold",
+        "secret_order": false,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "uniform_dummy"
+      },
+      "requests": 2,
+      "max_tv": "5/16",
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        0,
+        1
+      ],
+      "left_pmf": {
+        "00": "3/8",
+        "01": "3/8",
+        "11": "1/4"
+      },
+      "right_pmf": {
+        "00": "9/16",
+        "01": "3/16",
+        "10": "1/8",
+        "11": "1/8"
+      }
+    },
+    {
+      "policy": {
+        "name": "known_order_remote_hold",
+        "secret_order": false,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "uniform_dummy"
+      },
+      "requests": 3,
+      "max_tv": "13/32",
+      "left": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        1,
+        0,
+        0
+      ],
+      "left_pmf": {
+        "000": "9/32",
+        "010": "7/32",
+        "001": "3/32",
+        "011": "5/32",
+        "110": "1/16",
+        "111": "3/16"
+      },
+      "right_pmf": {
+        "000": "3/16",
+        "001": "3/16",
+        "100": "1/8",
+        "101": "1/8",
+        "011": "1/8",
+        "110": "1/8",
+        "111": "1/8"
+      }
+    },
+    {
+      "policy": {
+        "name": "known_order_remote_hold",
+        "secret_order": false,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "uniform_dummy"
+      },
+      "requests": 4,
+      "max_tv": "15/32",
+      "left": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "right": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "left_pmf": {
+        "0000": "9/64",
+        "0001": "9/64",
+        "0100": "7/64",
+        "0101": "7/64",
+        "0011": "5/64",
+        "0110": "5/64",
+        "0111": "5/64",
+        "1100": "1/16",
+        "1110": "3/32",
+        "1111": "3/32",
+        "0010": "1/64"
+      },
+      "right_pmf": {
+        "0000": "3/16",
+        "0010": "7/64",
+        "0001": "3/32",
+        "0011": "11/64",
+        "0110": "1/32",
+        "0111": "1/8",
+        "1001": "3/32",
+        "1101": "1/16",
+        "1111": "1/16",
+        "0101": "1/32",
+        "1011": "1/32"
+      }
+    },
+    {
+      "policy": {
+        "name": "secret_order_remote_hold",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "uniform_dummy"
+      },
+      "requests": 1,
+      "max_tv": "0"
+    },
+    {
+      "policy": {
+        "name": "secret_order_remote_hold",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "uniform_dummy"
+      },
+      "requests": 2,
+      "max_tv": "7/32",
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        0,
+        1
+      ],
+      "left_pmf": {
+        "00": "11/32",
+        "01": "9/32",
+        "10": "3/32",
+        "11": "9/32"
+      },
+      "right_pmf": {
+        "00": "15/32",
+        "10": "3/16",
+        "01": "5/32",
+        "11": "3/16"
+      }
+    },
+    {
+      "policy": {
+        "name": "secret_order_remote_hold",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "uniform_dummy"
+      },
+      "requests": 3,
+      "max_tv": "17/64",
+      "left": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        0,
+        1,
+        1
+      ],
+      "left_pmf": {
+        "000": "1/4",
+        "010": "11/64",
+        "100": "1/32",
+        "110": "1/8",
+        "001": "3/32",
+        "011": "7/64",
+        "111": "5/32",
+        "101": "1/16"
+      },
+      "right_pmf": {
+        "000": "15/64",
+        "001": "15/64",
+        "100": "7/64",
+        "101": "5/64",
+        "011": "9/64",
+        "110": "3/32",
+        "111": "3/32",
+        "010": "1/64"
+      }
+    },
+    {
+      "policy": {
+        "name": "secret_order_remote_hold",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "uniform_dummy"
+      },
+      "requests": 4,
+      "max_tv": "45/128",
+      "left": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "left_pmf": {
+        "0000": "17/128",
+        "0010": "11/128",
+        "0100": "1/32",
+        "0110": "1/8",
+        "1000": "1/64",
+        "1010": "1/64",
+        "1100": "5/64",
+        "1110": "1/16",
+        "0001": "7/128",
+        "0101": "3/64",
+        "0111": "5/64",
+        "0011": "9/128",
+        "1111": "5/64",
+        "1001": "3/64",
+        "1101": "1/16",
+        "1011": "1/64"
+      },
+      "right_pmf": {
+        "0000": "7/32",
+        "0001": "7/64",
+        "0010": "7/128",
+        "0011": "11/128",
+        "1000": "3/64",
+        "1001": "1/64",
+        "0101": "5/64",
+        "0111": "5/64",
+        "1010": "3/64",
+        "1011": "5/64",
+        "1110": "5/128",
+        "1111": "15/128",
+        "1100": "1/64",
+        "1101": "1/64"
+      }
+    },
+    {
+      "policy": {
+        "name": "secret_order_random_ties",
+        "secret_order": true,
+        "tie": "uniform",
+        "hold": "remote",
+        "mode": "uniform_dummy"
+      },
+      "requests": 1,
+      "max_tv": "0"
+    },
+    {
+      "policy": {
+        "name": "secret_order_random_ties",
+        "secret_order": true,
+        "tie": "uniform",
+        "hold": "remote",
+        "mode": "uniform_dummy"
+      },
+      "requests": 2,
+      "max_tv": "3/16",
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        0,
+        1
+      ],
+      "left_pmf": {
+        "00": "23/64",
+        "01": "17/64",
+        "10": "3/32",
+        "11": "9/32"
+      },
+      "right_pmf": {
+        "00": "29/64",
+        "01": "11/64",
+        "10": "3/16",
+        "11": "3/16"
+      }
+    },
+    {
+      "policy": {
+        "name": "secret_order_random_ties",
+        "secret_order": true,
+        "tie": "uniform",
+        "hold": "remote",
+        "mode": "uniform_dummy"
+      },
+      "requests": 3,
+      "max_tv": "1/4",
+      "left": [
+        0,
+        0,
+        1
+      ],
+      "right": [
+        0,
+        1,
+        1
+      ],
+      "left_pmf": {
+        "000": "65/256",
+        "001": "27/256",
+        "010": "21/128",
+        "100": "3/128",
+        "101": "9/128",
+        "110": "17/128",
+        "011": "13/128",
+        "111": "19/128"
+      },
+      "right_pmf": {
+        "000": "59/256",
+        "001": "57/256",
+        "010": "1/32",
+        "011": "9/64",
+        "100": "7/64",
+        "101": "5/64",
+        "110": "11/128",
+        "111": "13/128"
+      }
+    },
+    {
+      "policy": {
+        "name": "secret_order_random_ties",
+        "secret_order": true,
+        "tie": "uniform",
+        "hold": "remote",
+        "mode": "uniform_dummy"
+      },
+      "requests": 4,
+      "max_tv": "5/16",
+      "left": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "right": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "left_pmf": {
+        "0000": "151/1024",
+        "0001": "61/1024",
+        "0010": "23/256",
+        "0100": "9/512",
+        "0101": "23/512",
+        "0110": "63/512",
+        "1000": "11/512",
+        "1001": "25/512",
+        "1010": "3/256",
+        "1100": "17/256",
+        "1101": "17/256",
+        "1110": "35/512",
+        "0111": "41/512",
+        "0011": "1/16",
+        "1111": "41/512",
+        "1011": "3/256"
+      },
+      "right_pmf": {
+        "0000": "211/1024",
+        "0001": "105/1024",
+        "0010": "13/256",
+        "0011": "3/32",
+        "0100": "1/64",
+        "1000": "3/64",
+        "1001": "1/64",
+        "0101": "9/128",
+        "0111": "41/512",
+        "0110": "3/512",
+        "1010": "3/64",
+        "1011": "5/64",
+        "1110": "21/512",
+        "1111": "55/512",
+        "1100": "5/256",
+        "1101": "5/256"
+      }
+    },
+    {
+      "policy": {
+        "name": "secret_order_hold_local_too",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "all",
+        "mode": "uniform_dummy"
+      },
+      "requests": 1,
+      "max_tv": "0"
+    },
+    {
+      "policy": {
+        "name": "secret_order_hold_local_too",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "all",
+        "mode": "uniform_dummy"
+      },
+      "requests": 2,
+      "max_tv": "3/16",
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        0,
+        1
+      ],
+      "left_pmf": {
+        "00": "5/16",
+        "01": "5/16",
+        "10": "3/16",
+        "11": "3/16"
+      },
+      "right_pmf": {
+        "00": "15/32",
+        "10": "5/32",
+        "01": "5/32",
+        "11": "7/32"
+      }
+    },
+    {
+      "policy": {
+        "name": "secret_order_hold_local_too",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "all",
+        "mode": "uniform_dummy"
+      },
+      "requests": 3,
+      "max_tv": "9/32",
+      "left": [
+        0,
+        0,
+        0
+      ],
+      "right": [
+        0,
+        1,
+        0
+      ],
+      "left_pmf": {
+        "000": "5/32",
+        "001": "5/32",
+        "010": "5/32",
+        "011": "5/32",
+        "100": "3/32",
+        "101": "3/32",
+        "110": "3/32",
+        "111": "3/32"
+      },
+      "right_pmf": {
+        "000": "21/64",
+        "001": "9/64",
+        "100": "7/64",
+        "010": "1/32",
+        "011": "1/8",
+        "101": "3/64",
+        "111": "3/16",
+        "110": "1/32"
+      }
+    },
+    {
+      "policy": {
+        "name": "secret_order_hold_local_too",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "all",
+        "mode": "uniform_dummy"
+      },
+      "requests": 4,
+      "max_tv": "25/64",
+      "left": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "right": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "left_pmf": {
+        "0000": "5/64",
+        "0001": "5/64",
+        "0010": "5/64",
+        "0011": "5/64",
+        "0100": "5/64",
+        "0101": "5/64",
+        "0110": "5/64",
+        "0111": "5/64",
+        "1000": "3/64",
+        "1001": "3/64",
+        "1010": "3/64",
+        "1011": "3/64",
+        "1100": "3/64",
+        "1101": "3/64",
+        "1110": "3/64",
+        "1111": "3/64"
+      },
+      "right_pmf": {
+        "0000": "7/32",
+        "0001": "7/64",
+        "0010": "3/128",
+        "0011": "15/128",
+        "1000": "11/128",
+        "1001": "3/128",
+        "0100": "1/64",
+        "0101": "1/64",
+        "0111": "1/8",
+        "1010": "1/64",
+        "1011": "1/32",
+        "1110": "7/128",
+        "1111": "17/128",
+        "1100": "3/128",
+        "1101": "1/128"
+      }
+    },
+    {
+      "policy": {
+        "name": "secret_order_oldleaf_padding",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "oldleaf_dummy"
+      },
+      "requests": 1,
+      "max_tv": "0"
+    },
+    {
+      "policy": {
+        "name": "secret_order_oldleaf_padding",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "oldleaf_dummy"
+      },
+      "requests": 2,
+      "max_tv": "3/8",
+      "left": [
+        0,
+        0
+      ],
+      "right": [
+        0,
+        1
+      ],
+      "left_pmf": {
+        "00": "3/8",
+        "01": "1/8",
+        "11": "1/2"
+      },
+      "right_pmf": {
+        "00": "1/4",
+        "01": "1/4",
+        "10": "1/4",
+        "11": "1/4"
+      }
+    },
+    {
+      "policy": {
+        "name": "secret_order_oldleaf_padding",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "oldleaf_dummy"
+      },
+      "requests": 3,
+      "max_tv": "1/2",
+      "left": [
+        0,
+        1,
+        0
+      ],
+      "right": [
+        0,
+        1,
+        1
+      ],
+      "left_pmf": {
+        "000": "3/16",
+        "001": "1/16",
+        "010": "3/16",
+        "011": "1/16",
+        "101": "1/4",
+        "111": "1/4"
+      },
+      "right_pmf": {
+        "000": "1/8",
+        "001": "1/8",
+        "011": "1/4",
+        "100": "3/16",
+        "101": "1/16",
+        "111": "3/16",
+        "110": "1/16"
+      }
+    },
+    {
+      "policy": {
+        "name": "secret_order_oldleaf_padding",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "oldleaf_dummy"
+      },
+      "requests": 4,
+      "max_tv": "5/8",
+      "left": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "right": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "left_pmf": {
+        "0000": "9/32",
+        "0110": "1/32",
+        "0111": "3/32",
+        "0001": "1/32",
+        "1100": "3/16",
+        "1111": "5/16",
+        "0011": "1/16"
+      },
+      "right_pmf": {
+        "0000": "3/32",
+        "0001": "3/32",
+        "0011": "1/16",
+        "0100": "1/8",
+        "0111": "1/16",
+        "1010": "1/8",
+        "1011": "1/8",
+        "0101": "1/16",
+        "1110": "1/8",
+        "1111": "1/8"
+      }
+    },
+    {
+      "policy": {
+        "name": "full_remap_control",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "no_skip"
+      },
+      "requests": 1,
+      "max_tv": "0"
+    },
+    {
+      "policy": {
+        "name": "full_remap_control",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "no_skip"
+      },
+      "requests": 2,
+      "max_tv": "0"
+    },
+    {
+      "policy": {
+        "name": "full_remap_control",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "no_skip"
+      },
+      "requests": 3,
+      "max_tv": "0"
+    },
+    {
+      "policy": {
+        "name": "full_remap_control",
+        "secret_order": true,
+        "tie": "uid",
+        "hold": "remote",
+        "mode": "no_skip"
+      },
+      "requests": 4,
+      "max_tv": "0"
+    }
+  ],
+  "model_sha256": "4ea231b7d6a062ea8084573a4c55881465b196c415c3ef6b73758afd77f7fc63",
+  "base_model_sha256": "4a4a2af035b2d34963c1a5f9a29252db0b3eea11c7e46441944eaf2a02dc8961",
+  "prior_receipt_sha256": "c0fcb6a469e88a7f692361d8b1b790aea80907e5e7679ef1a1c9f03b14cb5511",
+  "scope": "Path L1/N2/Z1, two uniform-secret initialization orderings; fixed observed path-0 admission prefix; first-leaf projection",
+  "initialized_blocks": 2,
+  "initialization_path_prefix": [
+    0,
+    0
+  ],
+  "prefix_probability_if_independent_uniform_paths": "1/4",
+  "holds_current_remote_target": true,
+  "all_hold_is_additional_research_policy": true,
+  "zero_distance_is_not_proof": true,
+  "full_native_state_machine": false,
+  "encrypted_crosscheck_pending": true,
+  "security_admission": false
+}

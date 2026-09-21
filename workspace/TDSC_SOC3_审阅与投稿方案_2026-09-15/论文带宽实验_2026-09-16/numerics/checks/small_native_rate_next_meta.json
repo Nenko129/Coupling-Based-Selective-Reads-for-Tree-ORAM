@@ -1,0 +1,13 @@
+{
+  "model": "m2-depth-profile-independent-Poisson-ghost",
+  "cap": 6,
+  "height": 3,
+  "poisson_cutoff": 8,
+  "arithmetic": "next",
+  "Z_root_to_leaf": [2,3,4],
+  "rate_root_to_leaf": [0.5,1,4.375],
+  "seed_upper_root_to_leaf": ["0x1.368b2fc6f960ap-1","0x1.78b56362cef38p-2","0x1.9c7cfd9fd3c47p-7"],
+  "rounding_self_test": true,
+  "renormalized": false,
+  "positive_states_discarded": false
+}

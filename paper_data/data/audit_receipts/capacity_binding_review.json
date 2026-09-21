@@ -1,0 +1,18 @@
+{
+  "grid_checks": [
+    {
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\numerics\\grids\\IR43_scaled_L12_up_c480_m128.csv",
+      "rows": 6253,
+      "sha256": "fad5ca9a83d2e972bd0c78ed95357c02dd80316ab302f59c3bc79b7ca8a43311"
+    },
+    {
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\numerics\\grids\\IR43_scaled_L12_next_c480_m128.csv",
+      "rows": 6253,
+      "sha256": "bba928bba8595a40fea65fe70a14ec780b487e519beb7e55294625fea2e60e6b"
+    }
+  ],
+  "log2_lifetime_bound": -146.38671168427297,
+  "below_2_pow_minus_132": true,
+  "scope": "static IR profile/seed/grid/point rebinding and exact arithmetic; not new DP computation or independent third-party protocol certification",
+  "new_specs_bound": 30
+}

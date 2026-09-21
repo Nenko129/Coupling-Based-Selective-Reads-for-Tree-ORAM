@@ -1,0 +1,16 @@
+{
+  "model": "m2-independent-Poisson-ghost",
+  "rate": "3/2",
+  "Z": 4,
+  "cap": 280,
+  "height": 31,
+  "poisson_cutoff": 128,
+  "threads": 4,
+  "arithmetic": "next",
+  "poisson_zero_upper_hex": "0x1.c8f87724b5c1ep-3",
+  "poisson_tail_prob_upper_hex": "0x1.1a1225997d45dp-650",
+  "poisson_tail_moment_upper_hex": "0x1.1c4cdfe2c949cp-643",
+  "rounding_self_test": true,
+  "renormalized": false,
+  "positive_states_discarded": false
+}

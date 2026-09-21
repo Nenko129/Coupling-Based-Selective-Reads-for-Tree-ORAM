@@ -1,0 +1,36 @@
+{
+  "id": "pilot_IR_static_uniform_sde_N1024_B64",
+  "kind": "sde",
+  "N": 1024,
+  "B": 64,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "map_B": 512,
+  "terminal_bytes": 32768,
+  "compact": true,
+  "fusion": true,
+  "R": 256,
+  "warmup": 512,
+  "requests": 1024,
+  "trace_seed": 901,
+  "oram_seed": 1901,
+  "workload": "uniform",
+  "experiment_class": "pilot_components",
+  "Z_by_depth": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "profile_scaling": "published 25-level full-IR Z profile sampled at floor(25*d/(L+1)); no cached levels in this pilot"
+}

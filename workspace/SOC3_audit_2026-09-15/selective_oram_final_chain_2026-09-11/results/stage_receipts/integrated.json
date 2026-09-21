@@ -1,0 +1,9 @@
+{
+  "stage": "integrated",
+  "input_contract_sha256": "b40155e23d2d62cead87a89321cb88463ac0b36126782967fd490a813d41d19e",
+  "executed_in_this_stage": true,
+  "outputs_sha256": {
+    "results/integrated.json": "f622bd2780e50fa38595437c020f6d4bc4ae94c87e77e91a49c6c1b168ed0a63",
+    "results/integrated_ledger_sample.jsonl": "68a155b182ae9e4040d51f476157443db93da767805960258b303bc7862d06d4"
+  }
+}

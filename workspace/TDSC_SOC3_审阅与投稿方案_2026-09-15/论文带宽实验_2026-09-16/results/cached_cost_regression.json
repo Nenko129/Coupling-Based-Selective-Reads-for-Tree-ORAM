@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "zero_cache_seven_component_regressions": 12,
+  "caution": "positive-cache model checked by wire-level differential test and requires measured-period validation"
+}

@@ -1,0 +1,510 @@
+{
+  "status": "passed",
+  "spec": {
+    "id": "C2_rho_ring_hot90_N4096_B64_seed103",
+    "family": "rho",
+    "kind": "ring",
+    "N": 4096,
+    "B": 64,
+    "profile": [
+      4,
+      3,
+      4
+    ],
+    "plb": 8,
+    "llc": 32,
+    "rho": 128,
+    "R": 256,
+    "warmup": 2048,
+    "requests": 4096,
+    "trace_seed": 103,
+    "oram_seed": 1003,
+    "workload": "hot90",
+    "experiment_class": "formal_rho_fixed"
+  },
+  "trace": {
+    "path": "traces\\hot90_N4096_Q6144_seed103.json",
+    "sha256": "72f21e4923edf3476849e863aaf99458844285eaf0441879adb96b1b24409dbf"
+  },
+  "source_hashes": {
+    "core": {
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+    },
+    "composition": {
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\frontends.py": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\transfer_backend.py": "34d593fa1dee61f412fce3a11269d1e05e0e5f2c893107a436d5d53c73be4ff7",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\composition_runtime.py": "f00534055545cf47a8e39c657f2ba392864d9895a55fa6bb8bf8a733e7a492cb",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_composition.py": "2d979c9682b3053b4276671b2a40e48f0a90479d06c6ec416dfbb7ce266d85a2"
+    },
+    "path_stash_replacement_fix": {
+      "transfer_backend_fixed.py": "6adc12ca99d32a2628f14a1fdac557eda95161fc2851ee11019d4f2b7526bb18",
+      "run_rho_fixed.py": "7aefdc33e4933111161d053d3176b7ca656af7c7fd54e49899444c8f84f4c215"
+    }
+  },
+  "setup": [
+    {
+      "rpc": 2047,
+      "request_bytes": 1031688,
+      "response_bytes": 73692,
+      "total_bytes": 1105380,
+      "components": {
+        "data_download": 0,
+        "data_upload": 327520,
+        "headers_download": 0,
+        "headers_upload": 352084,
+        "authentication_download": 0,
+        "authentication_upload": 262016,
+        "framing_and_control": 163760
+      },
+      "by_stage": {
+        "physical_setup": {
+          "data_download": 0,
+          "data_upload": 327520,
+          "headers_download": 0,
+          "headers_upload": 352084,
+          "authentication_download": 0,
+          "authentication_upload": 262016,
+          "framing_and_control": 163760
+        }
+      },
+      "by_tree": {
+        "1": {
+          "data_download": 0,
+          "data_upload": 327520,
+          "headers_download": 0,
+          "headers_upload": 352084,
+          "authentication_download": 0,
+          "authentication_upload": 262016,
+          "framing_and_control": 163760
+        }
+      },
+      "opcode_counts": {
+        "5": 2047
+      },
+      "transcript_sha256": "4631a17cb37c09fbbdce924fded57a7922a0b60d3ff9dce05a1164f8bef9c153",
+      "first_sequence": 0,
+      "next_sequence": 2047,
+      "independently_invoiced_rpcs": 2047,
+      "retained_event_count": 0
+    },
+    {
+      "rpc": 24574,
+      "request_bytes": 73207440,
+      "response_bytes": 48359492,
+      "total_bytes": 121566932,
+      "components": {
+        "data_download": 10477760,
+        "data_upload": 18037760,
+        "headers_download": 14482572,
+        "headers_upload": 16153536,
+        "authentication_download": 22514496,
+        "authentication_upload": 37192192,
+        "framing_and_control": 2708616
+      },
+      "by_stage": {
+        "physical_setup": {
+          "data_download": 0,
+          "data_upload": 5242240,
+          "headers_download": 0,
+          "headers_upload": 1670964,
+          "authentication_download": 0,
+          "authentication_upload": 8911808,
+          "framing_and_control": 655280
+        },
+        "logical": {
+          "data_download": 4799360,
+          "data_upload": 1438720,
+          "headers_download": 10862592,
+          "headers_upload": 10862592,
+          "authentication_download": 16792576,
+          "authentication_upload": 8973824,
+          "framing_and_control": 1540096
+        },
+        "evict": {
+          "data_download": 5678400,
+          "data_upload": 11356800,
+          "headers_download": 3619980,
+          "headers_upload": 3619980,
+          "authentication_download": 5721920,
+          "authentication_upload": 19306560,
+          "framing_and_control": 513240
+        }
+      },
+      "by_tree": {
+        "0": {
+          "data_download": 10477760,
+          "data_upload": 18037760,
+          "headers_download": 14482572,
+          "headers_upload": 16153536,
+          "authentication_download": 22514496,
+          "authentication_upload": 37192192,
+          "framing_and_control": 2708616
+        }
+      },
+      "opcode_counts": {
+        "5": 8191,
+        "2": 5461,
+        "3": 5461,
+        "4": 5461
+      },
+      "transcript_sha256": "aff8993f168e8ccaea174040a2429fe1ea1f8829c9c9c24152f19022c8f638d0",
+      "first_sequence": 0,
+      "next_sequence": 24574,
+      "independently_invoiced_rpcs": 24574,
+      "retained_event_count": 0
+    }
+  ],
+  "setup_seconds": 29.77938437461853,
+  "phases": {
+    "warmup": {
+      "requests": 2048,
+      "bills": [
+        {
+          "rpc": 2250,
+          "request_bytes": 5818500,
+          "response_bytes": 4909500,
+          "total_bytes": 10728000,
+          "components": {
+            "data_download": 1980000,
+            "data_upload": 1980000,
+            "headers_download": 2128500,
+            "headers_upload": 2128500,
+            "authentication_download": 720000,
+            "authentication_upload": 1584000,
+            "framing_and_control": 207000
+          },
+          "by_stage": {
+            "path": {
+              "data_download": 1980000,
+              "data_upload": 1980000,
+              "headers_download": 2128500,
+              "headers_upload": 2128500,
+              "authentication_download": 720000,
+              "authentication_upload": 1584000,
+              "framing_and_control": 207000
+            }
+          },
+          "by_tree": {
+            "1": {
+              "data_download": 1980000,
+              "data_upload": 1980000,
+              "headers_download": 2128500,
+              "headers_upload": 2128500,
+              "authentication_download": 720000,
+              "authentication_upload": 1584000,
+              "framing_and_control": 207000
+            }
+          },
+          "opcode_counts": {
+            "1": 1125,
+            "4": 1125
+          },
+          "transcript_sha256": "9f49d0701327134aa1e2bb3a94c291ec6e25c1cc7a1297d59bae0c7a3d6298f2",
+          "first_sequence": 2047,
+          "next_sequence": 4297,
+          "independently_invoiced_rpcs": 2250,
+          "retained_event_count": 0
+        },
+        {
+          "rpc": 1500,
+          "request_bytes": 5295200,
+          "response_bytes": 4413008,
+          "total_bytes": 9708208,
+          "components": {
+            "data_download": 970480,
+            "data_upload": 1201280,
+            "headers_download": 1326000,
+            "headers_upload": 1326000,
+            "authentication_download": 2062528,
+            "authentication_upload": 2633920,
+            "framing_and_control": 188000
+          },
+          "by_stage": {
+            "logical": {
+              "data_download": 450480,
+              "data_upload": 161280,
+              "headers_download": 994500,
+              "headers_upload": 994500,
+              "authentication_download": 1537728,
+              "authentication_upload": 865920,
+              "framing_and_control": 141000
+            },
+            "evict": {
+              "data_download": 520000,
+              "data_upload": 1040000,
+              "headers_download": 331500,
+              "headers_upload": 331500,
+              "authentication_download": 524800,
+              "authentication_upload": 1768000,
+              "framing_and_control": 47000
+            }
+          },
+          "by_tree": {
+            "0": {
+              "data_download": 970480,
+              "data_upload": 1201280,
+              "headers_download": 1326000,
+              "headers_upload": 1326000,
+              "authentication_download": 2062528,
+              "authentication_upload": 2633920,
+              "framing_and_control": 188000
+            }
+          },
+          "opcode_counts": {
+            "2": 500,
+            "3": 500,
+            "4": 500
+          },
+          "transcript_sha256": "dccd6d049d74258ec7b8875a8769fd008c443c289bc6adc40b5bce534e794af4",
+          "first_sequence": 24574,
+          "next_sequence": 26074,
+          "independently_invoiced_rpcs": 1500,
+          "retained_event_count": 0
+        }
+      ],
+      "total_bytes": 20436208,
+      "rpc": 3750,
+      "schedules": [
+        {
+          "slots": 1125,
+          "remove_admit_sha256": "0b09983164b57c711a26084c31f11f1ebaa5918aaac0ee52a96f73e038f4776f"
+        },
+        {
+          "slots": 375,
+          "remove_admit_sha256": "9d9e9944cedecdcbbe9ffe0f0a084dd1bbe28e86727e08ad80c5a4153eac65f5"
+        }
+      ],
+      "frontend_metrics": {
+        "frames": 375,
+        "llc_misses": 816,
+        "rho_misses": 246,
+        "rho_dummy_slots": 341,
+        "llc_hits": 1232,
+        "rho_hits": 570,
+        "back_dummy_slots": 129,
+        "application_requests": 2048
+      },
+      "harness_seconds": 5.075626850128174
+    },
+    "measurement": {
+      "requests": 4096,
+      "bills": [
+        {
+          "rpc": 4224,
+          "request_bytes": 10923264,
+          "response_bytes": 9216768,
+          "total_bytes": 20140032,
+          "components": {
+            "data_download": 3717120,
+            "data_upload": 3717120,
+            "headers_download": 3995904,
+            "headers_upload": 3995904,
+            "authentication_download": 1351680,
+            "authentication_upload": 2973696,
+            "framing_and_control": 388608
+          },
+          "by_stage": {
+            "path": {
+              "data_download": 3717120,
+              "data_upload": 3717120,
+              "headers_download": 3995904,
+              "headers_upload": 3995904,
+              "authentication_download": 1351680,
+              "authentication_upload": 2973696,
+              "framing_and_control": 388608
+            }
+          },
+          "by_tree": {
+            "1": {
+              "data_download": 3717120,
+              "data_upload": 3717120,
+              "headers_download": 3995904,
+              "headers_upload": 3995904,
+              "authentication_download": 1351680,
+              "authentication_upload": 2973696,
+              "framing_and_control": 388608
+            }
+          },
+          "opcode_counts": {
+            "1": 2112,
+            "4": 2112
+          },
+          "transcript_sha256": "a6541b03e8eaff0a24a2a123d11ece35df7c9659ca52ed32db53ecc846ad5b36",
+          "first_sequence": 4297,
+          "next_sequence": 8521,
+          "independently_invoiced_rpcs": 4224,
+          "retained_event_count": 0
+        },
+        {
+          "rpc": 2817,
+          "request_bytes": 9921976,
+          "response_bytes": 8278168,
+          "total_bytes": 18200144,
+          "components": {
+            "data_download": 1819200,
+            "data_upload": 2247040,
+            "headers_download": 2490228,
+            "headers_upload": 2490228,
+            "authentication_download": 3867328,
+            "authentication_upload": 4933056,
+            "framing_and_control": 353064
+          },
+          "by_stage": {
+            "logical": {
+              "data_download": 841600,
+              "data_upload": 291840,
+              "headers_download": 1867008,
+              "headers_upload": 1867008,
+              "authentication_download": 2886720,
+              "authentication_upload": 1609216,
+              "framing_and_control": 264704
+            },
+            "evict": {
+              "data_download": 977600,
+              "data_upload": 1955200,
+              "headers_download": 623220,
+              "headers_upload": 623220,
+              "authentication_download": 980608,
+              "authentication_upload": 3323840,
+              "framing_and_control": 88360
+            }
+          },
+          "by_tree": {
+            "0": {
+              "data_download": 1819200,
+              "data_upload": 2247040,
+              "headers_download": 2490228,
+              "headers_upload": 2490228,
+              "authentication_download": 3867328,
+              "authentication_upload": 4933056,
+              "framing_and_control": 353064
+            }
+          },
+          "opcode_counts": {
+            "2": 939,
+            "3": 939,
+            "4": 939
+          },
+          "transcript_sha256": "11b546c39c780bf1eac8dba01fa0d0b3a1823669dae9f9243a8bea5dc1640333",
+          "first_sequence": 26074,
+          "next_sequence": 28891,
+          "independently_invoiced_rpcs": 2817,
+          "retained_event_count": 0
+        }
+      ],
+      "total_bytes": 38340176,
+      "rpc": 7041,
+      "schedules": [
+        {
+          "slots": 2112,
+          "remove_admit_sha256": "ad797cb5a1a7c4b18f9b77072a3bad311d3d20c0421c79844f0e97f392e3a069"
+        },
+        {
+          "slots": 704,
+          "remove_admit_sha256": "d95f3ca710b544852a1be17a8b9ae423119f0b9f7cc96a6220e8d994551a401a"
+        }
+      ],
+      "frontend_metrics": {
+        "frames": 704,
+        "llc_misses": 1620,
+        "rho_misses": 411,
+        "rho_dummy_slots": 492,
+        "llc_hits": 2476,
+        "rho_hits": 1209,
+        "back_dummy_slots": 293,
+        "application_requests": 4096
+      },
+      "harness_seconds": 8.886565208435059
+    }
+  },
+  "configs": [
+    {
+      "kind": "path",
+      "L": 10,
+      "N": 128,
+      "B": 64,
+      "Z": 2,
+      "A": 1,
+      "S": 0,
+      "R": 128,
+      "tree": 1,
+      "compact": true,
+      "fused": true
+    },
+    {
+      "kind": "ring",
+      "L": 12,
+      "N": 4096,
+      "B": 64,
+      "Z": 4,
+      "A": 3,
+      "S": 4,
+      "R": 256,
+      "tree": 0,
+      "compact": true,
+      "fused": true
+    }
+  ],
+  "bytes_per_request": 9360.39453125,
+  "rpc_per_request": 1.718994140625,
+  "server_storage": [
+    {
+      "components": {
+        "headers": 352084,
+        "ciphertext_slots": 327520,
+        "local_authentication": 0,
+        "bucket_tags": 131008,
+        "global_tags": 131008
+      },
+      "total_bytes": 941620,
+      "physical_bucket_records": 2047,
+      "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+    },
+    {
+      "components": {
+        "headers": 1670964,
+        "ciphertext_slots": 5242240,
+        "local_authentication": 7863360,
+        "bucket_tags": 524224,
+        "global_tags": 524224
+      },
+      "total_bytes": 15825012,
+      "physical_bucket_records": 8191,
+      "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+    }
+  ],
+  "final_stash_blocks": [
+    0,
+    0
+  ],
+  "correctness_checked_requests": 6144,
+  "answer_sha256": "fcd57d37b3f64cc7b1a5b5e3678bfc6561e93e97035ff3d84c300ccbf8a8092c",
+  "frontend_memory_representation": {
+    "llc_payload_bytes": 2048,
+    "rho_directory_entries": 128,
+    "flat_backend_posmap_bytes": 16384,
+    "front_posmap_bytes": 512,
+    "front_stash_reserved_bytes": 8192,
+    "back_stash_reserved_bytes": 16384,
+    "full_private_posmap_present": true,
+    "measured_peak": false
+  },
+  "elapsed_seconds": 43.78675150871277,
+  "native_full_paper_reproduction": false,
+  "latency_claim": false,
+  "true_client_peak_measured": false,
+  "scope": "rho-inspired address-LRU two-tree frontend; full backend flat trusted PosMap; public frame length allowed to leak; no ECC/compact/set-assoc/native async",
+  "fix": "Path uses post-removal pool for duplicate admission; corrects false fail-stop when the old target was in stash"
+}

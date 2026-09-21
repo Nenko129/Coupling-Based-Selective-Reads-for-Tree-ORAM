@@ -1,0 +1,22 @@
+integrated PASS
+{
+  "integrated": {
+    "top_requests": 2700,
+    "layer_accesses": 5448,
+    "per_token_depth_comparisons": 154980,
+    "canonical_comparisons": 5448,
+    "field_recurrence_comparisons": 5448,
+    "frames_checked": 24933,
+    "whole_snapshot_nodes": 468
+  },
+  "attacks": 20,
+  "slots": {
+    "local_openings_checked": 987,
+    "all_combination_ranks_checked": true
+  },
+  "cost_intervals": {
+    "exact_binomial_interval_cases": 168
+  },
+  "baseline_requests": 6000,
+  "elapsed_seconds": 24.029100497999934
+}

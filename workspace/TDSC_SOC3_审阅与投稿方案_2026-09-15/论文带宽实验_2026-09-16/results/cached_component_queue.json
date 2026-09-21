@@ -1,0 +1,7 @@
+{
+  "stage": "running",
+  "pid": 31080,
+  "child_pid": 30356,
+  "next": "CC_IR_uniform_sde_N4096_B4096_seed101",
+  "time": 1789502375.22728
+}

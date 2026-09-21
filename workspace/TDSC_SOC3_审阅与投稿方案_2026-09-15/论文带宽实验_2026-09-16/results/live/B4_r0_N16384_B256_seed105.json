@@ -1,0 +1,8 @@
+{
+  "id": "B4_r0_N16384_B256_seed105",
+  "pid": 37692,
+  "stage": "passed",
+  "time": 1789541438.5117314,
+  "receipt": "results\\formal_slices\\B4_r0_N16384_B256_seed105.json",
+  "elapsed_seconds": 165.33258700370789
+}

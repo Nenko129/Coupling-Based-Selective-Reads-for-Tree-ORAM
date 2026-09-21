@@ -1,0 +1,25 @@
+{
+  "status": "complete_diagnostic_audited",
+  "rows": 2,
+  "expected": 2,
+  "plan_sha256": "5c02c20931742eed8f1f88c538be05e025f726c7bff5a3cb18e1f1f3c1b2d844",
+  "receipts": [
+    {
+      "path": "results\\ab_selection_diagnostic\\uniform_unused.json",
+      "sha256": "d635ff1e089bcf16e3f8e61dd593d1669e9a9787ae270c7658fe54eab635288b"
+    },
+    {
+      "path": "results\\ab_selection_diagnostic\\dummy_first.json",
+      "sha256": "25ce5bf71129a078171eb9def493ae0461267d238fbba5f29fc8d75fe5ba8ac4"
+    }
+  ],
+  "auditor_sha256": "a2be80fce94fd27d00b7c8cc34eff3e56d077056500b4fdc10c7d1a367c4fec7",
+  "check_sources": {
+    "ab_dummy_first_checks.json": "656dd99e73b1d67ea933d2cc7273f87deeb7ef52a3394f84d0d916969957a91c",
+    "ab_dummy_first_frontend_checks.json": "f965b20204046ab7d46b178284311a9d22a2502d91458c07e5217daf6397136c",
+    "ab_dummy_first_periodic_checks.json": "929de9d456c89dbb29a9a6b2c7f32565fe1c0efc8d7c85608b25e98b3a4f8179"
+  },
+  "independent_answer_digest_check": false,
+  "performance_claim": false,
+  "capacity_certificate": false
+}

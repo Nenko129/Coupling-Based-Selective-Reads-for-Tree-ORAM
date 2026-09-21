@@ -1,0 +1,24 @@
+{
+  "kind": "r0",
+  "N": 32,
+  "B": 4096,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "R": 128,
+  "map_B": 64,
+  "terminal_bytes": 32768,
+  "compact": true,
+  "fusion": true,
+  "warmup": 16,
+  "requests": 32,
+  "trace_seed": 654,
+  "oram_seed": 987,
+  "workload": "fixture_startkey",
+  "experiment_class": "extended_checks",
+  "id": "extended_core_fixture",
+  "trace_file": "datasets\\checks\\fixture.json",
+  "trace_file_sha256": "0bb8803dc8e295fbd27f6882fe43a2ed70d0e6f87f7f63ddd41daffb6bdeac02"
+}

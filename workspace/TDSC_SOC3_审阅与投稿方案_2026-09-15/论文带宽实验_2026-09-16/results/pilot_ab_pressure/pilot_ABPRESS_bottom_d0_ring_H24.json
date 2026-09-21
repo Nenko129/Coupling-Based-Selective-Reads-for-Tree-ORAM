@@ -1,0 +1,561 @@
+{
+  "status": "passed",
+  "spec": {
+    "id": "pilot_ABPRESS_bottom_d0_ring_H24",
+    "kind": "ring",
+    "N": 512,
+    "B": 64,
+    "L": 8,
+    "X": 16,
+    "plb": 4,
+    "llc_sets": 8,
+    "llc_ways": 2,
+    "profile": [
+      5,
+      5,
+      7
+    ],
+    "Y": 4,
+    "R": 500,
+    "cached_levels": 3,
+    "bottom_dummy": 0,
+    "pressure_high": 24,
+    "pressure_low": 16,
+    "warmup": 64,
+    "requests": 128,
+    "arrival_gap": 8,
+    "slots_per_request": 16,
+    "trace_seed": 901,
+    "oram_seed": 1901,
+    "workload": "uniform",
+    "experiment_class": "pilot_ab_pressure"
+  },
+  "source_hashes": {
+    "runtime": {
+      "base": {
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+      },
+      "runtime": {
+        "ab_cb_runtime.py": "365c965f36dbac64bcc5ca12872065fd076b0ab01b1d07d503c25ffb883a6efd",
+        "ab_cb_controller.py": "faa565831274b75346e36dfae48381123650dc27cc9aa769c845b1aef74997d7",
+        "ab_geometry_frontend.py": "60b00e6ac900eb00c7eab40a0f570ea609fffd915700a26bec7b04f5aed1dc1e",
+        "cb_oram.py": "5e56b74c3ccb90f0838c360982f5bb58f170ddc49095beb77bd9a1afb9c8a5a0",
+        "cb_fusion.py": "e51db2104fd652099e10cb2fdfda206b2fedf61c089cc58f8a15bb0beb8b6a8c",
+        "cb_transfer.py": "d6a5777adbdfa7f636b72702d02ad9b2ff5da69bc96b92e20273e4741856ca4d",
+        "cached_transport.py": "25c88f7ca32ab5d394acd019348c32de268ecd2133b560625f3cc9dd370174c3",
+        "heterogeneous_oram.py": "6d312f8674efc788314f2ab5612a90979b50213ca79f601a777ef00a2dfb8fd5",
+        "fast_prf.py": "910f2a4deb1ece922c2ab51d6031d1a966e604e9a2101d90e619f0c4cc7b4d84",
+        "composition_runtime.py": "f00534055545cf47a8e39c657f2ba392864d9895a55fa6bb8bf8a733e7a492cb",
+        "ir_dwb_controller.py": "55ba05f7a010be2ea907e3431c4d15babd9e2094a52da440b646d860dc7940af",
+        "dwb_staged_frontend.py": "08491ab8de426659204721898b2a6b914974b2f4ff378c054846114575dfdfd4"
+      },
+      "frozen_frontend": {
+        "frontends.py": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4",
+        "transfer_backend.py": "34d593fa1dee61f412fce3a11269d1e05e0e5f2c893107a436d5d53c73be4ff7"
+      }
+    },
+    "driver": "c7673d60eb70aee59d3c11cacfc13132392717a27f8ddd058c1e6c9aa5cea856"
+  },
+  "frontend_proof_sha256": "e3f846dcbbc5856329ff15a408a474dc0d5590c1c27716ee2ca68778468b9d7c",
+  "trace": {
+    "path": "traces\\uniform_N512_Q192_seed901.json",
+    "sha256": "effbcf6d0203530fe6590dcb28bb9fa4f50443a705a66747bf062ef1f5a3f5aa"
+  },
+  "configs": [
+    {
+      "kind": "ring",
+      "L": 8,
+      "N": 547,
+      "B": 64,
+      "Z": 5,
+      "A": 5,
+      "S": 7,
+      "R": 500,
+      "tree": 0,
+      "compact": true,
+      "fused": true,
+      "Z_by_depth": [],
+      "S_by_depth": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        4,
+        4,
+        4
+      ],
+      "Y": 4,
+      "Y_by_depth": []
+    }
+  ],
+  "population_including_maps": 547,
+  "leaf_load": 2.13671875,
+  "setup": {
+    "rpc": 2472,
+    "request_bytes": 3548880,
+    "response_bytes": 2774240,
+    "total_bytes": 6323120,
+    "components": {
+      "data_download": 449280,
+      "data_upload": 615440,
+      "headers_download": 1054848,
+      "headers_upload": 1189920,
+      "authentication_download": 1181120,
+      "authentication_upload": 1582272,
+      "framing_and_control": 250240
+    },
+    "by_stage": {
+      "physical_setup": {
+        "data_download": 0,
+        "data_upload": 215040,
+        "headers_download": 0,
+        "headers_upload": 135072,
+        "authentication_download": 0,
+        "authentication_upload": 433664,
+        "framing_and_control": 40320
+      },
+      "logical": {
+        "data_download": 262560,
+        "data_upload": 60320,
+        "headers_download": 879576,
+        "headers_upload": 879576,
+        "authentication_download": 1008256,
+        "authentication_upload": 520768,
+        "framing_and_control": 175040
+      },
+      "evict": {
+        "data_download": 186720,
+        "data_upload": 340080,
+        "headers_download": 175272,
+        "headers_upload": 175272,
+        "authentication_download": 172864,
+        "authentication_upload": 627840,
+        "framing_and_control": 34880
+      }
+    },
+    "by_tree": {
+      "0": {
+        "data_download": 449280,
+        "data_upload": 615440,
+        "headers_download": 1054848,
+        "headers_upload": 1189920,
+        "authentication_download": 1181120,
+        "authentication_upload": 1582272,
+        "framing_and_control": 250240
+      }
+    },
+    "opcode_counts": {
+      "5": 504,
+      "2": 656,
+      "3": 656,
+      "4": 656
+    },
+    "transcript_sha256": "c3d348cdd02d2c09e8c67677f109ee2d02c91551540cbb67bb12b955f4eb28c2",
+    "first_sequence": 0,
+    "next_sequence": 2472,
+    "independently_invoiced_rpcs": 2472,
+    "retained_event_count": 0,
+    "local_only_rpcs": 7,
+    "scope": "actual frames through separate below-cut server parser; client cache excluded from remote object store"
+  },
+  "setup_peak_boundary_stash": 94,
+  "phases": {
+    "warmup": {
+      "requests": 64,
+      "public_slots": 1024,
+      "start_clock": 0,
+      "end_clock": 1024,
+      "bills": [
+        {
+          "rpc": 3687,
+          "request_bytes": 5382364,
+          "response_bytes": 5132916,
+          "total_bytes": 10515280,
+          "components": {
+            "data_download": 789840,
+            "data_upload": 838960,
+            "headers_download": 1976232,
+            "headers_upload": 1976232,
+            "authentication_download": 2234112,
+            "authentication_upload": 2306624,
+            "framing_and_control": 393280
+          },
+          "by_stage": {
+            "logical": {
+              "data_download": 491520,
+              "data_upload": 199360,
+              "headers_download": 1646592,
+              "headers_upload": 1646592,
+              "authentication_download": 1885056,
+              "authentication_upload": 1125824,
+              "framing_and_control": 327680
+            },
+            "evict": {
+              "data_download": 298320,
+              "data_upload": 639600,
+              "headers_download": 329640,
+              "headers_upload": 329640,
+              "authentication_download": 349056,
+              "authentication_upload": 1180800,
+              "framing_and_control": 65600
+            }
+          },
+          "by_tree": {
+            "0": {
+              "data_download": 789840,
+              "data_upload": 838960,
+              "headers_download": 1976232,
+              "headers_upload": 1976232,
+              "authentication_download": 2234112,
+              "authentication_upload": 2306624,
+              "framing_and_control": 393280
+            }
+          },
+          "opcode_counts": {
+            "2": 1229,
+            "3": 1229,
+            "4": 1229
+          },
+          "transcript_sha256": "9ab58b8dc1eb03ce82a382214b0cafa0280e0e0793a8fc26bcb1c29f58b8da60",
+          "first_sequence": 2472,
+          "next_sequence": 6159,
+          "independently_invoiced_rpcs": 3687,
+          "retained_event_count": 0,
+          "local_only_rpcs": 0,
+          "scope": "actual frames through separate below-cut server parser; client cache excluded from remote object store"
+        }
+      ],
+      "total_bytes": 10515280,
+      "rpc": 3687,
+      "frontend_metrics": {
+        "background_episodes_started": 74,
+        "background_green_promotions": 2182,
+        "background_slots": 626,
+        "public_slots": 1024,
+        "background_episodes_completed": 74,
+        "llc_misses": 64,
+        "foreground_slots": 211,
+        "foreground_posmap_slots": 126,
+        "application_completed": 64,
+        "foreground_data_slots": 85,
+        "llc_evictions": 48,
+        "foreground_writebacks": 21,
+        "dummy_slots": 187,
+        "unfinished_foreground": 0,
+        "dirty_resident": 8,
+        "dwb_pending": false,
+        "background_pending": false
+      },
+      "cb_metrics": {
+        "green_promotions": 3481,
+        "neutral_rebuilds": 485,
+        "maintenance_cover_slots": 6168
+      },
+      "boundary_stash_histogram": {
+        "90": 1,
+        "93": 1,
+        "73": 3,
+        "78": 2,
+        "81": 1,
+        "82": 2,
+        "87": 1,
+        "64": 1,
+        "70": 2,
+        "75": 3,
+        "56": 4,
+        "62": 2,
+        "66": 5,
+        "72": 2,
+        "68": 2,
+        "71": 1,
+        "80": 2,
+        "58": 3,
+        "61": 3,
+        "67": 1,
+        "54": 2,
+        "69": 2,
+        "57": 2,
+        "65": 2,
+        "63": 2,
+        "50": 3,
+        "59": 1,
+        "60": 1,
+        "45": 8,
+        "48": 3,
+        "52": 2,
+        "40": 8,
+        "43": 7,
+        "41": 6,
+        "47": 2,
+        "51": 3,
+        "33": 19,
+        "37": 14,
+        "42": 8,
+        "30": 28,
+        "35": 17,
+        "46": 4,
+        "34": 18,
+        "38": 12,
+        "49": 2,
+        "32": 29,
+        "36": 10,
+        "23": 37,
+        "29": 39,
+        "39": 7,
+        "31": 28,
+        "55": 1,
+        "18": 41,
+        "21": 48,
+        "24": 43,
+        "20": 41,
+        "27": 39,
+        "12": 28,
+        "15": 32,
+        "16": 34,
+        "19": 35,
+        "25": 47,
+        "26": 34,
+        "14": 32,
+        "28": 35,
+        "22": 40,
+        "17": 28,
+        "8": 14,
+        "11": 18,
+        "13": 19,
+        "10": 12,
+        "9": 12,
+        "7": 4,
+        "6": 7,
+        "5": 2,
+        "3": 2,
+        "2": 3,
+        "4": 4,
+        "0": 1
+      },
+      "schedules": [
+        {
+          "slots": 1024,
+          "remove_admit_sha256": "a5db4ffad2601f81ea7b99cbc6257d1e0c37e0629f57e372388240f3a6b0e186"
+        }
+      ],
+      "useful_schedule": {
+        "slots": 211,
+        "remove_admit_sha256": "cdd54d2dbf2167c99222e89a0f59a3721b6ab39a1cc56d3c3c99b969b0ba7f2d"
+      }
+    },
+    "measurement": {
+      "requests": 128,
+      "public_slots": 2048,
+      "start_clock": 1024,
+      "end_clock": 3072,
+      "bills": [
+        {
+          "rpc": 7371,
+          "request_bytes": 10770684,
+          "response_bytes": 10274276,
+          "total_bytes": 21044960,
+          "components": {
+            "data_download": 1580560,
+            "data_upload": 1681920,
+            "headers_download": 3950856,
+            "headers_upload": 3950856,
+            "authentication_download": 4477504,
+            "authentication_upload": 4617024,
+            "framing_and_control": 786240
+          },
+          "by_stage": {
+            "logical": {
+              "data_download": 983040,
+              "data_upload": 405840,
+              "headers_download": 3293184,
+              "headers_upload": 3293184,
+              "authentication_download": 3777536,
+              "authentication_upload": 2261184,
+              "framing_and_control": 655360
+            },
+            "evict": {
+              "data_download": 597520,
+              "data_upload": 1276080,
+              "headers_download": 657672,
+              "headers_upload": 657672,
+              "authentication_download": 699968,
+              "authentication_upload": 2355840,
+              "framing_and_control": 130880
+            }
+          },
+          "by_tree": {
+            "0": {
+              "data_download": 1580560,
+              "data_upload": 1681920,
+              "headers_download": 3950856,
+              "headers_upload": 3950856,
+              "authentication_download": 4477504,
+              "authentication_upload": 4617024,
+              "framing_and_control": 786240
+            }
+          },
+          "opcode_counts": {
+            "2": 2457,
+            "3": 2457,
+            "4": 2457
+          },
+          "transcript_sha256": "cdfd854be52e98170f08fee45538cfdaafeb9b79c2d7efb758fecc12175d6019",
+          "first_sequence": 6159,
+          "next_sequence": 13530,
+          "independently_invoiced_rpcs": 7371,
+          "retained_event_count": 0,
+          "local_only_rpcs": 0,
+          "scope": "actual frames through separate below-cut server parser; client cache excluded from remote object store"
+        }
+      ],
+      "total_bytes": 21044960,
+      "rpc": 7371,
+      "frontend_metrics": {
+        "background_episodes_started": 141,
+        "background_green_promotions": 2557,
+        "background_slots": 776,
+        "public_slots": 2048,
+        "background_episodes_completed": 141,
+        "llc_misses": 127,
+        "foreground_slots": 492,
+        "foreground_posmap_slots": 298,
+        "application_completed": 128,
+        "foreground_data_slots": 194,
+        "llc_evictions": 127,
+        "foreground_writebacks": 67,
+        "dummy_slots": 780,
+        "llc_hits": 1,
+        "unfinished_foreground": 0,
+        "dirty_resident": 6,
+        "dwb_pending": false,
+        "background_pending": false
+      },
+      "cb_metrics": {
+        "green_promotions": 6494,
+        "neutral_rebuilds": 994,
+        "maintenance_cover_slots": 12461
+      },
+      "boundary_stash_histogram": {
+        "40": 5,
+        "43": 1,
+        "41": 4,
+        "33": 27,
+        "37": 13,
+        "42": 1,
+        "30": 55,
+        "35": 20,
+        "34": 23,
+        "38": 14,
+        "32": 31,
+        "36": 13,
+        "23": 84,
+        "29": 50,
+        "39": 5,
+        "31": 42,
+        "18": 99,
+        "21": 76,
+        "24": 64,
+        "20": 73,
+        "27": 76,
+        "12": 83,
+        "15": 92,
+        "16": 81,
+        "19": 83,
+        "25": 70,
+        "26": 69,
+        "14": 67,
+        "28": 54,
+        "22": 84,
+        "17": 73,
+        "8": 60,
+        "11": 52,
+        "13": 78,
+        "10": 52,
+        "9": 55,
+        "7": 37,
+        "6": 44,
+        "5": 39,
+        "3": 19,
+        "2": 19,
+        "4": 28,
+        "0": 17,
+        "1": 15,
+        "44": 1
+      },
+      "schedules": [
+        {
+          "slots": 2048,
+          "remove_admit_sha256": "d9f0f7a30d97f92385bc10c5acd6bb05a69be87f4a6598a1232b5ca76173495e"
+        }
+      ],
+      "useful_schedule": {
+        "slots": 492,
+        "remove_admit_sha256": "d8d57c52d514a59197cf07e9e6202dba703c348b9f9ac943d34254eff114d283"
+      }
+    }
+  },
+  "bytes_per_request": 164413.75,
+  "bytes_per_public_slot": 10275.859375,
+  "rpc_per_request": 57.5859375,
+  "server_storage": {
+    "components": {
+      "headers": 135072,
+      "ciphertext_slots": 215040,
+      "local_authentication": 369152,
+      "bucket_tags": 32256,
+      "global_tags": 32256
+    },
+    "total_bytes": 783776,
+    "physical_bucket_records": 504,
+    "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+  },
+  "cache_representation": {
+    "bucket_records": 7,
+    "global_tag_records": 7,
+    "bytes": 13972
+  },
+  "frontend_memory_representation": {
+    "plb": {
+      "plb_payload_bytes": 256,
+      "plb_leaf_and_address_bytes": 48,
+      "terminal_leaf_bytes": 4,
+      "stash_reserved_bytes": 32000,
+      "full_private_posmap_present": false,
+      "measured_peak": false
+    },
+    "llc_payload_capacity": 1024,
+    "logical_metadata_not_peak": true
+  },
+  "final_clock": {
+    "t": 3619,
+    "g": 723,
+    "uid": 1246
+  },
+  "max_boundary_stash": 94,
+  "answer_sha256": "9e4e27f0c1387e0b64667b85fe76ead56776d5637dfb35002d81a8c9cf7dcc40",
+  "correctness_checked_requests": 192,
+  "elapsed_seconds": 12.734627962112427,
+  "measurement": "same offered application requests and fixed public backend slot count; inclusive dirty LLC remains resident",
+  "scope": "authenticated CB + static bottom dummy allocation + prefix cache + raw recursive map + inclusive LLC; pressure slots use ordinary CB dummy reads",
+  "background_policy": "ordinary CB dummy Transfer, which can promote green records; not the native strict-dummy wording",
+  "native_full_paper_reproduction": false,
+  "deadq_implemented": false,
+  "capacity_certificate": false,
+  "adaptive_security_proof": false,
+  "latency_claim": false,
+  "true_client_peak_measured": false
+}

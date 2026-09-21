@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "method": "model inspection of the current Poppler-rendered PDF; labels, intervals, numeric column and caption checked",
+  "pdf_sha256": "afc70ca457389c36a184a51d27de427829b303512f90400438c760955e6ff545",
+  "render_sha256": "a918afb2aea4aa9744acbe49abdc9732b7fe6f0b91853faa25667baa2a9fb079",
+  "numerical_audit_sha256": "32544e65ce660ddd79b283caafcc7c2d0a25a45aa6afb859de22653ef4df06af"
+}

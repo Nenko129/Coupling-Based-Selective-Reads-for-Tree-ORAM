@@ -1,0 +1,50 @@
+{
+  "status": "numerical_structure_audited",
+  "profile": "IR43_scaled_L12",
+  "height": 13,
+  "cap": 480,
+  "poisson_cutoff": 128,
+  "identity": {
+    "kernel_sha256": "ca3959eefab2e38e836cca71677bdfedeedbd6f5d10b3b9b8258897d6acc6f26",
+    "binary_sha256": "bc4b58e100d39557f226c405188f1a61c69a8063501e5ed753202dcf879b65d9",
+    "profile_sha256": "73480a44c92c022e0ca71d08fc8a42f7a9d15899fa5ad498b282a91cee31c5c5",
+    "profile_spec_sha256": "58b8254b5b4a9dc4f250f2c8fe7492a97ec158fd93cb3dee52235cf463f8c033"
+  },
+  "jobs": [
+    {
+      "mode": "up",
+      "prefix": "numerics\\grids\\IR43_scaled_L12_up_c480_m128",
+      "grid_sha256": "fad5ca9a83d2e972bd0c78ed95357c02dd80316ab302f59c3bc79b7ca8a43311",
+      "meta_sha256": "ab695c91b524620bbf0c855597ec45d3fb954810974c7999ca76a05cc98cb567",
+      "log_sha256": "dede16df7cf495ae3d16ea9d15b1b68fdb34c10eb0a49f0d80f6f433b9e0e259"
+    },
+    {
+      "mode": "next",
+      "prefix": "numerics\\grids\\IR43_scaled_L12_next_c480_m128",
+      "grid_sha256": "bba928bba8595a40fea65fe70a14ec780b487e519beb7e55294625fea2e60e6b",
+      "meta_sha256": "6bf0369f1379d1e7c1356f362439e06af465eab6b5b2a8b75b01d6a1b5105729",
+      "log_sha256": "1949061bb64a6d1a315f2ad3a4639a386d3d66fc470d66cdca126fc3b57b63f7"
+    }
+  ],
+  "offset": 2,
+  "Q": 72057594037927936,
+  "target_exact": "1/5444517870735015415413993718908291383296",
+  "minimum_R_within_grid": 452,
+  "proposed_R_rounded32": 480,
+  "tested": [
+    {
+      "R": 256,
+      "lifetime_bound_exact": "4413221996689913/9223372036854775808",
+      "lifetime_log2": -11.029246256190033,
+      "admitted": false
+    },
+    {
+      "R": 480,
+      "lifetime_bound_exact": "3444672658208623/401734511064747568885490523085290650630550748445698208825344",
+      "lifetime_log2": -146.38671168427297,
+      "admitted": true
+    }
+  ],
+  "protocol_closure": false,
+  "independent_third_party_audit": false
+}

@@ -1,0 +1,3240 @@
+{
+  "evidence": "model, not measurement",
+  "rows": [
+    {
+      "spec": {
+        "id": "B4_path_N4096_B4096_seed101",
+        "kind": "path",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "path",
+          "L": 12,
+          "N": 4096,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "213824",
+            "upper": "213824"
+          },
+          "data_upload": {
+            "lower": "213824",
+            "upper": "213824"
+          },
+          "headers_download": {
+            "lower": "2652",
+            "upper": "2652"
+          },
+          "headers_upload": {
+            "lower": "2652",
+            "upper": "2652"
+          },
+          "authentication_download": {
+            "lower": "768",
+            "upper": "768"
+          },
+          "authentication_upload": {
+            "lower": "1664",
+            "upper": "1664"
+          },
+          "framing_and_control": {
+            "lower": "184",
+            "upper": "184"
+          }
+        },
+        "total": {
+          "lower": "435568",
+          "upper": "435568"
+        }
+      },
+      "serialized_server_bytes": 137444980,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N4096_B4096_seed101",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "deferred",
+          "L": 12,
+          "N": 4096,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "285098.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "285098.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667"
+          },
+          "data_upload": {
+            "lower": "71274.66666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "71274.66666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667"
+          },
+          "headers_download": {
+            "lower": "3536",
+            "upper": "3536"
+          },
+          "headers_upload": {
+            "lower": "3536",
+            "upper": "3536"
+          },
+          "authentication_download": {
+            "lower": "1024",
+            "upper": "1024"
+          },
+          "authentication_upload": {
+            "lower": "2218.666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "2218.666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667"
+          },
+          "framing_and_control": {
+            "lower": "245.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "245.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          }
+        },
+        "total": {
+          "lower": "366933.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333331",
+          "upper": "366933.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333335"
+        }
+      },
+      "serialized_server_bytes": 137444980,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N4096_B4096_seed101",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "sde",
+          "L": 12,
+          "N": 4096,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "198830.9947916666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "198830.9947916666666666666666666666666666666666666666666666666666666666666666666666666666666666666667"
+          },
+          "data_upload": {
+            "lower": "71274.66666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "71274.66666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667"
+          },
+          "headers_download": {
+            "lower": "2466.0458984375",
+            "upper": "2466.0458984375"
+          },
+          "headers_upload": {
+            "lower": "2466.0458984375",
+            "upper": "2466.0458984375"
+          },
+          "authentication_download": {
+            "lower": "1359.671875",
+            "upper": "1359.671875"
+          },
+          "authentication_upload": {
+            "lower": "1882.994791666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "1882.994791666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667"
+          },
+          "framing_and_control": {
+            "lower": "245.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "245.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          }
+        },
+        "total": {
+          "lower": "278525.7532552083333333333333333333333333333333333333333333333333333333333333333333333333333333333331",
+          "upper": "278525.7532552083333333333333333333333333333333333333333333333333333333333333333333333333333333333335"
+        }
+      },
+      "serialized_server_bytes": 137444980,
+      "selective_gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 12,
+            "N": 4096,
+            "B": 4096,
+            "R": 256,
+            "offset": 2,
+            "height": 13,
+            "threshold": 254,
+            "Q": 72057594037932032,
+            "fixed_time_upper": "6.02245757999645119927929726575306881367826809346368846195686E-125",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "4.33963803410050855601548641758445417652148199240606619960015E-108",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 302231454903674540654592,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491277350471485E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1064960,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "gate_gap": null
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N4096_B4096_seed101",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 12,
+          "N": 4096,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "143489.2976271670166721386519030899311234968170278265094474019636512293586690897914347737981811148186",
+            "upper": "143489.2976271670166721386519030899311234968170278265094474019636512293586690897914347737981811148216"
+          },
+          "data_upload": {
+            "lower": "168500.8055745008166794346322183209503992703508427062998217156929639796146723206244589166402003790223",
+            "upper": "168500.8055745008166794346322183209503992703508427062998217156929639796146723206244589166402003790267"
+          },
+          "headers_download": {
+            "lower": "3536",
+            "upper": "3536"
+          },
+          "headers_upload": {
+            "lower": "3536",
+            "upper": "3536"
+          },
+          "authentication_download": {
+            "lower": "5185.108624707725944034064578454599828197127047771316172601358048274198315801125903657709327899361888",
+            "upper": "5185.108624707725944034064578454599828197127047771316172601358048274198315801125903657709327899361944"
+          },
+          "authentication_upload": {
+            "lower": "7463.827929686147341512880899143583410612825447762582614424353607179650780980149140095978423876908628",
+            "upper": "7463.827929686147341512880899143583410612825447762582614424353607179650780980149140095978423876908729"
+          },
+          "framing_and_control": {
+            "lower": "501.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "501.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          }
+        },
+        "total": {
+          "lower": "332212.3730893950399704535629323423980949104536994000413894767016039961557715250242707774594666034446",
+          "upper": "332212.3730893950399704535629323423980949104536994000413894767016039961557715250242707774594666034525"
+        }
+      },
+      "serialized_server_bytes": 245828292,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N4096_B4096_seed101",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 12,
+          "N": 4096,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "100867.5281729182500155672876714288300097891694277854821778331289300773294740875388284741566533539810",
+            "upper": "100867.5281729182500155672876714288300097891694277854821778331289300773294740875388284741566533539817"
+          },
+          "data_upload": {
+            "lower": "128054.7115701425833696570045666672700228413953314994584149439675035137687728709239331063655244926220",
+            "upper": "128054.7115701425833696570045666672700228413953314994584149439675035137687728709239331063655244926245"
+          },
+          "headers_download": {
+            "lower": "2281.453125",
+            "upper": "2281.453125"
+          },
+          "headers_upload": {
+            "lower": "2281.453125",
+            "upper": "2281.453125"
+          },
+          "authentication_download": {
+            "lower": "4003.515249597613377777099845931337093925116788778115204156951726035819807416718484029910583926345164",
+            "upper": "4003.515249597613377777099845931337093925116788778115204156951726035819807416718484029910583926345204"
+          },
+          "authentication_upload": {
+            "lower": "5811.222214894191959626158378210135513032676378671837875432756446283178275679509953819134594796138699",
+            "upper": "5811.222214894191959626158378210135513032676378671837875432756446283178275679509953819134594796138752"
+          },
+          "framing_and_control": {
+            "lower": "452.1354166666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "452.1354166666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667"
+          }
+        },
+        "total": {
+          "lower": "243752.0188742193053892942171289042393062550245934015603390334712725767629967213578660962340232357533",
+          "upper": "243752.0188742193053892942171289042393062550245934015603390334712725767629967213578660962340232357570"
+        }
+      },
+      "serialized_server_bytes": 245798408,
+      "selective_gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 12,
+            "N": 4096,
+            "B": 4096,
+            "R": 256,
+            "offset": 6,
+            "height": 13,
+            "threshold": 250,
+            "Q": 72057594037932032,
+            "fixed_time_upper": "6.64144571001468594518694436829408347842719720959805560986702E-123",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "4.78566598797203505074326879133902959650965695001521348550004E-106",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 302231454903674540654592,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491277350471485E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1064960,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "gate_gap": null
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B64_seed101",
+        "kind": "path",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "path",
+          "L": 14,
+          "N": 16384,
+          "B": 64,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "path",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "21696",
+            "upper": "21696"
+          },
+          "data_upload": {
+            "lower": "21696",
+            "upper": "21696"
+          },
+          "headers_download": {
+            "lower": "4692",
+            "upper": "4692"
+          },
+          "headers_upload": {
+            "lower": "4692",
+            "upper": "4692"
+          },
+          "authentication_download": {
+            "lower": "1344",
+            "upper": "1344"
+          },
+          "authentication_upload": {
+            "lower": "2944",
+            "upper": "2944"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "57432",
+          "upper": "57432"
+        }
+      },
+      "serialized_server_bytes": 21987304,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B64_seed101",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "deferred",
+          "L": 14,
+          "N": 16384,
+          "B": 64,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "deferred",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "28928",
+            "upper": "28928"
+          },
+          "data_upload": {
+            "lower": "7232",
+            "upper": "7232"
+          },
+          "headers_download": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "headers_upload": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "authentication_download": {
+            "lower": "1791.999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "upper": "1792.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+          },
+          "authentication_upload": {
+            "lower": "3925.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "3925.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "framing_and_control": {
+            "lower": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666668"
+          }
+        },
+        "total": {
+          "lower": "54879.99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+          "upper": "54880.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002"
+        }
+      },
+      "serialized_server_bytes": 21987304,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B64_seed101",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "sde",
+          "L": 14,
+          "N": 16384,
+          "B": 64,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "sde",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "20424.84375",
+            "upper": "20424.84375"
+          },
+          "data_upload": {
+            "lower": "7232",
+            "upper": "7232"
+          },
+          "headers_download": {
+            "lower": "4378.462890625",
+            "upper": "4378.462890625"
+          },
+          "headers_upload": {
+            "lower": "4378.462890625",
+            "upper": "4378.462890625"
+          },
+          "authentication_download": {
+            "lower": "2381.031249999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "upper": "2381.031250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+          },
+          "authentication_upload": {
+            "lower": "3336.302083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "3336.302083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "framing_and_control": {
+            "lower": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666668"
+          }
+        },
+        "total": {
+          "lower": "42621.76953124999999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+          "upper": "42621.76953125000000000000000000000000000000000000000000000000000000000000000000000000000000000000002"
+        }
+      },
+      "serialized_server_bytes": 21987304,
+      "selective_gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 14,
+            "N": 16384,
+            "B": 64,
+            "R": 256,
+            "offset": 2,
+            "height": 15,
+            "threshold": 254,
+            "Q": 72057594037944320,
+            "fixed_time_upper": "6.90787526142003457491764879136726300925036927530317532826447E-116",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 7,
+            "N": 128,
+            "B": 512,
+            "R": 256,
+            "offset": 2,
+            "height": 8,
+            "threshold": 254,
+            "Q": 72057594037944448,
+            "fixed_time_upper": "0",
+            "rule": "deterministic current count <= N",
+            "certified_height_max": null
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "4.97764871252163344304783966364672182199034018737029406615170E-99",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 604462909807452833726720,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491277350471495E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 147968,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "gate_gap": null
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B64_seed101",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 14,
+          "N": 16384,
+          "B": 64,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "14469.24358193354725572792990660106879111796148179623065292718695057472162244203692071091871013735721",
+            "upper": "14469.24358193354725572792990660106879111796148179623065292718695057472162244203692071091871013735746"
+          },
+          "data_upload": {
+            "lower": "16886.90169117827693003183644873582717927524345752453819016343621800768378569808614832547699032050024",
+            "upper": "16886.90169117827693003183644873582717927524345752453819016343621800768378569808614832547699032050063"
+          },
+          "headers_download": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "headers_upload": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "authentication_download": {
+            "lower": "9154.690985723794357878395118232097950916350995932599791751014808218662328423991577968043597798470593",
+            "upper": "9154.690985723794357878395118232097950916350995932599791751014808218662328423991577968043597798470760"
+          },
+          "authentication_upload": {
+            "lower": "13172.73487836431193693209624844897006524133442360843351896994642177473870353734486021139124958327588",
+            "upper": "13172.73487836431193693209624844897006524133442360843351896994642177473870353734486021139124958327625"
+          },
+          "framing_and_control": {
+            "lower": "970.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "970.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667"
+          }
+        },
+        "total": {
+          "lower": "67166.23780386659714723692438868463065321755702552846882047825106524247310676812617388249721450627058",
+          "upper": "67166.23780386659714723692438868463065321755702552846882047825106524247310676812617388249721450627177"
+        }
+      },
+      "serialized_server_bytes": 59843016,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B64_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 14,
+          "N": 16384,
+          "B": 64,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "r0",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "9950.538512537419616551583272135218397433454489104387589537167106822536147061719582845988755766705271",
+            "upper": "9950.538512537419616551583272135218397433454489104387589537167106822536147061719582845988755766705364"
+          },
+          "data_upload": {
+            "lower": "12585.60830876786799417591652387106514956694936346579326447561213814147323203290124886286265234453453",
+            "upper": "12585.60830876786799417591652387106514956694936346579326447561213814147323203290124886286265234453472"
+          },
+          "headers_download": {
+            "lower": "4009.55126953125",
+            "upper": "4009.55126953125"
+          },
+          "headers_upload": {
+            "lower": "4009.55126953125",
+            "upper": "4009.55126953125"
+          },
+          "authentication_download": {
+            "lower": "7021.090905445457098149661512267521767592063107103655988169482422929622165092575359705117459638138168",
+            "upper": "7021.090905445457098149661512267521767592063107103655988169482422929622165092575359705117459638138285"
+          },
+          "authentication_upload": {
+            "lower": "10209.95317977812320363629021111342429211112825932199083002608600889258840345194609798416164642232742",
+            "upper": "10209.95317977812320363629021111342429211112825932199083002608600889258840345194609798416164642232765"
+          },
+          "framing_and_control": {
+            "lower": "882.5706380208333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "882.5706380208333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          }
+        },
+        "total": {
+          "lower": "48668.86408361220124584678485272056294003692855232916100554168101011955328097247562273146384750503871",
+          "upper": "48668.86408361220124584678485272056294003692855232916100554168101011955328097247562273146384750503937"
+        }
+      },
+      "serialized_server_bytes": 59836560,
+      "selective_gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 14,
+            "N": 16384,
+            "B": 64,
+            "R": 256,
+            "offset": 6,
+            "height": 15,
+            "threshold": 250,
+            "Q": 72057594037944320,
+            "fixed_time_upper": "5.29101832904229246556259282309492195754356581376472846075597E-114",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 7,
+            "N": 128,
+            "B": 512,
+            "R": 256,
+            "offset": 6,
+            "height": 8,
+            "threshold": 250,
+            "Q": 72057594037944448,
+            "fixed_time_upper": "0",
+            "rule": "deterministic current count <= N",
+            "certified_height_max": null
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "3.81258050801452011915814334080783711987576611852597890123948E-97",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 604462909807452833726720,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491277350472248E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 147968,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "gate_gap": null
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B256_seed101",
+        "kind": "path",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "path",
+          "L": 14,
+          "N": 16384,
+          "B": 256,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "path",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "33216",
+            "upper": "33216"
+          },
+          "data_upload": {
+            "lower": "33216",
+            "upper": "33216"
+          },
+          "headers_download": {
+            "lower": "4692",
+            "upper": "4692"
+          },
+          "headers_upload": {
+            "lower": "4692",
+            "upper": "4692"
+          },
+          "authentication_download": {
+            "lower": "1344",
+            "upper": "1344"
+          },
+          "authentication_upload": {
+            "lower": "2944",
+            "upper": "2944"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "80472",
+          "upper": "80472"
+        }
+      },
+      "serialized_server_bytes": 47152360,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B256_seed101",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "deferred",
+          "L": 14,
+          "N": 16384,
+          "B": 256,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "deferred",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "44288",
+            "upper": "44288"
+          },
+          "data_upload": {
+            "lower": "11072",
+            "upper": "11072"
+          },
+          "headers_download": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "headers_upload": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "authentication_download": {
+            "lower": "1791.999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "upper": "1792.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+          },
+          "authentication_upload": {
+            "lower": "3925.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "3925.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "framing_and_control": {
+            "lower": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666668"
+          }
+        },
+        "total": {
+          "lower": "74079.99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+          "upper": "74080.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002"
+        }
+      },
+      "serialized_server_bytes": 47152360,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B256_seed101",
+        "kind": "sde",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "sde",
+          "L": 14,
+          "N": 16384,
+          "B": 256,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "sde",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "31098.46875",
+            "upper": "31098.46875"
+          },
+          "data_upload": {
+            "lower": "11072",
+            "upper": "11072"
+          },
+          "headers_download": {
+            "lower": "4378.462890625",
+            "upper": "4378.462890625"
+          },
+          "headers_upload": {
+            "lower": "4378.462890625",
+            "upper": "4378.462890625"
+          },
+          "authentication_download": {
+            "lower": "2381.031249999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "upper": "2381.031250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+          },
+          "authentication_upload": {
+            "lower": "3336.302083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "3336.302083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "framing_and_control": {
+            "lower": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666668"
+          }
+        },
+        "total": {
+          "lower": "57135.39453124999999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+          "upper": "57135.39453125000000000000000000000000000000000000000000000000000000000000000000000000000000000000002"
+        }
+      },
+      "serialized_server_bytes": 47152360,
+      "selective_gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 14,
+            "N": 16384,
+            "B": 256,
+            "R": 256,
+            "offset": 2,
+            "height": 15,
+            "threshold": 254,
+            "Q": 72057594037944320,
+            "fixed_time_upper": "6.90787526142003457491764879136726300925036927530317532826447E-116",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 7,
+            "N": 128,
+            "B": 512,
+            "R": 256,
+            "offset": 2,
+            "height": 8,
+            "threshold": 254,
+            "Q": 72057594037944448,
+            "fixed_time_upper": "0",
+            "rule": "deterministic current count <= N",
+            "certified_height_max": null
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "4.97764871252163344304783966364672182199034018737029406615170E-99",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 604462909807452833726720,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491277350471495E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 197120,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "gate_gap": null
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B256_seed101",
+        "kind": "ring",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 14,
+          "N": 16384,
+          "B": 256,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "22213.88985006968171059155327772444775149770330544403168721878562294855877137144819827048212295153297",
+            "upper": "22213.88985006968171059155327772444775149770330544403168721878562294855877137144819827048212295153350"
+          },
+          "data_upload": {
+            "lower": "25997.74298349592399138029098135704475349464104603607393684383312021330379986671246263112495355357710",
+            "upper": "25997.74298349592399138029098135704475349464104603607393684383312021330379986671246263112495355357805"
+          },
+          "headers_download": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "headers_upload": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "authentication_download": {
+            "lower": "9154.690985723794357878395118232097950916350995932599791751014808218662328423991577968043597798470593",
+            "upper": "9154.690985723794357878395118232097950916350995932599791751014808218662328423991577968043597798470760"
+          },
+          "authentication_upload": {
+            "lower": "13172.73487836431193693209624844897006524133442360843351896994642177473870353734486021139124958327588",
+            "upper": "13172.73487836431193693209624844897006524133442360843351896994642177473870353734486021139124958327625"
+          },
+          "framing_and_control": {
+            "lower": "970.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "970.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667"
+          }
+        },
+        "total": {
+          "lower": "84021.72536432037866344900229242922718781669643768780560145024663982193026986616376574770859055352320",
+          "upper": "84021.72536432037866344900229242922718781669643768780560145024663982193026986616376574770859055352523"
+        }
+      },
+      "serialized_server_bytes": 103881864,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B256_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 14,
+          "N": 16384,
+          "B": 256,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "r0",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "15429.12275418363414690697154504840799944412984331126045044406371573812972644656422872142216907952353",
+            "upper": "15429.12275418363414690697154504840799944412984331126045044406371573812972644656422872142216907952376"
+          },
+          "data_upload": {
+            "lower": "19548.01581010903523167182249400184088759185852328182993992503755894452491726420542257220728340777716",
+            "upper": "19548.01581010903523167182249400184088759185852328182993992503755894452491726420542257220728340777764"
+          },
+          "headers_download": {
+            "lower": "4009.55126953125",
+            "upper": "4009.55126953125"
+          },
+          "headers_upload": {
+            "lower": "4009.55126953125",
+            "upper": "4009.55126953125"
+          },
+          "authentication_download": {
+            "lower": "7021.090905445457098149661512267521767592063107103655988169482422929622165092575359705117459638138168",
+            "upper": "7021.090905445457098149661512267521767592063107103655988169482422929622165092575359705117459638138285"
+          },
+          "authentication_upload": {
+            "lower": "10209.95317977812320363629021111342429211112825932199083002608600889258840345194609798416164642232742",
+            "upper": "10209.95317977812320363629021111342429211112825932199083002608600889258840345194609798416164642232765"
+          },
+          "framing_and_control": {
+            "lower": "882.5706380208333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "882.5706380208333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          }
+        },
+        "total": {
+          "lower": "61109.85582659958301369807909576452828007251306635207054189800303983819854558862444231624189188109960",
+          "upper": "61109.85582659958301369807909576452828007251306635207054189800303983819854558862444231624189188110068"
+        }
+      },
+      "serialized_server_bytes": 103874064,
+      "selective_gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 14,
+            "N": 16384,
+            "B": 256,
+            "R": 256,
+            "offset": 6,
+            "height": 15,
+            "threshold": 250,
+            "Q": 72057594037944320,
+            "fixed_time_upper": "5.29101832904229246556259282309492195754356581376472846075597E-114",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 7,
+            "N": 128,
+            "B": 512,
+            "R": 256,
+            "offset": 6,
+            "height": 8,
+            "threshold": 250,
+            "Q": 72057594037944448,
+            "fixed_time_upper": "0",
+            "rule": "deterministic current count <= N",
+            "certified_height_max": null
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "3.81258050801452011915814334080783711987576611852597890123948E-97",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 604462909807452833726720,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491277350472248E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 197120,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "gate_gap": null
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B1024_seed101",
+        "kind": "path",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "path",
+          "L": 14,
+          "N": 16384,
+          "B": 1024,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "path",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "79296",
+            "upper": "79296"
+          },
+          "data_upload": {
+            "lower": "79296",
+            "upper": "79296"
+          },
+          "headers_download": {
+            "lower": "4692",
+            "upper": "4692"
+          },
+          "headers_upload": {
+            "lower": "4692",
+            "upper": "4692"
+          },
+          "authentication_download": {
+            "lower": "1344",
+            "upper": "1344"
+          },
+          "authentication_upload": {
+            "lower": "2944",
+            "upper": "2944"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "172632",
+          "upper": "172632"
+        }
+      },
+      "serialized_server_bytes": 147812584,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B1024_seed101",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "deferred",
+          "L": 14,
+          "N": 16384,
+          "B": 1024,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "deferred",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "105728",
+            "upper": "105728"
+          },
+          "data_upload": {
+            "lower": "26432",
+            "upper": "26432"
+          },
+          "headers_download": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "headers_upload": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "authentication_download": {
+            "lower": "1791.999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "upper": "1792.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+          },
+          "authentication_upload": {
+            "lower": "3925.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "3925.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "framing_and_control": {
+            "lower": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666668"
+          }
+        },
+        "total": {
+          "lower": "150879.9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+          "upper": "150880.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002"
+        }
+      },
+      "serialized_server_bytes": 147812584,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B1024_seed101",
+        "kind": "sde",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "sde",
+          "L": 14,
+          "N": 16384,
+          "B": 1024,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "sde",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "73792.96875",
+            "upper": "73792.96875"
+          },
+          "data_upload": {
+            "lower": "26432",
+            "upper": "26432"
+          },
+          "headers_download": {
+            "lower": "4378.462890625",
+            "upper": "4378.462890625"
+          },
+          "headers_upload": {
+            "lower": "4378.462890625",
+            "upper": "4378.462890625"
+          },
+          "authentication_download": {
+            "lower": "2381.031249999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "upper": "2381.031250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+          },
+          "authentication_upload": {
+            "lower": "3336.302083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "3336.302083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "framing_and_control": {
+            "lower": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666668"
+          }
+        },
+        "total": {
+          "lower": "115189.8945312499999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+          "upper": "115189.8945312500000000000000000000000000000000000000000000000000000000000000000000000000000000000002"
+        }
+      },
+      "serialized_server_bytes": 147812584,
+      "selective_gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 14,
+            "N": 16384,
+            "B": 1024,
+            "R": 256,
+            "offset": 2,
+            "height": 15,
+            "threshold": 254,
+            "Q": 72057594037944320,
+            "fixed_time_upper": "6.90787526142003457491764879136726300925036927530317532826447E-116",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 7,
+            "N": 128,
+            "B": 512,
+            "R": 256,
+            "offset": 2,
+            "height": 8,
+            "threshold": 254,
+            "Q": 72057594037944448,
+            "fixed_time_upper": "0",
+            "rule": "deterministic current count <= N",
+            "certified_height_max": null
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "4.97764871252163344304783966364672182199034018737029406615170E-99",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 604462909807452833726720,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491277350471495E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 393728,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "gate_gap": null
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B1024_seed101",
+        "kind": "ring",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 14,
+          "N": 16384,
+          "B": 1024,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "53192.47492261421953004604676221796359301667060003523582438518031244390736708909330850873577420823623",
+            "upper": "53192.47492261421953004604676221796359301667060003523582438518031244390736708909330850873577420823760"
+          },
+          "data_upload": {
+            "lower": "62441.10815276651223677410911184191505037223140008221692356542072903578385654121771985371680648588469",
+            "upper": "62441.10815276651223677410911184191505037223140008221692356542072903578385654121771985371680648588752"
+          },
+          "headers_download": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "headers_upload": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "authentication_download": {
+            "lower": "9154.690985723794357878395118232097950916350995932599791751014808218662328423991577968043597798470593",
+            "upper": "9154.690985723794357878395118232097950916350995932599791751014808218662328423991577968043597798470760"
+          },
+          "authentication_upload": {
+            "lower": "13172.73487836431193693209624844897006524133442360843351896994642177473870353734486021139124958327588",
+            "upper": "13172.73487836431193693209624844897006524133442360843351896994642177473870353734486021139124958327625"
+          },
+          "framing_and_control": {
+            "lower": "970.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "970.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667"
+          }
+        },
+        "total": {
+          "lower": "151443.6756061355047282973139074076133262132540863251527253382289381397589222583141332085540947425338",
+          "upper": "151443.6756061355047282973139074076133262132540863251527253382289381397589222583141332085540947425390"
+        }
+      },
+      "serialized_server_bytes": 280037256,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B1024_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 14,
+          "N": 16384,
+          "B": 1024,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "r0",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "37343.45972076849226832852463670116640748683126013875189407165015140050404398594281222315582233079655",
+            "upper": "37343.45972076849226832852463670116640748683126013875189407165015140050404398594281222315582233079739"
+          },
+          "data_upload": {
+            "lower": "47397.64581547370418165544637452494383969149516254597664172273924215673165818942211740958580766074761",
+            "upper": "47397.64581547370418165544637452494383969149516254597664172273924215673165818942211740958580766074935"
+          },
+          "headers_download": {
+            "lower": "4009.55126953125",
+            "upper": "4009.55126953125"
+          },
+          "headers_upload": {
+            "lower": "4009.55126953125",
+            "upper": "4009.55126953125"
+          },
+          "authentication_download": {
+            "lower": "7021.090905445457098149661512267521767592063107103655988169482422929622165092575359705117459638138168",
+            "upper": "7021.090905445457098149661512267521767592063107103655988169482422929622165092575359705117459638138285"
+          },
+          "authentication_upload": {
+            "lower": "10209.95317977812320363629021111342429211112825932199083002608600889258840345194609798416164642232742",
+            "upper": "10209.95317977812320363629021111342429211112825932199083002608600889258840345194609798416164642232765"
+          },
+          "framing_and_control": {
+            "lower": "882.5706380208333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "882.5706380208333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          }
+        },
+        "total": {
+          "lower": "110873.8227985491100851032560679403896402148511224437086873232911587127796040532197206553540693853430",
+          "upper": "110873.8227985491100851032560679403896402148511224437086873232911587127796040532197206553540693853461"
+        }
+      },
+      "serialized_server_bytes": 280024080,
+      "selective_gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 14,
+            "N": 16384,
+            "B": 1024,
+            "R": 256,
+            "offset": 6,
+            "height": 15,
+            "threshold": 250,
+            "Q": 72057594037944320,
+            "fixed_time_upper": "5.29101832904229246556259282309492195754356581376472846075597E-114",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 7,
+            "N": 128,
+            "B": 512,
+            "R": 256,
+            "offset": 6,
+            "height": 8,
+            "threshold": 250,
+            "Q": 72057594037944448,
+            "fixed_time_upper": "0",
+            "rule": "deterministic current count <= N",
+            "certified_height_max": null
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "3.81258050801452011915814334080783711987576611852597890123948E-97",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 604462909807452833726720,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491277350472248E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 393728,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "gate_gap": null
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B4096_seed101",
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "path",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "path",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "263616",
+            "upper": "263616"
+          },
+          "data_upload": {
+            "lower": "263616",
+            "upper": "263616"
+          },
+          "headers_download": {
+            "lower": "4692",
+            "upper": "4692"
+          },
+          "headers_upload": {
+            "lower": "4692",
+            "upper": "4692"
+          },
+          "authentication_download": {
+            "lower": "1344",
+            "upper": "1344"
+          },
+          "authentication_upload": {
+            "lower": "2944",
+            "upper": "2944"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "541272",
+          "upper": "541272"
+        }
+      },
+      "serialized_server_bytes": 550453480,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B4096_seed101",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "deferred",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "deferred",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "351488",
+            "upper": "351488"
+          },
+          "data_upload": {
+            "lower": "87872",
+            "upper": "87872"
+          },
+          "headers_download": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "headers_upload": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "authentication_download": {
+            "lower": "1791.999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "upper": "1792.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+          },
+          "authentication_upload": {
+            "lower": "3925.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "3925.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "framing_and_control": {
+            "lower": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666668"
+          }
+        },
+        "total": {
+          "lower": "458079.9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+          "upper": "458080.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002"
+        }
+      },
+      "serialized_server_bytes": 550453480,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B4096_seed101",
+        "kind": "sde",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "sde",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "sde",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "244570.96875",
+            "upper": "244570.96875"
+          },
+          "data_upload": {
+            "lower": "87872",
+            "upper": "87872"
+          },
+          "headers_download": {
+            "lower": "4378.462890625",
+            "upper": "4378.462890625"
+          },
+          "headers_upload": {
+            "lower": "4378.462890625",
+            "upper": "4378.462890625"
+          },
+          "authentication_download": {
+            "lower": "2381.031249999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "upper": "2381.031250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+          },
+          "authentication_upload": {
+            "lower": "3336.302083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "3336.302083333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "framing_and_control": {
+            "lower": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666668"
+          }
+        },
+        "total": {
+          "lower": "347407.8945312499999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+          "upper": "347407.8945312500000000000000000000000000000000000000000000000000000000000000000000000000000000000002"
+        }
+      },
+      "serialized_server_bytes": 550453480,
+      "selective_gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 14,
+            "N": 16384,
+            "B": 4096,
+            "R": 256,
+            "offset": 2,
+            "height": 15,
+            "threshold": 254,
+            "Q": 72057594037944320,
+            "fixed_time_upper": "6.90787526142003457491764879136726300925036927530317532826447E-116",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 7,
+            "N": 128,
+            "B": 512,
+            "R": 256,
+            "offset": 2,
+            "height": 8,
+            "threshold": 254,
+            "Q": 72057594037944448,
+            "fixed_time_upper": "0",
+            "rule": "deterministic current count <= N",
+            "certified_height_max": null
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "4.97764871252163344304783966364672182199034018737029406615170E-99",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 604462909807452833726720,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491277350471495E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1180160,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "gate_gap": null
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B4096_seed101",
+        "kind": "ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "177106.8152127923708078640207001920269590925397784000523730507590704253017499596737494617503792350484",
+            "upper": "177106.8152127923708078640207001920269590925397784000523730507590704253017499596737494617503792350548"
+          },
+          "data_upload": {
+            "lower": "208214.5688298488652183493816337813962378825928162667888704517711643257040832392387487440842182151143",
+            "upper": "208214.5688298488652183493816337813962378825928162667888704517711643257040832392387487440842182151262"
+          },
+          "headers_download": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "headers_upload": {
+            "lower": "6256",
+            "upper": "6256"
+          },
+          "authentication_download": {
+            "lower": "9154.690985723794357878395118232097950916350995932599791751014808218662328423991577968043597798470593",
+            "upper": "9154.690985723794357878395118232097950916350995932599791751014808218662328423991577968043597798470760"
+          },
+          "authentication_upload": {
+            "lower": "13172.73487836431193693209624844897006524133442360843351896994642177473870353734486021139124958327588",
+            "upper": "13172.73487836431193693209624844897006524133442360843351896994642177473870353734486021139124958327625"
+          },
+          "framing_and_control": {
+            "lower": "970.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "970.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666667"
+          }
+        },
+        "total": {
+          "lower": "421131.4765733960089876905603673211578797994846808745412208901581314110735318269156030519361114985756",
+          "upper": "421131.4765733960089876905603673211578797994846808745412208901581314110735318269156030519361114985948"
+        }
+      },
+      "serialized_server_bytes": 984658824,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B4096_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "r0",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "125000.8075871079247540147370033122000396576369274487176685819958940500013141434571462300904353358880",
+            "upper": "125000.8075871079247540147370033122000396576369274487176685819958940500013141434571462300904353358923"
+          },
+          "data_upload": {
+            "lower": "158796.1658369323799815899418966173556480900417196025634489135459750055586218902888967590999046726286",
+            "upper": "158796.1658369323799815899418966173556480900417196025634489135459750055586218902888967590999046726367"
+          },
+          "headers_download": {
+            "lower": "4009.55126953125",
+            "upper": "4009.55126953125"
+          },
+          "headers_upload": {
+            "lower": "4009.55126953125",
+            "upper": "4009.55126953125"
+          },
+          "authentication_download": {
+            "lower": "7021.090905445457098149661512267521767592063107103655988169482422929622165092575359705117459638138168",
+            "upper": "7021.090905445457098149661512267521767592063107103655988169482422929622165092575359705117459638138285"
+          },
+          "authentication_upload": {
+            "lower": "10209.95317977812320363629021111342429211112825932199083002608600889258840345194609798416164642232742",
+            "upper": "10209.95317977812320363629021111342429211112825932199083002608600889258840345194609798416164642232765"
+          },
+          "framing_and_control": {
+            "lower": "882.5706380208333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "882.5706380208333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          }
+        },
+        "total": {
+          "lower": "309929.6906863472183707239639566438350807842033468102612690244436342111038379116008340118027794023154",
+          "upper": "309929.6906863472183707239639566438350807842033468102612690244436342111038379116008340118027794023284"
+        }
+      },
+      "serialized_server_bytes": 984624144,
+      "selective_gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 14,
+            "N": 16384,
+            "B": 4096,
+            "R": 256,
+            "offset": 6,
+            "height": 15,
+            "threshold": 250,
+            "Q": 72057594037944320,
+            "fixed_time_upper": "5.29101832904229246556259282309492195754356581376472846075597E-114",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 7,
+            "N": 128,
+            "B": 512,
+            "R": 256,
+            "offset": 6,
+            "height": 8,
+            "threshold": 250,
+            "Q": 72057594037944448,
+            "fixed_time_upper": "0",
+            "rule": "deterministic current count <= N",
+            "certified_height_max": null
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "3.81258050801452011915814334080783711987576611852597890123948E-97",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 604462909807452833726720,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491277350472248E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1180160,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "gate_gap": null
+    },
+    {
+      "spec": {
+        "id": "B4_path_N65536_B4096_seed101",
+        "kind": "path",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "path",
+          "L": 16,
+          "N": 65536,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "path",
+          "L": 9,
+          "N": 512,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "300736",
+            "upper": "300736"
+          },
+          "data_upload": {
+            "lower": "300736",
+            "upper": "300736"
+          },
+          "headers_download": {
+            "lower": "5508",
+            "upper": "5508"
+          },
+          "headers_upload": {
+            "lower": "5508",
+            "upper": "5508"
+          },
+          "authentication_download": {
+            "lower": "1600",
+            "upper": "1600"
+          },
+          "authentication_upload": {
+            "lower": "3456",
+            "upper": "3456"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "617912",
+          "upper": "617912"
+        }
+      },
+      "serialized_server_bytes": 2201871592,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N65536_B4096_seed101",
+        "kind": "deferred",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "deferred",
+          "L": 16,
+          "N": 65536,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "deferred",
+          "L": 9,
+          "N": 512,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "400981.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "400981.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "data_upload": {
+            "lower": "100245.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "100245.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "headers_download": {
+            "lower": "7344",
+            "upper": "7344"
+          },
+          "headers_upload": {
+            "lower": "7344",
+            "upper": "7344"
+          },
+          "authentication_download": {
+            "lower": "2133.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "2133.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "authentication_upload": {
+            "lower": "4607.999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "upper": "4608.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+          },
+          "framing_and_control": {
+            "lower": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666668"
+          }
+        },
+        "total": {
+          "lower": "523146.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666664",
+          "upper": "523146.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666670"
+        }
+      },
+      "serialized_server_bytes": 2201871592,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N65536_B4096_seed101",
+        "kind": "sde",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "sde",
+          "L": 16,
+          "N": 65536,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "sde",
+          "L": 9,
+          "N": 512,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "278155.3206380208333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "278155.3206380208333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "data_upload": {
+            "lower": "100245.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "100245.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "headers_download": {
+            "lower": "5116.69390869140625",
+            "upper": "5116.69390869140625"
+          },
+          "headers_upload": {
+            "lower": "5116.69390869140625",
+            "upper": "5116.69390869140625"
+          },
+          "authentication_download": {
+            "lower": "2832.096028645833333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "2832.096028645833333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          },
+          "authentication_upload": {
+            "lower": "3909.237304687499999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "upper": "3909.237304687500000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+          },
+          "framing_and_control": {
+            "lower": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+            "upper": "490.6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666668"
+          }
+        },
+        "total": {
+          "lower": "395866.0417887369791666666666666666666666666666666666666666666666666666666666666666666666666666666664",
+          "upper": "395866.0417887369791666666666666666666666666666666666666666666666666666666666666666666666666666666670"
+        }
+      },
+      "serialized_server_bytes": 2201871592,
+      "selective_gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 16,
+            "N": 65536,
+            "B": 4096,
+            "R": 256,
+            "offset": 2,
+            "height": 17,
+            "threshold": 254,
+            "Q": 72057594037993472,
+            "fixed_time_upper": "5.07271026111118752242757089445089778155114113930150887691063E-108",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 9,
+            "N": 512,
+            "B": 512,
+            "R": 256,
+            "offset": 2,
+            "height": 10,
+            "threshold": 254,
+            "Q": 72057594037993984,
+            "fixed_time_upper": "2.16714556336541312357406795789578291831353276211691166025837E-142",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "3.65527296667513814618592389938660947700777481313181603778774E-91",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 604462909807867572896768,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491278081526079E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1181696,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "gate_gap": null
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N65536_B4096_seed101",
+        "kind": "ring",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 16,
+          "N": 65536,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 9,
+          "N": 512,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "202354.9021973841725887215861869723544750189039308158289534404335045310299982040485569687844207729531",
+            "upper": "202354.9021973841725887215861869723544750189039308158289534404335045310299982040485569687844207729720"
+          },
+          "data_upload": {
+            "lower": "238255.6606827852915959059233251577159972663313941258231135832337327946255513650021884827192040257812",
+            "upper": "238255.6606827852915959059233251577159972663313941258231135832337327946255513650021884827192040258215"
+          },
+          "headers_download": {
+            "lower": "7344",
+            "upper": "7344"
+          },
+          "headers_upload": {
+            "lower": "7344",
+            "upper": "7344"
+          },
+          "authentication_download": {
+            "lower": "10775.39045060992365827816925348370258622542628739471225908806188190979701997653087044454861605648170",
+            "upper": "10775.39045060992365827816925348370258622542628739471225908806188190979701997653087044454861605648222"
+          },
+          "authentication_upload": {
+            "lower": "15512.72841222461279791185446602900600753404113726584785274391010886661759498483698322768286051428802",
+            "upper": "15512.72841222461279791185446602900600753404113726584785274391010886661759498483698322768286051428927"
+          },
+          "framing_and_control": {
+            "lower": "1013.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333",
+            "upper": "1013.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333334"
+          }
+        },
+        "total": {
+          "lower": "482600.0150763373339741508665649761123993780360829355455121889725614354034978637519324570684347028373",
+          "upper": "482600.0150763373339741508665649761123993780360829355455121889725614354034978637519324570684347028985"
+        }
+      },
+      "serialized_server_bytes": 3938740104,
+      "selective_gate": null,
+      "gate_gap": "unsupported core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N65536_B4096_seed101",
+        "kind": "r0",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 16,
+          "N": 65536,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "r0",
+          "L": 9,
+          "N": 512,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "periodic": {
+        "components": {
+          "data_download": {
+            "lower": "143578.3170569114615995581816030208461524720552933803826055345465745595881705916232914759433447192084",
+            "upper": "143578.3170569114615995581816030208461524720552933803826055345465745595881705916232914759433447192203"
+          },
+          "data_upload": {
+            "lower": "182555.3686514566048434135348514930854668792401289986705240250531184168168424915654578883122487892653",
+            "upper": "182555.3686514566048434135348514930854668792401289986705240250531184168168424915654578883122487892903"
+          },
+          "headers_download": {
+            "lower": "4747.3807373046875",
+            "upper": "4747.3807373046875"
+          },
+          "headers_upload": {
+            "lower": "4747.3807373046875",
+            "upper": "4747.3807373046875"
+          },
+          "authentication_download": {
+            "lower": "8335.695299230288370010474171667110491024671643482866328770300158842439163921329988145640152205595039",
+            "upper": "8335.695299230288370010474171667110491024671643482866328770300158842439163921329988145640152205595374"
+          },
+          "authentication_upload": {
+            "lower": "12093.37967491215442680615053482871449071917224485413626386844746974589178895893689169421140175075863",
+            "upper": "12093.37967491215442680615053482871449071917224485413626386844746974589178895893689169421140175075939"
+          },
+          "framing_and_control": {
+            "lower": "911.5051269531249999999999999999999999999999999999999999999999999999999999999999999999999999999999999",
+            "upper": "911.5051269531250000000000000000000000000000000000000000000000000000000000000000000000000000000000001"
+          }
+        },
+        "total": {
+          "lower": "356969.0272840730092397883411610097566010951393107160557221983473215647359659634556292041071474648272",
+          "upper": "356969.0272840730092397883411610097566010951393107160557221983473215647359659634556292041071474648655"
+        }
+      },
+      "serialized_server_bytes": 3938705424,
+      "selective_gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 16,
+            "N": 65536,
+            "B": 4096,
+            "R": 256,
+            "offset": 6,
+            "height": 17,
+            "threshold": 250,
+            "Q": 72057594037993472,
+            "fixed_time_upper": "2.85484716208490823267259240066234211781924462489578091679177E-106",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 9,
+            "N": 512,
+            "B": 512,
+            "R": 256,
+            "offset": 6,
+            "height": 10,
+            "threshold": 250,
+            "Q": 72057594037993984,
+            "fixed_time_upper": "4.96990434985192146353495458201451846313472608593086448463597E-140",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "2.05713417846032066674131620695028039768831776204226974241445E-89",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 604462909807867572896768,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491318493155055E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1181696,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "gate_gap": null
+    }
+  ]
+}

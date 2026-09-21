@@ -1,0 +1,1 @@
+{"id": "MIN_pilot_free_compressed_sde_B64_seed101", "status": "passed", "bytes_per_request": 10899.5625, "seconds": 0.9049921035766602}

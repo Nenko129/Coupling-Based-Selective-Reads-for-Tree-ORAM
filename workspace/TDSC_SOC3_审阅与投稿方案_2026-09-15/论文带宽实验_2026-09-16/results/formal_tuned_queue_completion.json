@@ -1,0 +1,256 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "id": "B3_sde_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 338329.83203125
+    },
+    {
+      "id": "B3_deferred_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 446997.05859375
+    },
+    {
+      "id": "B3_path_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 527664.0
+    },
+    {
+      "id": "B3_r0_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 252986.796875
+    },
+    {
+      "id": "B3_ring_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 339721.25390625
+    },
+    {
+      "id": "B3_path_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 527664.0
+    },
+    {
+      "id": "B3_sde_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 338516.98828125
+    },
+    {
+      "id": "B3_deferred_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 446997.05859375
+    },
+    {
+      "id": "B3_r0_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 253311.14453125
+    },
+    {
+      "id": "B3_ring_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 339118.46484375
+    },
+    {
+      "id": "B3_path_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 527664.0
+    },
+    {
+      "id": "B3_sde_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 339209.591796875
+    },
+    {
+      "id": "B3_deferred_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 446997.05859375
+    },
+    {
+      "id": "B3_r0_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 253683.58203125
+    },
+    {
+      "id": "B3_ring_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 340318.68359375
+    },
+    {
+      "id": "B3_path_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 527664.0
+    },
+    {
+      "id": "B3_sde_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 338199.80078125
+    },
+    {
+      "id": "B3_deferred_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 446997.05859375
+    },
+    {
+      "id": "B3_r0_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 253354.41015625
+    },
+    {
+      "id": "B3_ring_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 338880.80078125
+    },
+    {
+      "id": "B3_path_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 527664.0
+    },
+    {
+      "id": "B3_sde_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 338568.3203125
+    },
+    {
+      "id": "B3_deferred_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 446997.05859375
+    },
+    {
+      "id": "B3_r0_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 253819.0703125
+    },
+    {
+      "id": "B3_ring_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 339618.99609375
+    },
+    {
+      "id": "B3_path_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 527664.0
+    },
+    {
+      "id": "B3_sde_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 339019.802734375
+    },
+    {
+      "id": "B3_deferred_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 446997.05859375
+    },
+    {
+      "id": "B3_r0_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 254045.34765625
+    },
+    {
+      "id": "B3_ring_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 339860.55078125
+    },
+    {
+      "id": "B3_path_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 527664.0
+    },
+    {
+      "id": "B3_sde_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 339109.658203125
+    },
+    {
+      "id": "B3_deferred_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 446997.05859375
+    },
+    {
+      "id": "B3_r0_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 253265.37109375
+    },
+    {
+      "id": "B3_ring_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 339513.26171875
+    },
+    {
+      "id": "B3_path_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 527664.0
+    },
+    {
+      "id": "B3_sde_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 339123.583984375
+    },
+    {
+      "id": "B3_deferred_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 446997.05859375
+    },
+    {
+      "id": "B3_r0_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 252577.8359375
+    },
+    {
+      "id": "B3_ring_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 339844.38671875
+    },
+    {
+      "id": "B3_path_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 527664.0
+    },
+    {
+      "id": "B3_sde_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 339445.451171875
+    },
+    {
+      "id": "B3_deferred_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 446997.05859375
+    },
+    {
+      "id": "B3_r0_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 253944.62109375
+    },
+    {
+      "id": "B3_ring_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 339381.37109375
+    },
+    {
+      "id": "B3_path_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 527664.0
+    },
+    {
+      "id": "B3_sde_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 339261.43359375
+    },
+    {
+      "id": "B3_deferred_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 446997.05859375
+    },
+    {
+      "id": "B3_r0_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 253223.3203125
+    },
+    {
+      "id": "B3_ring_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 339898.12109375
+    }
+  ],
+  "queue_sha256": "a1fff3c74d839d936036741a8e2037c38f04dbe74866e703c8a6b08d72da3716"
+}

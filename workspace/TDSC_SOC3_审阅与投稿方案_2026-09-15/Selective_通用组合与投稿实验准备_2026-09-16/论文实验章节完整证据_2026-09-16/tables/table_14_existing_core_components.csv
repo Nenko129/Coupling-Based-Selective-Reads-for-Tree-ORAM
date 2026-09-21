@@ -1,0 +1,19 @@
+﻿family,layout,workload,N,B,baseline,variant,n,bytes_saving_pct,ci95_low_pct,ci95_high_pct,rpc_saving_pct,scope
+AB,depth,uniform,4096,64,ring,r0,5,25.770423245545377,25.34135161049055,26.199494880600206,0.0,earlier integrated/static-component evidence
+AB,depth,uniform,4096,4096,ring,r0,5,25.94711503084858,25.70165601526642,26.19257404643074,0.0,earlier integrated/static-component evidence
+AB,uniform,uniform,4096,64,ring,r0,5,24.830239177460577,24.50402115990666,25.156457195014493,0.0,earlier integrated/static-component evidence
+AB,uniform,uniform,4096,4096,ring,r0,5,23.979999500243494,23.628072151228785,24.331926849258203,0.0,earlier integrated/static-component evidence
+IR,depth,uniform,4096,64,deferred,sde,5,19.24489278322613,19.030011067355307,19.459774499096955,0.0,earlier integrated/static-component evidence
+IR,depth,uniform,4096,4096,deferred,sde,5,21.528347163914358,21.435147457893237,21.62154686993548,0.0,earlier integrated/static-component evidence
+IR,uniform,uniform,4096,64,deferred,sde,5,20.251962312506677,20.129414859611902,20.374509765401452,0.0,earlier integrated/static-component evidence
+IR,uniform,uniform,4096,4096,deferred,sde,5,22.905246165210713,22.728923213151397,23.08156911727003,0.0,earlier integrated/static-component evidence
+core,uniform,hot90,16384,4096,path,sde,5,35.88534918961724,35.814969550023584,35.95572882921089,-33.33740234375,earlier integrated/static-component evidence
+core,uniform,hot90,16384,4096,deferred,sde,5,24.23575240387733,24.152584822482098,24.318919985272565,0.0,earlier integrated/static-component evidence
+core,uniform,hot90,16384,4096,ring,gc_ring,5,21.461576363514975,21.27185287819234,21.65129984883761,0.0,earlier integrated/static-component evidence
+core,uniform,hot90,16384,4096,ring,r0,5,26.633513104880855,26.471337498442313,26.795688711319396,0.0,earlier integrated/static-component evidence
+core,uniform,hot90,16384,4096,gc_ring,r0,5,6.5851700497125165,6.468051572948813,6.70228852647622,0.0,earlier integrated/static-component evidence
+core,uniform,uniform,16384,4096,path,sde,5,35.796496349109134,35.769101345808274,35.823891352409994,-33.33740234375,earlier integrated/static-component evidence
+core,uniform,uniform,16384,4096,deferred,sde,5,24.130755051122755,24.09838239079085,24.16312771145466,0.0,earlier integrated/static-component evidence
+core,uniform,uniform,16384,4096,ring,gc_ring,5,21.412109802212534,21.297598678612943,21.526620925812125,0.0,earlier integrated/static-component evidence
+core,uniform,uniform,16384,4096,ring,r0,5,26.535133999986503,26.40542300512291,26.664844994850096,0.0,earlier integrated/static-component evidence
+core,uniform,uniform,16384,4096,gc_ring,r0,5,6.518678387327334,6.255169258745033,6.782187515909635,0.0,earlier integrated/static-component evidence

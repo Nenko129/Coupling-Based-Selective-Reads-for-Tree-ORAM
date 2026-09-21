@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "generated": "2026-09-16T22:19:05.283523",
+  "specs_checked": 136,
+  "pilot_passed": 16,
+  "coupling_boundaries": 772,
+  "source_lock_sha256": "9a242b0d8fc0bc12da7900c2fd1f272296e622514e93036314f2b340156e9cf3",
+  "ready_to_run_formal": true,
+  "formal_complete": true,
+  "all_submission_requirements_complete": false,
+  "remaining": "complete repetitions and final figure/data audit; do not claim latency, true trusted peak, native full-system reproduction, or global SOTA"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "IRDWB_uniform_sde_dwb1_uniform_seed105",
+  "kind": "sde",
+  "N": 4096,
+  "B": 64,
+  "X": 16,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "R": 480,
+  "cached_levels": 6,
+  "Z_by_depth": [],
+  "plb": 8,
+  "llc_sets": 8,
+  "llc_ways": 2,
+  "layout": "uniform",
+  "dwb": true,
+  "warmup": 128,
+  "requests": 256,
+  "arrival_gap": 8,
+  "slots_per_request": 8,
+  "trace_seed": 105,
+  "oram_seed": 1005,
+  "workload": "uniform",
+  "experiment_class": "formal_ir_dwb"
+}

@@ -1,0 +1,372 @@
+{
+  "N": 32,
+  "trace_seed": 654,
+  "warmup": 16,
+  "requests": 32,
+  "rows": [
+    [
+      24,
+      null
+    ],
+    [
+      20,
+      null
+    ],
+    [
+      6,
+      null
+    ],
+    [
+      28,
+      4
+    ],
+    [
+      31,
+      5
+    ],
+    [
+      16,
+      null
+    ],
+    [
+      10,
+      null
+    ],
+    [
+      29,
+      8
+    ],
+    [
+      18,
+      9
+    ],
+    [
+      18,
+      10
+    ],
+    [
+      4,
+      null
+    ],
+    [
+      13,
+      12
+    ],
+    [
+      17,
+      null
+    ],
+    [
+      8,
+      14
+    ],
+    [
+      17,
+      15
+    ],
+    [
+      1,
+      16
+    ],
+    [
+      20,
+      null
+    ],
+    [
+      29,
+      18
+    ],
+    [
+      29,
+      null
+    ],
+    [
+      17,
+      20
+    ],
+    [
+      4,
+      21
+    ],
+    [
+      27,
+      22
+    ],
+    [
+      17,
+      null
+    ],
+    [
+      24,
+      24
+    ],
+    [
+      5,
+      25
+    ],
+    [
+      21,
+      26
+    ],
+    [
+      25,
+      27
+    ],
+    [
+      18,
+      null
+    ],
+    [
+      10,
+      29
+    ],
+    [
+      8,
+      30
+    ],
+    [
+      9,
+      31
+    ],
+    [
+      29,
+      32
+    ],
+    [
+      25,
+      33
+    ],
+    [
+      13,
+      null
+    ],
+    [
+      7,
+      35
+    ],
+    [
+      23,
+      null
+    ],
+    [
+      13,
+      37
+    ],
+    [
+      31,
+      38
+    ],
+    [
+      5,
+      null
+    ],
+    [
+      13,
+      null
+    ],
+    [
+      17,
+      41
+    ],
+    [
+      0,
+      null
+    ],
+    [
+      30,
+      null
+    ],
+    [
+      27,
+      null
+    ],
+    [
+      1,
+      45
+    ],
+    [
+      30,
+      46
+    ],
+    [
+      20,
+      null
+    ],
+    [
+      14,
+      null
+    ]
+  ],
+  "mapping": [
+    {
+      "asu": 0,
+      "lba": 0,
+      "oram_address": 0
+    },
+    {
+      "asu": 0,
+      "lba": 8,
+      "oram_address": 1
+    },
+    {
+      "asu": 0,
+      "lba": 16,
+      "oram_address": 2
+    },
+    {
+      "asu": 0,
+      "lba": 24,
+      "oram_address": 3
+    },
+    {
+      "asu": 0,
+      "lba": 32,
+      "oram_address": 4
+    },
+    {
+      "asu": 0,
+      "lba": 40,
+      "oram_address": 5
+    },
+    {
+      "asu": 0,
+      "lba": 48,
+      "oram_address": 6
+    },
+    {
+      "asu": 0,
+      "lba": 56,
+      "oram_address": 7
+    },
+    {
+      "asu": 0,
+      "lba": 64,
+      "oram_address": 8
+    },
+    {
+      "asu": 0,
+      "lba": 72,
+      "oram_address": 9
+    },
+    {
+      "asu": 0,
+      "lba": 80,
+      "oram_address": 10
+    },
+    {
+      "asu": 0,
+      "lba": 88,
+      "oram_address": 11
+    },
+    {
+      "asu": 0,
+      "lba": 96,
+      "oram_address": 12
+    },
+    {
+      "asu": 0,
+      "lba": 104,
+      "oram_address": 13
+    },
+    {
+      "asu": 0,
+      "lba": 112,
+      "oram_address": 14
+    },
+    {
+      "asu": 0,
+      "lba": 120,
+      "oram_address": 15
+    },
+    {
+      "asu": 0,
+      "lba": 128,
+      "oram_address": 16
+    },
+    {
+      "asu": 0,
+      "lba": 136,
+      "oram_address": 17
+    },
+    {
+      "asu": 0,
+      "lba": 144,
+      "oram_address": 18
+    },
+    {
+      "asu": 0,
+      "lba": 152,
+      "oram_address": 19
+    },
+    {
+      "asu": 0,
+      "lba": 160,
+      "oram_address": 20
+    },
+    {
+      "asu": 0,
+      "lba": 168,
+      "oram_address": 21
+    },
+    {
+      "asu": 0,
+      "lba": 176,
+      "oram_address": 22
+    },
+    {
+      "asu": 0,
+      "lba": 184,
+      "oram_address": 23
+    },
+    {
+      "asu": 0,
+      "lba": 192,
+      "oram_address": 24
+    },
+    {
+      "asu": 0,
+      "lba": 200,
+      "oram_address": 25
+    },
+    {
+      "asu": 0,
+      "lba": 208,
+      "oram_address": 26
+    },
+    {
+      "asu": 0,
+      "lba": 216,
+      "oram_address": 27
+    },
+    {
+      "asu": 0,
+      "lba": 224,
+      "oram_address": 28
+    },
+    {
+      "asu": 0,
+      "lba": 232,
+      "oram_address": 29
+    },
+    {
+      "asu": 0,
+      "lba": 240,
+      "oram_address": 30
+    },
+    {
+      "asu": 0,
+      "lba": 248,
+      "oram_address": 31
+    }
+  ],
+  "source": "datasets\\checks\\fixture.csv",
+  "source_sha256": "7081a08315f15d867e6e982c13fe052e2aa314f63812f22ce7b4093f4e4db964",
+  "source_records": [
+    0,
+    48
+  ],
+  "semantics": "test fixture: identity-mapped source command start keys",
+  "restrictions": [
+    "not a public evaluation trace"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "exact_complete_interval_expectations": 48,
+  "all_inside_outward_bounds": true,
+  "max_binomial_trials": 96
+}

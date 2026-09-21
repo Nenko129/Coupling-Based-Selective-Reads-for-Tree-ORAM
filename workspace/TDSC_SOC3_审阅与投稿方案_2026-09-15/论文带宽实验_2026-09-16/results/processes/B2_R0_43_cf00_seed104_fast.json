@@ -1,0 +1,39 @@
+{
+  "pid": 54380,
+  "parent_pid": 22128,
+  "spec": {
+    "id": "B2_R0_43_cf00_seed104",
+    "kind": "r0",
+    "N": 16384,
+    "B": 4096,
+    "profile": [
+      4,
+      3,
+      3
+    ],
+    "map_B": 512,
+    "terminal_bytes": 32768,
+    "compact": false,
+    "fusion": false,
+    "R": 256,
+    "warmup": 2048,
+    "requests": 4096,
+    "trace_seed": 104,
+    "oram_seed": 1004,
+    "workload": "uniform",
+    "experiment_class": "formal_ablation"
+  },
+  "mode": "core",
+  "command": [
+    "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_fast.py",
+    "--spec",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\B2_R0_43_cf00_seed104.json",
+    "--mode",
+    "core"
+  ],
+  "started": 1789510254.9353561
+}

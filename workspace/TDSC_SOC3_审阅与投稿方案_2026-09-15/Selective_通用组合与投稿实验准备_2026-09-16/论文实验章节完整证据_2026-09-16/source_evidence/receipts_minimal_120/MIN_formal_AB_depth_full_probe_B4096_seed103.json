@@ -1,0 +1,404 @@
+{
+  "status": "passed",
+  "spec": {
+    "family": "AB",
+    "arm": "full_probe",
+    "layout": "depth",
+    "N": 4096,
+    "B": 4096,
+    "profile": [
+      4,
+      3,
+      3
+    ],
+    "R": 256,
+    "compact": false,
+    "fusion": false,
+    "root_retained": true,
+    "cached_levels": 6,
+    "terminal_bytes": 32768,
+    "warmup": 12288,
+    "requests": 24576,
+    "workload": "uniform",
+    "trace_seed": 103,
+    "oram_seed": 1003,
+    "suite": "formal",
+    "driver": "run_minimal.py",
+    "S_by_depth": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      3,
+      4,
+      4,
+      4
+    ],
+    "id": "MIN_formal_AB_depth_full_probe_B4096_seed103"
+  },
+  "config": {
+    "kind": "gc_ring",
+    "L": 12,
+    "N": 4096,
+    "B": 4096,
+    "Z": 4,
+    "A": 3,
+    "S": 3,
+    "R": 256,
+    "tree": 0,
+    "compact": false,
+    "fused": false,
+    "Z_by_depth": [],
+    "S_by_depth": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      3,
+      4,
+      4,
+      4
+    ]
+  },
+  "effective_flags": {
+    "selective": false,
+    "constrained": true,
+    "root_retained": true,
+    "compact": false,
+    "fused": false
+  },
+  "source_hashes": {
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\src\\check_minimal_contract.py": "464d115ad065f617fedeba9cdfec1901fd22545e16e82150a68181334d98a695",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\src\\dispatch.py": "e1b9fdf87d9700ec35c30ff45feab77293f55b83d9637bc8add7e09c93247f9c",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\src\\minimal_runtime.py": "a8f07767ed4f5d9609a76ba8ae009966e0b73d997f207991bb0424c24ccf1eb4",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\src\\prepare_matrix.py": "04d9aeca1ab4b805c8ec03818fba325fe876bf73a070241e68ebb48c11973538",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\src\\run_frontend_minimal.py": "db3486ce911ae612440db8c5be2d9313d010e8133ec5580b38814062a1335d94",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\src\\run_minimal.py": "39a81638ddf277953f744f59b4a2f25e0cd582406737ec576bdc4c533b9708b4",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\cached_cost.py": "934888be7780bc1d01ae4687cfa2d1fd5ce7baf1435c46cb3512cff4ffdd7a25",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\cached_transport.py": "25c88f7ca32ab5d394acd019348c32de268ecd2133b560625f3cc9dd370174c3",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\heterogeneous_fusion.py": "23a1c85b20f10aa2c4b28e13228351fac771a811ada2b18062a9d8c45de59380",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\heterogeneous_oram.py": "6d312f8674efc788314f2ab5612a90979b50213ca79f601a777ef00a2dfb8fd5",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496"
+  },
+  "trace": {
+    "path": "traces\\uniform_N4096_Q36864_seed103.json",
+    "sha256": "568fc206d35f5f75e9e1b743daef991b249f4e169bb259f4eb9df8b546d6e010"
+  },
+  "setup": {
+    "rpc": 32253,
+    "request_bytes": 682228316,
+    "response_bytes": 365903704,
+    "total_bytes": 1048132020,
+    "components": {
+      "data_download": 338730112,
+      "data_upload": 636072944,
+      "headers_download": 13914628,
+      "headers_upload": 18282264,
+      "authentication_download": 12097856,
+      "authentication_upload": 25849536,
+      "framing_and_control": 3184680
+    },
+    "by_stage": {
+      "physical_setup": {
+        "data_download": 0,
+        "data_upload": 261588992,
+        "headers_download": 0,
+        "headers_upload": 2958592,
+        "authentication_download": 0,
+        "authentication_upload": 8724480,
+        "framing_and_control": 650240
+      },
+      "logical": {
+        "data_download": 117899264,
+        "data_upload": 0,
+        "headers_download": 10436608,
+        "headers_upload": 10436608,
+        "authentication_download": 8880704,
+        "authentication_upload": 3670016,
+        "framing_and_control": 1343488
+      },
+      "evict": {
+        "data_download": 157160640,
+        "data_upload": 275031120,
+        "headers_download": 3478020,
+        "headers_upload": 3478020,
+        "authentication_download": 2728576,
+        "authentication_upload": 9522240,
+        "framing_and_control": 447720
+      },
+      "early": {
+        "data_download": 63670208,
+        "data_upload": 99452832,
+        "headers_download": 0,
+        "headers_upload": 1409044,
+        "authentication_download": 488576,
+        "authentication_upload": 3932800,
+        "framing_and_control": 743232
+      }
+    },
+    "by_tree": {
+      "0": {
+        "data_download": 338730112,
+        "data_upload": 636072944,
+        "headers_download": 13914628,
+        "headers_upload": 18282264,
+        "authentication_download": 12097856,
+        "authentication_upload": 25849536,
+        "framing_and_control": 3184680
+      }
+    },
+    "opcode_counts": {
+      "5": 8128,
+      "2": 5461,
+      "3": 9332,
+      "4": 9332
+    },
+    "transcript_sha256": "1035b96cd5ac9873efcbf2874f19b084f195cec638516dace767eda01d7d464a",
+    "first_sequence": 0,
+    "next_sequence": 32253,
+    "independently_invoiced_rpcs": 32253,
+    "retained_event_count": 0,
+    "local_only_rpcs": 5143,
+    "scope": "actual frames through separate below-cut server parser; client cache excluded from remote object store"
+  },
+  "phases": {
+    "warmup": {
+      "rpc": 76260,
+      "request_bytes": 1289476024,
+      "response_bytes": 1129358864,
+      "total_bytes": 2418834888,
+      "components": {
+        "data_download": 1048231040,
+        "data_upload": 1183626864,
+        "headers_download": 41746432,
+        "headers_upload": 46680088,
+        "authentication_download": 36636032,
+        "authentication_upload": 53938112,
+        "framing_and_control": 7976320
+      },
+      "by_stage": {
+        "logical": {
+          "data_download": 353697792,
+          "data_upload": 0,
+          "headers_download": 31309824,
+          "headers_upload": 31309824,
+          "authentication_download": 26625344,
+          "authentication_upload": 11010048,
+          "framing_and_control": 4030464
+        },
+        "early": {
+          "data_download": 222936192,
+          "data_upload": 358332016,
+          "headers_download": 0,
+          "headers_upload": 4933656,
+          "authentication_download": 1810176,
+          "authentication_upload": 14354368,
+          "framing_and_control": 2602368
+        },
+        "evict": {
+          "data_download": 471597056,
+          "data_upload": 825294848,
+          "headers_download": 10436608,
+          "headers_upload": 10436608,
+          "authentication_download": 8200512,
+          "authentication_upload": 28573696,
+          "framing_and_control": 1343488
+        }
+      },
+      "by_tree": {
+        "0": {
+          "data_download": 1048231040,
+          "data_upload": 1183626864,
+          "headers_download": 41746432,
+          "headers_upload": 46680088,
+          "authentication_download": 36636032,
+          "authentication_upload": 53938112,
+          "framing_and_control": 7976320
+        }
+      },
+      "opcode_counts": {
+        "2": 16384,
+        "3": 29938,
+        "4": 29938
+      },
+      "transcript_sha256": "f28e5dbcf1331af725e3d379b26dd18861215f4191dbe083153a71ba1f95b62a",
+      "first_sequence": 32253,
+      "next_sequence": 108513,
+      "independently_invoiced_rpcs": 76260,
+      "retained_event_count": 0,
+      "local_only_rpcs": 15274,
+      "scope": "actual frames through separate below-cut server parser; client cache excluded from remote object store",
+      "requests": 12288,
+      "clock_start": 4096,
+      "clock_end": 16384,
+      "cpu_seconds": 896.953125,
+      "harness_seconds": 907.5983006999595
+    },
+    "measurement": {
+      "rpc": 153444,
+      "request_bytes": 2595429144,
+      "response_bytes": 2266472592,
+      "total_bytes": 4861901736,
+      "components": {
+        "data_download": 2104061056,
+        "data_upload": 2382809424,
+        "headers_download": 83492864,
+        "headers_upload": 93528344,
+        "authentication_download": 73394688,
+        "authentication_upload": 108574016,
+        "framing_and_control": 16041344
+      },
+      "by_stage": {
+        "logical": {
+          "data_download": 707395584,
+          "data_upload": 0,
+          "headers_download": 62619648,
+          "headers_upload": 62619648,
+          "authentication_download": 53252480,
+          "authentication_upload": 22020096,
+          "framing_and_control": 8060928
+        },
+        "early": {
+          "data_download": 453471360,
+          "data_upload": 732219728,
+          "headers_download": 0,
+          "headers_upload": 10035480,
+          "authentication_download": 3725952,
+          "authentication_upload": 29406528,
+          "framing_and_control": 5293440
+        },
+        "evict": {
+          "data_download": 943194112,
+          "data_upload": 1650589696,
+          "headers_download": 20873216,
+          "headers_upload": 20873216,
+          "authentication_download": 16416256,
+          "authentication_upload": 57147392,
+          "framing_and_control": 2686976
+        }
+      },
+      "by_tree": {
+        "0": {
+          "data_download": 2104061056,
+          "data_upload": 2382809424,
+          "headers_download": 83492864,
+          "headers_upload": 93528344,
+          "authentication_download": 73394688,
+          "authentication_upload": 108574016,
+          "framing_and_control": 16041344
+        }
+      },
+      "opcode_counts": {
+        "2": 32768,
+        "3": 60338,
+        "4": 60338
+      },
+      "transcript_sha256": "b2b54da335702d77050a1a3685398c4b325239334c61c2789fcaaeea88e6a421",
+      "first_sequence": 108513,
+      "next_sequence": 261957,
+      "independently_invoiced_rpcs": 153444,
+      "retained_event_count": 0,
+      "local_only_rpcs": 30198,
+      "scope": "actual frames through separate below-cut server parser; client cache excluded from remote object store",
+      "requests": 24576,
+      "clock_start": 16384,
+      "clock_end": 40960,
+      "cpu_seconds": 1850.515625,
+      "harness_seconds": 1874.6733199000591
+    }
+  },
+  "answer_sha256": "805257050ecd114177e4f3be376d98ae51f7e3d73c254590c539d98c684f186c",
+  "bytes_per_request": 197831.2880859375,
+  "rpc_per_request": 6.24365234375,
+  "expected_periodic_cost": {
+    "components": {
+      "data_download": {
+        "lower": "85520.18202399467707576590639692960636843581148952880895842195690512642298315761834948710786708300106",
+        "upper": "85520.18202399467707576590639692960636843581148952880895842195690512642298315761834948710786708300238"
+      },
+      "data_upload": {
+        "lower": "96779.89883529969790673592627987405790283525539972921007185644527879501865870697064436531424572563853",
+        "upper": "96779.89883529969790673592627987405790283525539972921007185644527879501865870697064436531424572564073"
+      },
+      "headers_download": {
+        "lower": "3397.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333331",
+        "upper": "3397.333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333337"
+      },
+      "headers_upload": {
+        "lower": "3803.591576892878310772056780671350724593302248430720237163520933454889224578634063668124225657722054",
+        "upper": "3803.591576892878310772056780671350724593302248430720237163520933454889224578634063668124225657722092"
+      },
+      "authentication_download": {
+        "lower": "2984.851683040480056546286848727569960572912318187804716269936405530299076396546329206281530265027363",
+        "upper": "2984.851683040480056546286848727569960572912318187804716269936405530299076396546329206281530265027389"
+      },
+      "authentication_upload": {
+        "lower": "4410.293129061755787833484790064248704452347557661748516596597849690887182205297460183017654479829172",
+        "upper": "4410.293129061755787833484790064248704452347557661748516596597849690887182205297460183017654479829273"
+      },
+      "framing_and_control": {
+        "lower": "651.6233958702361785757369099511886605913389149231637881009048147161320451989864658176186391747691434",
+        "upper": "651.6233958702361785757369099511886605913389149231637881009048147161320451989864658176186391747691587"
+      }
+    },
+    "total": {
+      "lower": "197547.7739774930586495627313395513556548143012617947896217426955206469825035773866460607974957193203",
+      "upper": "197547.7739774930586495627313395513556548143012617947896217426955206469825035773866460607974957193246"
+    },
+    "model": "ideal random slots, full service-interval expectation; actual top-cache wire format",
+    "cached_levels": 6
+  },
+  "period_slots": 12288,
+  "measurement_full_periods": 2.0,
+  "cache_representation": {
+    "bucket_records": 63,
+    "global_tag_records": 63,
+    "bytes": 1900836
+  },
+  "terminal_position_map_bytes": 16384,
+  "server_storage": {
+    "components": {
+      "headers": 2958592,
+      "ciphertext_slots": 261588992,
+      "local_authentication": 7684096,
+      "bucket_tags": 520192,
+      "global_tags": 520192
+    },
+    "total_bytes": 273272064,
+    "physical_bucket_records": 8128,
+    "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+  },
+  "max_online_boundary_stash": 6,
+  "elapsed_seconds": 3134.215554714203,
+  "cpu_scope": "client + server + correctness oracle in one Python process; not client-only performance",
+  "true_client_peak_measured": false,
+  "network_latency_measured": false,
+  "native_paper_reproduction": false,
+  "security_scope": "restricted static-layout adapter; runtime success is not a capacity/security certificate",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26100-SP0"
+  }
+}

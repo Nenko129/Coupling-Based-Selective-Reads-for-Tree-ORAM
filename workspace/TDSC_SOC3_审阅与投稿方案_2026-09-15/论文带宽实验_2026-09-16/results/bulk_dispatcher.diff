@@ -1,0 +1,38 @@
+--- dispatch_extended.py
++++ dispatch_bulk_scale.py
+@@ -2,7 +2,7 @@
+ from common import *
+ from queued_core_batch import free_memory
+ from resume_fast_batches import alive
+-from run_extended import identity as core_identity
++from run_bulk_scale import identity as core_identity
+ from run_extended_composition import identity as composition_identity
+ from run_core import configs_for
+ from prepare_fair_tuning import object_storage
+@@ -24,10 +24,13 @@
+ 
+ def main():
+     p=argparse.ArgumentParser();p.add_argument('--queue',required=True);args=p.parse_args()
+-    path=Path(args.queue);plan=json.loads(path.read_text(encoding='utf-8'));name=path.stem;results=[]
++    path=Path(args.queue);plan=json.loads(path.read_text(encoding='utf-8'));name=path.stem+'_bulk';results=[]
+     statepath=PACKAGE/'results'/f'{name}_state.json'
+     proof=json.loads((PACKAGE/'results/extended_runner_checks.json').read_text())
+     assert proof['status']=='passed'
++    bulk=json.loads((PACKAGE/'results/bulk_runner_checks.json').read_text())
++    assert bulk['status']=='passed' and bulk['runner_sha256']==sha(Path(__file__).parent/'run_bulk_scale.py')
++    assert bulk['bulk_sha256']==sha(Path(__file__).parent/'bulk_prf.py')
+     assert all(sha(Path(__file__).parent/n)==digest for n,digest in proof['adapters'].items())
+     for dep in plan.get('dependencies',[]):
+         while alive(dep['pid']):
+@@ -45,8 +48,9 @@
+         sp=PACKAGE/'specs'/f"{s['id']}.json"
+         if sp.exists():assert json.loads(sp.read_text(encoding='utf-8'))==s
+         else:save(sp,s)
+-        lp=PACKAGE/'results/logs'/f"{s['id']}_extended.log";assert not lp.exists(),'Inspect prior job before retry'
+-        script='run_extended.py' if item['entry']=='core' else 'run_extended_composition.py'
++        lp=PACKAGE/'results/logs'/f"{s['id']}_bulk.log";assert not lp.exists(),'Inspect prior job before retry'
++        assert item['entry']=='core'
++        script='run_bulk_scale.py'
+         cmd=[sys.executable,'-B','-X','utf8',str(Path(__file__).parent/script),'--spec',str(sp)]
+         with lp.open('w',encoding='utf-8') as log:
+             proc=subprocess.Popen(cmd,stdout=log,stderr=subprocess.STDOUT,creationflags=getattr(subprocess,'CREATE_NO_WINDOW',0))

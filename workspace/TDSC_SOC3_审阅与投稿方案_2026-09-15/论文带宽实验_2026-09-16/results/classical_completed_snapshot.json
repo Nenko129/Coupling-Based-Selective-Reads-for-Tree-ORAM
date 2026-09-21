@@ -1,0 +1,3346 @@
+{
+  "status": "passed",
+  "new_runs": 10,
+  "reused_controls": 20,
+  "runs": 30,
+  "cells": [
+    {
+      "label": "Path Z4",
+      "workload": "uniform",
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "R": 256,
+      "bytes": {
+        "n": 5,
+        "mean": 527664.0,
+        "ci95": [
+          527664.0,
+          527664.0
+        ],
+        "per_seed": [
+          527664.0,
+          527664.0,
+          527664.0,
+          527664.0,
+          527664.0
+        ]
+      },
+      "rpc": {
+        "n": 5,
+        "mean": 4.0,
+        "ci95": [
+          4.0,
+          4.0
+        ],
+        "per_seed": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      },
+      "resource": {
+        "remote": {
+          "headers": 6788712,
+          "ciphertext_slots": 539507584,
+          "local_authentication": 0,
+          "bucket_tags": 2129792,
+          "global_tags": 2129792
+        },
+        "remote_bytes": 550555880,
+        "remote_nodes": 33278,
+        "local": {
+          "headers": 0,
+          "ciphertext_slots": 0,
+          "local_authentication": 0,
+          "bucket_tags": 0,
+          "global_tags": 0
+        },
+        "local_bytes": 0,
+        "local_nodes": 0,
+        "by_depth": [
+          {
+            "tree": 0,
+            "depth": 0,
+            "location": "server",
+            "buckets": 1,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 204,
+              "ciphertext_slots": 16448,
+              "local_authentication": 0,
+              "bucket_tags": 64,
+              "global_tags": 64
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 1,
+            "location": "server",
+            "buckets": 2,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 408,
+              "ciphertext_slots": 32896,
+              "local_authentication": 0,
+              "bucket_tags": 128,
+              "global_tags": 128
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 2,
+            "location": "server",
+            "buckets": 4,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 816,
+              "ciphertext_slots": 65792,
+              "local_authentication": 0,
+              "bucket_tags": 256,
+              "global_tags": 256
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 3,
+            "location": "server",
+            "buckets": 8,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 1632,
+              "ciphertext_slots": 131584,
+              "local_authentication": 0,
+              "bucket_tags": 512,
+              "global_tags": 512
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 4,
+            "location": "server",
+            "buckets": 16,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 3264,
+              "ciphertext_slots": 263168,
+              "local_authentication": 0,
+              "bucket_tags": 1024,
+              "global_tags": 1024
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 5,
+            "location": "server",
+            "buckets": 32,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 6528,
+              "ciphertext_slots": 526336,
+              "local_authentication": 0,
+              "bucket_tags": 2048,
+              "global_tags": 2048
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 6,
+            "location": "server",
+            "buckets": 64,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 13056,
+              "ciphertext_slots": 1052672,
+              "local_authentication": 0,
+              "bucket_tags": 4096,
+              "global_tags": 4096
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 7,
+            "location": "server",
+            "buckets": 128,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 26112,
+              "ciphertext_slots": 2105344,
+              "local_authentication": 0,
+              "bucket_tags": 8192,
+              "global_tags": 8192
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 8,
+            "location": "server",
+            "buckets": 256,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 52224,
+              "ciphertext_slots": 4210688,
+              "local_authentication": 0,
+              "bucket_tags": 16384,
+              "global_tags": 16384
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 9,
+            "location": "server",
+            "buckets": 512,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 104448,
+              "ciphertext_slots": 8421376,
+              "local_authentication": 0,
+              "bucket_tags": 32768,
+              "global_tags": 32768
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 10,
+            "location": "server",
+            "buckets": 1024,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 208896,
+              "ciphertext_slots": 16842752,
+              "local_authentication": 0,
+              "bucket_tags": 65536,
+              "global_tags": 65536
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 11,
+            "location": "server",
+            "buckets": 2048,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 417792,
+              "ciphertext_slots": 33685504,
+              "local_authentication": 0,
+              "bucket_tags": 131072,
+              "global_tags": 131072
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 12,
+            "location": "server",
+            "buckets": 4096,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 835584,
+              "ciphertext_slots": 67371008,
+              "local_authentication": 0,
+              "bucket_tags": 262144,
+              "global_tags": 262144
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 13,
+            "location": "server",
+            "buckets": 8192,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 1671168,
+              "ciphertext_slots": 134742016,
+              "local_authentication": 0,
+              "bucket_tags": 524288,
+              "global_tags": 524288
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 14,
+            "location": "server",
+            "buckets": 16384,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 3342336,
+              "ciphertext_slots": 269484032,
+              "local_authentication": 0,
+              "bucket_tags": 1048576,
+              "global_tags": 1048576
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 0,
+            "location": "server",
+            "buckets": 1,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 204,
+              "ciphertext_slots": 1088,
+              "local_authentication": 0,
+              "bucket_tags": 64,
+              "global_tags": 64
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 1,
+            "location": "server",
+            "buckets": 2,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 408,
+              "ciphertext_slots": 2176,
+              "local_authentication": 0,
+              "bucket_tags": 128,
+              "global_tags": 128
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 2,
+            "location": "server",
+            "buckets": 4,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 816,
+              "ciphertext_slots": 4352,
+              "local_authentication": 0,
+              "bucket_tags": 256,
+              "global_tags": 256
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 3,
+            "location": "server",
+            "buckets": 8,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 1632,
+              "ciphertext_slots": 8704,
+              "local_authentication": 0,
+              "bucket_tags": 512,
+              "global_tags": 512
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 4,
+            "location": "server",
+            "buckets": 16,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 3264,
+              "ciphertext_slots": 17408,
+              "local_authentication": 0,
+              "bucket_tags": 1024,
+              "global_tags": 1024
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 5,
+            "location": "server",
+            "buckets": 32,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 6528,
+              "ciphertext_slots": 34816,
+              "local_authentication": 0,
+              "bucket_tags": 2048,
+              "global_tags": 2048
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 6,
+            "location": "server",
+            "buckets": 64,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 13056,
+              "ciphertext_slots": 69632,
+              "local_authentication": 0,
+              "bucket_tags": 4096,
+              "global_tags": 4096
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 7,
+            "location": "server",
+            "buckets": 128,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 26112,
+              "ciphertext_slots": 139264,
+              "local_authentication": 0,
+              "bucket_tags": 8192,
+              "global_tags": 8192
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 8,
+            "location": "server",
+            "buckets": 256,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 52224,
+              "ciphertext_slots": 278528,
+              "local_authentication": 0,
+              "bucket_tags": 16384,
+              "global_tags": 16384
+            }
+          }
+        ],
+        "reserved_stash_payload_bytes": 1114112,
+        "terminal_map_bytes": 1024,
+        "declared_frontend_memory": null,
+        "measured_trusted_peak": false
+      },
+      "ids": [
+        "B3_path_uniform_seed101",
+        "B3_path_uniform_seed102",
+        "B3_path_uniform_seed103",
+        "B3_path_uniform_seed104",
+        "B3_path_uniform_seed105"
+      ]
+    },
+    {
+      "label": "Path Z5",
+      "workload": "uniform",
+      "profile": [
+        5,
+        3,
+        3
+      ],
+      "R": 258,
+      "bytes": {
+        "n": 5,
+        "mean": 657456.0,
+        "ci95": [
+          657456.0,
+          657456.0
+        ],
+        "per_seed": [
+          657456.0,
+          657456.0,
+          657456.0,
+          657456.0,
+          657456.0
+        ]
+      },
+      "rpc": {
+        "n": 5,
+        "mean": 4.0,
+        "ci95": [
+          4.0,
+          4.0
+        ],
+        "per_seed": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      },
+      "resource": {
+        "remote": {
+          "headers": 7853608,
+          "ciphertext_slots": 674384480,
+          "local_authentication": 0,
+          "bucket_tags": 2129792,
+          "global_tags": 2129792
+        },
+        "remote_bytes": 686497672,
+        "remote_nodes": 33278,
+        "local": {
+          "headers": 0,
+          "ciphertext_slots": 0,
+          "local_authentication": 0,
+          "bucket_tags": 0,
+          "global_tags": 0
+        },
+        "local_bytes": 0,
+        "local_nodes": 0,
+        "by_depth": [
+          {
+            "tree": 0,
+            "depth": 0,
+            "location": "server",
+            "buckets": 1,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 236,
+              "ciphertext_slots": 20560,
+              "local_authentication": 0,
+              "bucket_tags": 64,
+              "global_tags": 64
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 1,
+            "location": "server",
+            "buckets": 2,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 472,
+              "ciphertext_slots": 41120,
+              "local_authentication": 0,
+              "bucket_tags": 128,
+              "global_tags": 128
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 2,
+            "location": "server",
+            "buckets": 4,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 944,
+              "ciphertext_slots": 82240,
+              "local_authentication": 0,
+              "bucket_tags": 256,
+              "global_tags": 256
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 3,
+            "location": "server",
+            "buckets": 8,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 1888,
+              "ciphertext_slots": 164480,
+              "local_authentication": 0,
+              "bucket_tags": 512,
+              "global_tags": 512
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 4,
+            "location": "server",
+            "buckets": 16,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 3776,
+              "ciphertext_slots": 328960,
+              "local_authentication": 0,
+              "bucket_tags": 1024,
+              "global_tags": 1024
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 5,
+            "location": "server",
+            "buckets": 32,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 7552,
+              "ciphertext_slots": 657920,
+              "local_authentication": 0,
+              "bucket_tags": 2048,
+              "global_tags": 2048
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 6,
+            "location": "server",
+            "buckets": 64,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 15104,
+              "ciphertext_slots": 1315840,
+              "local_authentication": 0,
+              "bucket_tags": 4096,
+              "global_tags": 4096
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 7,
+            "location": "server",
+            "buckets": 128,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 30208,
+              "ciphertext_slots": 2631680,
+              "local_authentication": 0,
+              "bucket_tags": 8192,
+              "global_tags": 8192
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 8,
+            "location": "server",
+            "buckets": 256,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 60416,
+              "ciphertext_slots": 5263360,
+              "local_authentication": 0,
+              "bucket_tags": 16384,
+              "global_tags": 16384
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 9,
+            "location": "server",
+            "buckets": 512,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 120832,
+              "ciphertext_slots": 10526720,
+              "local_authentication": 0,
+              "bucket_tags": 32768,
+              "global_tags": 32768
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 10,
+            "location": "server",
+            "buckets": 1024,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 241664,
+              "ciphertext_slots": 21053440,
+              "local_authentication": 0,
+              "bucket_tags": 65536,
+              "global_tags": 65536
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 11,
+            "location": "server",
+            "buckets": 2048,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 483328,
+              "ciphertext_slots": 42106880,
+              "local_authentication": 0,
+              "bucket_tags": 131072,
+              "global_tags": 131072
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 12,
+            "location": "server",
+            "buckets": 4096,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 966656,
+              "ciphertext_slots": 84213760,
+              "local_authentication": 0,
+              "bucket_tags": 262144,
+              "global_tags": 262144
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 13,
+            "location": "server",
+            "buckets": 8192,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 1933312,
+              "ciphertext_slots": 168427520,
+              "local_authentication": 0,
+              "bucket_tags": 524288,
+              "global_tags": 524288
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 14,
+            "location": "server",
+            "buckets": 16384,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 3866624,
+              "ciphertext_slots": 336855040,
+              "local_authentication": 0,
+              "bucket_tags": 1048576,
+              "global_tags": 1048576
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 0,
+            "location": "server",
+            "buckets": 1,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 236,
+              "ciphertext_slots": 1360,
+              "local_authentication": 0,
+              "bucket_tags": 64,
+              "global_tags": 64
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 1,
+            "location": "server",
+            "buckets": 2,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 472,
+              "ciphertext_slots": 2720,
+              "local_authentication": 0,
+              "bucket_tags": 128,
+              "global_tags": 128
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 2,
+            "location": "server",
+            "buckets": 4,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 944,
+              "ciphertext_slots": 5440,
+              "local_authentication": 0,
+              "bucket_tags": 256,
+              "global_tags": 256
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 3,
+            "location": "server",
+            "buckets": 8,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 1888,
+              "ciphertext_slots": 10880,
+              "local_authentication": 0,
+              "bucket_tags": 512,
+              "global_tags": 512
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 4,
+            "location": "server",
+            "buckets": 16,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 3776,
+              "ciphertext_slots": 21760,
+              "local_authentication": 0,
+              "bucket_tags": 1024,
+              "global_tags": 1024
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 5,
+            "location": "server",
+            "buckets": 32,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 7552,
+              "ciphertext_slots": 43520,
+              "local_authentication": 0,
+              "bucket_tags": 2048,
+              "global_tags": 2048
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 6,
+            "location": "server",
+            "buckets": 64,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 15104,
+              "ciphertext_slots": 87040,
+              "local_authentication": 0,
+              "bucket_tags": 4096,
+              "global_tags": 4096
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 7,
+            "location": "server",
+            "buckets": 128,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 30208,
+              "ciphertext_slots": 174080,
+              "local_authentication": 0,
+              "bucket_tags": 8192,
+              "global_tags": 8192
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 8,
+            "location": "server",
+            "buckets": 256,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 60416,
+              "ciphertext_slots": 348160,
+              "local_authentication": 0,
+              "bucket_tags": 16384,
+              "global_tags": 16384
+            }
+          }
+        ],
+        "reserved_stash_payload_bytes": 1122816,
+        "terminal_map_bytes": 1024,
+        "declared_frontend_memory": null,
+        "measured_trusted_peak": false
+      },
+      "ids": [
+        "C1_path5_uniform_seed101",
+        "C1_path5_uniform_seed102",
+        "C1_path5_uniform_seed103",
+        "C1_path5_uniform_seed104",
+        "C1_path5_uniform_seed105"
+      ]
+    },
+    {
+      "label": "SDE",
+      "workload": "uniform",
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "R": 256,
+      "bytes": {
+        "n": 5,
+        "mean": 338932.570703125,
+        "ci95": [
+          338354.45665985416,
+          339510.6847463958
+        ],
+        "per_seed": [
+          338329.83203125,
+          339209.591796875,
+          338568.3203125,
+          339109.658203125,
+          339445.451171875
+        ]
+      },
+      "rpc": {
+        "n": 5,
+        "mean": 5.3330078125,
+        "ci95": [
+          5.3330078125,
+          5.3330078125
+        ],
+        "per_seed": [
+          5.3330078125,
+          5.3330078125,
+          5.3330078125,
+          5.3330078125,
+          5.3330078125
+        ]
+      },
+      "resource": {
+        "remote": {
+          "headers": 6788712,
+          "ciphertext_slots": 539507584,
+          "local_authentication": 0,
+          "bucket_tags": 2129792,
+          "global_tags": 2129792
+        },
+        "remote_bytes": 550555880,
+        "remote_nodes": 33278,
+        "local": {
+          "headers": 0,
+          "ciphertext_slots": 0,
+          "local_authentication": 0,
+          "bucket_tags": 0,
+          "global_tags": 0
+        },
+        "local_bytes": 0,
+        "local_nodes": 0,
+        "by_depth": [
+          {
+            "tree": 0,
+            "depth": 0,
+            "location": "server",
+            "buckets": 1,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 204,
+              "ciphertext_slots": 16448,
+              "local_authentication": 0,
+              "bucket_tags": 64,
+              "global_tags": 64
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 1,
+            "location": "server",
+            "buckets": 2,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 408,
+              "ciphertext_slots": 32896,
+              "local_authentication": 0,
+              "bucket_tags": 128,
+              "global_tags": 128
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 2,
+            "location": "server",
+            "buckets": 4,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 816,
+              "ciphertext_slots": 65792,
+              "local_authentication": 0,
+              "bucket_tags": 256,
+              "global_tags": 256
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 3,
+            "location": "server",
+            "buckets": 8,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 1632,
+              "ciphertext_slots": 131584,
+              "local_authentication": 0,
+              "bucket_tags": 512,
+              "global_tags": 512
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 4,
+            "location": "server",
+            "buckets": 16,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 3264,
+              "ciphertext_slots": 263168,
+              "local_authentication": 0,
+              "bucket_tags": 1024,
+              "global_tags": 1024
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 5,
+            "location": "server",
+            "buckets": 32,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 6528,
+              "ciphertext_slots": 526336,
+              "local_authentication": 0,
+              "bucket_tags": 2048,
+              "global_tags": 2048
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 6,
+            "location": "server",
+            "buckets": 64,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 13056,
+              "ciphertext_slots": 1052672,
+              "local_authentication": 0,
+              "bucket_tags": 4096,
+              "global_tags": 4096
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 7,
+            "location": "server",
+            "buckets": 128,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 26112,
+              "ciphertext_slots": 2105344,
+              "local_authentication": 0,
+              "bucket_tags": 8192,
+              "global_tags": 8192
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 8,
+            "location": "server",
+            "buckets": 256,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 52224,
+              "ciphertext_slots": 4210688,
+              "local_authentication": 0,
+              "bucket_tags": 16384,
+              "global_tags": 16384
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 9,
+            "location": "server",
+            "buckets": 512,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 104448,
+              "ciphertext_slots": 8421376,
+              "local_authentication": 0,
+              "bucket_tags": 32768,
+              "global_tags": 32768
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 10,
+            "location": "server",
+            "buckets": 1024,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 208896,
+              "ciphertext_slots": 16842752,
+              "local_authentication": 0,
+              "bucket_tags": 65536,
+              "global_tags": 65536
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 11,
+            "location": "server",
+            "buckets": 2048,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 417792,
+              "ciphertext_slots": 33685504,
+              "local_authentication": 0,
+              "bucket_tags": 131072,
+              "global_tags": 131072
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 12,
+            "location": "server",
+            "buckets": 4096,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 835584,
+              "ciphertext_slots": 67371008,
+              "local_authentication": 0,
+              "bucket_tags": 262144,
+              "global_tags": 262144
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 13,
+            "location": "server",
+            "buckets": 8192,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 1671168,
+              "ciphertext_slots": 134742016,
+              "local_authentication": 0,
+              "bucket_tags": 524288,
+              "global_tags": 524288
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 14,
+            "location": "server",
+            "buckets": 16384,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 3342336,
+              "ciphertext_slots": 269484032,
+              "local_authentication": 0,
+              "bucket_tags": 1048576,
+              "global_tags": 1048576
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 0,
+            "location": "server",
+            "buckets": 1,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 204,
+              "ciphertext_slots": 1088,
+              "local_authentication": 0,
+              "bucket_tags": 64,
+              "global_tags": 64
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 1,
+            "location": "server",
+            "buckets": 2,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 408,
+              "ciphertext_slots": 2176,
+              "local_authentication": 0,
+              "bucket_tags": 128,
+              "global_tags": 128
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 2,
+            "location": "server",
+            "buckets": 4,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 816,
+              "ciphertext_slots": 4352,
+              "local_authentication": 0,
+              "bucket_tags": 256,
+              "global_tags": 256
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 3,
+            "location": "server",
+            "buckets": 8,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 1632,
+              "ciphertext_slots": 8704,
+              "local_authentication": 0,
+              "bucket_tags": 512,
+              "global_tags": 512
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 4,
+            "location": "server",
+            "buckets": 16,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 3264,
+              "ciphertext_slots": 17408,
+              "local_authentication": 0,
+              "bucket_tags": 1024,
+              "global_tags": 1024
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 5,
+            "location": "server",
+            "buckets": 32,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 6528,
+              "ciphertext_slots": 34816,
+              "local_authentication": 0,
+              "bucket_tags": 2048,
+              "global_tags": 2048
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 6,
+            "location": "server",
+            "buckets": 64,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 13056,
+              "ciphertext_slots": 69632,
+              "local_authentication": 0,
+              "bucket_tags": 4096,
+              "global_tags": 4096
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 7,
+            "location": "server",
+            "buckets": 128,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 26112,
+              "ciphertext_slots": 139264,
+              "local_authentication": 0,
+              "bucket_tags": 8192,
+              "global_tags": 8192
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 8,
+            "location": "server",
+            "buckets": 256,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 52224,
+              "ciphertext_slots": 278528,
+              "local_authentication": 0,
+              "bucket_tags": 16384,
+              "global_tags": 16384
+            }
+          }
+        ],
+        "reserved_stash_payload_bytes": 1114112,
+        "terminal_map_bytes": 1024,
+        "declared_frontend_memory": null,
+        "measured_trusted_peak": false
+      },
+      "ids": [
+        "B3_sde_uniform_seed101",
+        "B3_sde_uniform_seed102",
+        "B3_sde_uniform_seed103",
+        "B3_sde_uniform_seed104",
+        "B3_sde_uniform_seed105"
+      ]
+    },
+    {
+      "label": "Path Z4",
+      "workload": "hot90",
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "R": 256,
+      "bytes": {
+        "n": 5,
+        "mean": 527664.0,
+        "ci95": [
+          527664.0,
+          527664.0
+        ],
+        "per_seed": [
+          527664.0,
+          527664.0,
+          527664.0,
+          527664.0,
+          527664.0
+        ]
+      },
+      "rpc": {
+        "n": 5,
+        "mean": 4.0,
+        "ci95": [
+          4.0,
+          4.0
+        ],
+        "per_seed": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      },
+      "resource": {
+        "remote": {
+          "headers": 6788712,
+          "ciphertext_slots": 539507584,
+          "local_authentication": 0,
+          "bucket_tags": 2129792,
+          "global_tags": 2129792
+        },
+        "remote_bytes": 550555880,
+        "remote_nodes": 33278,
+        "local": {
+          "headers": 0,
+          "ciphertext_slots": 0,
+          "local_authentication": 0,
+          "bucket_tags": 0,
+          "global_tags": 0
+        },
+        "local_bytes": 0,
+        "local_nodes": 0,
+        "by_depth": [
+          {
+            "tree": 0,
+            "depth": 0,
+            "location": "server",
+            "buckets": 1,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 204,
+              "ciphertext_slots": 16448,
+              "local_authentication": 0,
+              "bucket_tags": 64,
+              "global_tags": 64
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 1,
+            "location": "server",
+            "buckets": 2,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 408,
+              "ciphertext_slots": 32896,
+              "local_authentication": 0,
+              "bucket_tags": 128,
+              "global_tags": 128
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 2,
+            "location": "server",
+            "buckets": 4,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 816,
+              "ciphertext_slots": 65792,
+              "local_authentication": 0,
+              "bucket_tags": 256,
+              "global_tags": 256
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 3,
+            "location": "server",
+            "buckets": 8,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 1632,
+              "ciphertext_slots": 131584,
+              "local_authentication": 0,
+              "bucket_tags": 512,
+              "global_tags": 512
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 4,
+            "location": "server",
+            "buckets": 16,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 3264,
+              "ciphertext_slots": 263168,
+              "local_authentication": 0,
+              "bucket_tags": 1024,
+              "global_tags": 1024
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 5,
+            "location": "server",
+            "buckets": 32,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 6528,
+              "ciphertext_slots": 526336,
+              "local_authentication": 0,
+              "bucket_tags": 2048,
+              "global_tags": 2048
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 6,
+            "location": "server",
+            "buckets": 64,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 13056,
+              "ciphertext_slots": 1052672,
+              "local_authentication": 0,
+              "bucket_tags": 4096,
+              "global_tags": 4096
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 7,
+            "location": "server",
+            "buckets": 128,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 26112,
+              "ciphertext_slots": 2105344,
+              "local_authentication": 0,
+              "bucket_tags": 8192,
+              "global_tags": 8192
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 8,
+            "location": "server",
+            "buckets": 256,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 52224,
+              "ciphertext_slots": 4210688,
+              "local_authentication": 0,
+              "bucket_tags": 16384,
+              "global_tags": 16384
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 9,
+            "location": "server",
+            "buckets": 512,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 104448,
+              "ciphertext_slots": 8421376,
+              "local_authentication": 0,
+              "bucket_tags": 32768,
+              "global_tags": 32768
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 10,
+            "location": "server",
+            "buckets": 1024,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 208896,
+              "ciphertext_slots": 16842752,
+              "local_authentication": 0,
+              "bucket_tags": 65536,
+              "global_tags": 65536
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 11,
+            "location": "server",
+            "buckets": 2048,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 417792,
+              "ciphertext_slots": 33685504,
+              "local_authentication": 0,
+              "bucket_tags": 131072,
+              "global_tags": 131072
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 12,
+            "location": "server",
+            "buckets": 4096,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 835584,
+              "ciphertext_slots": 67371008,
+              "local_authentication": 0,
+              "bucket_tags": 262144,
+              "global_tags": 262144
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 13,
+            "location": "server",
+            "buckets": 8192,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 1671168,
+              "ciphertext_slots": 134742016,
+              "local_authentication": 0,
+              "bucket_tags": 524288,
+              "global_tags": 524288
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 14,
+            "location": "server",
+            "buckets": 16384,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 3342336,
+              "ciphertext_slots": 269484032,
+              "local_authentication": 0,
+              "bucket_tags": 1048576,
+              "global_tags": 1048576
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 0,
+            "location": "server",
+            "buckets": 1,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 204,
+              "ciphertext_slots": 1088,
+              "local_authentication": 0,
+              "bucket_tags": 64,
+              "global_tags": 64
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 1,
+            "location": "server",
+            "buckets": 2,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 408,
+              "ciphertext_slots": 2176,
+              "local_authentication": 0,
+              "bucket_tags": 128,
+              "global_tags": 128
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 2,
+            "location": "server",
+            "buckets": 4,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 816,
+              "ciphertext_slots": 4352,
+              "local_authentication": 0,
+              "bucket_tags": 256,
+              "global_tags": 256
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 3,
+            "location": "server",
+            "buckets": 8,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 1632,
+              "ciphertext_slots": 8704,
+              "local_authentication": 0,
+              "bucket_tags": 512,
+              "global_tags": 512
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 4,
+            "location": "server",
+            "buckets": 16,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 3264,
+              "ciphertext_slots": 17408,
+              "local_authentication": 0,
+              "bucket_tags": 1024,
+              "global_tags": 1024
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 5,
+            "location": "server",
+            "buckets": 32,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 6528,
+              "ciphertext_slots": 34816,
+              "local_authentication": 0,
+              "bucket_tags": 2048,
+              "global_tags": 2048
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 6,
+            "location": "server",
+            "buckets": 64,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 13056,
+              "ciphertext_slots": 69632,
+              "local_authentication": 0,
+              "bucket_tags": 4096,
+              "global_tags": 4096
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 7,
+            "location": "server",
+            "buckets": 128,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 26112,
+              "ciphertext_slots": 139264,
+              "local_authentication": 0,
+              "bucket_tags": 8192,
+              "global_tags": 8192
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 8,
+            "location": "server",
+            "buckets": 256,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 52224,
+              "ciphertext_slots": 278528,
+              "local_authentication": 0,
+              "bucket_tags": 16384,
+              "global_tags": 16384
+            }
+          }
+        ],
+        "reserved_stash_payload_bytes": 1114112,
+        "terminal_map_bytes": 1024,
+        "declared_frontend_memory": null,
+        "measured_trusted_peak": false
+      },
+      "ids": [
+        "B3_path_hot90_seed101",
+        "B3_path_hot90_seed102",
+        "B3_path_hot90_seed103",
+        "B3_path_hot90_seed104",
+        "B3_path_hot90_seed105"
+      ]
+    },
+    {
+      "label": "Path Z5",
+      "workload": "hot90",
+      "profile": [
+        5,
+        3,
+        3
+      ],
+      "R": 258,
+      "bytes": {
+        "n": 5,
+        "mean": 657456.0,
+        "ci95": [
+          657456.0,
+          657456.0
+        ],
+        "per_seed": [
+          657456.0,
+          657456.0,
+          657456.0,
+          657456.0,
+          657456.0
+        ]
+      },
+      "rpc": {
+        "n": 5,
+        "mean": 4.0,
+        "ci95": [
+          4.0,
+          4.0
+        ],
+        "per_seed": [
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0
+        ]
+      },
+      "resource": {
+        "remote": {
+          "headers": 7853608,
+          "ciphertext_slots": 674384480,
+          "local_authentication": 0,
+          "bucket_tags": 2129792,
+          "global_tags": 2129792
+        },
+        "remote_bytes": 686497672,
+        "remote_nodes": 33278,
+        "local": {
+          "headers": 0,
+          "ciphertext_slots": 0,
+          "local_authentication": 0,
+          "bucket_tags": 0,
+          "global_tags": 0
+        },
+        "local_bytes": 0,
+        "local_nodes": 0,
+        "by_depth": [
+          {
+            "tree": 0,
+            "depth": 0,
+            "location": "server",
+            "buckets": 1,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 236,
+              "ciphertext_slots": 20560,
+              "local_authentication": 0,
+              "bucket_tags": 64,
+              "global_tags": 64
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 1,
+            "location": "server",
+            "buckets": 2,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 472,
+              "ciphertext_slots": 41120,
+              "local_authentication": 0,
+              "bucket_tags": 128,
+              "global_tags": 128
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 2,
+            "location": "server",
+            "buckets": 4,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 944,
+              "ciphertext_slots": 82240,
+              "local_authentication": 0,
+              "bucket_tags": 256,
+              "global_tags": 256
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 3,
+            "location": "server",
+            "buckets": 8,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 1888,
+              "ciphertext_slots": 164480,
+              "local_authentication": 0,
+              "bucket_tags": 512,
+              "global_tags": 512
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 4,
+            "location": "server",
+            "buckets": 16,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 3776,
+              "ciphertext_slots": 328960,
+              "local_authentication": 0,
+              "bucket_tags": 1024,
+              "global_tags": 1024
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 5,
+            "location": "server",
+            "buckets": 32,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 7552,
+              "ciphertext_slots": 657920,
+              "local_authentication": 0,
+              "bucket_tags": 2048,
+              "global_tags": 2048
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 6,
+            "location": "server",
+            "buckets": 64,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 15104,
+              "ciphertext_slots": 1315840,
+              "local_authentication": 0,
+              "bucket_tags": 4096,
+              "global_tags": 4096
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 7,
+            "location": "server",
+            "buckets": 128,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 30208,
+              "ciphertext_slots": 2631680,
+              "local_authentication": 0,
+              "bucket_tags": 8192,
+              "global_tags": 8192
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 8,
+            "location": "server",
+            "buckets": 256,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 60416,
+              "ciphertext_slots": 5263360,
+              "local_authentication": 0,
+              "bucket_tags": 16384,
+              "global_tags": 16384
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 9,
+            "location": "server",
+            "buckets": 512,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 120832,
+              "ciphertext_slots": 10526720,
+              "local_authentication": 0,
+              "bucket_tags": 32768,
+              "global_tags": 32768
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 10,
+            "location": "server",
+            "buckets": 1024,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 241664,
+              "ciphertext_slots": 21053440,
+              "local_authentication": 0,
+              "bucket_tags": 65536,
+              "global_tags": 65536
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 11,
+            "location": "server",
+            "buckets": 2048,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 483328,
+              "ciphertext_slots": 42106880,
+              "local_authentication": 0,
+              "bucket_tags": 131072,
+              "global_tags": 131072
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 12,
+            "location": "server",
+            "buckets": 4096,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 966656,
+              "ciphertext_slots": 84213760,
+              "local_authentication": 0,
+              "bucket_tags": 262144,
+              "global_tags": 262144
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 13,
+            "location": "server",
+            "buckets": 8192,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 1933312,
+              "ciphertext_slots": 168427520,
+              "local_authentication": 0,
+              "bucket_tags": 524288,
+              "global_tags": 524288
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 14,
+            "location": "server",
+            "buckets": 16384,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 3866624,
+              "ciphertext_slots": 336855040,
+              "local_authentication": 0,
+              "bucket_tags": 1048576,
+              "global_tags": 1048576
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 0,
+            "location": "server",
+            "buckets": 1,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 236,
+              "ciphertext_slots": 1360,
+              "local_authentication": 0,
+              "bucket_tags": 64,
+              "global_tags": 64
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 1,
+            "location": "server",
+            "buckets": 2,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 472,
+              "ciphertext_slots": 2720,
+              "local_authentication": 0,
+              "bucket_tags": 128,
+              "global_tags": 128
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 2,
+            "location": "server",
+            "buckets": 4,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 944,
+              "ciphertext_slots": 5440,
+              "local_authentication": 0,
+              "bucket_tags": 256,
+              "global_tags": 256
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 3,
+            "location": "server",
+            "buckets": 8,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 1888,
+              "ciphertext_slots": 10880,
+              "local_authentication": 0,
+              "bucket_tags": 512,
+              "global_tags": 512
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 4,
+            "location": "server",
+            "buckets": 16,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 3776,
+              "ciphertext_slots": 21760,
+              "local_authentication": 0,
+              "bucket_tags": 1024,
+              "global_tags": 1024
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 5,
+            "location": "server",
+            "buckets": 32,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 7552,
+              "ciphertext_slots": 43520,
+              "local_authentication": 0,
+              "bucket_tags": 2048,
+              "global_tags": 2048
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 6,
+            "location": "server",
+            "buckets": 64,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 15104,
+              "ciphertext_slots": 87040,
+              "local_authentication": 0,
+              "bucket_tags": 4096,
+              "global_tags": 4096
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 7,
+            "location": "server",
+            "buckets": 128,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 30208,
+              "ciphertext_slots": 174080,
+              "local_authentication": 0,
+              "bucket_tags": 8192,
+              "global_tags": 8192
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 8,
+            "location": "server",
+            "buckets": 256,
+            "Z": 5,
+            "S": 0,
+            "physical_slots": 5,
+            "components": {
+              "headers": 60416,
+              "ciphertext_slots": 348160,
+              "local_authentication": 0,
+              "bucket_tags": 16384,
+              "global_tags": 16384
+            }
+          }
+        ],
+        "reserved_stash_payload_bytes": 1122816,
+        "terminal_map_bytes": 1024,
+        "declared_frontend_memory": null,
+        "measured_trusted_peak": false
+      },
+      "ids": [
+        "C1_path5_hot90_seed101",
+        "C1_path5_hot90_seed102",
+        "C1_path5_hot90_seed103",
+        "C1_path5_hot90_seed104",
+        "C1_path5_hot90_seed105"
+      ]
+    },
+    {
+      "label": "SDE",
+      "workload": "hot90",
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "R": 256,
+      "bytes": {
+        "n": 5,
+        "mean": 338824.321875,
+        "ci95": [
+          338267.88259607775,
+          339380.7611539223
+        ],
+        "per_seed": [
+          338516.98828125,
+          338199.80078125,
+          339019.802734375,
+          339123.583984375,
+          339261.43359375
+        ]
+      },
+      "rpc": {
+        "n": 5,
+        "mean": 5.3330078125,
+        "ci95": [
+          5.3330078125,
+          5.3330078125
+        ],
+        "per_seed": [
+          5.3330078125,
+          5.3330078125,
+          5.3330078125,
+          5.3330078125,
+          5.3330078125
+        ]
+      },
+      "resource": {
+        "remote": {
+          "headers": 6788712,
+          "ciphertext_slots": 539507584,
+          "local_authentication": 0,
+          "bucket_tags": 2129792,
+          "global_tags": 2129792
+        },
+        "remote_bytes": 550555880,
+        "remote_nodes": 33278,
+        "local": {
+          "headers": 0,
+          "ciphertext_slots": 0,
+          "local_authentication": 0,
+          "bucket_tags": 0,
+          "global_tags": 0
+        },
+        "local_bytes": 0,
+        "local_nodes": 0,
+        "by_depth": [
+          {
+            "tree": 0,
+            "depth": 0,
+            "location": "server",
+            "buckets": 1,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 204,
+              "ciphertext_slots": 16448,
+              "local_authentication": 0,
+              "bucket_tags": 64,
+              "global_tags": 64
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 1,
+            "location": "server",
+            "buckets": 2,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 408,
+              "ciphertext_slots": 32896,
+              "local_authentication": 0,
+              "bucket_tags": 128,
+              "global_tags": 128
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 2,
+            "location": "server",
+            "buckets": 4,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 816,
+              "ciphertext_slots": 65792,
+              "local_authentication": 0,
+              "bucket_tags": 256,
+              "global_tags": 256
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 3,
+            "location": "server",
+            "buckets": 8,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 1632,
+              "ciphertext_slots": 131584,
+              "local_authentication": 0,
+              "bucket_tags": 512,
+              "global_tags": 512
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 4,
+            "location": "server",
+            "buckets": 16,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 3264,
+              "ciphertext_slots": 263168,
+              "local_authentication": 0,
+              "bucket_tags": 1024,
+              "global_tags": 1024
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 5,
+            "location": "server",
+            "buckets": 32,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 6528,
+              "ciphertext_slots": 526336,
+              "local_authentication": 0,
+              "bucket_tags": 2048,
+              "global_tags": 2048
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 6,
+            "location": "server",
+            "buckets": 64,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 13056,
+              "ciphertext_slots": 1052672,
+              "local_authentication": 0,
+              "bucket_tags": 4096,
+              "global_tags": 4096
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 7,
+            "location": "server",
+            "buckets": 128,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 26112,
+              "ciphertext_slots": 2105344,
+              "local_authentication": 0,
+              "bucket_tags": 8192,
+              "global_tags": 8192
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 8,
+            "location": "server",
+            "buckets": 256,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 52224,
+              "ciphertext_slots": 4210688,
+              "local_authentication": 0,
+              "bucket_tags": 16384,
+              "global_tags": 16384
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 9,
+            "location": "server",
+            "buckets": 512,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 104448,
+              "ciphertext_slots": 8421376,
+              "local_authentication": 0,
+              "bucket_tags": 32768,
+              "global_tags": 32768
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 10,
+            "location": "server",
+            "buckets": 1024,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 208896,
+              "ciphertext_slots": 16842752,
+              "local_authentication": 0,
+              "bucket_tags": 65536,
+              "global_tags": 65536
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 11,
+            "location": "server",
+            "buckets": 2048,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 417792,
+              "ciphertext_slots": 33685504,
+              "local_authentication": 0,
+              "bucket_tags": 131072,
+              "global_tags": 131072
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 12,
+            "location": "server",
+            "buckets": 4096,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 835584,
+              "ciphertext_slots": 67371008,
+              "local_authentication": 0,
+              "bucket_tags": 262144,
+              "global_tags": 262144
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 13,
+            "location": "server",
+            "buckets": 8192,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 1671168,
+              "ciphertext_slots": 134742016,
+              "local_authentication": 0,
+              "bucket_tags": 524288,
+              "global_tags": 524288
+            }
+          },
+          {
+            "tree": 0,
+            "depth": 14,
+            "location": "server",
+            "buckets": 16384,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 3342336,
+              "ciphertext_slots": 269484032,
+              "local_authentication": 0,
+              "bucket_tags": 1048576,
+              "global_tags": 1048576
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 0,
+            "location": "server",
+            "buckets": 1,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 204,
+              "ciphertext_slots": 1088,
+              "local_authentication": 0,
+              "bucket_tags": 64,
+              "global_tags": 64
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 1,
+            "location": "server",
+            "buckets": 2,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 408,
+              "ciphertext_slots": 2176,
+              "local_authentication": 0,
+              "bucket_tags": 128,
+              "global_tags": 128
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 2,
+            "location": "server",
+            "buckets": 4,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 816,
+              "ciphertext_slots": 4352,
+              "local_authentication": 0,
+              "bucket_tags": 256,
+              "global_tags": 256
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 3,
+            "location": "server",
+            "buckets": 8,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 1632,
+              "ciphertext_slots": 8704,
+              "local_authentication": 0,
+              "bucket_tags": 512,
+              "global_tags": 512
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 4,
+            "location": "server",
+            "buckets": 16,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 3264,
+              "ciphertext_slots": 17408,
+              "local_authentication": 0,
+              "bucket_tags": 1024,
+              "global_tags": 1024
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 5,
+            "location": "server",
+            "buckets": 32,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 6528,
+              "ciphertext_slots": 34816,
+              "local_authentication": 0,
+              "bucket_tags": 2048,
+              "global_tags": 2048
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 6,
+            "location": "server",
+            "buckets": 64,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 13056,
+              "ciphertext_slots": 69632,
+              "local_authentication": 0,
+              "bucket_tags": 4096,
+              "global_tags": 4096
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 7,
+            "location": "server",
+            "buckets": 128,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 26112,
+              "ciphertext_slots": 139264,
+              "local_authentication": 0,
+              "bucket_tags": 8192,
+              "global_tags": 8192
+            }
+          },
+          {
+            "tree": 1,
+            "depth": 8,
+            "location": "server",
+            "buckets": 256,
+            "Z": 4,
+            "S": 0,
+            "physical_slots": 4,
+            "components": {
+              "headers": 52224,
+              "ciphertext_slots": 278528,
+              "local_authentication": 0,
+              "bucket_tags": 16384,
+              "global_tags": 16384
+            }
+          }
+        ],
+        "reserved_stash_payload_bytes": 1114112,
+        "terminal_map_bytes": 1024,
+        "declared_frontend_memory": null,
+        "measured_trusted_peak": false
+      },
+      "ids": [
+        "B3_sde_hot90_seed101",
+        "B3_sde_hot90_seed102",
+        "B3_sde_hot90_seed103",
+        "B3_sde_hot90_seed104",
+        "B3_sde_hot90_seed105"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "baseline": "Path Z4",
+      "variant": "SDE",
+      "workload": "uniform",
+      "bytes_saving": {
+        "n": 5,
+        "mean": 35.76734992284389,
+        "ci95": [
+          35.657788906122875,
+          35.87691093956491
+        ],
+        "per_seed": [
+          35.88157766471656,
+          35.714850397814715,
+          35.836380667906084,
+          35.73378926682036,
+          35.670151616961746
+        ]
+      },
+      "pairs": [
+        {
+          "seed": 101,
+          "baseline_id": "B3_path_uniform_seed101",
+          "variant_id": "B3_sde_uniform_seed101",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 338329.83203125,
+          "saving_pct": 35.88157766471656
+        },
+        {
+          "seed": 102,
+          "baseline_id": "B3_path_uniform_seed102",
+          "variant_id": "B3_sde_uniform_seed102",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 339209.591796875,
+          "saving_pct": 35.714850397814715
+        },
+        {
+          "seed": 103,
+          "baseline_id": "B3_path_uniform_seed103",
+          "variant_id": "B3_sde_uniform_seed103",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 338568.3203125,
+          "saving_pct": 35.836380667906084
+        },
+        {
+          "seed": 104,
+          "baseline_id": "B3_path_uniform_seed104",
+          "variant_id": "B3_sde_uniform_seed104",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 339109.658203125,
+          "saving_pct": 35.73378926682036
+        },
+        {
+          "seed": 105,
+          "baseline_id": "B3_path_uniform_seed105",
+          "variant_id": "B3_sde_uniform_seed105",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 339445.451171875,
+          "saving_pct": 35.670151616961746
+        }
+      ],
+      "run_cost_cv": [
+        0.0,
+        0.0013737133680602487
+      ],
+      "needs_more_repeats": false
+    },
+    {
+      "baseline": "Path Z5",
+      "variant": "SDE",
+      "workload": "uniform",
+      "bytes_saving": {
+        "n": 5,
+        "mean": 48.447870168783155,
+        "ci95": [
+          48.359938194130734,
+          48.535802143435575
+        ],
+        "per_seed": [
+          48.53954758474332,
+          48.40573486334067,
+          48.50327317531515,
+          48.42093490619524,
+          48.369860314321414
+        ]
+      },
+      "pairs": [
+        {
+          "seed": 101,
+          "baseline_id": "C1_path5_uniform_seed101",
+          "variant_id": "B3_sde_uniform_seed101",
+          "baseline_bytes": 657456.0,
+          "variant_bytes": 338329.83203125,
+          "saving_pct": 48.53954758474332
+        },
+        {
+          "seed": 102,
+          "baseline_id": "C1_path5_uniform_seed102",
+          "variant_id": "B3_sde_uniform_seed102",
+          "baseline_bytes": 657456.0,
+          "variant_bytes": 339209.591796875,
+          "saving_pct": 48.40573486334067
+        },
+        {
+          "seed": 103,
+          "baseline_id": "C1_path5_uniform_seed103",
+          "variant_id": "B3_sde_uniform_seed103",
+          "baseline_bytes": 657456.0,
+          "variant_bytes": 338568.3203125,
+          "saving_pct": 48.50327317531515
+        },
+        {
+          "seed": 104,
+          "baseline_id": "C1_path5_uniform_seed104",
+          "variant_id": "B3_sde_uniform_seed104",
+          "baseline_bytes": 657456.0,
+          "variant_bytes": 339109.658203125,
+          "saving_pct": 48.42093490619524
+        },
+        {
+          "seed": 105,
+          "baseline_id": "C1_path5_uniform_seed105",
+          "variant_id": "B3_sde_uniform_seed105",
+          "baseline_bytes": 657456.0,
+          "variant_bytes": 339445.451171875,
+          "saving_pct": 48.369860314321414
+        }
+      ],
+      "run_cost_cv": [
+        0.0,
+        0.0013737133680602487
+      ],
+      "needs_more_repeats": false
+    },
+    {
+      "baseline": "Path Z4",
+      "variant": "Path Z5",
+      "workload": "uniform",
+      "bytes_saving": {
+        "n": 5,
+        "mean": -24.59747111798418,
+        "ci95": [
+          -24.59747111798418,
+          -24.59747111798418
+        ],
+        "per_seed": [
+          -24.59747111798418,
+          -24.59747111798418,
+          -24.59747111798418,
+          -24.59747111798418,
+          -24.59747111798418
+        ]
+      },
+      "pairs": [
+        {
+          "seed": 101,
+          "baseline_id": "B3_path_uniform_seed101",
+          "variant_id": "C1_path5_uniform_seed101",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 657456.0,
+          "saving_pct": -24.59747111798418
+        },
+        {
+          "seed": 102,
+          "baseline_id": "B3_path_uniform_seed102",
+          "variant_id": "C1_path5_uniform_seed102",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 657456.0,
+          "saving_pct": -24.59747111798418
+        },
+        {
+          "seed": 103,
+          "baseline_id": "B3_path_uniform_seed103",
+          "variant_id": "C1_path5_uniform_seed103",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 657456.0,
+          "saving_pct": -24.59747111798418
+        },
+        {
+          "seed": 104,
+          "baseline_id": "B3_path_uniform_seed104",
+          "variant_id": "C1_path5_uniform_seed104",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 657456.0,
+          "saving_pct": -24.59747111798418
+        },
+        {
+          "seed": 105,
+          "baseline_id": "B3_path_uniform_seed105",
+          "variant_id": "C1_path5_uniform_seed105",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 657456.0,
+          "saving_pct": -24.59747111798418
+        }
+      ],
+      "run_cost_cv": [
+        0.0,
+        0.0
+      ],
+      "needs_more_repeats": false
+    },
+    {
+      "baseline": "Path Z4",
+      "variant": "SDE",
+      "workload": "hot90",
+      "bytes_saving": {
+        "n": 5,
+        "mean": 35.787864649663426,
+        "ci95": [
+          35.68241131592789,
+          35.893317983398966
+        ],
+        "per_seed": [
+          35.84610883417289,
+          35.906220477188135,
+          35.750818184607056,
+          35.73115012879882,
+          35.70502562355021
+        ]
+      },
+      "pairs": [
+        {
+          "seed": 101,
+          "baseline_id": "B3_path_hot90_seed101",
+          "variant_id": "B3_sde_hot90_seed101",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 338516.98828125,
+          "saving_pct": 35.84610883417289
+        },
+        {
+          "seed": 102,
+          "baseline_id": "B3_path_hot90_seed102",
+          "variant_id": "B3_sde_hot90_seed102",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 338199.80078125,
+          "saving_pct": 35.906220477188135
+        },
+        {
+          "seed": 103,
+          "baseline_id": "B3_path_hot90_seed103",
+          "variant_id": "B3_sde_hot90_seed103",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 339019.802734375,
+          "saving_pct": 35.750818184607056
+        },
+        {
+          "seed": 104,
+          "baseline_id": "B3_path_hot90_seed104",
+          "variant_id": "B3_sde_hot90_seed104",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 339123.583984375,
+          "saving_pct": 35.73115012879882
+        },
+        {
+          "seed": 105,
+          "baseline_id": "B3_path_hot90_seed105",
+          "variant_id": "B3_sde_hot90_seed105",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 339261.43359375,
+          "saving_pct": 35.70502562355021
+        }
+      ],
+      "run_cost_cv": [
+        0.0,
+        0.00132263226322811
+      ],
+      "needs_more_repeats": false
+    },
+    {
+      "baseline": "Path Z5",
+      "variant": "SDE",
+      "workload": "hot90",
+      "bytes_saving": {
+        "n": 5,
+        "mean": 48.46433497070526,
+        "ci95": [
+          48.37969975877895,
+          48.54897018263157
+        ],
+        "per_seed": [
+          48.51108085084781,
+          48.55932552425561,
+          48.434602051791295,
+          48.41881677490585,
+          48.39784965172574
+        ]
+      },
+      "pairs": [
+        {
+          "seed": 101,
+          "baseline_id": "C1_path5_hot90_seed101",
+          "variant_id": "B3_sde_hot90_seed101",
+          "baseline_bytes": 657456.0,
+          "variant_bytes": 338516.98828125,
+          "saving_pct": 48.51108085084781
+        },
+        {
+          "seed": 102,
+          "baseline_id": "C1_path5_hot90_seed102",
+          "variant_id": "B3_sde_hot90_seed102",
+          "baseline_bytes": 657456.0,
+          "variant_bytes": 338199.80078125,
+          "saving_pct": 48.55932552425561
+        },
+        {
+          "seed": 103,
+          "baseline_id": "C1_path5_hot90_seed103",
+          "variant_id": "B3_sde_hot90_seed103",
+          "baseline_bytes": 657456.0,
+          "variant_bytes": 339019.802734375,
+          "saving_pct": 48.434602051791295
+        },
+        {
+          "seed": 104,
+          "baseline_id": "C1_path5_hot90_seed104",
+          "variant_id": "B3_sde_hot90_seed104",
+          "baseline_bytes": 657456.0,
+          "variant_bytes": 339123.583984375,
+          "saving_pct": 48.41881677490585
+        },
+        {
+          "seed": 105,
+          "baseline_id": "C1_path5_hot90_seed105",
+          "variant_id": "B3_sde_hot90_seed105",
+          "baseline_bytes": 657456.0,
+          "variant_bytes": 339261.43359375,
+          "saving_pct": 48.39784965172574
+        }
+      ],
+      "run_cost_cv": [
+        0.0,
+        0.00132263226322811
+      ],
+      "needs_more_repeats": false
+    },
+    {
+      "baseline": "Path Z4",
+      "variant": "Path Z5",
+      "workload": "hot90",
+      "bytes_saving": {
+        "n": 5,
+        "mean": -24.59747111798418,
+        "ci95": [
+          -24.59747111798418,
+          -24.59747111798418
+        ],
+        "per_seed": [
+          -24.59747111798418,
+          -24.59747111798418,
+          -24.59747111798418,
+          -24.59747111798418,
+          -24.59747111798418
+        ]
+      },
+      "pairs": [
+        {
+          "seed": 101,
+          "baseline_id": "B3_path_hot90_seed101",
+          "variant_id": "C1_path5_hot90_seed101",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 657456.0,
+          "saving_pct": -24.59747111798418
+        },
+        {
+          "seed": 102,
+          "baseline_id": "B3_path_hot90_seed102",
+          "variant_id": "C1_path5_hot90_seed102",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 657456.0,
+          "saving_pct": -24.59747111798418
+        },
+        {
+          "seed": 103,
+          "baseline_id": "B3_path_hot90_seed103",
+          "variant_id": "C1_path5_hot90_seed103",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 657456.0,
+          "saving_pct": -24.59747111798418
+        },
+        {
+          "seed": 104,
+          "baseline_id": "B3_path_hot90_seed104",
+          "variant_id": "C1_path5_hot90_seed104",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 657456.0,
+          "saving_pct": -24.59747111798418
+        },
+        {
+          "seed": 105,
+          "baseline_id": "B3_path_hot90_seed105",
+          "variant_id": "C1_path5_hot90_seed105",
+          "baseline_bytes": 527664.0,
+          "variant_bytes": 657456.0,
+          "saving_pct": -24.59747111798418
+        }
+      ],
+      "run_cost_cv": [
+        0.0,
+        0.0
+      ],
+      "needs_more_repeats": false
+    }
+  ],
+  "receipts": [
+    {
+      "id": "B3_path_uniform_seed101",
+      "path": "results\\formal_tuned\\B3_path_uniform_seed101.json",
+      "sha256": "73a0ef5983340f098a42b0f277bff3ad9c7bfff6672072fd19315373d35543b0"
+    },
+    {
+      "id": "B3_sde_uniform_seed101",
+      "path": "results\\formal_tuned\\B3_sde_uniform_seed101.json",
+      "sha256": "8a602cf06e71e73b32295f2d055d20ab0b355ce304147b12a13d918bb6064521"
+    },
+    {
+      "id": "B3_path_hot90_seed101",
+      "path": "results\\formal_tuned\\B3_path_hot90_seed101.json",
+      "sha256": "a79e07f8880b41a7e9e11107021dfbcd9d9c23619da9e251096c58b658784eba"
+    },
+    {
+      "id": "B3_sde_hot90_seed101",
+      "path": "results\\formal_tuned\\B3_sde_hot90_seed101.json",
+      "sha256": "bd6f217f8f540b7b0c15a29cd38bd152f2fa1117090e6ac0556e9e333f8650cf"
+    },
+    {
+      "id": "B3_path_uniform_seed102",
+      "path": "results\\formal_tuned\\B3_path_uniform_seed102.json",
+      "sha256": "f0e4ff7c6a5c70fea9f790ad9bb396b85196ad42de7b24cff940e74cb5c1b0c7"
+    },
+    {
+      "id": "B3_sde_uniform_seed102",
+      "path": "results\\formal_tuned\\B3_sde_uniform_seed102.json",
+      "sha256": "28b67505f69d1d6b3b6a8ce78809807156dcd2253753dd549322572d11c52fa8"
+    },
+    {
+      "id": "B3_path_hot90_seed102",
+      "path": "results\\formal_tuned\\B3_path_hot90_seed102.json",
+      "sha256": "360bb40a65b161b55ae099e93cf0e46870e4ac96108f9f92c207ca62c99029cc"
+    },
+    {
+      "id": "B3_sde_hot90_seed102",
+      "path": "results\\formal_tuned\\B3_sde_hot90_seed102.json",
+      "sha256": "95b506b3c53c994bed48c607ca68a2ec761d2ee13959015a87b7a58a0755c1f1"
+    },
+    {
+      "id": "B3_path_uniform_seed103",
+      "path": "results\\formal_tuned\\B3_path_uniform_seed103.json",
+      "sha256": "557438426dd07228cc8caa26bc0659d4fbd2c19b46bd14cb5ec3196579fa7281"
+    },
+    {
+      "id": "B3_sde_uniform_seed103",
+      "path": "results\\formal_tuned\\B3_sde_uniform_seed103.json",
+      "sha256": "cb40d5ec804c4b89fa26d8f86650930c91529aff1d2027864458e5635f7dda27"
+    },
+    {
+      "id": "B3_path_hot90_seed103",
+      "path": "results\\formal_tuned\\B3_path_hot90_seed103.json",
+      "sha256": "897fc37157b11554380be9a8460117545c55d0bb705d1ba5321b4caf2a51472f"
+    },
+    {
+      "id": "B3_sde_hot90_seed103",
+      "path": "results\\formal_tuned\\B3_sde_hot90_seed103.json",
+      "sha256": "75a86bb12024a640c4e358d2941ea819c3096a339b2f687b1410cb58fdd5fc5c"
+    },
+    {
+      "id": "B3_path_uniform_seed104",
+      "path": "results\\formal_tuned\\B3_path_uniform_seed104.json",
+      "sha256": "69b3bd3b35900d1878a825d43b98ce64eb86a94b97b9dff3cb99529ee2f14512"
+    },
+    {
+      "id": "B3_sde_uniform_seed104",
+      "path": "results\\formal_tuned\\B3_sde_uniform_seed104.json",
+      "sha256": "4f7c9cd7c1b90a14e79a5844dae9904bb69d81c5287a53b83e6e7c4ff7cf004a"
+    },
+    {
+      "id": "B3_path_hot90_seed104",
+      "path": "results\\formal_tuned\\B3_path_hot90_seed104.json",
+      "sha256": "5bcf76755fc96c7d56fbb26af481d2f4ae9f5e5129b3d3150cb72be95afdbcdf"
+    },
+    {
+      "id": "B3_sde_hot90_seed104",
+      "path": "results\\formal_tuned\\B3_sde_hot90_seed104.json",
+      "sha256": "326902455770e3a32e48a48310d468213db56ec47d666ccdea8fb4573b10d9dd"
+    },
+    {
+      "id": "B3_path_uniform_seed105",
+      "path": "results\\formal_tuned\\B3_path_uniform_seed105.json",
+      "sha256": "4172a56931e6c6567cc24fadb1a2ed556a809de06679e706dc0764ba56b38341"
+    },
+    {
+      "id": "B3_sde_uniform_seed105",
+      "path": "results\\formal_tuned\\B3_sde_uniform_seed105.json",
+      "sha256": "df6c313302505ceb2720c7b43c614ea2df590454380552bb66feb6464847f371"
+    },
+    {
+      "id": "B3_path_hot90_seed105",
+      "path": "results\\formal_tuned\\B3_path_hot90_seed105.json",
+      "sha256": "86d37f3f4ae7d87b278e47227ea2906ededd3e7df6af2676ea59d82610ec285c"
+    },
+    {
+      "id": "B3_sde_hot90_seed105",
+      "path": "results\\formal_tuned\\B3_sde_hot90_seed105.json",
+      "sha256": "1c54094c142a71646ef0bf9822eec58901c426747afc3609f64273924eeddcba"
+    },
+    {
+      "id": "C1_path5_uniform_seed101",
+      "path": "results\\formal_classical_reference\\C1_path5_uniform_seed101.json",
+      "sha256": "f01fd2fb54bec1a5a93adf8e949a49dd82de4636f03724e6a160e321a845fb20"
+    },
+    {
+      "id": "C1_path5_hot90_seed101",
+      "path": "results\\formal_classical_reference\\C1_path5_hot90_seed101.json",
+      "sha256": "9568d7d87e41cdaa83a8b557890373b548510df637b19f295b6252ee20194217"
+    },
+    {
+      "id": "C1_path5_uniform_seed102",
+      "path": "results\\formal_classical_reference\\C1_path5_uniform_seed102.json",
+      "sha256": "86d5c08abfa5b8f7270902d92dff8b7c3bbbb1507dcd5a22e05de2b77066cb65"
+    },
+    {
+      "id": "C1_path5_hot90_seed102",
+      "path": "results\\formal_classical_reference\\C1_path5_hot90_seed102.json",
+      "sha256": "81cae6adbf779d4637ec001cba63e76bcb9217778082fc7eb9da73e795688387"
+    },
+    {
+      "id": "C1_path5_uniform_seed103",
+      "path": "results\\formal_classical_reference\\C1_path5_uniform_seed103.json",
+      "sha256": "bea314cb28067d0323e4465acf3942e4ccb8e1853baec9c9227e5ca1ca091c70"
+    },
+    {
+      "id": "C1_path5_hot90_seed103",
+      "path": "results\\formal_classical_reference\\C1_path5_hot90_seed103.json",
+      "sha256": "ac0d2aabde75ac17eaa78f3295e665b6ddcc4e6a3dddfa8acdf722c58eba69a8"
+    },
+    {
+      "id": "C1_path5_uniform_seed104",
+      "path": "results\\formal_classical_reference\\C1_path5_uniform_seed104.json",
+      "sha256": "212c2216a1bdaa95e6481c3d3d20d648ab9ab39a4794aad5fe17b5763c5b98aa"
+    },
+    {
+      "id": "C1_path5_hot90_seed104",
+      "path": "results\\formal_classical_reference\\C1_path5_hot90_seed104.json",
+      "sha256": "cccd8a3b9a332cf1054e5f179f7c1ed94baad7bd631d952817b7b8719fb51f49"
+    },
+    {
+      "id": "C1_path5_uniform_seed105",
+      "path": "results\\formal_classical_reference\\C1_path5_uniform_seed105.json",
+      "sha256": "f756feac8681a79cf85793dd541b644bbfe58e0299b479d303bf63f9d33a1bc0"
+    },
+    {
+      "id": "C1_path5_hot90_seed105",
+      "path": "results\\formal_classical_reference\\C1_path5_hot90_seed105.json",
+      "sha256": "ff18eb8c1192349025d5527283dfcaf8312307bfe8f342518c020124c761ea24"
+    }
+  ],
+  "source_identity": {
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+  },
+  "producer_sha256": "21b5d0fdd22f1c2cb183a98bfd339d377aa35134193afb9a5aa0448705d69b16",
+  "helper_hashes": {
+    "audit_completed_core_components.py": "d3c332457b82c71a6f7217d796b17ccef665f4c48361d67a4ef18507cecbd201",
+    "audit_completed_ablation.py": "fa87bcb0fc0da3be70a8127a21b565e60a5642266947ba160f2203c57ecbbc7b",
+    "audit_storage_components.py": "445fe7de35d5a6e9c0658e2b1571bf3f218f4fa24f36e905ec434b295cffcbd2",
+    "analyze_ir_dwb.py": "8b030fb6b11981251860fad5dfd5ff8602aa24dd7f035c1b8e6fa875277d71d5",
+    "run_fast.py": "659b9ca22fca7d7095faeedcb677012ea47b38211a4f20724bbf45385aee89fa",
+    "run_bulk_scale.py": "f7c34279977b73ca617ae58c336b6859b02a0a878acc6ed14958a98d57b6833e"
+  },
+  "upstream_sha256": "7ced5e13391c1d9bd7deb7212413bdf4a86194b06db64e825df4dd0de69f175a",
+  "queue_completion_sha256": "846ec26d3ef2e86741f58330c6920335a0dfc5556ddee64f62cf91d56aa1b225",
+  "proof_hashes": {
+    "classical_reference_evidence_audit.json": "74f1bc1c74b2a5d6481caa01be4aed6fe12867ea9abd7e906816083a489a0459",
+    "classical_stash_execution_ledger.json": "463a63eb55d99c7bb3aac7d69740ac642590c4214496c5c817a11bfe6c12ad60",
+    "classical_stash_execution_ledger_audit.json": "135374574ed74373a69b21078d37b7a426bcb5391ad15f7ac9df701ca14d95bb"
+  },
+  "plan_hashes": {
+    "formal_tuned_plan.json": "3dbbf501a6da98a7e5f1fc2a99f1b134b92e1ae830fce74a934ddf3dc723a75a",
+    "formal_classical_reference_plan.json": "63e75b9f7022d09d2c42e5d062b99294a53bc2d7e7776fec7150d23bb213cce3"
+  },
+  "full_security_admission": false,
+  "true_client_peak_measured": false,
+  "latency_claim": false,
+  "replaces_main_Path_Z4": false,
+  "scope": "supplementary fixed-history classical stash-bound reference; stronger empirical Z4 retained"
+}

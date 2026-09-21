@@ -1,0 +1,545 @@
+{
+  "source_sha256": "c5e218727beff6426a4e9a05ea9ab97358884788864331304aebcc8fe51ed8e5",
+  "series": [
+    {
+      "gid": "ir_main_0_0",
+      "axis": "backend",
+      "condition": null,
+      "cohort": "main_beta14",
+      "workload": "uniform",
+      "dwb": false,
+      "baseline": "path",
+      "variant": "sde",
+      "n": 5,
+      "mean": 9.743398691152601,
+      "ci95": [
+        9.68964490873019,
+        9.797152473575013
+      ],
+      "values": [
+        9.777422487993782,
+        9.773989810916085,
+        9.747270416215736,
+        9.67014857700893,
+        9.748162163628471
+      ],
+      "ids": [
+        [
+          "IRCM_depth_path_dwb0_uniform_seed101",
+          "IRCM_depth_sde_dwb0_uniform_seed101"
+        ],
+        [
+          "IRCM_depth_path_dwb0_uniform_seed102",
+          "IRCM_depth_sde_dwb0_uniform_seed102"
+        ],
+        [
+          "IRCM_depth_path_dwb0_uniform_seed103",
+          "IRCM_depth_sde_dwb0_uniform_seed103"
+        ],
+        [
+          "IRCM_depth_path_dwb0_uniform_seed104",
+          "IRCM_depth_sde_dwb0_uniform_seed104"
+        ],
+        [
+          "IRCM_depth_path_dwb0_uniform_seed105",
+          "IRCM_depth_sde_dwb0_uniform_seed105"
+        ]
+      ],
+      "panel": "ir_main"
+    },
+    {
+      "gid": "ir_main_0_1",
+      "axis": "backend",
+      "condition": null,
+      "cohort": "main_beta14",
+      "workload": "uniform",
+      "dwb": false,
+      "baseline": "deferred",
+      "variant": "sde",
+      "n": 5,
+      "mean": 19.188856967659884,
+      "ci95": [
+        19.140728581072374,
+        19.236985354247395
+      ],
+      "values": [
+        19.219320134599084,
+        19.216246691169047,
+        19.192323512193155,
+        19.123272563135895,
+        19.19312193720224
+      ],
+      "ids": [
+        [
+          "IRCM_depth_deferred_dwb0_uniform_seed101",
+          "IRCM_depth_sde_dwb0_uniform_seed101"
+        ],
+        [
+          "IRCM_depth_deferred_dwb0_uniform_seed102",
+          "IRCM_depth_sde_dwb0_uniform_seed102"
+        ],
+        [
+          "IRCM_depth_deferred_dwb0_uniform_seed103",
+          "IRCM_depth_sde_dwb0_uniform_seed103"
+        ],
+        [
+          "IRCM_depth_deferred_dwb0_uniform_seed104",
+          "IRCM_depth_sde_dwb0_uniform_seed104"
+        ],
+        [
+          "IRCM_depth_deferred_dwb0_uniform_seed105",
+          "IRCM_depth_sde_dwb0_uniform_seed105"
+        ]
+      ],
+      "panel": "ir_main"
+    },
+    {
+      "gid": "ir_main_1_0",
+      "axis": "backend",
+      "condition": null,
+      "cohort": "main_beta14",
+      "workload": "uniform",
+      "dwb": true,
+      "baseline": "path",
+      "variant": "sde",
+      "n": 5,
+      "mean": 9.750182136656743,
+      "ci95": [
+        9.69069295684002,
+        9.809671316473466
+      ],
+      "values": [
+        9.808651262203504,
+        9.721533044592123,
+        9.698728531125989,
+        9.728898217667748,
+        9.793099627694357
+      ],
+      "ids": [
+        [
+          "IRCM_depth_path_dwb1_uniform_seed101",
+          "IRCM_depth_sde_dwb1_uniform_seed101"
+        ],
+        [
+          "IRCM_depth_path_dwb1_uniform_seed102",
+          "IRCM_depth_sde_dwb1_uniform_seed102"
+        ],
+        [
+          "IRCM_depth_path_dwb1_uniform_seed103",
+          "IRCM_depth_sde_dwb1_uniform_seed103"
+        ],
+        [
+          "IRCM_depth_path_dwb1_uniform_seed104",
+          "IRCM_depth_sde_dwb1_uniform_seed104"
+        ],
+        [
+          "IRCM_depth_path_dwb1_uniform_seed105",
+          "IRCM_depth_sde_dwb1_uniform_seed105"
+        ]
+      ],
+      "panel": "ir_main"
+    },
+    {
+      "gid": "ir_main_1_1",
+      "axis": "backend",
+      "condition": null,
+      "cohort": "main_beta14",
+      "workload": "uniform",
+      "dwb": true,
+      "baseline": "deferred",
+      "variant": "sde",
+      "n": 5,
+      "mean": 19.1949305177043,
+      "ci95": [
+        19.14166694972886,
+        19.24819408567974
+      ],
+      "values": [
+        19.247280781275233,
+        19.16927958643714,
+        19.148861591822108,
+        19.175873985586243,
+        19.233356643400768
+      ],
+      "ids": [
+        [
+          "IRCM_depth_deferred_dwb1_uniform_seed101",
+          "IRCM_depth_sde_dwb1_uniform_seed101"
+        ],
+        [
+          "IRCM_depth_deferred_dwb1_uniform_seed102",
+          "IRCM_depth_sde_dwb1_uniform_seed102"
+        ],
+        [
+          "IRCM_depth_deferred_dwb1_uniform_seed103",
+          "IRCM_depth_sde_dwb1_uniform_seed103"
+        ],
+        [
+          "IRCM_depth_deferred_dwb1_uniform_seed104",
+          "IRCM_depth_sde_dwb1_uniform_seed104"
+        ],
+        [
+          "IRCM_depth_deferred_dwb1_uniform_seed105",
+          "IRCM_depth_sde_dwb1_uniform_seed105"
+        ]
+      ],
+      "panel": "ir_main"
+    },
+    {
+      "gid": "ir_main_2_0",
+      "axis": "backend",
+      "condition": null,
+      "cohort": "main_beta14",
+      "workload": "hot90",
+      "dwb": false,
+      "baseline": "path",
+      "variant": "sde",
+      "n": 5,
+      "mean": 9.756109504644664,
+      "ci95": [
+        9.718613894071781,
+        9.793605115217547
+      ],
+      "values": [
+        9.765012886961133,
+        9.787788776436246,
+        9.767941341427665,
+        9.75282787416576,
+        9.706976644232512
+      ],
+      "ids": [
+        [
+          "IRCM_depth_path_dwb0_hot90_seed101",
+          "IRCM_depth_sde_dwb0_hot90_seed101"
+        ],
+        [
+          "IRCM_depth_path_dwb0_hot90_seed102",
+          "IRCM_depth_sde_dwb0_hot90_seed102"
+        ],
+        [
+          "IRCM_depth_path_dwb0_hot90_seed103",
+          "IRCM_depth_sde_dwb0_hot90_seed103"
+        ],
+        [
+          "IRCM_depth_path_dwb0_hot90_seed104",
+          "IRCM_depth_sde_dwb0_hot90_seed104"
+        ],
+        [
+          "IRCM_depth_path_dwb0_hot90_seed105",
+          "IRCM_depth_sde_dwb0_hot90_seed105"
+        ]
+      ],
+      "panel": "ir_main"
+    },
+    {
+      "gid": "ir_main_2_1",
+      "axis": "backend",
+      "condition": null,
+      "cohort": "main_beta14",
+      "workload": "hot90",
+      "dwb": false,
+      "baseline": "deferred",
+      "variant": "sde",
+      "n": 5,
+      "mean": 19.200237579739987,
+      "ci95": [
+        19.166665928413106,
+        19.233809231066868
+      ],
+      "values": [
+        19.208209212744265,
+        19.228601578902214,
+        19.210831201045696,
+        19.197299375706557,
+        19.156246530301203
+      ],
+      "ids": [
+        [
+          "IRCM_depth_deferred_dwb0_hot90_seed101",
+          "IRCM_depth_sde_dwb0_hot90_seed101"
+        ],
+        [
+          "IRCM_depth_deferred_dwb0_hot90_seed102",
+          "IRCM_depth_sde_dwb0_hot90_seed102"
+        ],
+        [
+          "IRCM_depth_deferred_dwb0_hot90_seed103",
+          "IRCM_depth_sde_dwb0_hot90_seed103"
+        ],
+        [
+          "IRCM_depth_deferred_dwb0_hot90_seed104",
+          "IRCM_depth_sde_dwb0_hot90_seed104"
+        ],
+        [
+          "IRCM_depth_deferred_dwb0_hot90_seed105",
+          "IRCM_depth_sde_dwb0_hot90_seed105"
+        ]
+      ],
+      "panel": "ir_main"
+    },
+    {
+      "gid": "ir_main_3_0",
+      "axis": "backend",
+      "condition": null,
+      "cohort": "main_beta14",
+      "workload": "hot90",
+      "dwb": true,
+      "baseline": "path",
+      "variant": "sde",
+      "n": 5,
+      "mean": 9.741487489290224,
+      "ci95": [
+        9.691585304934376,
+        9.791389673646071
+      ],
+      "values": [
+        9.754067513161758,
+        9.797146619656383,
+        9.748739047139921,
+        9.716043843851462,
+        9.691440422641595
+      ],
+      "ids": [
+        [
+          "IRCM_depth_path_dwb1_hot90_seed101",
+          "IRCM_depth_sde_dwb1_hot90_seed101"
+        ],
+        [
+          "IRCM_depth_path_dwb1_hot90_seed102",
+          "IRCM_depth_sde_dwb1_hot90_seed102"
+        ],
+        [
+          "IRCM_depth_path_dwb1_hot90_seed103",
+          "IRCM_depth_sde_dwb1_hot90_seed103"
+        ],
+        [
+          "IRCM_depth_path_dwb1_hot90_seed104",
+          "IRCM_depth_sde_dwb1_hot90_seed104"
+        ],
+        [
+          "IRCM_depth_path_dwb1_hot90_seed105",
+          "IRCM_depth_sde_dwb1_hot90_seed105"
+        ]
+      ],
+      "panel": "ir_main"
+    },
+    {
+      "gid": "ir_main_3_1",
+      "axis": "backend",
+      "condition": null,
+      "cohort": "main_beta14",
+      "workload": "hot90",
+      "dwb": true,
+      "baseline": "deferred",
+      "variant": "sde",
+      "n": 5,
+      "mean": 19.18714577529473,
+      "ci95": [
+        19.142465912557523,
+        19.23182563803194
+      ],
+      "values": [
+        19.198409285040174,
+        19.236980112948153,
+        19.193638449183414,
+        19.164364836936777,
+        19.14233619236515
+      ],
+      "ids": [
+        [
+          "IRCM_depth_deferred_dwb1_hot90_seed101",
+          "IRCM_depth_sde_dwb1_hot90_seed101"
+        ],
+        [
+          "IRCM_depth_deferred_dwb1_hot90_seed102",
+          "IRCM_depth_sde_dwb1_hot90_seed102"
+        ],
+        [
+          "IRCM_depth_deferred_dwb1_hot90_seed103",
+          "IRCM_depth_sde_dwb1_hot90_seed103"
+        ],
+        [
+          "IRCM_depth_deferred_dwb1_hot90_seed104",
+          "IRCM_depth_sde_dwb1_hot90_seed104"
+        ],
+        [
+          "IRCM_depth_deferred_dwb1_hot90_seed105",
+          "IRCM_depth_sde_dwb1_hot90_seed105"
+        ]
+      ],
+      "panel": "ir_main"
+    }
+  ],
+  "axes_max": {
+    "ir_main": 22
+  },
+  "extra": {
+    "stress_outcomes": [
+      {
+        "id": "IRCM_B4_depth_path_dwb1_hot90_seed101",
+        "gid": "stress_path_101",
+        "kind": "path",
+        "seed": 101,
+        "status": "passed",
+        "color": "#C2DCCB",
+        "phase": "measurement",
+        "completed": 6144,
+        "offered": 6144
+      },
+      {
+        "id": "IRCM_B4_depth_path_dwb1_hot90_seed102",
+        "gid": "stress_path_102",
+        "kind": "path",
+        "seed": 102,
+        "status": "incomplete_horizon",
+        "color": "#EFCEAD",
+        "phase": "warmup",
+        "completed": 1535,
+        "offered": 1536
+      },
+      {
+        "id": "IRCM_B4_depth_path_dwb1_hot90_seed103",
+        "gid": "stress_path_103",
+        "kind": "path",
+        "seed": 103,
+        "status": "incomplete_horizon",
+        "color": "#EFCEAD",
+        "phase": "warmup",
+        "completed": 1534,
+        "offered": 1536
+      },
+      {
+        "id": "IRCM_B4_depth_path_dwb1_hot90_seed104",
+        "gid": "stress_path_104",
+        "kind": "path",
+        "seed": 104,
+        "status": "incomplete_horizon",
+        "color": "#EFCEAD",
+        "phase": "warmup",
+        "completed": 1531,
+        "offered": 1536
+      },
+      {
+        "id": "IRCM_B4_depth_path_dwb1_hot90_seed105",
+        "gid": "stress_path_105",
+        "kind": "path",
+        "seed": 105,
+        "status": "incomplete_horizon",
+        "color": "#EFCEAD",
+        "phase": "warmup",
+        "completed": 1535,
+        "offered": 1536
+      },
+      {
+        "id": "IRCM_B4_depth_deferred_dwb1_hot90_seed101",
+        "gid": "stress_deferred_101",
+        "kind": "deferred",
+        "seed": 101,
+        "status": "passed",
+        "color": "#C2DCCB",
+        "phase": "measurement",
+        "completed": 6144,
+        "offered": 6144
+      },
+      {
+        "id": "IRCM_B4_depth_deferred_dwb1_hot90_seed102",
+        "gid": "stress_deferred_102",
+        "kind": "deferred",
+        "seed": 102,
+        "status": "incomplete_horizon",
+        "color": "#EFCEAD",
+        "phase": "warmup",
+        "completed": 1535,
+        "offered": 1536
+      },
+      {
+        "id": "IRCM_B4_depth_deferred_dwb1_hot90_seed103",
+        "gid": "stress_deferred_103",
+        "kind": "deferred",
+        "seed": 103,
+        "status": "incomplete_horizon",
+        "color": "#EFCEAD",
+        "phase": "warmup",
+        "completed": 1534,
+        "offered": 1536
+      },
+      {
+        "id": "IRCM_B4_depth_deferred_dwb1_hot90_seed104",
+        "gid": "stress_deferred_104",
+        "kind": "deferred",
+        "seed": 104,
+        "status": "incomplete_horizon",
+        "color": "#EFCEAD",
+        "phase": "warmup",
+        "completed": 1531,
+        "offered": 1536
+      },
+      {
+        "id": "IRCM_B4_depth_deferred_dwb1_hot90_seed105",
+        "gid": "stress_deferred_105",
+        "kind": "deferred",
+        "seed": 105,
+        "status": "incomplete_horizon",
+        "color": "#EFCEAD",
+        "phase": "warmup",
+        "completed": 1535,
+        "offered": 1536
+      },
+      {
+        "id": "IRCM_B4_depth_sde_dwb1_hot90_seed101",
+        "gid": "stress_sde_101",
+        "kind": "sde",
+        "seed": 101,
+        "status": "passed",
+        "color": "#C2DCCB",
+        "phase": "measurement",
+        "completed": 6144,
+        "offered": 6144
+      },
+      {
+        "id": "IRCM_B4_depth_sde_dwb1_hot90_seed102",
+        "gid": "stress_sde_102",
+        "kind": "sde",
+        "seed": 102,
+        "status": "incomplete_horizon",
+        "color": "#EFCEAD",
+        "phase": "warmup",
+        "completed": 1535,
+        "offered": 1536
+      },
+      {
+        "id": "IRCM_B4_depth_sde_dwb1_hot90_seed103",
+        "gid": "stress_sde_103",
+        "kind": "sde",
+        "seed": 103,
+        "status": "incomplete_horizon",
+        "color": "#EFCEAD",
+        "phase": "warmup",
+        "completed": 1534,
+        "offered": 1536
+      },
+      {
+        "id": "IRCM_B4_depth_sde_dwb1_hot90_seed104",
+        "gid": "stress_sde_104",
+        "kind": "sde",
+        "seed": 104,
+        "status": "incomplete_horizon",
+        "color": "#EFCEAD",
+        "phase": "warmup",
+        "completed": 1531,
+        "offered": 1536
+      },
+      {
+        "id": "IRCM_B4_depth_sde_dwb1_hot90_seed105",
+        "gid": "stress_sde_105",
+        "kind": "sde",
+        "seed": 105,
+        "status": "incomplete_horizon",
+        "color": "#EFCEAD",
+        "phase": "warmup",
+        "completed": 1535,
+        "offered": 1536
+      }
+    ]
+  }
+}

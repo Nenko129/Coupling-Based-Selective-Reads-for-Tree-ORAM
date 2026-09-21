@@ -1,0 +1,13 @@
+{
+  "status": "visually_reviewed",
+  "pdf_sha256": "a1cd73f8471a9e11d61ca64f2abd7286123d3aaac09767ae12346a3fabc4a828",
+  "rendered_png_sha256": "b5fdfe5fa54ce5debce9a1c3d03688ed85a69d0698e35a75ee92e042db9fc65d",
+  "rendered_size": [
+    1888,
+    986
+  ],
+  "numerical_audit_sha256": "35301689f822c76e80d4afc2c4a46d45503ec0b57570b6949b5ef9ea2e062dd0",
+  "pages_reviewed": 1,
+  "unresolved_layout_defects": [],
+  "review": "Final 150dpi Poppler rendering viewed: all 32 plotted series, legends, labels, paired intervals and scope notes readable; no clipping or overlapping labels."
+}

@@ -1,0 +1,35 @@
+{
+  "status": "failed",
+  "spec": {
+    "id": "pilot_ABPRESS_uniform_ring_Hoff",
+    "kind": "ring",
+    "N": 512,
+    "B": 64,
+    "L": 8,
+    "X": 16,
+    "plb": 4,
+    "llc_sets": 8,
+    "llc_ways": 2,
+    "profile": [
+      5,
+      5,
+      7
+    ],
+    "Y": 4,
+    "R": 500,
+    "cached_levels": 3,
+    "bottom_dummy": null,
+    "pressure_high": null,
+    "pressure_low": null,
+    "warmup": 64,
+    "requests": 128,
+    "arrival_gap": 8,
+    "slots_per_request": 16,
+    "trace_seed": 901,
+    "oram_seed": 1901,
+    "workload": "uniform",
+    "experiment_class": "pilot_ab_pressure"
+  },
+  "error": "Traceback (most recent call last):\n  File \"D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\pilot_ab_pressure.py\", line 29, in main\n    audit_record(r,s,**kwargs);receipts.append(dict(id=s['id'],sha256=sha(p)))\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\audit_ab_cb.py\", line 29, in audit_record\n    assert c==dict(kind=s['kind'],L=s['L'],N=population,B=s['B'],Z=z,A=a,S=tau,Y=y,R=s['R'],tree=0,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "completed": []
+}

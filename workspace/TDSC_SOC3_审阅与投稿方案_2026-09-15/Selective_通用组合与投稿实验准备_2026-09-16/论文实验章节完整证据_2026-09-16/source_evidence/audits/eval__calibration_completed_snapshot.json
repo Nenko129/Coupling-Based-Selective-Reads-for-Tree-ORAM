@@ -1,0 +1,522 @@
+{
+  "plan_sha256": "c56c908aae48dad8fea279393135009bceca300ed14fd166d79d77f6db69e8ac",
+  "receipts": [
+    {
+      "id": "CAL_path_43_seed101",
+      "path": "results\\formal_calibration\\CAL_path_43_seed101.json",
+      "sha256": "388563320473a6fda465b7e379b96eabfa6571535e0d2bc728c8c7552ed84f97"
+    },
+    {
+      "id": "CAL_deferred_43_seed101",
+      "path": "results\\formal_calibration\\CAL_deferred_43_seed101.json",
+      "sha256": "f3a80a869874d3999510204f4ef94688a724ee8b3ed8f177e29fe309f85f4c9e"
+    },
+    {
+      "id": "CAL_sde_43_seed101",
+      "path": "results\\formal_calibration\\CAL_sde_43_seed101.json",
+      "sha256": "9f529d7d1bd9d390ed59e5ae79c1b91cabe71824b0716d780950834c5caa6bd0"
+    },
+    {
+      "id": "CAL_ring_43_seed101",
+      "path": "results\\formal_calibration\\CAL_ring_43_seed101.json",
+      "sha256": "30e4ae31f5aad4580b6b7841c52590fa9f4bd4736798bfebe3e6683b18bb275c"
+    },
+    {
+      "id": "CAL_gc_ring_43_seed101",
+      "path": "results\\formal_calibration\\CAL_gc_ring_43_seed101.json",
+      "sha256": "48390c22fe57b20fa157ce690026f08e53777e0272d85cbafe6f315000d63cc9"
+    },
+    {
+      "id": "CAL_r0_43_seed101",
+      "path": "results\\formal_calibration\\CAL_r0_43_seed101.json",
+      "sha256": "d578a767c62c337b23aab497936f3d4e46eeefbc1ba6c1576a7359252c423df9"
+    },
+    {
+      "id": "CAL_ring_76_seed101",
+      "path": "results\\formal_calibration\\CAL_ring_76_seed101.json",
+      "sha256": "63a62536886d6ddac19a522bedd4f208c1c6f35790ca65666b1126ab66ab0129"
+    },
+    {
+      "id": "CAL_r0_76_seed101",
+      "path": "results\\formal_calibration\\CAL_r0_76_seed101.json",
+      "sha256": "cde2a3fba5ac353f95650cdcfd63d24fe9a69764db4aae3ee77eb9660020dc3d"
+    },
+    {
+      "id": "CAL_path_43_seed102",
+      "path": "results\\formal_calibration\\CAL_path_43_seed102.json",
+      "sha256": "d10ce7b6c7f8d708d2a8ab0b4aef242e2b8b663590297ace0d4a82cc5fa447f2"
+    },
+    {
+      "id": "CAL_deferred_43_seed102",
+      "path": "results\\formal_calibration\\CAL_deferred_43_seed102.json",
+      "sha256": "9b210a56ce5aada73944e11ac7e52cd000237cb0fb455b6e42373c0057accce0"
+    },
+    {
+      "id": "CAL_sde_43_seed102",
+      "path": "results\\formal_calibration\\CAL_sde_43_seed102.json",
+      "sha256": "a229198bfc4334fc288c1ee97c34129333c4190ad25f7c60a71ac43aa281d49f"
+    },
+    {
+      "id": "CAL_ring_43_seed102",
+      "path": "results\\formal_calibration\\CAL_ring_43_seed102.json",
+      "sha256": "190f539eaaef1bce52b7f9c170222da3e0da2fc1892b3fd3e8480df3e29ea6d0"
+    },
+    {
+      "id": "CAL_gc_ring_43_seed102",
+      "path": "results\\formal_calibration\\CAL_gc_ring_43_seed102.json",
+      "sha256": "1f5a8ef3e8ef05ec3bbe459fad1dcc68eb757b9ea9eba4eff5abcc0bb6357766"
+    },
+    {
+      "id": "CAL_r0_43_seed102",
+      "path": "results\\formal_calibration\\CAL_r0_43_seed102.json",
+      "sha256": "7ba7b49bc7feb2529dc7ef6204cfe7ac9e7d38ed4ca7d91938d4f6953a04215d"
+    },
+    {
+      "id": "CAL_ring_76_seed102",
+      "path": "results\\formal_calibration\\CAL_ring_76_seed102.json",
+      "sha256": "07902a64efa714dc2f7c869b0580e2aafa179ed1e9a7ff249ea310e2ad063d41"
+    },
+    {
+      "id": "CAL_r0_76_seed102",
+      "path": "results\\formal_calibration\\CAL_r0_76_seed102.json",
+      "sha256": "50c99e08913626e2f2f65facf60354b8e3c6f26581e16a51b5ca268b87ec5bd5"
+    },
+    {
+      "id": "CAL_path_43_seed103",
+      "path": "results\\formal_calibration\\CAL_path_43_seed103.json",
+      "sha256": "78e4b7a196109f6a77349dc2ed5734e84df77abb9a1cf1bfa6000318f9934a63"
+    },
+    {
+      "id": "CAL_deferred_43_seed103",
+      "path": "results\\formal_calibration\\CAL_deferred_43_seed103.json",
+      "sha256": "cb639f88bca750a1e6e8b580c60394b21aa152793ea4f0eb35454b9809bf30ae"
+    },
+    {
+      "id": "CAL_sde_43_seed103",
+      "path": "results\\formal_calibration\\CAL_sde_43_seed103.json",
+      "sha256": "7d7d2a6a26ccd156dbff7fa09a8009f7ea42f13adefa76e59d9ad84edab08597"
+    },
+    {
+      "id": "CAL_ring_43_seed103",
+      "path": "results\\formal_calibration\\CAL_ring_43_seed103.json",
+      "sha256": "2c86fd19469fb30bb1eeab6188322508148d5be979e17752283f8dfddc642622"
+    },
+    {
+      "id": "CAL_gc_ring_43_seed103",
+      "path": "results\\formal_calibration\\CAL_gc_ring_43_seed103.json",
+      "sha256": "c21ea144578386a3747968b07310643ad3c74eb4cbd401d06358c7450c4a43d2"
+    },
+    {
+      "id": "CAL_r0_43_seed103",
+      "path": "results\\formal_calibration\\CAL_r0_43_seed103.json",
+      "sha256": "98fd8e5cbf1dea5009d3a02659826394e36d7daf1487f38a17e46a926bc5f113"
+    },
+    {
+      "id": "CAL_ring_76_seed103",
+      "path": "results\\formal_calibration\\CAL_ring_76_seed103.json",
+      "sha256": "008c7cbee8933514131e1b1ec3dd96182d77d29193b938e6cfb930c3aeb93a64"
+    },
+    {
+      "id": "CAL_r0_76_seed103",
+      "path": "results\\formal_calibration\\CAL_r0_76_seed103.json",
+      "sha256": "4a0b7e6db3f31860bc1db56112e748b605b3d24ddc76ff6cccb812f29f80d024"
+    },
+    {
+      "id": "CAL_path_43_seed104",
+      "path": "results\\formal_calibration\\CAL_path_43_seed104.json",
+      "sha256": "8f900f4b062baac9210925180801544b2134d492b20fc5abb28c317a1fbd3a66"
+    },
+    {
+      "id": "CAL_deferred_43_seed104",
+      "path": "results\\formal_calibration\\CAL_deferred_43_seed104.json",
+      "sha256": "64f447d83ee2cea0c27b40cca658fb2ef6a205ae0cae670bd6b8b468a287147c"
+    },
+    {
+      "id": "CAL_sde_43_seed104",
+      "path": "results\\formal_calibration\\CAL_sde_43_seed104.json",
+      "sha256": "553dbf4d8e4bb6275082385ff466dfb7d800f11a8343bc85a6ba9ea6b4658278"
+    },
+    {
+      "id": "CAL_ring_43_seed104",
+      "path": "results\\formal_calibration\\CAL_ring_43_seed104.json",
+      "sha256": "adfe71553ea581c038fc48e6089f7f383ec634bc5aaeef1c657b90e98d84c900"
+    },
+    {
+      "id": "CAL_gc_ring_43_seed104",
+      "path": "results\\formal_calibration\\CAL_gc_ring_43_seed104.json",
+      "sha256": "31717ae6598ac93bd9c105b79f0ebe92d3f3390fd07c5f740a6d902ffe1a96b1"
+    },
+    {
+      "id": "CAL_r0_43_seed104",
+      "path": "results\\formal_calibration\\CAL_r0_43_seed104.json",
+      "sha256": "41947a9fc7ed38970e3bdb80b2d2020c857bbe444bd7f06e0ef9d17b69b2bfce"
+    },
+    {
+      "id": "CAL_ring_76_seed104",
+      "path": "results\\formal_calibration\\CAL_ring_76_seed104.json",
+      "sha256": "074f574c260d6b1b62e524a9d6a875cbd645241efb81b20cffb66491b3a2c9e0"
+    },
+    {
+      "id": "CAL_r0_76_seed104",
+      "path": "results\\formal_calibration\\CAL_r0_76_seed104.json",
+      "sha256": "ebcf14fdf63840f3a8ee348932eedc843e437382059f129461d728f1161a36f7"
+    },
+    {
+      "id": "CAL_path_43_seed105",
+      "path": "results\\formal_calibration\\CAL_path_43_seed105.json",
+      "sha256": "cd09807927f4382ec769e692a052af3025df8318f7894070580fc8d63ad11c04"
+    },
+    {
+      "id": "CAL_deferred_43_seed105",
+      "path": "results\\formal_calibration\\CAL_deferred_43_seed105.json",
+      "sha256": "7a4c6cbfdfcc47b9910a81632fddaa81b83df22b55c33d6bb4ac3faaf78a9f54"
+    },
+    {
+      "id": "CAL_sde_43_seed105",
+      "path": "results\\formal_calibration\\CAL_sde_43_seed105.json",
+      "sha256": "753360b422de5583c73728e1f9d90ca912a54ed8866acec345c9842db3050543"
+    },
+    {
+      "id": "CAL_ring_43_seed105",
+      "path": "results\\formal_calibration\\CAL_ring_43_seed105.json",
+      "sha256": "5c8ba3759884ee612f107579f68b4aafba1dd5e0d79756f195282189f0c15280"
+    },
+    {
+      "id": "CAL_gc_ring_43_seed105",
+      "path": "results\\formal_calibration\\CAL_gc_ring_43_seed105.json",
+      "sha256": "0a395743d727c003e0f095d6db99515e61269c169142bb825adc6ce975fbf9c7"
+    },
+    {
+      "id": "CAL_r0_43_seed105",
+      "path": "results\\formal_calibration\\CAL_r0_43_seed105.json",
+      "sha256": "e44e7ec9241fedaf2539a77d62d38ebb5cab156dfe808e04c6c72abc455129ae"
+    },
+    {
+      "id": "CAL_ring_76_seed105",
+      "path": "results\\formal_calibration\\CAL_ring_76_seed105.json",
+      "sha256": "1fe83e3dbe6d204316be38301cf8b80fffd8fbd1d4a9d76b901cff8efd26085f"
+    },
+    {
+      "id": "CAL_r0_76_seed105",
+      "path": "results\\formal_calibration\\CAL_r0_76_seed105.json",
+      "sha256": "ac91b76242af9e1dcc67fd4e9b038908164a945e21dcaa9cc9e8b999d732f1ec"
+    }
+  ],
+  "groups": [
+    {
+      "kind": "path",
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "model_bytes": 11280.0,
+      "observed_bytes": {
+        "n": 5,
+        "mean": 11280.0,
+        "ci95": [
+          11280.0,
+          11280.0
+        ],
+        "per_seed": [
+          11280.0,
+          11280.0,
+          11280.0,
+          11280.0,
+          11280.0
+        ]
+      },
+      "model_relative_error_pct": {
+        "n": 5,
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "per_seed": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "kind": "deferred",
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "model_bytes": 12160.0,
+      "observed_bytes": {
+        "n": 5,
+        "mean": 12160.0,
+        "ci95": [
+          12160.0,
+          12160.0
+        ],
+        "per_seed": [
+          12160.0,
+          12160.0,
+          12160.0,
+          12160.0,
+          12160.0
+        ]
+      },
+      "model_relative_error_pct": {
+        "n": 5,
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "per_seed": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "kind": "sde",
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "model_bytes": 9589.25,
+      "observed_bytes": {
+        "n": 5,
+        "mean": 9602.7578125,
+        "ci95": [
+          9572.545354351132,
+          9632.970270648868
+        ],
+        "per_seed": [
+          9631.432291666666,
+          9584.747395833334,
+          9581.4296875,
+          9589.25,
+          9626.9296875
+        ]
+      },
+      "model_relative_error_pct": {
+        "n": 5,
+        "mean": 0.1408641186745574,
+        "ci95": [
+          -0.17420179522766055,
+          0.45593003257677533
+        ],
+        "per_seed": [
+          0.43989145831704324,
+          -0.04695470622484432,
+          -0.08155291081158866,
+          0.0,
+          0.3929367520921767
+        ]
+      }
+    },
+    {
+      "kind": "ring",
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "model_bytes": 18206.22845346793,
+      "observed_bytes": {
+        "n": 5,
+        "mean": 18206.002083333333,
+        "ci95": [
+          18189.235517106932,
+          18222.768649559734
+        ],
+        "per_seed": [
+          18193.791666666668,
+          18228.708333333332,
+          18200.708333333332,
+          18200.0,
+          18206.802083333332
+        ]
+      },
+      "model_relative_error_pct": {
+        "n": 5,
+        "mean": -0.0012433664401001465,
+        "ci95": [
+          -0.09333584055824234,
+          0.09084910767804205
+        ],
+        "per_seed": [
+          -0.06831061596886956,
+          0.12347356797623998,
+          -0.030319954232738144,
+          -0.0342105641695678,
+          0.00315073419443479
+        ]
+      }
+    },
+    {
+      "kind": "gc_ring",
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "model_bytes": 14435.075582636662,
+      "observed_bytes": {
+        "n": 5,
+        "mean": 14433.154166666667,
+        "ci95": [
+          14402.6871020228,
+          14463.621231310533
+        ],
+        "per_seed": [
+          14397.270833333334,
+          14437.489583333334,
+          14446.484375,
+          14461.734375,
+          14422.791666666666
+        ]
+      },
+      "model_relative_error_pct": {
+        "n": 5,
+        "mean": -0.013310744089947146,
+        "ci95": [
+          -0.22437347437807192,
+          0.19775198619817763
+        ],
+        "per_seed": [
+          -0.2618950561561473,
+          0.016723159382525665,
+          0.07903521043604034,
+          0.18468065657657462,
+          -0.08509769068872908
+        ]
+      }
+    },
+    {
+      "kind": "r0",
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "model_bytes": 13119.833915969995,
+      "observed_bytes": {
+        "n": 5,
+        "mean": 13099.304166666667,
+        "ci95": [
+          13074.120940221197,
+          13124.487393112136
+        ],
+        "per_seed": [
+          13076.291666666666,
+          13106.223958333334,
+          13123.1875,
+          13110.692708333334,
+          13080.125
+        ]
+      },
+      "model_relative_error_pct": {
+        "n": 5,
+        "mean": -0.15647872857856182,
+        "ci95": [
+          -0.3484264819324794,
+          0.03546902477535571
+        ],
+        "per_seed": [
+          -0.3318811014088263,
+          -0.10373574638086192,
+          0.025561177462174456,
+          -0.06967472069546732,
+          -0.302663251869828
+        ]
+      }
+    },
+    {
+      "kind": "ring",
+      "profile": [
+        7,
+        6,
+        6
+      ],
+      "model_bytes": 17297.169904406543,
+      "observed_bytes": {
+        "n": 5,
+        "mean": 17291.078125,
+        "ci95": [
+          17261.31888785127,
+          17320.83736214873
+        ],
+        "per_seed": [
+          17267.859375,
+          17330.375,
+          17276.598958333332,
+          17288.96875,
+          17291.588541666668
+        ]
+      },
+      "model_relative_error_pct": {
+        "n": 5,
+        "mean": -0.03521835907381865,
+        "ci95": [
+          -0.20726521594807426,
+          0.13682849780043696
+        ],
+        "per_seed": [
+          -0.16945274613435757,
+          0.1919683727278354,
+          -0.11892665786886747,
+          -0.047413273106911014,
+          -0.0322674909867926
+        ]
+      }
+    },
+    {
+      "kind": "r0",
+      "profile": [
+        7,
+        6,
+        6
+      ],
+      "model_bytes": 11674.784510817644,
+      "observed_bytes": {
+        "n": 5,
+        "mean": 11688.495833333334,
+        "ci95": [
+          11670.17737441167,
+          11706.814292254998
+        ],
+        "per_seed": [
+          11692.463541666666,
+          11705.473958333334,
+          11674.036458333334,
+          11672.28125,
+          11698.223958333334
+        ]
+      },
+      "model_relative_error_pct": {
+        "n": 5,
+        "mean": 0.11744390230915558,
+        "ci95": [
+          -0.039462282166365326,
+          0.2743500867846765
+        ],
+        "per_seed": [
+          0.15142918340498301,
+          0.26286949868112863,
+          -0.006407420056597779,
+          -0.021441601901306395,
+          0.20076985141757042
+        ]
+      }
+    }
+  ],
+  "runs": 40,
+  "configs": 8,
+  "scope": "N256/B64, no recursion, uniform accesses, four aligned measurement reference windows; no steady-state or large-scale accuracy claim"
+}

@@ -1,0 +1,56 @@
+{
+  "pid": 50996,
+  "parent_pid": 22128,
+  "spec": {
+    "id": "CC_AB_depth_r0_N4096_B4096_seed103",
+    "family": "AB",
+    "layout": "depth",
+    "kind": "r0",
+    "N": 4096,
+    "B": 4096,
+    "profile": [
+      7,
+      6,
+      6
+    ],
+    "compact": true,
+    "fusion": true,
+    "R": 256,
+    "map_B": 512,
+    "terminal_bytes": 32768,
+    "warmup": 2048,
+    "requests": 4096,
+    "cached_levels": 5,
+    "workload": "uniform",
+    "trace_seed": 103,
+    "oram_seed": 1003,
+    "experiment_class": "formal_cached_components",
+    "S_by_depth": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      4,
+      4,
+      4
+    ]
+  },
+  "mode": "cached",
+  "command": [
+    "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_fast.py",
+    "--spec",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\CC_AB_depth_r0_N4096_B4096_seed103.json",
+    "--mode",
+    "cached"
+  ],
+  "started": 1789518210.1289833
+}

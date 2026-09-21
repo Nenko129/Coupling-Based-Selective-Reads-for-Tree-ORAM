@@ -1,0 +1,8 @@
+{
+  "id": "bulk_sde_candidate",
+  "pid": 13236,
+  "stage": "passed",
+  "time": 1789506361.1012866,
+  "receipt": "results\\bulk_checks\\bulk_sde_candidate.json",
+  "elapsed_seconds": 0.4751458168029785
+}

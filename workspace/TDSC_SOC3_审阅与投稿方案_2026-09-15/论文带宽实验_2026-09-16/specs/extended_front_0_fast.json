@@ -1,0 +1,26 @@
+{
+  "family": "free_compressed",
+  "kind": "sde",
+  "N": 32,
+  "B": 64,
+  "profile": [
+    4,
+    3,
+    4
+  ],
+  "R": 128,
+  "plb": 4,
+  "llc": 2,
+  "rho": 4,
+  "warmup": 16,
+  "requests": 32,
+  "trace_seed": 654,
+  "oram_seed": 987,
+  "workload": "fixture_startkey",
+  "experiment_class": "extended_checks",
+  "trace_file": "datasets\\checks\\fixture.json",
+  "trace_file_sha256": "0bb8803dc8e295fbd27f6882fe43a2ed70d0e6f87f7f63ddd41daffb6bdeac02",
+  "beta": 2,
+  "X": 32,
+  "id": "extended_front_0_fast"
+}

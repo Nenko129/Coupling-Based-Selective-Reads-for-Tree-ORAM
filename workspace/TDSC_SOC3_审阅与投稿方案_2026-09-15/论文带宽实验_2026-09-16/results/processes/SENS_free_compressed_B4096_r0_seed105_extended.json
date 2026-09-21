@@ -1,0 +1,39 @@
+{
+  "pid": 31696,
+  "parent_pid": 15408,
+  "command": [
+    "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_extended_composition.py",
+    "--spec",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\SENS_free_compressed_B4096_r0_seed105.json"
+  ],
+  "spec": {
+    "id": "SENS_free_compressed_B4096_r0_seed105",
+    "family": "free_compressed",
+    "kind": "r0",
+    "N": 4096,
+    "B": 4096,
+    "profile": [
+      4,
+      3,
+      4
+    ],
+    "plb": 8,
+    "llc": 32,
+    "rho": 128,
+    "R": 256,
+    "warmup": 2048,
+    "requests": 4096,
+    "trace_seed": 105,
+    "oram_seed": 1005,
+    "workload": "uniform",
+    "study": "frontend_sensitivity",
+    "condition": "B4096",
+    "experiment_class": "formal_frontend_sensitivity",
+    "X": 2048
+  },
+  "started": 1789530532.144049
+}

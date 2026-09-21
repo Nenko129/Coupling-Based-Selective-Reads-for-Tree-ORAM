@@ -1,0 +1,7 @@
+{
+  "source_sha256": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+  "output_sha256": "6d312f8674efc788314f2ab5612a90979b50213ca79f601a777ef00a2dfb8fd5",
+  "generator_sha256": "cd8ebf2ee28e4126aa21b794b96ae2dc3497fd3e121342b08a9eb0f7e1585ef4",
+  "diff_sha256": "1c1159fc0e2c69ff393bb75d31dd6ce198146dab42f73cc73e08dafb4ed8e1b6",
+  "scope": "static depth Z/S only; no top cache, IR-Stash/DWB, CB or DeadQ"
+}

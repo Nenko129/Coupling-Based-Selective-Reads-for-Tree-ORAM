@@ -1,0 +1,41 @@
+{
+  "family": "AB",
+  "arm": "base",
+  "layout": "uniform",
+  "N": 4096,
+  "B": 64,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "R": 256,
+  "compact": false,
+  "fusion": false,
+  "root_retained": true,
+  "cached_levels": 6,
+  "terminal_bytes": 32768,
+  "warmup": 12288,
+  "requests": 24576,
+  "workload": "uniform",
+  "trace_seed": 102,
+  "oram_seed": 1002,
+  "suite": "formal",
+  "driver": "run_minimal.py",
+  "S_by_depth": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "id": "MIN_formal_AB_uniform_base_B64_seed102"
+}

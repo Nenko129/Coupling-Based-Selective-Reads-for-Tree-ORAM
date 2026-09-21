@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "name": "Financial1",
+      "seed": 101,
+      "commands": 6144,
+      "unique_keys": 2872,
+      "prepared_file": "datasets\\prepared\\Financial1_startkey_N16384_seed101.json",
+      "prepared_sha256": "50140a41c6955f7b3cc365b18aa68db77e35ffff9cfde2826b9d7127ede4a7f4",
+      "raw_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "read_fraction": 0.3170572916666667
+    },
+    {
+      "name": "Financial1",
+      "seed": 102,
+      "commands": 6144,
+      "unique_keys": 3157,
+      "prepared_file": "datasets\\prepared\\Financial1_startkey_N16384_seed102.json",
+      "prepared_sha256": "b39b54d7f4b2b7d20af4951efbab50b70380a72d4d29acc7ce3c81f024655040",
+      "raw_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "read_fraction": 0.53515625
+    },
+    {
+      "name": "Financial1",
+      "seed": 103,
+      "commands": 6144,
+      "unique_keys": 3207,
+      "prepared_file": "datasets\\prepared\\Financial1_startkey_N16384_seed103.json",
+      "prepared_sha256": "a6b3280289a2f78eeb83063cb636614bfadaa68db46303f9c4e8a918e3e46a8a",
+      "raw_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "read_fraction": 0.4934895833333333
+    },
+    {
+      "name": "Financial1",
+      "seed": 104,
+      "commands": 6144,
+      "unique_keys": 3488,
+      "prepared_file": "datasets\\prepared\\Financial1_startkey_N16384_seed104.json",
+      "prepared_sha256": "7915e1e15ce07f032f24707f227be0e9443b992be721004f951776572f17cd6a",
+      "raw_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "read_fraction": 0.69482421875
+    },
+    {
+      "name": "Financial1",
+      "seed": 105,
+      "commands": 6144,
+      "unique_keys": 3111,
+      "prepared_file": "datasets\\prepared\\Financial1_startkey_N16384_seed105.json",
+      "prepared_sha256": "be5a36c4c10931e37b65ada518f4bbf4353a2d66f3b8ca13c23aaaf88f0ceb41",
+      "raw_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "read_fraction": 0.5935872395833334
+    },
+    {
+      "name": "WebSearch1",
+      "seed": 101,
+      "commands": 6144,
+      "unique_keys": 6143,
+      "prepared_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed101.json",
+      "prepared_sha256": "2da3198a7816fb768c4b6ec6cb6451a39e7fe9b5e0357fdcf7b5bef71635afc3",
+      "raw_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "read_fraction": 0.9996744791666666
+    },
+    {
+      "name": "WebSearch1",
+      "seed": 102,
+      "commands": 6144,
+      "unique_keys": 6144,
+      "prepared_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed102.json",
+      "prepared_sha256": "32893680920d2f5bdf6f46404a3e26fc2bd9b406d4bca22a9578885ed2d03e26",
+      "raw_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "read_fraction": 1.0
+    },
+    {
+      "name": "WebSearch1",
+      "seed": 103,
+      "commands": 6144,
+      "unique_keys": 6144,
+      "prepared_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed103.json",
+      "prepared_sha256": "d5b45aa7f189be7d8edf51012f4f5806e67cf5ee40b35a0a0c805853426789d6",
+      "raw_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "read_fraction": 0.9996744791666666
+    },
+    {
+      "name": "WebSearch1",
+      "seed": 104,
+      "commands": 6144,
+      "unique_keys": 6144,
+      "prepared_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed104.json",
+      "prepared_sha256": "c6eeb76f6cb80e7bb5886b02a47b75bc4cc03eb2e8a5650b82fd3787f02c83ad",
+      "raw_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "read_fraction": 1.0
+    },
+    {
+      "name": "WebSearch1",
+      "seed": 105,
+      "commands": 6144,
+      "unique_keys": 6144,
+      "prepared_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed105.json",
+      "prepared_sha256": "89be1b84961feb04530248506745e6b38a2d18f9dcc6489b8656634baf94f065",
+      "raw_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "read_fraction": 0.9996744791666666
+    }
+  ],
+  "checker_sha256": "95bc3567032c522527e0f2d2245fcc050eb27b9c2be4fbce75ace02012580ee5",
+  "scope": "exact command-key/op mapping; not source-length expansion or paced block-device replay"
+}

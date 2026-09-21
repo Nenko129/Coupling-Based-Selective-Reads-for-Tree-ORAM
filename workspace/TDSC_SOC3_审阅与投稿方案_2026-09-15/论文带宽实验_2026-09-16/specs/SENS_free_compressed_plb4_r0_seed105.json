@@ -1,0 +1,24 @@
+{
+  "id": "SENS_free_compressed_plb4_r0_seed105",
+  "family": "free_compressed",
+  "kind": "r0",
+  "N": 4096,
+  "B": 64,
+  "profile": [
+    4,
+    3,
+    4
+  ],
+  "plb": 4,
+  "llc": 32,
+  "rho": 128,
+  "R": 256,
+  "warmup": 2048,
+  "requests": 4096,
+  "trace_seed": 105,
+  "oram_seed": 1005,
+  "workload": "hot90",
+  "study": "frontend_sensitivity",
+  "condition": "plb4",
+  "experiment_class": "formal_frontend_sensitivity"
+}

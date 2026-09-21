@@ -1,0 +1,31 @@
+integrated_protocol PASS
+original_active_attacks PASS
+local_openings PASS
+Z7_actual_shadow_field PASS
+Z7_structural PASS
+original_gate_regressions PASS
+{
+  "integrity": {
+    "release_files": 8473,
+    "original_audit_files_checked": 231,
+    "declared_original_omissions": [
+      "receipts/relocated_evidence.zip",
+      "sources/baselines/path.pdf",
+      "sources/baselines/ring.pdf",
+      "sources/index.html",
+      "sources/README.md",
+      "sources/SDE_R0_\u5b8c\u6574\u6280\u672f\u62a5\u544a.pdf",
+      "sources/source_manifest.json"
+    ]
+  },
+  "original_identities": {
+    "original_SOC2_manifest_files": 77,
+    "received_SOC3_contract_files": 24,
+    "received_SOC3_manifest_files": 55,
+    "audited_contract_files": 28,
+    "original_kernel_protocol_and_cost_byte_identical": true,
+    "original_numeric_receipt_verified": true
+  },
+  "status": "passed",
+  "full_numerical_recomputed": false
+}

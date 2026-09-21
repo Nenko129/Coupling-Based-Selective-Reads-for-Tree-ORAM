@@ -1,0 +1,10 @@
+{
+  "original_manifest_files_unchanged": 77,
+  "variant_contract_artifacts_checked": 24,
+  "exact_plans_rechecked": 12,
+  "original_stash_numeric_bounds_preserved": true,
+  "report_local_links_valid": 7,
+  "fresh_numeric_receipt_verified": true,
+  "all_checks_passed": true,
+  "scope": "Research model and serialized application-frame costs; not deployed throughput or full-memory RSS."
+}

@@ -1,0 +1,321 @@
+{
+  "status": "passed",
+  "spec": {
+    "id": "C_free_compressed_deferred_hot90_N4096_B64_seed101",
+    "family": "free_compressed",
+    "kind": "deferred",
+    "N": 4096,
+    "B": 64,
+    "profile": [
+      4,
+      3,
+      4
+    ],
+    "plb": 8,
+    "llc": 32,
+    "rho": 128,
+    "R": 256,
+    "warmup": 2048,
+    "requests": 4096,
+    "trace_seed": 101,
+    "oram_seed": 1001,
+    "workload": "hot90",
+    "experiment_class": "formal_composition"
+  },
+  "trace": {
+    "path": "traces\\hot90_N4096_Q6144_seed101.json",
+    "sha256": "671d272f8e5370bdf1ba3f847e955cb1e30dfb106cd677017221432437bf3ed1"
+  },
+  "source_hashes": {
+    "core": {
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+    },
+    "composition": {
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\frontends.py": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\transfer_backend.py": "34d593fa1dee61f412fce3a11269d1e05e0e5f2c893107a436d5d53c73be4ff7",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\composition_runtime.py": "f00534055545cf47a8e39c657f2ba392864d9895a55fa6bb8bf8a733e7a492cb",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_composition.py": "2d979c9682b3053b4276671b2a40e48f0a90479d06c6ec416dfbb7ce266d85a2"
+    }
+  },
+  "setup": [
+    {
+      "rpc": 19467,
+      "request_bytes": 36527440,
+      "response_bytes": 43436852,
+      "total_bytes": 79964292,
+      "components": {
+        "data_download": 23454080,
+        "data_upload": 8482560,
+        "headers_download": 14951976,
+        "headers_upload": 16622940,
+        "authentication_download": 4329984,
+        "authentication_upload": 10430080,
+        "framing_and_control": 1692672
+      },
+      "by_stage": {
+        "physical_setup": {
+          "data_download": 0,
+          "data_upload": 2621120,
+          "headers_download": 0,
+          "headers_upload": 1670964,
+          "authentication_download": 0,
+          "authentication_upload": 1048448,
+          "framing_and_control": 655280
+        },
+        "logical": {
+          "data_download": 17592640,
+          "data_upload": 0,
+          "headers_download": 11215308,
+          "headers_upload": 11215308,
+          "authentication_download": 3247872,
+          "authentication_upload": 7037056,
+          "framing_and_control": 778136
+        },
+        "evict": {
+          "data_download": 5861440,
+          "data_upload": 5861440,
+          "headers_download": 3736668,
+          "headers_upload": 3736668,
+          "authentication_download": 1082112,
+          "authentication_upload": 2344576,
+          "framing_and_control": 259256
+        }
+      },
+      "by_tree": {
+        "0": {
+          "data_download": 23454080,
+          "data_upload": 8482560,
+          "headers_download": 14951976,
+          "headers_upload": 16622940,
+          "authentication_download": 4329984,
+          "authentication_upload": 10430080,
+          "framing_and_control": 1692672
+        }
+      },
+      "opcode_counts": {
+        "5": 8191,
+        "1": 5638,
+        "4": 5638
+      },
+      "transcript_sha256": "e519431fb85578b044b143bcd572ca52904cf3e7adc1ab52e99e0d5a961a380a",
+      "first_sequence": 0,
+      "next_sequence": 19467,
+      "independently_invoiced_rpcs": 19467,
+      "retained_event_count": 0
+    }
+  ],
+  "setup_seconds": 14.62486982345581,
+  "phases": {
+    "warmup": {
+      "requests": 2048,
+      "bills": [
+        {
+          "rpc": 12176,
+          "request_bytes": 33289184,
+          "response_bytes": 46585376,
+          "total_bytes": 79874560,
+          "components": {
+            "data_download": 25326080,
+            "data_upload": 6331520,
+            "headers_download": 16145376,
+            "headers_upload": 16145376,
+            "authentication_download": 4675584,
+            "authentication_upload": 10130432,
+            "framing_and_control": 1120192
+          },
+          "by_stage": {
+            "logical": {
+              "data_download": 18994560,
+              "data_upload": 0,
+              "headers_download": 12109032,
+              "headers_upload": 12109032,
+              "authentication_download": 3506688,
+              "authentication_upload": 7597824,
+              "framing_and_control": 840144
+            },
+            "evict": {
+              "data_download": 6331520,
+              "data_upload": 6331520,
+              "headers_download": 4036344,
+              "headers_upload": 4036344,
+              "authentication_download": 1168896,
+              "authentication_upload": 2532608,
+              "framing_and_control": 280048
+            }
+          },
+          "by_tree": {
+            "0": {
+              "data_download": 25326080,
+              "data_upload": 6331520,
+              "headers_download": 16145376,
+              "headers_upload": 16145376,
+              "authentication_download": 4675584,
+              "authentication_upload": 10130432,
+              "framing_and_control": 1120192
+            }
+          },
+          "opcode_counts": {
+            "1": 6088,
+            "4": 6088
+          },
+          "transcript_sha256": "b5a429ca1a905c785fdb402b9461a6d770d7c7112c377b09dffcd70886ea82f8",
+          "first_sequence": 19467,
+          "next_sequence": 31643,
+          "independently_invoiced_rpcs": 12176,
+          "retained_event_count": 0
+        }
+      ],
+      "total_bytes": 79874560,
+      "rpc": 12176,
+      "schedules": [
+        {
+          "slots": 4566,
+          "remove_admit_sha256": "9c67daeb49ea6e79a7e508ff3439188a2f8609b7c6accc633f7d0cd527bbc2f3"
+        }
+      ],
+      "frontend_metrics": {
+        "plb_misses": 2518,
+        "application_requests": 2048,
+        "plb_hits": 1962,
+        "plb_evictions": 2510
+      },
+      "harness_seconds": 14.784672021865845
+    },
+    "measurement": {
+      "requests": 4096,
+      "bills": [
+        {
+          "rpc": 24382,
+          "request_bytes": 66661428,
+          "response_bytes": 93285532,
+          "total_bytes": 159946960,
+          "components": {
+            "data_download": 50714560,
+            "data_upload": 12679680,
+            "headers_download": 32330532,
+            "headers_upload": 32330532,
+            "authentication_download": 9362688,
+            "authentication_upload": 20285824,
+            "framing_and_control": 2243144
+          },
+          "by_stage": {
+            "logical": {
+              "data_download": 38034880,
+              "data_upload": 0,
+              "headers_download": 24247236,
+              "headers_upload": 24247236,
+              "authentication_download": 7021824,
+              "authentication_upload": 15213952,
+              "framing_and_control": 1682312
+            },
+            "evict": {
+              "data_download": 12679680,
+              "data_upload": 12679680,
+              "headers_download": 8083296,
+              "headers_upload": 8083296,
+              "authentication_download": 2340864,
+              "authentication_upload": 5071872,
+              "framing_and_control": 560832
+            }
+          },
+          "by_tree": {
+            "0": {
+              "data_download": 50714560,
+              "data_upload": 12679680,
+              "headers_download": 32330532,
+              "headers_upload": 32330532,
+              "authentication_download": 9362688,
+              "authentication_upload": 20285824,
+              "framing_and_control": 2243144
+            }
+          },
+          "opcode_counts": {
+            "1": 12191,
+            "4": 12191
+          },
+          "transcript_sha256": "2bebd73f41b3d98e261a737d63d68593deeb91b91e7e4cfb154c2dc230737d06",
+          "first_sequence": 31643,
+          "next_sequence": 56025,
+          "independently_invoiced_rpcs": 24382,
+          "retained_event_count": 0
+        }
+      ],
+      "total_bytes": 159946960,
+      "rpc": 24382,
+      "schedules": [
+        {
+          "slots": 9143,
+          "remove_admit_sha256": "8874d8e1ea8e0d70f53a3f578f2fb6387ca0c6c8c59e6c0ac3276efea8e16e84"
+        }
+      ],
+      "frontend_metrics": {
+        "plb_misses": 5047,
+        "application_requests": 4096,
+        "plb_hits": 3931,
+        "plb_evictions": 5047
+      },
+      "harness_seconds": 29.649559497833252
+    }
+  },
+  "configs": [
+    {
+      "kind": "deferred",
+      "L": 12,
+      "N": 4229,
+      "B": 64,
+      "Z": 4,
+      "A": 3,
+      "S": 4,
+      "R": 256,
+      "tree": 0,
+      "compact": true,
+      "fused": true
+    }
+  ],
+  "bytes_per_request": 39049.55078125,
+  "rpc_per_request": 5.95263671875,
+  "server_storage": [
+    {
+      "components": {
+        "headers": 1670964,
+        "ciphertext_slots": 2621120,
+        "local_authentication": 0,
+        "bucket_tags": 524224,
+        "global_tags": 524224
+      },
+      "total_bytes": 5340532,
+      "physical_bucket_records": 8191,
+      "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+    }
+  ],
+  "final_stash_blocks": [
+    1
+  ],
+  "correctness_checked_requests": 6144,
+  "answer_sha256": "c064dc147f382a53f19d95d3a04484e4293c33956077be01b77e728830cb72d7",
+  "frontend_memory_representation": {
+    "plb_payload_bytes": 512,
+    "plb_leaf_and_address_bytes": 96,
+    "terminal_leaf_bytes": 4,
+    "stash_reserved_bytes": 16384,
+    "full_private_posmap_present": false,
+    "measured_peak": false
+  },
+  "elapsed_seconds": 59.086912631988525,
+  "native_full_paper_reproduction": false,
+  "latency_claim": false,
+  "true_client_peak_measured": false,
+  "scope": "Freecursive-style unified recursive map tree + address-LRU PLB + group counters; no native PMMAC/hardware controller"
+}

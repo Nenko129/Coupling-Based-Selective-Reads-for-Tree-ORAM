@@ -1,0 +1,18 @@
+{
+  "status": "visually_reviewed",
+  "pdf": "output/pdf/completed_ir_periodic.pdf",
+  "pdf_sha256": "e625f299224e8c5cd66725c4752d9f00fb2b0837fb58af3b4e1b9f48ca470254",
+  "render": "tmp/pdfs/completed_ir_periodic_review.png",
+  "render_sha256": "323cf08260dea51211fd467de2b502edb365cb801253c5baf14d965c6ac1d50d",
+  "numerical_audit_sha256": "f74e4029da755ade6022c49ffea243bd23dbbed298698517156f5ee573421a0b",
+  "renderer": "Poppler pdftoppm, 140 dpi",
+  "pages_reviewed": 1,
+  "checks": [
+    "all panel labels and footnotes readable",
+    "axis units and distinct scales clear",
+    "all means and confidence intervals visible",
+    "DWB annotations outside error bars",
+    "no overlapping text or cropped content"
+  ],
+  "security_admission": false
+}

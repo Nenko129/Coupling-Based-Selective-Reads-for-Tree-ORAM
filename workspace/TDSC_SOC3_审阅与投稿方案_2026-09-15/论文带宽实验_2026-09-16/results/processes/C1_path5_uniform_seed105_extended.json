@@ -1,0 +1,37 @@
+{
+  "pid": 36252,
+  "parent_pid": 46680,
+  "command": [
+    "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_bulk_scale.py",
+    "--spec",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\C1_path5_uniform_seed105.json"
+  ],
+  "spec": {
+    "kind": "path",
+    "N": 16384,
+    "B": 4096,
+    "profile": [
+      5,
+      3,
+      3
+    ],
+    "map_B": 256,
+    "terminal_bytes": 8192,
+    "compact": true,
+    "fusion": true,
+    "R": 258,
+    "id": "C1_path5_uniform_seed105",
+    "warmup": 2048,
+    "requests": 4096,
+    "trace_seed": 105,
+    "oram_seed": 1005,
+    "workload": "uniform",
+    "experiment_class": "formal_classical_reference",
+    "study": "published_bound_path_reference"
+  },
+  "started": 1789534376.2585945
+}

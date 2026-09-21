@@ -1,0 +1,754 @@
+{
+  "status": "ideal_stash_ledger_bound_to_execution_projection",
+  "rows": [
+    {
+      "plan": "formal_core_plan.json",
+      "spec": {
+        "id": "B1_path_uniform_N16384_B4096_seed101",
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "configs": [
+        {
+          "kind": "path",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "path",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "path",
+              "L": 14,
+              "N": 16384,
+              "B": 4096,
+              "Z": 4,
+              "A": 3,
+              "S": 3,
+              "R": 256,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": false,
+            "reason": "Path theorem needs Z5 and working set N <= 2^L"
+          },
+          {
+            "config": {
+              "kind": "path",
+              "L": 7,
+              "N": 128,
+              "B": 512,
+              "Z": 4,
+              "A": 3,
+              "S": 3,
+              "R": 256,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16512,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944448",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": false,
+        "errors": [
+          {
+            "tree": 0,
+            "reason": "Path theorem needs Z5 and working set N <= 2^L"
+          }
+        ],
+        "lifetime_stash_upper": null,
+        "log2_lifetime_upper": null,
+        "ideal_stash_budget_passed": false,
+        "full_security_admission": false
+      },
+      "minimum_R_unavailable_reason": "Path theorem needs Z5 and working set N <= 2^L"
+    },
+    {
+      "plan": "formal_core_plan.json",
+      "spec": {
+        "id": "B1_ring_uniform_N16384_B4096_seed101",
+        "kind": "ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_core"
+      },
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "ring",
+              "L": 14,
+              "N": 16384,
+              "B": 4096,
+              "Z": 4,
+              "A": 3,
+              "S": 3,
+              "R": 256,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": true,
+            "rule": "Ring post-eviction bound plus A-1 completed-access reserve",
+            "offset": 2,
+            "fixed_boundary_bound": {
+              "numerator": "709590615113286180314954288170876282771121517306470044235527066056409261839628293038658372359194982596046490697106031907299975271673459669870491246751272820536410739630572647828984433",
+              "denominator": "40505948744607324380039142074323224903203640166240359329858844166422020086204854826661175146886128907679718904407453743430079053659871762108847530061222359672857957745610587393028526036086772947913713452653131702807020123585022654687469985377606431566616683149384875952131580551102690492416"
+            },
+            "lifetime_bound": {
+              "numerator": "3120812529111839169665596637147481207512122410437714455093254829760187625157785628228718013444355461072963463976786022950151465024236233835898839114966877094078174048051492590377506838251006628465",
+              "denominator": "2472286910681599388430123417622267144970925303115256306754079844141968999402151783853831490898811578837873468286587752894902285989982407355276338504713278788626584335059239953187776247319749325434186612100410870532655036839906167888639525474707423801673381539879447995125218539496013824"
+            },
+            "constants": {
+              "rho": {
+                "numerator": "3",
+                "denominator": "8"
+              },
+              "x": {
+                "numerator": "5",
+                "denominator": "2"
+              },
+              "exp_lower": {
+                "numerator": "667413095583864224390807178480735557976902885349301866808667724662867741747802275354952584008402463",
+                "denominator": "54784603032573529906529326921367360284947806763499598692263464654715859781512025354891670237216768"
+              },
+              "exp_upper": {
+                "numerator": "7713293145662718841284558561701860843539066645981881674707772893934624468949371722810623788592626796141",
+                "denominator": "633145657247452285129759431230242582813141802765764862086488861014551191494934477026483032931514187776"
+              },
+              "beta_upper": {
+                "numerator": "7713293145662718841284558561701860843539066645981881674707772893934624468949371722810623788592626796141",
+                "denominator": "8004211765696186913245353797281091417292064272001768133044007329369140988775467956482945996566302818304"
+              }
+            }
+          },
+          {
+            "config": {
+              "kind": "ring",
+              "L": 7,
+              "N": 128,
+              "B": 512,
+              "Z": 4,
+              "A": 3,
+              "S": 3,
+              "R": 256,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16512,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944448",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": true,
+        "errors": [],
+        "lifetime_stash_upper": {
+          "numerator": "3120812529111839169665596637147481207512122410437714455093254829760187625157785628228718013444355461072963463976786022950151465024236233835898839114966877094078174048051492590377506838251006628465",
+          "denominator": "2472286910681599388430123417622267144970925303115256306754079844141968999402151783853831490898811578837873468286587752894902285989982407355276338504713278788626584335059239953187776247319749325434186612100410870532655036839906167888639525474707423801673381539879447995125218539496013824"
+        },
+        "log2_lifetime_upper": -298.63745302315414,
+        "ideal_stash_budget_passed": true,
+        "full_security_admission": false
+      },
+      "minimum_common_R_for_classical_bound": 137
+    },
+    {
+      "plan": "formal_tuned_plan.json",
+      "spec": {
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 256,
+        "terminal_bytes": 8192,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "id": "B3_path_uniform_seed101",
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_tuned"
+      },
+      "configs": [
+        {
+          "kind": "path",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "path",
+          "L": 8,
+          "N": 256,
+          "B": 256,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "path",
+              "L": 14,
+              "N": 16384,
+              "B": 4096,
+              "Z": 4,
+              "A": 3,
+              "S": 3,
+              "R": 256,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": false,
+            "reason": "Path theorem needs Z5 and working set N <= 2^L"
+          },
+          {
+            "config": {
+              "kind": "path",
+              "L": 8,
+              "N": 256,
+              "B": 256,
+              "Z": 4,
+              "A": 3,
+              "S": 3,
+              "R": 256,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16640,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944576",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": false,
+        "errors": [
+          {
+            "tree": 0,
+            "reason": "Path theorem needs Z5 and working set N <= 2^L"
+          }
+        ],
+        "lifetime_stash_upper": null,
+        "log2_lifetime_upper": null,
+        "ideal_stash_budget_passed": false,
+        "full_security_admission": false
+      },
+      "minimum_R_unavailable_reason": "Path theorem needs Z5 and working set N <= 2^L"
+    },
+    {
+      "plan": "formal_tuned_plan.json",
+      "spec": {
+        "kind": "ring",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          7,
+          6,
+          9
+        ],
+        "map_B": 256,
+        "terminal_bytes": 8192,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "id": "B3_ring_uniform_seed101",
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_tuned"
+      },
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 13,
+          "N": 16384,
+          "B": 4096,
+          "Z": 7,
+          "A": 6,
+          "S": 9,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 7,
+          "N": 256,
+          "B": 256,
+          "Z": 7,
+          "A": 6,
+          "S": 9,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "ring",
+              "L": 13,
+              "N": 16384,
+              "B": 4096,
+              "Z": 7,
+              "A": 6,
+              "S": 9,
+              "R": 256,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": true,
+            "rule": "Ring post-eviction bound plus A-1 completed-access reserve",
+            "offset": 5,
+            "fixed_boundary_bound": {
+              "numerator": "122817905371755555547328269276192972525616473300518504206883115316609177659353607622138273375686005171360851660942422138578896690760182291363840603689282230764189590296661376953125",
+              "denominator": "11877421204703353286209279580604146095731611351062922956913344370628641537816604369676008102687079877015031139081486368041654426031579961720595607691132374801309700773835882085675378609406001244036393827502165977882417495585321392302172906960041960950445741215496273789189"
+            },
+            "lifetime_bound": {
+              "numerator": "8849962765868622792029439973692186074366060964063802025813205818486724710621892512514709395535045361334330676222185702733660641912062768198230732623200005431199588771053419410854652500000000000000",
+              "denominator": "11877421204703353286209279580604146095731611351062922956913344370628641537816604369676008102687079877015031139081486368041654426031579961720595607691132374801309700773835882085675378609406001244036393827502165977882417495585321392302172906960041960950445741215496273789189"
+            },
+            "constants": {
+              "rho": {
+                "numerator": "3",
+                "denominator": "7"
+              },
+              "x": {
+                "numerator": "4",
+                "denominator": "1"
+              },
+              "exp_lower": {
+                "numerator": "1665438332042344050421463738589050443393613300705091339562194679680133",
+                "denominator": "30503567081143345156362893635406530165112525991772466391705322265625"
+              },
+              "exp_upper": {
+                "numerator": "7241588831667276511872064566501810651629650675671111655823819538463338241",
+                "denominator": "132634326021508287373311603036268973136356386042646437418459747314453125"
+              },
+              "beta_upper": {
+                "numerator": "28966355326669106047488258266007242606518602702684446623295278153853352964",
+                "denominator": "49945162667915409011558828303291293527039024796853760864613898345947265625"
+              }
+            }
+          },
+          {
+            "config": {
+              "kind": "ring",
+              "L": 7,
+              "N": 256,
+              "B": 256,
+              "Z": 7,
+              "A": 6,
+              "S": 9,
+              "R": 256,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16640,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944576",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": true,
+        "errors": [],
+        "lifetime_stash_upper": {
+          "numerator": "8849962765868622792029439973692186074366060964063802025813205818486724710621892512514709395535045361334330676222185702733660641912062768198230732623200005431199588771053419410854652500000000000000",
+          "denominator": "11877421204703353286209279580604146095731611351062922956913344370628641537816604369676008102687079877015031139081486368041654426031579961720595607691132374801309700773835882085675378609406001244036393827502165977882417495585321392302172906960041960950445741215496273789189"
+        },
+        "log2_lifetime_upper": -249.5690854619131,
+        "ideal_stash_budget_passed": true,
+        "full_security_admission": false
+      },
+      "minimum_common_R_for_classical_bound": 160
+    }
+  ],
+  "supplemental_path": {
+    "spec": {
+      "kind": "path",
+      "N": 16384,
+      "B": 4096,
+      "profile": [
+        5,
+        3,
+        3
+      ],
+      "map_B": 256,
+      "terminal_bytes": 8192,
+      "compact": true,
+      "fusion": true,
+      "R": 258,
+      "id": "B3_path_uniform_seed101",
+      "warmup": 2048,
+      "requests": 4096,
+      "trace_seed": 101,
+      "oram_seed": 1001,
+      "workload": "uniform",
+      "experiment_class": "formal_tuned"
+    },
+    "configs": [
+      {
+        "kind": "path",
+        "L": 14,
+        "N": 16384,
+        "B": 4096,
+        "Z": 5,
+        "A": 3,
+        "S": 3,
+        "R": 258,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      {
+        "kind": "path",
+        "L": 8,
+        "N": 256,
+        "B": 256,
+        "Z": 5,
+        "A": 3,
+        "S": 3,
+        "R": 258,
+        "tree": 1,
+        "compact": true,
+        "fused": true
+      }
+    ],
+    "minimum_common_R": 258,
+    "ledger": {
+      "points": [
+        {
+          "config": {
+            "kind": "path",
+            "L": 14,
+            "N": 16384,
+            "B": 4096,
+            "Z": 5,
+            "A": 3,
+            "S": 3,
+            "R": 258,
+            "tree": 0,
+            "compact": true,
+            "fused": true
+          },
+          "initialization_accesses": 16384,
+          "online_accesses": "72057594037927936",
+          "checked_boundary_count": "72057594037944320",
+          "covered": true,
+          "rule": "Path JACM Theorem 5.1 with working-set upper bound 2^L",
+          "offset": 0,
+          "fixed_boundary_bound": {
+            "numerator": "17515064999520236328382413135497324192391575201874671386942207878184545151350570928566222913417810799748269858109161328875646",
+            "denominator": "2159042138773611156346587965700099892779000091109070346255925867542147950790606764492876875868072056640136823486537415899248774736707986673413250944264518693671561777591705322265625"
+          },
+          "lifetime_bound": {
+            "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+            "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+          }
+        },
+        {
+          "config": {
+            "kind": "path",
+            "L": 8,
+            "N": 256,
+            "B": 256,
+            "Z": 5,
+            "A": 3,
+            "S": 3,
+            "R": 258,
+            "tree": 1,
+            "compact": true,
+            "fused": true
+          },
+          "initialization_accesses": 16640,
+          "online_accesses": "72057594037927936",
+          "checked_boundary_count": "72057594037944576",
+          "covered": true,
+          "rule": "deterministic current-record count",
+          "offset": 0,
+          "fixed_boundary_bound": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "lifetime_bound": {
+            "numerator": "0",
+            "denominator": "1"
+          }
+        }
+      ],
+      "online_horizon": "72057594037927936",
+      "stash_budget": {
+        "numerator": "1",
+        "denominator": "1361129467683753853853498429727072845824"
+      },
+      "all_points_covered": true,
+      "errors": [],
+      "lifetime_stash_upper": {
+        "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+        "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+      },
+      "log2_lifetime_upper": -130.32976837282325,
+      "ideal_stash_budget_passed": true,
+      "full_security_admission": false
+    },
+    "performance_measured": false
+  },
+  "historical_horizon_phase_corrections": [
+    {
+      "Z": 4,
+      "A": 3,
+      "K": 1,
+      "completed_boundary_offset": 2,
+      "lifetime_log2_at_R256": -258.6374530231545,
+      "minimum_R": 164
+    },
+    {
+      "Z": 4,
+      "A": 3,
+      "K": 16,
+      "completed_boundary_offset": 2,
+      "lifetime_log2_at_R256": -254.63745302315445,
+      "minimum_R": 167
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "K": 1,
+      "completed_boundary_offset": 5,
+      "lifetime_log2_at_R256": -209.5690854619134,
+      "minimum_R": 190
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "K": 16,
+      "completed_boundary_offset": 5,
+      "lifetime_log2_at_R256": -205.5690854619134,
+      "minimum_R": 193
+    }
+  ],
+  "proof_note": "45_经典基线执行归约与容量账本.md",
+  "producer_sha256": "2f6064510c50e2aa6c98ed746eb6c27d50c9c03cdcaa050aeb0e85768472f293",
+  "arithmetic_source_sha256": "94ba694b33b435047aa2fb7114e446c6678039a6b1ce9cd9f295151d2d6be1d8",
+  "projection_receipt_sha256": "b11fce3c21303f608db778652b86a3e5039d12c822fca8e04f47af0886d26a6c",
+  "plan_hashes": {
+    "formal_core_plan.json": "451ba4898f4d2ffdc2c8fdca570d5bbca8c70a7203553dc13c182c5c13abf0e2",
+    "formal_tuned_plan.json": "3dbbf501a6da98a7e5f1fc2a99f1b134b92e1ae830fce74a934ddf3dc723a75a"
+  },
+  "paper_hashes": {
+    "path": "0c65372a6a3c50d286179a668d771be2bfef5b81e62c6ef58b77ec8ed8a59bce",
+    "ring": "f452f88b8ac986896944e6512f3bfafd349b5382c6f2263ba574894e698d80c2"
+  },
+  "scope": "homogeneous core with fixed address histories independent of ORAM coins, honest authenticated prefix, ideal independent leaves",
+  "source_hashes": {
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+  },
+  "full_security_admission": false,
+  "exclusions": [
+    "full malicious-transcript simulation and concrete PRF bound",
+    "IR-Stash/CB/heterogeneous buckets/adaptive local-hit scheduling",
+    "true peak client memory; R excludes path workspace",
+    "unsupported Z4 Path is retained as an empirical comparator"
+  ]
+}

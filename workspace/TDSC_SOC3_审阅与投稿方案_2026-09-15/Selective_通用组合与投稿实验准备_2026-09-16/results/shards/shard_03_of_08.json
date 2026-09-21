@@ -1,0 +1,86 @@
+{
+  "stage": "complete",
+  "shard": 3,
+  "shards": 8,
+  "completed": 15,
+  "assigned": 15,
+  "rows": [
+    {
+      "index": 3,
+      "id": "MIN_formal_IR_depth_base_B64_seed102",
+      "status": "passed"
+    },
+    {
+      "index": 11,
+      "id": "MIN_formal_IR_depth_selective_B64_seed104",
+      "status": "passed"
+    },
+    {
+      "index": 19,
+      "id": "MIN_formal_IR_depth_full_probe_B4096_seed102",
+      "status": "passed"
+    },
+    {
+      "index": 27,
+      "id": "MIN_formal_IR_depth_base_B4096_seed105",
+      "status": "passed"
+    },
+    {
+      "index": 35,
+      "id": "MIN_formal_IR_uniform_selective_B64_seed103",
+      "status": "passed"
+    },
+    {
+      "index": 43,
+      "id": "MIN_formal_AB_depth_base_B64_seed102",
+      "status": "passed"
+    },
+    {
+      "index": 51,
+      "id": "MIN_formal_AB_depth_selective_B64_seed104",
+      "status": "passed"
+    },
+    {
+      "index": 59,
+      "id": "MIN_formal_AB_depth_full_probe_B4096_seed102",
+      "status": "passed"
+    },
+    {
+      "index": 67,
+      "id": "MIN_formal_AB_depth_base_B4096_seed105",
+      "status": "passed"
+    },
+    {
+      "index": 75,
+      "id": "MIN_formal_AB_uniform_selective_B64_seed103",
+      "status": "passed"
+    },
+    {
+      "index": 83,
+      "id": "MIN_formal_free_compressed_sde_B64_seed102",
+      "status": "passed"
+    },
+    {
+      "index": 91,
+      "id": "MIN_formal_free_compressed_sde_B4096_seed101",
+      "status": "passed"
+    },
+    {
+      "index": 99,
+      "id": "MIN_formal_free_compressed_sde_B4096_seed105",
+      "status": "passed"
+    },
+    {
+      "index": 107,
+      "id": "MIN_formal_rho_sde_B64_seed104",
+      "status": "passed"
+    },
+    {
+      "index": 115,
+      "id": "MIN_formal_rho_sde_B4096_seed103",
+      "status": "passed"
+    }
+  ],
+  "time": 1789567657.073918,
+  "note": "parent stopped after index107 to avoid duplicate index115; both frozen receipts validated by canonical dispatcher next"
+}

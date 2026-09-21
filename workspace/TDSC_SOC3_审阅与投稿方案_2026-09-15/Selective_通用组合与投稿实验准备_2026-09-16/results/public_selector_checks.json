@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "phase_leaf_cases": 87380,
+  "changed_depth_checks": 149212,
+  "probabilities": [
+    {
+      "L": 1,
+      "exact_probabilities": [
+        "1/2",
+        "1"
+      ]
+    },
+    {
+      "L": 2,
+      "exact_probabilities": [
+        "1/2",
+        "1/2",
+        "1"
+      ]
+    },
+    {
+      "L": 3,
+      "exact_probabilities": [
+        "5/8",
+        "1/2",
+        "1/2",
+        "1"
+      ]
+    },
+    {
+      "L": 4,
+      "exact_probabilities": [
+        "9/16",
+        "5/8",
+        "1/2",
+        "1/2",
+        "1"
+      ]
+    },
+    {
+      "L": 5,
+      "exact_probabilities": [
+        "9/16",
+        "9/16",
+        "5/8",
+        "1/2",
+        "1/2",
+        "1"
+      ]
+    },
+    {
+      "L": 6,
+      "exact_probabilities": [
+        "37/64",
+        "9/16",
+        "9/16",
+        "5/8",
+        "1/2",
+        "1/2",
+        "1"
+      ]
+    },
+    {
+      "L": 7,
+      "exact_probabilities": [
+        "73/128",
+        "37/64",
+        "9/16",
+        "9/16",
+        "5/8",
+        "1/2",
+        "1/2",
+        "1"
+      ]
+    },
+    {
+      "L": 8,
+      "exact_probabilities": [
+        "73/128",
+        "73/128",
+        "37/64",
+        "9/16",
+        "9/16",
+        "5/8",
+        "1/2",
+        "1/2",
+        "1"
+      ]
+    }
+  ],
+  "source_sha256": "709a89321cd284d0814c9698cc6c3f23d4d71eaa820bd0aedded864e7cfde2c6",
+  "engine_sha256": "6d312f8674efc788314f2ab5612a90979b50213ca79f601a777ef00a2dfb8fd5",
+  "scope": "exact finite locality and probability checks, L1..8"
+}

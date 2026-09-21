@@ -1,0 +1,15 @@
+{
+  "stage": "complete",
+  "minimal_receipts": 120,
+  "scale_receipts": 125,
+  "tables": 24,
+  "figure_files": 21,
+  "workbook_sha256": "7380a1a2be4c28fdc11f072f0bd6bda3b9f7a5c38cf4a01ac3aaa8abd0b9075f",
+  "zip": {
+    "path": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\TDSC论文实验阶段证据总包_2026-09-16.zip",
+    "bytes": 10805093,
+    "sha256": "2652b073833610992e26bfc537b08e3c30b3dd2e4761b917035d7d8630504094"
+  },
+  "recovered_postprocess": "assembler schema normalization and bounded workbook previews",
+  "time": 1789589267
+}

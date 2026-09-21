@@ -1,0 +1,200 @@
+{
+  "status": "failed",
+  "spec": {
+    "id": "IRCM_B4_depth_sde_dwb1_hot90_seed103",
+    "kind": "sde",
+    "N": 4096,
+    "B": 64,
+    "X": 32,
+    "profile": [
+      4,
+      3,
+      3
+    ],
+    "R": 480,
+    "cached_levels": 6,
+    "Z_by_depth": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4
+    ],
+    "plb": 8,
+    "llc_sets": 8,
+    "llc_ways": 2,
+    "layout": "depth",
+    "dwb": true,
+    "warmup": 1536,
+    "requests": 6144,
+    "arrival_gap": 8,
+    "slots_per_request": 8,
+    "trace_seed": 103,
+    "oram_seed": 1003,
+    "workload": "hot90",
+    "experiment_class": "formal_ir_compressed",
+    "period_slots": 12288,
+    "beta": 4,
+    "map_mode": "compressed",
+    "cohort": "reset_stress_beta4"
+  },
+  "source_hashes": {
+    "runtime": {
+      "base": {
+        "base": {
+          "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+          "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+          "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+          "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+          "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+        },
+        "runtime": {
+          "ir_transfer.py": "2cdede25e5be4320ae48447a5fc96db9113a980569a1aaa4a2634ffbdc6a2e9f",
+          "ir_dwb_runtime.py": "a0a39b947ac08c4d2c14091b1844406fb304edd702e65dfb2fa82d752455c6f2",
+          "ir_dwb_controller.py": "55ba05f7a010be2ea907e3431c4d15babd9e2094a52da440b646d860dc7940af",
+          "dwb_staged_frontend.py": "08491ab8de426659204721898b2a6b914974b2f4ff378c054846114575dfdfd4",
+          "heterogeneous_oram.py": "6d312f8674efc788314f2ab5612a90979b50213ca79f601a777ef00a2dfb8fd5",
+          "heterogeneous_fusion.py": "23a1c85b20f10aa2c4b28e13228351fac771a811ada2b18062a9d8c45de59380",
+          "cached_transport.py": "25c88f7ca32ab5d394acd019348c32de268ecd2133b560625f3cc9dd370174c3",
+          "fast_prf.py": "910f2a4deb1ece922c2ab51d6031d1a966e604e9a2101d90e619f0c4cc7b4d84",
+          "composition_runtime.py": "f00534055545cf47a8e39c657f2ba392864d9895a55fa6bb8bf8a733e7a492cb"
+        },
+        "frontend": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4"
+      },
+      "compressed": {
+        "dwb_compressed_frontend.py": "b9ddcfd46aeac73142d08e7345e2746fe648d5ce5ba8552915959769db1406ce",
+        "ir_compressed_controller.py": "33422104915bd4f0a213da0d06b562a2b7ab200d69e62c6c53c07d1530f22d7a"
+      }
+    },
+    "frozen_transfer": "34d593fa1dee61f412fce3a11269d1e05e0e5f2c893107a436d5d53c73be4ff7",
+    "driver": "6e1fdec8bdd507d8fffe4ee95c9e81f1fdb39ba8e5f424a475ca063d925daa9d"
+  },
+  "error": "Traceback (most recent call last):\n  File \"D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_ir_compressed_periodic.py\", line 91, in run\n    try:return execute(s,context)\n               ^^^^^^^^^^^^^^^^^^\n  File \"D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_ir_compressed_periodic.py\", line 56, in execute\n    actual,metrics=c.run_window(reqs,s['arrival_gap'],W)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\ir_compressed_controller.py\", line 25, in run_window\n    answers,metrics=super().run_window(requests,gap,slots)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\ir_dwb_controller.py\", line 143, in run_window\n    assert len(answers)==len(requests) and result['unfinished_foreground']==0,'fixed horizon did not complete every request'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: fixed horizon did not complete every request\n",
+  "phase": "warmup",
+  "context": {
+    "phase": "warmup",
+    "phase_start_clock": 8059,
+    "phase_start_returned": 0,
+    "phase_requests": 1536,
+    "requested_slots": 12288
+  },
+  "partial_bill": {
+    "rpc": 32768,
+    "request_bytes": 36577920,
+    "response_bytes": 45344176,
+    "total_bytes": 81922096,
+    "components": {
+      "data_download": 19099440,
+      "data_upload": 6553600,
+      "headers_download": 15617152,
+      "headers_upload": 15617152,
+      "authentication_download": 9447936,
+      "authentication_upload": 12572160,
+      "framing_and_control": 3014656
+    },
+    "by_stage": {
+      "logical": {
+        "data_download": 12545840,
+        "data_upload": 0,
+        "headers_download": 10161280,
+        "headers_upload": 10161280,
+        "authentication_download": 7612928,
+        "authentication_upload": 8902144,
+        "framing_and_control": 2260992
+      },
+      "evict": {
+        "data_download": 6553600,
+        "data_upload": 6553600,
+        "headers_download": 5455872,
+        "headers_upload": 5455872,
+        "authentication_download": 1835008,
+        "authentication_upload": 3670016,
+        "framing_and_control": 753664
+      }
+    },
+    "by_tree": {
+      "0": {
+        "data_download": 19099440,
+        "data_upload": 6553600,
+        "headers_download": 15617152,
+        "headers_upload": 15617152,
+        "authentication_download": 9447936,
+        "authentication_upload": 12572160,
+        "framing_and_control": 3014656
+      }
+    },
+    "opcode_counts": {
+      "1": 16384,
+      "4": 16384
+    },
+    "transcript_sha256": "5abd07d71fa51334710cd2d8d18c00543ff6f90ca179f6735ac11cf47575b5eb",
+    "first_sequence": 40896,
+    "next_sequence": 73664,
+    "independently_invoiced_rpcs": 32768,
+    "retained_event_count": 0,
+    "local_only_rpcs": 0,
+    "scope": "actual frames through separate below-cut server parser; client cache excluded from remote object store"
+  },
+  "schedule": {
+    "slots": 12288,
+    "remove_admit_sha256": "0d92164f5d25bedfa7c8065e1dd40d7630427d6dea36dfcf661bc6728a6843b8"
+  },
+  "clock": 20347,
+  "t": 24576,
+  "completed_this_phase": 1534,
+  "reset": {
+    "level": 0,
+    "parent_i": 82,
+    "parent_address": 4178,
+    "group": 2,
+    "cursor": 15
+  },
+  "controller_metrics": {
+    "dummy_slots": 13415,
+    "public_slots": 20347,
+    "llc_misses": 1105,
+    "foreground_slots": 2869,
+    "foreground_posmap_slots": 1590,
+    "application_completed": 1534,
+    "foreground_data_slots": 1209,
+    "dwb_started": 598,
+    "dwb_data_slots": 580,
+    "dwb_completed": 580,
+    "llc_hits": 430,
+    "dwb_posmap_slots": 592,
+    "llc_evictions": 1089,
+    "dwb_group_reset_slots": 32,
+    "foreground_group_reset_slots": 70,
+    "maintenance_reset_slots": 2859,
+    "foreground_writebacks": 105,
+    "dwb_cancelled_normal_eviction": 12,
+    "dwb_cancelled_candidate_changed": 6
+  },
+  "map_metrics": {
+    "plb_misses": 2901,
+    "plb_hits": 4001,
+    "plb_evictions": 2174,
+    "group_resets": 102,
+    "group_cached_rotations": 34,
+    "group_backend_slots": 2961,
+    "group_resets_completed": 101
+  },
+  "queued_requests": 1,
+  "foreground_pending": true
+}

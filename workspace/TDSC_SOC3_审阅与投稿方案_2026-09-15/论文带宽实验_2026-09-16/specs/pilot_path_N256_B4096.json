@@ -1,0 +1,22 @@
+{
+  "id": "pilot_path_N256_B4096",
+  "kind": "path",
+  "N": 256,
+  "B": 4096,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "map_B": 512,
+  "terminal_bytes": 32768,
+  "compact": true,
+  "fusion": true,
+  "R": 256,
+  "warmup": 64,
+  "requests": 128,
+  "trace_seed": 901,
+  "oram_seed": 1901,
+  "workload": "uniform",
+  "experiment_class": "pilot"
+}

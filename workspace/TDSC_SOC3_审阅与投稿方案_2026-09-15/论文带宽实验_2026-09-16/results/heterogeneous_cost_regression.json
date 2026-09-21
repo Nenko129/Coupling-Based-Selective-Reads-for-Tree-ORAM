@@ -1,0 +1,150 @@
+{
+  "status": "passed",
+  "uniform_regression": [
+    {
+      "B": 64,
+      "kind": "path",
+      "fusion": false,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 64,
+      "kind": "path",
+      "fusion": true,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 64,
+      "kind": "deferred",
+      "fusion": false,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 64,
+      "kind": "deferred",
+      "fusion": true,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 64,
+      "kind": "sde",
+      "fusion": false,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 64,
+      "kind": "sde",
+      "fusion": true,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 64,
+      "kind": "ring",
+      "fusion": false,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 64,
+      "kind": "ring",
+      "fusion": true,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 64,
+      "kind": "gc_ring",
+      "fusion": false,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 64,
+      "kind": "gc_ring",
+      "fusion": true,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 64,
+      "kind": "r0",
+      "fusion": false,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 64,
+      "kind": "r0",
+      "fusion": true,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 4096,
+      "kind": "path",
+      "fusion": false,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 4096,
+      "kind": "path",
+      "fusion": true,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 4096,
+      "kind": "deferred",
+      "fusion": false,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 4096,
+      "kind": "deferred",
+      "fusion": true,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 4096,
+      "kind": "sde",
+      "fusion": false,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 4096,
+      "kind": "sde",
+      "fusion": true,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 4096,
+      "kind": "ring",
+      "fusion": false,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 4096,
+      "kind": "ring",
+      "fusion": true,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 4096,
+      "kind": "gc_ring",
+      "fusion": false,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 4096,
+      "kind": "gc_ring",
+      "fusion": true,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 4096,
+      "kind": "r0",
+      "fusion": false,
+      "all_seven_components_match": true
+    },
+    {
+      "B": 4096,
+      "kind": "r0",
+      "fusion": true,
+      "all_seven_components_match": true
+    }
+  ],
+  "scope": "homogeneous reduction check; heterogeneous finite trace sizes validated separately by actual frames"
+}

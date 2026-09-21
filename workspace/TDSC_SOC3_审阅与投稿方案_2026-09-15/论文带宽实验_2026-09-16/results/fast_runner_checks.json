@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "pairs": [
+    {
+      "mode": "core",
+      "passed": true,
+      "records": [
+        "driver_core_sde_0",
+        "driver_core_sde_1"
+      ]
+    },
+    {
+      "mode": "cached",
+      "passed": true,
+      "records": [
+        "driver_cached_r0_0",
+        "driver_cached_r0_1"
+      ]
+    }
+  ],
+  "runner_sha256": "659b9ca22fca7d7095faeedcb677012ea47b38211a4f20724bbf45385aee89fa",
+  "accelerator_sha256": "910f2a4deb1ece922c2ab51d6031d1a966e604e9a2101d90e619f0c4cc7b4d84"
+}

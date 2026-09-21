@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "source_sha256": "742e33d8d6cda3c9cb6983acbc823d9b1d25b14bf02208540fd832e68e4beda4",
+  "report_sha256": "fecc88303224d65d0e6dbad499c239e8e33a8395ce8d25c2c76c17db614c0e70",
+  "checker_sha256": "6506a57de503bf0a9a7dcb1cb9f3ded032ca497ccbc03725876e4cbd135f5119",
+  "statistical_helper_sha256": "fea8a2496bab1b6dd0794f1d2f07b537e87215ea2f6ee7efbca1ed6ed5447599",
+  "checked_runs": 180,
+  "checked_cells": 36,
+  "checked_effects": 42,
+  "rejected_corruptions": [
+    "self-consistent but wrong cache-hit totals",
+    "wrong front remove/admit stream",
+    "wrong backend slots",
+    "missing full backend position map",
+    "wrong answer digest",
+    "wrong frame-ratio claim"
+  ],
+  "all_planned_runs_complete": true,
+  "new_security_proof": false
+}

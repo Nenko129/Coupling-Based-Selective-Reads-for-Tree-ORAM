@@ -1,0 +1,7 @@
+{
+  "status": "generated",
+  "base_sha256": "60b00e6ac900eb00c7eab40a0f570ea609fffd915700a26bec7b04f5aed1dc1e",
+  "output_sha256": "88aa8d6c5ce9744cd66456b19eac03387e0b50481c268c14cd3e05edc5246fe2",
+  "generator_sha256": "e0b7933a9c694667ab5ccc9bc98f6551404eaab769f0b7771cfe5b2e6b9cf8e1",
+  "public_cadence": "one admission and A-1 ordinary dummy slots per initial record; no stash-dependent loop"
+}

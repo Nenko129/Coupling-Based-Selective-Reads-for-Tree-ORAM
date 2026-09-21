@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "artifacts": [
+    {
+      "family": "ab_dummy_first",
+      "source_sha256": "22c6189ff5d3ff0c6471578fcd1773c8762d447c549020d3b406f2270b6481c7",
+      "report_sha256": "5ab2c84659b6b1c52f92567b99e5dc9a8b048cc72a47460c92fb76be7d0dfc8e",
+      "runs": 60,
+      "cells": 12,
+      "effects": 18,
+      "incomplete": 0
+    },
+    {
+      "family": "ir_compressed",
+      "source_sha256": "c5e218727beff6426a4e9a05ea9ab97358884788864331304aebcc8fe51ed8e5",
+      "report_sha256": "99d013ae55bccd52a3eebd6c7dab7dbb0fbd0513c93c258013821cb24cfaf4c8",
+      "runs": 135,
+      "cells": 15,
+      "effects": 26,
+      "incomplete": 12
+    }
+  ],
+  "rejected_corruptions": [
+    "ab_dummy_first: changed mean with intact runs",
+    "ab_dummy_first: changed cell component mean",
+    "ab_dummy_first: missing planned comparison",
+    "ab_dummy_first: duplicate comparison hides planned cell",
+    "ab_dummy_first: mislabel GC-Ring denominator",
+    "ir_compressed: changed mean with intact runs",
+    "ir_compressed: changed cell component mean",
+    "ir_compressed: missing planned comparison",
+    "ir_compressed: duplicate comparison hides planned cell",
+    "ir_compressed: drop failed outcome",
+    "ir_compressed: admit survivor-only stress cell"
+  ],
+  "checker_sha256": "b992e88dca9f7c0c4ba908ac5affb142e090267762825937e9d2bf7536955364",
+  "statistical_checker_sha256": "fea8a2496bab1b6dd0794f1d2f07b537e87215ea2f6ee7efbca1ed6ed5447599",
+  "security_admission": false
+}

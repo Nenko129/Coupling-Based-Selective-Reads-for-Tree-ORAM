@@ -1,0 +1,511 @@
+{
+  "status": "passed",
+  "primitive": {
+    "core": {
+      "lengths": [
+        {
+          "length": 0,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 1,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 15,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 16,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 31,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 63,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 64,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 65,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 128,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 4096,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 8193,
+          "ciphertext_and_counters_equal": true
+        }
+      ],
+      "boundary_cases": [
+        {
+          "method": "stream",
+          "calls_remaining": 0,
+          "identical": true
+        },
+        {
+          "method": "stream",
+          "calls_remaining": 1,
+          "identical": true
+        },
+        {
+          "method": "stream",
+          "calls_remaining": 2,
+          "identical": true
+        },
+        {
+          "method": "stream",
+          "calls_remaining": 3,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 0,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 1,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 2,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 3,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 0,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 1,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 2,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 3,
+          "identical": true
+        },
+        {
+          "case": "nonce_limit",
+          "identical": true
+        },
+        {
+          "case": "short_ciphertext",
+          "identical": true
+        }
+      ]
+    },
+    "heterogeneous": {
+      "lengths": [
+        {
+          "length": 0,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 1,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 15,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 16,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 31,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 63,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 64,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 65,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 128,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 4096,
+          "ciphertext_and_counters_equal": true
+        },
+        {
+          "length": 8193,
+          "ciphertext_and_counters_equal": true
+        }
+      ],
+      "boundary_cases": [
+        {
+          "method": "stream",
+          "calls_remaining": 0,
+          "identical": true
+        },
+        {
+          "method": "stream",
+          "calls_remaining": 1,
+          "identical": true
+        },
+        {
+          "method": "stream",
+          "calls_remaining": 2,
+          "identical": true
+        },
+        {
+          "method": "stream",
+          "calls_remaining": 3,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 0,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 1,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 2,
+          "identical": true
+        },
+        {
+          "method": "seal",
+          "calls_remaining": 3,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 0,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 1,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 2,
+          "identical": true
+        },
+        {
+          "method": "decrypt",
+          "calls_remaining": 3,
+          "identical": true
+        },
+        {
+          "case": "nonce_limit",
+          "identical": true
+        },
+        {
+          "case": "short_ciphertext",
+          "identical": true
+        }
+      ]
+    }
+  },
+  "random_stream_lengths": [
+    7236,
+    3049,
+    1697,
+    6031,
+    14162,
+    10223,
+    16292,
+    3632,
+    8978,
+    5696,
+    3725,
+    5288,
+    11977,
+    7032,
+    754,
+    12836,
+    1547,
+    9156,
+    10289,
+    6129,
+    943,
+    10518,
+    1320,
+    15009,
+    5314,
+    16947,
+    13317,
+    14965,
+    6307,
+    11665,
+    6862,
+    13522,
+    3482,
+    2702,
+    15474,
+    3993,
+    12249,
+    8318,
+    7108,
+    6488,
+    1698,
+    6826,
+    15921,
+    7452,
+    4978,
+    13823,
+    13401,
+    10270,
+    1729,
+    13787,
+    12340,
+    5801,
+    9020,
+    2659,
+    7776,
+    7596,
+    11468,
+    8386,
+    14321,
+    1183,
+    5489,
+    6495,
+    16923,
+    2801,
+    14533,
+    11624,
+    1757,
+    15892,
+    15985,
+    5076,
+    9576,
+    9883,
+    9048,
+    8669,
+    14034,
+    860,
+    13415,
+    7321,
+    11243,
+    13283,
+    8456,
+    453,
+    13774,
+    14115,
+    10419,
+    11157,
+    14625,
+    10833,
+    6793,
+    13921,
+    1136,
+    16739,
+    13197,
+    1171,
+    7611,
+    6666,
+    5511,
+    178,
+    4897,
+    16908,
+    12312,
+    1304,
+    15050,
+    5250,
+    15292,
+    8696,
+    2096,
+    9983,
+    10458,
+    12381,
+    13765,
+    6642,
+    8502,
+    1970,
+    2048,
+    900,
+    352,
+    322,
+    13673,
+    16319
+  ],
+  "complete_runs": [
+    {
+      "kind": "deferred",
+      "Z": 4,
+      "A": 3,
+      "S": 3,
+      "compact": true,
+      "fused": true,
+      "identical": true
+    },
+    {
+      "kind": "gc_ring",
+      "Z": 4,
+      "A": 3,
+      "S": 3,
+      "compact": true,
+      "fused": true,
+      "identical": true
+    },
+    {
+      "kind": "path",
+      "Z": 4,
+      "A": 3,
+      "S": 3,
+      "compact": true,
+      "fused": true,
+      "identical": true
+    },
+    {
+      "kind": "r0",
+      "Z": 4,
+      "A": 3,
+      "S": 3,
+      "compact": true,
+      "fused": true,
+      "identical": true
+    },
+    {
+      "kind": "ring",
+      "Z": 4,
+      "A": 3,
+      "S": 3,
+      "compact": true,
+      "fused": true,
+      "identical": true
+    },
+    {
+      "kind": "sde",
+      "Z": 4,
+      "A": 3,
+      "S": 3,
+      "compact": true,
+      "fused": true,
+      "identical": true
+    },
+    {
+      "kind": "r0",
+      "Z": 7,
+      "A": 6,
+      "S": 6,
+      "compact": false,
+      "fused": false,
+      "identical": true
+    },
+    {
+      "kind": "r0",
+      "Z": 7,
+      "A": 6,
+      "S": 6,
+      "compact": false,
+      "fused": true,
+      "identical": true
+    },
+    {
+      "kind": "r0",
+      "Z": 7,
+      "A": 6,
+      "S": 6,
+      "compact": true,
+      "fused": false,
+      "identical": true
+    },
+    {
+      "kind": "r0",
+      "Z": 7,
+      "A": 6,
+      "S": 6,
+      "compact": true,
+      "fused": true,
+      "identical": true
+    },
+    {
+      "kind": "sde",
+      "cached": true,
+      "identical": true
+    },
+    {
+      "kind": "r0",
+      "cached": true,
+      "identical": true
+    }
+  ],
+  "benchmark": [
+    {
+      "B": 64,
+      "seconds": {
+        "reference": 0.0019805000629276037,
+        "prefix_v1": 0.0016242999117821455,
+        "bulk": 0.0016613999614492059
+      }
+    },
+    {
+      "B": 256,
+      "seconds": {
+        "reference": 0.007541900034993887,
+        "prefix_v1": 0.003131899982690811,
+        "bulk": 0.003005600068718195
+      }
+    },
+    {
+      "B": 4096,
+      "seconds": {
+        "reference": 0.11708549992181361,
+        "prefix_v1": 0.0383540999609977,
+        "bulk": 0.017846199916675687
+      }
+    }
+  ],
+  "source_hashes": {
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+  },
+  "bulk_sha256": "59f4eb01e09b70ec872a75cf19f8ea866929fa4135d079fec8caa426fdb15413",
+  "prefix_sha256": "910f2a4deb1ece922c2ab51d6031d1a966e604e9a2101d90e619f0c4cc7b4d84",
+  "checker_sha256": "6fd6a1e8a3648b0e23cdac125e3928a9040ada0842dc30b6f00f267416c53d6e",
+  "reference": "RFC 8018 section 5.2: at c=1 each block is U1, with a four-octet block counter",
+  "benchmark_scope": "harness computation only, not an ORAM algorithm speedup"
+}

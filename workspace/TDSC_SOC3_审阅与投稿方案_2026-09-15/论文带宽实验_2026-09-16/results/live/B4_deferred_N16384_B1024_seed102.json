@@ -1,0 +1,8 @@
+{
+  "id": "B4_deferred_N16384_B1024_seed102",
+  "pid": 23396,
+  "stage": "passed",
+  "time": 1789542686.9863875,
+  "receipt": "results\\formal_slices\\B4_deferred_N16384_B1024_seed102.json",
+  "elapsed_seconds": 178.0726273059845
+}

@@ -1,0 +1,22 @@
+{
+  "id": "B1_sde_hot90_N16384_B4096_seed104",
+  "kind": "sde",
+  "N": 16384,
+  "B": 4096,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "map_B": 512,
+  "terminal_bytes": 32768,
+  "compact": true,
+  "fusion": true,
+  "R": 256,
+  "warmup": 2048,
+  "requests": 4096,
+  "trace_seed": 104,
+  "oram_seed": 1004,
+  "workload": "hot90",
+  "experiment_class": "formal_core"
+}

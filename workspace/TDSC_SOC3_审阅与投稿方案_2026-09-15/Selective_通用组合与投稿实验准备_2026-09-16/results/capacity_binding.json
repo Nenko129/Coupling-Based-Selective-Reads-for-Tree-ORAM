@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "new_specs_bound": 30,
+  "grids": [
+    {
+      "mode": "up",
+      "rows": 6253,
+      "point": "3444672658174305/28948022309329048855892746252171976963317496166410141009864396001978282409984",
+      "files": {
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\numerics\\grids\\IR43_scaled_L12_up_c480_m128.csv": "fad5ca9a83d2e972bd0c78ed95357c02dd80316ab302f59c3bc79b7ca8a43311",
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\numerics\\grids\\IR43_scaled_L12_up_c480_m128_meta.json": "ab695c91b524620bbf0c855597ec45d3fb954810974c7999ca76a05cc98cb567",
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\numerics\\grids\\IR43_scaled_L12_up_c480_m128.log": "dede16df7cf495ae3d16ea9d15b1b68fdb34c10eb0a49f0d80f6f433b9e0e259"
+      }
+    },
+    {
+      "mode": "next",
+      "rows": 6253,
+      "point": "3444672658208623/28948022309329048855892746252171976963317496166410141009864396001978282409984",
+      "files": {
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\numerics\\grids\\IR43_scaled_L12_next_c480_m128.csv": "bba928bba8595a40fea65fe70a14ec780b487e519beb7e55294625fea2e60e6b",
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\numerics\\grids\\IR43_scaled_L12_next_c480_m128_meta.json": "6bf0369f1379d1e7c1356f362439e06af465eab6b5b2a8b75b01d6a1b5105729",
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\numerics\\grids\\IR43_scaled_L12_next_c480_m128.log": "1949061bb64a6d1a315f2ad3a4639a386d3d66fc470d66cdca126fc3b57b63f7"
+      }
+    }
+  ],
+  "lifetime_bound_exact": "3444672658208623/401734511064747568885490523085290650630550748445698208825344",
+  "threshold": 478,
+  "offset": 2,
+  "Q": 72057594037927936,
+  "target": "2^-132",
+  "profile_sha256": "58b8254b5b4a9dc4f250f2c8fe7492a97ec158fd93cb3dee52235cf463f8c033",
+  "audit_sha256": "5e6f9c328021ab697d4ab8da9d03a13913dcb17b147e8e96df2a394d3708b98d",
+  "scope": "static IR profile/seed/grid/point rebinding and exact arithmetic; not new DP computation or independent third-party protocol certification"
+}

@@ -1,0 +1,268 @@
+{
+  "directed_cases": [
+    {
+      "Z": 4,
+      "A": 3,
+      "S": 1,
+      "target": "neutral",
+      "full_completed_projection_equal": true,
+      "rpc_unfused": 7,
+      "rpc_fused": 3
+    },
+    {
+      "Z": 4,
+      "A": 3,
+      "S": 1,
+      "target": "other_bucket",
+      "full_completed_projection_equal": true,
+      "rpc_unfused": 7,
+      "rpc_fused": 3
+    },
+    {
+      "Z": 4,
+      "A": 3,
+      "S": 1,
+      "target": "stash",
+      "full_completed_projection_equal": true,
+      "rpc_unfused": 7,
+      "rpc_fused": 3
+    },
+    {
+      "Z": 4,
+      "A": 3,
+      "S": 1,
+      "target": "absent",
+      "full_completed_projection_equal": true,
+      "rpc_unfused": 7,
+      "rpc_fused": 3
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "S": 1,
+      "target": "neutral",
+      "full_completed_projection_equal": true,
+      "rpc_unfused": 7,
+      "rpc_fused": 3
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "S": 1,
+      "target": "other_bucket",
+      "full_completed_projection_equal": true,
+      "rpc_unfused": 7,
+      "rpc_fused": 3
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "S": 1,
+      "target": "stash",
+      "full_completed_projection_equal": true,
+      "rpc_unfused": 7,
+      "rpc_fused": 3
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "S": 1,
+      "target": "absent",
+      "full_completed_projection_equal": true,
+      "rpc_unfused": 7,
+      "rpc_fused": 3
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "S": 6,
+      "target": "neutral",
+      "full_completed_projection_equal": true,
+      "rpc_unfused": 7,
+      "rpc_fused": 3
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "S": 6,
+      "target": "other_bucket",
+      "full_completed_projection_equal": true,
+      "rpc_unfused": 7,
+      "rpc_fused": 3
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "S": 6,
+      "target": "stash",
+      "full_completed_projection_equal": true,
+      "rpc_unfused": 7,
+      "rpc_fused": 3
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "S": 6,
+      "target": "absent",
+      "full_completed_projection_equal": true,
+      "rpc_unfused": 7,
+      "rpc_fused": 3
+    }
+  ],
+  "paired_traces": [
+    {
+      "Z": 4,
+      "A": 3,
+      "S": 1,
+      "mixed": false,
+      "online_top_operations": 180,
+      "completed_snapshots": 181,
+      "coverage": {
+        "neutral_buckets": 656,
+        "multiple_neutral_calls": 208,
+        "mixed_opening_calls": 231,
+        "target_neutral": 128,
+        "target_other_bucket": 79,
+        "target_stash": 99
+      }
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "S": 1,
+      "mixed": false,
+      "online_top_operations": 180,
+      "completed_snapshots": 181,
+      "coverage": {
+        "neutral_buckets": 876,
+        "multiple_neutral_calls": 287,
+        "mixed_opening_calls": 179,
+        "target_neutral": 151,
+        "target_other_bucket": 50,
+        "target_stash": 156
+      }
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "S": 6,
+      "mixed": false,
+      "online_top_operations": 180,
+      "completed_snapshots": 181,
+      "coverage": {
+        "neutral_buckets": 372,
+        "multiple_neutral_calls": 120,
+        "mixed_opening_calls": 89,
+        "target_neutral": 75,
+        "target_other_bucket": 32,
+        "target_stash": 100
+      }
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "S": 1,
+      "mixed": true,
+      "online_top_operations": 180,
+      "completed_snapshots": 181,
+      "coverage": {
+        "neutral_buckets": 485,
+        "multiple_neutral_calls": 162,
+        "mixed_opening_calls": 129,
+        "target_neutral": 79,
+        "target_other_bucket": 34,
+        "target_stash": 53
+      }
+    }
+  ],
+  "finite_exchangeability": {
+    "n_max": 7,
+    "identity_preserving_configurations": 42,
+    "exact_equalities": 7345
+  },
+  "active_prefixes": [
+    {
+      "case": "header",
+      "rejected": true,
+      "committed_anchor_unchanged": true,
+      "fail_stop_before_IO": true,
+      "rejected_before_any_decryption_of_bad_response": true
+    },
+    {
+      "case": "first_slot",
+      "rejected": true,
+      "committed_anchor_unchanged": true,
+      "fail_stop_before_IO": true,
+      "rejected_before_any_decryption_of_bad_response": true
+    },
+    {
+      "case": "last_slot",
+      "rejected": true,
+      "committed_anchor_unchanged": true,
+      "fail_stop_before_IO": true,
+      "rejected_before_any_decryption_of_bad_response": true
+    },
+    {
+      "case": "dummy_slot",
+      "rejected": true,
+      "committed_anchor_unchanged": true,
+      "fail_stop_before_IO": true,
+      "rejected_before_any_decryption_of_bad_response": true
+    },
+    {
+      "case": "last_proof",
+      "rejected": true,
+      "committed_anchor_unchanged": true,
+      "fail_stop_before_IO": true,
+      "rejected_before_any_decryption_of_bad_response": true
+    },
+    {
+      "case": "truncate",
+      "rejected": true,
+      "committed_anchor_unchanged": true,
+      "fail_stop_before_IO": true,
+      "rejected_before_any_decryption_of_bad_response": true
+    },
+    {
+      "case": "surplus",
+      "rejected": true,
+      "committed_anchor_unchanged": true,
+      "fail_stop_before_IO": true,
+      "rejected_before_any_decryption_of_bad_response": true
+    },
+    {
+      "case": "wrong_sequence",
+      "rejected": true,
+      "committed_anchor_unchanged": true,
+      "fail_stop_before_IO": true,
+      "rejected_before_any_decryption_of_bad_response": true
+    },
+    {
+      "case": "write_ack",
+      "rejected": true,
+      "committed_anchor_unchanged": true,
+      "fail_stop_before_IO": true,
+      "rejected_before_any_decryption_of_bad_response": false
+    },
+    {
+      "case": "bad_transform",
+      "rejected": true,
+      "committed_anchor_unchanged": true,
+      "fail_stop_before_IO": true,
+      "rejected_before_any_decryption_of_bad_response": false
+    },
+    {
+      "case": "Z7_parent_after_map_commit",
+      "map_working_state_advanced": true,
+      "committed_anchor_unchanged": true,
+      "fail_stop_before_IO": true
+    },
+    {
+      "case": "Z7_stash_overflow",
+      "committed_anchor_unchanged": true,
+      "fail_stop_before_IO": true
+    }
+  ],
+  "production_protocol_changed": false,
+  "comparison": "same compact format; exact completed projection under test-only independent semantic event tapes; ciphertext/root bytes intentionally excluded"
+}

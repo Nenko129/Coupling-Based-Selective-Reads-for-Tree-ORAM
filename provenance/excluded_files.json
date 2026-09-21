@@ -1,0 +1,57 @@
+[
+  {
+    "path": "SOC3_audit_2026-09-15/receipts/relocated_evidence.zip",
+    "sha256": "bda949b68fdab7e19645e86645bfaf3579f1fa63bd06b4909dc4fa670b8954b6",
+    "reason": "redundant historical archive excluded"
+  },
+  {
+    "path": "SOC3_audit_2026-09-15/sources/baselines/path.pdf",
+    "sha256": "0c65372a6a3c50d286179a668d771be2bfef5b81e62c6ef58b77ec8ed8a59bce",
+    "reason": "external source snapshots excluded from public runtime distribution"
+  },
+  {
+    "path": "SOC3_audit_2026-09-15/sources/baselines/ring.pdf",
+    "sha256": "f452f88b8ac986896944e6512f3bfafd349b5382c6f2263ba574894e698d80c2",
+    "reason": "external source snapshots excluded from public runtime distribution"
+  },
+  {
+    "path": "SOC3_audit_2026-09-15/sources/index.html",
+    "sha256": "dcf6db57b8c4844667db97aa1c1e0aa5f87a9c780aa6d5a78d49560ee58aed3f",
+    "reason": "external source snapshots excluded from public runtime distribution"
+  },
+  {
+    "path": "SOC3_audit_2026-09-15/sources/README.md",
+    "sha256": "6e97ccfe692c3b802cbcd8e2abbb30feea67700721cc00fed5e070ab06f76528",
+    "reason": "external source snapshots excluded from public runtime distribution"
+  },
+  {
+    "path": "SOC3_audit_2026-09-15/sources/SDE_R0_完整技术报告.pdf",
+    "sha256": "99cb9fe1bbe946452cb812d0ada61c4a40d8b2499d90deda40a87f6027a80a38",
+    "reason": "external source snapshots excluded from public runtime distribution"
+  },
+  {
+    "path": "SOC3_audit_2026-09-15/sources/source_manifest.json",
+    "sha256": "3252c75ba01d4fe4aad3d8c1070b38d5db93bf73833794d0fbf1e55e7789a7cf",
+    "reason": "external source snapshots excluded from public runtime distribution"
+  },
+  {
+    "path": "TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/datasets/raw/Financial1.spc.bz2",
+    "sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+    "reason": "third-party original download; retrieve using download receipt"
+  },
+  {
+    "path": "TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/datasets/raw/SPC-Traces.pdf",
+    "sha256": "442b3c6c64fec10ebcc7221b088640925f0ca3cc3f6e2c6e9f30acf7e9c9ae06",
+    "reason": "third-party original download; retrieve using download receipt"
+  },
+  {
+    "path": "TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/datasets/raw/WebSearch1.spc.bz2",
+    "sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+    "reason": "third-party original download; retrieve using download receipt"
+  },
+  {
+    "path": "TDSC_SOC3_审阅与投稿方案_2026-09-15/Selective_通用组合与投稿实验准备_2026-09-16/TDSC论文实验阶段证据总包_2026-09-16.zip",
+    "sha256": "2652b073833610992e26bfc537b08e3c30b3dd2e4761b917035d7d8630504094",
+    "reason": "redundant historical archive excluded"
+  }
+]

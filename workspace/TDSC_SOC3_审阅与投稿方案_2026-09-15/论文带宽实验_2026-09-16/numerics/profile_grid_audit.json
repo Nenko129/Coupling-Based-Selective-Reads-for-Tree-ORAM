@@ -1,0 +1,258 @@
+{
+  "status": "numerical_structure_audited",
+  "details": [
+    {
+      "profile": "uniform43_h13",
+      "mode": "up",
+      "complete": true,
+      "nonnegative_outward": true,
+      "monotone": true,
+      "profile_seed_bound": true
+    },
+    {
+      "profile": "uniform43_h13",
+      "mode": "next",
+      "complete": true,
+      "nonnegative_outward": true,
+      "monotone": true,
+      "profile_seed_bound": true
+    },
+    {
+      "profile": "uniform76_h12",
+      "mode": "up",
+      "complete": true,
+      "nonnegative_outward": true,
+      "monotone": true,
+      "profile_seed_bound": true
+    },
+    {
+      "profile": "uniform76_h12",
+      "mode": "next",
+      "complete": true,
+      "nonnegative_outward": true,
+      "monotone": true,
+      "profile_seed_bound": true
+    },
+    {
+      "profile": "IR43_scaled_L12",
+      "mode": "up",
+      "complete": true,
+      "nonnegative_outward": true,
+      "monotone": true,
+      "profile_seed_bound": true
+    },
+    {
+      "profile": "IR43_scaled_L12",
+      "mode": "next",
+      "complete": true,
+      "nonnegative_outward": true,
+      "monotone": true,
+      "profile_seed_bound": true
+    },
+    {
+      "profile": "IR43_native_leaf4",
+      "mode": "up",
+      "complete": true,
+      "nonnegative_outward": true,
+      "monotone": true,
+      "profile_seed_bound": true
+    },
+    {
+      "profile": "IR43_native_leaf4",
+      "mode": "next",
+      "complete": true,
+      "nonnegative_outward": true,
+      "monotone": true,
+      "profile_seed_bound": true
+    }
+  ],
+  "admission": [
+    {
+      "profile": "uniform43_h13",
+      "height": 13,
+      "cap": 280,
+      "offset": 2,
+      "Q": 72057594037927936,
+      "R_tested": 256,
+      "R256_lifetime_bound_exact": "5737487249662317/1322111937580497197903830616065542079656809365928562438569297590548811582472622691650378420879430569695182424050046716608512",
+      "R256_lifetime_log2": -356.65065953424056,
+      "R256_meets_2m132": true,
+      "minimum_R_within_grid": 122,
+      "diagnostic_thresholds": [
+        {
+          "threshold": 128,
+          "log2_upper": -202.54458211733254
+        },
+        {
+          "threshold": 186,
+          "log2_upper": -298.2494774634348
+        },
+        {
+          "threshold": 200,
+          "log2_upper": -321.62847187433914
+        },
+        {
+          "threshold": 240,
+          "log2_upper": -388.9316290810553
+        },
+        {
+          "threshold": 254,
+          "log2_upper": -412.65065953424056
+        },
+        {
+          "threshold": 268,
+          "log2_upper": -436.44772425114513
+        },
+        {
+          "threshold": 280,
+          "log2_upper": -449.2961057158978
+        }
+      ]
+    },
+    {
+      "profile": "uniform76_h12",
+      "height": 12,
+      "cap": 280,
+      "offset": 12,
+      "Q": 72057594037927936,
+      "R_tested": 256,
+      "R256_lifetime_bound_exact": "8857082336543877/20657999024695268717247353376024094994637646342633788102645274852325180976134729557037162826241102651487225375781979947008",
+      "R256_lifetime_log2": -350.02424704628714,
+      "R256_meets_2m132": true,
+      "minimum_R_within_grid": 126,
+      "diagnostic_thresholds": [
+        {
+          "threshold": 128,
+          "log2_upper": -211.8360462453014
+        },
+        {
+          "threshold": 186,
+          "log2_upper": -308.4784943138371
+        },
+        {
+          "threshold": 200,
+          "log2_upper": -331.948405942044
+        },
+        {
+          "threshold": 240,
+          "log2_upper": -399.27153887186955
+        },
+        {
+          "threshold": 254,
+          "log2_upper": -422.92139079381917
+        },
+        {
+          "threshold": 268,
+          "log2_upper": -446.61314623909357
+        },
+        {
+          "threshold": 280,
+          "log2_upper": -459.3464195789149
+        }
+      ]
+    },
+    {
+      "profile": "IR43_scaled_L12",
+      "height": 13,
+      "cap": 280,
+      "offset": 2,
+      "Q": 72057594037927936,
+      "R_tested": 256,
+      "R256_lifetime_bound_exact": "4439425339362445/9223372036854775808",
+      "R256_lifetime_log2": -11.020705637435906,
+      "R256_meets_2m132": false,
+      "minimum_R_within_grid": null,
+      "diagnostic_thresholds": [
+        {
+          "threshold": 128,
+          "log2_upper": -14.392039283744355
+        },
+        {
+          "threshold": 186,
+          "log2_upper": -35.4539390919596
+        },
+        {
+          "threshold": 200,
+          "log2_upper": -41.40206310521909
+        },
+        {
+          "threshold": 240,
+          "log2_upper": -59.99983628709023
+        },
+        {
+          "threshold": 254,
+          "log2_upper": -67.02070563743591
+        },
+        {
+          "threshold": 268,
+          "log2_upper": -73.32874449003485
+        },
+        {
+          "threshold": 280,
+          "log2_upper": -74.26827414561063
+        }
+      ]
+    },
+    {
+      "profile": "IR43_native_leaf4",
+      "height": 25,
+      "cap": 280,
+      "offset": 2,
+      "Q": 72057594037927936,
+      "R_tested": 256,
+      "R256_lifetime_bound_exact": "10978360506704838985124717504007164133376",
+      "R256_lifetime_log2": 133.01178641582555,
+      "R256_meets_2m132": false,
+      "minimum_R_within_grid": null,
+      "diagnostic_thresholds": [
+        {
+          "threshold": 128,
+          "log2_upper": 77.01178641582557
+        },
+        {
+          "threshold": 186,
+          "log2_upper": 77.01178641582557
+        },
+        {
+          "threshold": 200,
+          "log2_upper": 77.01178641582557
+        },
+        {
+          "threshold": 240,
+          "log2_upper": 77.01178641582557
+        },
+        {
+          "threshold": 254,
+          "log2_upper": 77.01178641582557
+        },
+        {
+          "threshold": 268,
+          "log2_upper": 77.01178641582557
+        },
+        {
+          "threshold": 280,
+          "log2_upper": 77.01178641582557
+        }
+      ]
+    }
+  ],
+  "uniform_regressions": [
+    {
+      "profile": "uniform43_h13",
+      "points": 3653,
+      "bit_exact_equal_to_frozen_up": true,
+      "differing_points": 0,
+      "max_relative_difference": 0.0
+    },
+    {
+      "profile": "uniform76_h12",
+      "points": 3372,
+      "bit_exact_equal_to_frozen_up": true,
+      "differing_points": 0,
+      "max_relative_difference": 0.0
+    }
+  ],
+  "independent_third_party_audit": false,
+  "protocol_closure": false,
+  "interpretation": "failed upper-bound admission is not a lower bound on actual overflow"
+}

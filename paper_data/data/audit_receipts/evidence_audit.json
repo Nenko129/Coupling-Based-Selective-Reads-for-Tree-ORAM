@@ -1,0 +1,1385 @@
+{
+  "checked_on": "2026-09-17",
+  "method": "read-only recomputation from saved receipts; not a fresh rerun or independent third-party audit",
+  "status": "passed_with_scope_notes",
+  "counts": {
+    "manifest_hash": 1125,
+    "source_copy_hash": 1065,
+    "zip_crc": 1,
+    "zip_sha256": 1,
+    "exact_matrix_ids": 2,
+    "formal_status": 245,
+    "formal_spec": 245,
+    "wire_direction_sum": 2550,
+    "component_sum": 2550,
+    "by_stage_sum": 2550,
+    "by_tree_sum": 2550,
+    "rpc_invoice": 2550,
+    "rpc_sequence": 2550,
+    "bytes_per_request": 1035,
+    "rpc_per_request": 1035,
+    "backend_total_bytes_sum": 1100,
+    "backend_rpc_sum": 1100,
+    "recomputed_bytes_saving_pct": 40,
+    "recomputed_ci95_low_pct": 40,
+    "recomputed_ci95_high_pct": 40,
+    "recomputed_baseline_bytes_per_request": 35,
+    "recomputed_variant_bytes_per_request": 35,
+    "recomputed_rpc_saving_pct": 36,
+    "paired_n": 40,
+    "paired_answer": 200,
+    "paired_trace": 200,
+    "paired_frontend_schedule": 20,
+    "ablation_alias_physical_value": 90,
+    "trace_file_hash": 65,
+    "chart_valid_reference": 7,
+    "xlsx_error_cells": 1,
+    "xlsx_formula_cache": 1,
+    "xlsx_saved_value": 437,
+    "xlsx_summary_formula_cache": 6,
+    "workbook_data_rowcount": 5,
+    "workbook_data_csv": 467
+  },
+  "issues": [],
+  "manifest_entries": 1125,
+  "zip_entries": 1129,
+  "zip_sha256": "2652b073833610992e26bfc537b08e3c30b3dd2e4761b917035d7d8630504094",
+  "receipts": {
+    "minimal": 120,
+    "scale": 125,
+    "existing": 790,
+    "statuses": {
+      "passed": 1035
+    },
+    "unbilled": []
+  },
+  "comparisons": [
+    {
+      "table": "table_03_minimal_composition.csv",
+      "key": {
+        "family": "AB",
+        "layout": "depth",
+        "B": "64",
+        "baseline": "base"
+      },
+      "n": 5,
+      "mean": 25.009581489902907,
+      "ci95": [
+        24.96077607639483,
+        25.058386903410984
+      ],
+      "per_seed": [
+        24.97777152116457,
+        25.040581594494704,
+        25.050809622399907,
+        25.018445821086832,
+        24.960298890368527
+      ]
+    },
+    {
+      "table": "table_03_minimal_composition.csv",
+      "key": {
+        "family": "AB",
+        "layout": "depth",
+        "B": "4096",
+        "baseline": "base"
+      },
+      "n": 5,
+      "mean": 23.244381965276776,
+      "ci95": [
+        23.12053481347638,
+        23.368229117077174
+      ],
+      "per_seed": [
+        23.226929353338242,
+        23.278176285878672,
+        23.17928708421614,
+        23.140457840704066,
+        23.397059262246767
+      ]
+    },
+    {
+      "table": "table_03_minimal_composition.csv",
+      "key": {
+        "family": "AB",
+        "layout": "uniform",
+        "B": "64",
+        "baseline": "base"
+      },
+      "n": 5,
+      "mean": 24.212103478736065,
+      "ci95": [
+        24.11030801357604,
+        24.31389894389609
+      ],
+      "per_seed": [
+        24.31135139418269,
+        24.09957091254026,
+        24.269009053466462,
+        24.18076538896624,
+        24.19982064452467
+      ]
+    },
+    {
+      "table": "table_03_minimal_composition.csv",
+      "key": {
+        "family": "IR",
+        "layout": "depth",
+        "B": "64",
+        "baseline": "base"
+      },
+      "n": 5,
+      "mean": 20.551403808593754,
+      "ci95": [
+        20.491707630490243,
+        20.611099986697266
+      ],
+      "per_seed": [
+        20.49459357010691,
+        20.573756167763158,
+        20.561941046463815,
+        20.5127595600329,
+        20.61396869860198
+      ]
+    },
+    {
+      "table": "table_03_minimal_composition.csv",
+      "key": {
+        "family": "IR",
+        "layout": "depth",
+        "B": "4096",
+        "baseline": "base"
+      },
+      "n": 5,
+      "mean": 21.582891282648188,
+      "ci95": [
+        21.512642758526642,
+        21.653139806769733
+      ],
+      "per_seed": [
+        21.574875497290137,
+        21.511496005462995,
+        21.54968892340291,
+        21.629233047091223,
+        21.649162939993673
+      ]
+    },
+    {
+      "table": "table_03_minimal_composition.csv",
+      "key": {
+        "family": "IR",
+        "layout": "uniform",
+        "B": "64",
+        "baseline": "base"
+      },
+      "n": 5,
+      "mean": 22.257376445776742,
+      "ci95": [
+        22.210063779477945,
+        22.30468911207554
+      ],
+      "per_seed": [
+        22.22852982163227,
+        22.266200119044456,
+        22.22106363655959,
+        22.253982725289156,
+        22.317105926358238
+      ]
+    },
+    {
+      "table": "table_03_minimal_composition.csv",
+      "key": {
+        "family": "free_compressed",
+        "layout": "host",
+        "B": "64",
+        "baseline": "base"
+      },
+      "n": 5,
+      "mean": 23.872247990463595,
+      "ci95": [
+        23.832619163657316,
+        23.911876817269874
+      ],
+      "per_seed": [
+        23.832218199177202,
+        23.90306303976327,
+        23.86676505837324,
+        23.85328642596084,
+        23.905907229043432
+      ]
+    },
+    {
+      "table": "table_03_minimal_composition.csv",
+      "key": {
+        "family": "free_compressed",
+        "layout": "host",
+        "B": "4096",
+        "baseline": "base"
+      },
+      "n": 5,
+      "mean": 24.20101469451875,
+      "ci95": [
+        24.160929030987152,
+        24.24110035805035
+      ],
+      "per_seed": [
+        24.160681179636022,
+        24.232502503033327,
+        24.195208059446436,
+        24.181792377368982,
+        24.23488935310898
+      ]
+    },
+    {
+      "table": "table_03_minimal_composition.csv",
+      "key": {
+        "family": "rho",
+        "layout": "host",
+        "B": "64",
+        "baseline": "base"
+      },
+      "n": 5,
+      "mean": 9.84695972713328,
+      "ci95": [
+        9.80197560624134,
+        9.89194384802522
+      ],
+      "per_seed": [
+        9.841311489791504,
+        9.887839306564917,
+        9.880652859462435,
+        9.80822130915815,
+        9.816773670689393
+      ]
+    },
+    {
+      "table": "table_03_minimal_composition.csv",
+      "key": {
+        "family": "rho",
+        "layout": "host",
+        "B": "4096",
+        "baseline": "base"
+      },
+      "n": 5,
+      "mean": 9.617620912283405,
+      "ci95": [
+        9.573622311833082,
+        9.661619512733727
+      ],
+      "per_seed": [
+        9.611969020483002,
+        9.65749719925788,
+        9.650733000279521,
+        9.579649332677798,
+        9.58825600871882
+      ]
+    },
+    {
+      "table": "table_04_attribution_controls.csv",
+      "key": {
+        "family": "AB",
+        "layout": "depth",
+        "B": "64",
+        "baseline": "full_probe"
+      },
+      "n": 5,
+      "mean": 25.034252157696425,
+      "ci95": [
+        24.997175150710117,
+        25.071329164682734
+      ],
+      "per_seed": [
+        25.00670413466417,
+        25.080780948047554,
+        25.046454019915878,
+        25.02063186545459,
+        25.01668982039993
+      ]
+    },
+    {
+      "table": "table_04_attribution_controls.csv",
+      "key": {
+        "family": "AB",
+        "layout": "depth",
+        "B": "4096",
+        "baseline": "full_probe"
+      },
+      "n": 5,
+      "mean": 23.3104411379202,
+      "ci95": [
+        23.196034560051142,
+        23.42484771578926
+      ],
+      "per_seed": [
+        23.317897803383126,
+        23.173867887594856,
+        23.389120260903606,
+        23.273255193222287,
+        23.39806454449713
+      ]
+    },
+    {
+      "table": "table_04_attribution_controls.csv",
+      "key": {
+        "family": "IR",
+        "layout": "depth",
+        "B": "64",
+        "baseline": "full_probe"
+      },
+      "n": 5,
+      "mean": 20.551403808593754,
+      "ci95": [
+        20.491707630490243,
+        20.611099986697266
+      ],
+      "per_seed": [
+        20.49459357010691,
+        20.573756167763158,
+        20.561941046463815,
+        20.5127595600329,
+        20.61396869860198
+      ]
+    },
+    {
+      "table": "table_04_attribution_controls.csv",
+      "key": {
+        "family": "IR",
+        "layout": "depth",
+        "B": "4096",
+        "baseline": "full_probe"
+      },
+      "n": 5,
+      "mean": 21.582891282648188,
+      "ci95": [
+        21.512642758526642,
+        21.653139806769733
+      ],
+      "per_seed": [
+        21.574875497290137,
+        21.511496005462995,
+        21.54968892340291,
+        21.629233047091223,
+        21.649162939993673
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "SDE/Path",
+        "B": "4096",
+        "N": "4096",
+        "baseline": "path"
+      },
+      "n": 5,
+      "mean": 36.067071832067555,
+      "ci95": [
+        35.97538586351408,
+        36.15875780062103
+      ],
+      "per_seed": [
+        36.10335204549002,
+        36.11846880108273,
+        36.05894657593648,
+        35.94179172009307,
+        36.11280001773546
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "SDE/Deferred",
+        "B": "4096",
+        "N": "4096",
+        "baseline": "deferred"
+      },
+      "n": 5,
+      "mean": 24.101122780255864,
+      "ci95": [
+        23.992276489785095,
+        24.209969070726633
+      ],
+      "per_seed": [
+        24.14419334722294,
+        24.16213941679256,
+        24.091476767862197,
+        23.95239472869767,
+        24.15540964070395
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "R0/Ring",
+        "B": "4096",
+        "N": "4096",
+        "baseline": "ring"
+      },
+      "n": 5,
+      "mean": 26.622364794613482,
+      "ci95": [
+        26.452563876374583,
+        26.79216571285238
+      ],
+      "per_seed": [
+        26.74297852281794,
+        26.420984648323966,
+        26.730674117003005,
+        26.546976111506837,
+        26.670210573415666
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "SDE/Path",
+        "B": "64",
+        "N": "16384",
+        "baseline": "path"
+      },
+      "n": 5,
+      "mean": 25.840532744158306,
+      "ci95": [
+        25.68965746992177,
+        25.991408018394843
+      ],
+      "per_seed": [
+        25.706113588678782,
+        25.85608714436203,
+        25.731156791945253,
+        25.991658477634417,
+        25.917647718171054
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "SDE/Deferred",
+        "B": "64",
+        "N": "16384",
+        "baseline": "deferred"
+      },
+      "n": 5,
+      "mean": 22.398764656325827,
+      "ci95": [
+        22.24088720524896,
+        22.556642107402695
+      ],
+      "per_seed": [
+        22.258107058515986,
+        22.415040941950615,
+        22.284312526035542,
+        22.55690419054749,
+        22.479458564579502
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "R0/Ring",
+        "B": "64",
+        "N": "16384",
+        "baseline": "ring"
+      },
+      "n": 5,
+      "mean": 27.594171798436168,
+      "ci95": [
+        27.460570820254357,
+        27.72777277661798
+      ],
+      "per_seed": [
+        27.737328140588048,
+        27.66357283558363,
+        27.469389157478275,
+        27.578359812077835,
+        27.52220904645306
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "SDE/Path",
+        "B": "256",
+        "N": "16384",
+        "baseline": "path"
+      },
+      "n": 5,
+      "mean": 29.04488760453947,
+      "ci95": [
+        28.934905997138326,
+        29.15486921194061
+      ],
+      "per_seed": [
+        28.917067524263096,
+        29.005993544338406,
+        29.050940758120834,
+        29.14238609392087,
+        29.10805010205413
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "SDE/Deferred",
+        "B": "256",
+        "N": "16384",
+        "baseline": "deferred"
+      },
+      "n": 5,
+      "mean": 22.92553849749091,
+      "ci95": [
+        22.806071796932688,
+        23.04500519804913
+      ],
+      "per_seed": [
+        22.78669488884998,
+        22.88329011475373,
+        22.93211369041113,
+        23.031445504226344,
+        22.994148289213367
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "R0/Ring",
+        "B": "256",
+        "N": "16384",
+        "baseline": "ring"
+      },
+      "n": 5,
+      "mean": 27.296367564352114,
+      "ci95": [
+        27.186439870756214,
+        27.406295257948013
+      ],
+      "per_seed": [
+        27.38483761590411,
+        27.32987555661044,
+        27.30770783662708,
+        27.311521710077624,
+        27.14789510254131
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "SDE/Path",
+        "B": "1024",
+        "N": "16384",
+        "baseline": "path"
+      },
+      "n": 5,
+      "mean": 33.30961959544001,
+      "ci95": [
+        33.216184026380134,
+        33.40305516449989
+      ],
+      "per_seed": [
+        33.256682296011164,
+        33.24832365595603,
+        33.27269698875354,
+        33.42583953872978,
+        33.34455549774955
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "SDE/Deferred",
+        "B": "1024",
+        "N": "16384",
+        "baseline": "deferred"
+      },
+      "n": 5,
+      "mean": 23.69270556263792,
+      "ci95": [
+        23.585796358702908,
+        23.79961476657293
+      ],
+      "per_seed": [
+        23.632134576691655,
+        23.622570600539248,
+        23.650458626832062,
+        23.825684702632444,
+        23.732679306494187
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "R0/Ring",
+        "B": "1024",
+        "N": "16384",
+        "baseline": "ring"
+      },
+      "n": 5,
+      "mean": 26.899855363745434,
+      "ci95": [
+        26.780705967682977,
+        27.019004759807892
+      ],
+      "per_seed": [
+        26.795432148320174,
+        27.01970207911789,
+        26.97369316649877,
+        26.887856069506068,
+        26.822593355284262
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "SDE/Path",
+        "B": "4096",
+        "N": "65536",
+        "baseline": "path"
+      },
+      "n": 5,
+      "mean": 35.91974268028862,
+      "ci95": [
+        35.85003678065932,
+        35.98944857991792
+      ],
+      "per_seed": [
+        35.85557749576396,
+        35.91845937659812,
+        35.92500865060478,
+        36.00749188901494,
+        35.892175989461286
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "SDE/Deferred",
+        "B": "4096",
+        "N": "65536",
+        "baseline": "deferred"
+      },
+      "n": 5,
+      "mean": 24.306365476381497,
+      "ci95": [
+        24.224026654545064,
+        24.38870429821793
+      ],
+      "per_seed": [
+        24.230571523146914,
+        24.304849597316803,
+        24.312585807715926,
+        24.41001762780668,
+        24.273802825921166
+      ]
+    },
+    {
+      "table": "table_02_scale.csv",
+      "key": {
+        "comparison": "R0/Ring",
+        "B": "4096",
+        "N": "65536",
+        "baseline": "ring"
+      },
+      "n": 5,
+      "mean": 26.017949281327564,
+      "ci95": [
+        25.815600531304717,
+        26.22029803135041
+      ],
+      "per_seed": [
+        25.859360261261244,
+        25.990204967881482,
+        26.28735139819771,
+        26.022693686585598,
+        25.930136092711777
+      ]
+    },
+    {
+      "table": "table_01_tuned_main.csv",
+      "key": {
+        "comparison": "SDE/Path",
+        "workload": "uniform",
+        "baseline": "path"
+      },
+      "n": 5,
+      "mean": 35.76734992284389,
+      "ci95": [
+        35.657788906122875,
+        35.87691093956491
+      ],
+      "per_seed": [
+        35.88157766471656,
+        35.714850397814715,
+        35.836380667906084,
+        35.73378926682036,
+        35.670151616961746
+      ]
+    },
+    {
+      "table": "table_01_tuned_main.csv",
+      "key": {
+        "comparison": "SDE/Deferred",
+        "workload": "uniform",
+        "baseline": "deferred"
+      },
+      "n": 5,
+      "mean": 24.175659730423106,
+      "ci95": [
+        24.0463268786389,
+        24.304992582207312
+      ],
+      "per_seed": [
+        24.310501483917236,
+        24.113685923565964,
+        24.257148049780497,
+        24.13604257934898,
+        24.060920615502855
+      ]
+    },
+    {
+      "table": "table_01_tuned_main.csv",
+      "key": {
+        "comparison": "R0/Ring",
+        "workload": "uniform",
+        "baseline": "ring"
+      },
+      "n": 5,
+      "mean": 25.365870760789118,
+      "ci95": [
+        25.18573460053921,
+        25.546006921039027
+      ],
+      "per_seed": [
+        25.5310658470563,
+        25.45705121083486,
+        25.26358265235711,
+        25.403393725587975,
+        25.174260368109348
+      ]
+    },
+    {
+      "table": "table_01_tuned_main.csv",
+      "key": {
+        "comparison": "SDE/Path",
+        "workload": "hot90",
+        "baseline": "path"
+      },
+      "n": 5,
+      "mean": 35.78786464966342,
+      "ci95": [
+        35.68241131592788,
+        35.89331798339896
+      ],
+      "per_seed": [
+        35.84610883417289,
+        35.906220477188135,
+        35.750818184607056,
+        35.73115012879882,
+        35.70502562355021
+      ]
+    },
+    {
+      "table": "table_01_tuned_main.csv",
+      "key": {
+        "comparison": "SDE/Deferred",
+        "workload": "hot90",
+        "baseline": "deferred"
+      },
+      "n": 5,
+      "mean": 24.199876629850937,
+      "ci95": [
+        24.075392750544697,
+        24.324360509157177
+      ],
+      "per_seed": [
+        24.26863180124219,
+        24.339591440439346,
+        24.156144606201835,
+        24.132927171544328,
+        24.10208812982698
+      ]
+    },
+    {
+      "table": "table_01_tuned_main.csv",
+      "key": {
+        "comparison": "R0/Ring",
+        "workload": "hot90",
+        "baseline": "ring"
+      },
+      "n": 5,
+      "mean": 25.393937218101218,
+      "ci95": [
+        25.157124177090378,
+        25.63075025911206
+      ],
+      "per_seed": [
+        25.303051649527852,
+        25.237897935742872,
+        25.250121830184003,
+        25.678385223255273,
+        25.5002294517961
+      ]
+    },
+    {
+      "table": "table_05_ablation.csv",
+      "key": {
+        "step": "small map"
+      },
+      "n": 5,
+      "mean": 15.404857318030526,
+      "ci95": [
+        15.103361538185503,
+        15.70635309787555
+      ],
+      "per_seed": [
+        15.233166032685263,
+        15.450466840154142,
+        15.730450679863106,
+        15.107153707325761,
+        15.503049330124362
+      ]
+    },
+    {
+      "table": "table_05_ablation.csv",
+      "key": {
+        "step": "compact header"
+      },
+      "n": 5,
+      "mean": 2.051954935222955,
+      "ci95": [
+        1.6667629960634311,
+        2.4371468743824787
+      ],
+      "per_seed": [
+        2.525817686096088,
+        1.681033843035118,
+        1.9909263479083283,
+        2.126445905138419,
+        1.9355508939368216
+      ]
+    },
+    {
+      "table": "table_05_ablation.csv",
+      "key": {
+        "step": "neutral/read fusion"
+      },
+      "n": 5,
+      "mean": 0.8406500584893317,
+      "ci95": [
+        0.5669763922287011,
+        1.1143237247499624
+      ],
+      "per_seed": [
+        0.7197842583287928,
+        1.179280425310214,
+        0.7332606398639196,
+        0.9394385502579983,
+        0.6314864186857339
+      ]
+    },
+    {
+      "table": "table_05_ablation.csv",
+      "key": {
+        "step": "(Z,A,S) retuning"
+      },
+      "n": 5,
+      "mean": 16.20312677410318,
+      "ci95": [
+        15.88723863020223,
+        16.519014918004128
+      ],
+      "per_seed": [
+        15.897182568575596,
+        16.00434600387748,
+        16.214435362703806,
+        16.405571550142728,
+        16.494098385216283
+      ]
+    },
+    {
+      "table": "table_05_ablation.csv",
+      "key": {
+        "step": "joint result"
+      },
+      "n": 5,
+      "mean": 31.150980121274806,
+      "ci95": [
+        30.97770529120405,
+        31.324254951345562
+      ],
+      "per_seed": [
+        31.00957499285324,
+        30.999324083502145,
+        31.30740655715759,
+        31.195859825289418,
+        31.242735147571643
+      ]
+    }
+  ],
+  "ablation_schema": {
+    "raw_type": "list",
+    "raw_first": "[{'id': 'B2_R0_43_cf00_seed101', 'physical_id': 'B2_R0_43_cf00_seed101', 'spec': {'id': 'B2_R0_43_cf00_seed101', 'kind': 'r0', 'N': 16384, 'B': 4096, 'profile': [4, 3, 3], 'map_B': 512, 'terminal_bytes': 32768, 'compact': False, 'fusion': False, 'R': 256, 'warmup': 2048, 'requests': 4096, 'trace_seed': 101, 'oram_seed': 1001, 'workload': 'uniform', 'experiment_class': 'formal_ablation'}, 'total_bytes': 1300153696, 'bytes_per_request': 317420.3359375, 'rpc_per_request': 9.504150390625, 'components': {'data_download': 518698672, 'data_upload': 644705152, 'headers_download': 29333668, 'headers_upload': 30454788, 'authentication_download': 29349312, 'authentication_upload': 43404992, 'framing_and_control': 4207112}}]",
+    "receipts_first": "[{'id': 'B2_R0_43_cf00_seed101', 'path': 'results/formal_ablation/B2_R0_43_cf00_seed101.json', 'sha256': '84d978e83885472d4d5d429feb19d13bca84d0323a2283b958169bdf8e861be3'}]"
+  },
+  "sources": {
+    "resolved_matches": 58,
+    "alias_resolved": [
+      {
+        "path": "bootstrap_frontend",
+        "sha256": "88aa8d6c5ce9744cd66456b19eac03387e0b50481c268c14cd3e05edc5246fe2",
+        "matching_files": [
+          "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\ab_paced_frontend.py"
+        ]
+      },
+      {
+        "path": "driver",
+        "sha256": "52d56f523d14aad92ec4aafcb25d26bc43ed13b53a9513918449cf966d3afdce",
+        "matching_files": [
+          "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_ab_dummy_first_periodic.py"
+        ]
+      },
+      {
+        "path": "driver",
+        "sha256": "d51feff4f65177f8e00ede6b3cb2adfcbd274a9b296bb3bd7be42dc16f6bfa7f",
+        "matching_files": [
+          "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_ir_guarded_periodic.py"
+        ]
+      },
+      {
+        "path": "fixed_transfer",
+        "sha256": "6adc12ca99d32a2628f14a1fdac557eda95161fc2851ee11019d4f2b7526bb18",
+        "matching_files": [
+          "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\review_bundle\\workspace\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\transfer_backend_fixed.py",
+          "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\transfer_backend_fixed.py"
+        ]
+      },
+      {
+        "path": "frontend",
+        "sha256": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4",
+        "matching_files": [
+          "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\review_bundle\\workspace\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\frontends.py",
+          "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\frontends.py"
+        ]
+      },
+      {
+        "path": "frontends.py",
+        "sha256": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4",
+        "matching_files": [
+          "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\review_bundle\\workspace\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\frontends.py",
+          "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\frontends.py"
+        ]
+      },
+      {
+        "path": "preserved_helpers",
+        "sha256": "6e1fdec8bdd507d8fffe4ee95c9e81f1fdb39ba8e5f424a475ca063d925daa9d",
+        "matching_files": [
+          "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_ir_compressed_periodic.py"
+        ]
+      },
+      {
+        "path": "transfer_backend.py",
+        "sha256": "34d593fa1dee61f412fce3a11269d1e05e0e5f2c893107a436d5d53c73be4ff7",
+        "matching_files": [
+          "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\review_bundle\\workspace\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\transfer_backend.py",
+          "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\transfer_backend.py"
+        ]
+      }
+    ],
+    "unresolved": [],
+    "current_hash_mismatches": []
+  },
+  "trace_files": [
+    {
+      "path": "datasets\\prepared\\Financial1_startkey_N16384_seed101.json",
+      "ok": true
+    },
+    {
+      "path": "datasets\\prepared\\Financial1_startkey_N16384_seed102.json",
+      "ok": true
+    },
+    {
+      "path": "datasets\\prepared\\Financial1_startkey_N16384_seed103.json",
+      "ok": true
+    },
+    {
+      "path": "datasets\\prepared\\Financial1_startkey_N16384_seed104.json",
+      "ok": true
+    },
+    {
+      "path": "datasets\\prepared\\Financial1_startkey_N16384_seed105.json",
+      "ok": true
+    },
+    {
+      "path": "datasets\\prepared\\WebSearch1_startkey_N16384_seed101.json",
+      "ok": true
+    },
+    {
+      "path": "datasets\\prepared\\WebSearch1_startkey_N16384_seed102.json",
+      "ok": true
+    },
+    {
+      "path": "datasets\\prepared\\WebSearch1_startkey_N16384_seed103.json",
+      "ok": true
+    },
+    {
+      "path": "datasets\\prepared\\WebSearch1_startkey_N16384_seed104.json",
+      "ok": true
+    },
+    {
+      "path": "datasets\\prepared\\WebSearch1_startkey_N16384_seed105.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N16384_Q6144_seed101.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N16384_Q6144_seed102.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N16384_Q6144_seed103.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N16384_Q6144_seed104.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N16384_Q6144_seed105.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q3200_seed101.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q3200_seed102.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q3200_seed103.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q3200_seed104.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q3200_seed105.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q6144_seed101.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q6144_seed102.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q6144_seed103.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q6144_seed104.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q6144_seed105.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q7680_seed101.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q7680_seed102.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q7680_seed103.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q7680_seed104.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\hot90_N4096_Q7680_seed105.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N16384_Q6144_seed101.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N16384_Q6144_seed102.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N16384_Q6144_seed103.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N16384_Q6144_seed104.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N16384_Q6144_seed105.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N256_Q4352_seed101.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N256_Q4352_seed102.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N256_Q4352_seed103.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N256_Q4352_seed104.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N256_Q4352_seed105.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q3200_seed101.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q3200_seed102.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q3200_seed103.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q3200_seed104.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q3200_seed105.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q36864_seed101.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q36864_seed102.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q36864_seed103.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q36864_seed104.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q36864_seed105.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q6144_seed101.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q6144_seed102.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q6144_seed103.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q6144_seed104.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N4096_Q6144_seed105.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N65536_Q6144_seed101.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N65536_Q6144_seed102.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N65536_Q6144_seed103.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N65536_Q6144_seed104.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\uniform_N65536_Q6144_seed105.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\zipf09_N4096_Q6144_seed101.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\zipf09_N4096_Q6144_seed102.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\zipf09_N4096_Q6144_seed103.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\zipf09_N4096_Q6144_seed104.json",
+      "ok": true
+    },
+    {
+      "path": "traces\\zipf09_N4096_Q6144_seed105.json",
+      "ok": true
+    }
+  ],
+  "workbook": {
+    "sha256": "7380a1a2be4c28fdc11f072f0bd6bda3b9f7a5c38cf4a01ac3aaa8abd0b9075f",
+    "sheets": [
+      {
+        "name": "总览",
+        "stored_cells": 448,
+        "formulas": 6,
+        "dimension": null
+      },
+      {
+        "name": "主比较",
+        "stored_cells": 198,
+        "formulas": 0,
+        "dimension": null
+      },
+      {
+        "name": "规模矩阵",
+        "stored_cells": 744,
+        "formulas": 0,
+        "dimension": null
+      },
+      {
+        "name": "最小组合",
+        "stored_cells": 792,
+        "formulas": 0,
+        "dimension": null
+      },
+      {
+        "name": "消融",
+        "stored_cells": 160,
+        "formulas": 0,
+        "dimension": null
+      },
+      {
+        "name": "稳健性",
+        "stored_cells": 2232,
+        "formulas": 0,
+        "dimension": null
+      },
+      {
+        "name": "补充证据",
+        "stored_cells": 854,
+        "formulas": 0,
+        "dimension": null
+      },
+      {
+        "name": "资源审计",
+        "stored_cells": 400,
+        "formulas": 0,
+        "dimension": null
+      },
+      {
+        "name": "原始运行",
+        "stored_cells": 4864,
+        "formulas": 0,
+        "dimension": null
+      },
+      {
+        "name": "证据索引",
+        "stored_cells": 11150,
+        "formulas": 0,
+        "dimension": null
+      }
+    ],
+    "errors": [],
+    "missing_formula_cache": [],
+    "charts": [
+      {
+        "chart": "xl/drawings/charts/chart1.xml",
+        "references": [
+          "'总览'!$A$16:$A$25",
+          "'总览'!$B$16:$B$25"
+        ]
+      },
+      {
+        "chart": "xl/drawings/charts/chart2.xml",
+        "references": [
+          "'主比较'!$A$5:$A$10",
+          "'主比较'!$H$5:$H$10"
+        ]
+      },
+      {
+        "chart": "xl/drawings/charts/chart3.xml",
+        "references": [
+          "'规模矩阵'!$N$25:$N$27",
+          "'规模矩阵'!$O$25:$O$27",
+          "'规模矩阵'!$N$25:$N$27",
+          "'规模矩阵'!$P$25:$P$27",
+          "'规模矩阵'!$N$25:$N$27",
+          "'规模矩阵'!$Q$25:$Q$27"
+        ]
+      },
+      {
+        "chart": "xl/drawings/charts/chart4.xml",
+        "references": [
+          "'规模矩阵'!$N$31:$N$32",
+          "'规模矩阵'!$O$31:$O$32",
+          "'规模矩阵'!$N$31:$N$32",
+          "'规模矩阵'!$P$31:$P$32",
+          "'规模矩阵'!$N$31:$N$32",
+          "'规模矩阵'!$Q$31:$Q$32"
+        ]
+      },
+      {
+        "chart": "xl/drawings/charts/chart5.xml",
+        "references": [
+          "'最小组合'!$P$25:$P$34",
+          "'最小组合'!$Q$25:$Q$34"
+        ]
+      },
+      {
+        "chart": "xl/drawings/charts/chart6.xml",
+        "references": [
+          "'消融'!$A$5:$A$9",
+          "'消融'!$E$5:$E$9"
+        ]
+      },
+      {
+        "chart": "xl/drawings/charts/chart7.xml",
+        "references": [
+          "'稳健性'!$M$25:$M$32",
+          "'稳健性'!$N$25:$N$32"
+        ]
+      }
+    ]
+  },
+  "scope_limits": [
+    "Fixed-window core/scale results; not stationary estimates",
+    "Minimal base->selective also changes placement; full_probe controls attribution",
+    "Frontend leakage/clock contract applies to Freecursive/rho",
+    "Capacity certificate is profile specific",
+    "No production network latency or true trusted peak memory measurement",
+    "No native four-author-system reproduction"
+  ]
+}

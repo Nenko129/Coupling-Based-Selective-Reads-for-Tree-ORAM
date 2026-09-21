@@ -1,0 +1,181 @@
+{
+  "source_sha256": "19d8056278e67610261cba9349e7032fc90492a7a410e4c048cd1f5db5e1e21d",
+  "bars": [
+    {
+      "panel": "conditional",
+      "family": "43",
+      "effect": "compact_without_fusion_pct",
+      "metric": "bytes_saving",
+      "mean": 2.051954935222955,
+      "ci95": [
+        1.6667629960634311,
+        2.4371468743824787
+      ]
+    },
+    {
+      "panel": "conditional",
+      "family": "43",
+      "effect": "compact_with_fusion_pct",
+      "metric": "bytes_saving",
+      "mean": 1.9309516910231306,
+      "ci95": [
+        1.720281884403819,
+        2.141621497642442
+      ]
+    },
+    {
+      "panel": "conditional",
+      "family": "43",
+      "effect": "fusion_without_compact_pct",
+      "metric": "bytes_saving",
+      "mean": 0.963182644010383,
+      "ci95": [
+        0.6298542411836487,
+        1.2965110468371173
+      ]
+    },
+    {
+      "panel": "conditional",
+      "family": "43",
+      "effect": "fusion_with_compact_pct",
+      "metric": "bytes_saving",
+      "mean": 0.8406500584893317,
+      "ci95": [
+        0.5669763922287011,
+        1.1143237247499624
+      ]
+    },
+    {
+      "panel": "conditional",
+      "family": "76",
+      "effect": "compact_without_fusion_pct",
+      "metric": "bytes_saving",
+      "mean": 2.812973031284136,
+      "ci95": [
+        2.641292840192157,
+        2.984653222376115
+      ]
+    },
+    {
+      "panel": "conditional",
+      "family": "76",
+      "effect": "compact_with_fusion_pct",
+      "metric": "bytes_saving",
+      "mean": 2.858620361692108,
+      "ci95": [
+        2.546744324657311,
+        3.170496398726905
+      ]
+    },
+    {
+      "panel": "conditional",
+      "family": "76",
+      "effect": "fusion_without_compact_pct",
+      "metric": "bytes_saving",
+      "mean": 0.3553819208370701,
+      "ci95": [
+        0.16513210794032926,
+        0.5456317337338109
+      ]
+    },
+    {
+      "panel": "conditional",
+      "family": "76",
+      "effect": "fusion_with_compact_pct",
+      "metric": "bytes_saving",
+      "mean": 0.40213474704090313,
+      "ci95": [
+        0.04687945683018019,
+        0.757390037251626
+      ]
+    },
+    {
+      "panel": "ladder",
+      "before": "43_large_map_cf00",
+      "after": "43_cf00",
+      "metric": "bytes_saving",
+      "mean": 15.404857318030526,
+      "ci95": [
+        15.103361538185503,
+        15.70635309787555
+      ]
+    },
+    {
+      "panel": "ladder",
+      "before": "43_cf00",
+      "after": "43_cf10",
+      "metric": "bytes_saving",
+      "mean": 2.051954935222955,
+      "ci95": [
+        1.6667629960634311,
+        2.4371468743824787
+      ]
+    },
+    {
+      "panel": "ladder",
+      "before": "43_cf10",
+      "after": "43_cf11",
+      "metric": "bytes_saving",
+      "mean": 0.8406500584893317,
+      "ci95": [
+        0.5669763922287011,
+        1.1143237247499624
+      ]
+    },
+    {
+      "panel": "ladder",
+      "before": "43_cf11",
+      "after": "76_cf11",
+      "metric": "bytes_saving",
+      "mean": 16.20312677410318,
+      "ci95": [
+        15.88723863020223,
+        16.519014918004128
+      ]
+    },
+    {
+      "panel": "ladder",
+      "before": "43_large_map_cf00",
+      "after": "43_cf00",
+      "metric": "rpc_saving",
+      "mean": -2.0166433707259523,
+      "ci95": [
+        -2.4093651277516277,
+        -1.623921613700277
+      ]
+    },
+    {
+      "panel": "ladder",
+      "before": "43_cf00",
+      "after": "43_cf10",
+      "metric": "rpc_saving",
+      "mean": -0.02771051832147542,
+      "ci95": [
+        -0.7035493011897341,
+        0.6481282645467833
+      ]
+    },
+    {
+      "panel": "ladder",
+      "before": "43_cf10",
+      "after": "43_cf11",
+      "metric": "rpc_saving",
+      "mean": 15.505019164606592,
+      "ci95": [
+        15.121954187369045,
+        15.88808414184414
+      ]
+    },
+    {
+      "panel": "ladder",
+      "before": "43_cf11",
+      "after": "76_cf11",
+      "metric": "rpc_saving",
+      "mean": 12.505721871280784,
+      "ci95": [
+        12.505721871280784,
+        12.505721871280784
+      ]
+    }
+  ]
+}

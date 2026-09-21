@@ -1,0 +1,216 @@
+{
+  "rejected_contract_or_budget_mutations": 10,
+  "certified_entrypoint_executions": [
+    {
+      "kind": "sde",
+      "requests": 40,
+      "approval": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "sde",
+            "L": 6,
+            "bucket_levels": 7,
+            "N": 96,
+            "R": 32,
+            "ghost_threshold": 30,
+            "operations_including_setup": 136,
+            "fixed_time_upper": "1.1582331592369025727534669142738360203115085470520E-18",
+            "rule": "independent scalar stop-loss enclosure"
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "L": 4,
+            "bucket_levels": 5,
+            "N": 24,
+            "R": 24,
+            "ghost_threshold": 22,
+            "operations_including_setup": 160,
+            "fixed_time_upper": "0",
+            "rule": "deterministic current-record count <= N"
+          }
+        ],
+        "max_online_operations": 40,
+        "total_stash_lifetime_upper": "1.5751970965621874989447150034124169876236516239907E-16",
+        "stash_target_bits": 12,
+        "primitive_calls_upper_integer": 77918448,
+        "conditional_ORAM_advantage_upper": "3.1503941931243749978894336802446802948957656502830E-16",
+        "passes_2m128": false,
+        "PRF_assumption": "Each real-to-ideal PRF hybrid advantage <= 2^-132 at the stated time, query count and input lengths",
+        "terminal_map_bytes": 96,
+        "scope": {
+          "requests": "Any fixed logical address/value stream independent of ORAM coins; mixtures and applications adapting only to correct logical RAM outputs are covered.",
+          "not_claimed": "A logical-query selector that adaptively reads the ORAM server transcript/internal random state is not included in the stash theorem.",
+          "client": "One serial trusted client with nonrollback private state, root and nonce allocation; fail-stop on rejection/overflow.",
+          "initialization": "Authenticated dummy tree, then bottom-up position-map loading and data loading through normal counted operations.",
+          "timing": "Application scheduling/local computation timing, concurrent clients and crash recovery are outside this model."
+        }
+      },
+      "invoice": {
+        "events_checked": 212,
+        "total": {
+          "data_download": 111808,
+          "data_upload": 37440,
+          "headers_download": 169988,
+          "headers_upload": 169988,
+          "authentication_download": 44736,
+          "authentication_upload": 70592,
+          "framing_and_control": 19504
+        },
+        "total_bytes": 624056,
+        "by_stage": {
+          "logical": {
+            "data_download": 74368,
+            "data_upload": 0,
+            "headers_download": 113204,
+            "headers_upload": 113204,
+            "authentication_download": 36416,
+            "authentication_upload": 50624,
+            "framing_and_control": 14720
+          },
+          "evict": {
+            "data_download": 37440,
+            "data_upload": 37440,
+            "headers_download": 56784,
+            "headers_upload": 56784,
+            "authentication_download": 8320,
+            "authentication_upload": 19968,
+            "framing_and_control": 4784
+          }
+        },
+        "by_tree": {
+          "1": {
+            "data_download": 25088,
+            "data_upload": 8320,
+            "headers_download": 71344,
+            "headers_upload": 71344,
+            "authentication_download": 17984,
+            "authentication_upload": 29504,
+            "framing_and_control": 9752
+          },
+          "0": {
+            "data_download": 86720,
+            "data_upload": 29120,
+            "headers_download": 98644,
+            "headers_upload": 98644,
+            "authentication_download": 26752,
+            "authentication_upload": 41088,
+            "framing_and_control": 9752
+          }
+        }
+      },
+      "horizon_rejected_before_IO": true
+    },
+    {
+      "kind": "r0",
+      "requests": 40,
+      "approval": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "L": 6,
+            "bucket_levels": 7,
+            "N": 96,
+            "R": 32,
+            "ghost_threshold": 26,
+            "operations_including_setup": 136,
+            "fixed_time_upper": "2.7514139806958450805893402886728662460122515551198E-16",
+            "rule": "independent scalar stop-loss enclosure"
+          },
+          {
+            "tree": 1,
+            "kind": "r0",
+            "L": 4,
+            "bucket_levels": 5,
+            "N": 24,
+            "R": 24,
+            "ghost_threshold": 18,
+            "operations_including_setup": 160,
+            "fixed_time_upper": "0",
+            "rule": "deterministic current-record count <= N"
+          }
+        ],
+        "max_online_operations": 40,
+        "total_stash_lifetime_upper": "3.7419230137463493096015027925950980945766621149629E-14",
+        "stash_target_bits": 12,
+        "primitive_calls_upper_integer": 77918448,
+        "conditional_ORAM_advantage_upper": "7.4838460274926986192030056219243946523498088539488E-14",
+        "passes_2m128": false,
+        "PRF_assumption": "Each real-to-ideal PRF hybrid advantage <= 2^-132 at the stated time, query count and input lengths",
+        "terminal_map_bytes": 96,
+        "scope": {
+          "requests": "Any fixed logical address/value stream independent of ORAM coins; mixtures and applications adapting only to correct logical RAM outputs are covered.",
+          "not_claimed": "A logical-query selector that adaptively reads the ORAM server transcript/internal random state is not included in the stash theorem.",
+          "client": "One serial trusted client with nonrollback private state, root and nonce allocation; fail-stop on rejection/overflow.",
+          "initialization": "Authenticated dummy tree, then bottom-up position-map loading and data loading through normal counted operations.",
+          "timing": "Application scheduling/local computation timing, concurrent clients and crash recovery are outside this model."
+        }
+      },
+      "invoice": {
+        "events_checked": 362,
+        "total": {
+          "data_download": 52208,
+          "data_upload": 64624,
+          "headers_download": 139776,
+          "headers_upload": 147784,
+          "authentication_download": 139136,
+          "authentication_upload": 209856,
+          "framing_and_control": 36128
+        },
+        "total_bytes": 789512,
+        "by_stage": {
+          "logical": {
+            "data_download": 15280,
+            "data_upload": 0,
+            "headers_download": 92456,
+            "headers_upload": 92456,
+            "authentication_download": 97792,
+            "authentication_upload": 46976,
+            "framing_and_control": 23792
+          },
+          "early": {
+            "data_download": 5312,
+            "data_upload": 9296,
+            "headers_download": 0,
+            "headers_upload": 8008,
+            "authentication_download": 3584,
+            "authentication_upload": 28096,
+            "framing_and_control": 4224
+          },
+          "evict": {
+            "data_download": 31616,
+            "data_upload": 55328,
+            "headers_download": 47320,
+            "headers_upload": 47320,
+            "authentication_download": 37760,
+            "authentication_upload": 134784,
+            "framing_and_control": 8112
+          }
+        },
+        "by_tree": {
+          "1": {
+            "data_download": 11168,
+            "data_upload": 13664,
+            "headers_download": 57148,
+            "headers_upload": 60424,
+            "authentication_download": 56512,
+            "authentication_upload": 84736,
+            "framing_and_control": 17400
+          },
+          "0": {
+            "data_download": 41040,
+            "data_upload": 50960,
+            "headers_download": 82628,
+            "headers_upload": 87360,
+            "authentication_download": 82624,
+            "authentication_upload": 125120,
+            "framing_and_control": 18728
+          }
+        }
+      },
+      "horizon_rejected_before_IO": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "generated",
+  "source_sha256": "19d8056278e67610261cba9349e7032fc90492a7a410e4c048cd1f5db5e1e21d",
+  "generator_sha256": "56ef729a908aa5af8af5c9d6120f951174ef6aa70e0c8dd7a67b9fc34e746dfb",
+  "data_sha256": "1e219685b978d9482d3736deed7caff37d88d9762bcbc943e7eb28195f5678ae",
+  "outputs": [
+    {
+      "path": "output\\pdf\\completed_r0_ablation.pdf",
+      "sha256": "461ac29d2d91fdb9b25fcd8798a8c7cfa433b6c71e2f3a4c17e157c8f67ff08b"
+    },
+    {
+      "path": "figures\\completed_r0_ablation.svg",
+      "sha256": "04824811766c9443e61d1d1a2dc62922af62b2724835d15d3b6d7f5ac035cb0e"
+    },
+    {
+      "path": "figures\\completed_r0_ablation.png",
+      "sha256": "f79d021b85a1e4471879d6ba5d6a2dbdaa6311812f22d13314934c54a2b28d99"
+    },
+    {
+      "path": "34_R0完整消融结果.md",
+      "sha256": "2288ae3589cbc871bfe70ed832312cecda208187d68bafb2f919cccd2bc8cb88"
+    }
+  ],
+  "visual_review_pending": true
+}

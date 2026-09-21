@@ -1,0 +1,7 @@
+{
+  "stage": "failed",
+  "pid": 44212,
+  "dependency_pid": 49784,
+  "error": "Traceback (most recent call last):\n  File \"D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\start_ab_paced_after_checks.py\", line 16, in main\n    assert proof.exists() and json.loads(proof.read_text())['status']=='passed','target-scale controller checks did not complete successfully'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: target-scale controller checks did not complete successfully\n",
+  "time": 1789516358.5179605
+}

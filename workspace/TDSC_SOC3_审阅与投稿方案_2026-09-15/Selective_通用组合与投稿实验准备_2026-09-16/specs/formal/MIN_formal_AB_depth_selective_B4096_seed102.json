@@ -1,0 +1,41 @@
+{
+  "family": "AB",
+  "arm": "selective",
+  "layout": "depth",
+  "N": 4096,
+  "B": 4096,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "R": 256,
+  "compact": false,
+  "fusion": false,
+  "root_retained": true,
+  "cached_levels": 6,
+  "terminal_bytes": 32768,
+  "warmup": 12288,
+  "requests": 24576,
+  "workload": "uniform",
+  "trace_seed": 102,
+  "oram_seed": 1002,
+  "suite": "formal",
+  "driver": "run_minimal.py",
+  "S_by_depth": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    2,
+    2,
+    2,
+    3,
+    4,
+    4,
+    4
+  ],
+  "id": "MIN_formal_AB_depth_selective_B4096_seed102"
+}

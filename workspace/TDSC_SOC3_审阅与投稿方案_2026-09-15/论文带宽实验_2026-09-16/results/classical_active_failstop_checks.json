@@ -1,0 +1,597 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "config": {
+        "kind": "path",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "opening",
+      "event": {
+        "opcode": 1,
+        "sequence": 33,
+        "decryptions_before_rejection": 180
+      },
+      "reason": "global opening not current",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "path",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "ack_route",
+      "event": {
+        "opcode": 4,
+        "sequence": 34,
+        "decryptions_before_rejection": 200
+      },
+      "reason": "response routing/replay",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "path",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "replay",
+      "event": {
+        "opcode": 1,
+        "sequence": 33,
+        "decryptions_before_rejection": 180
+      },
+      "reason": "response routing/replay",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "path",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 5,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "opening",
+      "event": {
+        "opcode": 1,
+        "sequence": 33,
+        "decryptions_before_rejection": 216
+      },
+      "reason": "global opening not current",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "path",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 5,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "ack_route",
+      "event": {
+        "opcode": 4,
+        "sequence": 34,
+        "decryptions_before_rejection": 240
+      },
+      "reason": "response routing/replay",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "path",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 5,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "replay",
+      "event": {
+        "opcode": 1,
+        "sequence": 33,
+        "decryptions_before_rejection": 216
+      },
+      "reason": "response routing/replay",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": false
+      },
+      "fault": "opening",
+      "event": {
+        "opcode": 2,
+        "sequence": 55,
+        "decryptions_before_rejection": 140
+      },
+      "reason": "global opening not current",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": false
+      },
+      "fault": "payload_proof",
+      "event": {
+        "opcode": 3,
+        "sequence": 56,
+        "decryptions_before_rejection": 144
+      },
+      "reason": "local data opening not current",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": false
+      },
+      "fault": "ack_route",
+      "event": {
+        "opcode": 4,
+        "sequence": 57,
+        "decryptions_before_rejection": 148
+      },
+      "reason": "response routing/replay",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": false
+      },
+      "fault": "replay",
+      "event": {
+        "opcode": 2,
+        "sequence": 55,
+        "decryptions_before_rejection": 140
+      },
+      "reason": "response routing/replay",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "opening",
+      "event": {
+        "opcode": 2,
+        "sequence": 51,
+        "decryptions_before_rejection": 135
+      },
+      "reason": "global opening not current",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "payload_proof",
+      "event": {
+        "opcode": 3,
+        "sequence": 52,
+        "decryptions_before_rejection": 139
+      },
+      "reason": "local data opening not current",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "ack_route",
+      "event": {
+        "opcode": 4,
+        "sequence": 53,
+        "decryptions_before_rejection": 143
+      },
+      "reason": "response routing/replay",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "replay",
+      "event": {
+        "opcode": 2,
+        "sequence": 51,
+        "decryptions_before_rejection": 135
+      },
+      "reason": "response routing/replay",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 7,
+        "A": 6,
+        "S": 9,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": false
+      },
+      "fault": "opening",
+      "event": {
+        "opcode": 2,
+        "sequence": 45,
+        "decryptions_before_rejection": 104
+      },
+      "reason": "global opening not current",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 7,
+        "A": 6,
+        "S": 9,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": false
+      },
+      "fault": "payload_proof",
+      "event": {
+        "opcode": 3,
+        "sequence": 46,
+        "decryptions_before_rejection": 108
+      },
+      "reason": "local data opening not current",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 7,
+        "A": 6,
+        "S": 9,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": false
+      },
+      "fault": "ack_route",
+      "event": {
+        "opcode": 4,
+        "sequence": 47,
+        "decryptions_before_rejection": 112
+      },
+      "reason": "response routing/replay",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 7,
+        "A": 6,
+        "S": 9,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": false
+      },
+      "fault": "replay",
+      "event": {
+        "opcode": 2,
+        "sequence": 45,
+        "decryptions_before_rejection": 104
+      },
+      "reason": "response routing/replay",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 7,
+        "A": 6,
+        "S": 9,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "opening",
+      "event": {
+        "opcode": 2,
+        "sequence": 45,
+        "decryptions_before_rejection": 104
+      },
+      "reason": "global opening not current",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 7,
+        "A": 6,
+        "S": 9,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "payload_proof",
+      "event": {
+        "opcode": 3,
+        "sequence": 46,
+        "decryptions_before_rejection": 108
+      },
+      "reason": "local data opening not current",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 7,
+        "A": 6,
+        "S": 9,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "ack_route",
+      "event": {
+        "opcode": 4,
+        "sequence": 47,
+        "decryptions_before_rejection": 112
+      },
+      "reason": "response routing/replay",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 3,
+        "N": 8,
+        "B": 64,
+        "Z": 7,
+        "A": 6,
+        "S": 9,
+        "R": 256,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "fault": "replay",
+      "event": {
+        "opcode": 2,
+        "sequence": 45,
+        "decryptions_before_rejection": 104
+      },
+      "reason": "response routing/replay",
+      "no_decryption_after_corrupt_response": true,
+      "committed_anchor_unchanged": true,
+      "no_further_rpc": true,
+      "remote_rollback_claim": false
+    }
+  ],
+  "source_hashes": {
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+  },
+  "checker_sha256": "e4a632614fc39d9a6b327244ded53e9c1bf731e03911266daa8923ec08449fb0",
+  "cases": 22,
+  "scope": "single-tree concrete corrupt/replayed response and fail-stop regressions, including Path Z5 and Ring n16",
+  "full_adaptive_simulation_proof": false,
+  "cryptographic_assumption_verified": false
+}

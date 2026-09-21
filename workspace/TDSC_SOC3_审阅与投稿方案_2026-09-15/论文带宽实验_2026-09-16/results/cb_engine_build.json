@@ -1,0 +1,28 @@
+{
+  "source_sha256": "6d312f8674efc788314f2ab5612a90979b50213ca79f601a777ef00a2dfb8fd5",
+  "target_sha256": "5e56b74c3ccb90f0838c360982f5bb58f170ddc49095beb77bd9a1afb9c8a5a0",
+  "transfer_source_sha256": "2cdede25e5be4320ae48447a5fc96db9113a980569a1aaa4a2634ffbdc6a2e9f",
+  "transfer_target_sha256": "d6a5777adbdfa7f636b72702d02ad9b2ff5da69bc96b92e20273e4741856ca4d",
+  "generator_sha256": "5cb7f0698537f4a91be3504a15d963179524d5297e273b5fbf5dadc8844f6854",
+  "edits": [
+    "parameter_fields",
+    "profile_dimensions",
+    "configuration_rules",
+    "per_depth_constraints",
+    "per_depth_dispatch",
+    "physical_bucket_length",
+    "encrypted_counter_space",
+    "bind_crypto_context",
+    "bucket_overlap_property",
+    "header_counter",
+    "encode_counter",
+    "decode_counter",
+    "counter_retained_on_header_update",
+    "work_metrics",
+    "empty_slot_opening",
+    "merge_empty_openings",
+    "public_variable_cover",
+    "bind_cb_fusion"
+  ],
+  "security_closed": false
+}

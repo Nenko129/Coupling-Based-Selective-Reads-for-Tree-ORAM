@@ -1,0 +1,22 @@
+{
+  "kind": "path",
+  "N": 16384,
+  "B": 4096,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "map_B": 256,
+  "terminal_bytes": 8192,
+  "compact": true,
+  "fusion": true,
+  "R": 256,
+  "id": "B3_path_uniform_seed102",
+  "warmup": 2048,
+  "requests": 4096,
+  "trace_seed": 102,
+  "oram_seed": 1002,
+  "workload": "uniform",
+  "experiment_class": "formal_tuned"
+}

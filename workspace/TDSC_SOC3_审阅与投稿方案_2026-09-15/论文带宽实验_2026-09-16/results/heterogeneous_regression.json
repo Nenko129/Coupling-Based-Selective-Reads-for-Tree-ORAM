@@ -1,0 +1,274 @@
+{
+  "status": "passed",
+  "uniform_differential": [
+    {
+      "kind": "path",
+      "fusion": true,
+      "rpcs": 159,
+      "exact_transcript_and_state": true
+    },
+    {
+      "kind": "deferred",
+      "fusion": true,
+      "rpcs": 201,
+      "exact_transcript_and_state": true
+    },
+    {
+      "kind": "sde",
+      "fusion": true,
+      "rpcs": 201,
+      "exact_transcript_and_state": true
+    },
+    {
+      "kind": "ring",
+      "fusion": false,
+      "rpcs": 328,
+      "exact_transcript_and_state": true
+    },
+    {
+      "kind": "ring",
+      "fusion": true,
+      "rpcs": 286,
+      "exact_transcript_and_state": true
+    },
+    {
+      "kind": "gc_ring",
+      "fusion": true,
+      "rpcs": 286,
+      "exact_transcript_and_state": true
+    },
+    {
+      "kind": "r0",
+      "fusion": false,
+      "rpcs": 304,
+      "exact_transcript_and_state": true
+    },
+    {
+      "kind": "r0",
+      "fusion": true,
+      "rpcs": 286,
+      "exact_transcript_and_state": true
+    }
+  ],
+  "heterogeneous_configs": [
+    {
+      "kind": "path",
+      "L": 5,
+      "N": 32,
+      "B": 64,
+      "Z": 4,
+      "A": 3,
+      "S": 4,
+      "R": 128,
+      "fused": true,
+      "Z_by_depth": [
+        4,
+        2,
+        1,
+        3,
+        4,
+        4
+      ],
+      "checked_complete_states": 256,
+      "rpcs": 639,
+      "invoice_matched": true
+    },
+    {
+      "kind": "deferred",
+      "L": 5,
+      "N": 32,
+      "B": 64,
+      "Z": 4,
+      "A": 3,
+      "S": 4,
+      "R": 128,
+      "fused": true,
+      "Z_by_depth": [
+        4,
+        2,
+        1,
+        3,
+        4,
+        4
+      ],
+      "checked_complete_states": 256,
+      "rpcs": 831,
+      "invoice_matched": true
+    },
+    {
+      "kind": "sde",
+      "L": 5,
+      "N": 32,
+      "B": 64,
+      "Z": 4,
+      "A": 3,
+      "S": 4,
+      "R": 128,
+      "fused": true,
+      "Z_by_depth": [
+        4,
+        2,
+        1,
+        3,
+        4,
+        4
+      ],
+      "checked_complete_states": 256,
+      "rpcs": 831,
+      "invoice_matched": true
+    },
+    {
+      "kind": "ring",
+      "L": 5,
+      "N": 32,
+      "B": 64,
+      "Z": 4,
+      "A": 3,
+      "S": 4,
+      "R": 128,
+      "fused": false,
+      "S_by_depth": [
+        3,
+        2,
+        1,
+        4,
+        2,
+        3
+      ],
+      "checked_complete_states": 256,
+      "rpcs": 1989,
+      "invoice_matched": true
+    },
+    {
+      "kind": "ring",
+      "L": 5,
+      "N": 32,
+      "B": 64,
+      "Z": 4,
+      "A": 3,
+      "S": 4,
+      "R": 128,
+      "fused": true,
+      "S_by_depth": [
+        3,
+        2,
+        1,
+        4,
+        2,
+        3
+      ],
+      "checked_complete_states": 256,
+      "rpcs": 1215,
+      "invoice_matched": true
+    },
+    {
+      "kind": "gc_ring",
+      "L": 5,
+      "N": 32,
+      "B": 64,
+      "Z": 4,
+      "A": 3,
+      "S": 4,
+      "R": 128,
+      "fused": false,
+      "S_by_depth": [
+        3,
+        2,
+        1,
+        4,
+        2,
+        3
+      ],
+      "checked_complete_states": 256,
+      "rpcs": 1539,
+      "invoice_matched": true
+    },
+    {
+      "kind": "gc_ring",
+      "L": 5,
+      "N": 32,
+      "B": 64,
+      "Z": 4,
+      "A": 3,
+      "S": 4,
+      "R": 128,
+      "fused": true,
+      "S_by_depth": [
+        3,
+        2,
+        1,
+        4,
+        2,
+        3
+      ],
+      "checked_complete_states": 256,
+      "rpcs": 1215,
+      "invoice_matched": true
+    },
+    {
+      "kind": "r0",
+      "L": 5,
+      "N": 32,
+      "B": 64,
+      "Z": 4,
+      "A": 3,
+      "S": 4,
+      "R": 128,
+      "fused": false,
+      "S_by_depth": [
+        3,
+        2,
+        1,
+        4,
+        2,
+        3
+      ],
+      "checked_complete_states": 256,
+      "rpcs": 1547,
+      "invoice_matched": true
+    },
+    {
+      "kind": "r0",
+      "L": 5,
+      "N": 32,
+      "B": 64,
+      "Z": 4,
+      "A": 3,
+      "S": 4,
+      "R": 128,
+      "fused": true,
+      "S_by_depth": [
+        3,
+        2,
+        1,
+        4,
+        2,
+        3
+      ],
+      "checked_complete_states": 256,
+      "rpcs": 1215,
+      "invoice_matched": true
+    }
+  ],
+  "active_rejections": [
+    {
+      "family": "IR_Z",
+      "rejected": true,
+      "no_retry_io": true
+    },
+    {
+      "family": "AB_S",
+      "rejected": true,
+      "no_retry_io": true
+    }
+  ],
+  "total_complete_state_checks": 2304,
+  "scope": "functional invariants/actual framing only; no nonuniform capacity certificate or native IR/AB closure",
+  "source_hashes": {
+    "build_heterogeneous.py": "cd8ebf2ee28e4126aa21b794b96ae2dc3497fd3e121342b08a9eb0f7e1585ef4",
+    "check_heterogeneous.py": "337448bd2ed01eace1dafe440e2020aa8f8a613ef605d9e13c3851dbf350cdc6",
+    "heterogeneous_fusion.py": "23a1c85b20f10aa2c4b28e13228351fac771a811ada2b18062a9d8c45de59380",
+    "heterogeneous_meter.py": "e6124a817aab7d4ba2a92d899735bd48bcd456bd849ab314fd2b706bfc934b5f",
+    "heterogeneous_oram.py": "6d312f8674efc788314f2ab5612a90979b50213ca79f601a777ef00a2dfb8fd5"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "pid": 4040,
+  "parent_pid": 55976,
+  "command": [
+    "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_ir_guarded_periodic.py",
+    "--spec",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\IRGUARD_beta14_path_seed103.json"
+  ],
+  "spec": {
+    "id": "IRGUARD_beta14_path_seed103",
+    "kind": "path",
+    "N": 4096,
+    "B": 64,
+    "X": 32,
+    "profile": [
+      4,
+      3,
+      3
+    ],
+    "R": 480,
+    "cached_levels": 6,
+    "Z_by_depth": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4
+    ],
+    "plb": 8,
+    "llc_sets": 8,
+    "llc_ways": 2,
+    "layout": "depth",
+    "dwb": true,
+    "warmup": 1536,
+    "requests": 6144,
+    "arrival_gap": 8,
+    "slots_per_request": 8,
+    "trace_seed": 103,
+    "oram_seed": 1003,
+    "workload": "hot90",
+    "experiment_class": "formal_ir_guarded",
+    "period_slots": 12288,
+    "beta": 14,
+    "map_mode": "compressed",
+    "cohort": "guarded_beta14",
+    "tail_periods": 1
+  },
+  "started": 1789544536.9851062
+}

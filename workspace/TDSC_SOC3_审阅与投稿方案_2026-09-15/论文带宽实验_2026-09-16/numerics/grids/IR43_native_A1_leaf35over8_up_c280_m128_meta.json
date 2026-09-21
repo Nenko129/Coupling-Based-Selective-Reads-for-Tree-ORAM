@@ -1,0 +1,13 @@
+{
+  "model": "m2-depth-profile-independent-Poisson-ghost",
+  "cap": 280,
+  "height": 25,
+  "poisson_cutoff": 128,
+  "arithmetic": "up",
+  "Z_root_to_leaf": [4,4,4,4,4,4,4,4,4,4,2,2,2,2,2,2,2,3,3,3,4,4,4,4,4],
+  "rate_root_to_leaf": [0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,4.375],
+  "seed_upper_root_to_leaf": ["0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.368b2fc6f960ap-1","0x1.9c7cfd9fd3c47p-7"],
+  "rounding_self_test": true,
+  "renormalized": false,
+  "positive_states_discarded": false
+}

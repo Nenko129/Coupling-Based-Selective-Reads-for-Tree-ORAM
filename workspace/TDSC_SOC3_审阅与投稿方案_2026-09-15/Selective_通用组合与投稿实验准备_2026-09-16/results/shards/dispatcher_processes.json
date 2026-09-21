@@ -1,0 +1,50 @@
+[
+  {
+    "shard": 0,
+    "pid": 31908,
+    "stdout": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_00.out.log",
+    "stderr": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_00.err.log"
+  },
+  {
+    "shard": 1,
+    "pid": 51424,
+    "stdout": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_01.out.log",
+    "stderr": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_01.err.log"
+  },
+  {
+    "shard": 2,
+    "pid": 23228,
+    "stdout": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_02.out.log",
+    "stderr": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_02.err.log"
+  },
+  {
+    "shard": 3,
+    "pid": 37320,
+    "stdout": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_03.out.log",
+    "stderr": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_03.err.log"
+  },
+  {
+    "shard": 4,
+    "pid": 41508,
+    "stdout": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_04.out.log",
+    "stderr": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_04.err.log"
+  },
+  {
+    "shard": 5,
+    "pid": 48144,
+    "stdout": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_05.out.log",
+    "stderr": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_05.err.log"
+  },
+  {
+    "shard": 6,
+    "pid": 48028,
+    "stdout": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_06.out.log",
+    "stderr": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_06.err.log"
+  },
+  {
+    "shard": 7,
+    "pid": 42736,
+    "stdout": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_07.out.log",
+    "stderr": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16\\logs\\shards\\dispatcher_07.err.log"
+  }
+]

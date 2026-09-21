@@ -1,0 +1,59 @@
+{
+  "chain_consistency_passed": true,
+  "fresh_full_certificate_recomputation": true,
+  "fresh_test_execution": true,
+  "contract_sha256": "b40155e23d2d62cead87a89321cb88463ac0b36126782967fd490a813d41d19e",
+  "scope": {
+    "requests": "Any fixed logical address/value stream independent of ORAM coins; mixtures and applications adapting only to correct logical RAM outputs are covered.",
+    "not_claimed": "A logical-query selector that adaptively reads the ORAM server transcript/internal random state is not included in the stash theorem.",
+    "client": "One serial trusted client with nonrollback private state, root and nonce allocation; fail-stop on rejection/overflow.",
+    "initialization": "Authenticated dummy tree, then bottom-up position-map loading and data loading through normal counted operations.",
+    "timing": "Application scheduling/local computation timing, concurrent clients and crash recovery are outside this model."
+  },
+  "proof_assistant_formalization": false,
+  "edges": [
+    {
+      "edge": "actual -> finite shadow -> home field",
+      "evidence": "proofs/01_reduction_complete.md + per-current depth and field equality tests"
+    },
+    {
+      "edge": "home field -> Poisson idcx -> scalar object",
+      "evidence": "fixed-history marking proof and explicit count recurrence"
+    },
+    {
+      "edge": "scalar object -> numeric upper -> recursive configuration",
+      "evidence": "recomputed CSV + exact dyadic plan + runtime horizon guard"
+    },
+    {
+      "edge": "recursive transitions -> authenticated bytes",
+      "evidence": "same encrypted Tree/RecursiveORAM execution and pre-use validation"
+    },
+    {
+      "edge": "authenticated bytes -> unified cost table",
+      "evidence": "independent per-frame invoice identity + outward expected-cost intervals"
+    }
+  ],
+  "integrated_totals": {
+    "top_requests": 2700,
+    "layer_accesses": 5448,
+    "per_token_depth_comparisons": 154980,
+    "canonical_comparisons": 5448,
+    "field_recurrence_comparisons": 5448,
+    "frames_checked": 24933,
+    "whole_snapshot_nodes": 468
+  },
+  "active_attacks": 20,
+  "gate_mutations_rejected": 10,
+  "certificate_points_per_mode": 8711,
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "compiler_flags": [
+    "-std=c++17",
+    "-O3",
+    "-fopenmp",
+    "-frounding-math",
+    "-ffp-contract=off",
+    "-fno-fast-math"
+  ],
+  "interpretation": "Complete research-level chain within the stated request/client model and PRF assumption; no deployment certification or 48GiB network benchmark."
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "path",
+  "N": 16384,
+  "B": 4096,
+  "profile": [
+    5,
+    3,
+    3
+  ],
+  "map_B": 256,
+  "terminal_bytes": 8192,
+  "compact": true,
+  "fusion": true,
+  "R": 258,
+  "id": "C1_path5_hot90_seed104",
+  "warmup": 2048,
+  "requests": 4096,
+  "trace_seed": 104,
+  "oram_seed": 1004,
+  "workload": "hot90",
+  "experiment_class": "formal_classical_reference",
+  "study": "published_bound_path_reference"
+}

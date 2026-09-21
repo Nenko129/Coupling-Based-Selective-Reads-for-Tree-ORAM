@@ -1,0 +1,12 @@
+{
+  "stage": "authentication_cost",
+  "input_contract_sha256": "b40155e23d2d62cead87a89321cb88463ac0b36126782967fd490a813d41d19e",
+  "executed_in_this_stage": true,
+  "outputs_sha256": {
+    "results/active_attacks.json": "87d858af1c57fed1e434d63f15c7e393a608ae46c463fe052931e7e73d3721ec",
+    "results/slot_exchangeability.json": "7d1c73e4cc27f9844b17e94c8d646641f3a1291ea5f2372864105d2ddfe47108",
+    "results/local_proofs.json": "892ceaaf0348f98266b677854288643b55f7cab9bfcad2c55394ac70623a5686",
+    "results/cost_intervals.json": "57c434808cff59b2fab8d128a3dca34fd646c735fe6f0359e02e2941778d65c3",
+    "results/unified_measured_ledgers.json": "4598ca94aa936c80b3246dea650bb6e5d61b8cd069a4eba7df8f3f1ebcf390be"
+  }
+}

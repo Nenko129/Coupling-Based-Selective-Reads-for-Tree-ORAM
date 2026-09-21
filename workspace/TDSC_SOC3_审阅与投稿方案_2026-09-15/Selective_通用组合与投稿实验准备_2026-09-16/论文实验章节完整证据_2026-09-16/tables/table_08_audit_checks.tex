@@ -1,0 +1,16 @@
+\begin{tabular}{lrrrr}
+\toprule
+Check & Observed & Required & Status & Scope \\
+\midrule
+Minimal formal receipts & 120 & 120 & passed & paired seeds; N=4096 \\
+Scale receipts & 125 & 125 & passed & 5 seeds per cell \\
+Pilot receipts & 16 & 16 & passed & debug only; excluded from headline effects \\
+Projected-state boundary checks & 772 & 772 & passed & completed maintenance boundaries \\
+Tamper fail-stop checks & 8 & 8 & passed & authentication failure stops execution \\
+Public selector checks & 87380 & 87380 & passed & phase/leaf decisions \\
+Frontend reset checks & 15 & 15 & passed & 578 backend slots per arm \\
+IR capacity grid & 12506 & 12506 & passed & lifetime log2 bound -146.3867 \\
+True trusted-memory peak & 0 & 1 & not measured & do not claim peak RSS \\
+Real-network latency & 0 & 1 & not measured & do not claim measured latency \\
+\bottomrule
+\end{tabular}

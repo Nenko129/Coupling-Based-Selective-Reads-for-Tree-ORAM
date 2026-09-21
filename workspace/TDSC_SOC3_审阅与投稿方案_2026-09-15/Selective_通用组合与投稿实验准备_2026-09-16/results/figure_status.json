@@ -1,0 +1,43 @@
+{
+  "status": "waiting_for_complete_formal_pairs",
+  "needed": [
+    [
+      "free_compressed",
+      64
+    ],
+    [
+      "rho",
+      64
+    ],
+    [
+      "IR",
+      64
+    ],
+    [
+      "AB",
+      64
+    ],
+    [
+      "free_compressed",
+      4096
+    ],
+    [
+      "rho",
+      4096
+    ],
+    [
+      "IR",
+      4096
+    ],
+    [
+      "AB",
+      4096
+    ]
+  ],
+  "available": [
+    [
+      "IR",
+      64
+    ]
+  ]
+}

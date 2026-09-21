@@ -1,0 +1,8 @@
+{
+  "id": "B1_path_uniform_N16384_B4096_seed101",
+  "pid": 43192,
+  "stage": "passed",
+  "time": 1789500027.9547446,
+  "receipt": "results\\formal_core\\B1_path_uniform_N16384_B4096_seed101.json",
+  "elapsed_seconds": 1929.4300708770752
+}

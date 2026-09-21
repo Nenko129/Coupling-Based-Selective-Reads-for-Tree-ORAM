@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "series_recomputed": 30,
+  "raw_records": 140,
+  "export_receipt_sha256": "5ba439346325b7d6a19bbc591cfb724eb4762b0fdaf1bb1534c9d94c3ab8c124",
+  "checker_sha256": "52523bf78831837ee89f2f5b4e1e93cbb896e7e0448feb4b28e8162bf8942e80",
+  "pdfs": [
+    {
+      "path": "output\\pdf\\completed_core_bandwidth.pdf",
+      "sha256": "ffbcff87844ba65610eb740308286facf0702f1aa86ef26a5035c5b89a9bb186",
+      "pages": 1,
+      "vector": true,
+      "embedded_fonts": true
+    },
+    {
+      "path": "output\\pdf\\completed_static_components.pdf",
+      "sha256": "bf2ad36958dc9427dd210c60930fd16b2d0b1da79fa6e736ed9df5d45ba1eda0",
+      "pages": 1,
+      "vector": true,
+      "embedded_fonts": true
+    }
+  ],
+  "visual_review": "separate render inspection required"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "observed_failed_check",
+  "tool_session": 94948,
+  "exit_code": 1,
+  "exception": "cb_oram.Overflow: transfer boundary stash",
+  "phase": "continuous validation through f.access; constructor had already returned",
+  "failed_case": "bottom_d0/ring",
+  "case_identification": "inferred from the deterministic loop order and three saved uniform cases",
+  "completed_cases_source_sha256": "e1ccda7ab9e640b0286df3dd272553d195a4f9fa4835c40c4a28dc5ff092b585",
+  "checker_sha256": "ad25cec22c5b7f7ec1afeeab91f02f681d3304e98887976ecce6bb0840657d21",
+  "old_checker_preserved": true,
+  "performance_sample": false
+}

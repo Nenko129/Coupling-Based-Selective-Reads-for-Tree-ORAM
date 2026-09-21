@@ -1,0 +1,139 @@
+{
+  "cases": [
+    {
+      "kind": "sde",
+      "case": "header_flip",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "sde",
+      "case": "proof_flip",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "sde",
+      "case": "slot_flip",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "sde",
+      "case": "header_truncate",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "sde",
+      "case": "replay",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "sde",
+      "case": "parent_after_map_commit",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "sde",
+      "case": "write_ack",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": false
+    },
+    {
+      "kind": "sde",
+      "case": "blind_cover_flip",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "r0",
+      "case": "header_flip",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "r0",
+      "case": "proof_flip",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "r0",
+      "case": "slot_flip",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "r0",
+      "case": "header_truncate",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "r0",
+      "case": "replay",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "r0",
+      "case": "parent_after_map_commit",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "r0",
+      "case": "write_ack",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": false
+    },
+    {
+      "kind": "r0",
+      "case": "blind_cover_flip",
+      "unchanged_committed_anchor": true,
+      "fail_stop": true,
+      "corrupt_opening_rejected_before_decryption": true
+    },
+    {
+      "kind": "sde",
+      "case": "current_root_vs_replayed_header_body",
+      "rejected_before_decryption": true
+    },
+    {
+      "kind": "r0",
+      "case": "current_root_vs_replayed_header_body",
+      "rejected_before_decryption": true
+    },
+    {
+      "kind": "sde",
+      "case": "guaranteed_dummy_stash_hit",
+      "no_eviction_yet": true,
+      "rejected_before_payload_decryption": true
+    },
+    {
+      "kind": "r0",
+      "case": "guaranteed_dummy_stash_hit",
+      "no_eviction_yet": true,
+      "rejected_before_payload_decryption": true
+    }
+  ],
+  "count": 20
+}

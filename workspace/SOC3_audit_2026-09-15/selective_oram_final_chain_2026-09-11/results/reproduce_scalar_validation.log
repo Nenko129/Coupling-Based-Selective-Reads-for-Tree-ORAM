@@ -1,0 +1,12 @@
+{
+  "exact_rational_inequalities": 160,
+  "thread_count_bitwise_match": true,
+  "exact_cap": 8,
+  "exact_height": 4,
+  "exact_poisson_cutoff": 8,
+  "arithmetic_modes": [
+    "FE_UPWARD",
+    "nearest-plus-NextUp"
+  ],
+  "limitations": "Both C++ modes share the recurrence implementation; exact Python enumeration independently validates a small finite domain."
+}

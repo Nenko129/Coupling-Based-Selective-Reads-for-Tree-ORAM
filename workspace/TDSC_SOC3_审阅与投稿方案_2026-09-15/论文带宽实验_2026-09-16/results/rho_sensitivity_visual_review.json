@@ -1,0 +1,12 @@
+{
+  "status": "visually_reviewed",
+  "svg_sha256": "cb9cd969a11df5ecc2b013cd8a8655729346a1b89792336fc07a140f16af744a",
+  "png_sha256": "d5a1b0bff23a2114181270c98923db0af77b3c6fefad6856cce4b6b07883d3fc",
+  "image_pixels": [
+    2526,
+    1331
+  ],
+  "numerical_audit_sha256": "015cbfbfe879bd9022b4a78ba66eb0ca34aacc24ac6a9123722f399be7ed7504",
+  "unresolved_layout_defects": [],
+  "review": "Final PNG inspected after moving the plot bottom margin to separate axis labels and caption; all nine rows, legends, intervals, units and notes visible."
+}

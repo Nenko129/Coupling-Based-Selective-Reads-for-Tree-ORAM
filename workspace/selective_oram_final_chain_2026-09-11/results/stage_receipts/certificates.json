@@ -1,0 +1,11 @@
+{
+  "stage": "certificates",
+  "input_contract_sha256": "b40155e23d2d62cead87a89321cb88463ac0b36126782967fd490a813d41d19e",
+  "executed_in_this_stage": true,
+  "outputs_sha256": {
+    "certificates/ghost_up_c280_h31.csv": "2fe3269cfa5abd238a3e52cba48499ff247704203c77b826ee5a33bf6f1645e8",
+    "certificates/ghost_up_c280_h31_meta.json": "2d30558709c589cb24682ab8e6cd1a6aae27e44387dce90137bb31de0a29ee33",
+    "certificates/ghost_next_c280_h31.csv": "0a1009a8bc681fc02c79738537328bc26cb167b2889e37b553c78ad3a22ad503",
+    "certificates/ghost_next_c280_h31_meta.json": "8c0ba675a9c036f929727cc5287ddb478a3d05f289729a3d9e33d831bfa4afe6"
+  }
+}

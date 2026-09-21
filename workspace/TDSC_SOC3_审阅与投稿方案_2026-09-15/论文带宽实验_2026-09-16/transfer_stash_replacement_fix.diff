@@ -1,0 +1,11 @@
+--- frozen/transfer_backend.py
++++ evaluation/transfer_backend_fixed.py
+@@ -78,7 +78,7 @@
+             if admit is not None:
+                 a,l,p=admit
+                 need(0<=a<c.N and 0<=l<(1<<c.L) and isinstance(p,bytes) and len(p)==c.B,'admission format')
+-                need(a not in self.stash,'duplicate admission in stash')
++                if c.kind!='path':need(a not in self.stash,'duplicate admission in stash')
+                 self.uid+=1;self.births+=1;r=Record(self.uid,a,l,p)
+                 if c.kind=='path':
+                     need(not any(x.address==a for x in pool.values()),'duplicate admission in pool')

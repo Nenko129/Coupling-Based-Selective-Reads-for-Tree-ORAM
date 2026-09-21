@@ -1,0 +1,7 @@
+{
+  "field_count_equalities": 1280,
+  "commutations": 1280,
+  "root_shifts": 640,
+  "marking_snapshots": 108,
+  "nonzero_marks": 23281
+}

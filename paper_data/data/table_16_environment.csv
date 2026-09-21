@@ -1,0 +1,2 @@
+﻿platform,python_version,logical_processors,implementation,timing_scope
+Windows-11-10.0.26100-SP0,"3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",20,auditable Python reference harness,harness CPU/wall time; not production or network latency

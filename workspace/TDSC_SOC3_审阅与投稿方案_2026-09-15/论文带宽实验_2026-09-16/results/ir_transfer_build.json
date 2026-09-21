@@ -1,0 +1,6 @@
+{
+  "source_sha256": "6adc12ca99d32a2628f14a1fdac557eda95161fc2851ee11019d4f2b7526bb18",
+  "target_sha256": "2cdede25e5be4320ae48447a5fc96db9113a980569a1aaa4a2634ffbdc6a2e9f",
+  "generator_sha256": "b3b50efd30e52b75ab9939d32d2d08e73c78f75734c030c795fd0ba363968335",
+  "change": "one import binding; the complete Transfer body is unchanged"
+}

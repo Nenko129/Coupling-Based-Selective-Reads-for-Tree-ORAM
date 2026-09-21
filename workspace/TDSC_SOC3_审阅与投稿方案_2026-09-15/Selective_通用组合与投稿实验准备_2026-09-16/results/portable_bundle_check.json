@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "archive_sha256": "eb3646f187a210145b42a57917a33a0b15eafe5785e4bc452027a9fd98d68987",
+  "manifest_files": 249,
+  "replica": "D:\\projects\\SDE-R0\\tmp\\selective_minimal_replay_yfft2s_3\\workspace\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\Selective_通用组合与投稿实验准备_2026-09-16",
+  "coupling_check_passed": true,
+  "replayed": [
+    {
+      "id": "MIN_pilot_AB_depth_selective_B64_seed101",
+      "bytes_per_request": 12240.572916666666,
+      "answers_sources_and_invoices_match": true
+    },
+    {
+      "id": "MIN_pilot_free_compressed_sde_B64_seed101",
+      "bytes_per_request": 10899.5625,
+      "answers_sources_and_invoices_match": true
+    }
+  ],
+  "scope": "clean-path unpack, all-file hashes, semantic check and two deterministic encrypted replay cases; no claim of a separate human audit"
+}

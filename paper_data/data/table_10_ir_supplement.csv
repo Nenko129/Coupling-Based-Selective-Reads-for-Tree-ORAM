@@ -1,0 +1,8 @@
+﻿axis,before_beta,after_beta,baseline,variant,n,bytes_saving_pct,ci95_low_pct,ci95_high_pct,needs_more_repeats,scope
+backend,14,14,path,sde,5,9.757285466269845,9.725902153603172,9.788668778936518,False,guarded adapter; not a native IR-ORAM reproduction
+backend,14,14,deferred,sde,5,19.2012904756137,19.173191463109816,19.229389488117583,False,guarded adapter; not a native IR-ORAM reproduction
+backend,4,4,path,sde,5,9.740086763280123,9.697123470775695,9.783050055784551,False,guarded adapter; not a native IR-ORAM reproduction
+backend,4,4,deferred,sde,5,19.185891636890343,19.147424502903814,19.224358770876872,False,guarded adapter; not a native IR-ORAM reproduction
+beta,14,4,path,path,5,0.0,0.0,0.0,False,guarded adapter; not a native IR-ORAM reproduction
+beta,14,4,deferred,deferred,5,0.0,0.0,0.0,False,guarded adapter; not a native IR-ORAM reproduction
+beta,14,4,sde,sde,5,-0.01906477754532565,-0.07876177376064625,0.040632218669994946,False,guarded adapter; not a native IR-ORAM reproduction

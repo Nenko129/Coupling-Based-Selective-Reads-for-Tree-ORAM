@@ -1,0 +1,458 @@
+{
+  "checked_on": "2026-09-17",
+  "renames": [
+    {
+      "id": "R16",
+      "old": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\PageORAM_An_Efficient_DRAM_Page_Aware_ORAM_Strategy.pdf",
+      "new": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R16_pageoram_an_efficient_dram_page_aware_oram_strategy.pdf",
+      "sha256_before": "e6c237af7b274cf50a659c8b775fc6c9d90030083fad3dfbf3174dd0469281c3",
+      "sha256_after": "e6c237af7b274cf50a659c8b775fc6c9d90030083fad3dfbf3174dd0469281c3",
+      "pages": 17,
+      "content_unchanged": true
+    },
+    {
+      "id": "R17",
+      "old": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\Hitchhiker_Accelerating_ORAM_With_Dynamic_Scheduling.pdf",
+      "new": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R17_hitchhiker_accelerating_oram_with_dynamic_scheduling.pdf",
+      "sha256_before": "0037a404534290038546ee79d6bd51b397b6e6c4edd5d2155b282da7881755bd",
+      "sha256_after": "0037a404534290038546ee79d6bd51b397b6e6c4edd5d2155b282da7881755bd",
+      "pages": 15,
+      "content_unchanged": true
+    },
+    {
+      "id": "R24",
+      "old": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\TianjiORAM.pdf",
+      "new": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R24_tianji_securing_a_practical_asynchronous_multi_user_oram.pdf",
+      "sha256_before": "29b5eac0e4bfc9280410e99a81420c4ae570cb1582b333abe7759de62b340eee",
+      "sha256_after": "29b5eac0e4bfc9280410e99a81420c4ae570cb1582b333abe7759de62b340eee",
+      "pages": 13,
+      "content_unchanged": true
+    },
+    {
+      "id": "R25",
+      "old": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\MP-ORAM.pdf",
+      "new": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R25_mp_oram_a_novel_oram_design_for_multicore.pdf",
+      "sha256_before": "f4451a938aa04680881e7dd37a786fe11c8f24ebb217fbd79dfffe5473f9ede5",
+      "sha256_after": "f4451a938aa04680881e7dd37a786fe11c8f24ebb217fbd79dfffe5473f9ede5",
+      "pages": 15,
+      "content_unchanged": true
+    },
+    {
+      "id": "R26",
+      "old": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\PEO-Store_Delegation-Proof_Based_Oblivious_Storage_With_Secure_Redundancy_Elimination.pdf",
+      "new": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R26_peo_store_delegation_proof_based_oblivious_storage_with.pdf",
+      "sha256_before": "7c69fe27122acf5c2c6ca616a6f7936405d213a333b4ea23da795de37f52b8ae",
+      "sha256_after": "7c69fe27122acf5c2c6ca616a6f7936405d213a333b4ea23da795de37f52b8ae",
+      "pages": 12,
+      "content_unchanged": true
+    },
+    {
+      "id": "R27",
+      "old": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\BOMAP_A_Round-Efficient_Construction_of_Oblivious_Maps.pdf",
+      "new": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R27_bomap_a_round_efficient_construction_of_oblivious_maps.pdf",
+      "sha256_before": "8a7b043bf9e9ca84555c917e5c2815fabcd77d8568be569b8c6aeef471b0ae8f",
+      "sha256_after": "8a7b043bf9e9ca84555c917e5c2815fabcd77d8568be569b8c6aeef471b0ae8f",
+      "pages": 15,
+      "content_unchanged": true
+    },
+    {
+      "id": "R43",
+      "old": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\754-2019.pdf",
+      "new": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R43_ieee_standard_for_floating_point_arithmetic.pdf",
+      "sha256_before": "424287be5176da7801696f9fe57bb97f73dc3019f5980c7ded207e7d44033823",
+      "sha256_after": "424287be5176da7801696f9fe57bb97f73dc3019f5980c7ded207e7d44033823",
+      "pages": 84,
+      "content_unchanged": true
+    }
+  ],
+  "added_rho": {
+    "id": "X02",
+    "title": "ρ: Relaxed Hierarchical ORAM",
+    "authors_display": "C. Nagarajan, A. Shafiee, R. Balasubramonian, and M. Tiwari",
+    "authors_full": [
+      "Chandrasekhar Nagarajan",
+      "Ali Shafiee",
+      "Rajeev Balasubramonian",
+      "Mohit Tiwari"
+    ],
+    "venue": "ASPLOS",
+    "year": 2019,
+    "volume_pages": "13 pages (author PDF; proceedings page range not inferred)",
+    "doi": "10.1145/3297858.3304045",
+    "metadata_url": "https://doi.org/10.1145/3297858.3304045",
+    "public_full_text_entry": "https://users.cs.utah.edu/~rajeev/pubs/asplos19.pdf",
+    "access_class": "author-hosted public PDF",
+    "public_access_confirmed": true,
+    "access_evidence": "2026-09-17在线打开作者主页PDF，13页，题名/作者/DOI与本地ro.pdf一致；本次文件从本地候选库复制。",
+    "download_status": "downloaded",
+    "download_url": null,
+    "acquisition_method": "copied_from_existing_local_candidate",
+    "original_supplied_filename": "C:\\Users\\12038\\Desktop\\for gpt\\ro.pdf",
+    "file": "literature/pdf/X02_rho_relaxed_hierarchical_oram.pdf",
+    "sha256": "0f3d7fbda22f79a65096bf29146910fa3e56d2af4bd0dcbf5f589e55ac514b35",
+    "pages": 13,
+    "original_list_member": false,
+    "checked_on": "2026-09-17",
+    "local_full_text_available": true,
+    "version_note": "作者主页公开的ASPLOS 2019排版稿；另编号X02，保留原R01–R45。",
+    "reading_this_round": "补入组合宿主正式书目；核对首页书目信息与§3.3确定性调度相关内容。",
+    "paper_role": "ρ-style组合宿主、双层ORAM与时间泄漏边界",
+    "proposed_outline_sections": [
+      "Related Work",
+      "Composability",
+      "Evaluation"
+    ]
+  },
+  "summary": {
+    "original_items": 45,
+    "original_pdf": 43,
+    "original_text": 2,
+    "original_full_text_items": 45,
+    "original_missing": [],
+    "extra_pdf": 3,
+    "all_verified_files": 48,
+    "metadata_records_retrieved": 22,
+    "original_full_text": 45,
+    "user_supplied_added": 7,
+    "publicly_acquired_original_full_text": 38,
+    "local_completeness_is_not_public_access": true
+  },
+  "all_file_checks": [
+    {
+      "id": "R01",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R01_software_protection_and_simulation_on_oblivious_rams.pdf",
+      "sha256": "2a79927c33366ef4e9383aea9c8457aaecfc5ab791bcd8fa1d048319a4f2be50",
+      "pages": 43,
+      "status": "verified"
+    },
+    {
+      "id": "R02",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R02_oblivious_ram_with_o_log_n_3_worst.pdf",
+      "sha256": "a57ebaa10a0ad6cf5a6c71b3bb14975bcff8ea63d56829bd32ceebbbccd202c2",
+      "pages": 18,
+      "status": "verified"
+    },
+    {
+      "id": "R03",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R03_path_oram_an_extremely_simple_oblivious_ram_protocol.pdf",
+      "sha256": "b317ae3f3fe89c0f84d5304dfabf5d40afb8a579d73a8fa035ce231ca7539011",
+      "pages": 26,
+      "status": "verified"
+    },
+    {
+      "id": "R04",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R04_constants_count_practical_improvements_to_oblivious_ram.pdf",
+      "sha256": "f452f88b8ac986896944e6512f3bfafd349b5382c6f2263ba574894e698d80c2",
+      "pages": 17,
+      "status": "verified"
+    },
+    {
+      "id": "R05",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R05_circuit_oram_on_tightness_of_the_goldreich_ostrovsky.pdf",
+      "sha256": "c401ca02e5fbd14983561f8eac4fe4b8ac43c21bf90cb846a4c1af8f4296f15e",
+      "pages": 38,
+      "status": "verified"
+    },
+    {
+      "id": "R06",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R06_optimizing_oram_and_using_it_efficiently_for_secure.pdf",
+      "sha256": "96cb7e33c27b2dae3fbdb3b5d2e2090b042147249d710e348a48046dc0646779",
+      "pages": 18,
+      "status": "verified"
+    },
+    {
+      "id": "R07",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R07_yes_there_is_an_oblivious_ram_lower_bound.pdf",
+      "sha256": "ca6e9605e0b42979c3be3eb6b958801847a6447c1a20d3d99b787d7f5bd2be6a",
+      "pages": 21,
+      "status": "verified"
+    },
+    {
+      "id": "R08",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R08_optorama_optimal_oblivious_ram.pdf",
+      "sha256": "5e6dddcc5ea5af0c8ce974a318a4d0817e05c206277f16341d7b6dad15632dd1",
+      "pages": 75,
+      "status": "verified"
+    },
+    {
+      "id": "R09",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R09_design_space_exploration_and_optimization_of_path_oblivious.pdf",
+      "sha256": "9c091a48aa0a968682f4b8a87fed82305d5226aa6970a32e62e5aac18f7cf9c9",
+      "pages": 12,
+      "status": "verified"
+    },
+    {
+      "id": "R10",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R10_freecursive_oram_nearly_free_recursion_and_integrity_verification.pdf",
+      "sha256": "949b5fb11a73c1033edfb65f1f4c3adeede75820577b7d2d5b692c4ed55135ac",
+      "pages": 14,
+      "status": "verified"
+    },
+    {
+      "id": "R11",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R11_fork_path_improving_efficiency_of_oram_by_removing.pdf",
+      "sha256": "9bcc6525b5be7b41bc3e6f8273ff2bfa0da8d0c31252919e1e01ab13bb1b0631",
+      "pages": 13,
+      "status": "verified"
+    },
+    {
+      "id": "R12",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R12_ir_oram_path_access_type_based_memory_intensity.pdf",
+      "sha256": "eb757bab17e5b0639797b672a2a58a2ab03b3a3fbc0b030c81dbe4239d26a78a",
+      "pages": 13,
+      "status": "verified"
+    },
+    {
+      "id": "R13",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R13_ab_oram_constructing_adjustable_buckets_for_space_reduction.pdf",
+      "sha256": "d0ce2f9bc703df3d83d48ec934c2fbee6e6212b1a99654607af068420b4fb7e7",
+      "pages": 13,
+      "status": "verified"
+    },
+    {
+      "id": "R14",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R14_streamline_ring_oram_accesses_through_spatial_and_temporal.pdf",
+      "sha256": "f76b22df3b0473c6fce52a7a33d199bf878ea13442e117f33c3ca43ef3dd13f2",
+      "pages": 12,
+      "status": "verified"
+    },
+    {
+      "id": "R15",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R15_proram_dynamic_prefetcher_for_oblivious_ram.pdf",
+      "sha256": "24314a38b4f4837529eeef67962dd636618cbdad0cb4995291fcc8a171dc9230",
+      "pages": 13,
+      "status": "verified"
+    },
+    {
+      "id": "R16",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R16_pageoram_an_efficient_dram_page_aware_oram_strategy.pdf",
+      "sha256": "e6c237af7b274cf50a659c8b775fc6c9d90030083fad3dfbf3174dd0469281c3",
+      "pages": 17,
+      "status": "verified"
+    },
+    {
+      "id": "R17",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R17_hitchhiker_accelerating_oram_with_dynamic_scheduling.pdf",
+      "sha256": "0037a404534290038546ee79d6bd51b397b6e6c4edd5d2155b282da7881755bd",
+      "pages": 15,
+      "status": "verified"
+    },
+    {
+      "id": "R18",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R18_palermo_improving_the_performance_of_oblivious_memory_using.pdf",
+      "sha256": "340277b93eb5cdf1e5ea6eaeb9a9af48fb2e7762ac7f3d278d666d6f50963f96",
+      "pages": 14,
+      "status": "verified"
+    },
+    {
+      "id": "R19",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R19_ep_oram_efficient_nvm_friendly_path_eviction_for.pdf",
+      "sha256": "09e3b77e053daa65144c10dc4e873803b47d8a5048dfc8e8b8a80e7e4c502455",
+      "pages": 6,
+      "status": "verified"
+    },
+    {
+      "id": "R20",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R20_onion_oram_a_constant_bandwidth_blowup_oblivious_ram.pdf",
+      "sha256": "c09bd80b041b79a41784c2cde106839211c1801117ffeee1f14b6a5febbdd24e",
+      "pages": 31,
+      "status": "verified"
+    },
+    {
+      "id": "R21",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R21_design_and_implementation_of_the_ascend_secure_processor.pdf",
+      "sha256": "821e769679fea3bb7c531c2dabc024e66b04f001cb88339e3d5b73c65f7e016c",
+      "pages": 13,
+      "status": "verified"
+    },
+    {
+      "id": "R22",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R22_connecting_the_dots_privacy_leakage_via_write_access.pdf",
+      "sha256": "b66c2d6ca92a95c37ef1fb798daeb75264ae1cae4e229e9e5140f7bdd68f3520",
+      "pages": 8,
+      "status": "verified"
+    },
+    {
+      "id": "R23",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R23_loco_store_locality_based_oblivious_data_storage.pdf",
+      "sha256": "c889b9c75704c4910d2ada54d2fe1d7a3bd000ddbca476d80bdcd447f09a4de8",
+      "pages": 12,
+      "status": "verified"
+    },
+    {
+      "id": "R24",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R24_tianji_securing_a_practical_asynchronous_multi_user_oram.pdf",
+      "sha256": "29b5eac0e4bfc9280410e99a81420c4ae570cb1582b333abe7759de62b340eee",
+      "pages": 13,
+      "status": "verified"
+    },
+    {
+      "id": "R25",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R25_mp_oram_a_novel_oram_design_for_multicore.pdf",
+      "sha256": "f4451a938aa04680881e7dd37a786fe11c8f24ebb217fbd79dfffe5473f9ede5",
+      "pages": 15,
+      "status": "verified"
+    },
+    {
+      "id": "R26",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R26_peo_store_delegation_proof_based_oblivious_storage_with.pdf",
+      "sha256": "7c69fe27122acf5c2c6ca616a6f7936405d213a333b4ea23da795de37f52b8ae",
+      "pages": 12,
+      "status": "verified"
+    },
+    {
+      "id": "R26-preprint",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R26-preprint_peo_store_practical_and_economical_oblivious_store_with.pdf",
+      "sha256": "c73a0dccf4563c80b72030f463f2d1079a512384e1faadbb4a1a5b5a299ebe0f",
+      "pages": 25,
+      "status": "verified"
+    },
+    {
+      "id": "R27",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R27_bomap_a_round_efficient_construction_of_oblivious_maps.pdf",
+      "sha256": "8a7b043bf9e9ca84555c917e5c2815fabcd77d8568be569b8c6aeef471b0ae8f",
+      "pages": 15,
+      "status": "verified"
+    },
+    {
+      "id": "R28",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R28_burst_oram_minimizing_oram_response_times_for_bursty.pdf",
+      "sha256": "22943b4de58936ebe5e97a1078f4fd05ba2ef50398a46c2a3d1b9dfd495fd6f7",
+      "pages": 17,
+      "status": "verified"
+    },
+    {
+      "id": "R29",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R29_oblivistore_high_performance_oblivious_cloud_storage.pdf",
+      "sha256": "de8ca030582084daff6b3ca8f8f463aced58b5b663a13c8e9c44e959219e7951",
+      "pages": 15,
+      "status": "verified"
+    },
+    {
+      "id": "R30",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R30_shroud_ensuring_private_access_to_large_scale_data.pdf",
+      "sha256": "7e831ff59f52ebc23d7070e8006eb472d3412e651c3c4878a8ececae7c2e2622",
+      "pages": 15,
+      "status": "verified"
+    },
+    {
+      "id": "R31",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R31_taostore_overcoming_asynchronicity_in_oblivious_data_storage.pdf",
+      "sha256": "6130df58739af8df2c08bbdb5fe2c50e91b16f2e64b6be0a5bfa5163d6c98f71",
+      "pages": 20,
+      "status": "verified"
+    },
+    {
+      "id": "R32",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R32_concuroram_high_throughput_stateless_parallel_multi_client_oram.pdf",
+      "sha256": "955c40bc39a1257e5df14458deda52cdb2dd42d03fbae2d8134f3d386a32a88a",
+      "pages": 15,
+      "status": "verified"
+    },
+    {
+      "id": "R33",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R33_quoram_a_quorum_replicated_fault_tolerant_oram_datastore.pdf",
+      "sha256": "d12f4245a546434ba88aaf059f3bc07c5cdf61fb90dad6ee5330ba3d79a77928",
+      "pages": 19,
+      "status": "verified"
+    },
+    {
+      "id": "R34",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R34_v_oram_a_versatile_and_adaptive_oram_framework.pdf",
+      "sha256": "27356109da5cdb2ae901172287f51d8116b9baaf552c92a6343b61114248cc72",
+      "pages": 21,
+      "status": "verified"
+    },
+    {
+      "id": "R35",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R35_futorama_a_concretely_efficient_hierarchical_oblivious_ram.pdf",
+      "sha256": "d2c79f9b1761510681d58cc524ab28d09c71fd6195ed511f12cd1189360231cf",
+      "pages": 22,
+      "status": "verified"
+    },
+    {
+      "id": "R36",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R36_latoram_orams_from_lateral_stashes_and_delayed_shuffling.pdf",
+      "sha256": "a300aabc8b9222fc6a863e22c85fe4a45eb865964a291b15d73e421d04114f43",
+      "pages": 39,
+      "status": "verified"
+    },
+    {
+      "id": "R37",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R37_macorama_optimal_oblivious_ram_with_integrity.pdf",
+      "sha256": "e8bc1bbe397fef23c136cb11f7061f4d8f6197892b9d6fb60995149470a77803",
+      "pages": 89,
+      "status": "verified"
+    },
+    {
+      "id": "R38",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R38_integrity_verification_for_path_oblivious_ram.pdf",
+      "sha256": "30c0aea798799bb7b54eef197c100a0d2c2528c7a35517e7e3b2c2b9fdab251e",
+      "pages": 6,
+      "status": "verified"
+    },
+    {
+      "id": "R39",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R39_access_pattern_disclosure_on_searchable_encryption_ramification_attack.pdf",
+      "sha256": "22ecd9d02f096ced20e61a0e77c1fde8056a52e251b6ee26ff74f4cee68884c7",
+      "pages": 15,
+      "status": "verified"
+    },
+    {
+      "id": "R40",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R40_suppressing_the_oblivious_ram_timing_channel_while_making.pdf",
+      "sha256": "d7a08bca74c5ddc0f74fa74f4399ccc87d8e212a2fd6bbadd131e9c788a70de3",
+      "pages": 12,
+      "status": "verified"
+    },
+    {
+      "id": "R41",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R41_benchmarking_cloud_serving_systems_with_ycsb.pdf",
+      "sha256": "0c6f5598d0b3201ee1299c1d4740dc57704d7c0dcf243ae4ee4419cccabf891f",
+      "pages": 12,
+      "status": "verified"
+    },
+    {
+      "id": "R42",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R42_rigorous_benchmarking_in_reasonable_time.pdf",
+      "sha256": "b50fb85079cbaea9524eb202393a60807dd3fc270d91eb80de5dba0faf02dbab",
+      "pages": 12,
+      "status": "verified"
+    },
+    {
+      "id": "R43",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R43_ieee_standard_for_floating_point_arithmetic.pdf",
+      "sha256": "424287be5176da7801696f9fe57bb97f73dc3019f5980c7ded207e7d44033823",
+      "pages": 84,
+      "status": "verified"
+    },
+    {
+      "id": "R44",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\text\\RFC2104.txt",
+      "sha256": "64d5245a9101929025336e470e3737f118704001249d503c85a86e19fe9fbb01",
+      "pages": null,
+      "status": "verified"
+    },
+    {
+      "id": "R45",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\text\\RFC5116.txt",
+      "sha256": "8762fee7c85e682fce609c75e0f5040ee7efa8fca96969ffd85df37585e0eda1",
+      "pages": null,
+      "status": "verified"
+    },
+    {
+      "id": "X01",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\X01_sonic_concurrent_oblivious_ram_data_structures_for_low.pdf",
+      "sha256": "e5db1f006e1d396ed77ee9d8bd88b2a0c7818d908725067e7dbb2c2865c5e93f",
+      "pages": 21,
+      "status": "verified"
+    },
+    {
+      "id": "X02",
+      "file": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\X02_rho_relaxed_hierarchical_oram.pdf",
+      "sha256": "0f3d7fbda22f79a65096bf29146910fa3e56d2af4bd0dcbf5f589e55ac514b35",
+      "pages": 13,
+      "status": "verified"
+    }
+  ]
+}

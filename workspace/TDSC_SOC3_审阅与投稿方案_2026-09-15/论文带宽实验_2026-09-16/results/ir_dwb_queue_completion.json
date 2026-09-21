@@ -1,0 +1,606 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "id": "IRDWB_uniform_path_dwb0_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb0_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb0_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 60855.21875
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb1_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb1_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb1_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 60966.125
+    },
+    {
+      "id": "IRDWB_depth_path_dwb0_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb0_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb0_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 53216.78125
+    },
+    {
+      "id": "IRDWB_depth_path_dwb1_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb1_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb1_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 53278.3125
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb0_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb0_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb0_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 61105.46875
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb1_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb1_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb1_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 61116.84375
+    },
+    {
+      "id": "IRDWB_depth_path_dwb0_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb0_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb0_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 53368.90625
+    },
+    {
+      "id": "IRDWB_depth_path_dwb1_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb1_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb1_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 53390.34375
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb0_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb0_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb0_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 61017.3125
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb1_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb1_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb1_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 61020.15625
+    },
+    {
+      "id": "IRDWB_depth_path_dwb0_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb0_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb0_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 53327.75
+    },
+    {
+      "id": "IRDWB_depth_path_dwb1_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb1_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb1_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 53328.40625
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb0_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb0_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb0_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 61042.90625
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb1_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb1_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb1_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 60988.875
+    },
+    {
+      "id": "IRDWB_depth_path_dwb0_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb0_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb0_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 53336.96875
+    },
+    {
+      "id": "IRDWB_depth_path_dwb1_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb1_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb1_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 53290.1875
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb0_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb0_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb0_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 61114.0
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb1_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb1_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb1_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 60991.71875
+    },
+    {
+      "id": "IRDWB_depth_path_dwb0_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb0_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb0_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 53407.375
+    },
+    {
+      "id": "IRDWB_depth_path_dwb1_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb1_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb1_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 53332.90625
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb0_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb0_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb0_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 61244.8125
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb1_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb1_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb1_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 61176.5625
+    },
+    {
+      "id": "IRDWB_depth_path_dwb0_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb0_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb0_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 53508.125
+    },
+    {
+      "id": "IRDWB_depth_path_dwb1_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb1_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb1_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 53469.625
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb0_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb0_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb0_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 61324.4375
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb1_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb1_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb1_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 61241.96875
+    },
+    {
+      "id": "IRDWB_depth_path_dwb0_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb0_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb0_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 53567.1875
+    },
+    {
+      "id": "IRDWB_depth_path_dwb1_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb1_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb1_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 53498.96875
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb0_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb0_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb0_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 61256.1875
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb1_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb1_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb1_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 61261.875
+    },
+    {
+      "id": "IRDWB_depth_path_dwb0_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb0_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb0_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 53541.375
+    },
+    {
+      "id": "IRDWB_depth_path_dwb1_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb1_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb1_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 53540.5
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb0_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb0_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb0_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 60858.0625
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb1_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb1_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb1_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 61057.125
+    },
+    {
+      "id": "IRDWB_depth_path_dwb0_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb0_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb0_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 53195.0
+    },
+    {
+      "id": "IRDWB_depth_path_dwb1_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb1_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb1_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 53337.4375
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb0_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb0_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb0_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 61156.65625
+    },
+    {
+      "id": "IRDWB_uniform_path_dwb1_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 70912.0
+    },
+    {
+      "id": "IRDWB_uniform_deferred_dwb1_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 76640.875
+    },
+    {
+      "id": "IRDWB_uniform_sde_dwb1_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 61057.125
+    },
+    {
+      "id": "IRDWB_depth_path_dwb0_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb0_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb0_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 53436.84375
+    },
+    {
+      "id": "IRDWB_depth_path_dwb1_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRDWB_depth_deferred_dwb1_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 66057.625
+    },
+    {
+      "id": "IRDWB_depth_sde_dwb1_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 53359.9375
+    }
+  ],
+  "plan_sha256": "7c8f74c81a033b0c589400dcb6683d84666805c8b1aa5766ce97096897c7f798"
+}

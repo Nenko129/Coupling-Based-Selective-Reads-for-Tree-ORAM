@@ -1,0 +1,64 @@
+{
+  "theorem_id": "GC-SERIAL-LEAF-RETAINED-SOC2-v2-2026-09-11",
+  "theorem_scope": {
+    "requests": "Any fixed logical address/value stream independent of ORAM coins; mixtures and applications adapting only to correct logical RAM outputs are covered.",
+    "not_claimed": "A logical-query selector that adaptively reads the ORAM server transcript/internal random state is not included in the stash theorem.",
+    "client": "One serial trusted client with nonrollback private state, root and nonce allocation; fail-stop on rejection/overflow.",
+    "initialization": "Authenticated dummy tree, then bottom-up position-map loading and data loading through normal counted operations.",
+    "timing": "Application scheduling/local computation timing, concurrent clients and crash recovery are outside this model."
+  },
+  "protocol": {
+    "Z": 4,
+    "A": 3,
+    "m": 2,
+    "priority": "immutable version_serial",
+    "shadow_delete": "first mapped-leaf service after invalidation",
+    "neutral_reshuffle_fills_from_stash": false,
+    "checkpoint": "after completed logical access including scheduled maintenance"
+  },
+  "ghost": {
+    "recurrence": "((sum(R)+L[2]+P-4)_+,L[0],L[1])",
+    "rate": "3/2",
+    "bucket_levels": "L+1",
+    "initial_state": [
+      0,
+      0,
+      0
+    ]
+  },
+  "offsets": {
+    "sde": 2,
+    "r0": 6
+  },
+  "authentication": {
+    "profile": "domain-separated variable-input 512-bit PRF",
+    "instantiation_for_tests": "HMAC-SHA-512",
+    "header_Z4_bytes": 364,
+    "nonce_bytes": 16,
+    "tag_bytes": 64,
+    "frame_header_bytes": 36,
+    "server_computes_keyed_tags": false
+  },
+  "cost": "Exact per-trace application frame invoice; periodic complete-service-interval expectation uses outward Decimal intervals.",
+  "artifact_sha256": {
+    "certificates/ghost_next_c280_h31.csv": "0a1009a8bc681fc02c79738537328bc26cb167b2889e37b553c78ad3a22ad503",
+    "certificates/ghost_next_c280_h31_meta.json": "8c0ba675a9c036f929727cc5287ddb478a3d05f289729a3d9e33d831bfa4afe6",
+    "certificates/ghost_up_c280_h31.csv": "2fe3269cfa5abd238a3e52cba48499ff247704203c77b826ee5a33bf6f1645e8",
+    "certificates/ghost_up_c280_h31_meta.json": "2d30558709c589cb24682ab8e6cd1a6aae27e44387dce90137bb31de0a29ee33",
+    "legacy/ghost_scalar.cpp": "60180517341538e986d62077e9ba1f565df21ad9c3c90286291c8cf70cb46eba",
+    "legacy/poisson_seed.h": "5a3864886dcad667310e0d2b68c6e70ca50a7bae8dabfa8ad00417a4cb028b9a",
+    "legacy/poisson_seed.json": "5aa95ea5672a8810324c24277f605472c4c736ce018d80b7a76c75ce1a01b382",
+    "legacy/poisson_seed.py": "104a95fa0bcb623572ba5364f99d5f092f132c041bbc8fdd15608d7a52e3afa9",
+    "proofs/01_reduction_complete.md": "044cb8546d72eeccbbb31e63655e18812f5861b48ba4ee164876c5bee41b2735",
+    "proofs/02_certificate_recursion_authentication.md": "7fc2f5da4c15f8663f72a0f443e9e320ce30907af68faba9ed8b6a3e1e741c8d",
+    "proofs/03_unified_cost_identity.md": "6698ade49ca9894bb198da23cf75066e6391b277cd023e43d5cdea49194869e7",
+    "src/certified_driver.py": "03efb930bb19398bf3e06278933cfdd2c814c111d92f72da050445ca428fcacf",
+    "src/chain_tests.py": "fedbc9920ea5367e079c3908466e5a4628fa1e4ea204d56c676a0dbd1b975654",
+    "src/gate_tests.py": "00e98ac2c6b80c060ea2e240b1231d7ff4f4ff4b9100888c033c2accef4e194d",
+    "src/integrated_oram.py": "08cca03c106beffa3dcf3329bfa3329e250384e3e72845388133d15815e05ea3",
+    "src/reduction_checks.py": "10a61729cc316e2cfd6b21ced6b69260f4d06142b369c534e27a751ae058f09b",
+    "src/seal_contract.py": "26654b9bc796dedde756ad7a41a560302a5b52901463eebae5d5ddf17d70fcca",
+    "src/unified_cost.py": "d48fc8fae032ec12ea2235b0b19459ff1a3eb659024353daa5c7c42bfb804f0d",
+    "verify_chain.py": "1906cf4c19914b0d00705b3419af6bab6d29b61f410f90f529b47c1b985fd461"
+  }
+}

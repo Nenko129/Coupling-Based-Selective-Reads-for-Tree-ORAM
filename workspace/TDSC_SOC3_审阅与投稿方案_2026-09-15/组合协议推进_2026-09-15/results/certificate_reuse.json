@@ -1,0 +1,135 @@
+{
+  "numerical_grids_regenerated": false,
+  "rows": [
+    {
+      "method": "existing audited dyadic stop-loss grid, conditional transfer reduction",
+      "Z": 4,
+      "A": 3,
+      "L": 8,
+      "N_max": 273,
+      "R": 128,
+      "rootless": false,
+      "h": 9,
+      "r": 126,
+      "Q_slot_bound": 72057594037927936,
+      "per_boundary_upper_exact": "8575027217618653/994646472819573284310764496293641680200912301594695434880927953786318994025066751066112",
+      "lifetime_upper_exact": "8575027217618653/13803492693581127574869511724554050904902217944340773110325048447598592",
+      "lifetime_log2_upper_display": -180.07093732620166,
+      "at_most_2^-132": true,
+      "minimum_R_for_2^-132_in_grid": 104,
+      "grid": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\selective_oram_final_chain_2026-09-11\\certificates\\ghost_up_c280_h31.csv",
+      "grid_sha256": "2fe3269cfa5abd238a3e52cba48499ff247704203c77b826ee5a33bf6f1645e8"
+    },
+    {
+      "method": "existing audited dyadic stop-loss grid, conditional transfer reduction",
+      "Z": 4,
+      "A": 3,
+      "L": 8,
+      "N_max": 273,
+      "R": 128,
+      "rootless": true,
+      "h": 9,
+      "r": 122,
+      "Q_slot_bound": 72057594037927936,
+      "per_boundary_upper_exact": "7720890426053177/3885337784451458141838923813647037813284813678104279042503624819477808570410416996352",
+      "lifetime_upper_exact": "7720890426053177/53919893334301279589334030174039261347274288845081144962207220498432",
+      "lifetime_log2_upper_display": -172.2223113381116,
+      "at_most_2^-132": true,
+      "minimum_R_for_2^-132_in_grid": 108,
+      "grid": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\selective_oram_final_chain_2026-09-11\\certificates\\ghost_up_c280_h31.csv",
+      "grid_sha256": "2fe3269cfa5abd238a3e52cba48499ff247704203c77b826ee5a33bf6f1645e8"
+    },
+    {
+      "method": "existing audited dyadic stop-loss grid, conditional transfer reduction",
+      "Z": 7,
+      "A": 6,
+      "L": 8,
+      "N_max": 273,
+      "R": 128,
+      "rootless": false,
+      "h": 9,
+      "r": 123,
+      "Q_slot_bound": 72057594037927936,
+      "per_boundary_upper_exact": "2577844651304315/474284397516047136454946754595585670566993857190463750305618264096412179005177856",
+      "lifetime_upper_exact": "2577844651304315/6582018229284824168619876730229402019930943462534319453394436096",
+      "lifetime_log2_upper_display": -160.80491325152602,
+      "at_most_2^-132": true,
+      "minimum_R_for_2^-132_in_grid": 112,
+      "grid": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\numerics\\z7a6_up_c280_h24.csv",
+      "grid_sha256": "a2751c07f198a2d3d39cc83a591a683595e700243e8f1b64f748f40cf938d93e"
+    },
+    {
+      "method": "existing audited dyadic stop-loss grid, conditional transfer reduction",
+      "Z": 7,
+      "A": 6,
+      "L": 8,
+      "N_max": 273,
+      "R": 128,
+      "rootless": true,
+      "h": 9,
+      "r": 116,
+      "Q_slot_bound": 72057594037927936,
+      "per_boundary_upper_exact": "7298621372890569/231584178474632390847141970017375815706539969331281128078915168015826259279872",
+      "lifetime_upper_exact": "7298621372890569/3213876088517980551083924184682325205044405987565585670602752",
+      "lifetime_log2_upper_display": -148.30345459575528,
+      "at_most_2^-132": true,
+      "minimum_R_for_2^-132_in_grid": 119,
+      "grid": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\numerics\\z7a6_up_c280_h24.csv",
+      "grid_sha256": "a2751c07f198a2d3d39cc83a591a683595e700243e8f1b64f748f40cf938d93e"
+    },
+    {
+      "method": "existing audited dyadic stop-loss grid, conditional transfer reduction",
+      "Z": 7,
+      "A": 6,
+      "L": 21,
+      "N_max": 4329605,
+      "R": 149,
+      "rootless": true,
+      "h": 22,
+      "r": 137,
+      "Q_slot_bound": 72057594037927936,
+      "per_boundary_upper_exact": "314106511238617/14474011154664524427946373126085988481658748083205070504932198000989141204992",
+      "lifetime_upper_exact": "314106511238617/200867255532373784442745261542645325315275374222849104412672",
+      "lifetime_log2_upper_display": -148.8417528220786,
+      "at_most_2^-132": true,
+      "minimum_R_for_2^-132_in_grid": 138,
+      "grid": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\numerics\\z7a6_up_c280_h24.csv",
+      "grid_sha256": "a2751c07f198a2d3d39cc83a591a683595e700243e8f1b64f748f40cf938d93e"
+    }
+  ],
+  "out_of_domain_rejections": [
+    {
+      "L": 24,
+      "R": 149,
+      "rejected": true
+    },
+    {
+      "L": 23,
+      "R": 300,
+      "rejected": true
+    }
+  ],
+  "large_unified_population": {
+    "data": 4194304,
+    "X": 32,
+    "level_populations": [
+      4194304,
+      131072,
+      4096,
+      128,
+      4,
+      1
+    ],
+    "total": 4329605,
+    "L": 21
+  },
+  "requires": [
+    "one admission at most per transfer slot",
+    "fixed coin-independent birth/retirement trace",
+    "fresh never-published admission labels",
+    "every A slots full bit-reversal service",
+    "immutable UID assigned at admission",
+    "fail-stop/no rollback"
+  ],
+  "claim": "conditional stash bound only; not full native framework cryptographic closure"
+}

@@ -1,0 +1,244 @@
+{
+  "compression": [
+    {
+      "workload": "uniform",
+      "SDE_raw_to_compressed_pct": 9.222404800686357,
+      "R0_43_raw_to_compressed_pct": 9.45591033289811,
+      "raw_Path_to_compressed_SDE_pct": 22.876717906953058,
+      "raw_Ring43_to_compressed_R0_43_pct": 33.03787920755794
+    },
+    {
+      "workload": "zipf",
+      "SDE_raw_to_compressed_pct": 12.14495820302054,
+      "R0_43_raw_to_compressed_pct": 12.40512834119306,
+      "raw_Path_to_compressed_SDE_pct": 25.48014102216416,
+      "raw_Ring43_to_compressed_R0_43_pct": 35.37417629289562
+    },
+    {
+      "workload": "scan",
+      "SDE_raw_to_compressed_pct": 3.411027061131966,
+      "R0_43_raw_to_compressed_pct": 2.8676855706032733,
+      "raw_Path_to_compressed_SDE_pct": 17.683678672414594,
+      "raw_Ring43_to_compressed_R0_43_pct": 27.947663311151505
+    }
+  ],
+  "long_trace_breakdown": [
+    {
+      "family": "free_compressed",
+      "backend": "Deferred",
+      "bytes_per_request": 19774.609375,
+      "rpc_per_request": 4.336588541666667,
+      "backend_bytes_per_request": 19774.609375,
+      "backend_share": 1.0,
+      "ciphertext_bytes_per_request": 7805.625,
+      "header_bytes_per_request": 7961.9765625,
+      "authentication_bytes_per_request": 3608.041666666667,
+      "control_bytes_per_request": 398.9661458333333,
+      "backend_slots_per_request": [
+        1.6263020833333333
+      ],
+      "component_bytes_per_request": {
+        "data_download": 6244.6875,
+        "data_upload": 1560.9375,
+        "headers_download": 3980.98828125,
+        "headers_upload": 3980.98828125,
+        "authentication_download": 1110.1666666666667,
+        "authentication_upload": 2497.875,
+        "framing_and_control": 398.9661458333333
+      }
+    },
+    {
+      "family": "free_compressed",
+      "backend": "SDE",
+      "bytes_per_request": 15592.638020833334,
+      "rpc_per_request": 4.336588541666667,
+      "backend_bytes_per_request": 15592.638020833334,
+      "backend_share": 1.0,
+      "ciphertext_bytes_per_request": 5967.395833333333,
+      "header_bytes_per_request": 5618.234375,
+      "authentication_bytes_per_request": 3608.0416666666665,
+      "control_bytes_per_request": 398.9661458333333,
+      "backend_slots_per_request": [
+        1.6263020833333333
+      ],
+      "component_bytes_per_request": {
+        "data_download": 4406.458333333333,
+        "data_upload": 1560.9375,
+        "headers_download": 2809.1171875,
+        "headers_upload": 2809.1171875,
+        "authentication_download": 1477.8125,
+        "authentication_upload": 2130.2291666666665,
+        "framing_and_control": 398.9661458333333
+      }
+    },
+    {
+      "family": "free_compressed",
+      "backend": "Ring43",
+      "bytes_per_request": 29249.75,
+      "rpc_per_request": 6.5048828125,
+      "backend_bytes_per_request": 29249.75,
+      "backend_share": 1.0,
+      "ciphertext_bytes_per_request": 6504.296875,
+      "header_bytes_per_request": 7961.9765625,
+      "authentication_bytes_per_request": 14037.583333333332,
+      "control_bytes_per_request": 745.8932291666666,
+      "backend_slots_per_request": [
+        1.6263020833333333
+      ],
+      "component_bytes_per_request": {
+        "data_download": 2909.296875,
+        "data_upload": 3595.0,
+        "headers_download": 3980.98828125,
+        "headers_upload": 3980.98828125,
+        "authentication_download": 6147.208333333333,
+        "authentication_upload": 7890.375,
+        "framing_and_control": 745.8932291666666
+      }
+    },
+    {
+      "family": "free_compressed",
+      "backend": "R0-43",
+      "bytes_per_request": 21657.807291666668,
+      "rpc_per_request": 6.5048828125,
+      "backend_bytes_per_request": 21657.807291666668,
+      "backend_share": 1.0,
+      "ciphertext_bytes_per_request": 4959.84375,
+      "header_bytes_per_request": 5020.3125,
+      "authentication_bytes_per_request": 10989.4375,
+      "control_bytes_per_request": 688.2135416666666,
+      "backend_slots_per_request": [
+        1.6263020833333333
+      ],
+      "component_bytes_per_request": {
+        "data_download": 2068.59375,
+        "data_upload": 2891.25,
+        "headers_download": 2510.15625,
+        "headers_upload": 2510.15625,
+        "authentication_download": 4616.125,
+        "authentication_upload": 6373.3125,
+        "framing_and_control": 688.2135416666666
+      }
+    },
+    {
+      "family": "rho",
+      "backend": "Deferred",
+      "bytes_per_request": 30168.890625,
+      "rpc_per_request": 7.337890625,
+      "backend_bytes_per_request": 10295.625,
+      "backend_share": 0.34126627750336774,
+      "ciphertext_bytes_per_request": 11379.375,
+      "header_bytes_per_request": 12009.3046875,
+      "authentication_bytes_per_request": 6105.125,
+      "control_bytes_per_request": 675.0859375,
+      "backend_slots_per_request": [
+        2.5400390625,
+        0.8466796875
+      ],
+      "component_bytes_per_request": {
+        "data_download": 6908.90625,
+        "data_upload": 4470.46875,
+        "headers_download": 6004.65234375,
+        "headers_upload": 6004.65234375,
+        "authentication_download": 1878.5,
+        "authentication_upload": 4226.625,
+        "framing_and_control": 675.0859375
+      }
+    },
+    {
+      "family": "rho",
+      "backend": "SDE",
+      "bytes_per_request": 27999.583333333332,
+      "rpc_per_request": 7.337890625,
+      "backend_bytes_per_request": 8126.317708333333,
+      "backend_share": 0.2902299513385616,
+      "ciphertext_bytes_per_request": 10425.833333333332,
+      "header_bytes_per_request": 10793.5390625,
+      "authentication_bytes_per_request": 6105.125,
+      "control_bytes_per_request": 675.0859375,
+      "backend_slots_per_request": [
+        2.5400390625,
+        0.8466796875
+      ],
+      "component_bytes_per_request": {
+        "data_download": 5955.364583333333,
+        "data_upload": 4470.46875,
+        "headers_download": 5396.76953125,
+        "headers_upload": 5396.76953125,
+        "authentication_download": 2069.2083333333335,
+        "authentication_upload": 4035.9166666666665,
+        "framing_and_control": 675.0859375
+      }
+    },
+    {
+      "family": "rho",
+      "backend": "Ring43",
+      "bytes_per_request": 35111.833333333336,
+      "rpc_per_request": 8.466796875,
+      "backend_bytes_per_request": 15238.567708333334,
+      "backend_share": 0.4340009125603429,
+      "ciphertext_bytes_per_request": 10707.109375,
+      "header_bytes_per_request": 12009.3046875,
+      "authentication_bytes_per_request": 11539.708333333332,
+      "control_bytes_per_request": 855.7109375,
+      "backend_slots_per_request": [
+        2.5400390625,
+        0.8466796875
+      ],
+      "component_bytes_per_request": {
+        "data_download": 5173.828125,
+        "data_upload": 5533.28125,
+        "headers_download": 6004.65234375,
+        "headers_upload": 6004.65234375,
+        "authentication_download": 4499.645833333333,
+        "authentication_upload": 7040.0625,
+        "framing_and_control": 855.7109375
+      }
+    },
+    {
+      "family": "rho",
+      "backend": "R0-43",
+      "bytes_per_request": 31156.567708333332,
+      "rpc_per_request": 8.466796875,
+      "backend_bytes_per_request": 11283.302083333334,
+      "backend_share": 0.36214843011463776,
+      "ciphertext_bytes_per_request": 9902.395833333332,
+      "header_bytes_per_request": 10476.515625,
+      "authentication_bytes_per_request": 9952.0,
+      "control_bytes_per_request": 825.65625,
+      "backend_slots_per_request": [
+        2.5400390625,
+        0.8466796875
+      ],
+      "component_bytes_per_request": {
+        "data_download": 4735.78125,
+        "data_upload": 5166.614583333333,
+        "headers_download": 5238.2578125,
+        "headers_upload": 5238.2578125,
+        "authentication_download": 3702.375,
+        "authentication_upload": 6249.625,
+        "framing_and_control": 825.65625
+      }
+    }
+  ],
+  "rho_dilution": [
+    {
+      "pair": [
+        "Deferred",
+        "SDE"
+      ],
+      "baseline_backend_share_pct": 34.12662775033677,
+      "backend_saving_pct": 21.070185556162613,
+      "total_saving_pct": 7.190543791056847
+    },
+    {
+      "pair": [
+        "Ring43",
+        "R0-43"
+      ],
+      "baseline_backend_share_pct": 43.40009125603429,
+      "backend_saving_pct": 25.95562588757624,
+      "total_saving_pct": 11.264765321282955
+    }
+  ],
+  "all_costs": "bytes in serialized authenticated application frames, not network latency"
+}

@@ -1,0 +1,54 @@
+{
+  "results": [
+    {
+      "id": "pilot_deferred_N256_B4096",
+      "status": "passed",
+      "seconds": 15.852448225021362,
+      "bytes_per_request": 254865.375
+    },
+    {
+      "id": "pilot_path_N256_B4096",
+      "status": "passed",
+      "seconds": 18.518707990646362,
+      "bytes_per_request": 301584.0
+    },
+    {
+      "id": "pilot_sde_N256_B4096",
+      "status": "passed",
+      "seconds": 12.744548082351685,
+      "bytes_per_request": 193630.6875
+    },
+    {
+      "id": "pilot_ring_N256_B4096",
+      "status": "passed",
+      "seconds": 15.970053911209106,
+      "bytes_per_request": 227977.0
+    },
+    {
+      "id": "pilot_gc_ring_N256_B4096",
+      "status": "passed",
+      "seconds": 13.085245609283447,
+      "bytes_per_request": 181748.5
+    },
+    {
+      "id": "pilot_r0_N256_B4096",
+      "status": "passed",
+      "seconds": 11.994666576385498,
+      "bytes_per_request": 165229.125
+    },
+    {
+      "id": "pilot_sde_N4096_B4096",
+      "status": "passed",
+      "seconds": 187.87656998634338,
+      "bytes_per_request": 277861.6875
+    },
+    {
+      "id": "pilot_sde_N16384_B4096",
+      "status": "passed",
+      "seconds": 919.3547797203064,
+      "bytes_per_request": 348666.875
+    }
+  ],
+  "completed": 1789498672.9691133,
+  "all_passed": true
+}

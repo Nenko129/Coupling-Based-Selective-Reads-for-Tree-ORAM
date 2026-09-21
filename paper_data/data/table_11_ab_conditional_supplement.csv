@@ -1,0 +1,19 @@
+﻿axis,condition,workload,baseline,variant,n,bytes_saving_pct,ci95_low_pct,ci95_high_pct,rpc_saving_pct,needs_more_repeats,scope
+backend,D3,uniform,ring,gc_ring,5,20.25470186174919,20.227508777353265,20.281894946145115,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+backend,D3,uniform,ring,r0,5,20.255403419563816,20.228079925414384,20.282726913713248,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+backend,D3,uniform,gc_ring,r0,5,0.0008797662648074578,-0.0011753909320246056,0.002934923461639521,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+backend,D3,hot90,ring,gc_ring,5,20.239192341686113,20.194129034041094,20.284255649331133,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+backend,D3,hot90,ring,r0,5,20.23720157605901,20.19431079653029,20.280092355587733,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+backend,D3,hot90,gc_ring,r0,5,-0.002496722347868907,-0.00548111672790204,0.00048767203216422547,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+backend,bottom_D0,uniform,ring,gc_ring,5,21.976060804796447,21.938854829865768,22.013266779727125,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+backend,bottom_D0,uniform,ring,r0,5,21.97765511890374,21.940344894457297,22.014965343350184,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+backend,bottom_D0,uniform,gc_ring,r0,5,0.0020433516142026598,-0.002209379401208381,0.0062960826296137,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+backend,bottom_D0,hot90,ring,gc_ring,5,21.947787081529547,21.897556228951732,21.998017934107363,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+backend,bottom_D0,hot90,ring,r0,5,21.949727850517675,21.90229803803215,21.9971576630032,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+backend,bottom_D0,hot90,gc_ring,r0,5,0.002485279809589791,-0.0021686471352127803,0.007139206754392362,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+layout,ring,uniform,D3,bottom_D0,5,1.6925015671611843,1.6673302531059162,1.7176728812164523,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+layout,ring,hot90,D3,bottom_D0,5,1.7074014887218403,1.657718405795897,1.7570845716477836,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+layout,gc_ring,uniform,D3,bottom_D0,5,3.81454180363592,3.7917478151332302,3.83733579213861,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+layout,gc_ring,hot90,D3,bottom_D0,5,3.812981117544789,3.7838443784349307,3.8421178566546477,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+layout,r0,uniform,D3,bottom_D0,5,3.8156609550033,3.792123750082643,3.839198159923957,0.0,False,conditional AB+CB supplement; capacity-security admission remains open
+layout,r0,hot90,D3,bottom_D0,5,3.8177731794981624,3.7893488573273313,3.8461975016689935,0.0,False,conditional AB+CB supplement; capacity-security admission remains open

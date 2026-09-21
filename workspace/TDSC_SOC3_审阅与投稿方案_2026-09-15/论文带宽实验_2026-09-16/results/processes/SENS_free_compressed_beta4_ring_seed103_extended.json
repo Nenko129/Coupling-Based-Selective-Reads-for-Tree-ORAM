@@ -1,0 +1,40 @@
+{
+  "pid": 29524,
+  "parent_pid": 15408,
+  "command": [
+    "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_extended_composition.py",
+    "--spec",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\SENS_free_compressed_beta4_ring_seed103.json"
+  ],
+  "spec": {
+    "id": "SENS_free_compressed_beta4_ring_seed103",
+    "family": "free_compressed",
+    "kind": "ring",
+    "N": 4096,
+    "B": 64,
+    "profile": [
+      4,
+      3,
+      4
+    ],
+    "plb": 8,
+    "llc": 32,
+    "rho": 128,
+    "R": 256,
+    "warmup": 2048,
+    "requests": 4096,
+    "trace_seed": 103,
+    "oram_seed": 1003,
+    "workload": "hot90",
+    "study": "frontend_sensitivity",
+    "condition": "beta4",
+    "experiment_class": "formal_frontend_sensitivity",
+    "beta": 4,
+    "X": 32
+  },
+  "started": 1789516792.5471587
+}

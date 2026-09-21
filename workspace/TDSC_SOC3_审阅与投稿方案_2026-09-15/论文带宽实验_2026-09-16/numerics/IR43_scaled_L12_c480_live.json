@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "kernel_sha256": "ca3959eefab2e38e836cca71677bdfedeedbd6f5d10b3b9b8258897d6acc6f26",
+    "binary_sha256": "bc4b58e100d39557f226c405188f1a61c69a8063501e5ed753202dcf879b65d9",
+    "profile_sha256": "73480a44c92c022e0ca71d08fc8a42f7a9d15899fa5ad498b282a91cee31c5c5",
+    "profile_spec_sha256": "58b8254b5b4a9dc4f250f2c8fe7492a97ec158fd93cb3dee52235cf463f8c033"
+  },
+  "pid": 17624,
+  "parent_pid": 22264,
+  "command": [
+    "wsl",
+    "--exec",
+    "/mnt/d/projects/SDE-R0/TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/numerics/ghost_profile",
+    "480",
+    "13",
+    "128",
+    "1",
+    "next",
+    "/mnt/d/projects/SDE-R0/TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/numerics/grids/IR43_scaled_L12_next_c480_m128",
+    "/mnt/d/projects/SDE-R0/TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/numerics/profiles/IR43_scaled_L12.txt"
+  ],
+  "started": 1789502675.9580495
+}

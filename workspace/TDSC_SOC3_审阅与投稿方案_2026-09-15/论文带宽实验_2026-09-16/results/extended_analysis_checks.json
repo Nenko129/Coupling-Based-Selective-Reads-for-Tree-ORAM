@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "rejected": [
+    "direction_total",
+    "stage_total",
+    "rpc_sequence",
+    "wrong_source",
+    "unchecked_requests",
+    "seed_mismatch",
+    "answer_mismatch"
+  ],
+  "public_no_iid_ci": true,
+  "tuned_without_study_field": true,
+  "checker_sha256": "81d2b15987f077d05fe791fa12bf415b91c4dbe0b503f4da41f9d3534dde2003",
+  "analyzer_sha256": "271d7d1909d51d2205a3052200dcef37b1e5180a3dbc273415bcf317931eaf49"
+}

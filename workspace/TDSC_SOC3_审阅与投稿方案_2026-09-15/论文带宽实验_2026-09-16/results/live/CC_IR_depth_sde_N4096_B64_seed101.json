@@ -1,0 +1,8 @@
+{
+  "id": "CC_IR_depth_sde_N4096_B64_seed101",
+  "pid": 47308,
+  "stage": "passed",
+  "time": 1789501347.293443,
+  "receipt": "results\\formal_cached_components\\CC_IR_depth_sde_N4096_B64_seed101.json",
+  "elapsed_seconds": 38.237892150878906
+}

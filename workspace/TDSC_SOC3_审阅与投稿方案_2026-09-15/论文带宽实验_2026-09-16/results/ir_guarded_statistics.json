@@ -1,0 +1,2311 @@
+{
+  "status": "complete_receipts_audited",
+  "completed": 30,
+  "expected": 30,
+  "missing": [],
+  "failed": [],
+  "receipts": [
+    {
+      "id": "IRGUARD_beta14_path_seed101",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_path_seed101.json",
+      "sha256": "66d4d4fd4c691f70e0400cfe21daeea23150a9ea90b843279101860fa70e5b44",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_deferred_seed101",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_deferred_seed101.json",
+      "sha256": "d0f5c32b1b43294b6b01412919cfd9bc9bf0363395c58849469f2143b421d69c",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_sde_seed101",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_sde_seed101.json",
+      "sha256": "a2ea397f15754f72caea87fa927b1d89cbf0ce6d658985de75a4835cd9d4799e",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81997152,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_path_seed101",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_path_seed101.json",
+      "sha256": "fdf32a9000ef119f83116ee5d988f59f228fb4d991fbf6dac2f88df7959e6bd2",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 14531,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_deferred_seed101",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_deferred_seed101.json",
+      "sha256": "52e0cb249555d59614cc2e7b3d04513dee48b94c11f1b09748a591a06a9f4fd4",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 14531,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_sde_seed101",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_sde_seed101.json",
+      "sha256": "ab8d4c79c4eca315b44ba8cbc58811cda3cb2464a5b0c1edf681648f21510be1",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81935248,
+        "measurement_reset_slots": 14531,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_path_seed102",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_path_seed102.json",
+      "sha256": "d789c8634c1cdc44b704162381eee62aa0d62045593623c4c744dc06c999e778",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_deferred_seed102",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_deferred_seed102.json",
+      "sha256": "abed10fdfd1092c9b16db29ca1ca46e3208aa31dfe10665e6676549dba6f4022",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_sde_seed102",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_sde_seed102.json",
+      "sha256": "d47e1f9816a8932b6131e5738a94580619d2091f7dcca79849e744e06e41551a",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81831520,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_path_seed102",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_path_seed102.json",
+      "sha256": "9daab8f3f50eebe52d541a9e46c1fdd1fc890cf9ee561637fe1cf9d3c2bf88bb",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 14495,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_deferred_seed102",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_deferred_seed102.json",
+      "sha256": "77a445a5e1b197050b8d106b199cd426e6b3c91348b728a31f37ab7934eab7e2",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 14495,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_sde_seed102",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_sde_seed102.json",
+      "sha256": "e216aa81083081d18e98c295254c2310a9ce65d2417ddd1452336c785f62dbe6",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81927416,
+        "measurement_reset_slots": 14495,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_path_seed103",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_path_seed103.json",
+      "sha256": "34cd06caaf37c2d7e11ce466c4d082e929e4eae9227b29acb2fcaf1456dd6c8c",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_deferred_seed103",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_deferred_seed103.json",
+      "sha256": "ab08d5216b1d74a50a463d0b32e69308afe2e174f3b480bc2c7178f45db78e52",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_sde_seed103",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_sde_seed103.json",
+      "sha256": "3bd759e0e393d28fe18800a40cb423bfbf869d123fca7ac8553324fdba9fa4c2",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81975072,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_path_seed103",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_path_seed103.json",
+      "sha256": "343111e14366e978e014e4a5da3e9b38c444db31e5fa787cc6f81b5ca3d7b865",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 14279,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_deferred_seed103",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_deferred_seed103.json",
+      "sha256": "97be2439ffa621fb9f92c6fec1692f982bb712f3c9e575fc0529f5df11bf2200",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 14279,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_sde_seed103",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_sde_seed103.json",
+      "sha256": "3a77b5c2de409bf7f16e016107b997faf8c3d22ab744f03798db02797f46112f",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81888136,
+        "measurement_reset_slots": 14279,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_path_seed104",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_path_seed104.json",
+      "sha256": "65f3c2de961717f93469c802ce36a14c105dc58d30adc19059eeb8a5891dbf50",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_deferred_seed104",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_deferred_seed104.json",
+      "sha256": "af49b5905d4e84ed6b02404d6d8e38efca2b179ce9911582733749e43235995c",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_sde_seed104",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_sde_seed104.json",
+      "sha256": "a02c17f2dd56835850a69c3e8ed6588d6bda27b2a7338dca3f238f0b965dcfd0",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81854184,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_path_seed104",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_path_seed104.json",
+      "sha256": "a8db29f6e52030195085fe643450939d11c6a14d86226d322e227c6f908e76f8",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 14645,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_deferred_seed104",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_deferred_seed104.json",
+      "sha256": "1f998ef78aa5de61a52efa116816ebd6a3be09f49d30bd24afe93d93fdd81cd6",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 14645,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_sde_seed104",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_sde_seed104.json",
+      "sha256": "8f537e09d460c66a44a655d5881fdcdc0510ee7be10ebed6a586ca65e38a8c21",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 82044728,
+        "measurement_reset_slots": 14645,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_path_seed105",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_path_seed105.json",
+      "sha256": "8e3da3a573bfee2bda7db4754c983fce155c751b7c68160bd10cb752af2bcd1e",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_deferred_seed105",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_deferred_seed105.json",
+      "sha256": "2021d317c519b1ddd1069f8952d96c84d4cfa3369ec1871256899e0426a8caef",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta14_sde_seed105",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta14_sde_seed105.json",
+      "sha256": "3bfa5d533c917c7badf16756efb39cb88bcdb366071a17834305bf28ccaeb128",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81986688,
+        "measurement_reset_slots": 0,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_path_seed105",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_path_seed105.json",
+      "sha256": "733cf2ec5d24d4aeca0be17f6ef8a8ea6c38abe792cb38f202f04cec63da6118",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 90832896,
+        "measurement_reset_slots": 14466,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_deferred_seed105",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_deferred_seed105.json",
+      "sha256": "b524187664c5123a8d4da9d7529dbdb98f8c365f995591f1efef87377ed8bf8e",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 101449728,
+        "measurement_reset_slots": 14466,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    },
+    {
+      "id": "IRGUARD_beta4_sde_seed105",
+      "path": "results\\formal_ir_guarded\\IRGUARD_beta4_sde_seed105.json",
+      "sha256": "3ec4959bd42a3dd25654b727d63d4b644d74cacbe824123eb6367bf2e93df722",
+      "audit": {
+        "status": "passed",
+        "resource": {
+          "server": {
+            "components": {
+              "headers": 1643776,
+              "ciphertext_slots": 2406400,
+              "local_authentication": 0,
+              "bucket_tags": 520192,
+              "global_tags": 520192
+            },
+            "total_bytes": 5090560,
+            "physical_bucket_records": 8128,
+            "scope": "serialized object content; excludes Python/container indexing/allocator overhead"
+          },
+          "selected_client": {
+            "tree_cache": 41076,
+            "stash_payload": 30720,
+            "plb_payload": 512,
+            "plb_leaf_address": 96,
+            "terminal_leaf": 4,
+            "llc_payload": 1024
+          },
+          "selected_client_sum": 73432,
+          "reset_metadata": 5,
+          "actual_peak": false
+        },
+        "complete_requests": 7680,
+        "measurement_guard_bytes": 81997544,
+        "measurement_reset_slots": 14466,
+        "logical_schedule_matched": true,
+        "original_75_unchanged": true,
+        "security_admission": false
+      }
+    }
+  ],
+  "cells": [
+    {
+      "beta": 4,
+      "kind": "deferred",
+      "completed": 5,
+      "expected": 5,
+      "performance_eligible": true,
+      "ids": [
+        "IRGUARD_beta4_deferred_seed101",
+        "IRGUARD_beta4_deferred_seed102",
+        "IRGUARD_beta4_deferred_seed103",
+        "IRGUARD_beta4_deferred_seed104",
+        "IRGUARD_beta4_deferred_seed105"
+      ],
+      "bytes": {
+        "n": 5,
+        "mean": 82560.0,
+        "ci95": [
+          82560.0,
+          82560.0
+        ],
+        "values": [
+          82560.0,
+          82560.0,
+          82560.0,
+          82560.0,
+          82560.0
+        ]
+      },
+      "rpc": {
+        "n": 5,
+        "mean": 26.666666666666668,
+        "ci95": [
+          26.666666666666668,
+          26.666666666666668
+        ],
+        "values": [
+          26.666666666666668,
+          26.666666666666668,
+          26.666666666666668,
+          26.666666666666668,
+          26.666666666666668
+        ]
+      },
+      "guard_bytes_per_request": {
+        "n": 5,
+        "mean": 16512.0,
+        "ci95": [
+          16512.0,
+          16512.0
+        ],
+        "values": [
+          16512.0,
+          16512.0,
+          16512.0,
+          16512.0,
+          16512.0
+        ]
+      },
+      "reset_slots": {
+        "n": 5,
+        "mean": 14483.2,
+        "ci95": [
+          14318.244575667557,
+          14648.155424332444
+        ],
+        "values": [
+          14531,
+          14495,
+          14279,
+          14645,
+          14466
+        ]
+      },
+      "dummy_slots": {
+        "n": 5,
+        "mean": 30813,
+        "ci95": [
+          30597.211085506227,
+          31028.788914493773
+        ],
+        "values": [
+          30770,
+          30780,
+          30994,
+          30561,
+          30960
+        ]
+      },
+      "completed_at_original_cut": [
+        6144,
+        6141,
+        6144,
+        6144,
+        6144
+      ],
+      "tail_slots_to_clear": [
+        0,
+        17,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "beta": 4,
+      "kind": "path",
+      "completed": 5,
+      "expected": 5,
+      "performance_eligible": true,
+      "ids": [
+        "IRGUARD_beta4_path_seed101",
+        "IRGUARD_beta4_path_seed102",
+        "IRGUARD_beta4_path_seed103",
+        "IRGUARD_beta4_path_seed104",
+        "IRGUARD_beta4_path_seed105"
+      ],
+      "bytes": {
+        "n": 5,
+        "mean": 73920.0,
+        "ci95": [
+          73920.0,
+          73920.0
+        ],
+        "values": [
+          73920.0,
+          73920.0,
+          73920.0,
+          73920.0,
+          73920.0
+        ]
+      },
+      "rpc": {
+        "n": 5,
+        "mean": 20.0,
+        "ci95": [
+          20.0,
+          20.0
+        ],
+        "values": [
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0
+        ]
+      },
+      "guard_bytes_per_request": {
+        "n": 5,
+        "mean": 14784.0,
+        "ci95": [
+          14784.0,
+          14784.0
+        ],
+        "values": [
+          14784.0,
+          14784.0,
+          14784.0,
+          14784.0,
+          14784.0
+        ]
+      },
+      "reset_slots": {
+        "n": 5,
+        "mean": 14483.2,
+        "ci95": [
+          14318.244575667557,
+          14648.155424332444
+        ],
+        "values": [
+          14531,
+          14495,
+          14279,
+          14645,
+          14466
+        ]
+      },
+      "dummy_slots": {
+        "n": 5,
+        "mean": 30813,
+        "ci95": [
+          30597.211085506227,
+          31028.788914493773
+        ],
+        "values": [
+          30770,
+          30780,
+          30994,
+          30561,
+          30960
+        ]
+      },
+      "completed_at_original_cut": [
+        6144,
+        6141,
+        6144,
+        6144,
+        6144
+      ],
+      "tail_slots_to_clear": [
+        0,
+        17,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "beta": 4,
+      "kind": "sde",
+      "completed": 5,
+      "expected": 5,
+      "performance_eligible": true,
+      "ids": [
+        "IRGUARD_beta4_sde_seed101",
+        "IRGUARD_beta4_sde_seed102",
+        "IRGUARD_beta4_sde_seed103",
+        "IRGUARD_beta4_sde_seed104",
+        "IRGUARD_beta4_sde_seed105"
+      ],
+      "bytes": {
+        "n": 5,
+        "mean": 66720.12786458334,
+        "ci95": [
+          66688.36939876406,
+          66751.88633040262
+        ],
+        "values": [
+          66736.35677083333,
+          66697.55859375,
+          66691.55729166667,
+          66752.046875,
+          66723.11979166667
+        ]
+      },
+      "rpc": {
+        "n": 5,
+        "mean": 26.666666666666668,
+        "ci95": [
+          26.666666666666668,
+          26.666666666666668
+        ],
+        "values": [
+          26.666666666666668,
+          26.666666666666668,
+          26.666666666666668,
+          26.666666666666668,
+          26.666666666666668
+        ]
+      },
+      "guard_bytes_per_request": {
+        "n": 5,
+        "mean": 13339.618229166666,
+        "ci95": [
+          13327.071478522928,
+          13352.164979810404
+        ],
+        "values": [
+          13335.815104166666,
+          13334.540364583334,
+          13328.147135416666,
+          13353.634114583334,
+          13345.954427083334
+        ]
+      },
+      "reset_slots": {
+        "n": 5,
+        "mean": 14483.2,
+        "ci95": [
+          14318.244575667557,
+          14648.155424332444
+        ],
+        "values": [
+          14531,
+          14495,
+          14279,
+          14645,
+          14466
+        ]
+      },
+      "dummy_slots": {
+        "n": 5,
+        "mean": 30813,
+        "ci95": [
+          30597.211085506227,
+          31028.788914493773
+        ],
+        "values": [
+          30770,
+          30780,
+          30994,
+          30561,
+          30960
+        ]
+      },
+      "completed_at_original_cut": [
+        6144,
+        6141,
+        6144,
+        6144,
+        6144
+      ],
+      "tail_slots_to_clear": [
+        0,
+        17,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "beta": 14,
+      "kind": "deferred",
+      "completed": 5,
+      "expected": 5,
+      "performance_eligible": true,
+      "ids": [
+        "IRGUARD_beta14_deferred_seed101",
+        "IRGUARD_beta14_deferred_seed102",
+        "IRGUARD_beta14_deferred_seed103",
+        "IRGUARD_beta14_deferred_seed104",
+        "IRGUARD_beta14_deferred_seed105"
+      ],
+      "bytes": {
+        "n": 5,
+        "mean": 82560.0,
+        "ci95": [
+          82560.0,
+          82560.0
+        ],
+        "values": [
+          82560.0,
+          82560.0,
+          82560.0,
+          82560.0,
+          82560.0
+        ]
+      },
+      "rpc": {
+        "n": 5,
+        "mean": 26.666666666666668,
+        "ci95": [
+          26.666666666666668,
+          26.666666666666668
+        ],
+        "values": [
+          26.666666666666668,
+          26.666666666666668,
+          26.666666666666668,
+          26.666666666666668,
+          26.666666666666668
+        ]
+      },
+      "guard_bytes_per_request": {
+        "n": 5,
+        "mean": 16512.0,
+        "ci95": [
+          16512.0,
+          16512.0
+        ],
+        "values": [
+          16512.0,
+          16512.0,
+          16512.0,
+          16512.0,
+          16512.0
+        ]
+      },
+      "reset_slots": {
+        "n": 5,
+        "mean": 0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "dummy_slots": {
+        "n": 5,
+        "mean": 45538.4,
+        "ci95": [
+          45438.35315931126,
+          45638.446840688746
+        ],
+        "values": [
+          45570,
+          45500,
+          45525,
+          45441,
+          45656
+        ]
+      },
+      "completed_at_original_cut": [
+        6144,
+        6144,
+        6144,
+        6144,
+        6144
+      ],
+      "tail_slots_to_clear": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "beta": 14,
+      "kind": "path",
+      "completed": 5,
+      "expected": 5,
+      "performance_eligible": true,
+      "ids": [
+        "IRGUARD_beta14_path_seed101",
+        "IRGUARD_beta14_path_seed102",
+        "IRGUARD_beta14_path_seed103",
+        "IRGUARD_beta14_path_seed104",
+        "IRGUARD_beta14_path_seed105"
+      ],
+      "bytes": {
+        "n": 5,
+        "mean": 73920.0,
+        "ci95": [
+          73920.0,
+          73920.0
+        ],
+        "values": [
+          73920.0,
+          73920.0,
+          73920.0,
+          73920.0,
+          73920.0
+        ]
+      },
+      "rpc": {
+        "n": 5,
+        "mean": 20.0,
+        "ci95": [
+          20.0,
+          20.0
+        ],
+        "values": [
+          20.0,
+          20.0,
+          20.0,
+          20.0,
+          20.0
+        ]
+      },
+      "guard_bytes_per_request": {
+        "n": 5,
+        "mean": 14784.0,
+        "ci95": [
+          14784.0,
+          14784.0
+        ],
+        "values": [
+          14784.0,
+          14784.0,
+          14784.0,
+          14784.0,
+          14784.0
+        ]
+      },
+      "reset_slots": {
+        "n": 5,
+        "mean": 0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "dummy_slots": {
+        "n": 5,
+        "mean": 45538.4,
+        "ci95": [
+          45438.35315931126,
+          45638.446840688746
+        ],
+        "values": [
+          45570,
+          45500,
+          45525,
+          45441,
+          45656
+        ]
+      },
+      "completed_at_original_cut": [
+        6144,
+        6144,
+        6144,
+        6144,
+        6144
+      ],
+      "tail_slots_to_clear": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "beta": 14,
+      "kind": "sde",
+      "completed": 5,
+      "expected": 5,
+      "performance_eligible": true,
+      "ids": [
+        "IRGUARD_beta14_sde_seed101",
+        "IRGUARD_beta14_sde_seed102",
+        "IRGUARD_beta14_sde_seed103",
+        "IRGUARD_beta14_sde_seed104",
+        "IRGUARD_beta14_sde_seed105"
+      ],
+      "bytes": {
+        "n": 5,
+        "mean": 66707.41458333333,
+        "ci95": [
+          66684.21603861013,
+          66730.61312805653
+        ],
+        "values": [
+          66687.4140625,
+          66698.95833333333,
+          66726.50130208333,
+          66728.17057291667,
+          66696.02864583333
+        ]
+      },
+      "rpc": {
+        "n": 5,
+        "mean": 26.666666666666668,
+        "ci95": [
+          26.666666666666668,
+          26.666666666666668
+        ],
+        "values": [
+          26.666666666666668,
+          26.666666666666668,
+          26.666666666666668,
+          26.666666666666668,
+          26.666666666666668
+        ]
+      },
+      "guard_bytes_per_request": {
+        "n": 5,
+        "mean": 13334.785677083333,
+        "ci95": [
+          13318.746579370056,
+          13350.82477479661
+        ],
+        "values": [
+          13345.890625,
+          13318.932291666666,
+          13342.296875,
+          13322.62109375,
+          13344.1875
+        ]
+      },
+      "reset_slots": {
+        "n": 5,
+        "mean": 0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "values": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "dummy_slots": {
+        "n": 5,
+        "mean": 45538.4,
+        "ci95": [
+          45438.35315931126,
+          45638.446840688746
+        ],
+        "values": [
+          45570,
+          45500,
+          45525,
+          45441,
+          45656
+        ]
+      },
+      "completed_at_original_cut": [
+        6144,
+        6144,
+        6144,
+        6144,
+        6144
+      ],
+      "tail_slots_to_clear": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "axis": "backend",
+      "before_beta": 14,
+      "baseline": "path",
+      "after_beta": 14,
+      "variant": "sde",
+      "pairs": [
+        {
+          "seed": 101,
+          "baseline_id": "IRGUARD_beta14_path_seed101",
+          "variant_id": "IRGUARD_beta14_sde_seed101",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 66687.4140625,
+          "saving_pct": 9.784342447916671
+        },
+        {
+          "seed": 102,
+          "baseline_id": "IRGUARD_beta14_path_seed102",
+          "variant_id": "IRGUARD_beta14_sde_seed102",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 66698.95833333333,
+          "saving_pct": 9.768725198412708
+        },
+        {
+          "seed": 103,
+          "baseline_id": "IRGUARD_beta14_path_seed103",
+          "variant_id": "IRGUARD_beta14_sde_seed103",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 66726.50130208333,
+          "saving_pct": 9.731464688740088
+        },
+        {
+          "seed": 104,
+          "baseline_id": "IRGUARD_beta14_path_seed104",
+          "variant_id": "IRGUARD_beta14_sde_seed104",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 66728.17057291667,
+          "saving_pct": 9.729206476032637
+        },
+        {
+          "seed": 105,
+          "baseline_id": "IRGUARD_beta14_path_seed105",
+          "variant_id": "IRGUARD_beta14_sde_seed105",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 66696.02864583333,
+          "saving_pct": 9.772688520247119
+        }
+      ],
+      "effect": {
+        "n": 5,
+        "mean": 9.757285466269845,
+        "ci95": [
+          9.725902153603172,
+          9.788668778936518
+        ],
+        "values": [
+          9.784342447916671,
+          9.768725198412708,
+          9.731464688740088,
+          9.729206476032637,
+          9.772688520247119
+        ]
+      },
+      "run_cost_cv": [
+        0.0,
+        0.00028008028781514963
+      ],
+      "needs_more_repeats": false
+    },
+    {
+      "axis": "backend",
+      "before_beta": 14,
+      "baseline": "deferred",
+      "after_beta": 14,
+      "variant": "sde",
+      "pairs": [
+        {
+          "seed": 101,
+          "baseline_id": "IRGUARD_beta14_deferred_seed101",
+          "variant_id": "IRGUARD_beta14_sde_seed101",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 66687.4140625,
+          "saving_pct": 19.22551591266958
+        },
+        {
+          "seed": 102,
+          "baseline_id": "IRGUARD_beta14_deferred_seed102",
+          "variant_id": "IRGUARD_beta14_sde_seed102",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 66698.95833333333,
+          "saving_pct": 19.211533026485796
+        },
+        {
+          "seed": 103,
+          "baseline_id": "IRGUARD_beta14_deferred_seed103",
+          "variant_id": "IRGUARD_beta14_sde_seed103",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 66726.50130208333,
+          "saving_pct": 19.17817187247659
+        },
+        {
+          "seed": 104,
+          "baseline_id": "IRGUARD_beta14_deferred_seed104",
+          "variant_id": "IRGUARD_beta14_sde_seed104",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 66728.17057291667,
+          "saving_pct": 19.176149984354808
+        },
+        {
+          "seed": 105,
+          "baseline_id": "IRGUARD_beta14_deferred_seed105",
+          "variant_id": "IRGUARD_beta14_sde_seed105",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 66696.02864583333,
+          "saving_pct": 19.215081582081726
+        }
+      ],
+      "effect": {
+        "n": 5,
+        "mean": 19.2012904756137,
+        "ci95": [
+          19.173191463109816,
+          19.229389488117583
+        ],
+        "values": [
+          19.22551591266958,
+          19.211533026485796,
+          19.17817187247659,
+          19.176149984354808,
+          19.215081582081726
+        ]
+      },
+      "run_cost_cv": [
+        0.0,
+        0.00028008028781514963
+      ],
+      "needs_more_repeats": false
+    },
+    {
+      "axis": "backend",
+      "before_beta": 4,
+      "baseline": "path",
+      "after_beta": 4,
+      "variant": "sde",
+      "pairs": [
+        {
+          "seed": 101,
+          "baseline_id": "IRGUARD_beta4_path_seed101",
+          "variant_id": "IRGUARD_beta4_sde_seed101",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 66736.35677083333,
+          "saving_pct": 9.718132074089114
+        },
+        {
+          "seed": 102,
+          "baseline_id": "IRGUARD_beta4_path_seed102",
+          "variant_id": "IRGUARD_beta4_sde_seed102",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 66697.55859375,
+          "saving_pct": 9.770618785511365
+        },
+        {
+          "seed": 103,
+          "baseline_id": "IRGUARD_beta4_path_seed103",
+          "variant_id": "IRGUARD_beta4_sde_seed103",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 66691.55729166667,
+          "saving_pct": 9.778737430104611
+        },
+        {
+          "seed": 104,
+          "baseline_id": "IRGUARD_beta4_path_seed104",
+          "variant_id": "IRGUARD_beta4_sde_seed104",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 66752.046875,
+          "saving_pct": 9.69690628382035
+        },
+        {
+          "seed": 105,
+          "baseline_id": "IRGUARD_beta4_path_seed105",
+          "variant_id": "IRGUARD_beta4_sde_seed105",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 66723.11979166667,
+          "saving_pct": 9.736039242875172
+        }
+      ],
+      "effect": {
+        "n": 5,
+        "mean": 9.740086763280123,
+        "ci95": [
+          9.697123470775695,
+          9.783050055784551
+        ],
+        "values": [
+          9.718132074089114,
+          9.770618785511365,
+          9.778737430104611,
+          9.69690628382035,
+          9.736039242875172
+        ]
+      },
+      "run_cost_cv": [
+        0.0,
+        0.00038335272570610556
+      ],
+      "needs_more_repeats": false
+    },
+    {
+      "axis": "backend",
+      "before_beta": 4,
+      "baseline": "deferred",
+      "after_beta": 4,
+      "variant": "sde",
+      "pairs": [
+        {
+          "seed": 101,
+          "baseline_id": "IRGUARD_beta4_deferred_seed101",
+          "variant_id": "IRGUARD_beta4_sde_seed101",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 66736.35677083333,
+          "saving_pct": 19.166234531451877
+        },
+        {
+          "seed": 102,
+          "baseline_id": "IRGUARD_beta4_deferred_seed102",
+          "variant_id": "IRGUARD_beta4_sde_seed102",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 66697.55859375,
+          "saving_pct": 19.213228447492735
+        },
+        {
+          "seed": 103,
+          "baseline_id": "IRGUARD_beta4_deferred_seed103",
+          "variant_id": "IRGUARD_beta4_sde_seed103",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 66691.55729166667,
+          "saving_pct": 19.220497466489018
+        },
+        {
+          "seed": 104,
+          "baseline_id": "IRGUARD_beta4_deferred_seed104",
+          "variant_id": "IRGUARD_beta4_sde_seed104",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 66752.046875,
+          "saving_pct": 19.14723004481589
+        },
+        {
+          "seed": 105,
+          "baseline_id": "IRGUARD_beta4_deferred_seed105",
+          "variant_id": "IRGUARD_beta4_sde_seed105",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 66723.11979166667,
+          "saving_pct": 19.182267694202192
+        }
+      ],
+      "effect": {
+        "n": 5,
+        "mean": 19.185891636890343,
+        "ci95": [
+          19.147424502903814,
+          19.224358770876872
+        ],
+        "values": [
+          19.166234531451877,
+          19.213228447492735,
+          19.220497466489018,
+          19.14723004481589,
+          19.182267694202192
+        ]
+      },
+      "run_cost_cv": [
+        0.0,
+        0.00038335272570610556
+      ],
+      "needs_more_repeats": false
+    },
+    {
+      "axis": "beta",
+      "before_beta": 14,
+      "baseline": "path",
+      "after_beta": 4,
+      "variant": "path",
+      "pairs": [
+        {
+          "seed": 101,
+          "baseline_id": "IRGUARD_beta14_path_seed101",
+          "variant_id": "IRGUARD_beta4_path_seed101",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 73920.0,
+          "saving_pct": 0.0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "IRGUARD_beta14_path_seed102",
+          "variant_id": "IRGUARD_beta4_path_seed102",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 73920.0,
+          "saving_pct": 0.0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "IRGUARD_beta14_path_seed103",
+          "variant_id": "IRGUARD_beta4_path_seed103",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 73920.0,
+          "saving_pct": 0.0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "IRGUARD_beta14_path_seed104",
+          "variant_id": "IRGUARD_beta4_path_seed104",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 73920.0,
+          "saving_pct": 0.0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "IRGUARD_beta14_path_seed105",
+          "variant_id": "IRGUARD_beta4_path_seed105",
+          "baseline_bytes": 73920.0,
+          "variant_bytes": 73920.0,
+          "saving_pct": 0.0
+        }
+      ],
+      "effect": {
+        "n": 5,
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "run_cost_cv": [
+        0.0,
+        0.0
+      ],
+      "needs_more_repeats": false
+    },
+    {
+      "axis": "beta",
+      "before_beta": 14,
+      "baseline": "deferred",
+      "after_beta": 4,
+      "variant": "deferred",
+      "pairs": [
+        {
+          "seed": 101,
+          "baseline_id": "IRGUARD_beta14_deferred_seed101",
+          "variant_id": "IRGUARD_beta4_deferred_seed101",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 82560.0,
+          "saving_pct": 0.0
+        },
+        {
+          "seed": 102,
+          "baseline_id": "IRGUARD_beta14_deferred_seed102",
+          "variant_id": "IRGUARD_beta4_deferred_seed102",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 82560.0,
+          "saving_pct": 0.0
+        },
+        {
+          "seed": 103,
+          "baseline_id": "IRGUARD_beta14_deferred_seed103",
+          "variant_id": "IRGUARD_beta4_deferred_seed103",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 82560.0,
+          "saving_pct": 0.0
+        },
+        {
+          "seed": 104,
+          "baseline_id": "IRGUARD_beta14_deferred_seed104",
+          "variant_id": "IRGUARD_beta4_deferred_seed104",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 82560.0,
+          "saving_pct": 0.0
+        },
+        {
+          "seed": 105,
+          "baseline_id": "IRGUARD_beta14_deferred_seed105",
+          "variant_id": "IRGUARD_beta4_deferred_seed105",
+          "baseline_bytes": 82560.0,
+          "variant_bytes": 82560.0,
+          "saving_pct": 0.0
+        }
+      ],
+      "effect": {
+        "n": 5,
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "run_cost_cv": [
+        0.0,
+        0.0
+      ],
+      "needs_more_repeats": false
+    },
+    {
+      "axis": "beta",
+      "before_beta": 14,
+      "baseline": "sde",
+      "after_beta": 4,
+      "variant": "sde",
+      "pairs": [
+        {
+          "seed": 101,
+          "baseline_id": "IRGUARD_beta14_sde_seed101",
+          "variant_id": "IRGUARD_beta4_sde_seed101",
+          "baseline_bytes": 66687.4140625,
+          "variant_bytes": 66736.35677083333,
+          "saving_pct": -0.07339122234888418
+        },
+        {
+          "seed": 102,
+          "baseline_id": "IRGUARD_beta14_sde_seed102",
+          "variant_id": "IRGUARD_beta4_sde_seed102",
+          "baseline_bytes": 66698.95833333333,
+          "variant_bytes": 66697.55859375,
+          "saving_pct": 0.002098592869070881
+        },
+        {
+          "seed": 103,
+          "baseline_id": "IRGUARD_beta14_sde_seed103",
+          "variant_id": "IRGUARD_beta4_sde_seed103",
+          "baseline_bytes": 66726.50130208333,
+          "variant_bytes": 66691.55729166667,
+          "saving_pct": 0.05236901341261202
+        },
+        {
+          "seed": 104,
+          "baseline_id": "IRGUARD_beta14_sde_seed104",
+          "variant_id": "IRGUARD_beta4_sde_seed104",
+          "baseline_bytes": 66728.17057291667,
+          "variant_bytes": 66752.046875,
+          "saving_pct": -0.035781442647575545
+        },
+        {
+          "seed": 105,
+          "baseline_id": "IRGUARD_beta14_sde_seed105",
+          "variant_id": "IRGUARD_beta4_sde_seed105",
+          "baseline_bytes": 66696.02864583333,
+          "variant_bytes": 66723.11979166667,
+          "saving_pct": -0.04061882901185143
+        }
+      ],
+      "effect": {
+        "n": 5,
+        "mean": -0.01906477754532565,
+        "ci95": [
+          -0.07876177376064625,
+          0.040632218669994946
+        ],
+        "values": [
+          -0.07339122234888418,
+          0.002098592869070881,
+          0.05236901341261202,
+          -0.035781442647575545,
+          -0.04061882901185143
+        ]
+      },
+      "run_cost_cv": [
+        0.00028008028781514963,
+        0.00038335272570610556
+      ],
+      "needs_more_repeats": false
+    }
+  ],
+  "pending_comparisons": [],
+  "plan_sha256": "e11d4a653562f7bc1d616a3efa8b2f68e184e67a1acc7ec7dda831e3915b802a",
+  "auditor_sha256": "1bbac04b5230ef8189b1ee9cf2b4025b49ccb89dcb954ea81c445ed70b63ef35",
+  "additional_repeat_groups": [],
+  "target_checks_sha256": "f9a7008cc7e4436f975c9a9bae69ece6f415a7455a01b240f7ab12146f3e7166",
+  "target_pilots": [
+    {
+      "id": "IRGUARDpilot_beta14",
+      "beta": 14,
+      "path": "results\\pilot_ir_guarded\\IRGUARDpilot_beta14.json",
+      "sha256": "1334a78a675b9a5232ecef466848f2369346b4d5ad323f3a120c3a2d80721250",
+      "reset_slots": 0,
+      "guard_bytes": 81921976
+    },
+    {
+      "id": "IRGUARDpilot_beta4",
+      "beta": 4,
+      "path": "results\\pilot_ir_guarded\\IRGUARDpilot_beta4.json",
+      "sha256": "0894b2581f7c3bbc372567a8a3b2699c928af6c23a81d24346aa4905310ed1f4",
+      "reset_slots": 14615,
+      "guard_bytes": 82060792
+    }
+  ],
+  "original_75_outcomes_replaced": false,
+  "native_IR": false,
+  "actual_peak_measured": false,
+  "latency_claim": false
+}

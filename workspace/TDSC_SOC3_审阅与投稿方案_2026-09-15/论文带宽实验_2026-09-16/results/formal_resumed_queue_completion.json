@@ -1,0 +1,887 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "id": "B1_path_uniform_N16384_B4096_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B2_R0_43_cf00_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B2_R0_43_cf01_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B1_deferred_uniform_N16384_B4096_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B1_sde_uniform_N16384_B4096_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "CC2_IR_uniform_sde_N4096_B64_seed101",
+      "status": "passed",
+      "bytes_per_request": 7632.287109375
+    },
+    {
+      "id": "CC2_IR_uniform_deferred_N4096_B64_seed101",
+      "status": "passed",
+      "bytes_per_request": 9577.9453125
+    },
+    {
+      "id": "B1_ring_uniform_N16384_B4096_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "CC2_IR_depth_deferred_N4096_B64_seed101",
+      "status": "passed",
+      "bytes_per_request": 8255.3984375
+    },
+    {
+      "id": "CC2_IR_depth_sde_N4096_B64_seed101",
+      "status": "passed",
+      "bytes_per_request": 6657.166015625
+    },
+    {
+      "id": "B1_gc_ring_uniform_N16384_B4096_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B2_R0_76_cf00_seed101",
+      "status": "passed",
+      "bytes_per_request": 266382.4677734375
+    },
+    {
+      "id": "CC_AB_uniform_ring_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B1_r0_uniform_N16384_B4096_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B2_R0_43_cf10_seed101",
+      "status": "passed",
+      "bytes_per_request": 309402.876953125
+    },
+    {
+      "id": "CC_AB_uniform_r0_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B1_path_hot90_N16384_B4096_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B2_R0_76_cf01_seed101",
+      "status": "passed",
+      "bytes_per_request": 265355.765625
+    },
+    {
+      "id": "CC_AB_depth_ring_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B1_deferred_hot90_N16384_B4096_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B2_R0_76_cf10_seed101",
+      "status": "passed",
+      "bytes_per_request": 258596.55859375
+    },
+    {
+      "id": "CC_AB_depth_r0_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B1_sde_hot90_N16384_B4096_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B2_R0_76_cf11_seed101",
+      "status": "passed",
+      "bytes_per_request": 258343.5390625
+    },
+    {
+      "id": "B2_R0_43_large_map_cf00_seed101",
+      "status": "passed",
+      "bytes_per_request": 374462.8896484375
+    },
+    {
+      "id": "B1_ring_hot90_N16384_B4096_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "CC2_IR_uniform_deferred_N4096_B4096_seed101",
+      "status": "passed",
+      "bytes_per_request": 197719.5703125
+    },
+    {
+      "id": "CC2_IR_uniform_sde_N4096_B4096_seed101",
+      "status": "passed",
+      "bytes_per_request": 152468.453125
+    },
+    {
+      "id": "B1_gc_ring_hot90_N16384_B4096_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "B2_R0_43_cf00_seed102",
+      "status": "passed",
+      "bytes_per_request": 316296.1259765625
+    },
+    {
+      "id": "B2_R0_43_cf01_seed102",
+      "status": "passed",
+      "bytes_per_request": 313757.25
+    },
+    {
+      "id": "B1_r0_hot90_N16384_B4096_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "CC2_IR_depth_deferred_N4096_B4096_seed101",
+      "status": "passed",
+      "bytes_per_request": 142642.2734375
+    },
+    {
+      "id": "CC2_IR_depth_sde_N4096_B4096_seed101",
+      "status": "passed",
+      "bytes_per_request": 111790.298828125
+    },
+    {
+      "id": "B1_path_uniform_N16384_B4096_seed102",
+      "status": "reused"
+    },
+    {
+      "id": "B2_R0_43_cf10_seed102",
+      "status": "passed",
+      "bytes_per_request": 310979.0810546875
+    },
+    {
+      "id": "B2_R0_76_cf00_seed102",
+      "status": "passed",
+      "bytes_per_request": 266410.4453125
+    },
+    {
+      "id": "CC_AB_uniform_ring_N4096_B4096_seed101",
+      "status": "passed",
+      "bytes_per_request": 171941.20703125
+    },
+    {
+      "id": "B2_R0_76_cf01_seed102",
+      "status": "passed",
+      "bytes_per_request": 265079.0546875
+    },
+    {
+      "id": "CC_AB_uniform_r0_N4096_B4096_seed101",
+      "status": "passed",
+      "bytes_per_request": 130906.6953125
+    },
+    {
+      "id": "B2_R0_76_cf10_seed102",
+      "status": "passed",
+      "bytes_per_request": 258500.763671875
+    },
+    {
+      "id": "B1_deferred_uniform_N16384_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 458045.40234375
+    },
+    {
+      "id": "B1_sde_uniform_N16384_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 347378.30078125
+    },
+    {
+      "id": "CC_AB_depth_ring_N4096_B4096_seed101",
+      "status": "passed",
+      "bytes_per_request": 184252.92578125
+    },
+    {
+      "id": "B2_R0_76_cf11_seed102",
+      "status": "passed",
+      "bytes_per_request": 258128.52734375
+    },
+    {
+      "id": "CC_AB_depth_r0_N4096_B4096_seed101",
+      "status": "passed",
+      "bytes_per_request": 136795.80078125
+    },
+    {
+      "id": "B2_R0_43_large_map_cf00_seed102",
+      "status": "passed",
+      "bytes_per_request": 374095.650390625
+    },
+    {
+      "id": "B1_ring_uniform_N16384_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 418354.4921875
+    },
+    {
+      "id": "CC2_IR_uniform_deferred_N4096_B64_seed102",
+      "status": "passed",
+      "bytes_per_request": 9577.9453125
+    },
+    {
+      "id": "B1_gc_ring_uniform_N16384_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 329322.4765625
+    },
+    {
+      "id": "B2_R0_43_cf00_seed103",
+      "status": "passed",
+      "bytes_per_request": 316064.9375
+    },
+    {
+      "id": "CC2_IR_uniform_sde_N4096_B64_seed102",
+      "status": "passed",
+      "bytes_per_request": 7626.599609375
+    },
+    {
+      "id": "B1_r0_uniform_N16384_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 307311.765625
+    },
+    {
+      "id": "B2_R0_43_cf01_seed103",
+      "status": "passed",
+      "bytes_per_request": 314040.1640625
+    },
+    {
+      "id": "CC2_IR_depth_deferred_N4096_B64_seed102",
+      "status": "passed",
+      "bytes_per_request": 8255.3984375
+    },
+    {
+      "id": "B2_R0_43_cf10_seed103",
+      "status": "passed",
+      "bytes_per_request": 309772.3173828125
+    },
+    {
+      "id": "B1_path_hot90_N16384_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 541272.0
+    },
+    {
+      "id": "CC2_IR_depth_sde_N4096_B64_seed102",
+      "status": "passed",
+      "bytes_per_request": 6657.9765625
+    },
+    {
+      "id": "B1_deferred_hot90_N16384_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 458045.40234375
+    },
+    {
+      "id": "B2_R0_76_cf00_seed103",
+      "status": "passed",
+      "bytes_per_request": 265695.4208984375
+    },
+    {
+      "id": "CC_AB_uniform_ring_N4096_B64_seed102",
+      "status": "passed",
+      "bytes_per_request": 15387.50390625
+    },
+    {
+      "id": "B1_sde_hot90_N16384_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 346671.19140625
+    },
+    {
+      "id": "B2_R0_76_cf01_seed103",
+      "status": "passed",
+      "bytes_per_request": 265016.5859375
+    },
+    {
+      "id": "CC_AB_uniform_r0_N4096_B64_seed102",
+      "status": "passed",
+      "bytes_per_request": 11607.625
+    },
+    {
+      "id": "B2_R0_76_cf10_seed103",
+      "status": "passed",
+      "bytes_per_request": 258674.9853515625
+    },
+    {
+      "id": "B1_ring_hot90_N16384_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 418667.3671875
+    },
+    {
+      "id": "CC_AB_depth_ring_N4096_B64_seed102",
+      "status": "passed",
+      "bytes_per_request": 15758.578125
+    },
+    {
+      "id": "B1_gc_ring_hot90_N16384_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 329314.43359375
+    },
+    {
+      "id": "B2_R0_76_cf11_seed103",
+      "status": "passed",
+      "bytes_per_request": 257641.34765625
+    },
+    {
+      "id": "CC_AB_depth_r0_N4096_B64_seed102",
+      "status": "passed",
+      "bytes_per_request": 11646.74609375
+    },
+    {
+      "id": "B1_r0_hot90_N16384_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 307892.078125
+    },
+    {
+      "id": "B2_R0_43_large_map_cf00_seed103",
+      "status": "passed",
+      "bytes_per_request": 375064.2314453125
+    },
+    {
+      "id": "CC2_IR_uniform_deferred_N4096_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 197719.5703125
+    },
+    {
+      "id": "B2_R0_43_cf00_seed104",
+      "status": "passed",
+      "bytes_per_request": 316456.6416015625
+    },
+    {
+      "id": "B1_path_uniform_N16384_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 541272.0
+    },
+    {
+      "id": "CC2_IR_uniform_sde_N4096_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 152332.650390625
+    },
+    {
+      "id": "B1_deferred_uniform_N16384_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 458045.40234375
+    },
+    {
+      "id": "B2_R0_43_cf01_seed104",
+      "status": "passed",
+      "bytes_per_request": 312853.26953125
+    },
+    {
+      "id": "B1_sde_uniform_N16384_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 347394.40625
+    },
+    {
+      "id": "CC2_IR_depth_deferred_N4096_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 142642.2734375
+    },
+    {
+      "id": "B2_R0_43_cf10_seed104",
+      "status": "passed",
+      "bytes_per_request": 309727.3623046875
+    },
+    {
+      "id": "CC2_IR_depth_sde_N4096_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 111904.166015625
+    },
+    {
+      "id": "B2_R0_76_cf00_seed104",
+      "status": "passed",
+      "bytes_per_request": 265925.4990234375
+    },
+    {
+      "id": "B1_ring_uniform_N16384_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 418436.1015625
+    },
+    {
+      "id": "CC_AB_uniform_ring_N4096_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 171570.921875
+    },
+    {
+      "id": "B1_gc_ring_uniform_N16384_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 328897.57421875
+    },
+    {
+      "id": "B2_R0_76_cf01_seed104",
+      "status": "passed",
+      "bytes_per_request": 264621.21875
+    },
+    {
+      "id": "CC_AB_uniform_r0_N4096_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 130496.15625
+    },
+    {
+      "id": "B2_R0_76_cf10_seed104",
+      "status": "passed",
+      "bytes_per_request": 258421.228515625
+    },
+    {
+      "id": "B1_r0_uniform_N16384_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 307500.87890625
+    },
+    {
+      "id": "CC_AB_depth_ring_N4096_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 183468.83203125
+    },
+    {
+      "id": "B1_path_hot90_N16384_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 541272.0
+    },
+    {
+      "id": "B2_R0_76_cf11_seed104",
+      "status": "passed",
+      "bytes_per_request": 256482.47265625
+    },
+    {
+      "id": "CC_AB_depth_r0_N4096_B4096_seed102",
+      "status": "passed",
+      "bytes_per_request": 136278.93359375
+    },
+    {
+      "id": "B1_deferred_hot90_N16384_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 458045.40234375
+    },
+    {
+      "id": "B2_R0_43_large_map_cf00_seed104",
+      "status": "passed",
+      "bytes_per_request": 372771.859375
+    },
+    {
+      "id": "CC2_IR_uniform_deferred_N4096_B64_seed103",
+      "status": "passed",
+      "bytes_per_request": 9577.9453125
+    },
+    {
+      "id": "B1_sde_hot90_N16384_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 347425.6328125
+    },
+    {
+      "id": "B2_R0_43_cf00_seed105",
+      "status": "passed",
+      "bytes_per_request": 316049.646484375
+    },
+    {
+      "id": "CC2_IR_uniform_sde_N4096_B64_seed103",
+      "status": "passed",
+      "bytes_per_request": 7637.44140625
+    },
+    {
+      "id": "B2_R0_43_cf01_seed105",
+      "status": "passed",
+      "bytes_per_request": 313153.015625
+    },
+    {
+      "id": "B1_ring_hot90_N16384_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 418452.96875
+    },
+    {
+      "id": "CC2_IR_depth_deferred_N4096_B64_seed103",
+      "status": "passed",
+      "bytes_per_request": 8255.3984375
+    },
+    {
+      "id": "B1_gc_ring_hot90_N16384_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 329479.88671875
+    },
+    {
+      "id": "B2_R0_43_cf10_seed105",
+      "status": "passed",
+      "bytes_per_request": 309932.3447265625
+    },
+    {
+      "id": "CC2_IR_depth_sde_N4096_B64_seed103",
+      "status": "passed",
+      "bytes_per_request": 6668.62890625
+    },
+    {
+      "id": "B1_r0_hot90_N16384_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 307413.2890625
+    },
+    {
+      "id": "B2_R0_76_cf00_seed105",
+      "status": "passed",
+      "bytes_per_request": 265984.34765625
+    },
+    {
+      "id": "CC_AB_uniform_ring_N4096_B64_seed103",
+      "status": "passed",
+      "bytes_per_request": 15392.30078125
+    },
+    {
+      "id": "B2_R0_76_cf01_seed105",
+      "status": "passed",
+      "bytes_per_request": 265596.6171875
+    },
+    {
+      "id": "B1_path_uniform_N16384_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 541272.0
+    },
+    {
+      "id": "CC_AB_uniform_r0_N4096_B64_seed103",
+      "status": "passed",
+      "bytes_per_request": 11544.20703125
+    },
+    {
+      "id": "B1_deferred_uniform_N16384_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 458045.40234375
+    },
+    {
+      "id": "B2_R0_76_cf10_seed105",
+      "status": "passed",
+      "bytes_per_request": 258779.3125
+    },
+    {
+      "id": "CC_AB_depth_ring_N4096_B64_seed103",
+      "status": "passed",
+      "bytes_per_request": 15653.67578125
+    },
+    {
+      "id": "B1_sde_uniform_N16384_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 347575.50390625
+    },
+    {
+      "id": "B2_R0_76_cf11_seed105",
+      "status": "passed",
+      "bytes_per_request": 257177.4375
+    },
+    {
+      "id": "CC_AB_depth_r0_N4096_B64_seed103",
+      "status": "passed",
+      "bytes_per_request": 11626.54296875
+    },
+    {
+      "id": "B1_ring_uniform_N16384_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 418475.625
+    },
+    {
+      "id": "B2_R0_43_large_map_cf00_seed105",
+      "status": "passed",
+      "bytes_per_request": 374036.748046875
+    },
+    {
+      "id": "B1_gc_ring_uniform_N16384_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 328979.0390625
+    },
+    {
+      "id": "CC2_IR_uniform_deferred_N4096_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 197719.5703125
+    },
+    {
+      "id": "CC2_IR_uniform_sde_N4096_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 152040.46875
+    },
+    {
+      "id": "CC2_IR_depth_deferred_N4096_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 142642.2734375
+    },
+    {
+      "id": "B1_r0_uniform_N16384_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 306817.6640625
+    },
+    {
+      "id": "CC2_IR_depth_sde_N4096_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 111950.072265625
+    },
+    {
+      "id": "B1_path_hot90_N16384_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 541272.0
+    },
+    {
+      "id": "CC_AB_uniform_ring_N4096_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 172002.0703125
+    },
+    {
+      "id": "B1_deferred_hot90_N16384_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 458045.40234375
+    },
+    {
+      "id": "B1_sde_hot90_N16384_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 347032.921875
+    },
+    {
+      "id": "CC_AB_uniform_r0_N4096_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 130352.328125
+    },
+    {
+      "id": "CC_AB_depth_ring_N4096_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 184214.40234375
+    },
+    {
+      "id": "B1_gc_ring_hot90_N16384_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 328071.43359375
+    },
+    {
+      "id": "B1_ring_hot90_N16384_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 418538.9375
+    },
+    {
+      "id": "CC_AB_depth_r0_N4096_B4096_seed103",
+      "status": "passed",
+      "bytes_per_request": 136090.19921875
+    },
+    {
+      "id": "CC2_IR_uniform_deferred_N4096_B64_seed104",
+      "status": "passed",
+      "bytes_per_request": 9577.9453125
+    },
+    {
+      "id": "B1_r0_hot90_N16384_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 306589.51953125
+    },
+    {
+      "id": "CC2_IR_uniform_sde_N4096_B64_seed104",
+      "status": "passed",
+      "bytes_per_request": 7644.373046875
+    },
+    {
+      "id": "B1_path_uniform_N16384_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 541272.0
+    },
+    {
+      "id": "CC2_IR_depth_deferred_N4096_B64_seed104",
+      "status": "passed",
+      "bytes_per_request": 8255.3984375
+    },
+    {
+      "id": "B1_deferred_uniform_N16384_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 458045.40234375
+    },
+    {
+      "id": "B1_sde_uniform_N16384_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 347625.146484375
+    },
+    {
+      "id": "CC2_IR_depth_sde_N4096_B64_seed104",
+      "status": "passed",
+      "bytes_per_request": 6690.81640625
+    },
+    {
+      "id": "CC_AB_uniform_ring_N4096_B64_seed104",
+      "status": "passed",
+      "bytes_per_request": 15401.13671875
+    },
+    {
+      "id": "B1_gc_ring_uniform_N16384_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 328323.84375
+    },
+    {
+      "id": "B1_r0_uniform_N16384_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 307975.1640625
+    },
+    {
+      "id": "CC_AB_uniform_r0_N4096_B64_seed104",
+      "status": "passed",
+      "bytes_per_request": 11547.7109375
+    },
+    {
+      "id": "B1_ring_uniform_N16384_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 418383.9921875
+    },
+    {
+      "id": "CC_AB_depth_ring_N4096_B64_seed104",
+      "status": "passed",
+      "bytes_per_request": 15661.88671875
+    },
+    {
+      "id": "CC_AB_depth_r0_N4096_B64_seed104",
+      "status": "passed",
+      "bytes_per_request": 11703.40625
+    },
+    {
+      "id": "B1_sde_hot90_N16384_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 347235.306640625
+    },
+    {
+      "id": "B1_deferred_hot90_N16384_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 458045.40234375
+    },
+    {
+      "id": "B1_path_hot90_N16384_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 541272.0
+    },
+    {
+      "id": "CC2_IR_uniform_deferred_N4096_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 197719.5703125
+    },
+    {
+      "id": "CC2_IR_uniform_sde_N4096_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 152814.1328125
+    },
+    {
+      "id": "CC2_IR_depth_deferred_N4096_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 142642.2734375
+    },
+    {
+      "id": "B1_ring_hot90_N16384_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 418733.8671875
+    },
+    {
+      "id": "B1_gc_ring_hot90_N16384_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 328662.98046875
+    },
+    {
+      "id": "CC2_IR_depth_sde_N4096_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 112089.095703125
+    },
+    {
+      "id": "CC_AB_uniform_ring_N4096_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 172177.62890625
+    },
+    {
+      "id": "B1_r0_hot90_N16384_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 306725.29296875
+    },
+    {
+      "id": "CC_AB_uniform_r0_N4096_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 130352.04296875
+    },
+    {
+      "id": "CC2_IR_uniform_deferred_N4096_B64_seed105",
+      "status": "passed",
+      "bytes_per_request": 9577.9453125
+    },
+    {
+      "id": "CC2_IR_uniform_sde_N4096_B64_seed105",
+      "status": "passed",
+      "bytes_per_request": 7650.416015625
+    },
+    {
+      "id": "CC_AB_depth_r0_N4096_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 136476.3828125
+    },
+    {
+      "id": "CC2_IR_depth_deferred_N4096_B64_seed105",
+      "status": "passed",
+      "bytes_per_request": 8255.3984375
+    },
+    {
+      "id": "CC2_IR_depth_sde_N4096_B64_seed105",
+      "status": "passed",
+      "bytes_per_request": 6658.69140625
+    },
+    {
+      "id": "CC_AB_depth_ring_N4096_B4096_seed104",
+      "status": "passed",
+      "bytes_per_request": 184760.25
+    },
+    {
+      "id": "CC_AB_uniform_ring_N4096_B64_seed105",
+      "status": "passed",
+      "bytes_per_request": 15361.7109375
+    },
+    {
+      "id": "CC_AB_uniform_r0_N4096_B64_seed105",
+      "status": "passed",
+      "bytes_per_request": 11594.6796875
+    },
+    {
+      "id": "CC_AB_depth_ring_N4096_B64_seed105",
+      "status": "passed",
+      "bytes_per_request": 15725.21875
+    },
+    {
+      "id": "CC_AB_depth_r0_N4096_B64_seed105",
+      "status": "passed",
+      "bytes_per_request": 11620.078125
+    },
+    {
+      "id": "CC2_IR_uniform_sde_N4096_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 152501.375
+    },
+    {
+      "id": "CC2_IR_uniform_deferred_N4096_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 197719.5703125
+    },
+    {
+      "id": "CC2_IR_depth_deferred_N4096_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 142642.2734375
+    },
+    {
+      "id": "CC2_IR_depth_sde_N4096_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 111935.115234375
+    },
+    {
+      "id": "CC_AB_uniform_r0_N4096_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 131266.5390625
+    },
+    {
+      "id": "CC_AB_uniform_ring_N4096_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 171786.45703125
+    },
+    {
+      "id": "CC_AB_depth_r0_N4096_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 136364.2421875
+    },
+    {
+      "id": "CC_AB_depth_ring_N4096_B4096_seed105",
+      "status": "passed",
+      "bytes_per_request": 184278.13671875
+    }
+  ],
+  "queue_sha256": "f900ef7269b253892708b8c8333d3a50a80c79cee7bbc0254e44b799aff2af2d"
+}

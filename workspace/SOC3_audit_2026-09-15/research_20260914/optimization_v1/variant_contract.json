@@ -1,0 +1,94 @@
+{
+  "scope_id": "SOC3-AUDIT-m2-Z4A3-Z7A6-2026-09-15",
+  "profiles": [
+    {
+      "Z": 4,
+      "A": 3,
+      "kinds": [
+        "sde",
+        "r0"
+      ],
+      "m": 2
+    },
+    {
+      "Z": 7,
+      "A": 6,
+      "kinds": [
+        "r0"
+      ],
+      "m": 2
+    }
+  ],
+  "offsets": {
+    "sde_Z4A3": 2,
+    "r0_Z4A3": 6,
+    "r0_Z7A6": 12
+  },
+  "serializer": {
+    "version": 3,
+    "frame": 36,
+    "tag": 64,
+    "nonce": 16,
+    "compact_headers": {
+      "Z4": 204,
+      "Z7": 300
+    },
+    "fused_neutral": true
+  },
+  "request_model": "Fixed histories independent of ORAM coins; single serial nonrollback fail-stop client.",
+  "artifact_sha256": {
+    "../../proofs/01_fusion.md": "c4eeb8ec3839f16e4f470590ad115e6eec547a46bed74142bbc09979284a3a77",
+    "../../proofs/02_parameterized_reduction.md": "de7c83c975bf30c676c67c1532369c12ec6d87c2acc54685fd0fa10fe658f244",
+    "../../proofs/03_numerical_audit.md": "f0be84ca892246242978f3ea4e81de1ed4bb166047a5d4e5033655150038c321",
+    "numerics/ghost_z7a6": "c9ffbf82134850a42c51c62035afb75a979fb8aa2259e93b5d7611535660f92f",
+    "numerics/ghost_z7a6.cpp": "2993b49ac938036882980884f5dc9dd85d9fb6ff8b5aedfe3bbd980530f817ab",
+    "numerics/poisson_seed.h": "770afab0edf1f988950ab4874735a59efa395f539c2d1022a41cdd3d544124b4",
+    "numerics/poisson_seed.json": "e8f207a312fa2253cc356dddb1dd7087cd9601edbbdd8722b0a8d6b14dd80ef5",
+    "numerics/recompute.py": "4961ceddc4da1cf00c0dac61ac430307a9fc6df718cf71823991ea387203c028",
+    "numerics/recompute_receipt.json": "22cee4b5c45e4a1e9cdbb4d8a98f57667ee43d5a526c8e2e373284e8bd3ec6c0",
+    "numerics/validate_new_scalar.py": "92de2c58970fb6aeb0c13ef55711afd3d509f4fcd27fd6984cb0c2220c48371e",
+    "numerics/validation_results.json": "d61df36e0c5999edce20cbdc06d7154924b0ba43a05810b6b92594da3c68f8c7",
+    "numerics/z7a6_next_c280_h24.csv": "b8a66414b949206d051e208477ca813ddcc77d416b12dafd04b02a7e4da8af0f",
+    "numerics/z7a6_next_c280_h24_levels.csv": "5b3f27a8ccefbd13c6ea863dd13de4a99d094e2283583d8195007efecd075143",
+    "numerics/z7a6_next_c280_h24_meta.json": "c96ed9800bcb498d8695975663945a7250df14e93fdd07f1335b3cb84625a577",
+    "numerics/z7a6_up_c280_h24.csv": "a2751c07f198a2d3d39cc83a591a683595e700243e8f1b64f748f40cf938d93e",
+    "numerics/z7a6_up_c280_h24_levels.csv": "03622b5d4826f9d97afc783bce7b0826142819d96e2784cdbe6f686fc92240da",
+    "numerics/z7a6_up_c280_h24_meta.json": "2cb0c26a19afefb09cd87e6e358d385e835be762bb5c82da155309ca5dd9dacf",
+    "proofs/variant_reduction_and_authentication.md": "d2713fbf8293976c7d716bdcf3d04a80e6a087dd46aac45fcfa89d675c6b3c27",
+    "results/profile_comparison.json": "35a7e1917aeeb61dec80b9e471bee2f945848e42d5915502b34f18174782160d",
+    "src/compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+    "src/fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+    "src/fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+    "src/new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+    "src/optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+    "src/optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+    "src/optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+    "src/structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+    "src/variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+  },
+  "proof_assistant_formalized": false,
+  "interpretation": "Audited research release; mathematical proofs and reproducible tests, not proof-assistant formalization or external third-party attestation.",
+  "numeric_domains": {
+    "Z4A3": {
+      "height": [
+        1,
+        31
+      ],
+      "threshold": [
+        0,
+        280
+      ]
+    },
+    "Z7A6": {
+      "height": [
+        1,
+        24
+      ],
+      "threshold": [
+        0,
+        280
+      ]
+    }
+  },
+  "deterministic_exception": "R>=N uses the actual current-count bound, not a larger ghost certificate."
+}

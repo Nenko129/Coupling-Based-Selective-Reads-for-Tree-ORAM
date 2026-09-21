@@ -1,0 +1,439 @@
+{
+  "status": "passed",
+  "functional": [
+    {
+      "kind": "path",
+      "completed_stages": 0,
+      "status": "cancelled",
+      "stage_types": [],
+      "billed_bytes": 0,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "path",
+      "completed_stages": 1,
+      "status": "cancelled",
+      "stage_types": [
+        "posmap"
+      ],
+      "billed_bytes": 8800,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "path",
+      "completed_stages": 2,
+      "status": "cancelled",
+      "stage_types": [
+        "posmap",
+        "posmap"
+      ],
+      "billed_bytes": 17600,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "path",
+      "completed_stages": 3,
+      "status": "committed",
+      "stage_types": [
+        "posmap",
+        "posmap",
+        "data"
+      ],
+      "billed_bytes": 26400,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "path",
+      "case": "dirty_version_changed_then_restarted",
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "path",
+      "case": "foreground_preemption"
+    },
+    {
+      "kind": "deferred",
+      "completed_stages": 0,
+      "status": "cancelled",
+      "stage_types": [],
+      "billed_bytes": 0,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "deferred",
+      "completed_stages": 1,
+      "status": "cancelled",
+      "stage_types": [
+        "posmap"
+      ],
+      "billed_bytes": 6560,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "deferred",
+      "completed_stages": 2,
+      "status": "cancelled",
+      "stage_types": [
+        "posmap",
+        "posmap"
+      ],
+      "billed_bytes": 21920,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "deferred",
+      "completed_stages": 3,
+      "status": "committed",
+      "stage_types": [
+        "posmap",
+        "posmap",
+        "data"
+      ],
+      "billed_bytes": 28480,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "deferred",
+      "case": "dirty_version_changed_then_restarted",
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "deferred",
+      "case": "foreground_preemption"
+    },
+    {
+      "kind": "sde",
+      "completed_stages": 0,
+      "status": "cancelled",
+      "stage_types": [],
+      "billed_bytes": 0,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "sde",
+      "completed_stages": 1,
+      "status": "cancelled",
+      "stage_types": [
+        "posmap"
+      ],
+      "billed_bytes": 4376,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "sde",
+      "completed_stages": 2,
+      "status": "cancelled",
+      "stage_types": [
+        "posmap",
+        "posmap"
+      ],
+      "billed_bytes": 19008,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "sde",
+      "completed_stages": 3,
+      "status": "committed",
+      "stage_types": [
+        "posmap",
+        "posmap",
+        "data"
+      ],
+      "billed_bytes": 24112,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "sde",
+      "case": "dirty_version_changed_then_restarted",
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "sde",
+      "case": "foreground_preemption"
+    },
+    {
+      "kind": "ring",
+      "completed_stages": 0,
+      "status": "cancelled",
+      "stage_types": [],
+      "billed_bytes": 0,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "ring",
+      "completed_stages": 1,
+      "status": "cancelled",
+      "stage_types": [
+        "posmap"
+      ],
+      "billed_bytes": 8656,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "ring",
+      "completed_stages": 2,
+      "status": "cancelled",
+      "stage_types": [
+        "posmap",
+        "posmap"
+      ],
+      "billed_bytes": 35168,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "ring",
+      "completed_stages": 3,
+      "status": "committed",
+      "stage_types": [
+        "posmap",
+        "posmap",
+        "data"
+      ],
+      "billed_bytes": 41984,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "ring",
+      "case": "dirty_version_changed_then_restarted",
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "ring",
+      "case": "foreground_preemption"
+    },
+    {
+      "kind": "gc_ring",
+      "completed_stages": 0,
+      "status": "cancelled",
+      "stage_types": [],
+      "billed_bytes": 0,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "gc_ring",
+      "completed_stages": 1,
+      "status": "cancelled",
+      "stage_types": [
+        "posmap"
+      ],
+      "billed_bytes": 4560,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "gc_ring",
+      "completed_stages": 2,
+      "status": "cancelled",
+      "stage_types": [
+        "posmap",
+        "posmap"
+      ],
+      "billed_bytes": 30320,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "gc_ring",
+      "completed_stages": 3,
+      "status": "committed",
+      "stage_types": [
+        "posmap",
+        "posmap",
+        "data"
+      ],
+      "billed_bytes": 35632,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "gc_ring",
+      "case": "dirty_version_changed_then_restarted",
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "gc_ring",
+      "case": "foreground_preemption"
+    },
+    {
+      "kind": "r0",
+      "completed_stages": 0,
+      "status": "cancelled",
+      "stage_types": [],
+      "billed_bytes": 0,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "r0",
+      "completed_stages": 1,
+      "status": "cancelled",
+      "stage_types": [
+        "posmap"
+      ],
+      "billed_bytes": 3744,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "r0",
+      "completed_stages": 2,
+      "status": "cancelled",
+      "stage_types": [
+        "posmap",
+        "posmap"
+      ],
+      "billed_bytes": 25968,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "r0",
+      "completed_stages": 3,
+      "status": "committed",
+      "stage_types": [
+        "posmap",
+        "posmap",
+        "data"
+      ],
+      "billed_bytes": 30464,
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "r0",
+      "case": "dirty_version_changed_then_restarted",
+      "ownership_after_each_stage": true
+    },
+    {
+      "kind": "r0",
+      "case": "foreground_preemption"
+    }
+  ],
+  "active_rejection": [
+    {
+      "kind": "sde",
+      "opcode": 1,
+      "dirty_preserved": true,
+      "no_retry_io": true
+    },
+    {
+      "kind": "sde",
+      "opcode": 4,
+      "dirty_preserved": true,
+      "no_retry_io": true
+    },
+    {
+      "kind": "r0",
+      "opcode": 2,
+      "dirty_preserved": true,
+      "no_retry_io": true
+    },
+    {
+      "kind": "r0",
+      "opcode": 3,
+      "dirty_preserved": true,
+      "no_retry_io": true
+    },
+    {
+      "kind": "r0",
+      "opcode": 4,
+      "dirty_preserved": true,
+      "no_retry_io": true
+    }
+  ],
+  "conditional_size_pairs": [
+    {
+      "kind": "path",
+      "bytes": 8800,
+      "rpc": 2,
+      "conditional_dummy_vs_data_size_equal": true
+    },
+    {
+      "kind": "deferred",
+      "bytes": 6560,
+      "rpc": 2,
+      "conditional_dummy_vs_data_size_equal": true
+    },
+    {
+      "kind": "sde",
+      "bytes": 5104,
+      "rpc": 2,
+      "conditional_dummy_vs_data_size_equal": true
+    },
+    {
+      "kind": "ring",
+      "bytes": 6816,
+      "rpc": 3,
+      "conditional_dummy_vs_data_size_equal": true
+    },
+    {
+      "kind": "gc_ring",
+      "bytes": 5312,
+      "rpc": 3,
+      "conditional_dummy_vs_data_size_equal": true
+    },
+    {
+      "kind": "r0",
+      "bytes": 4496,
+      "rpc": 3,
+      "conditional_dummy_vs_data_size_equal": true
+    }
+  ],
+  "serial_equivalence": [
+    {
+      "kind": "path",
+      "complete_transcript_and_counts_equal": true,
+      "completed_state_equal": true
+    },
+    {
+      "kind": "deferred",
+      "complete_transcript_and_counts_equal": true,
+      "completed_state_equal": true
+    },
+    {
+      "kind": "sde",
+      "complete_transcript_and_counts_equal": true,
+      "completed_state_equal": true
+    },
+    {
+      "kind": "ring",
+      "complete_transcript_and_counts_equal": true,
+      "completed_state_equal": true
+    },
+    {
+      "kind": "gc_ring",
+      "complete_transcript_and_counts_equal": true,
+      "completed_state_equal": true
+    },
+    {
+      "kind": "r0",
+      "complete_transcript_and_counts_equal": true,
+      "completed_state_equal": true
+    }
+  ],
+  "source_identity": {
+    "base": {
+      "core": {
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+        "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+      },
+      "composition": {
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\frontends.py": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4",
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\transfer_backend.py": "34d593fa1dee61f412fce3a11269d1e05e0e5f2c893107a436d5d53c73be4ff7",
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\composition_runtime.py": "f00534055545cf47a8e39c657f2ba392864d9895a55fa6bb8bf8a733e7a492cb",
+        "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_composition.py": "2d979c9682b3053b4276671b2a40e48f0a90479d06c6ec416dfbb7ce266d85a2"
+      }
+    },
+    "staged": {
+      "dwb_staged_frontend.py": "08491ab8de426659204721898b2a6b914974b2f4ff378c054846114575dfdfd4",
+      "transfer_backend_fixed.py": "6adc12ca99d32a2628f14a1fdac557eda95161fc2851ee11019d4f2b7526bb18",
+      "fast_prf.py": "910f2a4deb1ece922c2ab51d6031d1a966e604e9a2101d90e619f0c4cc7b4d84"
+    }
+  },
+  "checker_sha256": "8459e8839d44dd3a575891f80cf76d1cb75f490f3e8fda713537b63efd89a5cf",
+  "scope": "authenticated raw-map staged DWB interface; no native IR-Stash/Alloc composition, compressed counters, CPU timing or performance claim"
+}

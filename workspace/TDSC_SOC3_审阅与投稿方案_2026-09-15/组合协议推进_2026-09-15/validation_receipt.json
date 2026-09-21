@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-15T15:46:04.232877+00:00",
+  "preserved_earlier_packages": [
+    {
+      "manifest": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\BUNDLE_MANIFEST.json",
+      "manifest_sha256": "bf2ab79f810ac931e3a35c412922193220ed273c79830cf3f9a674984a69a166",
+      "files_verified": 238,
+      "unchanged": true
+    },
+    {
+      "manifest": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\MANIFEST.sha256.json",
+      "manifest_sha256": "2349347c47ba0b75b2440c7df00733d4ab4a405205bd38c9806779ea30f95e89",
+      "files_verified": 20,
+      "unchanged": true
+    },
+    {
+      "manifest": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\PREPARATION_MANIFEST.sha256.json",
+      "manifest_sha256": "b3d3fde806793835b5e1e1dc113a8c7e12cea53d9acd52f987f54349fcb79e9b",
+      "files_verified": 160,
+      "unchanged": true
+    },
+    {
+      "manifest": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\四框架Selective扩展_2026-09-15\\MANIFEST.sha256.json",
+      "manifest_sha256": "6c9ffa2914ed5a69d55413852d68cb96e468456d9b3e94cfedc0911619d758cc",
+      "files_verified": 9,
+      "unchanged": true
+    },
+    {
+      "manifest": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\MANIFEST.sha256.json",
+      "manifest_sha256": "eaba28a3fafee72e843218c8db558daef94c121f855774da198d87fb50131ffa",
+      "files_verified": 46,
+      "unchanged": true
+    }
+  ],
+  "source_bindings_captured_by_main_experiment": [
+    {
+      "file": "certificate_gate.py",
+      "sha256": "30479fc8111c0868158540bd9907a7dd26524ff0ebaa5f5466b99867bb3072da"
+    },
+    {
+      "file": "check_prototypes.py",
+      "sha256": "e1c77a5d5ad1158b50df2713d573b8a08eda1625d019b0983a99eefa31e49e86"
+    },
+    {
+      "file": "check_transfer_reduction.py",
+      "sha256": "8a54885b79b06f04d43eb1c0cf2a698bea8708486c29ede4ccb88f17bed72358"
+    },
+    {
+      "file": "frontends.py",
+      "sha256": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4"
+    },
+    {
+      "file": "run_experiments.py",
+      "sha256": "203ba73b80a0af3743220a0228fc2bae21472832019b39f4e00eef337a067ade"
+    },
+    {
+      "file": "transfer_backend.py",
+      "sha256": "34d593fa1dee61f412fce3a11269d1e05e0e5f2c893107a436d5d53c73be4ff7"
+    }
+  ],
+  "short_cases": 216,
+  "long_cases": 8,
+  "paired_short_schedule_groups": 27,
+  "paired_long_schedule_groups": 2,
+  "all_serialized_components_sum_to_actual_bill": true,
+  "all_reported_summary_ratios_recomputed": true,
+  "functional_cases": 24,
+  "tamper_cases": 6,
+  "finite_parameter_configs": 24,
+  "finite_completed_boundaries": 4329472,
+  "certificate_rows": 5,
+  "certificate_out_of_domain_rejections": 2,
+  "scope": "result/provenance validation by the producing agent, not independent protocol security certification",
+  "known_limits": [
+    "native paper systems not fully reproduced",
+    "fixed public test keys",
+    "rho actual frame count is allowed leakage",
+    "rho backend still has trusted flat PosMap",
+    "no true peak trusted-memory or network-latency measurements",
+    "only two Z/A/S tuning profiles",
+    "frontend PRF hybrid/call budget awaits independent audit"
+  ]
+}

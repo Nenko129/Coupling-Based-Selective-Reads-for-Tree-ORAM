@@ -1,0 +1,39 @@
+{
+  "pid": 17168,
+  "parent_pid": 47116,
+  "spec": {
+    "kind": "sde",
+    "N": 16384,
+    "B": 4096,
+    "profile": [
+      4,
+      3,
+      3
+    ],
+    "map_B": 256,
+    "terminal_bytes": 8192,
+    "compact": true,
+    "fusion": true,
+    "R": 256,
+    "id": "B3_sde_hot90_seed103",
+    "warmup": 2048,
+    "requests": 4096,
+    "trace_seed": 103,
+    "oram_seed": 1003,
+    "workload": "hot90",
+    "experiment_class": "formal_tuned"
+  },
+  "mode": "core",
+  "command": [
+    "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_fast.py",
+    "--spec",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\B3_sde_hot90_seed103.json",
+    "--mode",
+    "core"
+  ],
+  "started": 1789526835.747362
+}

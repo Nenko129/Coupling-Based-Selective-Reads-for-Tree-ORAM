@@ -1,0 +1,562 @@
+{
+  "source_sha256": "22c6189ff5d3ff0c6471578fcd1773c8762d447c549020d3b406f2270b6481c7",
+  "series": [
+    {
+      "gid": "ab_main_0_0",
+      "axis": "backend",
+      "condition": "D3",
+      "cohort": null,
+      "workload": "uniform",
+      "dwb": null,
+      "baseline": "ring",
+      "variant": "gc_ring",
+      "n": 5,
+      "mean": 20.25470186174919,
+      "ci95": [
+        20.227508777353265,
+        20.281894946145115
+      ],
+      "values": [
+        20.27272213403438,
+        20.241786463248935,
+        20.283740972793662,
+        20.23699066911837,
+        20.238269069550597
+      ],
+      "ids": [
+        [
+          "ABDF_uniform_ring_uniform_seed101",
+          "ABDF_uniform_gc_ring_uniform_seed101"
+        ],
+        [
+          "ABDF_uniform_ring_uniform_seed102",
+          "ABDF_uniform_gc_ring_uniform_seed102"
+        ],
+        [
+          "ABDF_uniform_ring_uniform_seed103",
+          "ABDF_uniform_gc_ring_uniform_seed103"
+        ],
+        [
+          "ABDF_uniform_ring_uniform_seed104",
+          "ABDF_uniform_gc_ring_uniform_seed104"
+        ],
+        [
+          "ABDF_uniform_ring_uniform_seed105",
+          "ABDF_uniform_gc_ring_uniform_seed105"
+        ]
+      ],
+      "panel": "ab_main"
+    },
+    {
+      "gid": "ab_main_0_1",
+      "axis": "backend",
+      "condition": "D3",
+      "cohort": null,
+      "workload": "uniform",
+      "dwb": null,
+      "baseline": "ring",
+      "variant": "r0",
+      "n": 5,
+      "mean": 20.255403419563816,
+      "ci95": [
+        20.228079925414384,
+        20.282726913713248
+      ],
+      "values": [
+        20.274393650773515,
+        20.243159529180176,
+        20.283726039372652,
+        20.23570703247425,
+        20.2400308460185
+      ],
+      "ids": [
+        [
+          "ABDF_uniform_ring_uniform_seed101",
+          "ABDF_uniform_r0_uniform_seed101"
+        ],
+        [
+          "ABDF_uniform_ring_uniform_seed102",
+          "ABDF_uniform_r0_uniform_seed102"
+        ],
+        [
+          "ABDF_uniform_ring_uniform_seed103",
+          "ABDF_uniform_r0_uniform_seed103"
+        ],
+        [
+          "ABDF_uniform_ring_uniform_seed104",
+          "ABDF_uniform_r0_uniform_seed104"
+        ],
+        [
+          "ABDF_uniform_ring_uniform_seed105",
+          "ABDF_uniform_r0_uniform_seed105"
+        ]
+      ],
+      "panel": "ab_main"
+    },
+    {
+      "gid": "ab_extra_0",
+      "axis": "backend",
+      "condition": "D3",
+      "cohort": null,
+      "workload": "uniform",
+      "dwb": null,
+      "baseline": "gc_ring",
+      "variant": "r0",
+      "n": 5,
+      "mean": 0.0008797662648074578,
+      "ci95": [
+        -0.0011753909320246056,
+        0.002934923461639521
+      ],
+      "values": [
+        0.0020965430952535336,
+        0.001721535463694579,
+        -1.8733218554167763e-05,
+        -0.0016093132078287553,
+        0.0022087991914720995
+      ],
+      "ids": [
+        [
+          "ABDF_uniform_gc_ring_uniform_seed101",
+          "ABDF_uniform_r0_uniform_seed101"
+        ],
+        [
+          "ABDF_uniform_gc_ring_uniform_seed102",
+          "ABDF_uniform_r0_uniform_seed102"
+        ],
+        [
+          "ABDF_uniform_gc_ring_uniform_seed103",
+          "ABDF_uniform_r0_uniform_seed103"
+        ],
+        [
+          "ABDF_uniform_gc_ring_uniform_seed104",
+          "ABDF_uniform_r0_uniform_seed104"
+        ],
+        [
+          "ABDF_uniform_gc_ring_uniform_seed105",
+          "ABDF_uniform_r0_uniform_seed105"
+        ]
+      ],
+      "panel": "ab_extra"
+    },
+    {
+      "gid": "ab_main_1_0",
+      "axis": "backend",
+      "condition": "D3",
+      "cohort": null,
+      "workload": "hot90",
+      "dwb": null,
+      "baseline": "ring",
+      "variant": "gc_ring",
+      "n": 5,
+      "mean": 20.239192341686113,
+      "ci95": [
+        20.194129034041094,
+        20.284255649331133
+      ],
+      "values": [
+        20.243594539115882,
+        20.279843997985058,
+        20.208775811674627,
+        20.267681538891125,
+        20.196065820763863
+      ],
+      "ids": [
+        [
+          "ABDF_uniform_ring_hot90_seed101",
+          "ABDF_uniform_gc_ring_hot90_seed101"
+        ],
+        [
+          "ABDF_uniform_ring_hot90_seed102",
+          "ABDF_uniform_gc_ring_hot90_seed102"
+        ],
+        [
+          "ABDF_uniform_ring_hot90_seed103",
+          "ABDF_uniform_gc_ring_hot90_seed103"
+        ],
+        [
+          "ABDF_uniform_ring_hot90_seed104",
+          "ABDF_uniform_gc_ring_hot90_seed104"
+        ],
+        [
+          "ABDF_uniform_ring_hot90_seed105",
+          "ABDF_uniform_gc_ring_hot90_seed105"
+        ]
+      ],
+      "panel": "ab_main"
+    },
+    {
+      "gid": "ab_main_1_1",
+      "axis": "backend",
+      "condition": "D3",
+      "cohort": null,
+      "workload": "hot90",
+      "dwb": null,
+      "baseline": "ring",
+      "variant": "r0",
+      "n": 5,
+      "mean": 20.23720157605901,
+      "ci95": [
+        20.19431079653029,
+        20.280092355587733
+      ],
+      "values": [
+        20.242266767950245,
+        20.276186989415834,
+        20.207447046952907,
+        20.263518679785797,
+        20.19658839619026
+      ],
+      "ids": [
+        [
+          "ABDF_uniform_ring_hot90_seed101",
+          "ABDF_uniform_r0_hot90_seed101"
+        ],
+        [
+          "ABDF_uniform_ring_hot90_seed102",
+          "ABDF_uniform_r0_hot90_seed102"
+        ],
+        [
+          "ABDF_uniform_ring_hot90_seed103",
+          "ABDF_uniform_r0_hot90_seed103"
+        ],
+        [
+          "ABDF_uniform_ring_hot90_seed104",
+          "ABDF_uniform_r0_hot90_seed104"
+        ],
+        [
+          "ABDF_uniform_ring_hot90_seed105",
+          "ABDF_uniform_r0_hot90_seed105"
+        ]
+      ],
+      "panel": "ab_main"
+    },
+    {
+      "gid": "ab_extra_1",
+      "axis": "backend",
+      "condition": "D3",
+      "cohort": null,
+      "workload": "hot90",
+      "dwb": null,
+      "baseline": "gc_ring",
+      "variant": "r0",
+      "n": 5,
+      "mean": -0.002496722347868907,
+      "ci95": [
+        -0.00548111672790204,
+        0.00048767203216422547
+      ],
+      "values": [
+        -0.0016647831079685815,
+        -0.004587307341874514,
+        -0.0016653018364287675,
+        -0.005221043593972574,
+        0.0006548241408999012
+      ],
+      "ids": [
+        [
+          "ABDF_uniform_gc_ring_hot90_seed101",
+          "ABDF_uniform_r0_hot90_seed101"
+        ],
+        [
+          "ABDF_uniform_gc_ring_hot90_seed102",
+          "ABDF_uniform_r0_hot90_seed102"
+        ],
+        [
+          "ABDF_uniform_gc_ring_hot90_seed103",
+          "ABDF_uniform_r0_hot90_seed103"
+        ],
+        [
+          "ABDF_uniform_gc_ring_hot90_seed104",
+          "ABDF_uniform_r0_hot90_seed104"
+        ],
+        [
+          "ABDF_uniform_gc_ring_hot90_seed105",
+          "ABDF_uniform_r0_hot90_seed105"
+        ]
+      ],
+      "panel": "ab_extra"
+    },
+    {
+      "gid": "ab_main_2_0",
+      "axis": "backend",
+      "condition": "bottom_D0",
+      "cohort": null,
+      "workload": "uniform",
+      "dwb": null,
+      "baseline": "ring",
+      "variant": "gc_ring",
+      "n": 5,
+      "mean": 21.976060804796447,
+      "ci95": [
+        21.938854829865768,
+        22.013266779727125
+      ],
+      "values": [
+        21.988554800677996,
+        21.970996267925003,
+        22.00926386932265,
+        21.92852490878363,
+        21.982964177272958
+      ],
+      "ids": [
+        [
+          "ABDF_bottom_d0_ring_uniform_seed101",
+          "ABDF_bottom_d0_gc_ring_uniform_seed101"
+        ],
+        [
+          "ABDF_bottom_d0_ring_uniform_seed102",
+          "ABDF_bottom_d0_gc_ring_uniform_seed102"
+        ],
+        [
+          "ABDF_bottom_d0_ring_uniform_seed103",
+          "ABDF_bottom_d0_gc_ring_uniform_seed103"
+        ],
+        [
+          "ABDF_bottom_d0_ring_uniform_seed104",
+          "ABDF_bottom_d0_gc_ring_uniform_seed104"
+        ],
+        [
+          "ABDF_bottom_d0_ring_uniform_seed105",
+          "ABDF_bottom_d0_gc_ring_uniform_seed105"
+        ]
+      ],
+      "panel": "ab_main"
+    },
+    {
+      "gid": "ab_main_2_1",
+      "axis": "backend",
+      "condition": "bottom_D0",
+      "cohort": null,
+      "workload": "uniform",
+      "dwb": null,
+      "baseline": "ring",
+      "variant": "r0",
+      "n": 5,
+      "mean": 21.97765511890374,
+      "ci95": [
+        21.940344894457297,
+        22.014965343350184
+      ],
+      "values": [
+        21.98948088594175,
+        21.977100111152193,
+        22.010661020152455,
+        21.929041252936432,
+        21.981992324335874
+      ],
+      "ids": [
+        [
+          "ABDF_bottom_d0_ring_uniform_seed101",
+          "ABDF_bottom_d0_r0_uniform_seed101"
+        ],
+        [
+          "ABDF_bottom_d0_ring_uniform_seed102",
+          "ABDF_bottom_d0_r0_uniform_seed102"
+        ],
+        [
+          "ABDF_bottom_d0_ring_uniform_seed103",
+          "ABDF_bottom_d0_r0_uniform_seed103"
+        ],
+        [
+          "ABDF_bottom_d0_ring_uniform_seed104",
+          "ABDF_bottom_d0_r0_uniform_seed104"
+        ],
+        [
+          "ABDF_bottom_d0_ring_uniform_seed105",
+          "ABDF_bottom_d0_r0_uniform_seed105"
+        ]
+      ],
+      "panel": "ab_main"
+    },
+    {
+      "gid": "ab_extra_2",
+      "axis": "backend",
+      "condition": "bottom_D0",
+      "cohort": null,
+      "workload": "uniform",
+      "dwb": null,
+      "baseline": "gc_ring",
+      "variant": "r0",
+      "n": 5,
+      "mean": 0.0020433516142026598,
+      "ci95": [
+        -0.002209379401208381,
+        0.0062960826296137
+      ],
+      "values": [
+        0.001187114610412543,
+        0.007822531283563361,
+        0.0017914317765321819,
+        0.000661373635113538,
+        -0.001245693234608325
+      ],
+      "ids": [
+        [
+          "ABDF_bottom_d0_gc_ring_uniform_seed101",
+          "ABDF_bottom_d0_r0_uniform_seed101"
+        ],
+        [
+          "ABDF_bottom_d0_gc_ring_uniform_seed102",
+          "ABDF_bottom_d0_r0_uniform_seed102"
+        ],
+        [
+          "ABDF_bottom_d0_gc_ring_uniform_seed103",
+          "ABDF_bottom_d0_r0_uniform_seed103"
+        ],
+        [
+          "ABDF_bottom_d0_gc_ring_uniform_seed104",
+          "ABDF_bottom_d0_r0_uniform_seed104"
+        ],
+        [
+          "ABDF_bottom_d0_gc_ring_uniform_seed105",
+          "ABDF_bottom_d0_r0_uniform_seed105"
+        ]
+      ],
+      "panel": "ab_extra"
+    },
+    {
+      "gid": "ab_main_3_0",
+      "axis": "backend",
+      "condition": "bottom_D0",
+      "cohort": null,
+      "workload": "hot90",
+      "dwb": null,
+      "baseline": "ring",
+      "variant": "gc_ring",
+      "n": 5,
+      "mean": 21.947787081529547,
+      "ci95": [
+        21.897556228951732,
+        21.998017934107363
+      ],
+      "values": [
+        21.941533110870893,
+        22.007518002502923,
+        21.93638748715362,
+        21.957765795007155,
+        21.89573101211314
+      ],
+      "ids": [
+        [
+          "ABDF_bottom_d0_ring_hot90_seed101",
+          "ABDF_bottom_d0_gc_ring_hot90_seed101"
+        ],
+        [
+          "ABDF_bottom_d0_ring_hot90_seed102",
+          "ABDF_bottom_d0_gc_ring_hot90_seed102"
+        ],
+        [
+          "ABDF_bottom_d0_ring_hot90_seed103",
+          "ABDF_bottom_d0_gc_ring_hot90_seed103"
+        ],
+        [
+          "ABDF_bottom_d0_ring_hot90_seed104",
+          "ABDF_bottom_d0_gc_ring_hot90_seed104"
+        ],
+        [
+          "ABDF_bottom_d0_ring_hot90_seed105",
+          "ABDF_bottom_d0_gc_ring_hot90_seed105"
+        ]
+      ],
+      "panel": "ab_main"
+    },
+    {
+      "gid": "ab_main_3_1",
+      "axis": "backend",
+      "condition": "bottom_D0",
+      "cohort": null,
+      "workload": "hot90",
+      "dwb": null,
+      "baseline": "ring",
+      "variant": "r0",
+      "n": 5,
+      "mean": 21.949727850517675,
+      "ci95": [
+        21.90229803803215,
+        21.9971576630032
+      ],
+      "values": [
+        21.942398684085752,
+        22.004770050296642,
+        21.940289126669597,
+        21.961668158776703,
+        21.89951323275968
+      ],
+      "ids": [
+        [
+          "ABDF_bottom_d0_ring_hot90_seed101",
+          "ABDF_bottom_d0_r0_hot90_seed101"
+        ],
+        [
+          "ABDF_bottom_d0_ring_hot90_seed102",
+          "ABDF_bottom_d0_r0_hot90_seed102"
+        ],
+        [
+          "ABDF_bottom_d0_ring_hot90_seed103",
+          "ABDF_bottom_d0_r0_hot90_seed103"
+        ],
+        [
+          "ABDF_bottom_d0_ring_hot90_seed104",
+          "ABDF_bottom_d0_r0_hot90_seed104"
+        ],
+        [
+          "ABDF_bottom_d0_ring_hot90_seed105",
+          "ABDF_bottom_d0_r0_hot90_seed105"
+        ]
+      ],
+      "panel": "ab_main"
+    },
+    {
+      "gid": "ab_extra_3",
+      "axis": "backend",
+      "condition": "bottom_D0",
+      "cohort": null,
+      "workload": "hot90",
+      "dwb": null,
+      "baseline": "gc_ring",
+      "variant": "r0",
+      "n": 5,
+      "mean": 0.002485279809589791,
+      "ci95": [
+        -0.0021686471352127803,
+        0.007139206754392362
+      ],
+      "values": [
+        0.0011088780619838978,
+        -0.0035233552464264406,
+        0.004998025828417685,
+        0.005000322978065963,
+        0.00484252742590785
+      ],
+      "ids": [
+        [
+          "ABDF_bottom_d0_gc_ring_hot90_seed101",
+          "ABDF_bottom_d0_r0_hot90_seed101"
+        ],
+        [
+          "ABDF_bottom_d0_gc_ring_hot90_seed102",
+          "ABDF_bottom_d0_r0_hot90_seed102"
+        ],
+        [
+          "ABDF_bottom_d0_gc_ring_hot90_seed103",
+          "ABDF_bottom_d0_r0_hot90_seed103"
+        ],
+        [
+          "ABDF_bottom_d0_gc_ring_hot90_seed104",
+          "ABDF_bottom_d0_r0_hot90_seed104"
+        ],
+        [
+          "ABDF_bottom_d0_gc_ring_hot90_seed105",
+          "ABDF_bottom_d0_r0_hot90_seed105"
+        ]
+      ],
+      "panel": "ab_extra"
+    }
+  ],
+  "axes_max": {
+    "ab_main": 24,
+    "ab_extra": 0.01
+  },
+  "extra": {}
+}

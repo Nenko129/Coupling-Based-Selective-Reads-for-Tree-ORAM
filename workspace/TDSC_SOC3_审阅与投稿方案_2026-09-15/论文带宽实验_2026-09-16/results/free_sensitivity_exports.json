@@ -1,0 +1,22 @@
+{
+  "status": "generated",
+  "source_sha256": "0fd54075dc6accd334674fd0de61282c415040aa59a6ac56c42a75784a8a443d",
+  "tables_audit_sha256": "6bc2779db5e2f394d7ff86637866c568b6bf8c4d883e6b09f8fc0ce6009ef42b",
+  "data_sha256": "f4fff9d5bd646685e369f6d8a6f20d95eadb0fa26c3c56bb27e470bbf64141e9",
+  "outputs": [
+    {
+      "path": "output\\pdf\\completed_free_sensitivity.pdf",
+      "sha256": "a1cd73f8471a9e11d61ca64f2abd7286123d3aaac09767ae12346a3fabc4a828"
+    },
+    {
+      "path": "figures\\completed_free_sensitivity.svg",
+      "sha256": "e0a6449dda30d4aa53c09788caded0a14d286657c2ea982ab50f50f41de0bc01"
+    },
+    {
+      "path": "figures\\completed_free_sensitivity.png",
+      "sha256": "7f2237a7b8c9a038de04fbef476a5672309c7ad3047e4680407899e977d06a36"
+    }
+  ],
+  "generator_sha256": "be0f07e917af66dde168f766497b50c4f3f5dd2a9beedb82e2d557e4386c5bec",
+  "visual_review_pending": true
+}

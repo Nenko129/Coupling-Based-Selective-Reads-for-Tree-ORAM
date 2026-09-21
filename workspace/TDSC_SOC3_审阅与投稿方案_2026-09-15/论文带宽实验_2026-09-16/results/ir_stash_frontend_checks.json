@@ -1,0 +1,639 @@
+{
+  "status": "passed",
+  "source_hashes": {
+    "backend": {
+      "base": {
+        "base": {
+          "base": {
+            "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+            "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+            "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+            "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+            "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+            "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+            "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+            "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+            "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+            "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+            "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+            "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+            "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+          },
+          "runtime": {
+            "ir_transfer.py": "2cdede25e5be4320ae48447a5fc96db9113a980569a1aaa4a2634ffbdc6a2e9f",
+            "ir_dwb_runtime.py": "a0a39b947ac08c4d2c14091b1844406fb304edd702e65dfb2fa82d752455c6f2",
+            "ir_dwb_controller.py": "55ba05f7a010be2ea907e3431c4d15babd9e2094a52da440b646d860dc7940af",
+            "dwb_staged_frontend.py": "08491ab8de426659204721898b2a6b914974b2f4ff378c054846114575dfdfd4",
+            "heterogeneous_oram.py": "6d312f8674efc788314f2ab5612a90979b50213ca79f601a777ef00a2dfb8fd5",
+            "heterogeneous_fusion.py": "23a1c85b20f10aa2c4b28e13228351fac771a811ada2b18062a9d8c45de59380",
+            "cached_transport.py": "25c88f7ca32ab5d394acd019348c32de268ecd2133b560625f3cc9dd370174c3",
+            "fast_prf.py": "910f2a4deb1ece922c2ab51d6031d1a966e604e9a2101d90e619f0c4cc7b4d84",
+            "composition_runtime.py": "f00534055545cf47a8e39c657f2ba392864d9895a55fa6bb8bf8a733e7a492cb"
+          },
+          "frontend": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4"
+        },
+        "compressed": {
+          "dwb_compressed_frontend.py": "b9ddcfd46aeac73142d08e7345e2746fe648d5ce5ba8552915959769db1406ce",
+          "ir_compressed_controller.py": "33422104915bd4f0a213da0d06b562a2b7ab200d69e62c6c53c07d1530f22d7a"
+        }
+      },
+      "frozen_transfer": "34d593fa1dee61f412fce3a11269d1e05e0e5f2c893107a436d5d53c73be4ff7",
+      "new": {
+        "ir_stash.py": "1b601878fb9481330b878c94729418f8544cf5c7ea5f42cf7dba73b8f8ccc5ed",
+        "ir_stash_runtime.py": "029d13608f9929ac1f87e6ca147b5d476e037cd1a17c381887e56a2b55469643"
+      }
+    },
+    "frontend": {
+      "ir_stash_frontend.py": "2b80ea5ac0a1ae36b2fe420add4855633b434fbc5ffd22b8058ca559e77e4243",
+      "ir_stash_controller.py": "bbbe9548a0f01c43bc4f6f23b3dde1e6362c0fad1055ef85a5fb53dd568feb15"
+    }
+  },
+  "checker_sha256": "791967b43a21a0623c6c232f18dc62f25face23dce8cda8b8c838aaa3d942a32",
+  "engine_checks_sha256": "e2534d83bbb95408ca48873517eacffde834ef72dc595874d0fbfc64239d668f",
+  "cases": [
+    {
+      "kind": "path",
+      "indexed": false,
+      "dwb": false,
+      "requests": 48,
+      "public_slots": 384,
+      "local_probe_events": [
+        {
+          "type": "posmap",
+          "level": 2,
+          "address": 68,
+          "transfers": 1
+        },
+        {
+          "type": "posmap",
+          "level": 1,
+          "address": 64,
+          "transfers": 1
+        },
+        {
+          "type": "data",
+          "level": 0,
+          "address": 2,
+          "previous": "98d66c738c93e5fcb805317bf1933e9fb6785d755947f7bc295378825d3022d3",
+          "local": "S",
+          "transfers": 0
+        }
+      ],
+      "frontend_metrics": {
+        "plb_misses": 7,
+        "plb_hits": 74,
+        "data_local_S_after_map": 45,
+        "data_remote_remaps": 24,
+        "data_local_F_before_map": 2,
+        "plb_evictions": 2
+      },
+      "controller_metrics": {
+        "llc_misses": 43,
+        "foreground_slots": 28,
+        "foreground_posmap_slots": 4,
+        "public_slots": 384,
+        "application_completed": 48,
+        "foreground_data_slots": 24,
+        "foreground_local_completions": 46,
+        "dummy_slots": 356,
+        "llc_evictions": 39,
+        "foreground_writebacks": 27,
+        "llc_hits": 5
+      },
+      "billed_bytes": 313344,
+      "not_performance_data": true
+    },
+    {
+      "kind": "path",
+      "indexed": false,
+      "dwb": true,
+      "requests": 48,
+      "public_slots": 384,
+      "local_probe_events": [
+        {
+          "type": "posmap",
+          "level": 2,
+          "address": 68,
+          "transfers": 1
+        },
+        {
+          "type": "posmap",
+          "level": 1,
+          "address": 64,
+          "transfers": 1
+        },
+        {
+          "type": "data",
+          "level": 0,
+          "address": 2,
+          "previous": "98d66c738c93e5fcb805317bf1933e9fb6785d755947f7bc295378825d3022d3",
+          "local": "S",
+          "transfers": 0
+        }
+      ],
+      "frontend_metrics": {
+        "plb_misses": 7,
+        "plb_hits": 75,
+        "data_local_S_after_map": 47,
+        "data_remote_remaps": 23,
+        "data_local_F_before_map": 3,
+        "plb_evictions": 2
+      },
+      "controller_metrics": {
+        "llc_misses": 43,
+        "foreground_slots": 26,
+        "foreground_posmap_slots": 4,
+        "public_slots": 384,
+        "application_completed": 48,
+        "foreground_data_slots": 22,
+        "foreground_local_completions": 21,
+        "dummy_slots": 357,
+        "dwb_started": 29,
+        "dwb_data_slots": 1,
+        "dwb_completed": 29,
+        "dwb_local_completions": 28,
+        "llc_evictions": 39,
+        "llc_hits": 5
+      },
+      "billed_bytes": 313344,
+      "not_performance_data": true
+    },
+    {
+      "kind": "deferred",
+      "indexed": false,
+      "dwb": false,
+      "requests": 48,
+      "public_slots": 384,
+      "local_probe_events": [
+        {
+          "type": "posmap",
+          "level": 2,
+          "address": 68,
+          "transfers": 1
+        },
+        {
+          "type": "posmap",
+          "level": 1,
+          "address": 64,
+          "transfers": 1
+        },
+        {
+          "type": "data",
+          "level": 0,
+          "address": 0,
+          "previous": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+          "local": "S",
+          "transfers": 0
+        }
+      ],
+      "frontend_metrics": {
+        "plb_misses": 7,
+        "plb_hits": 74,
+        "data_local_S_after_map": 48,
+        "data_remote_remaps": 21,
+        "plb_evictions": 2,
+        "data_local_F_before_map": 2
+      },
+      "controller_metrics": {
+        "llc_misses": 43,
+        "foreground_slots": 25,
+        "foreground_posmap_slots": 4,
+        "public_slots": 384,
+        "application_completed": 48,
+        "foreground_data_slots": 21,
+        "foreground_local_completions": 49,
+        "dummy_slots": 359,
+        "llc_evictions": 39,
+        "foreground_writebacks": 27,
+        "llc_hits": 5
+      },
+      "billed_bytes": 387072,
+      "not_performance_data": true
+    },
+    {
+      "kind": "deferred",
+      "indexed": false,
+      "dwb": true,
+      "requests": 48,
+      "public_slots": 384,
+      "local_probe_events": [
+        {
+          "type": "posmap",
+          "level": 2,
+          "address": 68,
+          "transfers": 1
+        },
+        {
+          "type": "posmap",
+          "level": 1,
+          "address": 64,
+          "transfers": 1
+        },
+        {
+          "type": "data",
+          "level": 0,
+          "address": 0,
+          "previous": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+          "local": "S",
+          "transfers": 0
+        }
+      ],
+      "frontend_metrics": {
+        "plb_misses": 7,
+        "plb_hits": 74,
+        "data_local_S_after_map": 48,
+        "data_remote_remaps": 21,
+        "plb_evictions": 2,
+        "data_local_F_before_map": 4
+      },
+      "controller_metrics": {
+        "llc_misses": 43,
+        "foreground_slots": 23,
+        "foreground_posmap_slots": 4,
+        "public_slots": 384,
+        "application_completed": 48,
+        "foreground_data_slots": 19,
+        "foreground_local_completions": 24,
+        "dummy_slots": 359,
+        "dwb_started": 29,
+        "dwb_data_slots": 2,
+        "dwb_completed": 29,
+        "dwb_local_completions": 27,
+        "llc_evictions": 39,
+        "llc_hits": 5
+      },
+      "billed_bytes": 387072,
+      "not_performance_data": true
+    },
+    {
+      "kind": "sde",
+      "indexed": false,
+      "dwb": false,
+      "requests": 48,
+      "public_slots": 384,
+      "local_probe_events": [
+        {
+          "type": "posmap",
+          "level": 2,
+          "address": 68,
+          "transfers": 1
+        },
+        {
+          "type": "posmap",
+          "level": 1,
+          "address": 64,
+          "transfers": 1
+        },
+        {
+          "type": "data",
+          "level": 0,
+          "address": 0,
+          "previous": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+          "local": "S",
+          "transfers": 0
+        }
+      ],
+      "frontend_metrics": {
+        "plb_misses": 7,
+        "plb_hits": 56,
+        "data_local_S_after_map": 30,
+        "data_remote_remaps": 21,
+        "data_local_F_before_map": 20,
+        "plb_evictions": 2
+      },
+      "controller_metrics": {
+        "llc_misses": 43,
+        "foreground_slots": 25,
+        "foreground_posmap_slots": 4,
+        "public_slots": 384,
+        "application_completed": 48,
+        "foreground_data_slots": 21,
+        "foreground_local_completions": 49,
+        "dummy_slots": 359,
+        "llc_evictions": 39,
+        "foreground_writebacks": 27,
+        "llc_hits": 5
+      },
+      "billed_bytes": 387072,
+      "not_performance_data": true
+    },
+    {
+      "kind": "sde",
+      "indexed": false,
+      "dwb": true,
+      "requests": 48,
+      "public_slots": 384,
+      "local_probe_events": [
+        {
+          "type": "posmap",
+          "level": 2,
+          "address": 68,
+          "transfers": 1
+        },
+        {
+          "type": "posmap",
+          "level": 1,
+          "address": 64,
+          "transfers": 1
+        },
+        {
+          "type": "data",
+          "level": 0,
+          "address": 0,
+          "previous": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+          "local": "S",
+          "transfers": 0
+        }
+      ],
+      "frontend_metrics": {
+        "plb_misses": 7,
+        "plb_hits": 54,
+        "data_local_S_after_map": 27,
+        "data_remote_remaps": 22,
+        "data_local_F_before_map": 24,
+        "plb_evictions": 2
+      },
+      "controller_metrics": {
+        "llc_misses": 43,
+        "foreground_slots": 22,
+        "foreground_posmap_slots": 4,
+        "public_slots": 384,
+        "application_completed": 48,
+        "foreground_data_slots": 18,
+        "foreground_local_completions": 25,
+        "dummy_slots": 358,
+        "dwb_started": 29,
+        "dwb_data_slots": 4,
+        "dwb_completed": 29,
+        "dwb_local_completions": 25,
+        "llc_evictions": 39,
+        "llc_hits": 5
+      },
+      "billed_bytes": 387072,
+      "not_performance_data": true
+    },
+    {
+      "kind": "path",
+      "indexed": true,
+      "dwb": false,
+      "requests": 48,
+      "public_slots": 384,
+      "local_probe_events": [
+        {
+          "type": "data",
+          "level": 0,
+          "address": 2,
+          "previous": "98d66c738c93e5fcb805317bf1933e9fb6785d755947f7bc295378825d3022d3",
+          "local": "S",
+          "transfers": 0
+        }
+      ],
+      "frontend_metrics": {
+        "data_local_S_before_map": 3,
+        "data_local_F_before_map": 43,
+        "plb_misses": 6,
+        "plb_hits": 29,
+        "data_remote_remaps": 25,
+        "plb_evictions": 1
+      },
+      "controller_metrics": {
+        "llc_misses": 43,
+        "foreground_slots": 30,
+        "application_completed": 48,
+        "foreground_data_slots": 25,
+        "foreground_local_completions": 45,
+        "dummy_slots": 354,
+        "public_slots": 384,
+        "foreground_posmap_slots": 5,
+        "llc_evictions": 39,
+        "foreground_writebacks": 27,
+        "llc_hits": 5
+      },
+      "billed_bytes": 313344,
+      "not_performance_data": true
+    },
+    {
+      "kind": "path",
+      "indexed": true,
+      "dwb": true,
+      "requests": 48,
+      "public_slots": 384,
+      "local_probe_events": [
+        {
+          "type": "data",
+          "level": 0,
+          "address": 2,
+          "previous": "98d66c738c93e5fcb805317bf1933e9fb6785d755947f7bc295378825d3022d3",
+          "local": "S",
+          "transfers": 0
+        }
+      ],
+      "frontend_metrics": {
+        "data_local_S_before_map": 8,
+        "data_local_F_before_map": 42,
+        "plb_misses": 6,
+        "plb_hits": 27,
+        "data_remote_remaps": 23,
+        "plb_evictions": 1
+      },
+      "controller_metrics": {
+        "llc_misses": 43,
+        "foreground_slots": 26,
+        "application_completed": 48,
+        "foreground_data_slots": 21,
+        "foreground_local_completions": 22,
+        "dummy_slots": 356,
+        "public_slots": 384,
+        "foreground_posmap_slots": 5,
+        "dwb_started": 29,
+        "dwb_data_slots": 2,
+        "dwb_completed": 29,
+        "dwb_local_completions": 27,
+        "llc_evictions": 39,
+        "llc_hits": 5
+      },
+      "billed_bytes": 313344,
+      "not_performance_data": true
+    },
+    {
+      "kind": "deferred",
+      "indexed": true,
+      "dwb": false,
+      "requests": 48,
+      "public_slots": 384,
+      "local_probe_events": [
+        {
+          "type": "data",
+          "level": 0,
+          "address": 0,
+          "previous": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+          "local": "S",
+          "transfers": 0
+        }
+      ],
+      "frontend_metrics": {
+        "data_local_S_before_map": 13,
+        "data_local_F_before_map": 36,
+        "plb_misses": 6,
+        "plb_hits": 26,
+        "data_remote_remaps": 22,
+        "plb_evictions": 1
+      },
+      "controller_metrics": {
+        "llc_misses": 43,
+        "foreground_slots": 27,
+        "application_completed": 48,
+        "foreground_data_slots": 22,
+        "foreground_local_completions": 48,
+        "dummy_slots": 357,
+        "public_slots": 384,
+        "llc_evictions": 39,
+        "foreground_posmap_slots": 5,
+        "foreground_writebacks": 27,
+        "llc_hits": 5
+      },
+      "billed_bytes": 387072,
+      "not_performance_data": true
+    },
+    {
+      "kind": "deferred",
+      "indexed": true,
+      "dwb": true,
+      "requests": 48,
+      "public_slots": 384,
+      "local_probe_events": [
+        {
+          "type": "data",
+          "level": 0,
+          "address": 0,
+          "previous": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+          "local": "S",
+          "transfers": 0
+        }
+      ],
+      "frontend_metrics": {
+        "data_local_S_before_map": 13,
+        "data_local_F_before_map": 38,
+        "plb_misses": 6,
+        "plb_hits": 26,
+        "data_remote_remaps": 22,
+        "plb_evictions": 1
+      },
+      "controller_metrics": {
+        "llc_misses": 43,
+        "foreground_slots": 25,
+        "application_completed": 48,
+        "foreground_data_slots": 20,
+        "foreground_local_completions": 23,
+        "dummy_slots": 357,
+        "public_slots": 384,
+        "dwb_started": 29,
+        "dwb_data_slots": 2,
+        "dwb_completed": 29,
+        "dwb_local_completions": 27,
+        "llc_evictions": 39,
+        "foreground_posmap_slots": 5,
+        "llc_hits": 5
+      },
+      "billed_bytes": 387072,
+      "not_performance_data": true
+    },
+    {
+      "kind": "sde",
+      "indexed": true,
+      "dwb": false,
+      "requests": 48,
+      "public_slots": 384,
+      "local_probe_events": [
+        {
+          "type": "data",
+          "level": 0,
+          "address": 0,
+          "previous": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+          "local": "S",
+          "transfers": 0
+        }
+      ],
+      "frontend_metrics": {
+        "data_local_S_before_map": 13,
+        "data_local_F_before_map": 36,
+        "plb_misses": 6,
+        "plb_hits": 26,
+        "data_remote_remaps": 22,
+        "plb_evictions": 1
+      },
+      "controller_metrics": {
+        "llc_misses": 43,
+        "foreground_slots": 27,
+        "application_completed": 48,
+        "foreground_data_slots": 22,
+        "foreground_local_completions": 48,
+        "dummy_slots": 357,
+        "public_slots": 384,
+        "llc_evictions": 39,
+        "foreground_posmap_slots": 5,
+        "foreground_writebacks": 27,
+        "llc_hits": 5
+      },
+      "billed_bytes": 387072,
+      "not_performance_data": true
+    },
+    {
+      "kind": "sde",
+      "indexed": true,
+      "dwb": true,
+      "requests": 48,
+      "public_slots": 384,
+      "local_probe_events": [
+        {
+          "type": "data",
+          "level": 0,
+          "address": 0,
+          "previous": "f5a5fd42d16a20302798ef6ed309979b43003d2320d9f0e8ea9831a92759fb4b",
+          "local": "S",
+          "transfers": 0
+        }
+      ],
+      "frontend_metrics": {
+        "data_local_S_before_map": 11,
+        "data_local_F_before_map": 40,
+        "plb_misses": 6,
+        "plb_hits": 26,
+        "data_remote_remaps": 22,
+        "plb_evictions": 1
+      },
+      "controller_metrics": {
+        "llc_misses": 43,
+        "foreground_slots": 25,
+        "application_completed": 48,
+        "foreground_data_slots": 20,
+        "foreground_local_completions": 23,
+        "dummy_slots": 357,
+        "public_slots": 384,
+        "dwb_started": 29,
+        "dwb_data_slots": 2,
+        "dwb_completed": 29,
+        "dwb_local_completions": 27,
+        "llc_evictions": 39,
+        "foreground_posmap_slots": 5,
+        "llc_hits": 5
+      },
+      "billed_bytes": 387072,
+      "not_performance_data": true
+    }
+  ],
+  "controller_fault_cases": [
+    "path",
+    "deferred",
+    "sde"
+  ],
+  "independent_owner_map_and_payload_oracle": true,
+  "one_transfer_every_public_slot": true,
+  "data_local_hit_preserves_leaf": true,
+  "full_native_IR": false,
+  "all_map_local_bypass": false,
+  "compressed_map": false,
+  "adaptive_security_proof": false,
+  "capacity_certificate": false,
+  "scope": "data-local IR-Stash bridge, raw maps and conventional exclusive PLB, fixed-clock LLC/DWB; functional fixture only"
+}

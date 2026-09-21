@@ -1,0 +1,1178 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "config": {
+        "kind": "path",
+        "L": 5,
+        "N": 40,
+        "B": 16,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "mode": "forced_collision_single_tree",
+      "checks": {
+        "access_boundaries": 120,
+        "scheduled_evictions": 0
+      },
+      "max_boundary_stash": 24,
+      "oracle_state_sha256": "15688ab24b247358151e3abebae86acee5bba5bafd722ce963396cab55785bba"
+    },
+    {
+      "configs": [
+        {
+          "kind": "path",
+          "L": 5,
+          "N": 17,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "path",
+          "L": 3,
+          "N": 5,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "path",
+          "L": 1,
+          "N": 2,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 2,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "mode": "three_recursive_layers",
+      "checks": [
+        {
+          "access_boundaries": 97,
+          "scheduled_evictions": 0
+        },
+        {
+          "access_boundaries": 102,
+          "scheduled_evictions": 0
+        },
+        {
+          "access_boundaries": 104,
+          "scheduled_evictions": 0
+        }
+      ],
+      "clocks": [
+        97,
+        102,
+        104
+      ],
+      "max_boundary_stash": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "config": {
+        "kind": "path",
+        "L": 5,
+        "N": 40,
+        "B": 16,
+        "Z": 5,
+        "A": 3,
+        "S": 3,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "mode": "forced_collision_single_tree",
+      "checks": {
+        "access_boundaries": 120,
+        "scheduled_evictions": 0
+      },
+      "max_boundary_stash": 21,
+      "oracle_state_sha256": "886aa77ac0fe1a41bc39355c0a97466cdcf5723849d88e56f3fd612cac40fc81"
+    },
+    {
+      "configs": [
+        {
+          "kind": "path",
+          "L": 5,
+          "N": 17,
+          "B": 16,
+          "Z": 5,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "path",
+          "L": 3,
+          "N": 5,
+          "B": 16,
+          "Z": 5,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "path",
+          "L": 1,
+          "N": 2,
+          "B": 16,
+          "Z": 5,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 2,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "mode": "three_recursive_layers",
+      "checks": [
+        {
+          "access_boundaries": 97,
+          "scheduled_evictions": 0
+        },
+        {
+          "access_boundaries": 102,
+          "scheduled_evictions": 0
+        },
+        {
+          "access_boundaries": 104,
+          "scheduled_evictions": 0
+        }
+      ],
+      "clocks": [
+        97,
+        102,
+        104
+      ],
+      "max_boundary_stash": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 5,
+        "N": 40,
+        "B": 16,
+        "Z": 4,
+        "A": 3,
+        "S": 1,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": false
+      },
+      "mode": "forced_collision_single_tree",
+      "checks": {
+        "access_boundaries": 120,
+        "scheduled_evictions": 40,
+        "neutral_identity": 565
+      },
+      "max_boundary_stash": 26,
+      "oracle_state_sha256": "03d2898c19b82ad419529a16ce6859ebc85c68bbb1a8b10ddf427d4f6734f2e8"
+    },
+    {
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 5,
+          "N": 17,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 1,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": false
+        },
+        {
+          "kind": "ring",
+          "L": 3,
+          "N": 5,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 1,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": false
+        },
+        {
+          "kind": "ring",
+          "L": 1,
+          "N": 2,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 1,
+          "R": 128,
+          "tree": 2,
+          "compact": true,
+          "fused": false
+        }
+      ],
+      "mode": "three_recursive_layers",
+      "checks": [
+        {
+          "access_boundaries": 97,
+          "scheduled_evictions": 32,
+          "neutral_identity": 365
+        },
+        {
+          "access_boundaries": 102,
+          "scheduled_evictions": 34,
+          "neutral_identity": 266
+        },
+        {
+          "access_boundaries": 104,
+          "scheduled_evictions": 34,
+          "neutral_identity": 138
+        }
+      ],
+      "clocks": [
+        97,
+        102,
+        104
+      ],
+      "max_boundary_stash": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 5,
+        "N": 40,
+        "B": 16,
+        "Z": 4,
+        "A": 3,
+        "S": 1,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "mode": "forced_collision_single_tree",
+      "checks": {
+        "fused_logical_projection": 120,
+        "fused_early_buckets": 560,
+        "access_boundaries": 120,
+        "scheduled_evictions": 40
+      },
+      "max_boundary_stash": 26,
+      "oracle_state_sha256": "03d2898c19b82ad419529a16ce6859ebc85c68bbb1a8b10ddf427d4f6734f2e8"
+    },
+    {
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 5,
+          "N": 17,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 1,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 3,
+          "N": 5,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 1,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 1,
+          "N": 2,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 1,
+          "R": 128,
+          "tree": 2,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "mode": "three_recursive_layers",
+      "checks": [
+        {
+          "fused_logical_projection": 97,
+          "fused_early_buckets": 368,
+          "access_boundaries": 97,
+          "scheduled_evictions": 32
+        },
+        {
+          "fused_logical_projection": 102,
+          "fused_early_buckets": 267,
+          "access_boundaries": 102,
+          "scheduled_evictions": 34
+        },
+        {
+          "fused_logical_projection": 104,
+          "fused_early_buckets": 138,
+          "access_boundaries": 104,
+          "scheduled_evictions": 34
+        }
+      ],
+      "clocks": [
+        97,
+        102,
+        104
+      ],
+      "max_boundary_stash": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 5,
+        "N": 40,
+        "B": 16,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": false
+      },
+      "mode": "forced_collision_single_tree",
+      "checks": {
+        "access_boundaries": 120,
+        "scheduled_evictions": 40,
+        "neutral_identity": 121
+      },
+      "max_boundary_stash": 26,
+      "oracle_state_sha256": "03d2898c19b82ad419529a16ce6859ebc85c68bbb1a8b10ddf427d4f6734f2e8"
+    },
+    {
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 5,
+          "N": 17,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": false
+        },
+        {
+          "kind": "ring",
+          "L": 3,
+          "N": 5,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": false
+        },
+        {
+          "kind": "ring",
+          "L": 1,
+          "N": 2,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 2,
+          "compact": true,
+          "fused": false
+        }
+      ],
+      "mode": "three_recursive_layers",
+      "checks": [
+        {
+          "access_boundaries": 97,
+          "scheduled_evictions": 32,
+          "neutral_identity": 44
+        },
+        {
+          "access_boundaries": 102,
+          "scheduled_evictions": 34,
+          "neutral_identity": 35
+        },
+        {
+          "access_boundaries": 104,
+          "scheduled_evictions": 34,
+          "neutral_identity": 11
+        }
+      ],
+      "clocks": [
+        97,
+        102,
+        104
+      ],
+      "max_boundary_stash": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 5,
+        "N": 40,
+        "B": 16,
+        "Z": 4,
+        "A": 3,
+        "S": 3,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "mode": "forced_collision_single_tree",
+      "checks": {
+        "fused_logical_projection": 120,
+        "fused_early_buckets": 129,
+        "access_boundaries": 120,
+        "scheduled_evictions": 40
+      },
+      "max_boundary_stash": 26,
+      "oracle_state_sha256": "03d2898c19b82ad419529a16ce6859ebc85c68bbb1a8b10ddf427d4f6734f2e8"
+    },
+    {
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 5,
+          "N": 17,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 3,
+          "N": 5,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 1,
+          "N": 2,
+          "B": 16,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 128,
+          "tree": 2,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "mode": "three_recursive_layers",
+      "checks": [
+        {
+          "fused_logical_projection": 97,
+          "fused_early_buckets": 48,
+          "access_boundaries": 97,
+          "scheduled_evictions": 32
+        },
+        {
+          "fused_logical_projection": 102,
+          "fused_early_buckets": 33,
+          "access_boundaries": 102,
+          "scheduled_evictions": 34
+        },
+        {
+          "fused_logical_projection": 104,
+          "fused_early_buckets": 12,
+          "access_boundaries": 104,
+          "scheduled_evictions": 34
+        }
+      ],
+      "clocks": [
+        97,
+        102,
+        104
+      ],
+      "max_boundary_stash": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 5,
+        "N": 40,
+        "B": 16,
+        "Z": 7,
+        "A": 6,
+        "S": 1,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": false
+      },
+      "mode": "forced_collision_single_tree",
+      "checks": {
+        "access_boundaries": 120,
+        "scheduled_evictions": 20,
+        "neutral_identity": 609
+      },
+      "max_boundary_stash": 18,
+      "oracle_state_sha256": "0da6c1a0280376c16c9a6e720f0113c61d28f32dc4354f6329da3e3773a60722"
+    },
+    {
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 5,
+          "N": 17,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 1,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": false
+        },
+        {
+          "kind": "ring",
+          "L": 3,
+          "N": 5,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 1,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": false
+        },
+        {
+          "kind": "ring",
+          "L": 1,
+          "N": 2,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 1,
+          "R": 128,
+          "tree": 2,
+          "compact": true,
+          "fused": false
+        }
+      ],
+      "mode": "three_recursive_layers",
+      "checks": [
+        {
+          "access_boundaries": 97,
+          "scheduled_evictions": 16,
+          "neutral_identity": 441
+        },
+        {
+          "access_boundaries": 102,
+          "scheduled_evictions": 17,
+          "neutral_identity": 329
+        },
+        {
+          "access_boundaries": 104,
+          "scheduled_evictions": 17,
+          "neutral_identity": 171
+        }
+      ],
+      "clocks": [
+        97,
+        102,
+        104
+      ],
+      "max_boundary_stash": [
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 5,
+        "N": 40,
+        "B": 16,
+        "Z": 7,
+        "A": 6,
+        "S": 1,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "mode": "forced_collision_single_tree",
+      "checks": {
+        "fused_logical_projection": 120,
+        "fused_early_buckets": 614,
+        "access_boundaries": 120,
+        "scheduled_evictions": 20
+      },
+      "max_boundary_stash": 18,
+      "oracle_state_sha256": "0da6c1a0280376c16c9a6e720f0113c61d28f32dc4354f6329da3e3773a60722"
+    },
+    {
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 5,
+          "N": 17,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 1,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 3,
+          "N": 5,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 1,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 1,
+          "N": 2,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 1,
+          "R": 128,
+          "tree": 2,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "mode": "three_recursive_layers",
+      "checks": [
+        {
+          "fused_logical_projection": 97,
+          "fused_early_buckets": 439,
+          "access_boundaries": 97,
+          "scheduled_evictions": 16
+        },
+        {
+          "fused_logical_projection": 102,
+          "fused_early_buckets": 332,
+          "access_boundaries": 102,
+          "scheduled_evictions": 17
+        },
+        {
+          "fused_logical_projection": 104,
+          "fused_early_buckets": 172,
+          "access_boundaries": 104,
+          "scheduled_evictions": 17
+        }
+      ],
+      "clocks": [
+        97,
+        102,
+        104
+      ],
+      "max_boundary_stash": [
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 5,
+        "N": 40,
+        "B": 16,
+        "Z": 7,
+        "A": 6,
+        "S": 6,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": false
+      },
+      "mode": "forced_collision_single_tree",
+      "checks": {
+        "access_boundaries": 120,
+        "scheduled_evictions": 20,
+        "neutral_identity": 58
+      },
+      "max_boundary_stash": 18,
+      "oracle_state_sha256": "0da6c1a0280376c16c9a6e720f0113c61d28f32dc4354f6329da3e3773a60722"
+    },
+    {
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 5,
+          "N": 17,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 6,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": false
+        },
+        {
+          "kind": "ring",
+          "L": 3,
+          "N": 5,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 6,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": false
+        },
+        {
+          "kind": "ring",
+          "L": 1,
+          "N": 2,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 6,
+          "R": 128,
+          "tree": 2,
+          "compact": true,
+          "fused": false
+        }
+      ],
+      "mode": "three_recursive_layers",
+      "checks": [
+        {
+          "access_boundaries": 97,
+          "scheduled_evictions": 16,
+          "neutral_identity": 19
+        },
+        {
+          "access_boundaries": 102,
+          "scheduled_evictions": 17,
+          "neutral_identity": 21
+        },
+        {
+          "access_boundaries": 104,
+          "scheduled_evictions": 17,
+          "neutral_identity": 5
+        }
+      ],
+      "clocks": [
+        97,
+        102,
+        104
+      ],
+      "max_boundary_stash": [
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 5,
+        "N": 40,
+        "B": 16,
+        "Z": 7,
+        "A": 6,
+        "S": 6,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "mode": "forced_collision_single_tree",
+      "checks": {
+        "fused_logical_projection": 120,
+        "fused_early_buckets": 62,
+        "access_boundaries": 120,
+        "scheduled_evictions": 20
+      },
+      "max_boundary_stash": 18,
+      "oracle_state_sha256": "0da6c1a0280376c16c9a6e720f0113c61d28f32dc4354f6329da3e3773a60722"
+    },
+    {
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 5,
+          "N": 17,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 6,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 3,
+          "N": 5,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 6,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 1,
+          "N": 2,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 6,
+          "R": 128,
+          "tree": 2,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "mode": "three_recursive_layers",
+      "checks": [
+        {
+          "fused_logical_projection": 97,
+          "fused_early_buckets": 18,
+          "access_boundaries": 97,
+          "scheduled_evictions": 16
+        },
+        {
+          "fused_logical_projection": 102,
+          "fused_early_buckets": 16,
+          "access_boundaries": 102,
+          "scheduled_evictions": 17
+        },
+        {
+          "fused_logical_projection": 104,
+          "fused_early_buckets": 9,
+          "access_boundaries": 104,
+          "scheduled_evictions": 17
+        }
+      ],
+      "clocks": [
+        97,
+        102,
+        104
+      ],
+      "max_boundary_stash": [
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 5,
+        "N": 40,
+        "B": 16,
+        "Z": 7,
+        "A": 6,
+        "S": 9,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": false
+      },
+      "mode": "forced_collision_single_tree",
+      "checks": {
+        "access_boundaries": 120,
+        "scheduled_evictions": 20,
+        "neutral_identity": 36
+      },
+      "max_boundary_stash": 18,
+      "oracle_state_sha256": "0da6c1a0280376c16c9a6e720f0113c61d28f32dc4354f6329da3e3773a60722"
+    },
+    {
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 5,
+          "N": 17,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 9,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": false
+        },
+        {
+          "kind": "ring",
+          "L": 3,
+          "N": 5,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 9,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": false
+        },
+        {
+          "kind": "ring",
+          "L": 1,
+          "N": 2,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 9,
+          "R": 128,
+          "tree": 2,
+          "compact": true,
+          "fused": false
+        }
+      ],
+      "mode": "three_recursive_layers",
+      "checks": [
+        {
+          "access_boundaries": 97,
+          "scheduled_evictions": 16,
+          "neutral_identity": 1
+        },
+        {
+          "access_boundaries": 102,
+          "scheduled_evictions": 17,
+          "neutral_identity": 2
+        },
+        {
+          "access_boundaries": 104,
+          "scheduled_evictions": 17
+        }
+      ],
+      "clocks": [
+        97,
+        102,
+        104
+      ],
+      "max_boundary_stash": [
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "config": {
+        "kind": "ring",
+        "L": 5,
+        "N": 40,
+        "B": 16,
+        "Z": 7,
+        "A": 6,
+        "S": 9,
+        "R": 128,
+        "tree": 0,
+        "compact": true,
+        "fused": true
+      },
+      "mode": "forced_collision_single_tree",
+      "checks": {
+        "fused_logical_projection": 120,
+        "fused_early_buckets": 39,
+        "access_boundaries": 120,
+        "scheduled_evictions": 20
+      },
+      "max_boundary_stash": 18,
+      "oracle_state_sha256": "0da6c1a0280376c16c9a6e720f0113c61d28f32dc4354f6329da3e3773a60722"
+    },
+    {
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 5,
+          "N": 17,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 9,
+          "R": 128,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 3,
+          "N": 5,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 9,
+          "R": 128,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 1,
+          "N": 2,
+          "B": 16,
+          "Z": 7,
+          "A": 6,
+          "S": 9,
+          "R": 128,
+          "tree": 2,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "mode": "three_recursive_layers",
+      "checks": [
+        {
+          "fused_logical_projection": 97,
+          "fused_early_buckets": 1,
+          "access_boundaries": 97,
+          "scheduled_evictions": 16
+        },
+        {
+          "fused_logical_projection": 102,
+          "fused_early_buckets": 2,
+          "access_boundaries": 102,
+          "scheduled_evictions": 17
+        },
+        {
+          "fused_logical_projection": 104,
+          "fused_early_buckets": 0,
+          "access_boundaries": 104,
+          "scheduled_evictions": 17
+        }
+      ],
+      "clocks": [
+        97,
+        102,
+        104
+      ],
+      "max_boundary_stash": [
+        5,
+        5,
+        2
+      ]
+    }
+  ],
+  "totals": {
+    "access_boundaries": 5076,
+    "scheduled_evictions": 980,
+    "neutral_identity": 3237,
+    "fused_logical_projection": 2115,
+    "fused_early_buckets": 3259
+  },
+  "source_hashes": {
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+  },
+  "checker_sha256": "63b5079b97e21ca407c173f7da1de977866dc4cf907eb47f264cf814c2786c41",
+  "execution_cases": 24,
+  "scope": "honest successful logical occupancy and payload projection; all concrete bucket owners",
+  "sampled_checks_are_not_proof": true,
+  "performance_samples": false,
+  "full_security_admission": false,
+  "excluded": [
+    "malicious transcripts and PRF advantage",
+    "heterogeneous/CB/IR-local-hit protocols",
+    "capacity theorem parameter admission",
+    "exhaustive arbitrary-length execution"
+  ]
+}

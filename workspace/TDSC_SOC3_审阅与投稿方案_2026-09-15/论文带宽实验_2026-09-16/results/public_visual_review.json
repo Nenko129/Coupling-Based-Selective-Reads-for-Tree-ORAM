@@ -1,0 +1,18 @@
+{
+  "status": "visually_reviewed",
+  "pdf": "output/pdf/completed_public_workloads.pdf",
+  "pdf_sha256": "8bb21e669613ceab73d29830db70acc9ed48a2f0f232f89b1b25f238c92be99c",
+  "render": "tmp/pdfs/completed_public_workloads_review.png",
+  "render_sha256": "b8ba76b7c9f6ec07b1e719d561f18931462a5e35dded5f77b1e3551fbfa05a32",
+  "numerical_audit_sha256": "2038a488f325c14254e8e38c041cc52895cf8614b6aa7fbf61a681236b7ba63f",
+  "renderer": "Poppler pdftoppm, 140 dpi",
+  "pages_reviewed": 1,
+  "checks": [
+    "both frontend panels readable and use the same vertical scale",
+    "eight means and observed ranges are visible",
+    "whiskers explicitly mean min-max, not confidence intervals",
+    "trace adaptation and implementation limitations readable",
+    "no overlapping text or cropped content"
+  ],
+  "security_admission": false
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "r0",
+  "N": 32,
+  "B": 4096,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "R": 128,
+  "map_B": 512,
+  "terminal_bytes": 16,
+  "compact": true,
+  "fusion": true,
+  "warmup": 16,
+  "requests": 32,
+  "trace_seed": 654,
+  "oram_seed": 987,
+  "workload": "uniform",
+  "study": "bulk_check",
+  "experiment_class": "bulk_checks",
+  "id": "bulk_r0_control"
+}

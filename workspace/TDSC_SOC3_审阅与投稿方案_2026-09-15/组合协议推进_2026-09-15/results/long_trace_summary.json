@@ -1,0 +1,28 @@
+{
+  "scope": "one-seed warmup sensitivity check; not confidence intervals",
+  "rows": 8,
+  "summary": [
+    {
+      "family": "free_compressed",
+      "bytes_per_request": {
+        "Deferred": 19774.609375,
+        "SDE": 15592.638020833334,
+        "Ring43": 29249.75,
+        "R0-43": 21657.807291666668
+      },
+      "SDE_vs_Deferred_pct": 21.148186924257082,
+      "R0_vs_Ring43_pct": 25.955581529186855
+    },
+    {
+      "family": "rho",
+      "bytes_per_request": {
+        "Deferred": 30168.890625,
+        "SDE": 27999.583333333332,
+        "Ring43": 35111.833333333336,
+        "R0-43": 31156.567708333332
+      },
+      "SDE_vs_Deferred_pct": 7.190543791056847,
+      "R0_vs_Ring43_pct": 11.264765321282955
+    }
+  ]
+}

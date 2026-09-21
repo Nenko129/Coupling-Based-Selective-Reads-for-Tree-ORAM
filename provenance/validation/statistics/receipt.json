@@ -1,0 +1,40 @@
+{
+  "mode": "audit-results",
+  "integrity": {
+    "release_files": 8473,
+    "original_audit_files_checked": 231,
+    "declared_original_omissions": [
+      "receipts/relocated_evidence.zip",
+      "sources/baselines/path.pdf",
+      "sources/baselines/ring.pdf",
+      "sources/index.html",
+      "sources/README.md",
+      "sources/SDE_R0_\u5b8c\u6574\u6280\u672f\u62a5\u544a.pdf",
+      "sources/source_manifest.json"
+    ]
+  },
+  "status": "passed",
+  "tasks": [
+    {
+      "label": "audit_completed_core_components.py",
+      "returncode": 0,
+      "log": "audit_completed_core_components.py.log"
+    },
+    {
+      "label": "audit_completed_ablation.py",
+      "returncode": 0,
+      "log": "audit_completed_ablation.py.log"
+    },
+    {
+      "label": "audit_tuned_reference.py",
+      "returncode": 0,
+      "log": "audit_tuned_reference.py.log"
+    },
+    {
+      "label": "minimal-statistics",
+      "returncode": 0,
+      "log": "minimal-statistics.log"
+    }
+  ],
+  "elapsed_seconds": 20.686972618103027
+}

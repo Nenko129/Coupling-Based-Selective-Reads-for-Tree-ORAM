@@ -1,0 +1,15 @@
+{
+  "status": "evidence_consistent",
+  "source_receipts": {
+    "classical_execution_projection_checks.json": "b11fce3c21303f608db778652b86a3e5039d12c822fca8e04f47af0886d26a6c",
+    "classical_stash_execution_ledger.json": "463a63eb55d99c7bb3aac7d69740ac642590c4214496c5c817a11bfe6c12ad60",
+    "classical_stash_execution_ledger_audit.json": "135374574ed74373a69b21078d37b7a426bcb5391ad15f7ac9df701ca14d95bb",
+    "classical_active_failstop_checks.json": "abcc80c0e6f22345fd9de679bd346c307524fa9ae588eddfda07f40e889015bc",
+    "classical_minima_audit.json": "493df8f977497c492644e0b9934f83a0d1c12d755b3dfe00866222a11558b816"
+  },
+  "report_sha256": "608606d7a5274c82529084278050c418fdcfc8f59b71580050060680ac186503",
+  "builder_sha256": "3fe8a8341c614f6fa94050ff2b10347a24dcfc1069f9667897a513ce8b5dc3b0",
+  "plan_sha256": "63e75b9f7022d09d2c42e5d062b99294a53bc2d7e7776fec7150d23bb213cce3",
+  "full_security_admission": false,
+  "formal_supplementary_performance_completed": false
+}

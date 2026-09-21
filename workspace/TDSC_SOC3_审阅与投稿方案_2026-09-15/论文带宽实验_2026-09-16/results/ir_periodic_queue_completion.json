@@ -1,0 +1,306 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "id": "IRPER_depth_path_dwb0_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb0_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb0_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 53379.59765625
+    },
+    {
+      "id": "IRPER_depth_path_dwb1_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb1_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb1_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 53369.11328125
+    },
+    {
+      "id": "IRPER_depth_path_dwb0_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb0_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb0_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 53364.45703125
+    },
+    {
+      "id": "IRPER_depth_path_dwb1_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb1_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb1_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 53345.932291666664
+    },
+    {
+      "id": "IRPER_depth_path_dwb0_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb0_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb0_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 53348.118489583336
+    },
+    {
+      "id": "IRPER_depth_path_dwb1_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb1_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb1_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 53341.90625
+    },
+    {
+      "id": "IRPER_depth_path_dwb0_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb0_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb0_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 53382.977864583336
+    },
+    {
+      "id": "IRPER_depth_path_dwb1_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb1_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb1_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 53371.005208333336
+    },
+    {
+      "id": "IRPER_depth_path_dwb0_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb0_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb0_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 53358.12890625
+    },
+    {
+      "id": "IRPER_depth_path_dwb1_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb1_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb1_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 53367.411458333336
+    },
+    {
+      "id": "IRPER_depth_path_dwb0_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb0_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb0_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 53341.359375
+    },
+    {
+      "id": "IRPER_depth_path_dwb1_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb1_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb1_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 53369.483072916664
+    },
+    {
+      "id": "IRPER_depth_path_dwb0_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb0_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb0_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 53377.66015625
+    },
+    {
+      "id": "IRPER_depth_path_dwb1_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb1_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb1_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 53339.885416666664
+    },
+    {
+      "id": "IRPER_depth_path_dwb0_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb0_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb0_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 53373.4765625
+    },
+    {
+      "id": "IRPER_depth_path_dwb1_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb1_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb1_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 53395.6796875
+    },
+    {
+      "id": "IRPER_depth_path_dwb0_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb0_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb0_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 53386.8671875
+    },
+    {
+      "id": "IRPER_depth_path_dwb1_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb1_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb1_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 53364.227864583336
+    },
+    {
+      "id": "IRPER_depth_path_dwb0_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb0_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb0_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 53377.006510416664
+    },
+    {
+      "id": "IRPER_depth_path_dwb1_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 59136.0
+    },
+    {
+      "id": "IRPER_depth_deferred_dwb1_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 66048.0
+    },
+    {
+      "id": "IRPER_depth_sde_dwb1_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 53367.50390625
+    }
+  ],
+  "plan_sha256": "44d143fdde938c8b3149c5ff20f9a592df8ce58998d7af34d03f755b08236d61"
+}

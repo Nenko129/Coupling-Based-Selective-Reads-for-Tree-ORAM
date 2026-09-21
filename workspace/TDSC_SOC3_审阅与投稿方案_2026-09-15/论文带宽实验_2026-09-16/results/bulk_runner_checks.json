@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "process_checks": [
+    {
+      "kind": "sde",
+      "recursive": true,
+      "identical": true
+    },
+    {
+      "kind": "r0",
+      "recursive": true,
+      "identical": true
+    }
+  ],
+  "budget_cases": [
+    0,
+    1,
+    63,
+    64,
+    65
+  ],
+  "attacks": [
+    {
+      "kind": "sde",
+      "variant": "header",
+      "identical_failed_prefix": true
+    },
+    {
+      "kind": "sde",
+      "variant": "sequence",
+      "identical_failed_prefix": true
+    },
+    {
+      "kind": "sde",
+      "variant": "ack",
+      "identical_failed_prefix": true
+    },
+    {
+      "kind": "r0",
+      "variant": "header",
+      "identical_failed_prefix": true
+    },
+    {
+      "kind": "r0",
+      "variant": "sequence",
+      "identical_failed_prefix": true
+    },
+    {
+      "kind": "r0",
+      "variant": "ack",
+      "identical_failed_prefix": true
+    }
+  ],
+  "runner_sha256": "f7c34279977b73ca617ae58c336b6859b02a0a878acc6ed14958a98d57b6833e",
+  "bulk_sha256": "59f4eb01e09b70ec872a75cf19f8ea866929fa4135d079fec8caa426fdb15413",
+  "checker_sha256": "50fa6004cfae15c6888d5e5d841b541ee9b3215794c56e117fafcb9e0a330308"
+}

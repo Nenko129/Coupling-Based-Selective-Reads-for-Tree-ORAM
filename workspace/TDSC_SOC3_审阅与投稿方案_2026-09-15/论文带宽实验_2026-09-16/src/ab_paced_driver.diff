@@ -1,0 +1,50 @@
+--- run_ab_periodic.py
++++ run_ab_paced_periodic.py
+@@ -3,24 +3,30 @@
+ import argparse,dataclasses,time,traceback
+ from collections import Counter
+ import ab_cb_runtime as rt
+-from ab_geometry_frontend import GeometryStepwiseFront
++import ab_paced_frontend as bootstrap
++from ab_paced_frontend import PacedGeometryStepwiseFront as GeometryStepwiseFront
+ from ab_cb_controller import PressureController
+ from workloads import stored_trace,payload
+ from run_core import progress
+ from meter import server_storage
+ 
+ 
+-def identity():return dict(runtime=rt.identity(),driver=sha(__file__))
++def identity():return dict(runtime=rt.identity(),driver=sha(__file__),bootstrap_frontend=sha(bootstrap.__file__))
+ 
+ 
+ def run(s):
+     started=time.time();source=identity();proofpath=PACKAGE/'results/ab_cb_frontend_checks.json'
+     proof=json.loads(proofpath.read_text());assert proof['status']=='passed' and proof['source_hashes']==rt.identity()
+     rt.install(dict(seed=s['oram_seed'],R=s['R'],cached_levels=s['cached_levels'],Y=s['Y'],bottom_dummy=s['bottom_dummy']))
++    bootstrap.Backend=rt.Backend
++    assert s['initialization_stride']==s['profile'][1]
+     progress(s,'initializing')
+     f=GeometryStepwiseFront(s['kind'],N=s['N'],B=s['B'],X=s['X'],L=s['L'],plb=s['plb'],seed=s['oram_seed'],profile=s['profile'])
+     c=PressureController(f,sets=s['llc_sets'],ways=s['llc_ways'],high=s['pressure_high'],low=s['pressure_low']);b=f.backend
+     setup=b.io.snapshot();setup_peak=b.tree.max_boundary
++    assert b.tree.t==f.total*s['initialization_stride'] and b.tree.births==f.total
++    initialization=dict(stride=s['initialization_stride'],initial_clock=b.tree.t,admitted_records=b.tree.births,
++        schedule=b.tree.logical_calls.snapshot(),useful_schedule=b.tree.logical_calls.useful.snapshot())
+     period=s['period_slots'];assert period==b.c.A*(1<<b.c.L)
+     assert s['warmup']*s['slots_per_request']==period
+     assert s['requests']*s['slots_per_request']==4*period
+@@ -50,12 +56,12 @@
+             bills=[bill],total_bytes=bill['total_bytes'],rpc=bill['rpc'],frontend_metrics=metrics,
+             cb_metrics=dict(Counter(b.tree.cb_metrics)-before),boundary_stash_histogram=hist,
+             schedules=[b.tree.logical_calls.snapshot()],useful_schedule=b.tree.logical_calls.useful.snapshot())
+-        assert (f.total+start)%period==0 and (f.total+c.clock)%period==0
++        assert (init_t+start)%period==0 and (init_t+c.clock)%period==0
+         offset+=len(part);progress(s,phase,completed=W,total=W)
+     assert source==identity()
+     m=phases['measurement'];row=dict(status='passed',spec=s,source_hashes=source,frontend_proof_sha256=sha(proofpath),trace=trace,
+         configs=[dataclasses.asdict(b.c)],population_including_maps=f.total,leaf_load=f.total/(1<<b.c.L),
+-        setup=setup,setup_peak_boundary_stash=setup_peak,alignment=alignment,
++        setup=setup,setup_peak_boundary_stash=setup_peak,alignment=alignment,initialization=initialization,
+         periodic_extension=dict(period_slots=period,warmup_complete_periods=1,measurement_complete_periods=4,no_steady_state_claim=True),
+         phases=phases,bytes_per_request=m['total_bytes']/s['requests'],
+         bytes_per_public_slot=m['total_bytes']/m['public_slots'],rpc_per_request=m['rpc']/s['requests'],

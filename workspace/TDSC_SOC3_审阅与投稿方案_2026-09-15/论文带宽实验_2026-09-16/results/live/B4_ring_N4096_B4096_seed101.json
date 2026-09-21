@@ -1,0 +1,8 @@
+{
+  "id": "B4_ring_N4096_B4096_seed101",
+  "pid": 43048,
+  "stage": "passed",
+  "time": 1789532012.6151068,
+  "receipt": "results\\formal_slices\\B4_ring_N4096_B4096_seed101.json",
+  "elapsed_seconds": 129.02710342407227
+}

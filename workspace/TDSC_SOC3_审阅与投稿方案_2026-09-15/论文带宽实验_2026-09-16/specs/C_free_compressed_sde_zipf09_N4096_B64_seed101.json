@@ -1,0 +1,22 @@
+{
+  "id": "C_free_compressed_sde_zipf09_N4096_B64_seed101",
+  "family": "free_compressed",
+  "kind": "sde",
+  "N": 4096,
+  "B": 64,
+  "profile": [
+    4,
+    3,
+    4
+  ],
+  "plb": 8,
+  "llc": 32,
+  "rho": 128,
+  "R": 256,
+  "warmup": 2048,
+  "requests": 4096,
+  "trace_seed": 101,
+  "oram_seed": 1001,
+  "workload": "zipf09",
+  "experiment_class": "formal_composition"
+}

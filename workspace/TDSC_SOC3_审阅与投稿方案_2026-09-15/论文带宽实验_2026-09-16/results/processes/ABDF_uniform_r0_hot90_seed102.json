@@ -1,0 +1,46 @@
+{
+  "pid": 45204,
+  "parent_pid": 50656,
+  "command": [
+    "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_ab_dummy_first_periodic.py",
+    "--spec",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\ABDF_uniform_r0_hot90_seed102.json"
+  ],
+  "spec": {
+    "id": "ABDF_uniform_r0_hot90_seed102",
+    "kind": "r0",
+    "N": 4096,
+    "B": 64,
+    "L": 11,
+    "X": 16,
+    "plb": 8,
+    "llc_sets": 8,
+    "llc_ways": 2,
+    "profile": [
+      5,
+      5,
+      7
+    ],
+    "Y": 4,
+    "R": 500,
+    "cached_levels": 6,
+    "bottom_dummy": null,
+    "pressure_high": 48,
+    "pressure_low": 32,
+    "warmup": 640,
+    "requests": 2560,
+    "arrival_gap": 8,
+    "slots_per_request": 16,
+    "period_slots": 10240,
+    "trace_seed": 102,
+    "oram_seed": 5102,
+    "workload": "hot90",
+    "experiment_class": "ab_dummy_first_periodic",
+    "initialization_stride": 5
+  },
+  "started": 1789525930.5222228
+}

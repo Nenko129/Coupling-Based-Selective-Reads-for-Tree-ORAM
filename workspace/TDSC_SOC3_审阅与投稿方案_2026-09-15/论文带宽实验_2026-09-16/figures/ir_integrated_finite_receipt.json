@@ -1,0 +1,43 @@
+{
+  "status": "generated",
+  "source_sha256": "658987676d95a526bfc739d21439bfe3b115b009d0358222c28cc2b4ea49a258",
+  "generator_sha256": "8ebe234f7d53e1619d016d19522347aa98bf9e6f7d27bc32136fab24babe080e",
+  "outputs": [
+    {
+      "path": "figures\\ir_integrated_finite_gain.pdf",
+      "sha256": "c0e2907c5816ed77105043ca5f23ef78fb7972ab2c6ed4b01b592f493ed89cbc"
+    },
+    {
+      "path": "figures\\ir_integrated_finite_gain.svg",
+      "sha256": "71adaa49344ada28d4cf95aae15d4de8f92f48201817ddd15dff4ac501162edc"
+    },
+    {
+      "path": "figures\\ir_integrated_finite_gain.png",
+      "sha256": "19ef4dded42d4af44843ebbef7a929ad6594a6d49deead50acb0ad7fd54d7c4e"
+    },
+    {
+      "path": "figures\\ir_integrated_finite_breakdown.pdf",
+      "sha256": "899a960efa5c863e500ec30c8cedc7c932d2511d9077cd4cf9d2f3f4a51d9123"
+    },
+    {
+      "path": "figures\\ir_integrated_finite_breakdown.svg",
+      "sha256": "fd608d4c2a68d3ab7b9e788ba084a57ed230c41ecf921cd4007ab4f9c071f961"
+    },
+    {
+      "path": "figures\\ir_integrated_finite_breakdown.png",
+      "sha256": "dce28e81cd46622c269ef817b1814ae61cea330dea6d6b607b6dedb93d8e033e"
+    },
+    {
+      "path": "tables\\IR_DWB_120_runs.csv",
+      "sha256": "b60f32562caa96b44db864461a7ad6c68e9884ca946ea539d6c1fc418be1cdf8"
+    },
+    {
+      "path": "tables\\IR_DWB_40_comparisons.csv",
+      "sha256": "0906dc5cd41a3d911252358027664347897fe53163a11bc28d4d93898a187e1d"
+    }
+  ],
+  "completed_runs": 120,
+  "comparisons": 40,
+  "repeat_gate_triggered": false,
+  "visual_review_pending": true
+}

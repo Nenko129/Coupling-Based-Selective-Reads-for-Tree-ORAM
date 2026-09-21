@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "profile": "small_mixed",
+      "mode": "up",
+      "pointwise_joint_states_checked": 116,
+      "exact_cap_exit_probability_and_moment": true,
+      "stoploss_all_thresholds": true
+    },
+    {
+      "profile": "small_mixed",
+      "mode": "next",
+      "pointwise_joint_states_checked": 116,
+      "exact_cap_exit_probability_and_moment": true,
+      "stoploss_all_thresholds": true
+    },
+    {
+      "profile": "small_uniform7",
+      "mode": "up",
+      "pointwise_joint_states_checked": 37,
+      "exact_cap_exit_probability_and_moment": true,
+      "stoploss_all_thresholds": true
+    },
+    {
+      "profile": "small_uniform7",
+      "mode": "next",
+      "pointwise_joint_states_checked": 37,
+      "exact_cap_exit_probability_and_moment": true,
+      "stoploss_all_thresholds": true
+    },
+    {
+      "profile": "small_uniform4",
+      "mode": "up",
+      "pointwise_joint_states_checked": 110,
+      "exact_cap_exit_probability_and_moment": true,
+      "stoploss_all_thresholds": true
+    },
+    {
+      "profile": "small_uniform4",
+      "mode": "next",
+      "pointwise_joint_states_checked": 110,
+      "exact_cap_exit_probability_and_moment": true,
+      "stoploss_all_thresholds": true
+    }
+  ],
+  "kernel_sha256": "ca3959eefab2e38e836cca71677bdfedeedbd6f5d10b3b9b8258897d6acc6f26",
+  "binary_sha256": "bc4b58e100d39557f226c405188f1a61c69a8063501e5ed753202dcf879b65d9",
+  "checker_sha256": "1f8a5898085718bc07a437be1768016a3eb08b483607a6c12c4e8a6990dc5799",
+  "scope": "finite cap6/height3/M8 exact polynomial checks; not the practical-height certificate or protocol reduction"
+}

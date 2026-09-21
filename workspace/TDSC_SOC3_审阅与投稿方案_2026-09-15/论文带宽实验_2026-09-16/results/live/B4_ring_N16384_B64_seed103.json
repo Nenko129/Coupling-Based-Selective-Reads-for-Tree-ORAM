@@ -1,0 +1,8 @@
+{
+  "id": "B4_ring_N16384_B64_seed103",
+  "pid": 5136,
+  "stage": "passed",
+  "time": 1789536322.907565,
+  "receipt": "results\\formal_slices\\B4_ring_N16384_B64_seed103.json",
+  "elapsed_seconds": 207.74091863632202
+}

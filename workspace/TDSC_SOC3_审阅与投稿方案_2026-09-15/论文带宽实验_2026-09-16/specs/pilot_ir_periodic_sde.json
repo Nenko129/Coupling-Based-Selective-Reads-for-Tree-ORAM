@@ -1,0 +1,37 @@
+{
+  "id": "pilot_ir_periodic_sde",
+  "kind": "sde",
+  "N": 64,
+  "B": 64,
+  "X": 8,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "R": 480,
+  "cached_levels": 2,
+  "Z_by_depth": [
+    4,
+    4,
+    2,
+    2,
+    3,
+    4,
+    4
+  ],
+  "plb": 3,
+  "llc_sets": 8,
+  "llc_ways": 2,
+  "layout": "depth",
+  "dwb": true,
+  "warmup": 24,
+  "requests": 96,
+  "arrival_gap": 8,
+  "slots_per_request": 8,
+  "trace_seed": 977,
+  "oram_seed": 1977,
+  "workload": "uniform",
+  "experiment_class": "pilot_ir_periodic",
+  "period_slots": 192
+}

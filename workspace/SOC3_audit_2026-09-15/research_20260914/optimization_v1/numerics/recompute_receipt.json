@@ -1,0 +1,32 @@
+{
+  "source_and_outputs_sha256": {
+    "ghost_z7a6.cpp": "2993b49ac938036882980884f5dc9dd85d9fb6ff8b5aedfe3bbd980530f817ab",
+    "poisson_seed.h": "770afab0edf1f988950ab4874735a59efa395f539c2d1022a41cdd3d544124b4",
+    "poisson_seed.json": "e8f207a312fa2253cc356dddb1dd7087cd9601edbbdd8722b0a8d6b14dd80ef5",
+    "ghost_z7a6": "c9ffbf82134850a42c51c62035afb75a979fb8aa2259e93b5d7611535660f92f",
+    "validate_new_scalar.py": "92de2c58970fb6aeb0c13ef55711afd3d509f4fcd27fd6984cb0c2220c48371e",
+    "validation_results.json": "d61df36e0c5999edce20cbdc06d7154924b0ba43a05810b6b92594da3c68f8c7",
+    "z7a6_up_c280_h24.csv": "a2751c07f198a2d3d39cc83a591a683595e700243e8f1b64f748f40cf938d93e",
+    "z7a6_up_c280_h24_meta.json": "2cb0c26a19afefb09cd87e6e358d385e835be762bb5c82da155309ca5dd9dacf",
+    "z7a6_up_c280_h24_levels.csv": "03622b5d4826f9d97afc783bce7b0826142819d96e2784cdbe6f686fc92240da",
+    "z7a6_next_c280_h24.csv": "b8a66414b949206d051e208477ca813ddcc77d416b12dafd04b02a7e4da8af0f",
+    "z7a6_next_c280_h24_meta.json": "c96ed9800bcb498d8695975663945a7250df14e93fdd07f1335b3cb84625a577",
+    "z7a6_next_c280_h24_levels.csv": "5b3f27a8ccefbd13c6ea863dd13de4a99d094e2283583d8195007efecd075143"
+  },
+  "compiler_flags": [
+    "-std=c++17",
+    "-O3",
+    "-fopenmp",
+    "-frounding-math",
+    "-ffp-contract=off",
+    "-fno-fast-math"
+  ],
+  "python": "3.12.3",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "fresh_full_recomputation": true,
+  "arithmetic_modes": [
+    "FE_UPWARD",
+    "nearest_plus_NextUp"
+  ],
+  "points_per_mode": 6744
+}

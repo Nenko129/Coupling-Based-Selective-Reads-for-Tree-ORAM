@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "mode": "up",
+      "pointwise_states": 110,
+      "joint_sha256": "179ecc4f2b360849e35311c05d2daae781af42238dbd5be641566e2ae6a39844"
+    },
+    {
+      "mode": "next",
+      "pointwise_states": 110,
+      "joint_sha256": "6ca0a617460fc20163db60d2eba63eccc1ac6be3928f49109eb386a2071db0b9"
+    }
+  ],
+  "profile_sha256": "93405b46b2f8628bc9053001a745c3c7765908d078bb56599bd4c7e7d6ca8392",
+  "kernel_sha256": "ca3959eefab2e38e836cca71677bdfedeedbd6f5d10b3b9b8258897d6acc6f26",
+  "binary_sha256": "bc4b58e100d39557f226c405188f1a61c69a8063501e5ed753202dcf879b65d9",
+  "checker_sha256": "83c8166bf46d8452a63a64c61121447418a03471557b5f16e5468f956acf5d8b"
+}

@@ -1,0 +1,3264 @@
+{
+  "items": [
+    {
+      "spec": {
+        "id": "B4_path_N4096_B4096_seed101",
+        "kind": "path",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N4096_B4096_seed101",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N4096_B4096_seed101",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N4096_B4096_seed101",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N4096_B4096_seed101",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N4096_B4096_seed102",
+        "kind": "path",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N4096_B4096_seed102",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N4096_B4096_seed102",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N4096_B4096_seed102",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N4096_B4096_seed102",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N4096_B4096_seed103",
+        "kind": "path",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N4096_B4096_seed103",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N4096_B4096_seed103",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N4096_B4096_seed103",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N4096_B4096_seed103",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N4096_B4096_seed104",
+        "kind": "path",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N4096_B4096_seed104",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N4096_B4096_seed104",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N4096_B4096_seed104",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N4096_B4096_seed104",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N4096_B4096_seed105",
+        "kind": "path",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N4096_B4096_seed105",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N4096_B4096_seed105",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N4096_B4096_seed105",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N4096_B4096_seed105",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B64_seed101",
+        "kind": "path",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B64_seed101",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B64_seed101",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B64_seed101",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B64_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B64_seed102",
+        "kind": "path",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B64_seed102",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B64_seed102",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B64_seed102",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B64_seed102",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B64_seed103",
+        "kind": "path",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B64_seed103",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B64_seed103",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B64_seed103",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B64_seed103",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B64_seed104",
+        "kind": "path",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B64_seed104",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B64_seed104",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B64_seed104",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B64_seed104",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B64_seed105",
+        "kind": "path",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B64_seed105",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B64_seed105",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B64_seed105",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B64_seed105",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B256_seed101",
+        "kind": "path",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B256_seed101",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B256_seed101",
+        "kind": "sde",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B256_seed101",
+        "kind": "ring",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B256_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B256_seed102",
+        "kind": "path",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B256_seed102",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B256_seed102",
+        "kind": "sde",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B256_seed102",
+        "kind": "ring",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B256_seed102",
+        "kind": "r0",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B256_seed103",
+        "kind": "path",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B256_seed103",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B256_seed103",
+        "kind": "sde",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B256_seed103",
+        "kind": "ring",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B256_seed103",
+        "kind": "r0",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B256_seed104",
+        "kind": "path",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B256_seed104",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B256_seed104",
+        "kind": "sde",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B256_seed104",
+        "kind": "ring",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B256_seed104",
+        "kind": "r0",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B256_seed105",
+        "kind": "path",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B256_seed105",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B256_seed105",
+        "kind": "sde",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B256_seed105",
+        "kind": "ring",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B256_seed105",
+        "kind": "r0",
+        "N": 16384,
+        "B": 256,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B1024_seed101",
+        "kind": "path",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B1024_seed101",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B1024_seed101",
+        "kind": "sde",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B1024_seed101",
+        "kind": "ring",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B1024_seed101",
+        "kind": "r0",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B1024_seed102",
+        "kind": "path",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B1024_seed102",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B1024_seed102",
+        "kind": "sde",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B1024_seed102",
+        "kind": "ring",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B1024_seed102",
+        "kind": "r0",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B1024_seed103",
+        "kind": "path",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B1024_seed103",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B1024_seed103",
+        "kind": "sde",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B1024_seed103",
+        "kind": "ring",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B1024_seed103",
+        "kind": "r0",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B1024_seed104",
+        "kind": "path",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B1024_seed104",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B1024_seed104",
+        "kind": "sde",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B1024_seed104",
+        "kind": "ring",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B1024_seed104",
+        "kind": "r0",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N16384_B1024_seed105",
+        "kind": "path",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N16384_B1024_seed105",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N16384_B1024_seed105",
+        "kind": "sde",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N16384_B1024_seed105",
+        "kind": "ring",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N16384_B1024_seed105",
+        "kind": "r0",
+        "N": 16384,
+        "B": 1024,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N65536_B4096_seed101",
+        "kind": "path",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N65536_B4096_seed101",
+        "kind": "deferred",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N65536_B4096_seed101",
+        "kind": "sde",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N65536_B4096_seed101",
+        "kind": "ring",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N65536_B4096_seed101",
+        "kind": "r0",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N65536_B4096_seed102",
+        "kind": "path",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N65536_B4096_seed102",
+        "kind": "deferred",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N65536_B4096_seed102",
+        "kind": "sde",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N65536_B4096_seed102",
+        "kind": "ring",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N65536_B4096_seed102",
+        "kind": "r0",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N65536_B4096_seed103",
+        "kind": "path",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N65536_B4096_seed103",
+        "kind": "deferred",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N65536_B4096_seed103",
+        "kind": "sde",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N65536_B4096_seed103",
+        "kind": "ring",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N65536_B4096_seed103",
+        "kind": "r0",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N65536_B4096_seed104",
+        "kind": "path",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N65536_B4096_seed104",
+        "kind": "deferred",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N65536_B4096_seed104",
+        "kind": "sde",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N65536_B4096_seed104",
+        "kind": "ring",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N65536_B4096_seed104",
+        "kind": "r0",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_path_N65536_B4096_seed105",
+        "kind": "path",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_deferred_N65536_B4096_seed105",
+        "kind": "deferred",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_sde_N65536_B4096_seed105",
+        "kind": "sde",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_ring_N65536_B4096_seed105",
+        "kind": "ring",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    },
+    {
+      "spec": {
+        "id": "B4_r0_N65536_B4096_seed105",
+        "kind": "r0",
+        "N": 65536,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          3
+        ],
+        "map_B": 512,
+        "terminal_bytes": 32768,
+        "compact": true,
+        "fusion": true,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "size_slice",
+        "experiment_class": "formal_slices"
+      },
+      "entry": "core"
+    }
+  ],
+  "source_plan_hashes": {
+    "formal_slices_plan.json": "de947fa54201a280224bd33b00827380990f4ad2125cf076bea693987b715d59"
+  },
+  "dependencies": [
+    {
+      "pid": 47116,
+      "completion": "results/formal_tuned_queue_completion.json"
+    }
+  ],
+  "workers": 1
+}

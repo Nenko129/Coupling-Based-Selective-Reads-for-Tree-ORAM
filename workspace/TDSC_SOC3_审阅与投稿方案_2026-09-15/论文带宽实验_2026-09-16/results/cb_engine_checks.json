@@ -1,0 +1,509 @@
+{
+  "status": "passed",
+  "runtime_identity": {
+    "cb_oram.py": "5e56b74c3ccb90f0838c360982f5bb58f170ddc49095beb77bd9a1afb9c8a5a0",
+    "cb_transfer.py": "d6a5777adbdfa7f636b72702d02ad9b2ff5da69bc96b92e20273e4741856ca4d",
+    "cb_fusion.py": "e51db2104fd652099e10cb2fdfda206b2fedf61c089cc58f8a15bb0beb8b6a8c",
+    "cached_transport.py": "25c88f7ca32ab5d394acd019348c32de268ecd2133b560625f3cc9dd370174c3",
+    "fast_prf.py": "910f2a4deb1ece922c2ab51d6031d1a966e604e9a2101d90e619f0c4cc7b4d84",
+    "heterogeneous_oram.py": "6d312f8674efc788314f2ab5612a90979b50213ca79f601a777ef00a2dfb8fd5"
+  },
+  "cases": [
+    {
+      "kind": "ring",
+      "C": 5,
+      "S": 3,
+      "Y": 0,
+      "physical_dummy": 3,
+      "cut": 0,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 3464704,
+      "metrics": {
+        "green_promotions": 0,
+        "neutral_rebuilds": 443,
+        "maintenance_cover_slots": 4315,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 4
+    },
+    {
+      "kind": "ring",
+      "C": 5,
+      "S": 3,
+      "Y": 0,
+      "physical_dummy": 3,
+      "cut": 2,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 2529728,
+      "metrics": {
+        "green_promotions": 0,
+        "neutral_rebuilds": 443,
+        "maintenance_cover_slots": 4315,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 4
+    },
+    {
+      "kind": "ring",
+      "C": 5,
+      "S": 7,
+      "Y": 4,
+      "physical_dummy": 3,
+      "cut": 0,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 2940640,
+      "metrics": {
+        "green_promotions": 359,
+        "neutral_rebuilds": 67,
+        "maintenance_cover_slots": 1664,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 17
+    },
+    {
+      "kind": "ring",
+      "C": 5,
+      "S": 7,
+      "Y": 4,
+      "physical_dummy": 3,
+      "cut": 2,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 2154016,
+      "metrics": {
+        "green_promotions": 359,
+        "neutral_rebuilds": 67,
+        "maintenance_cover_slots": 1664,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 17
+    },
+    {
+      "kind": "ring",
+      "C": 5,
+      "S": 5,
+      "Y": 5,
+      "physical_dummy": 0,
+      "cut": 0,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 2648640,
+      "metrics": {
+        "green_promotions": 611,
+        "neutral_rebuilds": 141,
+        "maintenance_cover_slots": 792,
+        "zero_cover_buckets": 278
+      },
+      "max_boundary": 26
+    },
+    {
+      "kind": "ring",
+      "C": 5,
+      "S": 5,
+      "Y": 5,
+      "physical_dummy": 0,
+      "cut": 2,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 1951016,
+      "metrics": {
+        "green_promotions": 611,
+        "neutral_rebuilds": 141,
+        "maintenance_cover_slots": 792,
+        "zero_cover_buckets": 278
+      },
+      "max_boundary": 26
+    },
+    {
+      "kind": "ring",
+      "C": 5,
+      "S": 7,
+      "Y": 4,
+      "physical_dummy": 3,
+      "cut": 0,
+      "S_by_depth": [
+        7,
+        7,
+        7,
+        7,
+        4,
+        4,
+        4
+      ],
+      "checked_transfers": 240,
+      "bytes": 2879824,
+      "metrics": {
+        "green_promotions": 384,
+        "neutral_rebuilds": 135,
+        "maintenance_cover_slots": 1461,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 19
+    },
+    {
+      "kind": "ring",
+      "C": 5,
+      "S": 7,
+      "Y": 4,
+      "physical_dummy": 3,
+      "cut": 2,
+      "S_by_depth": [
+        7,
+        7,
+        7,
+        7,
+        4,
+        4,
+        4
+      ],
+      "checked_transfers": 240,
+      "bytes": 2093776,
+      "metrics": {
+        "green_promotions": 384,
+        "neutral_rebuilds": 135,
+        "maintenance_cover_slots": 1461,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 19
+    },
+    {
+      "kind": "gc_ring",
+      "C": 5,
+      "S": 3,
+      "Y": 0,
+      "physical_dummy": 3,
+      "cut": 0,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 2602880,
+      "metrics": {
+        "green_promotions": 0,
+        "neutral_rebuilds": 200,
+        "maintenance_cover_slots": 3100,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 4
+    },
+    {
+      "kind": "gc_ring",
+      "C": 5,
+      "S": 3,
+      "Y": 0,
+      "physical_dummy": 3,
+      "cut": 2,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 1961264,
+      "metrics": {
+        "green_promotions": 0,
+        "neutral_rebuilds": 200,
+        "maintenance_cover_slots": 3100,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 4
+    },
+    {
+      "kind": "gc_ring",
+      "C": 5,
+      "S": 7,
+      "Y": 4,
+      "physical_dummy": 3,
+      "cut": 0,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 2392496,
+      "metrics": {
+        "green_promotions": 161,
+        "neutral_rebuilds": 44,
+        "maintenance_cover_slots": 2028,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 10
+    },
+    {
+      "kind": "gc_ring",
+      "C": 5,
+      "S": 7,
+      "Y": 4,
+      "physical_dummy": 3,
+      "cut": 2,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 1793552,
+      "metrics": {
+        "green_promotions": 161,
+        "neutral_rebuilds": 44,
+        "maintenance_cover_slots": 2028,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 10
+    },
+    {
+      "kind": "gc_ring",
+      "C": 5,
+      "S": 5,
+      "Y": 5,
+      "physical_dummy": 0,
+      "cut": 0,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 2104304,
+      "metrics": {
+        "green_promotions": 276,
+        "neutral_rebuilds": 64,
+        "maintenance_cover_slots": 1166,
+        "zero_cover_buckets": 92
+      },
+      "max_boundary": 14
+    },
+    {
+      "kind": "gc_ring",
+      "C": 5,
+      "S": 5,
+      "Y": 5,
+      "physical_dummy": 0,
+      "cut": 2,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 1587704,
+      "metrics": {
+        "green_promotions": 276,
+        "neutral_rebuilds": 64,
+        "maintenance_cover_slots": 1166,
+        "zero_cover_buckets": 92
+      },
+      "max_boundary": 14
+    },
+    {
+      "kind": "gc_ring",
+      "C": 5,
+      "S": 7,
+      "Y": 4,
+      "physical_dummy": 3,
+      "cut": 0,
+      "S_by_depth": [
+        7,
+        7,
+        7,
+        7,
+        4,
+        4,
+        4
+      ],
+      "checked_transfers": 240,
+      "bytes": 2299008,
+      "metrics": {
+        "green_promotions": 170,
+        "neutral_rebuilds": 77,
+        "maintenance_cover_slots": 1744,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 11
+    },
+    {
+      "kind": "gc_ring",
+      "C": 5,
+      "S": 7,
+      "Y": 4,
+      "physical_dummy": 3,
+      "cut": 2,
+      "S_by_depth": [
+        7,
+        7,
+        7,
+        7,
+        4,
+        4,
+        4
+      ],
+      "checked_transfers": 240,
+      "bytes": 1700000,
+      "metrics": {
+        "green_promotions": 170,
+        "neutral_rebuilds": 77,
+        "maintenance_cover_slots": 1744,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 11
+    },
+    {
+      "kind": "r0",
+      "C": 5,
+      "S": 3,
+      "Y": 0,
+      "physical_dummy": 3,
+      "cut": 0,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 2320816,
+      "metrics": {
+        "green_promotions": 0,
+        "neutral_rebuilds": 183,
+        "maintenance_cover_slots": 2715,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 9
+    },
+    {
+      "kind": "r0",
+      "C": 5,
+      "S": 3,
+      "Y": 0,
+      "physical_dummy": 3,
+      "cut": 2,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 1961264,
+      "metrics": {
+        "green_promotions": 0,
+        "neutral_rebuilds": 183,
+        "maintenance_cover_slots": 2715,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 9
+    },
+    {
+      "kind": "r0",
+      "C": 5,
+      "S": 7,
+      "Y": 4,
+      "physical_dummy": 3,
+      "cut": 0,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 2131920,
+      "metrics": {
+        "green_promotions": 105,
+        "neutral_rebuilds": 44,
+        "maintenance_cover_slots": 1752,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 14
+    },
+    {
+      "kind": "r0",
+      "C": 5,
+      "S": 7,
+      "Y": 4,
+      "physical_dummy": 3,
+      "cut": 2,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 1794576,
+      "metrics": {
+        "green_promotions": 105,
+        "neutral_rebuilds": 44,
+        "maintenance_cover_slots": 1752,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 14
+    },
+    {
+      "kind": "r0",
+      "C": 5,
+      "S": 5,
+      "Y": 5,
+      "physical_dummy": 0,
+      "cut": 0,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 1881184,
+      "metrics": {
+        "green_promotions": 195,
+        "neutral_rebuilds": 64,
+        "maintenance_cover_slots": 1022,
+        "zero_cover_buckets": 84
+      },
+      "max_boundary": 18
+    },
+    {
+      "kind": "r0",
+      "C": 5,
+      "S": 5,
+      "Y": 5,
+      "physical_dummy": 0,
+      "cut": 2,
+      "S_by_depth": [],
+      "checked_transfers": 240,
+      "bytes": 1587256,
+      "metrics": {
+        "green_promotions": 195,
+        "neutral_rebuilds": 64,
+        "maintenance_cover_slots": 1022,
+        "zero_cover_buckets": 84
+      },
+      "max_boundary": 18
+    },
+    {
+      "kind": "r0",
+      "C": 5,
+      "S": 7,
+      "Y": 4,
+      "physical_dummy": 3,
+      "cut": 0,
+      "S_by_depth": [
+        7,
+        7,
+        7,
+        7,
+        4,
+        4,
+        4
+      ],
+      "checked_transfers": 240,
+      "bytes": 2036576,
+      "metrics": {
+        "green_promotions": 117,
+        "neutral_rebuilds": 77,
+        "maintenance_cover_slots": 1468,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 15
+    },
+    {
+      "kind": "r0",
+      "C": 5,
+      "S": 7,
+      "Y": 4,
+      "physical_dummy": 3,
+      "cut": 2,
+      "S_by_depth": [
+        7,
+        7,
+        7,
+        7,
+        4,
+        4,
+        4
+      ],
+      "checked_transfers": 240,
+      "bytes": 1699104,
+      "metrics": {
+        "green_promotions": 117,
+        "neutral_rebuilds": 77,
+        "maintenance_cover_slots": 1468,
+        "zero_cover_buckets": 0
+      },
+      "max_boundary": 15
+    }
+  ],
+  "active_rejections": [
+    2,
+    3,
+    4
+  ],
+  "local_exact": {
+    "cases": 2658,
+    "zero_cover_cases": 80,
+    "max_distinct_cover_sets": 56,
+    "statement": "single-step ideal-uniform slot and cover marginals under an exchangeable hidden layout, not an adaptive global simulator"
+  },
+  "checker_sha256": "efcd251c60ab835f14dfb8e8454473e0cd7741df39a86769526a47cc07a5046a",
+  "full_native_AB": false,
+  "capacity_certificate": false,
+  "background_eviction_policy_implemented": false,
+  "deadq_implemented": false
+}

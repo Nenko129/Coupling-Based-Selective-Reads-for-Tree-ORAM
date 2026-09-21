@@ -1,0 +1,6183 @@
+{
+  "items": [
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_deferred_seed101",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_sde_seed101",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_ring_seed101",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_r0_seed101",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_deferred_seed102",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_sde_seed102",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_ring_seed102",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_r0_seed102",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_deferred_seed103",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_sde_seed103",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_ring_seed103",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_r0_seed103",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_deferred_seed104",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_sde_seed104",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_ring_seed104",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_r0_seed104",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_deferred_seed105",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_sde_seed105",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_ring_seed105",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb4_r0_seed105",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 4,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb4",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_deferred_seed101",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_sde_seed101",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_ring_seed101",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_r0_seed101",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_deferred_seed102",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_sde_seed102",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_ring_seed102",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_r0_seed102",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_deferred_seed103",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_sde_seed103",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_ring_seed103",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_r0_seed103",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_deferred_seed104",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_sde_seed104",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_ring_seed104",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_r0_seed104",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_deferred_seed105",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_sde_seed105",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_ring_seed105",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_plb32_r0_seed105",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 32,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "plb32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_deferred_seed101",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_sde_seed101",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_ring_seed101",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_r0_seed101",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_deferred_seed102",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_sde_seed102",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_ring_seed102",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_r0_seed102",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_deferred_seed103",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_sde_seed103",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_ring_seed103",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_r0_seed103",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_deferred_seed104",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_sde_seed104",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_ring_seed104",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_r0_seed104",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_deferred_seed105",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_sde_seed105",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_ring_seed105",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_beta4_r0_seed105",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "beta4",
+        "experiment_class": "formal_frontend_sensitivity",
+        "beta": 4,
+        "X": 32
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_deferred_seed101",
+        "family": "free_raw",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_sde_seed101",
+        "family": "free_raw",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_ring_seed101",
+        "family": "free_raw",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_r0_seed101",
+        "family": "free_raw",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_deferred_seed102",
+        "family": "free_raw",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_sde_seed102",
+        "family": "free_raw",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_ring_seed102",
+        "family": "free_raw",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_r0_seed102",
+        "family": "free_raw",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_deferred_seed103",
+        "family": "free_raw",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_sde_seed103",
+        "family": "free_raw",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_ring_seed103",
+        "family": "free_raw",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_r0_seed103",
+        "family": "free_raw",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_deferred_seed104",
+        "family": "free_raw",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_sde_seed104",
+        "family": "free_raw",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_ring_seed104",
+        "family": "free_raw",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_r0_seed104",
+        "family": "free_raw",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_deferred_seed105",
+        "family": "free_raw",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_sde_seed105",
+        "family": "free_raw",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_ring_seed105",
+        "family": "free_raw",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_raw_B4096_r0_seed105",
+        "family": "free_raw",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 1024
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_deferred_seed101",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_sde_seed101",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_ring_seed101",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_r0_seed101",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_deferred_seed102",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_sde_seed102",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_ring_seed102",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_r0_seed102",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_deferred_seed103",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_sde_seed103",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_ring_seed103",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_r0_seed103",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_deferred_seed104",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_sde_seed104",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_ring_seed104",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_r0_seed104",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_deferred_seed105",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_sde_seed105",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_ring_seed105",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_free_compressed_B4096_r0_seed105",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 4096,
+        "B": 4096,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "B4096",
+        "experiment_class": "formal_frontend_sensitivity",
+        "X": 2048
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_deferred_seed101",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_sde_seed101",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_ring_seed101",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_r0_seed101",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_deferred_seed102",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_sde_seed102",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_ring_seed102",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_r0_seed102",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_deferred_seed103",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_sde_seed103",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_ring_seed103",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_r0_seed103",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_deferred_seed104",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_sde_seed104",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_ring_seed104",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_r0_seed104",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_deferred_seed105",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_sde_seed105",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_ring_seed105",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc8_r0_seed105",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 8,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc8",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_deferred_seed101",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_sde_seed101",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_ring_seed101",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_r0_seed101",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_deferred_seed102",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_sde_seed102",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_ring_seed102",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_r0_seed102",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_deferred_seed103",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_sde_seed103",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_ring_seed103",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_r0_seed103",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_deferred_seed104",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_sde_seed104",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_ring_seed104",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_r0_seed104",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_deferred_seed105",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_sde_seed105",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_ring_seed105",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_llc128_r0_seed105",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 128,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "study": "frontend_sensitivity",
+        "condition": "llc128",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_deferred_seed101",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_sde_seed101",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_ring_seed101",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_r0_seed101",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_deferred_seed102",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_sde_seed102",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_ring_seed102",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_r0_seed102",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_deferred_seed103",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_sde_seed103",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_ring_seed103",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_r0_seed103",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_deferred_seed104",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_sde_seed104",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_ring_seed104",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_r0_seed104",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_deferred_seed105",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_sde_seed105",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_ring_seed105",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho32_r0_seed105",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 32,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho32",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_deferred_seed101",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_sde_seed101",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_ring_seed101",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_r0_seed101",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_deferred_seed102",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_sde_seed102",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_ring_seed102",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_r0_seed102",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_deferred_seed103",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_sde_seed103",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_ring_seed103",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_r0_seed103",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_deferred_seed104",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_sde_seed104",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_ring_seed104",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_r0_seed104",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_deferred_seed105",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_sde_seed105",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_ring_seed105",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_rho512_r0_seed105",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 512,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "zipf09",
+        "study": "frontend_sensitivity",
+        "condition": "rho512",
+        "experiment_class": "formal_frontend_sensitivity"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_deferred_seed101",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_sde_seed101",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_ring_seed101",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_r0_seed101",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_deferred_seed102",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_sde_seed102",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_ring_seed102",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_r0_seed102",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_deferred_seed103",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_sde_seed103",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_ring_seed103",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_r0_seed103",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_deferred_seed104",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_sde_seed104",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_ring_seed104",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_r0_seed104",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_deferred_seed105",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_sde_seed105",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_ring_seed105",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio1_r0_seed105",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio1",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 1
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_deferred_seed101",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_sde_seed101",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_ring_seed101",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_r0_seed101",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_deferred_seed102",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_sde_seed102",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_ring_seed102",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_r0_seed102",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_deferred_seed103",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_sde_seed103",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_ring_seed103",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_r0_seed103",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_deferred_seed104",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_sde_seed104",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_ring_seed104",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_r0_seed104",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_deferred_seed105",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_sde_seed105",
+        "family": "rho",
+        "kind": "sde",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_ring_seed105",
+        "family": "rho",
+        "kind": "ring",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "SENS_rho_ratio5_r0_seed105",
+        "family": "rho",
+        "kind": "r0",
+        "N": 4096,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "study": "frontend_sensitivity",
+        "condition": "ratio5",
+        "experiment_class": "formal_frontend_sensitivity",
+        "frame_ratio": 5
+      },
+      "entry": "composition"
+    }
+  ],
+  "conditions": [
+    {
+      "family": "free_compressed",
+      "workload": "hot90",
+      "B": 64,
+      "changes": {
+        "plb": 4
+      },
+      "label": "plb4"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "hot90",
+      "B": 64,
+      "changes": {
+        "plb": 32
+      },
+      "label": "plb32"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "hot90",
+      "B": 64,
+      "changes": {
+        "beta": 4,
+        "X": 32
+      },
+      "label": "beta4"
+    },
+    {
+      "family": "free_raw",
+      "workload": "uniform",
+      "B": 4096,
+      "changes": {
+        "X": 1024
+      },
+      "label": "B4096"
+    },
+    {
+      "family": "free_compressed",
+      "workload": "uniform",
+      "B": 4096,
+      "changes": {
+        "X": 2048
+      },
+      "label": "B4096"
+    },
+    {
+      "family": "rho",
+      "workload": "hot90",
+      "B": 64,
+      "changes": {
+        "llc": 8
+      },
+      "label": "llc8"
+    },
+    {
+      "family": "rho",
+      "workload": "hot90",
+      "B": 64,
+      "changes": {
+        "llc": 128
+      },
+      "label": "llc128"
+    },
+    {
+      "family": "rho",
+      "workload": "zipf09",
+      "B": 64,
+      "changes": {
+        "rho": 32
+      },
+      "label": "rho32"
+    },
+    {
+      "family": "rho",
+      "workload": "zipf09",
+      "B": 64,
+      "changes": {
+        "rho": 512
+      },
+      "label": "rho512"
+    },
+    {
+      "family": "rho",
+      "workload": "uniform",
+      "B": 64,
+      "changes": {
+        "frame_ratio": 1
+      },
+      "label": "ratio1"
+    },
+    {
+      "family": "rho",
+      "workload": "uniform",
+      "B": 64,
+      "changes": {
+        "frame_ratio": 5
+      },
+      "label": "ratio5"
+    }
+  ],
+  "design": "11 one-factor configurations; default controls reused from completed formal_composition/formal_rho_fixed, no Cartesian product",
+  "block_packing": "B4096 raw X1024 versus compressed X2048, beta14; B64 keeps X16/X32",
+  "source_hashes": {
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+    "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+    "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+  }
+}

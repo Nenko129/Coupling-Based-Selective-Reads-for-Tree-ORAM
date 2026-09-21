@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "rejected": [
+    "answer_digest",
+    "wrong_source",
+    "wrong_controller_proof",
+    "unchecked_requests",
+    "wrong_population",
+    "false_security_closure",
+    "unearned_latency_claim",
+    "rpc_sequence_gap",
+    "time_horizon",
+    "schedule_slot_count",
+    "dummy_under_count",
+    "foreground_under_count",
+    "unfinished_request",
+    "storage_excludes_bucket",
+    "wrong_cache_budget",
+    "component_shift_with_total_unchanged",
+    "pair_seed",
+    "pair_schedule",
+    "pair_dirty_endpoint",
+    "invented_dwb_byte_saving_on_full_paths"
+  ],
+  "valid_backend_pair": true,
+  "valid_dwb_pair_with_different_work": true,
+  "partial_no_ci": true,
+  "analyzer_sha256": "8b030fb6b11981251860fad5dfd5ff8602aa24dd7f035c1b8e6fa875277d71d5",
+  "checker_sha256": "a1992bcdcd6462b600856a9b3eb14dfa59461fa884e3e91a9a2a999e0dc621a1"
+}

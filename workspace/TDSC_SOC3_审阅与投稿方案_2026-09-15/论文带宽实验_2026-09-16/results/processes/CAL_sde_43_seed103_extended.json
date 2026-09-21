@@ -1,0 +1,38 @@
+{
+  "pid": 46684,
+  "parent_pid": 15408,
+  "command": [
+    "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_extended.py",
+    "--spec",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\CAL_sde_43_seed103.json"
+  ],
+  "spec": {
+    "id": "CAL_sde_43_seed103",
+    "kind": "sde",
+    "N": 256,
+    "B": 64,
+    "profile": [
+      4,
+      3,
+      3
+    ],
+    "map_B": 512,
+    "terminal_bytes": 32768,
+    "compact": true,
+    "fusion": true,
+    "R": 256,
+    "trace_seed": 103,
+    "oram_seed": 1003,
+    "workload": "uniform",
+    "study": "complete_period_calibration",
+    "experiment_class": "formal_calibration",
+    "warmup": 1280,
+    "requests": 3072,
+    "period_slots": 768
+  },
+  "started": 1789508812.5027068
+}

@@ -1,0 +1,62 @@
+{
+  "status": "evidence_consistent",
+  "model_sha256": "c0fcb6a469e88a7f692361d8b1b790aea80907e5e7679ef1a1c9f03b14cb5511",
+  "crosscheck_sha256": "dbacd46b6137b35d6a8169526f1416f4b9a771d1eea5094d453fa444c3a2de64",
+  "checker_sha256": "446ee60477b7d8af9901b87941a3bd0b87c30496554eacbea6bc19abe32dd3ff",
+  "document_sha256": "cfb45ad90b9355356b7e5f8f1a71644a3064e12e44e1908eb4a4e233e53a30ba",
+  "model_rows": 96,
+  "encrypted_cases": 42,
+  "executions": 5376,
+  "conditional_witnesses": [
+    {
+      "kind": "path",
+      "first_leaf": "0",
+      "probability": "11/16",
+      "next_zero_00": "7/11",
+      "next_zero_01": "15/22",
+      "tv": "1/22"
+    },
+    {
+      "kind": "path",
+      "first_leaf": "1",
+      "probability": "5/16",
+      "next_zero_00": "1/5",
+      "next_zero_01": "7/10",
+      "tv": "1/2"
+    },
+    {
+      "kind": "deferred",
+      "first_leaf": "0",
+      "probability": "11/16",
+      "next_zero_00": "1/2",
+      "next_zero_01": "7/11",
+      "tv": "3/22"
+    },
+    {
+      "kind": "deferred",
+      "first_leaf": "1",
+      "probability": "5/16",
+      "next_zero_00": "1/2",
+      "next_zero_01": "4/5",
+      "tv": "3/10"
+    },
+    {
+      "kind": "sde",
+      "first_leaf": "0",
+      "probability": "11/16",
+      "next_zero_00": "1/2",
+      "next_zero_01": "7/11",
+      "tv": "3/22"
+    },
+    {
+      "kind": "sde",
+      "first_leaf": "1",
+      "probability": "5/16",
+      "next_zero_00": "1/2",
+      "next_zero_01": "4/5",
+      "tv": "3/10"
+    }
+  ],
+  "security_admission": false,
+  "native_paper_attack_claim": false
+}

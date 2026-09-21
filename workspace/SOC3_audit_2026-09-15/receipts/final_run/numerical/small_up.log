@@ -1,0 +1,5 @@
+states=165 bytes=2640 mode=up threads=1
+h=1 mean<=0.04455831488 unknown_m<=0.03645680308 seconds=5.909300001e-05
+h=2 mean<=0.1495249479 unknown_m<=0.1332051853 seconds=2.296900001e-05
+h=3 mean<=0.4014007154 unknown_m<=0.3769234771 seconds=1.510400001e-05
+h=4 mean<=1.001820169 unknown_m<=0.977110775 seconds=1.722600001e-05

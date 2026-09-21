@@ -1,0 +1,230 @@
+{
+  "status": "passed",
+  "configs": [
+    {
+      "L": 1,
+      "A": 2,
+      "Z": 1,
+      "rootless": false,
+      "leaf_assignments": 32,
+      "largest_exact_home_mean": "1",
+      "poisson_rate_bound": "1"
+    },
+    {
+      "L": 1,
+      "A": 2,
+      "Z": 1,
+      "rootless": true,
+      "leaf_assignments": 32,
+      "largest_exact_home_mean": "1",
+      "poisson_rate_bound": "1"
+    },
+    {
+      "L": 1,
+      "A": 2,
+      "Z": 2,
+      "rootless": false,
+      "leaf_assignments": 32,
+      "largest_exact_home_mean": "1",
+      "poisson_rate_bound": "1"
+    },
+    {
+      "L": 1,
+      "A": 2,
+      "Z": 2,
+      "rootless": true,
+      "leaf_assignments": 32,
+      "largest_exact_home_mean": "1",
+      "poisson_rate_bound": "1"
+    },
+    {
+      "L": 1,
+      "A": 3,
+      "Z": 1,
+      "rootless": false,
+      "leaf_assignments": 32,
+      "largest_exact_home_mean": "3/2",
+      "poisson_rate_bound": "3/2"
+    },
+    {
+      "L": 1,
+      "A": 3,
+      "Z": 1,
+      "rootless": true,
+      "leaf_assignments": 32,
+      "largest_exact_home_mean": "3/2",
+      "poisson_rate_bound": "3/2"
+    },
+    {
+      "L": 1,
+      "A": 3,
+      "Z": 2,
+      "rootless": false,
+      "leaf_assignments": 32,
+      "largest_exact_home_mean": "3/2",
+      "poisson_rate_bound": "3/2"
+    },
+    {
+      "L": 1,
+      "A": 3,
+      "Z": 2,
+      "rootless": true,
+      "leaf_assignments": 32,
+      "largest_exact_home_mean": "3/2",
+      "poisson_rate_bound": "3/2"
+    },
+    {
+      "L": 2,
+      "A": 2,
+      "Z": 1,
+      "rootless": false,
+      "leaf_assignments": 1024,
+      "largest_exact_home_mean": "1",
+      "poisson_rate_bound": "1"
+    },
+    {
+      "L": 2,
+      "A": 2,
+      "Z": 1,
+      "rootless": true,
+      "leaf_assignments": 1024,
+      "largest_exact_home_mean": "1",
+      "poisson_rate_bound": "1"
+    },
+    {
+      "L": 2,
+      "A": 2,
+      "Z": 2,
+      "rootless": false,
+      "leaf_assignments": 1024,
+      "largest_exact_home_mean": "1",
+      "poisson_rate_bound": "1"
+    },
+    {
+      "L": 2,
+      "A": 2,
+      "Z": 2,
+      "rootless": true,
+      "leaf_assignments": 1024,
+      "largest_exact_home_mean": "1",
+      "poisson_rate_bound": "1"
+    },
+    {
+      "L": 2,
+      "A": 3,
+      "Z": 1,
+      "rootless": false,
+      "leaf_assignments": 1024,
+      "largest_exact_home_mean": "3/2",
+      "poisson_rate_bound": "3/2"
+    },
+    {
+      "L": 2,
+      "A": 3,
+      "Z": 1,
+      "rootless": true,
+      "leaf_assignments": 1024,
+      "largest_exact_home_mean": "3/2",
+      "poisson_rate_bound": "3/2"
+    },
+    {
+      "L": 2,
+      "A": 3,
+      "Z": 2,
+      "rootless": false,
+      "leaf_assignments": 1024,
+      "largest_exact_home_mean": "3/2",
+      "poisson_rate_bound": "3/2"
+    },
+    {
+      "L": 2,
+      "A": 3,
+      "Z": 2,
+      "rootless": true,
+      "leaf_assignments": 1024,
+      "largest_exact_home_mean": "3/2",
+      "poisson_rate_bound": "3/2"
+    },
+    {
+      "L": 3,
+      "A": 2,
+      "Z": 1,
+      "rootless": false,
+      "leaf_assignments": 32768,
+      "largest_exact_home_mean": "1",
+      "poisson_rate_bound": "1"
+    },
+    {
+      "L": 3,
+      "A": 2,
+      "Z": 1,
+      "rootless": true,
+      "leaf_assignments": 32768,
+      "largest_exact_home_mean": "1",
+      "poisson_rate_bound": "1"
+    },
+    {
+      "L": 3,
+      "A": 2,
+      "Z": 2,
+      "rootless": false,
+      "leaf_assignments": 32768,
+      "largest_exact_home_mean": "1",
+      "poisson_rate_bound": "1"
+    },
+    {
+      "L": 3,
+      "A": 2,
+      "Z": 2,
+      "rootless": true,
+      "leaf_assignments": 32768,
+      "largest_exact_home_mean": "1",
+      "poisson_rate_bound": "1"
+    },
+    {
+      "L": 3,
+      "A": 3,
+      "Z": 1,
+      "rootless": false,
+      "leaf_assignments": 32768,
+      "largest_exact_home_mean": "3/2",
+      "poisson_rate_bound": "3/2"
+    },
+    {
+      "L": 3,
+      "A": 3,
+      "Z": 1,
+      "rootless": true,
+      "leaf_assignments": 32768,
+      "largest_exact_home_mean": "3/2",
+      "poisson_rate_bound": "3/2"
+    },
+    {
+      "L": 3,
+      "A": 3,
+      "Z": 2,
+      "rootless": false,
+      "leaf_assignments": 32768,
+      "largest_exact_home_mean": "3/2",
+      "poisson_rate_bound": "3/2"
+    },
+    {
+      "L": 3,
+      "A": 3,
+      "Z": 2,
+      "rootless": true,
+      "leaf_assignments": 32768,
+      "largest_exact_home_mean": "3/2",
+      "poisson_rate_bound": "3/2"
+    }
+  ],
+  "completed_boundaries_checked": 4329472,
+  "checked": [
+    "retrievability",
+    "actual-to-shadow depth domination",
+    "local/global exact uid packing",
+    "fresh <= A-1",
+    "fixed-history exact-home marginal mean <= A/2"
+  ],
+  "proof_limit": "finite histories only; theorem and frontend admissibility are separate obligations"
+}

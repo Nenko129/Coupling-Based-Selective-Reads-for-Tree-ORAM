@@ -1,0 +1,47 @@
+{
+  "original_plan_sha256": "0e16b940fc146446b237eb658df1d52cbd146681b8908bef1c1bead38417248d",
+  "pilot_outcomes": [
+    {
+      "status": "passed",
+      "path": "results\\pilot_ir_compressed_target\\IRCMpilot_beta14.json",
+      "sha256": "cfc0473bc3f9b190fa747b407fce0a1d243c176ba771cf34c6244b26599acffe"
+    },
+    {
+      "status": "incomplete_horizon",
+      "path": "results\\failures\\IRCMpilot_beta4.json",
+      "sha256": "49f6e0a675d5b06822dbcfa110699be090b94c03e33ff0f67f94ffab81884af1",
+      "audit": {
+        "status": "incomplete_horizon",
+        "phase": "measurement",
+        "offered_requests": 6144,
+        "completed_requests": 6143,
+        "public_slots": 49152,
+        "total_bytes": 327744368,
+        "bytes_per_public_slot": 6667.976236979167,
+        "eligible_for_completed_request_bandwidth_comparison": false,
+        "partial_answer_digest_available": false
+      }
+    }
+  ],
+  "specs_unchanged": true,
+  "expected_observations": 75,
+  "sources": {
+    "audit_ir_compressed_failure.py": "f3296993f112e83497d5e08776dddddb9f2ebd55afd37d75a548bd59a3fdd378",
+    "dispatch_ir_compressed_observations.py": "6d4075eceb4a85e2d59e4fb884119663c5365fa2641f54fec7acdac18fd40d8a"
+  },
+  "reason": "Target beta4 completed 6143/6144 at measurement endpoint with one foreground request and one pending group reset. All slot budgets and input specifications are retained.",
+  "amended_after_pilot": true,
+  "amended_before_formal_outcomes": true,
+  "scope": "outcome handling only; no runtime, workload, capacity, timing, matrix or security model change",
+  "main_gate": "beta14 target and all six small-domain drivers pass; beta4 outcome is separately audited as noncompletion, never labeled passed.",
+  "failure_policy": "All 15 original beta4 cases remain. Continue after only audited fixed-horizon incompletion. Other errors and any main-cohort error still stop. No silent retry.",
+  "reporting": "Report all planned outcomes and completion fractions. Incomplete windows are excluded from bytes/completed-request paired estimates and cannot produce a five-pair claim. No independent partial-answer digest is available in failure records.",
+  "raw_dependency": [
+    {
+      "pid": 6200,
+      "completion": "results/ir_periodic_queue_completion.json",
+      "plan": "formal_ir_periodic_plan.json"
+    }
+  ],
+  "generator_sha256": "d5aa21a9afa9344b17a61685feed0443d97308707640496aae97ecfbdb36409e"
+}

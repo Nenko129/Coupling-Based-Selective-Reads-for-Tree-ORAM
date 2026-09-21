@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "family": "free_raw",
+      "kind": "deferred",
+      "exact_transcripts": true,
+      "exact_completed_state": true
+    },
+    {
+      "family": "free_raw",
+      "kind": "sde",
+      "exact_transcripts": true,
+      "exact_completed_state": true
+    },
+    {
+      "family": "free_raw",
+      "kind": "ring",
+      "exact_transcripts": true,
+      "exact_completed_state": true
+    },
+    {
+      "family": "free_raw",
+      "kind": "r0",
+      "exact_transcripts": true,
+      "exact_completed_state": true
+    },
+    {
+      "family": "free_compressed",
+      "kind": "deferred",
+      "exact_transcripts": true,
+      "exact_completed_state": true
+    },
+    {
+      "family": "free_compressed",
+      "kind": "sde",
+      "exact_transcripts": true,
+      "exact_completed_state": true
+    },
+    {
+      "family": "free_compressed",
+      "kind": "ring",
+      "exact_transcripts": true,
+      "exact_completed_state": true
+    },
+    {
+      "family": "free_compressed",
+      "kind": "r0",
+      "exact_transcripts": true,
+      "exact_completed_state": true
+    },
+    {
+      "family": "rho",
+      "kind": "deferred",
+      "exact_transcripts": true,
+      "exact_completed_state": true
+    },
+    {
+      "family": "rho",
+      "kind": "sde",
+      "exact_transcripts": true,
+      "exact_completed_state": true
+    },
+    {
+      "family": "rho",
+      "kind": "ring",
+      "exact_transcripts": true,
+      "exact_completed_state": true
+    },
+    {
+      "family": "rho",
+      "kind": "r0",
+      "exact_transcripts": true,
+      "exact_completed_state": true
+    }
+  ],
+  "scope": "metering transplant; reuses prior frontend contract and functional tests"
+}

@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "kernel_sha256": "ca3959eefab2e38e836cca71677bdfedeedbd6f5d10b3b9b8258897d6acc6f26",
+    "binary_sha256": "bc4b58e100d39557f226c405188f1a61c69a8063501e5ed753202dcf879b65d9",
+    "profile_sha256": "81e7e60b8f5417fddfcfb7ed4c0536d3ee867209847011442d8e5a9994963b8d",
+    "profile_spec_sha256": "865879d70e69a278ed27f4dc5b80e7e4e59f901a470e284db9a6e3babbc00fa8"
+  },
+  "pid": 47068,
+  "parent_pid": 41736,
+  "command": [
+    "wsl",
+    "--exec",
+    "/mnt/d/projects/SDE-R0/TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/numerics/ghost_profile",
+    "280",
+    "25",
+    "128",
+    "1",
+    "next",
+    "/mnt/d/projects/SDE-R0/TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/numerics/grids/IR43_native_A1_leaf35over8_next_c280_m128",
+    "/mnt/d/projects/SDE-R0/TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/numerics/profiles/IR43_native_A1_leaf35over8.txt"
+  ],
+  "started": 1789504163.9795306
+}

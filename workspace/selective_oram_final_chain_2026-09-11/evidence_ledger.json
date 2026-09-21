@@ -1,0 +1,172 @@
+{
+  "contract_sha256": "b40155e23d2d62cead87a89321cb88463ac0b36126782967fd490a813d41d19e",
+  "primary_status": {
+    "chain_consistency_passed": true,
+    "fresh_full_certificate_recomputation": true,
+    "fresh_test_execution": true,
+    "contract_sha256": "b40155e23d2d62cead87a89321cb88463ac0b36126782967fd490a813d41d19e",
+    "scope": {
+      "requests": "Any fixed logical address/value stream independent of ORAM coins; mixtures and applications adapting only to correct logical RAM outputs are covered.",
+      "not_claimed": "A logical-query selector that adaptively reads the ORAM server transcript/internal random state is not included in the stash theorem.",
+      "client": "One serial trusted client with nonrollback private state, root and nonce allocation; fail-stop on rejection/overflow.",
+      "initialization": "Authenticated dummy tree, then bottom-up position-map loading and data loading through normal counted operations.",
+      "timing": "Application scheduling/local computation timing, concurrent clients and crash recovery are outside this model."
+    },
+    "proof_assistant_formalization": false,
+    "edges": [
+      {
+        "edge": "actual -> finite shadow -> home field",
+        "evidence": "proofs/01_reduction_complete.md + per-current depth and field equality tests"
+      },
+      {
+        "edge": "home field -> Poisson idcx -> scalar object",
+        "evidence": "fixed-history marking proof and explicit count recurrence"
+      },
+      {
+        "edge": "scalar object -> numeric upper -> recursive configuration",
+        "evidence": "recomputed CSV + exact dyadic plan + runtime horizon guard"
+      },
+      {
+        "edge": "recursive transitions -> authenticated bytes",
+        "evidence": "same encrypted Tree/RecursiveORAM execution and pre-use validation"
+      },
+      {
+        "edge": "authenticated bytes -> unified cost table",
+        "evidence": "independent per-frame invoice identity + outward expected-cost intervals"
+      }
+    ],
+    "integrated_totals": {
+      "top_requests": 2700,
+      "layer_accesses": 5448,
+      "per_token_depth_comparisons": 154980,
+      "canonical_comparisons": 5448,
+      "field_recurrence_comparisons": 5448,
+      "frames_checked": 24933,
+      "whole_snapshot_nodes": 468
+    },
+    "active_attacks": 20,
+    "gate_mutations_rejected": 10,
+    "certificate_points_per_mode": 8711,
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "compiler_flags": [
+      "-std=c++17",
+      "-O3",
+      "-fopenmp",
+      "-frounding-math",
+      "-ffp-contract=off",
+      "-fno-fast-math"
+    ],
+    "interpretation": "Complete research-level chain within the stated request/client model and PRF assumption; no deployment certification or 48GiB network benchmark."
+  },
+  "protocol_instances": {
+    "sde": {
+      "points": [
+        {
+          "tree": 0,
+          "kind": "sde",
+          "L": 23,
+          "bucket_levels": 24,
+          "N": 12582912,
+          "R": 192,
+          "ghost_threshold": 190,
+          "operations_including_setup": 18446744073709539328,
+          "fixed_time_upper": "5.7658162797938092900979212293761957951035772903196E-63",
+          "rule": "independent scalar stop-loss enclosure"
+        },
+        {
+          "tree": 1,
+          "kind": "sde",
+          "L": 13,
+          "bucket_levels": 14,
+          "N": 12288,
+          "R": 144,
+          "ghost_threshold": 142,
+          "operations_including_setup": 18446744073709551616,
+          "fixed_time_upper": "4.0042186448833471419647848464103587821632906630563E-66",
+          "rule": "independent scalar stop-loss enclosure"
+        }
+      ],
+      "max_online_operations": 18446744073696956416,
+      "total_stash_lifetime_upper": "1.0643440208594177376822026014340875994959649358699E-43",
+      "stash_target_bits": 130,
+      "primitive_calls_upper_integer": 9671406556917064594903040,
+      "conditional_ORAM_advantage_upper": "3.6755485343613672978776660840223859183823217947846E-40",
+      "passes_2m128": true,
+      "PRF_assumption": "Each real-to-ideal PRF hybrid advantage <= 2^-132 at the stated time, query count and input lengths",
+      "terminal_map_bytes": 49152,
+      "scope": {
+        "requests": "Any fixed logical address/value stream independent of ORAM coins; mixtures and applications adapting only to correct logical RAM outputs are covered.",
+        "not_claimed": "A logical-query selector that adaptively reads the ORAM server transcript/internal random state is not included in the stash theorem.",
+        "client": "One serial trusted client with nonrollback private state, root and nonce allocation; fail-stop on rejection/overflow.",
+        "initialization": "Authenticated dummy tree, then bottom-up position-map loading and data loading through normal counted operations.",
+        "timing": "Application scheduling/local computation timing, concurrent clients and crash recovery are outside this model."
+      }
+    },
+    "r0": {
+      "points": [
+        {
+          "tree": 0,
+          "kind": "r0",
+          "L": 23,
+          "bucket_levels": 24,
+          "N": 12582912,
+          "R": 192,
+          "ghost_threshold": 186,
+          "operations_including_setup": 18446744073709539328,
+          "fixed_time_upper": "1.3052161665818412270069640645678469474215509618564E-61",
+          "rule": "independent scalar stop-loss enclosure"
+        },
+        {
+          "tree": 1,
+          "kind": "r0",
+          "L": 13,
+          "bucket_levels": 14,
+          "N": 12288,
+          "R": 144,
+          "ghost_threshold": 138,
+          "operations_including_setup": 18446744073709551616,
+          "fixed_time_upper": "3.1684273892382942522103573896736412050261963885157E-64",
+          "rule": "independent scalar stop-loss enclosure"
+        }
+      ],
+      "max_online_operations": 18446744073696956416,
+      "total_stash_lifetime_upper": "2.4135435754968873056704781639027050080374182611442E-42",
+      "stash_target_bits": 130,
+      "primitive_calls_upper_integer": 9671406556917064594903040,
+      "conditional_ORAM_advantage_upper": "3.7216907178295862085157112420975718433440782301357E-40",
+      "passes_2m128": true,
+      "PRF_assumption": "Each real-to-ideal PRF hybrid advantage <= 2^-132 at the stated time, query count and input lengths",
+      "terminal_map_bytes": 49152,
+      "scope": {
+        "requests": "Any fixed logical address/value stream independent of ORAM coins; mixtures and applications adapting only to correct logical RAM outputs are covered.",
+        "not_claimed": "A logical-query selector that adaptively reads the ORAM server transcript/internal random state is not included in the stash theorem.",
+        "client": "One serial trusted client with nonrollback private state, root and nonce allocation; fail-stop on rejection/overflow.",
+        "initialization": "Authenticated dummy tree, then bottom-up position-map loading and data loading through normal counted operations.",
+        "timing": "Application scheduling/local computation timing, concurrent clients and crash recovery are outside this model."
+      }
+    }
+  },
+  "source_inputs": {
+    "path.pdf": {
+      "sha256": "0c65372a6a3c50d286179a668d771be2bfef5b81e62c6ef58b77ec8ed8a59bce",
+      "size": 2094204
+    },
+    "ring.pdf": {
+      "sha256": "f452f88b8ac986896944e6512f3bfafd349b5382c6f2263ba574894e698d80c2",
+      "size": 530107
+    },
+    "gap_m2_uniform_time_theorem_draft_v2.md": {
+      "sha256": "5ac249a0db2e2ffda2c8df90862f370f12bc7360cc9fa50a51f3485f094b38c5",
+      "size": 16139
+    },
+    "Selective_ORAM_\u53cc\u8def\u7ebf\u5b8c\u6574\u7814\u7a76\u62a5\u544a_2026-09-03.pdf": {
+      "sha256": "ae0aa99fab8134471a5c2c70a5d86e6787d0f2f971f2c7702ca95242f06986af",
+      "size": 643801
+    },
+    "Selective_ORAM_Closure_2026-09-11.zip": {
+      "sha256": "b46fddc5e04bc3e3eeb67ffdd818ca0513924327a97681ee31ede1e8948dbcca",
+      "size": 868186
+    }
+  }
+}

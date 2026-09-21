@@ -1,0 +1,39 @@
+{
+  "pid": 29412,
+  "parent_pid": 15408,
+  "command": [
+    "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_extended_composition.py",
+    "--spec",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\PUB_Financial1_rho_sde_seed101.json"
+  ],
+  "spec": {
+    "id": "PUB_Financial1_rho_sde_seed101",
+    "family": "rho",
+    "kind": "sde",
+    "N": 16384,
+    "B": 64,
+    "profile": [
+      4,
+      3,
+      4
+    ],
+    "plb": 8,
+    "llc": 32,
+    "rho": 128,
+    "R": 256,
+    "warmup": 2048,
+    "requests": 4096,
+    "trace_seed": 101,
+    "oram_seed": 1001,
+    "workload": "Financial1_startkey",
+    "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed101.json",
+    "trace_file_sha256": "50140a41c6955f7b3cc365b18aa68db77e35ffff9cfde2826b9d7127ede4a7f4",
+    "study": "public_temporal_locality",
+    "experiment_class": "formal_public"
+  },
+  "started": 1789506480.3899643
+}

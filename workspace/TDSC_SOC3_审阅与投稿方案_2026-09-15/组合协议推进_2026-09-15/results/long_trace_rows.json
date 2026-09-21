@@ -1,0 +1,426 @@
+[
+  {
+    "family": "free_compressed",
+    "backend": "Deferred",
+    "seed": 41,
+    "workload": "uniform",
+    "N": 256,
+    "B": 64,
+    "warmup_requests": 1536,
+    "measured_requests": 3072,
+    "Z_A_S": [
+      4,
+      3,
+      4
+    ],
+    "bytes_per_request": 19774.609375,
+    "rpc_per_request": 4.336588541666667,
+    "serialized_bills": [
+      {
+        "total_bytes": 60747600,
+        "components": {
+          "data_download": 19183680,
+          "data_upload": 4795200,
+          "headers_download": 12229596,
+          "headers_upload": 12229596,
+          "authentication_download": 3410432,
+          "authentication_upload": 7673472,
+          "framing_and_control": 1225624
+        },
+        "rpc": 13322,
+        "prf_calls": 869247,
+        "decryptions": 299745,
+        "max_boundary_stash_blocks": 2,
+        "final_phase": 2581,
+        "accounting": "serialized SOC3 application frames; excludes TCP/TLS/network latency",
+        "peak_memory_measured": false
+      }
+    ],
+    "harness_elapsed_seconds": 9.208054299931973,
+    "backend_slots_measured": [
+      4996
+    ],
+    "schedule_sha256": "055cf79b4260310552c7933ff6a75342abb2333e755979cdebaaa14b04bc31f7"
+  },
+  {
+    "family": "free_compressed",
+    "backend": "SDE",
+    "seed": 41,
+    "workload": "uniform",
+    "N": 256,
+    "B": 64,
+    "warmup_requests": 1536,
+    "measured_requests": 3072,
+    "Z_A_S": [
+      4,
+      3,
+      4
+    ],
+    "bytes_per_request": 15592.638020833334,
+    "rpc_per_request": 4.336588541666667,
+    "serialized_bills": [
+      {
+        "total_bytes": 47900584,
+        "components": {
+          "data_download": 13536640,
+          "data_upload": 4795200,
+          "headers_download": 8629608,
+          "headers_upload": 8629608,
+          "authentication_download": 4539840,
+          "authentication_upload": 6544064,
+          "framing_and_control": 1225624
+        },
+        "rpc": 13322,
+        "prf_calls": 675130,
+        "decryptions": 211510,
+        "max_boundary_stash_blocks": 4,
+        "final_phase": 2581,
+        "accounting": "serialized SOC3 application frames; excludes TCP/TLS/network latency",
+        "peak_memory_measured": false
+      }
+    ],
+    "harness_elapsed_seconds": 7.387651999946684,
+    "backend_slots_measured": [
+      4996
+    ],
+    "schedule_sha256": "055cf79b4260310552c7933ff6a75342abb2333e755979cdebaaa14b04bc31f7"
+  },
+  {
+    "family": "free_compressed",
+    "backend": "Ring43",
+    "seed": 41,
+    "workload": "uniform",
+    "N": 256,
+    "B": 64,
+    "warmup_requests": 1536,
+    "measured_requests": 3072,
+    "Z_A_S": [
+      4,
+      3,
+      4
+    ],
+    "bytes_per_request": 29249.75,
+    "rpc_per_request": 6.5048828125,
+    "serialized_bills": [
+      {
+        "total_bytes": 89855232,
+        "components": {
+          "data_download": 8937360,
+          "data_upload": 11043840,
+          "headers_download": 12229596,
+          "headers_upload": 12229596,
+          "authentication_download": 18884224,
+          "authentication_upload": 24239232,
+          "framing_and_control": 2291384
+        },
+        "rpc": 19983,
+        "prf_calls": 1417529,
+        "decryptions": 171666,
+        "max_boundary_stash_blocks": 2,
+        "final_phase": 2581,
+        "accounting": "serialized SOC3 application frames; excludes TCP/TLS/network latency",
+        "peak_memory_measured": false
+      }
+    ],
+    "harness_elapsed_seconds": 16.260479599935934,
+    "backend_slots_measured": [
+      4996
+    ],
+    "schedule_sha256": "055cf79b4260310552c7933ff6a75342abb2333e755979cdebaaa14b04bc31f7"
+  },
+  {
+    "family": "free_compressed",
+    "backend": "R0-43",
+    "seed": 41,
+    "workload": "uniform",
+    "N": 256,
+    "B": 64,
+    "warmup_requests": 1536,
+    "measured_requests": 3072,
+    "Z_A_S": [
+      4,
+      3,
+      4
+    ],
+    "bytes_per_request": 21657.807291666668,
+    "rpc_per_request": 6.5048828125,
+    "serialized_bills": [
+      {
+        "total_bytes": 66532784,
+        "components": {
+          "data_download": 6354720,
+          "data_upload": 8881920,
+          "headers_download": 7711200,
+          "headers_upload": 7711200,
+          "authentication_download": 14180736,
+          "authentication_upload": 19578816,
+          "framing_and_control": 2114192
+        },
+        "rpc": 19983,
+        "prf_calls": 1034744,
+        "decryptions": 117234,
+        "max_boundary_stash_blocks": 6,
+        "final_phase": 2581,
+        "accounting": "serialized SOC3 application frames; excludes TCP/TLS/network latency",
+        "peak_memory_measured": false
+      }
+    ],
+    "harness_elapsed_seconds": 12.048910800018348,
+    "backend_slots_measured": [
+      4996
+    ],
+    "schedule_sha256": "055cf79b4260310552c7933ff6a75342abb2333e755979cdebaaa14b04bc31f7"
+  },
+  {
+    "family": "rho",
+    "backend": "Deferred",
+    "seed": 41,
+    "workload": "uniform",
+    "N": 256,
+    "B": 64,
+    "warmup_requests": 1536,
+    "measured_requests": 3072,
+    "Z_A_S": [
+      4,
+      3,
+      4
+    ],
+    "bytes_per_request": 30168.890625,
+    "rpc_per_request": 7.337890625,
+    "serialized_bills": [
+      {
+        "total_bytes": 61050672,
+        "components": {
+          "data_download": 11236320,
+          "data_upload": 11236320,
+          "headers_download": 12079044,
+          "headers_upload": 12079044,
+          "authentication_download": 3995136,
+          "authentication_upload": 8989056,
+          "framing_and_control": 1435752
+        },
+        "rpc": 15606,
+        "prf_calls": 1053405,
+        "decryptions": 210681,
+        "max_boundary_stash_blocks": 4,
+        "final_phase": 11751,
+        "accounting": "serialized SOC3 application frames; excludes TCP/TLS/network latency",
+        "peak_memory_measured": false
+      },
+      {
+        "total_bytes": 31628160,
+        "components": {
+          "data_download": 9987840,
+          "data_upload": 2496960,
+          "headers_download": 6367248,
+          "headers_upload": 6367248,
+          "authentication_download": 1775616,
+          "authentication_upload": 3995136,
+          "framing_and_control": 638112
+        },
+        "rpc": 6936,
+        "prf_calls": 452574,
+        "decryptions": 156060,
+        "max_boundary_stash_blocks": 2,
+        "final_phase": 1391,
+        "accounting": "serialized SOC3 application frames; excludes TCP/TLS/network latency",
+        "peak_memory_measured": false
+      }
+    ],
+    "harness_elapsed_seconds": 15.378341300063767,
+    "backend_slots_measured": [
+      7803,
+      2601
+    ],
+    "schedule_sha256": "ae0a7fc5cce36308c02b8c98e5f00e7dad4b86d10285b08c459d3ef2ec3da97a"
+  },
+  {
+    "family": "rho",
+    "backend": "SDE",
+    "seed": 41,
+    "workload": "uniform",
+    "N": 256,
+    "B": 64,
+    "warmup_requests": 1536,
+    "measured_requests": 3072,
+    "Z_A_S": [
+      4,
+      3,
+      4
+    ],
+    "bytes_per_request": 27999.583333333332,
+    "rpc_per_request": 7.337890625,
+    "serialized_bills": [
+      {
+        "total_bytes": 61050672,
+        "components": {
+          "data_download": 11236320,
+          "data_upload": 11236320,
+          "headers_download": 12079044,
+          "headers_upload": 12079044,
+          "authentication_download": 3995136,
+          "authentication_upload": 8989056,
+          "framing_and_control": 1435752
+        },
+        "rpc": 15606,
+        "prf_calls": 1053405,
+        "decryptions": 210681,
+        "max_boundary_stash_blocks": 4,
+        "final_phase": 11751,
+        "accounting": "serialized SOC3 application frames; excludes TCP/TLS/network latency",
+        "peak_memory_measured": false
+      },
+      {
+        "total_bytes": 24964048,
+        "components": {
+          "data_download": 7058560,
+          "data_upload": 2496960,
+          "headers_download": 4499832,
+          "headers_upload": 4499832,
+          "authentication_download": 2361472,
+          "authentication_upload": 3409280,
+          "framing_and_control": 638112
+        },
+        "rpc": 6936,
+        "prf_calls": 351880,
+        "decryptions": 110290,
+        "max_boundary_stash_blocks": 5,
+        "final_phase": 1391,
+        "accounting": "serialized SOC3 application frames; excludes TCP/TLS/network latency",
+        "peak_memory_measured": false
+      }
+    ],
+    "harness_elapsed_seconds": 14.490526500041597,
+    "backend_slots_measured": [
+      7803,
+      2601
+    ],
+    "schedule_sha256": "ae0a7fc5cce36308c02b8c98e5f00e7dad4b86d10285b08c459d3ef2ec3da97a"
+  },
+  {
+    "family": "rho",
+    "backend": "Ring43",
+    "seed": 41,
+    "workload": "uniform",
+    "N": 256,
+    "B": 64,
+    "warmup_requests": 1536,
+    "measured_requests": 3072,
+    "Z_A_S": [
+      4,
+      3,
+      4
+    ],
+    "bytes_per_request": 35111.833333333336,
+    "rpc_per_request": 8.466796875,
+    "serialized_bills": [
+      {
+        "total_bytes": 61050672,
+        "components": {
+          "data_download": 11236320,
+          "data_upload": 11236320,
+          "headers_download": 12079044,
+          "headers_upload": 12079044,
+          "authentication_download": 3995136,
+          "authentication_upload": 8989056,
+          "framing_and_control": 1435752
+        },
+        "rpc": 15606,
+        "prf_calls": 1053405,
+        "decryptions": 210681,
+        "max_boundary_stash_blocks": 4,
+        "final_phase": 11751,
+        "accounting": "serialized SOC3 application frames; excludes TCP/TLS/network latency",
+        "peak_memory_measured": false
+      },
+      {
+        "total_bytes": 46812880,
+        "components": {
+          "data_download": 4657680,
+          "data_upload": 5761920,
+          "headers_download": 6367248,
+          "headers_upload": 6367248,
+          "authentication_download": 9827776,
+          "authentication_upload": 12638016,
+          "framing_and_control": 1192992
+        },
+        "rpc": 10404,
+        "prf_calls": 738634,
+        "decryptions": 89433,
+        "max_boundary_stash_blocks": 2,
+        "final_phase": 1391,
+        "accounting": "serialized SOC3 application frames; excludes TCP/TLS/network latency",
+        "peak_memory_measured": false
+      }
+    ],
+    "harness_elapsed_seconds": 18.91011850000359,
+    "backend_slots_measured": [
+      7803,
+      2601
+    ],
+    "schedule_sha256": "ae0a7fc5cce36308c02b8c98e5f00e7dad4b86d10285b08c459d3ef2ec3da97a"
+  },
+  {
+    "family": "rho",
+    "backend": "R0-43",
+    "seed": 41,
+    "workload": "uniform",
+    "N": 256,
+    "B": 64,
+    "warmup_requests": 1536,
+    "measured_requests": 3072,
+    "Z_A_S": [
+      4,
+      3,
+      4
+    ],
+    "bytes_per_request": 31156.567708333332,
+    "rpc_per_request": 8.466796875,
+    "serialized_bills": [
+      {
+        "total_bytes": 61050672,
+        "components": {
+          "data_download": 11236320,
+          "data_upload": 11236320,
+          "headers_download": 12079044,
+          "headers_upload": 12079044,
+          "authentication_download": 3995136,
+          "authentication_upload": 8989056,
+          "framing_and_control": 1435752
+        },
+        "rpc": 15606,
+        "prf_calls": 1053405,
+        "decryptions": 210681,
+        "max_boundary_stash_blocks": 4,
+        "final_phase": 11751,
+        "accounting": "serialized SOC3 application frames; excludes TCP/TLS/network latency",
+        "peak_memory_measured": false
+      },
+      {
+        "total_bytes": 34662304,
+        "components": {
+          "data_download": 3312000,
+          "data_upload": 4635520,
+          "headers_download": 4012884,
+          "headers_upload": 4012884,
+          "authentication_download": 7378560,
+          "authentication_upload": 10209792,
+          "framing_and_control": 1100664
+        },
+        "rpc": 10404,
+        "prf_calls": 539205,
+        "decryptions": 61071,
+        "max_boundary_stash_blocks": 6,
+        "final_phase": 1391,
+        "accounting": "serialized SOC3 application frames; excludes TCP/TLS/network latency",
+        "peak_memory_measured": false
+      }
+    ],
+    "harness_elapsed_seconds": 16.909544899943285,
+    "backend_slots_measured": [
+      7803,
+      2601
+    ],
+    "schedule_sha256": "ae0a7fc5cce36308c02b8c98e5f00e7dad4b86d10285b08c459d3ef2ec3da97a"
+  }
+]

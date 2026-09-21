@@ -1,0 +1,43 @@
+{
+  "id": "IRPER_depth_deferred_dwb1_uniform_seed101",
+  "kind": "deferred",
+  "N": 4096,
+  "B": 64,
+  "X": 16,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "R": 480,
+  "cached_levels": 6,
+  "Z_by_depth": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4
+  ],
+  "plb": 8,
+  "llc_sets": 8,
+  "llc_ways": 2,
+  "layout": "depth",
+  "dwb": true,
+  "warmup": 1536,
+  "requests": 6144,
+  "arrival_gap": 8,
+  "slots_per_request": 8,
+  "trace_seed": 101,
+  "oram_seed": 1001,
+  "workload": "uniform",
+  "experiment_class": "formal_ir_periodic",
+  "period_slots": 12288
+}

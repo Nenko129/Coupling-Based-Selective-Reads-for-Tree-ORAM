@@ -1,0 +1,17 @@
+{
+  "Z": 7,
+  "rate": "3",
+  "exact_rational_inequalities": 160,
+  "thread_count_bitwise_match": true,
+  "python": "3.12.3",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "compiler": "g++ (Ubuntu 9.5.0-6ubuntu2) 9.5.0",
+  "flags": [
+    "-std=c++17",
+    "-O3",
+    "-fopenmp",
+    "-frounding-math",
+    "-ffp-contract=off",
+    "-fno-fast-math"
+  ]
+}

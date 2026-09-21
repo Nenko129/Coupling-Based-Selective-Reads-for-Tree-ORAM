@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "review": "Rendered final PDFs with Poppler at 140 dpi; visually inspected both complete pages; staggered labels do not collide, legends clear of bars, captions and axes readable, no clipping.",
+  "files": [
+    {
+      "pdf": "output/pdf/completed_core_bandwidth.pdf",
+      "pdf_sha256": "ffbcff87844ba65610eb740308286facf0702f1aa86ef26a5035c5b89a9bb186",
+      "render": "tmp/pdfs/completed_core_bandwidth_review.png",
+      "render_sha256": "d1d68e972374e912109c0f33cd9bde4be5a0105bcd87345ad9e2ed3a1232b375"
+    },
+    {
+      "pdf": "output/pdf/completed_static_components.pdf",
+      "pdf_sha256": "bf2ad36958dc9427dd210c60930fd16b2d0b1da79fa6e736ed9df5d45ba1eda0",
+      "render": "tmp/pdfs/completed_static_components_review.png",
+      "render_sha256": "30b32c57b17375b27cf7a156cb4c7bb3590f87c83227b0759a0bb02df69e66c6"
+    }
+  ],
+  "numeric_audit_sha256": "8890e9ef7feb92cf06073b6396a0fc647a325c5d159a23ec45a4f9bd1fe7f9f6"
+}

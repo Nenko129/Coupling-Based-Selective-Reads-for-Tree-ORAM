@@ -1,0 +1,11 @@
+--- transfer_backend_fixed.py
++++ ir_transfer.py
+@@ -10,7 +10,7 @@
+ ROOT=Path(__file__).resolve().parents[3]
+ SOURCE=ROOT/'SOC3_audit_2026-09-15/research_20260914/optimization_v1/src'
+ sys.path.insert(0,str(SOURCE))
+-from optimized_oram import (Config,Tree,PRF,Server,Transport,Record,Reject,Overflow,
++from heterogeneous_oram import (Config,Tree,PRF,Server,Transport,Record,Reject,Overflow,
+                             encode,need,gc,node,ui)
+ from optimized_cost import invoice
+ 

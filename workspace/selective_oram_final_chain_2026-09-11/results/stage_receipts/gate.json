@@ -1,0 +1,8 @@
+{
+  "stage": "gate",
+  "input_contract_sha256": "b40155e23d2d62cead87a89321cb88463ac0b36126782967fd490a813d41d19e",
+  "executed_in_this_stage": true,
+  "outputs_sha256": {
+    "results/gate_tests.json": "324abef2cc7aa8a672cceebf5e80b471bdd2115c509d107506c90daa78da7c3e"
+  }
+}

@@ -1,0 +1,580 @@
+{
+  "status": "passed",
+  "witness": {
+    "geometry": {
+      "buckets": 2,
+      "base": 2,
+      "extra": 1,
+      "component_cap": 2,
+      "queue_cap": 4,
+      "payload_bytes": 64
+    },
+    "physical_slots_before": 4,
+    "physical_slots_after": 4,
+    "steps": [
+      {
+        "action": [
+          "rebuild",
+          0,
+          true
+        ],
+        "event": {
+          "operation": "rebuild",
+          "bucket": 0,
+          "scheduled": true,
+          "warmed": false,
+          "rebuilt": [
+            0
+          ],
+          "staged_logical_slots": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "physical_writes": [
+            0,
+            1
+          ],
+          "borrowed": [],
+          "result": "warmup",
+          "collateral_buckets": 0,
+          "staged_public_slot_count": 2,
+          "new_logical_slots": 2
+        },
+        "records": {
+          "91": [
+            1,
+            3
+          ]
+        },
+        "remote_real": 0,
+        "bill": {
+          "rpc": 15,
+          "request_bytes": 600,
+          "response_bytes": 2805,
+          "control_bytes": 882,
+          "metadata_bytes": 253,
+          "proof_bytes": 1664,
+          "reads": 7,
+          "data_record_bytes": 606,
+          "updates": 6,
+          "commits": 1,
+          "total_bytes": 3405
+        }
+      },
+      {
+        "action": [
+          "rebuild",
+          1,
+          true
+        ],
+        "event": {
+          "operation": "rebuild",
+          "bucket": 1,
+          "scheduled": true,
+          "warmed": false,
+          "rebuilt": [
+            1
+          ],
+          "staged_logical_slots": [
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              1,
+              3
+            ]
+          ],
+          "physical_writes": [
+            2,
+            3
+          ],
+          "borrowed": [],
+          "result": "warmup",
+          "collateral_buckets": 0,
+          "staged_public_slot_count": 2,
+          "new_logical_slots": 2
+        },
+        "records": {
+          "91": [
+            1,
+            3
+          ]
+        },
+        "remote_real": 0,
+        "bill": {
+          "rpc": 15,
+          "request_bytes": 600,
+          "response_bytes": 2805,
+          "control_bytes": 882,
+          "metadata_bytes": 253,
+          "proof_bytes": 1664,
+          "reads": 7,
+          "data_record_bytes": 606,
+          "updates": 6,
+          "commits": 1,
+          "total_bytes": 3405
+        }
+      },
+      {
+        "action": [
+          "consume",
+          0,
+          0
+        ],
+        "event": {
+          "operation": "consume",
+          "bucket": 0,
+          "slot": 0,
+          "physical": 0
+        },
+        "records": {
+          "91": [
+            1,
+            3
+          ]
+        },
+        "remote_real": 0,
+        "bill": {
+          "rpc": 9,
+          "request_bytes": 312,
+          "response_bytes": 1516,
+          "control_bytes": 546,
+          "metadata_bytes": 285,
+          "proof_bytes": 896,
+          "reads": 4,
+          "data_record_bytes": 101,
+          "updates": 3,
+          "commits": 1,
+          "total_bytes": 1828
+        }
+      },
+      {
+        "action": [
+          "consume",
+          0,
+          1
+        ],
+        "event": {
+          "operation": "consume",
+          "bucket": 0,
+          "slot": 1,
+          "physical": 1
+        },
+        "records": {
+          "91": [
+            1,
+            3
+          ]
+        },
+        "remote_real": 0,
+        "bill": {
+          "rpc": 10,
+          "request_bytes": 329,
+          "response_bytes": 1681,
+          "control_bytes": 584,
+          "metadata_bytes": 301,
+          "proof_bytes": 1024,
+          "reads": 5,
+          "data_record_bytes": 101,
+          "updates": 3,
+          "commits": 1,
+          "total_bytes": 2010
+        }
+      },
+      {
+        "action": [
+          "rebuild",
+          1,
+          false
+        ],
+        "event": {
+          "operation": "rebuild",
+          "bucket": 1,
+          "scheduled": false,
+          "warmed": true,
+          "rebuilt": [
+            1
+          ],
+          "staged_logical_slots": [
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              1,
+              3
+            ]
+          ],
+          "physical_writes": [
+            2,
+            3,
+            0
+          ],
+          "borrowed": [
+            0
+          ],
+          "result": "expanded",
+          "collateral_buckets": 0,
+          "staged_public_slot_count": 2,
+          "new_logical_slots": 3
+        },
+        "records": {
+          "91": [
+            1,
+            0
+          ]
+        },
+        "remote_real": 1,
+        "bill": {
+          "rpc": 21,
+          "request_bytes": 871,
+          "response_bytes": 4084,
+          "control_bytes": 1182,
+          "metadata_bytes": 432,
+          "proof_bytes": 2432,
+          "reads": 11,
+          "data_record_bytes": 909,
+          "updates": 8,
+          "commits": 1,
+          "total_bytes": 4955
+        }
+      },
+      {
+        "action": [
+          "rebuild",
+          0,
+          false
+        ],
+        "event": {
+          "operation": "rebuild",
+          "bucket": 0,
+          "scheduled": false,
+          "warmed": true,
+          "rebuilt": [
+            0,
+            1
+          ],
+          "staged_logical_slots": [
+            [
+              1,
+              0,
+              2
+            ],
+            [
+              1,
+              1,
+              3
+            ],
+            [
+              1,
+              2,
+              0
+            ]
+          ],
+          "physical_writes": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "borrowed": [],
+          "result": "empty_or_short_queue",
+          "collateral_buckets": 1,
+          "staged_public_slot_count": 3,
+          "new_logical_slots": 2
+        },
+        "records": {
+          "91": [
+            1,
+            3
+          ]
+        },
+        "remote_real": 0,
+        "bill": {
+          "rpc": 25,
+          "request_bytes": 1095,
+          "response_bytes": 5021,
+          "control_bytes": 1442,
+          "metadata_bytes": 518,
+          "proof_bytes": 2944,
+          "reads": 12,
+          "data_record_bytes": 1212,
+          "updates": 11,
+          "commits": 1,
+          "total_bytes": 6116
+        }
+      }
+    ],
+    "wire": {
+      "path": "results\\ab_deadq_routed_wire\\zero_extra_encrypted_witness.jsonl.gz",
+      "sha256": "6a7a252d5d20c43d1a89a19a3614f74cbe4ae3e2f73e04b7488735c56427fc0e",
+      "uncompressed_sha256": "8e9ff148b6fc68cff220baa83ec41631bc84aff04411d68da4ea679e2cab0cb3",
+      "frames": 95
+    },
+    "total_bill": {
+      "rpc": 95,
+      "request_bytes": 3807,
+      "response_bytes": 17912,
+      "control_bytes": 5518,
+      "metadata_bytes": 2042,
+      "proof_bytes": 10624,
+      "reads": 46,
+      "data_record_bytes": 3535,
+      "updates": 37,
+      "commits": 6,
+      "total_bytes": 21719
+    },
+    "provisioned_row_bytes": 582,
+    "server_merkle_tag_bytes": 992,
+    "trusted_serialized_root_key_domain_counters_bytes": 120,
+    "memory_scope": "selected persistent serialized fields only; excludes geometry, crypto runtime and transaction scratch; not actual peak"
+  },
+  "trials": [
+    {
+      "remote_real_observations": 22,
+      "expansions": 23,
+      "collateral_rebuilds": 21,
+      "fused_transactions": 24,
+      "consumed_real_records": 32,
+      "transitions": 200,
+      "seed": 901,
+      "nonce_count": 436,
+      "largest_cached_serialized_rows": 1559,
+      "geometry": {
+        "buckets": 4,
+        "base": 3,
+        "extra": 2,
+        "component_cap": 3,
+        "queue_cap": 8,
+        "payload_bytes": 64
+      },
+      "wire": {
+        "path": "results\\ab_deadq_routed_wire\\trial_901.jsonl.gz",
+        "sha256": "c71be58b42c91870cdaef3fd82a28bec38b323247c175099a6e39ad55c49e684",
+        "uncompressed_sha256": "8e90c7df0e147951d0a41f82902fe5de28c44bf533cb91b87aef7de9bf177dc0",
+        "frames": 3603
+      },
+      "bill": {
+        "rpc": 3603,
+        "request_bytes": 149035,
+        "response_bytes": 804615,
+        "control_bytes": 202806,
+        "metadata_bytes": 102418,
+        "proof_bytes": 512480,
+        "reads": 1906,
+        "data_record_bytes": 135946,
+        "updates": 1297,
+        "commits": 200,
+        "total_bytes": 953650
+      },
+      "final_state_sha256": "0f882ca6a1de4d38369b068745e1b4e7285c694d7fa82844250c92c34f7af0c6"
+    },
+    {
+      "remote_real_observations": 30,
+      "expansions": 20,
+      "collateral_rebuilds": 17,
+      "fused_transactions": 27,
+      "consumed_real_records": 29,
+      "transitions": 200,
+      "seed": 902,
+      "nonce_count": 442,
+      "largest_cached_serialized_rows": 1272,
+      "geometry": {
+        "buckets": 4,
+        "base": 3,
+        "extra": 2,
+        "component_cap": 3,
+        "queue_cap": 8,
+        "payload_bytes": 64
+      },
+      "wire": {
+        "path": "results\\ab_deadq_routed_wire\\trial_902.jsonl.gz",
+        "sha256": "8563925e280d1095562907a9ed80b07d562baa3fbec24522c208768bf2181869",
+        "uncompressed_sha256": "df11354249f4a620cc8498c31646b84ae521afc493758494787288f39db8c0df",
+        "frames": 3571
+      },
+      "bill": {
+        "rpc": 3571,
+        "request_bytes": 148788,
+        "response_bytes": 798623,
+        "control_bytes": 201698,
+        "metadata_bytes": 101094,
+        "proof_bytes": 507360,
+        "reads": 1871,
+        "data_record_bytes": 137259,
+        "updates": 1300,
+        "commits": 200,
+        "total_bytes": 947411
+      },
+      "final_state_sha256": "8cf5ba405ccdf3cbdf414f9ece749d7de1d4507b7c60731b3624cdb95fea75e9"
+    },
+    {
+      "remote_real_observations": 9,
+      "expansions": 20,
+      "collateral_rebuilds": 18,
+      "fused_transactions": 22,
+      "consumed_real_records": 33,
+      "transitions": 200,
+      "seed": 903,
+      "nonce_count": 433,
+      "largest_cached_serialized_rows": 1559,
+      "geometry": {
+        "buckets": 4,
+        "base": 3,
+        "extra": 2,
+        "component_cap": 3,
+        "queue_cap": 8,
+        "payload_bytes": 64
+      },
+      "wire": {
+        "path": "results\\ab_deadq_routed_wire\\trial_903.jsonl.gz",
+        "sha256": "106a4ba5e9a1763f36df183eeb04183fbecff88d06cfe1eba605ffa85c6593c3",
+        "uncompressed_sha256": "5112fa10b2a1fb66f3cc1b288b5da3fdbdda7bf95927f88d59efdb2b64920cd6",
+        "frames": 3596
+      },
+      "bill": {
+        "rpc": 3596,
+        "request_bytes": 149444,
+        "response_bytes": 803786,
+        "control_bytes": 202792,
+        "metadata_bytes": 103839,
+        "proof_bytes": 511360,
+        "reads": 1892,
+        "data_record_bytes": 135239,
+        "updates": 1304,
+        "commits": 200,
+        "total_bytes": 953230
+      },
+      "final_state_sha256": "c93008efbc9b054c0fcfbaa1f0b596d82617ee2f3181c821164bf35f542ff14c"
+    },
+    {
+      "remote_real_observations": 28,
+      "expansions": 25,
+      "collateral_rebuilds": 24,
+      "fused_transactions": 21,
+      "consumed_real_records": 24,
+      "transitions": 200,
+      "seed": 904,
+      "nonce_count": 440,
+      "largest_cached_serialized_rows": 1559,
+      "geometry": {
+        "buckets": 4,
+        "base": 3,
+        "extra": 2,
+        "component_cap": 3,
+        "queue_cap": 8,
+        "payload_bytes": 64
+      },
+      "wire": {
+        "path": "results\\ab_deadq_routed_wire\\trial_904.jsonl.gz",
+        "sha256": "6e6ba1e2f962fd2bc7e3fe9b0ade84e203e09d6da013f20b92db8cd44acf9e12",
+        "uncompressed_sha256": "9e958c807ed46bdecfbd9323c6c621005ede33d414b788e22c044b5acd99198b",
+        "frames": 3758
+      },
+      "bill": {
+        "rpc": 3758,
+        "request_bytes": 154467,
+        "response_bytes": 840665,
+        "control_bytes": 210568,
+        "metadata_bytes": 108813,
+        "proof_bytes": 537280,
+        "reads": 2009,
+        "data_record_bytes": 138471,
+        "updates": 1349,
+        "commits": 200,
+        "total_bytes": 995132
+      },
+      "final_state_sha256": "a1d667acf5bd8a856944086ca5d78c2df198fdfbca2316011e0ea4171d9d1847"
+    },
+    {
+      "remote_real_observations": 28,
+      "expansions": 23,
+      "collateral_rebuilds": 21,
+      "fused_transactions": 35,
+      "consumed_real_records": 40,
+      "transitions": 200,
+      "seed": 905,
+      "nonce_count": 442,
+      "largest_cached_serialized_rows": 1288,
+      "geometry": {
+        "buckets": 4,
+        "base": 3,
+        "extra": 2,
+        "component_cap": 3,
+        "queue_cap": 8,
+        "payload_bytes": 64
+      },
+      "wire": {
+        "path": "results\\ab_deadq_routed_wire\\trial_905.jsonl.gz",
+        "sha256": "59297e62cda67e41e20cbaa4b1e2f426dc353ef22784c021418080712b200911",
+        "uncompressed_sha256": "2f91ac23a8e5d43841deae687f455d99e5589a35439729282ed4830d24dd8c0b",
+        "frames": 3741
+      },
+      "bill": {
+        "rpc": 3741,
+        "request_bytes": 153541,
+        "response_bytes": 835172,
+        "control_bytes": 208950,
+        "metadata_bytes": 107439,
+        "proof_bytes": 534560,
+        "reads": 2019,
+        "data_record_bytes": 137764,
+        "updates": 1322,
+        "commits": 200,
+        "total_bytes": 988713
+      },
+      "final_state_sha256": "810f09b5c5c2b04b506b93a463193334be9d1ee431fa37d9a929a1e0880752dd"
+    }
+  ],
+  "negative_checks": [
+    "directory proof corruption",
+    "ciphertext corruption caught by Merkle before decryption",
+    "incorrect post-update root",
+    "bad final commit root permanently stops client",
+    "previous transaction commit replay",
+    "old FIFO opening with rewritten response context",
+    "AEAD context mismatch: domain",
+    "AEAD context mismatch: logical_bucket",
+    "AEAD context mismatch: logical_slot",
+    "AEAD context mismatch: physical",
+    "AEAD context mismatch: epoch",
+    "AEAD context mismatch: generation",
+    "abort burns allocated nonces; no rollback/retry"
+  ],
+  "public_shape_check": {
+    "public_operations": 120,
+    "equal_address_length_shapes": true,
+    "frames": 2515,
+    "inputs": "all dummy versus one real per bucket, different test keys and private shuffles",
+    "security_proof": false,
+    "trace_sha256": "12a65af3a1fe31c96e4321322415d1145b4745887b826749c6a38d52ce70c0f1"
+  },
+  "encrypted_allocator": true,
+  "external_authenticated_directory": true,
+  "native_AB": false,
+  "CB_integration": false,
+  "security_proof": false,
+  "bandwidth_improvement_claim": false,
+  "actual_peak_memory_measured": false,
+  "provisioning_excluded_from_transaction_bills": true,
+  "serialized_microbenchmark_only": true,
+  "runtime_hashes": {
+    "ab_deadq_authenticated_store.py": "b8a98b09648b3019d045cc6a542b1469ac8bdf9471967ac7cfd08d310fcf223d",
+    "ab_deadq_routed_allocator.py": "99307055d9ebdc6f67f03f956241690905e514456d106970538e21f09543054b"
+  },
+  "oracle_sha256": "f020e9e421c64f0c4be7d7e0c242b36fe9ca4f15235c26f7faf6822a7113268c",
+  "checker_sha256": "8e722872180a3ab509f425434b5c62e7592bd0e4cb652ea196e92c37e6b779ad"
+}

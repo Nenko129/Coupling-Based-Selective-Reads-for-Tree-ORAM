@@ -1,0 +1,39 @@
+{
+  "id": "CC_AB_depth_ring_N4096_B4096_seed104",
+  "family": "AB",
+  "layout": "depth",
+  "kind": "ring",
+  "N": 4096,
+  "B": 4096,
+  "profile": [
+    7,
+    6,
+    6
+  ],
+  "compact": true,
+  "fusion": true,
+  "R": 256,
+  "map_B": 512,
+  "terminal_bytes": 32768,
+  "warmup": 2048,
+  "requests": 4096,
+  "cached_levels": 5,
+  "workload": "uniform",
+  "trace_seed": 104,
+  "oram_seed": 1004,
+  "experiment_class": "formal_cached_components",
+  "S_by_depth": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    4,
+    4,
+    4
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "generated",
+  "files": [
+    {
+      "base": "run_ab_paced_periodic.py",
+      "base_sha256": "89c176d40e444cf86a4ccb8b31a14304ff23a6e948c55e1a69c85e9953f602b7",
+      "output": "run_ab_dummy_first_periodic.py",
+      "output_sha256": "52d56f523d14aad92ec4aafcb25d26bc43ed13b53a9513918449cf966d3afdce"
+    },
+    {
+      "base": "check_ab_paced_periodic.py",
+      "base_sha256": "4e4c84957f4650acc1e2cf55f0a7dfcbd846ab0574db35f88253778b8b71134e",
+      "output": "check_ab_dummy_first_periodic.py",
+      "output_sha256": "56b7fb0d463766a667d3229e9a7b4a2f9b6baf63e11a2483fb9a29d9e541645c"
+    },
+    {
+      "base": "dispatch_ab_paced_periodic.py",
+      "base_sha256": "314ff035a0512ed63fa4d067be506a4973eb6d904341a8fbe716d1b9dd6e3a8d",
+      "output": "dispatch_ab_dummy_first_periodic.py",
+      "output_sha256": "f642e19347763ee23aeb96890591b66a67bb91dd0d5ef8fc62198b6f69032c76"
+    },
+    {
+      "base": "analyze_ab_periodic.py",
+      "base_sha256": "035396b4a66feea4a97bb9e1712496db62201adc81b5ced3ce10d67c5be15446",
+      "output": "analyze_ab_dummy_first_periodic.py",
+      "output_sha256": "4f417ddeaacffb4e6c613efe4b14b5145653484d97313f6795e851e96191a612"
+    }
+  ],
+  "generator_sha256": "3276e1c9442b4931a064f9d2fee43fa337230d410e1d0a889086d5732a9812ab",
+  "old_sources_preserved": true
+}

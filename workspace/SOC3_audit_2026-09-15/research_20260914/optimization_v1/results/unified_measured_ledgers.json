@@ -1,0 +1,351 @@
+{
+  "rows": [
+    {
+      "kind": "path",
+      "requests": 1000,
+      "invoice": {
+        "events_checked": 4000,
+        "total": {
+          "data_download": 7040000,
+          "data_upload": 7040000,
+          "headers_download": 2040000,
+          "headers_upload": 2040000,
+          "authentication_download": 512000,
+          "authentication_upload": 1280000,
+          "framing_and_control": 368000
+        },
+        "total_bytes": 20320000,
+        "by_stage": {
+          "path": {
+            "data_download": 7040000,
+            "data_upload": 7040000,
+            "headers_download": 2040000,
+            "headers_upload": 2040000,
+            "authentication_download": 512000,
+            "authentication_upload": 1280000,
+            "framing_and_control": 368000
+          }
+        },
+        "by_tree": {
+          "1": {
+            "data_download": 512000,
+            "data_upload": 512000,
+            "headers_download": 816000,
+            "headers_upload": 816000,
+            "authentication_download": 192000,
+            "authentication_upload": 512000,
+            "framing_and_control": 184000
+          },
+          "0": {
+            "data_download": 6528000,
+            "data_upload": 6528000,
+            "headers_download": 1224000,
+            "headers_upload": 1224000,
+            "authentication_download": 320000,
+            "authentication_upload": 768000,
+            "framing_and_control": 184000
+          }
+        }
+      },
+      "average_framed_bytes": 20320.0,
+      "comparison": "Same public geometry/serializer; no claim of equal certified Path-Z4 failure or optimized cache/XOR baseline."
+    },
+    {
+      "kind": "deferred",
+      "requests": 1000,
+      "invoice": {
+        "events_checked": 5332,
+        "total": {
+          "data_download": 9384320,
+          "data_upload": 2344320,
+          "headers_download": 2719320,
+          "headers_upload": 2719320,
+          "authentication_download": 682496,
+          "authentication_upload": 1706240,
+          "framing_and_control": 490544
+        },
+        "total_bytes": 20046560,
+        "by_stage": {
+          "logical": {
+            "data_download": 7040000,
+            "data_upload": 0,
+            "headers_download": 2040000,
+            "headers_upload": 2040000,
+            "authentication_download": 512000,
+            "authentication_upload": 1280000,
+            "framing_and_control": 368000
+          },
+          "evict": {
+            "data_download": 2344320,
+            "data_upload": 2344320,
+            "headers_download": 679320,
+            "headers_upload": 679320,
+            "authentication_download": 170496,
+            "authentication_upload": 426240,
+            "framing_and_control": 122544
+          }
+        },
+        "by_tree": {
+          "1": {
+            "data_download": 682496,
+            "data_upload": 170496,
+            "headers_download": 1087728,
+            "headers_upload": 1087728,
+            "authentication_download": 255936,
+            "authentication_upload": 682496,
+            "framing_and_control": 245272
+          },
+          "0": {
+            "data_download": 8701824,
+            "data_upload": 2173824,
+            "headers_download": 1631592,
+            "headers_upload": 1631592,
+            "authentication_download": 426560,
+            "authentication_upload": 1023744,
+            "framing_and_control": 245272
+          }
+        }
+      },
+      "average_framed_bytes": 20046.56,
+      "comparison": "Same public geometry/serializer; no claim of equal certified Path-Z4 failure or optimized cache/XOR baseline."
+    },
+    {
+      "kind": "sde",
+      "requests": 1000,
+      "invoice": {
+        "events_checked": 5332,
+        "total": {
+          "data_download": 6715520,
+          "data_upload": 2344320,
+          "headers_download": 1975740,
+          "headers_upload": 1975740,
+          "authentication_download": 915776,
+          "authentication_upload": 1472960,
+          "framing_and_control": 490544
+        },
+        "total_bytes": 15890600,
+        "by_stage": {
+          "logical": {
+            "data_download": 4371200,
+            "data_upload": 0,
+            "headers_download": 1296420,
+            "headers_upload": 1296420,
+            "authentication_download": 745280,
+            "authentication_upload": 1046720,
+            "framing_and_control": 368000
+          },
+          "evict": {
+            "data_download": 2344320,
+            "data_upload": 2344320,
+            "headers_download": 679320,
+            "headers_upload": 679320,
+            "authentication_download": 170496,
+            "authentication_upload": 426240,
+            "framing_and_control": 122544
+          }
+        },
+        "by_tree": {
+          "1": {
+            "data_download": 509568,
+            "data_upload": 170496,
+            "headers_download": 812124,
+            "headers_upload": 812124,
+            "authentication_download": 342400,
+            "authentication_upload": 596032,
+            "framing_and_control": 245272
+          },
+          "0": {
+            "data_download": 6205952,
+            "data_upload": 2173824,
+            "headers_download": 1163616,
+            "headers_upload": 1163616,
+            "authentication_download": 573376,
+            "authentication_upload": 876928,
+            "framing_and_control": 245272
+          }
+        }
+      },
+      "average_framed_bytes": 15890.6,
+      "comparison": "Same public geometry/serializer; no claim of equal certified Path-Z4 failure or optimized cache/XOR baseline."
+    },
+    {
+      "kind": "ring",
+      "requests": 1000,
+      "invoice": {
+        "events_checked": 7998,
+        "total": {
+          "data_download": 4627424,
+          "data_upload": 5323136,
+          "headers_download": 2719320,
+          "headers_upload": 2719320,
+          "authentication_download": 3886592,
+          "authentication_upload": 5553664,
+          "framing_and_control": 831792
+        },
+        "total_bytes": 25661248,
+        "by_stage": {
+          "logical": {
+            "data_download": 2283104,
+            "data_upload": 1220576,
+            "headers_download": 2040000,
+            "headers_upload": 2040000,
+            "authentication_download": 2959616,
+            "authentication_upload": 2143744,
+            "framing_and_control": 624000
+          },
+          "evict": {
+            "data_download": 2344320,
+            "data_upload": 4102560,
+            "headers_download": 679320,
+            "headers_upload": 679320,
+            "authentication_download": 926976,
+            "authentication_upload": 3409920,
+            "framing_and_control": 207792
+          }
+        },
+        "by_tree": {
+          "1": {
+            "data_download": 333632,
+            "data_upload": 380352,
+            "headers_download": 1087728,
+            "headers_upload": 1087728,
+            "authentication_download": 1538240,
+            "authentication_upload": 2203904,
+            "framing_and_control": 405232
+          },
+          "0": {
+            "data_download": 4293792,
+            "data_upload": 4942784,
+            "headers_download": 1631592,
+            "headers_upload": 1631592,
+            "authentication_download": 2348352,
+            "authentication_upload": 3349760,
+            "framing_and_control": 426560
+          }
+        }
+      },
+      "average_framed_bytes": 25661.248,
+      "comparison": "Same public geometry/serializer; no claim of equal certified Path-Z4 failure or optimized cache/XOR baseline."
+    },
+    {
+      "kind": "gc_ring",
+      "requests": 1000,
+      "invoice": {
+        "events_checked": 7998,
+        "total": {
+          "data_download": 3649456,
+          "data_upload": 4560864,
+          "headers_download": 1986960,
+          "headers_upload": 1986960,
+          "authentication_download": 3239616,
+          "authentication_upload": 4801536,
+          "framing_and_control": 803072
+        },
+        "total_bytes": 21028464,
+        "by_stage": {
+          "logical": {
+            "data_download": 1305136,
+            "data_upload": 458304,
+            "headers_download": 1307640,
+            "headers_upload": 1307640,
+            "authentication_download": 2315456,
+            "authentication_upload": 1391616,
+            "framing_and_control": 595280
+          },
+          "evict": {
+            "data_download": 2344320,
+            "data_upload": 4102560,
+            "headers_download": 679320,
+            "headers_upload": 679320,
+            "authentication_download": 924160,
+            "authentication_upload": 3409920,
+            "framing_and_control": 207792
+          }
+        },
+        "by_tree": {
+          "1": {
+            "data_download": 270400,
+            "data_upload": 333984,
+            "headers_download": 811308,
+            "headers_upload": 811308,
+            "authentication_download": 1292736,
+            "authentication_upload": 1931712,
+            "framing_and_control": 394392
+          },
+          "0": {
+            "data_download": 3379056,
+            "data_upload": 4226880,
+            "headers_download": 1175652,
+            "headers_upload": 1175652,
+            "authentication_download": 1946880,
+            "authentication_upload": 2869824,
+            "framing_and_control": 408680
+          }
+        }
+      },
+      "average_framed_bytes": 21028.464,
+      "comparison": "Same public geometry/serializer; no claim of equal certified Path-Z4 failure or optimized cache/XOR baseline."
+    },
+    {
+      "kind": "r0",
+      "requests": 1000,
+      "invoice": {
+        "events_checked": 7998,
+        "total": {
+          "data_download": 3076768,
+          "data_upload": 3867024,
+          "headers_download": 1611804,
+          "headers_upload": 1611804,
+          "authentication_download": 2750272,
+          "authentication_upload": 4092480,
+          "framing_and_control": 788360
+        },
+        "total_bytes": 17798512,
+        "by_stage": {
+          "logical": {
+            "data_download": 1137376,
+            "data_upload": 473088,
+            "headers_download": 1068348,
+            "headers_upload": 1068348,
+            "authentication_download": 1976192,
+            "authentication_upload": 1321920,
+            "framing_and_control": 585896
+          },
+          "evict": {
+            "data_download": 1939392,
+            "data_upload": 3393936,
+            "headers_download": 543456,
+            "headers_upload": 543456,
+            "authentication_download": 774080,
+            "authentication_upload": 2770560,
+            "framing_and_control": 202464
+          }
+        },
+        "by_tree": {
+          "1": {
+            "data_download": 208256,
+            "data_upload": 258944,
+            "headers_download": 620160,
+            "headers_upload": 620160,
+            "authentication_download": 1046272,
+            "authentication_upload": 1571584,
+            "framing_and_control": 386896
+          },
+          "0": {
+            "data_download": 2868512,
+            "data_upload": 3608080,
+            "headers_download": 991644,
+            "headers_upload": 991644,
+            "authentication_download": 1704000,
+            "authentication_upload": 2520896,
+            "framing_and_control": 401464
+          }
+        }
+      },
+      "average_framed_bytes": 17798.512,
+      "comparison": "Same public geometry/serializer; no claim of equal certified Path-Z4 failure or optimized cache/XOR baseline."
+    }
+  ],
+  "same_frame_serializer": true,
+  "wall_clock_benchmark": false
+}

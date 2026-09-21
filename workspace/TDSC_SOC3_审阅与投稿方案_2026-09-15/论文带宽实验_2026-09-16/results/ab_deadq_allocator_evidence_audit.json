@@ -1,0 +1,15 @@
+{
+  "status": "evidence_consistent",
+  "model_receipt_sha256": "8d1b67f171ec10adc093e603dafa27a402f1bd95cc443c0718f74f19aac332ce",
+  "report_sha256": "9876ba29815aba5ed40ee28183db5af9a3972319ad0f6f6682b964f9fcfc8640",
+  "auditor_sha256": "8033021152493f2635ff1572bb52b926c8c79e194732fbbfef331b51688ed872",
+  "abstract_states": 1976,
+  "abstract_transitions": 12792,
+  "symbolic_payload_transitions": 2500,
+  "transaction_checks": 9,
+  "allocator_argument_only": true,
+  "full_security_admission": false,
+  "native_AB_complete": false,
+  "encrypted_ORAM_execution": false,
+  "bandwidth_claim": false
+}

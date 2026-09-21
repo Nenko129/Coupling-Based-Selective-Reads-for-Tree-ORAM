@@ -1,0 +1,54 @@
+{
+  "variant": "selective-single-admission-transfer-20260915",
+  "status": "scoped research prototype; conditional capacity reduction",
+  "native_full_paper_reproduction": false,
+  "new_protocol_independent_cryptographic_audit_completed": false,
+  "client": "one serial trusted frontend; nonrollback private state; permanent fail-stop",
+  "removals_per_backend_slot_max": 1,
+  "admissions_per_backend_slot_max": 1,
+  "remove_and_admit_same_address_required": false,
+  "backend_slot_horizon": "2^56, including initialization, dummy and group-reset slots",
+  "requirements": [
+    "Frontend supplies exclusive canonical ownership; admitted address is absent from the backend.",
+    "Birth and retirement schedules, address replacement and slot counts are independent of ORAM random labels, bucket depths and stash occupancy.",
+    "Assign a fresh immutable uid at backend admission, even when payload returns from cache.",
+    "A parked admission label is independent, never previously exposed for that version, and never selected based on its value.",
+    "Full bit-reversal maintenance occurs every A backend slots. Neutral and read fusion do not advance gamma.",
+    "N_max includes all simultaneously possible backend canonical addresses, including unified recursive map blocks.",
+    "For grid reuse, N_max <= A*2^(L-1), h=L+1 is in the grid, and r=R-(A-1+root_omission_shift) is in range.",
+    "R0 root-omission shift equals Z. Only the root is omitted from maintenance.",
+    "All read openings and write acknowledgements use the frozen authenticated primitives. Any error permanently stops the frontend and its trees."
+  ],
+  "capacity_bound_scope": "Conditional fixed-history stash bound in the secret ideal-label model. No fresh grid generation or full frontend cryptographic budget audit.",
+  "freecursive_variant": {
+    "unified_tree": true,
+    "all_recursive_map_blocks_counted": true,
+    "trusted_terminal": "leaf of the final one-block map level",
+    "plb_replacement": "address-only LRU, protected recursive parent",
+    "compressed_map": "64-bit GC plus X beta-bit ICs; address/GC/IC PRF-derived leaves",
+    "preemptive_reset": "reset group before using an IC already equal to 2^beta-1",
+    "full_pmmac_implemented": false
+  },
+  "rho_variant": {
+    "exclusive_llc_rho_full": true,
+    "rho_directory": "fully associative address-only LRU",
+    "public_frame": "3 rho Path-tree slots, then 1 Full-backend slot, including dummies",
+    "rho_tree": "Z=2 Path, R=maximum resident population; deterministic population stash bound",
+    "full_trusted_posmap": true,
+    "ecc_and_rho_compact_implemented": false,
+    "allowed_length_leakage": "actual completed frame count",
+    "constant_public_horizon_padding_implemented": false,
+    "async_writeback_and_crash_recovery": false
+  },
+  "benchmark": {
+    "secret_test_keys": false,
+    "keys": "public reproducible test keys; not a secure deployment",
+    "metric": "actual serialized application request/response bytes with nonce, headers, authentication and control",
+    "rpc": "application request/response pairs; not measured network RTT",
+    "short_rows": 216,
+    "long_rows": 8,
+    "cpu_or_network_latency_claim": false,
+    "true_peak_trusted_memory_measured": false,
+    "global_optimum_or_all_sota_claim": false
+  }
+}

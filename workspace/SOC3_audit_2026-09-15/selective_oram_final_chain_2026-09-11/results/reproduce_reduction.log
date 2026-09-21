@@ -1,0 +1,53 @@
+{
+  "static": {
+    "static_class_equalities": 8546,
+    "priority_count_equalities": 8546,
+    "phase_local_commutations": 8546,
+    "root_capacity_shifts": 4273,
+    "configurations": [
+      {
+        "L": 1,
+        "Z": 1,
+        "fields": 343
+      },
+      {
+        "L": 1,
+        "Z": 4,
+        "fields": 343
+      },
+      {
+        "L": 2,
+        "Z": 1,
+        "fields": 2187
+      },
+      {
+        "L": 2,
+        "Z": 4,
+        "fields": 350
+      },
+      {
+        "L": 3,
+        "Z": 1,
+        "fields": 350
+      },
+      {
+        "L": 3,
+        "Z": 4,
+        "fields": 350
+      },
+      {
+        "L": 4,
+        "Z": 4,
+        "fields": 350
+      }
+    ]
+  },
+  "marking": {
+    "fixed_histories": 12,
+    "time_snapshots": 648,
+    "nonzero_independent_mark_cases": 170429,
+    "every_bucket_mean_at_most_A_over_2": true,
+    "quantifier": "Logical address history fixed independently of ORAM randomness; not conditioning on an adaptively selected trace."
+  },
+  "status": "Finite regressions of the separately written reduction proof, not a proof assistant certificate."
+}

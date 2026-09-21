@@ -1,0 +1,30 @@
+{
+  "status": "generated",
+  "source_snapshot_sha256": "01faebc2f8b3df13f880a72a3e19bf1be0e81c12db583c26c2251ad2981d1581",
+  "generator_sha256": "13ebb2caba3cd32d60bd5d11f2b8a0cc25b02bdb00eb85455b7af7ed799cfe7e",
+  "outputs": [
+    {
+      "path": "tables\\Calibration_40_runs.csv",
+      "sha256": "995333f8638fd60ac5e2444afc5c8770b56aeb48d1b819857f2d116bfbbbef36"
+    },
+    {
+      "path": "tables\\Calibration_8_configurations.csv",
+      "sha256": "37586a4407d1cdca5bb143b07c2677ec3c39b381ddcbdeb639573fc4b77913a2"
+    },
+    {
+      "path": "figures\\completed_model_calibration.pdf",
+      "sha256": "afc70ca457389c36a184a51d27de427829b303512f90400438c760955e6ff545"
+    },
+    {
+      "path": "figures\\completed_model_calibration.svg",
+      "sha256": "92131ea8ab2ef5a9087499004b0b442835e6934345d2ba70774db2810d52605c"
+    },
+    {
+      "path": "figures\\completed_model_calibration.png",
+      "sha256": "a02bc8d33a81e94201a758d2a2372c4a3b2b2663acd36a5164a2fca50002dbaf"
+    }
+  ],
+  "model_recomputed_for_all_runs": true,
+  "answers_independently_recomputed": true,
+  "visual_review_pending": true
+}

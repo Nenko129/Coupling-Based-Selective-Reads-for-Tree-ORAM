@@ -1,0 +1,7 @@
+﻿baseline,variant,workload,n,baseline_bytes_per_request,variant_bytes_per_request,bytes_saving_pct,ci95_low_pct,ci95_high_pct,needs_more_repeats,scope
+Path Z4,SDE,uniform,5,527664.0,338932.570703125,35.76734992284389,35.657788906122875,35.87691093956491,False,classical Path Z4/Z5 reference; tuned Z4 is primary
+Path Z5,SDE,uniform,5,657456.0,338932.570703125,48.447870168783155,48.359938194130734,48.535802143435575,False,classical Path Z4/Z5 reference; tuned Z4 is primary
+Path Z4,Path Z5,uniform,5,527664.0,657456.0,-24.59747111798418,-24.59747111798418,-24.59747111798418,False,classical Path Z4/Z5 reference; tuned Z4 is primary
+Path Z4,SDE,hot90,5,527664.0,338824.321875,35.787864649663426,35.68241131592789,35.893317983398966,False,classical Path Z4/Z5 reference; tuned Z4 is primary
+Path Z5,SDE,hot90,5,657456.0,338824.321875,48.46433497070526,48.37969975877895,48.54897018263157,False,classical Path Z4/Z5 reference; tuned Z4 is primary
+Path Z4,Path Z5,hot90,5,527664.0,657456.0,-24.59747111798418,-24.59747111798418,-24.59747111798418,False,classical Path Z4/Z5 reference; tuned Z4 is primary

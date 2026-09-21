@@ -1,0 +1,30 @@
+{
+  "status": "generated",
+  "source_sha256": "01d199a763a9f2c1750ce12df64b4821aa41a61aadca840673a104f4beea1a0b",
+  "generator_sha256": "9758a58eab7ac1f69e30f36f221929ee0ac3e61c61e751baaf344a2cf37134d2",
+  "outputs": [
+    {
+      "path": "output\\pdf\\completed_public_workloads.pdf",
+      "sha256": "8bb21e669613ceab73d29830db70acc9ed48a2f0f232f89b1b25f238c92be99c"
+    },
+    {
+      "path": "figures\\completed_public_workloads.svg",
+      "sha256": "4dd6dd76968c21c41590a0dcbb9f978547f284256774b1a3874875a39ef13860"
+    },
+    {
+      "path": "figures\\completed_public_workloads.png",
+      "sha256": "bd1c75f07b42c0b4f6528865cf72d7a15341471058ec94c40237c50507b2f31a"
+    },
+    {
+      "path": "figures\\completed_public_workloads_data.json",
+      "sha256": "84e99e27ea29c048f5269bddfdfd2f3c69d8ce954dd5a581df7203fccfe6b690"
+    },
+    {
+      "path": "42_公开负载完整结果与图表.md",
+      "sha256": "529823f3a52ef43ceb038c35e0e6d5e7dcddc9762a0f826ced173e13010819eb"
+    }
+  ],
+  "runs": 80,
+  "comparisons": 8,
+  "visual_review_pending": true
+}

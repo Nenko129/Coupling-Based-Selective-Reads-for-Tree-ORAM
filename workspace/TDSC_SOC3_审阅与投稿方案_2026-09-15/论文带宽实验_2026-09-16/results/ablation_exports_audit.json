@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "raw_records": 45,
+  "bars_recomputed": 16,
+  "pdf_pages": 1,
+  "pdf_sha256": "461ac29d2d91fdb9b25fcd8798a8c7cfa433b6c71e2f3a4c17e157c8f67ff08b",
+  "vector_content": true,
+  "embedded_fonts": true,
+  "source_sha256": "19d8056278e67610261cba9349e7032fc90492a7a410e4c048cd1f5db5e1e21d",
+  "export_receipt_sha256": "f62bb916e0448eca93aea120ca6030340c3799a3f8e7a0c314feb0cea0c13312",
+  "checker_sha256": "873999398d57c3a2e10f3e63001bc35dabf48bd9cc6be79469c7caf20e027a7e",
+  "visual_review": "separate render inspection required"
+}

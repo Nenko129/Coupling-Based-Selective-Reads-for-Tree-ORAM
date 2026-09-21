@@ -1,0 +1,22 @@
+{
+  "id": "B2_R0_76_cf10_seed102",
+  "kind": "r0",
+  "N": 16384,
+  "B": 4096,
+  "profile": [
+    7,
+    6,
+    6
+  ],
+  "map_B": 512,
+  "terminal_bytes": 32768,
+  "compact": true,
+  "fusion": false,
+  "R": 256,
+  "warmup": 2048,
+  "requests": 4096,
+  "trace_seed": 102,
+  "oram_seed": 1002,
+  "workload": "uniform",
+  "experiment_class": "formal_ablation"
+}

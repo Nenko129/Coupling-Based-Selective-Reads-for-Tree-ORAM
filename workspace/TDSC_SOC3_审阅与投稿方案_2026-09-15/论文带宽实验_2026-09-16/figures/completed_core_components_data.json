@@ -1,0 +1,1084 @@
+{
+  "source_sha256": "f1992ab2e079bdfebaa40a5652852cf1e2e053b395e3e9f6c09f43e2d36f1489",
+  "series": [
+    {
+      "figure": "core",
+      "panel": "absolute",
+      "metric": "bytes_per_request",
+      "kind": "path",
+      "workload": "uniform",
+      "ids": [
+        "B1_path_uniform_N16384_B4096_seed101",
+        "B1_path_uniform_N16384_B4096_seed102",
+        "B1_path_uniform_N16384_B4096_seed103",
+        "B1_path_uniform_N16384_B4096_seed104",
+        "B1_path_uniform_N16384_B4096_seed105"
+      ],
+      "mean": 541272.0,
+      "ci95": [
+        541272.0,
+        541272.0
+      ],
+      "values": [
+        541272.0,
+        541272.0,
+        541272.0,
+        541272.0,
+        541272.0
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "absolute",
+      "metric": "bytes_per_request",
+      "kind": "deferred",
+      "workload": "uniform",
+      "ids": [
+        "B1_deferred_uniform_N16384_B4096_seed101",
+        "B1_deferred_uniform_N16384_B4096_seed102",
+        "B1_deferred_uniform_N16384_B4096_seed103",
+        "B1_deferred_uniform_N16384_B4096_seed104",
+        "B1_deferred_uniform_N16384_B4096_seed105"
+      ],
+      "mean": 458045.40234375,
+      "ci95": [
+        458045.40234375,
+        458045.40234375
+      ],
+      "values": [
+        458045.40234375,
+        458045.40234375,
+        458045.40234375,
+        458045.40234375,
+        458045.40234375
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "absolute",
+      "metric": "bytes_per_request",
+      "kind": "sde",
+      "workload": "uniform",
+      "ids": [
+        "B1_sde_uniform_N16384_B4096_seed101",
+        "B1_sde_uniform_N16384_B4096_seed102",
+        "B1_sde_uniform_N16384_B4096_seed103",
+        "B1_sde_uniform_N16384_B4096_seed104",
+        "B1_sde_uniform_N16384_B4096_seed105"
+      ],
+      "mean": 347515.58828125,
+      "ci95": [
+        347367.3067989833,
+        347663.86976351665
+      ],
+      "values": [
+        347604.583984375,
+        347378.30078125,
+        347394.40625,
+        347575.50390625,
+        347625.146484375
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "absolute",
+      "metric": "bytes_per_request",
+      "kind": "ring",
+      "workload": "uniform",
+      "ids": [
+        "B1_ring_uniform_N16384_B4096_seed101",
+        "B1_ring_uniform_N16384_B4096_seed102",
+        "B1_ring_uniform_N16384_B4096_seed103",
+        "B1_ring_uniform_N16384_B4096_seed104",
+        "B1_ring_uniform_N16384_B4096_seed105"
+      ],
+      "mean": 418371.8,
+      "ci95": [
+        418244.66564620327,
+        418498.9343537967
+      ],
+      "values": [
+        418208.7890625,
+        418354.4921875,
+        418436.1015625,
+        418475.625,
+        418383.9921875
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "absolute",
+      "metric": "bytes_per_request",
+      "kind": "gc_ring",
+      "workload": "uniform",
+      "ids": [
+        "B1_gc_ring_uniform_N16384_B4096_seed101",
+        "B1_gc_ring_uniform_N16384_B4096_seed102",
+        "B1_gc_ring_uniform_N16384_B4096_seed103",
+        "B1_gc_ring_uniform_N16384_B4096_seed104",
+        "B1_gc_ring_uniform_N16384_B4096_seed105"
+      ],
+      "mean": 328789.5890625,
+      "ci95": [
+        328277.127494181,
+        329302.050630819
+      ],
+      "values": [
+        328425.01171875,
+        329322.4765625,
+        328897.57421875,
+        328979.0390625,
+        328323.84375
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "absolute",
+      "metric": "bytes_per_request",
+      "kind": "r0",
+      "workload": "uniform",
+      "ids": [
+        "B1_r0_uniform_N16384_B4096_seed101",
+        "B1_r0_uniform_N16384_B4096_seed102",
+        "B1_r0_uniform_N16384_B4096_seed103",
+        "B1_r0_uniform_N16384_B4096_seed104",
+        "B1_r0_uniform_N16384_B4096_seed105"
+      ],
+      "mean": 307356.26328125,
+      "ci95": [
+        306826.3431745491,
+        307886.18338795094
+      ],
+      "values": [
+        307175.84375,
+        307311.765625,
+        307500.87890625,
+        306817.6640625,
+        307975.1640625
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "paired",
+      "metric": "bytes_saving_pct",
+      "baseline": "path",
+      "variant": "sde",
+      "workload": "uniform",
+      "ids": [
+        [
+          "B1_path_uniform_N16384_B4096_seed101",
+          "B1_sde_uniform_N16384_B4096_seed101"
+        ],
+        [
+          "B1_path_uniform_N16384_B4096_seed102",
+          "B1_sde_uniform_N16384_B4096_seed102"
+        ],
+        [
+          "B1_path_uniform_N16384_B4096_seed103",
+          "B1_sde_uniform_N16384_B4096_seed103"
+        ],
+        [
+          "B1_path_uniform_N16384_B4096_seed104",
+          "B1_sde_uniform_N16384_B4096_seed104"
+        ],
+        [
+          "B1_path_uniform_N16384_B4096_seed105",
+          "B1_sde_uniform_N16384_B4096_seed105"
+        ]
+      ],
+      "mean": 35.796496349109134,
+      "ci95": [
+        35.769101345808274,
+        35.823891352409994
+      ],
+      "values": [
+        35.78005439328563,
+        35.82186021422685,
+        35.818884728934805,
+        35.785426937611774,
+        35.77625547148661
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "paired",
+      "metric": "bytes_saving_pct",
+      "baseline": "deferred",
+      "variant": "sde",
+      "workload": "uniform",
+      "ids": [
+        [
+          "B1_deferred_uniform_N16384_B4096_seed101",
+          "B1_sde_uniform_N16384_B4096_seed101"
+        ],
+        [
+          "B1_deferred_uniform_N16384_B4096_seed102",
+          "B1_sde_uniform_N16384_B4096_seed102"
+        ],
+        [
+          "B1_deferred_uniform_N16384_B4096_seed103",
+          "B1_sde_uniform_N16384_B4096_seed103"
+        ],
+        [
+          "B1_deferred_uniform_N16384_B4096_seed104",
+          "B1_sde_uniform_N16384_B4096_seed104"
+        ],
+        [
+          "B1_deferred_uniform_N16384_B4096_seed105",
+          "B1_sde_uniform_N16384_B4096_seed105"
+        ]
+      ],
+      "mean": 24.130755051122755,
+      "ci95": [
+        24.09838239079085,
+        24.16312771145466
+      ],
+      "values": [
+        24.11132560097008,
+        24.16072751658088,
+        24.157211387247933,
+        24.11767433364509,
+        24.106836417169784
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "paired",
+      "metric": "bytes_saving_pct",
+      "baseline": "ring",
+      "variant": "gc_ring",
+      "workload": "uniform",
+      "ids": [
+        [
+          "B1_ring_uniform_N16384_B4096_seed101",
+          "B1_gc_ring_uniform_N16384_B4096_seed101"
+        ],
+        [
+          "B1_ring_uniform_N16384_B4096_seed102",
+          "B1_gc_ring_uniform_N16384_B4096_seed102"
+        ],
+        [
+          "B1_ring_uniform_N16384_B4096_seed103",
+          "B1_gc_ring_uniform_N16384_B4096_seed103"
+        ],
+        [
+          "B1_ring_uniform_N16384_B4096_seed104",
+          "B1_gc_ring_uniform_N16384_B4096_seed104"
+        ],
+        [
+          "B1_ring_uniform_N16384_B4096_seed105",
+          "B1_gc_ring_uniform_N16384_B4096_seed105"
+        ]
+      ],
+      "mean": 21.412109802212534,
+      "ci95": [
+        21.297598678612943,
+        21.526620925812125
+      ],
+      "values": [
+        21.468649079570657,
+        21.28147714142322,
+        21.39837528583226,
+        21.386331865207197,
+        21.525715639029343
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "paired",
+      "metric": "bytes_saving_pct",
+      "baseline": "ring",
+      "variant": "r0",
+      "workload": "uniform",
+      "ids": [
+        [
+          "B1_ring_uniform_N16384_B4096_seed101",
+          "B1_r0_uniform_N16384_B4096_seed101"
+        ],
+        [
+          "B1_ring_uniform_N16384_B4096_seed102",
+          "B1_r0_uniform_N16384_B4096_seed102"
+        ],
+        [
+          "B1_ring_uniform_N16384_B4096_seed103",
+          "B1_r0_uniform_N16384_B4096_seed103"
+        ],
+        [
+          "B1_ring_uniform_N16384_B4096_seed104",
+          "B1_r0_uniform_N16384_B4096_seed104"
+        ],
+        [
+          "B1_ring_uniform_N16384_B4096_seed105",
+          "B1_r0_uniform_N16384_B4096_seed105"
+        ]
+      ],
+      "mean": 26.535133999986503,
+      "ci95": [
+        26.40542300512291,
+        26.664844994850096
+      ],
+      "values": [
+        26.54964415296075,
+        26.542735559471986,
+        26.511866983274647,
+        26.682070416287683,
+        26.389352887937445
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "paired",
+      "metric": "bytes_saving_pct",
+      "baseline": "gc_ring",
+      "variant": "r0",
+      "workload": "uniform",
+      "ids": [
+        [
+          "B1_gc_ring_uniform_N16384_B4096_seed101",
+          "B1_r0_uniform_N16384_B4096_seed101"
+        ],
+        [
+          "B1_gc_ring_uniform_N16384_B4096_seed102",
+          "B1_r0_uniform_N16384_B4096_seed102"
+        ],
+        [
+          "B1_gc_ring_uniform_N16384_B4096_seed103",
+          "B1_r0_uniform_N16384_B4096_seed103"
+        ],
+        [
+          "B1_gc_ring_uniform_N16384_B4096_seed104",
+          "B1_r0_uniform_N16384_B4096_seed104"
+        ],
+        [
+          "B1_gc_ring_uniform_N16384_B4096_seed105",
+          "B1_r0_uniform_N16384_B4096_seed105"
+        ]
+      ],
+      "mean": 6.518678387327334,
+      "ci95": [
+        6.255169258745033,
+        6.782187515909635
+      ],
+      "values": [
+        6.470021225711919,
+        6.68363458432899,
+        6.5055801531296975,
+        6.736409426920886,
+        6.197746546545179
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "absolute",
+      "metric": "bytes_per_request",
+      "kind": "path",
+      "workload": "hot90",
+      "ids": [
+        "B1_path_hot90_N16384_B4096_seed101",
+        "B1_path_hot90_N16384_B4096_seed102",
+        "B1_path_hot90_N16384_B4096_seed103",
+        "B1_path_hot90_N16384_B4096_seed104",
+        "B1_path_hot90_N16384_B4096_seed105"
+      ],
+      "mean": 541272.0,
+      "ci95": [
+        541272.0,
+        541272.0
+      ],
+      "values": [
+        541272.0,
+        541272.0,
+        541272.0,
+        541272.0,
+        541272.0
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "absolute",
+      "metric": "bytes_per_request",
+      "kind": "deferred",
+      "workload": "hot90",
+      "ids": [
+        "B1_deferred_hot90_N16384_B4096_seed101",
+        "B1_deferred_hot90_N16384_B4096_seed102",
+        "B1_deferred_hot90_N16384_B4096_seed103",
+        "B1_deferred_hot90_N16384_B4096_seed104",
+        "B1_deferred_hot90_N16384_B4096_seed105"
+      ],
+      "mean": 458045.40234375,
+      "ci95": [
+        458045.40234375,
+        458045.40234375
+      ],
+      "values": [
+        458045.40234375,
+        458045.40234375,
+        458045.40234375,
+        458045.40234375,
+        458045.40234375
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "absolute",
+      "metric": "bytes_per_request",
+      "kind": "sde",
+      "workload": "hot90",
+      "ids": [
+        "B1_sde_hot90_N16384_B4096_seed101",
+        "B1_sde_hot90_N16384_B4096_seed102",
+        "B1_sde_hot90_N16384_B4096_seed103",
+        "B1_sde_hot90_N16384_B4096_seed104",
+        "B1_sde_hot90_N16384_B4096_seed105"
+      ],
+      "mean": 347034.652734375,
+      "ci95": [
+        346653.7074515536,
+        347415.59801719635
+      ],
+      "values": [
+        346808.2109375,
+        346671.19140625,
+        347425.6328125,
+        347032.921875,
+        347235.306640625
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "absolute",
+      "metric": "bytes_per_request",
+      "kind": "ring",
+      "workload": "hot90",
+      "ids": [
+        "B1_ring_hot90_N16384_B4096_seed101",
+        "B1_ring_hot90_N16384_B4096_seed102",
+        "B1_ring_hot90_N16384_B4096_seed103",
+        "B1_ring_hot90_N16384_B4096_seed104",
+        "B1_ring_hot90_N16384_B4096_seed105"
+      ],
+      "mean": 418668.196875,
+      "ci95": [
+        418431.34577749844,
+        418905.0479725016
+      ],
+      "values": [
+        418947.84375,
+        418667.3671875,
+        418452.96875,
+        418538.9375,
+        418733.8671875
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "absolute",
+      "metric": "bytes_per_request",
+      "kind": "gc_ring",
+      "workload": "hot90",
+      "ids": [
+        "B1_gc_ring_hot90_N16384_B4096_seed101",
+        "B1_gc_ring_hot90_N16384_B4096_seed102",
+        "B1_gc_ring_hot90_N16384_B4096_seed103",
+        "B1_gc_ring_hot90_N16384_B4096_seed104",
+        "B1_gc_ring_hot90_N16384_B4096_seed105"
+      ],
+      "mean": 328815.284375,
+      "ci95": [
+        328096.8970378729,
+        329533.67171212705
+      ],
+      "values": [
+        328547.6875,
+        329314.43359375,
+        329479.88671875,
+        328071.43359375,
+        328662.98046875
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "absolute",
+      "metric": "bytes_per_request",
+      "kind": "r0",
+      "workload": "hot90",
+      "ids": [
+        "B1_r0_hot90_N16384_B4096_seed101",
+        "B1_r0_hot90_N16384_B4096_seed102",
+        "B1_r0_hot90_N16384_B4096_seed103",
+        "B1_r0_hot90_N16384_B4096_seed104",
+        "B1_r0_hot90_N16384_B4096_seed105"
+      ],
+      "mean": 307162.09609375,
+      "ci95": [
+        306506.41753200116,
+        307817.7746554988
+      ],
+      "values": [
+        307190.30078125,
+        307892.078125,
+        307413.2890625,
+        306589.51953125,
+        306725.29296875
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "paired",
+      "metric": "bytes_saving_pct",
+      "baseline": "path",
+      "variant": "sde",
+      "workload": "hot90",
+      "ids": [
+        [
+          "B1_path_hot90_N16384_B4096_seed101",
+          "B1_sde_hot90_N16384_B4096_seed101"
+        ],
+        [
+          "B1_path_hot90_N16384_B4096_seed102",
+          "B1_sde_hot90_N16384_B4096_seed102"
+        ],
+        [
+          "B1_path_hot90_N16384_B4096_seed103",
+          "B1_sde_hot90_N16384_B4096_seed103"
+        ],
+        [
+          "B1_path_hot90_N16384_B4096_seed104",
+          "B1_sde_hot90_N16384_B4096_seed104"
+        ],
+        [
+          "B1_path_hot90_N16384_B4096_seed105",
+          "B1_sde_hot90_N16384_B4096_seed105"
+        ]
+      ],
+      "mean": 35.88534918961724,
+      "ci95": [
+        35.814969550023584,
+        35.95572882921089
+      ],
+      "values": [
+        35.92718431075319,
+        35.95249866864534,
+        35.81311562162831,
+        35.88566896588037,
+        35.848278381178964
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "paired",
+      "metric": "bytes_saving_pct",
+      "baseline": "deferred",
+      "variant": "sde",
+      "workload": "hot90",
+      "ids": [
+        [
+          "B1_deferred_hot90_N16384_B4096_seed101",
+          "B1_sde_hot90_N16384_B4096_seed101"
+        ],
+        [
+          "B1_deferred_hot90_N16384_B4096_seed102",
+          "B1_sde_hot90_N16384_B4096_seed102"
+        ],
+        [
+          "B1_deferred_hot90_N16384_B4096_seed103",
+          "B1_sde_hot90_N16384_B4096_seed103"
+        ],
+        [
+          "B1_deferred_hot90_N16384_B4096_seed104",
+          "B1_sde_hot90_N16384_B4096_seed104"
+        ],
+        [
+          "B1_deferred_hot90_N16384_B4096_seed105",
+          "B1_sde_hot90_N16384_B4096_seed105"
+        ]
+      ],
+      "mean": 24.23575240387733,
+      "ci95": [
+        24.152584822482098,
+        24.318919985272565
+      ],
+      "values": [
+        24.285188943512125,
+        24.315102906309015,
+        24.15039403631717,
+        24.236130283311585,
+        24.19194584993677
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "paired",
+      "metric": "bytes_saving_pct",
+      "baseline": "ring",
+      "variant": "gc_ring",
+      "workload": "hot90",
+      "ids": [
+        [
+          "B1_ring_hot90_N16384_B4096_seed101",
+          "B1_gc_ring_hot90_N16384_B4096_seed101"
+        ],
+        [
+          "B1_ring_hot90_N16384_B4096_seed102",
+          "B1_gc_ring_hot90_N16384_B4096_seed102"
+        ],
+        [
+          "B1_ring_hot90_N16384_B4096_seed103",
+          "B1_gc_ring_hot90_N16384_B4096_seed103"
+        ],
+        [
+          "B1_ring_hot90_N16384_B4096_seed104",
+          "B1_gc_ring_hot90_N16384_B4096_seed104"
+        ],
+        [
+          "B1_ring_hot90_N16384_B4096_seed105",
+          "B1_gc_ring_hot90_N16384_B4096_seed105"
+        ]
+      ],
+      "mean": 21.461576363514975,
+      "ci95": [
+        21.27185287819234,
+        21.65129984883761
+      ],
+      "values": [
+        21.577902261252536,
+        21.34222549849063,
+        21.262385184416253,
+        21.61507468017835,
+        21.51029419323711
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "paired",
+      "metric": "bytes_saving_pct",
+      "baseline": "ring",
+      "variant": "r0",
+      "workload": "hot90",
+      "ids": [
+        [
+          "B1_ring_hot90_N16384_B4096_seed101",
+          "B1_r0_hot90_N16384_B4096_seed101"
+        ],
+        [
+          "B1_ring_hot90_N16384_B4096_seed102",
+          "B1_r0_hot90_N16384_B4096_seed102"
+        ],
+        [
+          "B1_ring_hot90_N16384_B4096_seed103",
+          "B1_r0_hot90_N16384_B4096_seed103"
+        ],
+        [
+          "B1_ring_hot90_N16384_B4096_seed104",
+          "B1_r0_hot90_N16384_B4096_seed104"
+        ],
+        [
+          "B1_ring_hot90_N16384_B4096_seed105",
+          "B1_r0_hot90_N16384_B4096_seed105"
+        ]
+      ],
+      "mean": 26.633513104880855,
+      "ci95": [
+        26.471337498442313,
+        26.795688711319396
+      ],
+      "values": [
+        26.675765166472466,
+        26.459021587151632,
+        26.535761000620216,
+        26.747670990288686,
+        26.749346779871274
+      ]
+    },
+    {
+      "figure": "core",
+      "panel": "paired",
+      "metric": "bytes_saving_pct",
+      "baseline": "gc_ring",
+      "variant": "r0",
+      "workload": "hot90",
+      "ids": [
+        [
+          "B1_gc_ring_hot90_N16384_B4096_seed101",
+          "B1_r0_hot90_N16384_B4096_seed101"
+        ],
+        [
+          "B1_gc_ring_hot90_N16384_B4096_seed102",
+          "B1_r0_hot90_N16384_B4096_seed102"
+        ],
+        [
+          "B1_gc_ring_hot90_N16384_B4096_seed103",
+          "B1_r0_hot90_N16384_B4096_seed103"
+        ],
+        [
+          "B1_gc_ring_hot90_N16384_B4096_seed104",
+          "B1_r0_hot90_N16384_B4096_seed104"
+        ],
+        [
+          "B1_gc_ring_hot90_N16384_B4096_seed105",
+          "B1_r0_hot90_N16384_B4096_seed105"
+        ]
+      ],
+      "mean": 6.5851700497125165,
+      "ci95": [
+        6.468051572948813,
+        6.70228852647622
+      ],
+      "values": [
+        6.500543918377144,
+        6.50513712228512,
+        6.6974035580771085,
+        6.5479379984973,
+        6.674827651325909
+      ]
+    },
+    {
+      "figure": "static_components",
+      "panel": "IR",
+      "metric": "bytes_saving_pct",
+      "layout": "uniform",
+      "B": 64,
+      "baseline": "deferred",
+      "variant": "sde",
+      "ids": [
+        [
+          "CC2_IR_uniform_deferred_N4096_B64_seed101",
+          "CC2_IR_uniform_sde_N4096_B64_seed101"
+        ],
+        [
+          "CC2_IR_uniform_deferred_N4096_B64_seed102",
+          "CC2_IR_uniform_sde_N4096_B64_seed102"
+        ],
+        [
+          "CC2_IR_uniform_deferred_N4096_B64_seed103",
+          "CC2_IR_uniform_sde_N4096_B64_seed103"
+        ],
+        [
+          "CC2_IR_uniform_deferred_N4096_B64_seed104",
+          "CC2_IR_uniform_sde_N4096_B64_seed104"
+        ],
+        [
+          "CC2_IR_uniform_deferred_N4096_B64_seed105",
+          "CC2_IR_uniform_sde_N4096_B64_seed105"
+        ]
+      ],
+      "mean": 20.251962312506677,
+      "ci95": [
+        20.129414859611902,
+        20.374509765401452
+      ],
+      "values": [
+        20.31394145240898,
+        20.373322664291415,
+        20.26012722914051,
+        20.187756377158784,
+        20.124663839533696
+      ]
+    },
+    {
+      "figure": "static_components",
+      "panel": "IR",
+      "metric": "bytes_saving_pct",
+      "layout": "uniform",
+      "B": 4096,
+      "baseline": "deferred",
+      "variant": "sde",
+      "ids": [
+        [
+          "CC2_IR_uniform_deferred_N4096_B4096_seed101",
+          "CC2_IR_uniform_sde_N4096_B4096_seed101"
+        ],
+        [
+          "CC2_IR_uniform_deferred_N4096_B4096_seed102",
+          "CC2_IR_uniform_sde_N4096_B4096_seed102"
+        ],
+        [
+          "CC2_IR_uniform_deferred_N4096_B4096_seed103",
+          "CC2_IR_uniform_sde_N4096_B4096_seed103"
+        ],
+        [
+          "CC2_IR_uniform_deferred_N4096_B4096_seed104",
+          "CC2_IR_uniform_sde_N4096_B4096_seed104"
+        ],
+        [
+          "CC2_IR_uniform_deferred_N4096_B4096_seed105",
+          "CC2_IR_uniform_sde_N4096_B4096_seed105"
+        ]
+      ],
+      "mean": 22.905246165210713,
+      "ci95": [
+        22.728923213151397,
+        23.08156911727003
+      ],
+      "values": [
+        22.886514023867054,
+        22.95519854212712,
+        23.102974323838154,
+        22.71168070465963,
+        22.869863231561595
+      ]
+    },
+    {
+      "figure": "static_components",
+      "panel": "IR",
+      "metric": "bytes_saving_pct",
+      "layout": "depth",
+      "B": 64,
+      "baseline": "deferred",
+      "variant": "sde",
+      "ids": [
+        [
+          "CC2_IR_depth_deferred_N4096_B64_seed101",
+          "CC2_IR_depth_sde_N4096_B64_seed101"
+        ],
+        [
+          "CC2_IR_depth_deferred_N4096_B64_seed102",
+          "CC2_IR_depth_sde_N4096_B64_seed102"
+        ],
+        [
+          "CC2_IR_depth_deferred_N4096_B64_seed103",
+          "CC2_IR_depth_sde_N4096_B64_seed103"
+        ],
+        [
+          "CC2_IR_depth_deferred_N4096_B64_seed104",
+          "CC2_IR_depth_sde_N4096_B64_seed104"
+        ],
+        [
+          "CC2_IR_depth_deferred_N4096_B64_seed105",
+          "CC2_IR_depth_sde_N4096_B64_seed105"
+        ]
+      ],
+      "mean": 19.24489278322613,
+      "ci95": [
+        19.030011067355307,
+        19.459774499096955
+      ],
+      "values": [
+        19.359845972001278,
+        19.350027586115527,
+        19.22099270269171,
+        18.95222917579501,
+        19.341368479527134
+      ]
+    },
+    {
+      "figure": "static_components",
+      "panel": "IR",
+      "metric": "bytes_saving_pct",
+      "layout": "depth",
+      "B": 4096,
+      "baseline": "deferred",
+      "variant": "sde",
+      "ids": [
+        [
+          "CC2_IR_depth_deferred_N4096_B4096_seed101",
+          "CC2_IR_depth_sde_N4096_B4096_seed101"
+        ],
+        [
+          "CC2_IR_depth_deferred_N4096_B4096_seed102",
+          "CC2_IR_depth_sde_N4096_B4096_seed102"
+        ],
+        [
+          "CC2_IR_depth_deferred_N4096_B4096_seed103",
+          "CC2_IR_depth_sde_N4096_B4096_seed103"
+        ],
+        [
+          "CC2_IR_depth_deferred_N4096_B4096_seed104",
+          "CC2_IR_depth_sde_N4096_B4096_seed104"
+        ],
+        [
+          "CC2_IR_depth_deferred_N4096_B4096_seed105",
+          "CC2_IR_depth_sde_N4096_B4096_seed105"
+        ]
+      ],
+      "mean": 21.528347163914358,
+      "ci95": [
+        21.435147457893237,
+        21.62154686993548
+      ],
+      "values": [
+        21.628913971911047,
+        21.549086873845415,
+        21.51690409317758,
+        21.419441094201396,
+        21.52738978643636
+      ]
+    },
+    {
+      "figure": "static_components",
+      "panel": "AB",
+      "metric": "bytes_saving_pct",
+      "layout": "uniform",
+      "B": 64,
+      "baseline": "ring",
+      "variant": "r0",
+      "ids": [
+        [
+          "CC_AB_uniform_ring_N4096_B64_seed101",
+          "CC_AB_uniform_r0_N4096_B64_seed101"
+        ],
+        [
+          "CC_AB_uniform_ring_N4096_B64_seed102",
+          "CC_AB_uniform_r0_N4096_B64_seed102"
+        ],
+        [
+          "CC_AB_uniform_ring_N4096_B64_seed103",
+          "CC_AB_uniform_r0_N4096_B64_seed103"
+        ],
+        [
+          "CC_AB_uniform_ring_N4096_B64_seed104",
+          "CC_AB_uniform_r0_N4096_B64_seed104"
+        ],
+        [
+          "CC_AB_uniform_ring_N4096_B64_seed105",
+          "CC_AB_uniform_r0_N4096_B64_seed105"
+        ]
+      ],
+      "mean": 24.830239177460577,
+      "ci95": [
+        24.50402115990666,
+        25.156457195014493
+      ],
+      "values": [
+        25.043864521401172,
+        24.56460079087104,
+        25.00012054525027,
+        25.020398504473217,
+        24.522211525307192
+      ]
+    },
+    {
+      "figure": "static_components",
+      "panel": "AB",
+      "metric": "bytes_saving_pct",
+      "layout": "uniform",
+      "B": 4096,
+      "baseline": "ring",
+      "variant": "r0",
+      "ids": [
+        [
+          "CC_AB_uniform_ring_N4096_B4096_seed101",
+          "CC_AB_uniform_r0_N4096_B4096_seed101"
+        ],
+        [
+          "CC_AB_uniform_ring_N4096_B4096_seed102",
+          "CC_AB_uniform_r0_N4096_B4096_seed102"
+        ],
+        [
+          "CC_AB_uniform_ring_N4096_B4096_seed103",
+          "CC_AB_uniform_r0_N4096_B4096_seed103"
+        ],
+        [
+          "CC_AB_uniform_ring_N4096_B4096_seed104",
+          "CC_AB_uniform_r0_N4096_B4096_seed104"
+        ],
+        [
+          "CC_AB_uniform_ring_N4096_B4096_seed105",
+          "CC_AB_uniform_r0_N4096_B4096_seed105"
+        ]
+      ],
+      "mean": 23.979999500243494,
+      "ci95": [
+        23.628072151228785,
+        24.331926849258203
+      ],
+      "values": [
+        23.86543192714243,
+        23.940400375609972,
+        24.21467492328967,
+        24.292114023868837,
+        23.58737625130656
+      ]
+    },
+    {
+      "figure": "static_components",
+      "panel": "AB",
+      "metric": "bytes_saving_pct",
+      "layout": "depth",
+      "B": 64,
+      "baseline": "ring",
+      "variant": "r0",
+      "ids": [
+        [
+          "CC_AB_depth_ring_N4096_B64_seed101",
+          "CC_AB_depth_r0_N4096_B64_seed101"
+        ],
+        [
+          "CC_AB_depth_ring_N4096_B64_seed102",
+          "CC_AB_depth_r0_N4096_B64_seed102"
+        ],
+        [
+          "CC_AB_depth_ring_N4096_B64_seed103",
+          "CC_AB_depth_r0_N4096_B64_seed103"
+        ],
+        [
+          "CC_AB_depth_ring_N4096_B64_seed104",
+          "CC_AB_depth_r0_N4096_B64_seed104"
+        ],
+        [
+          "CC_AB_depth_ring_N4096_B64_seed105",
+          "CC_AB_depth_r0_N4096_B64_seed105"
+        ]
+      ],
+      "mean": 25.770423245545377,
+      "ci95": [
+        25.34135161049055,
+        26.199494880600206
+      ],
+      "values": [
+        25.652954257699744,
+        26.0926588594109,
+        25.726435559140093,
+        25.27460796923663,
+        26.105459582239522
+      ]
+    },
+    {
+      "figure": "static_components",
+      "panel": "AB",
+      "metric": "bytes_saving_pct",
+      "layout": "depth",
+      "B": 4096,
+      "baseline": "ring",
+      "variant": "r0",
+      "ids": [
+        [
+          "CC_AB_depth_ring_N4096_B4096_seed101",
+          "CC_AB_depth_r0_N4096_B4096_seed101"
+        ],
+        [
+          "CC_AB_depth_ring_N4096_B4096_seed102",
+          "CC_AB_depth_r0_N4096_B4096_seed102"
+        ],
+        [
+          "CC_AB_depth_ring_N4096_B4096_seed103",
+          "CC_AB_depth_r0_N4096_B4096_seed103"
+        ],
+        [
+          "CC_AB_depth_ring_N4096_B4096_seed104",
+          "CC_AB_depth_r0_N4096_B4096_seed104"
+        ],
+        [
+          "CC_AB_depth_ring_N4096_B4096_seed105",
+          "CC_AB_depth_r0_N4096_B4096_seed105"
+        ]
+      ],
+      "mean": 25.94711503084858,
+      "ci95": [
+        25.70165601526642,
+        26.19257404643074
+      ],
+      "values": [
+        25.756510947534352,
+        25.720934675957498,
+        26.124017727560023,
+        26.13325495473188,
+        26.000856848459144
+      ]
+    }
+  ],
+  "unit_for_absolute_plot": "KiB = 1024 bytes",
+  "raw_units": "bytes/request or percent",
+  "performance_scope": "fixed profiles and static components"
+}

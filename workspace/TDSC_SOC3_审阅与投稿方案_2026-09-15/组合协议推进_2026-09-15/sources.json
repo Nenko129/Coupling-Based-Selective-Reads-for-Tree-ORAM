@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-15",
+  "papers": [
+    {
+      "title": "Freecursive ORAM",
+      "primary_url": "https://people.csail.mit.edu/devadas/pubs/freecursive.pdf",
+      "local_paper": "C:\\Users\\12038\\Desktop\\for gpt\\free.pdf",
+      "sha256": "949b5fb11a73c1033edfb65f1f4c3adeede75820577b7d2d5b692c4ed55135ac",
+      "reviewed_mechanisms": "unified tree / PLB; compressed PosMap; PMMAC",
+      "access_note": "user-provided paper; public primary URL separately checked"
+    },
+    {
+      "title": "rho: Relaxed Hierarchical ORAM",
+      "primary_url": "https://users.cs.utah.edu/~rajeev/pubs/asplos19.pdf",
+      "local_paper": "C:\\Users\\12038\\Desktop\\for gpt\\ro.pdf",
+      "sha256": "0f3d7fbda22f79a65096bf29146910fa3e56d2af4bd0dcbf5f589e55ac514b35",
+      "reviewed_mechanisms": "exclusive caches; rho-tree; scheduling; ECC/compact",
+      "access_note": "user-provided paper; public primary URL separately checked"
+    }
+  ],
+  "frozen_dependencies": [
+    {
+      "path": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\proofs\\01_fusion.md",
+      "sha256": "c4eeb8ec3839f16e4f470590ad115e6eec547a46bed74142bbc09979284a3a77"
+    },
+    {
+      "path": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\proofs\\02_parameterized_reduction.md",
+      "sha256": "de7c83c975bf30c676c67c1532369c12ec6d87c2acc54685fd0fa10fe658f244"
+    },
+    {
+      "path": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\proofs\\03_numerical_audit.md",
+      "sha256": "f0be84ca892246242978f3ea4e81de1ed4bb166047a5d4e5033655150038c321"
+    },
+    {
+      "path": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py",
+      "sha256": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644"
+    },
+    {
+      "path": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py",
+      "sha256": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6"
+    },
+    {
+      "path": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py",
+      "sha256": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a"
+    },
+    {
+      "path": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\numerics\\z7a6_up_c280_h24.csv",
+      "sha256": "a2751c07f198a2d3d39cc83a591a683595e700243e8f1b64f748f40cf938d93e"
+    },
+    {
+      "path": "D:\\projects\\SDE-R0\\SOC3_audit_2026-09-15\\selective_oram_final_chain_2026-09-11\\certificates\\ghost_up_c280_h31.csv",
+      "sha256": "2fe3269cfa5abd238a3e52cba48499ff247704203c77b826ee5a33bf6f1645e8"
+    }
+  ],
+  "prior_screening": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\候选评估与组合建议.md",
+  "new_theorem_status": "relative extension argument under explicit contract; no claim of new independent third-party audit"
+}

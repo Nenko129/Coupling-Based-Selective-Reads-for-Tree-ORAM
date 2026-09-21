@@ -1,0 +1,14 @@
+{
+  "status": "preparation_checked",
+  "plan_sha256": "e11d4a653562f7bc1d616a3efa8b2f68e184e67a1acc7ec7dda831e3915b802a",
+  "replay_sha256": "e291aedb418ffe5fc32387e67101b25ab283d38fdf9335c5a188886be1d2e1ed",
+  "small_runner_checks_sha256": "98402facad0ba641a18936de1a8c0fae9721f24457d138ecdad7a5490550ed28",
+  "report_sha256": "50b6e112fa4a263b9991cd56400f358bf412a65a3cec1e8424c75a7ce9fe07f3",
+  "producer_sha256": "36ca7f813a0c704b562f2e22647e82661242cbe873034064349c496eb2f38de4",
+  "old_encrypted_receipts_crosschecked": 30,
+  "new_small_encrypted_checks": 6,
+  "planned_formal_runs": 30,
+  "target_experiment_complete": false,
+  "model_bandwidth_claim": false,
+  "original_outcomes_replaced": false
+}

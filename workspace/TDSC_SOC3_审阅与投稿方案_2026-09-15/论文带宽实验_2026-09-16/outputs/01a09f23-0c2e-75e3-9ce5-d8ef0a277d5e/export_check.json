@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "xlsx_sha256": "25d6b91a70b8544c07cca9824e6a544674ed7af946dc73ab76b4bd7bb1a3416c",
+  "source_rows_checked": 240,
+  "summary_rows_checked": 24,
+  "formula_error_cells": [],
+  "table_sources_sort_together": true,
+  "reader": "openpyxl read only verification; no native Excel execution",
+  "checker_sha256": "b0d9725154c8aba22e5c1c8b839f674a8e41bd5fb560892b76824ec18d470988"
+}

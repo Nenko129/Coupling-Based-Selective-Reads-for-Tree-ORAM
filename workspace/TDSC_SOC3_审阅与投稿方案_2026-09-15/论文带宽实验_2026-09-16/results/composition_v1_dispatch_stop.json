@@ -1,0 +1,9 @@
+{
+  "reason": "Stop future dispatch after verified Path Transfer stash-replacement bug; active children are allowed to finish",
+  "parent_pid": 51348,
+  "children": [
+    32236,
+    9484
+  ],
+  "timestamp": "2026-09-16T03:28:17.0686461+08:00"
+}

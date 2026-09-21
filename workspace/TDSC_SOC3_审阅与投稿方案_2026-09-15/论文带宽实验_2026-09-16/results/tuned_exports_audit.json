@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "source_sha256": "95cce6875213b6ac718b6816a57f4d7fb470de5ff286270c09edaa79b65890ea",
+  "export_sha256": "8e3ecd4ca447917a609e6ad77897554ff35d05314cd7a8627a5cdc95c5edb68f",
+  "checker_sha256": "a8fdfd1ea47b2eb236fffc5e6cac2989bdae0f110a981e1c685c40295c352a43",
+  "raw_runs_checked": 50,
+  "series_recomputed": 16,
+  "csv_observations": 50,
+  "csv_comparisons": 6,
+  "pdf_sha256": "83ae3e3e3f7f55c072a5146bd076367cdf79fa912c94ed37470970797dfdb10b",
+  "pages": 1,
+  "vector": true,
+  "embedded_fonts": true,
+  "visual_review": "separate final rendering inspection"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "B4_r0_N16384_B1024_seed105",
+  "kind": "r0",
+  "N": 16384,
+  "B": 1024,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "map_B": 512,
+  "terminal_bytes": 32768,
+  "compact": true,
+  "fusion": true,
+  "R": 256,
+  "warmup": 2048,
+  "requests": 4096,
+  "trace_seed": 105,
+  "oram_seed": 1005,
+  "workload": "uniform",
+  "study": "size_slice",
+  "experiment_class": "formal_slices"
+}

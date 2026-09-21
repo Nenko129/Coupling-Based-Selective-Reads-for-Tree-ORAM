@@ -1,0 +1,25 @@
+{
+  "mode": "core-quick",
+  "integrity": {
+    "release_files": 8473,
+    "original_audit_files_checked": 231,
+    "declared_original_omissions": [
+      "receipts/relocated_evidence.zip",
+      "sources/baselines/path.pdf",
+      "sources/baselines/ring.pdf",
+      "sources/index.html",
+      "sources/README.md",
+      "sources/SDE_R0_\u5b8c\u6574\u6280\u672f\u62a5\u544a.pdf",
+      "sources/source_manifest.json"
+    ]
+  },
+  "status": "passed",
+  "tasks": [
+    {
+      "label": "core-quick",
+      "returncode": 0,
+      "log": "core-quick.log"
+    }
+  ],
+  "elapsed_seconds": 128.8408796787262
+}

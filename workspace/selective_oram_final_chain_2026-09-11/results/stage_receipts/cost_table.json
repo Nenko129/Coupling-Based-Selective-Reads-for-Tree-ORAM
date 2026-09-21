@@ -1,0 +1,8 @@
+{
+  "stage": "cost_table",
+  "input_contract_sha256": "b40155e23d2d62cead87a89321cb88463ac0b36126782967fd490a813d41d19e",
+  "executed_in_this_stage": true,
+  "outputs_sha256": {
+    "results/unified_cost_table.json": "d66a19a003bc8046ceffe11657bab998286130db61f6ff0b014b847923e359a2"
+  }
+}

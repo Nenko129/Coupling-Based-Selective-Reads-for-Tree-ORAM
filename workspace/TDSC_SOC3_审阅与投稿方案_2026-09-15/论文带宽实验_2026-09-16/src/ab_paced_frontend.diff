@@ -1,0 +1,35 @@
+--- ab_geometry_frontend.py
++++ ab_paced_frontend.py
+@@ -1,13 +1,15 @@
+ """Same unified map frontend with an explicit public tree-height parameter.
+ 
+ Generated from the frozen Freecursive constructor; no lookup or map algorithm
+-is replaced. The real Backend binding is supplied by ab_cb_runtime.install.
++is replaced. One record is admitted every A public slots during initialization.
++The remaining A-1 slots are ordinary CB dummy Transfers, billed to setup.
++Backend is bound explicitly by the new driver; earlier drivers are unchanged.
+ """
+ from frontends import *
+ from ir_dwb_controller import StepwiseFront
+ 
+ 
+-class GeometryFront(FreecursiveFront):
++class PacedGeometryFront(FreecursiveFront):
+     def __init__(self,kind='sde',N=256,B=64,X=None,beta=14,compressed=True,plb=4,seed=0,profile=(4,3,4),L=None):
+         self.N=N;self.B=B;self.compressed=compressed;self.beta=beta
+         self.X=X or (32 if compressed else B//4)
+@@ -28,11 +30,12 @@
+                 a=self.addr(level,i)
+                 payload=initial_payload(i,B) if level==0 else self.encode_map(level,i,0,[0]*self.X)
+                 self.backend.tick(None,self.padding.fresh('init'),admit=(a,self.initial_leaf(level,i),payload))
++                for _ in range(A-1):self.backend.tick(None,self.padding.fresh('init-cadence'))
+         self.metrics.clear()
+ 
+ 
+-class GeometryStepwiseFront(StepwiseFront):
++class PacedGeometryStepwiseFront(StepwiseFront):
+     def __init__(self,*args,**kwargs):
+         kwargs['compressed']=False
+-        GeometryFront.__init__(self,*args,**kwargs)
++        PacedGeometryFront.__init__(self,*args,**kwargs)
+         self.pending_writeback=None

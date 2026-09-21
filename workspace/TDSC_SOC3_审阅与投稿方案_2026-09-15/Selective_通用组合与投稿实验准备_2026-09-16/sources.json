@@ -1,0 +1,290 @@
+{
+  "papers": [
+    {
+      "title": "Freecursive ORAM",
+      "year": 2015,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\free.pdf",
+      "source_sha256": "949b5fb11a73c1033edfb65f1f4c3adeede75820577b7d2d5b692c4ed55135ac",
+      "public_primary_url": "https://people.csail.mit.edu/devadas/pubs/freecursive.pdf",
+      "read_scope_pdf_pages": "4–7, 9",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\free.txt",
+      "text_sha256": "f94e5fee96ce08fb044fcd40f98aacf8e766283b68fa9028673d341d5d7d71f3",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "ρ: Relaxed Hierarchical ORAM",
+      "year": 2019,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\ro.pdf",
+      "source_sha256": "0f3d7fbda22f79a65096bf29146910fa3e56d2af4bd0dcbf5f589e55ac514b35",
+      "public_primary_url": "https://users.cs.utah.edu/~rajeev/pubs/asplos19.pdf",
+      "read_scope_pdf_pages": "4–7",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\ro.txt",
+      "text_sha256": "8ba8ec5eb6c2d429a7ab1db3cd3d2db86a08055a2256fd01450ca8967965f9f7",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "Hitchhiker",
+      "year": 2023,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\Hitchhiker_Accelerating_ORAM_With_Dynamic_Scheduling.pdf",
+      "source_sha256": "0037a404534290038546ee79d6bd51b397b6e6c4edd5d2155b282da7881755bd",
+      "public_primary_url": "https://doi.org/10.1109/TC.2023.3248272",
+      "read_scope_pdf_pages": "4–6, 9–10, 13",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\Hitchhiker_Accelerating_ORAM_With_Dynamic_Scheduling.txt",
+      "text_sha256": "a41c4e0c37675f5c50dc7d152a9a225cde15cdf7733cc5d2baa0b403563442cb",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "Shadow Block",
+      "year": 2018,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\shadow.pdf",
+      "source_sha256": "7ffaaffb636f7b97553c807e1612bc552b7c24cf41554cb371915c7bf122f0f8",
+      "public_primary_url": "https://ceca.pku.edu.cn/docs/20190308102945094320.pdf",
+      "read_scope_pdf_pages": "4–7",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\shadow.txt",
+      "text_sha256": "0692193d629016c5db13043a4a497d15a2cc1b12c9e403b2d4c5a43a331aec55",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "TaoStore / TaORAM",
+      "year": 2016,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\TaoStore-CameraReady.pdf",
+      "source_sha256": "6130df58739af8df2c08bbdb5fe2c50e91b16f2e64b6be0a5bfa5163d6c98f71",
+      "public_primary_url": "https://sites.cs.ucsb.edu/~rachel.lin/papers/TaoStore-CameraReady.pdf",
+      "read_scope_pdf_pages": "7–11",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\TaoStore-CameraReady.txt",
+      "text_sha256": "7ba7b3de2c96caecb74a4c5c5b5be62cfa63bbdff902c74d53aaa82f166552e8",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "Tianji",
+      "year": 2023,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\TianjiORAM.pdf",
+      "source_sha256": "29b5eac0e4bfc9280410e99a81420c4ae570cb1582b333abe7759de62b340eee",
+      "public_primary_url": "https://doi.org/10.1109/TDSC.2023.3241184",
+      "read_scope_pdf_pages": "1, 3–6",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\TianjiORAM.txt",
+      "text_sha256": "1a393f6a1ed986f09fedaa67501f8c483a57a3c88e5ac50310c36be5d4c8b566",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "Palermo",
+      "year": 2025,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\palermo.pdf",
+      "source_sha256": "340277b93eb5cdf1e5ea6eaeb9a9af48fb2e7762ac7f3d278d666d6f50963f96",
+      "public_primary_url": "https://github.com/Linestro/Palermo-ORAM",
+      "read_scope_pdf_pages": "6–9",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\palermo.txt",
+      "text_sha256": "ea32bcbff8aaac3502e56bcab2631a8fb4ca36f1df89f05e91ecf39eff356042",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "Treebeard",
+      "year": 2025,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\treebeard.pdf",
+      "source_sha256": "eb58e3401335787923d78a7b5c46daf6122985881d0de154d8966934f41c06c0",
+      "public_primary_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/setayesh",
+      "read_scope_pdf_pages": "8–11, 14, 20–21",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\treebeard.txt",
+      "text_sha256": "83706df1a3f4ca152f911dbf8d899b1a9c0da331cab66654f0fe5d44bd976282",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "V-ORAM: service transformation",
+      "year": 2025,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\voram.pdf",
+      "source_sha256": "27356109da5cdb2ae901172287f51d8116b9baaf552c92a6343b61114248cc72",
+      "public_primary_url": "https://www.usenix.org/conference/usenixsecurity25/presentation/zhang-bo-voram",
+      "read_scope_pdf_pages": "3–5, 7–10, 12",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\voram.txt",
+      "text_sha256": "eb80cd3c619871325d618d673bc7b57c4afcd55fbe278b901705b03dcf09d560",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "String ORAM (Streamline Ring ORAM Accesses)",
+      "year": 2021,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\streamline.pdf",
+      "source_sha256": "f76b22df3b0473c6fce52a7a33d199bf878ea13442e117f33c3ca43ef3dd13f2",
+      "public_primary_url": "https://luhang-hpu.github.io/files/Streamline-Ring-HPCA21.pdf",
+      "read_scope_pdf_pages": "6–8",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\streamline.txt",
+      "text_sha256": "071ddfb476fb06f84767ee2ab499d7cf086ab403ec982b8b8527f8144f32b912",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "EP-ORAM",
+      "year": 2023,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\EP-ORAM_Efficient_NVM-Friendly_Path_Eviction_for_Ring_ORAM_in_Hybrid_Memory.pdf",
+      "source_sha256": "02ee52723b8a08000969c2d1f41419706a174658c4b147957f03157b51a92b7b",
+      "public_primary_url": "https://mehrnoosh.net/research/EP-ORAM-DAC%2723.pdf",
+      "read_scope_pdf_pages": "3–4",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\EP-ORAM_Efficient_NVM-Friendly_Path_Eviction_for_Ring_ORAM_in_Hybrid_Memory.txt",
+      "text_sha256": "4130891a38a0d2b2b23488556130886af2b696a2191d487fb3d059d28579a70d",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "PageORAM",
+      "year": 2022,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\PageORAM.pdf",
+      "source_sha256": "7558d2bad43e84b0851d30966fcdae6d17eaee2eb96f081dff841821b728dd76",
+      "public_primary_url": null,
+      "read_scope_pdf_pages": "6–7, 13",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\PageORAM.txt",
+      "text_sha256": "0cfab225c2e6f42e6c776e4615acecdbbbce94b922f38e0648b1555bea7ea7b0",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "Fork Path",
+      "year": 2015,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\fork.pdf",
+      "source_sha256": "9bcc6525b5be7b41bc3e6f8273ff2bfa0da8d0c31252919e1e01ab13bb1b0631",
+      "public_primary_url": null,
+      "read_scope_pdf_pages": "初筛与机制定位",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\fork.txt",
+      "text_sha256": "6c3214d0203e9446f6a97ab5c77e3f1a20a6a00ad931d7f1fbe3eeb9127422ca",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "ConcurORAM",
+      "year": 2018,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\concur.pdf",
+      "source_sha256": "f9000bdb384c79b91779a3cd39adf2db4c70615b98fc91eb503642b2c2201629",
+      "public_primary_url": "https://arxiv.org/abs/1811.04366",
+      "read_scope_pdf_pages": "1–2",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\concur.txt",
+      "text_sha256": "8f8ab89b024059c9b3aca58713a07c83b1d161cc510a353087da3eb668121dc4",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "DC-ORAM",
+      "year": 2025,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\DC-ORAM_An_ORAM_Scheme_Based_on_Dynamic_Compression_of_Data_Blocks_and_Position_Map.pdf",
+      "source_sha256": "5f333e798bdd9f285c89975a4f0b759856b03bdbd8d197d59bace38ca9cb2f15",
+      "public_primary_url": null,
+      "read_scope_pdf_pages": "1–5, 12–13",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\DC-ORAM_An_ORAM_Scheme_Based_on_Dynamic_Compression_of_Data_Blocks_and_Position_Map.txt",
+      "text_sha256": "3249ce57e2c96932fee2a1aabed9c3435aff453e6643b6b6f7f86106967678f1",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "MP-ORAM",
+      "year": null,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\MP-ORAM.pdf",
+      "source_sha256": "f4451a938aa04680881e7dd37a786fe11c8f24ebb217fbd79dfffe5473f9ede5",
+      "public_primary_url": null,
+      "read_scope_pdf_pages": "首页与机制检索",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\MP-ORAM.txt",
+      "text_sha256": "ab3de288cae7ed1f8d1fcf10d5d726f4784027d01366015ecfce1188f5a15170",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "RFORAM",
+      "year": null,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\RFORAM.pdf",
+      "source_sha256": "0c1fa062ce8b3749ae3d291ea62721dc2ae016082e75eb83fcaf5d93cfdb38dc",
+      "public_primary_url": null,
+      "read_scope_pdf_pages": "首页",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\RFORAM.txt",
+      "text_sha256": "a654649a3d13790846ca62847e1883963e385c55bd6c39fb2981639c82252fcd",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "HM-ORAM",
+      "year": null,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\hmoram.pdf",
+      "source_sha256": "8cb261c5c7faaac9f41fb19caef6e68093e62695472935145957c836f636c53b",
+      "public_primary_url": null,
+      "read_scope_pdf_pages": "首页",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\hmoram.txt",
+      "text_sha256": "8cdcfe24af4061ec78560a3ffd0ea5e7c8eb171bfbd2cb0f837bc91b0a04ee25",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "PS-ORAM",
+      "year": null,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\PSORAM.pdf",
+      "source_sha256": "120cff10a8d253d703a43d499f05e5b3d6dc81575d669a4061ce64a738423468",
+      "public_primary_url": null,
+      "read_scope_pdf_pages": "首页",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\PSORAM.txt",
+      "text_sha256": "e03f9e6efd9d0dda618c31a3acbcafd95f1dbf5f20290a5a4f46aef6be5996c3",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "LAORAM",
+      "year": 2023,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\LaORAM.pdf",
+      "source_sha256": "7347d16d859490fe76e2597cb57d71965f6f9febb14898a7abedd0965ca98bb7",
+      "public_primary_url": null,
+      "read_scope_pdf_pages": "首页",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\LaORAM.txt",
+      "text_sha256": "da9b2f0b58e4592993f6d8f2e4c7028b785a72b4e1c570980263157adb5a572b",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "SCPORAM",
+      "year": null,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\SCPORAM_A_Hardware_Support_Scheme_for_Protecting_Memory_Access_Patterns.pdf",
+      "source_sha256": "e726cec8803ea0eb3e1829f41591c93cbb0c14de58e557ab6e51278aeac5211f",
+      "public_primary_url": null,
+      "read_scope_pdf_pages": "首页",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\SCPORAM_A_Hardware_Support_Scheme_for_Protecting_Memory_Access_Patterns.txt",
+      "text_sha256": "e5fdaac91f4a49eb1d85ca858bc7e5198cea8aa9f68396d4dd960796ddd16964",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "Caching and Prefetching for Improving ORAM Performance",
+      "year": null,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\prefetch.pdf",
+      "source_sha256": "66e257e48a91c430d67b689ef8ae66938b544196e9cd923f6790bdb2ad955e8c",
+      "public_primary_url": null,
+      "read_scope_pdf_pages": "首页",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\prefetch.txt",
+      "text_sha256": "4c2dd2d7db79372dce36f98d0c2caac3a40ebd21258d7a581114dbd559271de4",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "title": "BULKOR",
+      "year": 2024,
+      "source": "C:\\Users\\12038\\Desktop\\for gpt\\bulkor.s&p24.pdf",
+      "source_sha256": "ec36073a3cf9f402f5c5f3e69999e4ca25d1c2aacb896891a531be849813fdf0",
+      "public_primary_url": null,
+      "read_scope_pdf_pages": "首页",
+      "text": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\树状ORAM组合候选筛选_2026-09-15\\evidence\\text\\bulkor.s&p24.txt",
+      "text_sha256": "0d346ce6b0066fb39564f9b2f548950a2201fb6a32eeef138b18c0093544190a",
+      "review_basis": "existing primary-text extraction; selection re-assessed in 01; not every page freshly re-read"
+    },
+    {
+      "key": "IR",
+      "title": "IR-ORAM: Path Access Type Based Memory Intensity Reduction for Path-ORAM",
+      "url": "https://mehrnoosh.net/research/IR-ORAM-HPCA%2722.pdf",
+      "pages_reviewed_visually": [
+        6,
+        9,
+        10
+      ],
+      "path": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R12_ir_oram_path_access_type_based_memory_intensity.pdf",
+      "sha256": "eb757bab17e5b0639797b672a2a58a2ab03b3a3fbc0b030c81dbe4239d26a78a"
+    },
+    {
+      "key": "AB",
+      "title": "AB-ORAM: Constructing Adjustable Buckets for Space Reduction in Ring ORAM",
+      "url": "https://mehrnoosh.net/research/AB-ORAM-HPCA%2723.pdf",
+      "pages_reviewed_visually": [
+        3,
+        9,
+        10
+      ],
+      "path": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\细化准备_2026-09-15\\literature\\pdf\\R13_ab_oram_constructing_adjustable_buckets_for_space_reduction.pdf",
+      "sha256": "d0ce2f9bc703df3d83d48ec934c2fbee6e6212b1a99654607af068420b4fb7e7"
+    },
+    {
+      "key": "CB",
+      "title": "Streamline Ring ORAM Accesses Through Spatial and Temporal Optimization",
+      "url": "https://luhang-hpu.github.io/files/Streamline-Ring-HPCA21.pdf",
+      "scope": "local primary full text IV-A/V reviewed; public URL failed this turn; not a new download",
+      "path": "C:\\Users\\12038\\Desktop\\for gpt\\streamline.pdf",
+      "sha256": "f76b22df3b0473c6fce52a7a33d199bf878ea13442e117f33c3ca43ef3dd13f2"
+    }
+  ],
+  "note": "historical combination_proved/measured flags deliberately not reused; current status is in this package"
+}

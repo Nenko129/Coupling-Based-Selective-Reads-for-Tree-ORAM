@@ -1,0 +1,3642 @@
+{
+  "status": "passed",
+  "source_hashes": {
+    "runtime": {
+      "ab_deadq_cb_runtime.py": "7879944a5ab5acd72548e159fa975898c12bec8081b0eed9975ff7e859f9d198",
+      "ab_deadq_cb_tree.py": "6a876bd21d4233c904214fd114528ee92daac6699ccab563fd4f57bd7d4f4da7",
+      "ab_deadq_cb_level.py": "af3bbb3e18adb90082cfa8705307c5a3b7c0d2ed37669761ece3704542f0ed76",
+      "ab_deadq_routed_allocator.py": "99307055d9ebdc6f67f03f956241690905e514456d106970538e21f09543054b",
+      "ab_deadq_authenticated_store.py": "b8a98b09648b3019d045cc6a542b1469ac8bdf9471967ac7cfd08d310fcf223d",
+      "ab_dummy_first_policy.py": "115fee5592364fdbc845d2a70da785a090416ed164ef0397b3f71ff49902feff",
+      "cb_oram.py": "5e56b74c3ccb90f0838c360982f5bb58f170ddc49095beb77bd9a1afb9c8a5a0",
+      "ab_paced_frontend.py": "88aa8d6c5ce9744cd66456b19eac03387e0b50481c268c14cd3e05edc5246fe2",
+      "ab_cb_controller.py": "faa565831274b75346e36dfae48381123650dc27cc9aa769c845b1aef74997d7",
+      "ir_dwb_controller.py": "55ba05f7a010be2ea907e3431c4d15babd9e2094a52da440b646d860dc7940af",
+      "dwb_staged_frontend.py": "08491ab8de426659204721898b2a6b914974b2f4ff378c054846114575dfdfd4",
+      "composition_runtime.py": "f00534055545cf47a8e39c657f2ba392864d9895a55fa6bb8bf8a733e7a492cb"
+    },
+    "frontend": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4"
+  },
+  "checker_sha256": "1c16bfad2bde36993ec6d997c7579184e0e6a6a6ae329850b1cc69583e67bb0c",
+  "tree_checker_sha256": "20c412a9ee9bfd9372f9f1aca4c6bd044dd9d0a6488edea2f4cc148bcd1fc688",
+  "cases": [
+    {
+      "kind": "ring",
+      "S": 3,
+      "Y": 3,
+      "N": 64,
+      "B": 64,
+      "population": 73,
+      "L": 6,
+      "map_counts": [
+        64,
+        8,
+        1
+      ],
+      "PLB": 3,
+      "LLC_sets": 4,
+      "LLC_ways": 2,
+      "setup_slots": 219,
+      "phases": [
+        {
+          "phase": "warmup",
+          "requests": 16,
+          "slots": 256,
+          "total_bill": {
+            "rpc": 54420,
+            "request_bytes": 2422147,
+            "response_bytes": 17334502,
+            "control_bytes": 2877312,
+            "routing_metadata_bytes": 1320997,
+            "proof_bytes": 12460480,
+            "reads": 33302,
+            "private_header_bytes": 1349652,
+            "data_record_bytes": 1748208,
+            "updates": 17026,
+            "commits": 2046,
+            "total_bytes": 19756649
+          },
+          "by_level": [
+            {
+              "depth": 1,
+              "bill": {
+                "rpc": 6764,
+                "request_bytes": 343893,
+                "response_bytes": 1653732,
+                "control_bytes": 381856,
+                "routing_metadata_bytes": 195359,
+                "proof_bytes": 973120,
+                "reads": 3524,
+                "private_header_bytes": 210372,
+                "data_record_bytes": 236918,
+                "updates": 2558,
+                "commits": 341,
+                "total_bytes": 1997625
+              },
+              "start_frame": 5906,
+              "end_frame": 12670
+            },
+            {
+              "depth": 2,
+              "bill": {
+                "rpc": 8007,
+                "request_bytes": 392303,
+                "response_bytes": 2186203,
+                "control_bytes": 441438,
+                "routing_metadata_bytes": 215556,
+                "proof_bytes": 1406400,
+                "reads": 4424,
+                "private_header_bytes": 226164,
+                "data_record_bytes": 288948,
+                "updates": 2901,
+                "commits": 341,
+                "total_bytes": 2578506
+              },
+              "start_frame": 6919,
+              "end_frame": 14926
+            },
+            {
+              "depth": 3,
+              "bill": {
+                "rpc": 9252,
+                "request_bytes": 428192,
+                "response_bytes": 2774760,
+                "control_bytes": 495480,
+                "routing_metadata_bytes": 233406,
+                "proof_bytes": 1919680,
+                "reads": 5482,
+                "private_header_bytes": 235188,
+                "data_record_bytes": 319198,
+                "updates": 3088,
+                "commits": 341,
+                "total_bytes": 3202952
+              },
+              "start_frame": 7808,
+              "end_frame": 17060
+            },
+            {
+              "depth": 4,
+              "bill": {
+                "rpc": 10131,
+                "request_bytes": 442040,
+                "response_bytes": 3308659,
+                "control_bytes": 528990,
+                "routing_metadata_bytes": 237368,
+                "proof_bytes": 2418944,
+                "reads": 6358,
+                "private_header_bytes": 235188,
+                "data_record_bytes": 330209,
+                "updates": 3091,
+                "commits": 341,
+                "total_bytes": 3750699
+              },
+              "start_frame": 8116,
+              "end_frame": 18247
+            },
+            {
+              "depth": 5,
+              "bill": {
+                "rpc": 10254,
+                "request_bytes": 417378,
+                "response_bytes": 3608570,
+                "control_bytes": 522576,
+                "routing_metadata_bytes": 223657,
+                "proof_bytes": 2756736,
+                "reads": 6789,
+                "private_header_bytes": 224472,
+                "data_record_bytes": 298507,
+                "updates": 2783,
+                "commits": 341,
+                "total_bytes": 4025948
+              },
+              "start_frame": 7774,
+              "end_frame": 18028
+            },
+            {
+              "depth": 6,
+              "bill": {
+                "rpc": 10012,
+                "request_bytes": 398341,
+                "response_bytes": 3802578,
+                "control_bytes": 506972,
+                "routing_metadata_bytes": 215651,
+                "proof_bytes": 2985600,
+                "reads": 6725,
+                "private_header_bytes": 218268,
+                "data_record_bytes": 274428,
+                "updates": 2605,
+                "commits": 341,
+                "total_bytes": 4200919
+              },
+              "start_frame": 6949,
+              "end_frame": 16961
+            }
+          ],
+          "controller_metrics": {
+            "llc_misses": 14,
+            "foreground_slots": 34,
+            "foreground_posmap_slots": 15,
+            "public_slots": 256,
+            "application_completed": 16,
+            "foreground_data_slots": 19,
+            "dummy_slots": 222,
+            "llc_evictions": 7,
+            "foreground_writebacks": 5,
+            "llc_hits": 2,
+            "unfinished_foreground": 0,
+            "dirty_resident": 4,
+            "dwb_pending": false,
+            "background_pending": false
+          },
+          "cb_metrics": {
+            "level_transactions": 2046,
+            "logical_consumed_slots": 1536,
+            "transfer_slots": 256,
+            "scheduled_rebuilds": 510,
+            "collateral_buckets": 347,
+            "expansions": 458,
+            "maintenance_read_slots": 2664,
+            "neutral_rebuilds": 114,
+            "green_promotions": 42
+          },
+          "schedule": {
+            "slots": 256,
+            "remove_admit_sha256": "3ef8419180c8712958a86d583b1f23d194c53211e57a88bbce1eb6198f5ff9ae"
+          },
+          "inventory": {
+            "remote_real_observations": 1
+          }
+        },
+        {
+          "phase": "measurement",
+          "requests": 64,
+          "slots": 1024,
+          "total_bill": {
+            "rpc": 218779,
+            "request_bytes": 9751349,
+            "response_bytes": 69663980,
+            "control_bytes": 11570486,
+            "routing_metadata_bytes": 5306601,
+            "proof_bytes": 50046240,
+            "reads": 133770,
+            "private_header_bytes": 5423424,
+            "data_record_bytes": 7068578,
+            "updates": 68629,
+            "commits": 8190,
+            "total_bytes": 79415329
+          },
+          "by_level": [
+            {
+              "depth": 1,
+              "bill": {
+                "rpc": 27288,
+                "request_bytes": 1391043,
+                "response_bytes": 6680802,
+                "control_bytes": 1541412,
+                "routing_metadata_bytes": 784491,
+                "proof_bytes": 3929280,
+                "reads": 14185,
+                "private_header_bytes": 846000,
+                "data_record_bytes": 970662,
+                "updates": 10373,
+                "commits": 1365,
+                "total_bytes": 8071845
+              },
+              "start_frame": 12670,
+              "end_frame": 39958
+            },
+            {
+              "depth": 2,
+              "bill": {
+                "rpc": 32740,
+                "request_bytes": 1619018,
+                "response_bytes": 8977372,
+                "control_bytes": 1809716,
+                "routing_metadata_bytes": 871683,
+                "proof_bytes": 5761920,
+                "reads": 17939,
+                "private_header_bytes": 923832,
+                "data_record_bytes": 1229239,
+                "updates": 12071,
+                "commits": 1365,
+                "total_bytes": 10596390
+              },
+              "start_frame": 14926,
+              "end_frame": 47666
+            },
+            {
+              "depth": 3,
+              "bill": {
+                "rpc": 37602,
+                "request_bytes": 1735248,
+                "response_bytes": 11276712,
+                "control_bytes": 2010024,
+                "routing_metadata_bytes": 944151,
+                "proof_bytes": 7811328,
+                "reads": 22369,
+                "private_header_bytes": 945828,
+                "data_record_bytes": 1300629,
+                "updates": 12503,
+                "commits": 1365,
+                "total_bytes": 13011960
+              },
+              "start_frame": 17060,
+              "end_frame": 54662
+            },
+            {
+              "depth": 4,
+              "bill": {
+                "rpc": 39945,
+                "request_bytes": 1731504,
+                "response_bytes": 13015164,
+                "control_bytes": 2081886,
+                "routing_metadata_bytes": 942206,
+                "proof_bytes": 9527040,
+                "reads": 25189,
+                "private_header_bytes": 928908,
+                "data_record_bytes": 1266628,
+                "updates": 12026,
+                "commits": 1365,
+                "total_bytes": 14746668
+              },
+              "start_frame": 18247,
+              "end_frame": 58192
+            },
+            {
+              "depth": 5,
+              "bill": {
+                "rpc": 40899,
+                "request_bytes": 1703970,
+                "response_bytes": 14453561,
+                "control_bytes": 2100930,
+                "routing_metadata_bytes": 915770,
+                "proof_bytes": 10992672,
+                "reads": 26621,
+                "private_header_bytes": 916500,
+                "data_record_bytes": 1231659,
+                "updates": 11548,
+                "commits": 1365,
+                "total_bytes": 16157531
+              },
+              "start_frame": 18028,
+              "end_frame": 58927
+            },
+            {
+              "depth": 6,
+              "bill": {
+                "rpc": 40305,
+                "request_bytes": 1570566,
+                "response_bytes": 15260369,
+                "control_bytes": 2026518,
+                "routing_metadata_bytes": 848300,
+                "proof_bytes": 12024000,
+                "reads": 27467,
+                "private_header_bytes": 862356,
+                "data_record_bytes": 1069761,
+                "updates": 10108,
+                "commits": 1365,
+                "total_bytes": 16830935
+              },
+              "start_frame": 16961,
+              "end_frame": 57266
+            }
+          ],
+          "controller_metrics": {
+            "llc_misses": 57,
+            "foreground_slots": 159,
+            "foreground_posmap_slots": 74,
+            "public_slots": 1024,
+            "application_completed": 64,
+            "foreground_data_slots": 85,
+            "dummy_slots": 865,
+            "llc_evictions": 56,
+            "foreground_writebacks": 28,
+            "llc_hits": 7,
+            "unfinished_foreground": 0,
+            "dirty_resident": 2,
+            "dwb_pending": false,
+            "background_pending": false
+          },
+          "cb_metrics": {
+            "level_transactions": 8190,
+            "logical_consumed_slots": 6144,
+            "transfer_slots": 1024,
+            "scheduled_rebuilds": 2046,
+            "collateral_buckets": 1426,
+            "expansions": 1762,
+            "maintenance_read_slots": 10793,
+            "neutral_rebuilds": 484,
+            "green_promotions": 136
+          },
+          "schedule": {
+            "slots": 1024,
+            "remove_admit_sha256": "02814c10ed7eac0b3e9aada19bfad7caa79c7ef63a424d6a69575047d6961045"
+          },
+          "inventory": {
+            "remote_real_observations": 2
+          }
+        }
+      ],
+      "wire": [
+        {
+          "depth": 1,
+          "geometry": {
+            "buckets": 2,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 2,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 1
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_ring_S3_Y3_d1.jsonl.gz",
+            "sha256": "84d66e5f25fcac42c6a38bfbc06d8e9ef90ed55d0c79444155db5496fa55ce9d",
+            "raw_sha256": "e3484a2c1bca5487c8fbcdd80656f20cb4eed74eebb2631df5f9285b737dbc9e",
+            "frames": 39958
+          },
+          "bill": {
+            "rpc": 39958,
+            "request_bytes": 2035763,
+            "response_bytes": 9781341,
+            "control_bytes": 2256548,
+            "routing_metadata_bytes": 1148803,
+            "proof_bytes": 5753920,
+            "reads": 20786,
+            "private_header_bytes": 1239108,
+            "data_record_bytes": 1418725,
+            "updates": 15176,
+            "commits": 1998,
+            "total_bytes": 11817104
+          },
+          "server_rows": 1654,
+          "merkle_bytes": 2016
+        },
+        {
+          "depth": 2,
+          "geometry": {
+            "buckets": 4,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 2
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_ring_S3_Y3_d2.jsonl.gz",
+            "sha256": "44f0512ff30f59a8e8022f024fead0b3adea0c77241dc5d92ba5fc326654fa36",
+            "raw_sha256": "27e4ac44807f7b4fc73e03a4aa23efa01628d7b768e59c650d75a3dcd0f69958",
+            "frames": 47666
+          },
+          "bill": {
+            "rpc": 47666,
+            "request_bytes": 2350112,
+            "response_bytes": 13053468,
+            "control_bytes": 2632324,
+            "routing_metadata_bytes": 1272456,
+            "proof_bytes": 8384640,
+            "reads": 26192,
+            "private_header_bytes": 1345140,
+            "data_record_bytes": 1769020,
+            "updates": 17478,
+            "commits": 1998,
+            "total_bytes": 15403580
+          },
+          "server_rows": 3200,
+          "merkle_bytes": 4064
+        },
+        {
+          "depth": 3,
+          "geometry": {
+            "buckets": 8,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 3
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_ring_S3_Y3_d3.jsonl.gz",
+            "sha256": "79db70ac2cfc5f1d8dacbda99e7f8dd02a296f374317ea8959fa26f1df6b8ed0",
+            "raw_sha256": "42dc476781b94de4b5650a2fbf01398b7ce91dffdb4334f289ec2334899429e6",
+            "frames": 54662
+          },
+          "bill": {
+            "rpc": 54662,
+            "request_bytes": 2522906,
+            "response_bytes": 16387318,
+            "control_bytes": 2923120,
+            "routing_metadata_bytes": 1374847,
+            "proof_bytes": 11349184,
+            "reads": 32495,
+            "private_header_bytes": 1377288,
+            "data_record_bytes": 1885785,
+            "updates": 18171,
+            "commits": 1998,
+            "total_bytes": 18910224
+          },
+          "server_rows": 6292,
+          "merkle_bytes": 8160
+        },
+        {
+          "depth": 4,
+          "geometry": {
+            "buckets": 16,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 4
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_ring_S3_Y3_d4.jsonl.gz",
+            "sha256": "30b32d35f1e5bcb80cca0eb09895fe47c4ef50d030f93b10ba1daf9b41822d62",
+            "raw_sha256": "3b32f93f88fd3edac65d3528a50c45973da999a73ce789d7b5d75235771a0f59",
+            "frames": 58192
+          },
+          "bill": {
+            "rpc": 58192,
+            "request_bytes": 2519338,
+            "response_bytes": 18949624,
+            "control_bytes": 3032276,
+            "routing_metadata_bytes": 1371765,
+            "proof_bytes": 13874176,
+            "reads": 36719,
+            "private_header_bytes": 1351908,
+            "data_record_bytes": 1838837,
+            "updates": 17477,
+            "commits": 1998,
+            "total_bytes": 21468962
+          },
+          "server_rows": 12476,
+          "merkle_bytes": 16352
+        },
+        {
+          "depth": 5,
+          "geometry": {
+            "buckets": 32,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 5
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_ring_S3_Y3_d5.jsonl.gz",
+            "sha256": "10ff687ff18a9d4a0507cb5fe1dda344fdbebf9127b10b8d8eb97cc28a08c445",
+            "raw_sha256": "f2404f7e22e6e1fdffe15fda10405540e53d919bbb5290cdf878e975881b2a98",
+            "frames": 58927
+          },
+          "bill": {
+            "rpc": 58927,
+            "request_bytes": 2434932,
+            "response_bytes": 20774313,
+            "control_bytes": 3020966,
+            "routing_metadata_bytes": 1310023,
+            "proof_bytes": 15820128,
+            "reads": 38544,
+            "private_header_bytes": 1318632,
+            "data_record_bytes": 1739496,
+            "updates": 16387,
+            "commits": 1998,
+            "total_bytes": 23209245
+          },
+          "server_rows": 24844,
+          "merkle_bytes": 32736
+        },
+        {
+          "depth": 6,
+          "geometry": {
+            "buckets": 64,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 6
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_ring_S3_Y3_d6.jsonl.gz",
+            "sha256": "c28f09b61e30bb7926488c2ed7cb96ad57621fcd95815d183b557a4f5c464116",
+            "raw_sha256": "23006cfb42addb6b142f6d346b82fb4fd3096c1c0d48428af3ba7e85ee3d54c0",
+            "frames": 57266
+          },
+          "bill": {
+            "rpc": 57266,
+            "request_bytes": 2239878,
+            "response_bytes": 21660895,
+            "control_bytes": 2887432,
+            "routing_metadata_bytes": 1207519,
+            "proof_bytes": 17046400,
+            "reads": 38839,
+            "private_header_bytes": 1248132,
+            "data_record_bytes": 1511290,
+            "updates": 14431,
+            "commits": 1998,
+            "total_bytes": 23900773
+          },
+          "server_rows": 49580,
+          "merkle_bytes": 65504
+        }
+      ],
+      "answer_sha256": "c773b513cb4144915b8702f420fd92611cf26cbaa5cfa3cccfb97c6b2b7e6748",
+      "max_stash": 4,
+      "frontend_memory": {
+        "plb_payload_bytes": 192,
+        "plb_leaf_and_address_bytes": 36,
+        "terminal_leaf_bytes": 4,
+        "stash_reserved_bytes": 8192,
+        "full_private_posmap_present": false,
+        "measured_peak": false
+      },
+      "trusted_cache": "root only for Ring/GC-Ring; R0 root omitted",
+      "formal_performance_sample": false,
+      "native_AB": false
+    },
+    {
+      "kind": "gc_ring",
+      "S": 3,
+      "Y": 3,
+      "N": 64,
+      "B": 64,
+      "population": 73,
+      "L": 6,
+      "map_counts": [
+        64,
+        8,
+        1
+      ],
+      "PLB": 3,
+      "LLC_sets": 4,
+      "LLC_ways": 2,
+      "setup_slots": 219,
+      "phases": [
+        {
+          "phase": "warmup",
+          "requests": 16,
+          "slots": 256,
+          "total_bill": {
+            "rpc": 40520,
+            "request_bytes": 1844676,
+            "response_bytes": 13169860,
+            "control_bytes": 2160280,
+            "routing_metadata_bytes": 963071,
+            "proof_bytes": 9470848,
+            "reads": 24248,
+            "private_header_bytes": 977412,
+            "data_record_bytes": 1442925,
+            "updates": 13378,
+            "commits": 1447,
+            "total_bytes": 15014536
+          },
+          "by_level": [
+            {
+              "depth": 1,
+              "bill": {
+                "rpc": 4928,
+                "request_bytes": 255916,
+                "response_bytes": 1219478,
+                "control_bytes": 280372,
+                "routing_metadata_bytes": 134334,
+                "proof_bytes": 714880,
+                "reads": 2495,
+                "private_header_bytes": 144948,
+                "data_record_bytes": 200860,
+                "updates": 1973,
+                "commits": 230,
+                "total_bytes": 1475394
+              },
+              "start_frame": 4087,
+              "end_frame": 9015
+            },
+            {
+              "depth": 2,
+              "bill": {
+                "rpc": 5635,
+                "request_bytes": 286738,
+                "response_bytes": 1563562,
+                "control_bytes": 315278,
+                "routing_metadata_bytes": 145223,
+                "proof_bytes": 996288,
+                "reads": 2974,
+                "private_header_bytes": 154536,
+                "data_record_bytes": 238975,
+                "updates": 2215,
+                "commits": 223,
+                "total_bytes": 1850300
+              },
+              "start_frame": 5046,
+              "end_frame": 10681
+            },
+            {
+              "depth": 3,
+              "bill": {
+                "rpc": 6563,
+                "request_bytes": 317093,
+                "response_bytes": 1996176,
+                "control_bytes": 357790,
+                "routing_metadata_bytes": 162379,
+                "proof_bytes": 1365280,
+                "reads": 3708,
+                "private_header_bytes": 166944,
+                "data_record_bytes": 260876,
+                "updates": 2387,
+                "commits": 234,
+                "total_bytes": 2313269
+              },
+              "start_frame": 6090,
+              "end_frame": 12653
+            },
+            {
+              "depth": 4,
+              "bill": {
+                "rpc": 6815,
+                "request_bytes": 302871,
+                "response_bytes": 2238458,
+                "control_bytes": 358618,
+                "routing_metadata_bytes": 159957,
+                "proof_bytes": 1630976,
+                "reads": 4195,
+                "private_header_bytes": 153408,
+                "data_record_bytes": 238370,
+                "updates": 2176,
+                "commits": 222,
+                "total_bytes": 2541329
+              },
+              "start_frame": 5501,
+              "end_frame": 12316
+            },
+            {
+              "depth": 5,
+              "bill": {
+                "rpc": 6567,
+                "request_bytes": 283717,
+                "response_bytes": 2349608,
+                "control_bytes": 341250,
+                "routing_metadata_bytes": 145527,
+                "proof_bytes": 1777824,
+                "reads": 4151,
+                "private_header_bytes": 139308,
+                "data_record_bytes": 229416,
+                "updates": 2022,
+                "commits": 197,
+                "total_bytes": 2633325
+              },
+              "start_frame": 5160,
+              "end_frame": 11727
+            },
+            {
+              "depth": 6,
+              "bill": {
+                "rpc": 10012,
+                "request_bytes": 398341,
+                "response_bytes": 3802578,
+                "control_bytes": 506972,
+                "routing_metadata_bytes": 215651,
+                "proof_bytes": 2985600,
+                "reads": 6725,
+                "private_header_bytes": 218268,
+                "data_record_bytes": 274428,
+                "updates": 2605,
+                "commits": 341,
+                "total_bytes": 4200919
+              },
+              "start_frame": 6949,
+              "end_frame": 16961
+            }
+          ],
+          "controller_metrics": {
+            "llc_misses": 14,
+            "foreground_slots": 34,
+            "foreground_posmap_slots": 15,
+            "public_slots": 256,
+            "application_completed": 16,
+            "foreground_data_slots": 19,
+            "dummy_slots": 222,
+            "llc_evictions": 7,
+            "foreground_writebacks": 5,
+            "llc_hits": 2,
+            "unfinished_foreground": 0,
+            "dirty_resident": 4,
+            "dwb_pending": false,
+            "background_pending": false
+          },
+          "cb_metrics": {
+            "level_transactions": 1447,
+            "logical_consumed_slots": 937,
+            "transfer_slots": 256,
+            "scheduled_rebuilds": 510,
+            "collateral_buckets": 286,
+            "expansions": 343,
+            "maintenance_read_slots": 2574,
+            "neutral_rebuilds": 37,
+            "green_promotions": 24
+          },
+          "schedule": {
+            "slots": 256,
+            "remove_admit_sha256": "3ef8419180c8712958a86d583b1f23d194c53211e57a88bbce1eb6198f5ff9ae"
+          },
+          "inventory": {
+            "remote_real_observations": 1
+          }
+        },
+        {
+          "phase": "measurement",
+          "requests": 64,
+          "slots": 1024,
+          "total_bill": {
+            "rpc": 164474,
+            "request_bytes": 7505493,
+            "response_bytes": 53484954,
+            "control_bytes": 8776960,
+            "routing_metadata_bytes": 3908832,
+            "proof_bytes": 38433792,
+            "reads": 98207,
+            "private_header_bytes": 3987480,
+            "data_record_bytes": 5883383,
+            "updates": 54489,
+            "commits": 5889,
+            "total_bytes": 60990447
+          },
+          "by_level": [
+            {
+              "depth": 1,
+              "bill": {
+                "rpc": 19744,
+                "request_bytes": 1024008,
+                "response_bytes": 4880023,
+                "control_bytes": 1123196,
+                "routing_metadata_bytes": 544352,
+                "proof_bytes": 2860480,
+                "reads": 10007,
+                "private_header_bytes": 587688,
+                "data_record_bytes": 788315,
+                "updates": 7871,
+                "commits": 933,
+                "total_bytes": 5904031
+              },
+              "start_frame": 9015,
+              "end_frame": 28759
+            },
+            {
+              "depth": 2,
+              "bill": {
+                "rpc": 22982,
+                "request_bytes": 1168849,
+                "response_bytes": 6376352,
+                "control_bytes": 1285564,
+                "routing_metadata_bytes": 590180,
+                "proof_bytes": 4062720,
+                "reads": 12138,
+                "private_header_bytes": 632808,
+                "data_record_bytes": 973929,
+                "updates": 9022,
+                "commits": 911,
+                "total_bytes": 7545201
+              },
+              "start_frame": 10681,
+              "end_frame": 33663
+            },
+            {
+              "depth": 3,
+              "bill": {
+                "rpc": 27234,
+                "request_bytes": 1315085,
+                "response_bytes": 8277465,
+                "control_bytes": 1484244,
+                "routing_metadata_bytes": 679325,
+                "proof_bytes": 5662272,
+                "reads": 15404,
+                "private_header_bytes": 692592,
+                "data_record_bytes": 1074117,
+                "updates": 9874,
+                "commits": 978,
+                "total_bytes": 9592550
+              },
+              "start_frame": 12653,
+              "end_frame": 39887
+            },
+            {
+              "depth": 4,
+              "bill": {
+                "rpc": 26963,
+                "request_bytes": 1253751,
+                "response_bytes": 8960661,
+                "control_bytes": 1442338,
+                "routing_metadata_bytes": 639107,
+                "proof_bytes": 6460160,
+                "reads": 15935,
+                "private_header_bytes": 629424,
+                "data_record_bytes": 1043383,
+                "updates": 9300,
+                "commits": 864,
+                "total_bytes": 10214412
+              },
+              "start_frame": 12316,
+              "end_frame": 39279
+            },
+            {
+              "depth": 5,
+              "bill": {
+                "rpc": 27246,
+                "request_bytes": 1173234,
+                "response_bytes": 9730084,
+                "control_bytes": 1415100,
+                "routing_metadata_bytes": 607568,
+                "proof_bytes": 7364160,
+                "reads": 17256,
+                "private_header_bytes": 582612,
+                "data_record_bytes": 933878,
+                "updates": 8314,
+                "commits": 838,
+                "total_bytes": 10903318
+              },
+              "start_frame": 11727,
+              "end_frame": 38973
+            },
+            {
+              "depth": 6,
+              "bill": {
+                "rpc": 40305,
+                "request_bytes": 1570566,
+                "response_bytes": 15260369,
+                "control_bytes": 2026518,
+                "routing_metadata_bytes": 848300,
+                "proof_bytes": 12024000,
+                "reads": 27467,
+                "private_header_bytes": 862356,
+                "data_record_bytes": 1069761,
+                "updates": 10108,
+                "commits": 1365,
+                "total_bytes": 16830935
+              },
+              "start_frame": 16961,
+              "end_frame": 57266
+            }
+          ],
+          "controller_metrics": {
+            "llc_misses": 57,
+            "foreground_slots": 159,
+            "foreground_posmap_slots": 74,
+            "public_slots": 1024,
+            "application_completed": 64,
+            "foreground_data_slots": 85,
+            "dummy_slots": 865,
+            "llc_evictions": 56,
+            "foreground_writebacks": 28,
+            "llc_hits": 7,
+            "unfinished_foreground": 0,
+            "dirty_resident": 2,
+            "dwb_pending": false,
+            "background_pending": false
+          },
+          "cb_metrics": {
+            "level_transactions": 5889,
+            "logical_consumed_slots": 3843,
+            "transfer_slots": 1024,
+            "scheduled_rebuilds": 2046,
+            "collateral_buckets": 1181,
+            "expansions": 1377,
+            "maintenance_read_slots": 10461,
+            "neutral_rebuilds": 175,
+            "green_promotions": 89
+          },
+          "schedule": {
+            "slots": 1024,
+            "remove_admit_sha256": "02814c10ed7eac0b3e9aada19bfad7caa79c7ef63a424d6a69575047d6961045"
+          },
+          "inventory": {
+            "remote_real_observations": 2
+          }
+        }
+      ],
+      "wire": [
+        {
+          "depth": 1,
+          "geometry": {
+            "buckets": 2,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 2,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 1
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_gc_ring_S3_Y3_d1.jsonl.gz",
+            "sha256": "3e89c0413c2e9ca0cd28fa923599e6a111dd4338af000062ae821dd8450465de",
+            "raw_sha256": "06c599d34ac536bea65dadb2772a0e677290271da2017b7d93f0a9b647568c62",
+            "frames": 28759
+          },
+          "bill": {
+            "rpc": 28759,
+            "request_bytes": 1491585,
+            "response_bytes": 7108351,
+            "control_bytes": 1636130,
+            "routing_metadata_bytes": 791594,
+            "proof_bytes": 4166880,
+            "reads": 14573,
+            "private_header_bytes": 853896,
+            "data_record_bytes": 1151436,
+            "updates": 11470,
+            "commits": 1358,
+            "total_bytes": 8599936
+          },
+          "server_rows": 1654,
+          "merkle_bytes": 2016
+        },
+        {
+          "depth": 2,
+          "geometry": {
+            "buckets": 4,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 2
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_gc_ring_S3_Y3_d2.jsonl.gz",
+            "sha256": "5d7de8da59744e8f084ca40d5bd19a701cbbceb4b604f1e870667c46d0420333",
+            "raw_sha256": "1d5fba585466bb2a5f8fed48715f0292fdd7c6a64cf15349b108d0e7e473ac9a",
+            "frames": 33663
+          },
+          "bill": {
+            "rpc": 33663,
+            "request_bytes": 1710147,
+            "response_bytes": 9336255,
+            "control_bytes": 1882134,
+            "routing_metadata_bytes": 864865,
+            "proof_bytes": 5951040,
+            "reads": 17804,
+            "private_header_bytes": 925524,
+            "data_record_bytes": 1422839,
+            "updates": 13191,
+            "commits": 1334,
+            "total_bytes": 11046402
+          },
+          "server_rows": 3200,
+          "merkle_bytes": 4064
+        },
+        {
+          "depth": 3,
+          "geometry": {
+            "buckets": 8,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 3
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_gc_ring_S3_Y3_d3.jsonl.gz",
+            "sha256": "ba0607b4b828e76252443f8e97eb6d994ca2c33f3af7556d0f91b00f9d7b6c74",
+            "raw_sha256": "07dbd9e9c2fbad9b56b7fbcc2c91598bb9a9d800dae735f2a1fc5d1a17ec6435",
+            "frames": 39887
+          },
+          "bill": {
+            "rpc": 39887,
+            "request_bytes": 1924797,
+            "response_bytes": 12119705,
+            "control_bytes": 2173414,
+            "routing_metadata_bytes": 994751,
+            "proof_bytes": 8291808,
+            "reads": 22574,
+            "private_header_bytes": 1015764,
+            "data_record_bytes": 1568765,
+            "updates": 14443,
+            "commits": 1435,
+            "total_bytes": 14044502
+          },
+          "server_rows": 6292,
+          "merkle_bytes": 8160
+        },
+        {
+          "depth": 4,
+          "geometry": {
+            "buckets": 16,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 4
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_gc_ring_S3_Y3_d4.jsonl.gz",
+            "sha256": "e0092795b195eb2acc003f1cdbfc3f91fb564eea2e38ccd6e5a67414f47cd422",
+            "raw_sha256": "d7527a49c9d115fdfc625700c8a820b348277d07e16b2a5e2a8416379456abbf",
+            "frames": 39279
+          },
+          "bill": {
+            "rpc": 39279,
+            "request_bytes": 1809256,
+            "response_bytes": 13015206,
+            "control_bytes": 2094810,
+            "routing_metadata_bytes": 929000,
+            "proof_bytes": 9402624,
+            "reads": 23401,
+            "private_header_bytes": 913116,
+            "data_record_bytes": 1484912,
+            "updates": 13328,
+            "commits": 1275,
+            "total_bytes": 14824462
+          },
+          "server_rows": 12476,
+          "merkle_bytes": 16352
+        },
+        {
+          "depth": 5,
+          "geometry": {
+            "buckets": 32,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 5
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_gc_ring_S3_Y3_d5.jsonl.gz",
+            "sha256": "727fb3fdbfc3d83370d7157d1a8c0df956421c320a8525c73a554cac9aaeb95c",
+            "raw_sha256": "18b8f4c520ac1d8fddb5db966fd341551c4fe2e8dfd38a677fe66d5806971aa5",
+            "frames": 38973
+          },
+          "bill": {
+            "rpc": 38973,
+            "request_bytes": 1683984,
+            "response_bytes": 13918021,
+            "control_bytes": 2028198,
+            "routing_metadata_bytes": 870128,
+            "proof_bytes": 10523808,
+            "reads": 24583,
+            "private_header_bytes": 839796,
+            "data_record_bytes": 1340075,
+            "updates": 11958,
+            "commits": 1216,
+            "total_bytes": 15602005
+          },
+          "server_rows": 24844,
+          "merkle_bytes": 32736
+        },
+        {
+          "depth": 6,
+          "geometry": {
+            "buckets": 64,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 6
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_gc_ring_S3_Y3_d6.jsonl.gz",
+            "sha256": "c28f09b61e30bb7926488c2ed7cb96ad57621fcd95815d183b557a4f5c464116",
+            "raw_sha256": "23006cfb42addb6b142f6d346b82fb4fd3096c1c0d48428af3ba7e85ee3d54c0",
+            "frames": 57266
+          },
+          "bill": {
+            "rpc": 57266,
+            "request_bytes": 2239878,
+            "response_bytes": 21660895,
+            "control_bytes": 2887432,
+            "routing_metadata_bytes": 1207519,
+            "proof_bytes": 17046400,
+            "reads": 38839,
+            "private_header_bytes": 1248132,
+            "data_record_bytes": 1511290,
+            "updates": 14431,
+            "commits": 1998,
+            "total_bytes": 23900773
+          },
+          "server_rows": 49580,
+          "merkle_bytes": 65504
+        }
+      ],
+      "answer_sha256": "c773b513cb4144915b8702f420fd92611cf26cbaa5cfa3cccfb97c6b2b7e6748",
+      "max_stash": 4,
+      "frontend_memory": {
+        "plb_payload_bytes": 192,
+        "plb_leaf_and_address_bytes": 36,
+        "terminal_leaf_bytes": 4,
+        "stash_reserved_bytes": 8192,
+        "full_private_posmap_present": false,
+        "measured_peak": false
+      },
+      "trusted_cache": "root only for Ring/GC-Ring; R0 root omitted",
+      "formal_performance_sample": false,
+      "native_AB": false
+    },
+    {
+      "kind": "r0",
+      "S": 3,
+      "Y": 3,
+      "N": 64,
+      "B": 64,
+      "population": 73,
+      "L": 6,
+      "map_counts": [
+        64,
+        8,
+        1
+      ],
+      "PLB": 3,
+      "LLC_sets": 4,
+      "LLC_ways": 2,
+      "setup_slots": 219,
+      "phases": [
+        {
+          "phase": "warmup",
+          "requests": 16,
+          "slots": 256,
+          "total_bill": {
+            "rpc": 40520,
+            "request_bytes": 1844676,
+            "response_bytes": 13169860,
+            "control_bytes": 2160280,
+            "routing_metadata_bytes": 963071,
+            "proof_bytes": 9470848,
+            "reads": 24248,
+            "private_header_bytes": 977412,
+            "data_record_bytes": 1442925,
+            "updates": 13378,
+            "commits": 1447,
+            "total_bytes": 15014536
+          },
+          "by_level": [
+            {
+              "depth": 1,
+              "bill": {
+                "rpc": 4928,
+                "request_bytes": 255916,
+                "response_bytes": 1219478,
+                "control_bytes": 280372,
+                "routing_metadata_bytes": 134334,
+                "proof_bytes": 714880,
+                "reads": 2495,
+                "private_header_bytes": 144948,
+                "data_record_bytes": 200860,
+                "updates": 1973,
+                "commits": 230,
+                "total_bytes": 1475394
+              },
+              "start_frame": 4087,
+              "end_frame": 9015
+            },
+            {
+              "depth": 2,
+              "bill": {
+                "rpc": 5635,
+                "request_bytes": 286738,
+                "response_bytes": 1563562,
+                "control_bytes": 315278,
+                "routing_metadata_bytes": 145223,
+                "proof_bytes": 996288,
+                "reads": 2974,
+                "private_header_bytes": 154536,
+                "data_record_bytes": 238975,
+                "updates": 2215,
+                "commits": 223,
+                "total_bytes": 1850300
+              },
+              "start_frame": 5046,
+              "end_frame": 10681
+            },
+            {
+              "depth": 3,
+              "bill": {
+                "rpc": 6563,
+                "request_bytes": 317093,
+                "response_bytes": 1996176,
+                "control_bytes": 357790,
+                "routing_metadata_bytes": 162379,
+                "proof_bytes": 1365280,
+                "reads": 3708,
+                "private_header_bytes": 166944,
+                "data_record_bytes": 260876,
+                "updates": 2387,
+                "commits": 234,
+                "total_bytes": 2313269
+              },
+              "start_frame": 6090,
+              "end_frame": 12653
+            },
+            {
+              "depth": 4,
+              "bill": {
+                "rpc": 6815,
+                "request_bytes": 302871,
+                "response_bytes": 2238458,
+                "control_bytes": 358618,
+                "routing_metadata_bytes": 159957,
+                "proof_bytes": 1630976,
+                "reads": 4195,
+                "private_header_bytes": 153408,
+                "data_record_bytes": 238370,
+                "updates": 2176,
+                "commits": 222,
+                "total_bytes": 2541329
+              },
+              "start_frame": 5501,
+              "end_frame": 12316
+            },
+            {
+              "depth": 5,
+              "bill": {
+                "rpc": 6567,
+                "request_bytes": 283717,
+                "response_bytes": 2349608,
+                "control_bytes": 341250,
+                "routing_metadata_bytes": 145527,
+                "proof_bytes": 1777824,
+                "reads": 4151,
+                "private_header_bytes": 139308,
+                "data_record_bytes": 229416,
+                "updates": 2022,
+                "commits": 197,
+                "total_bytes": 2633325
+              },
+              "start_frame": 5160,
+              "end_frame": 11727
+            },
+            {
+              "depth": 6,
+              "bill": {
+                "rpc": 10012,
+                "request_bytes": 398341,
+                "response_bytes": 3802578,
+                "control_bytes": 506972,
+                "routing_metadata_bytes": 215651,
+                "proof_bytes": 2985600,
+                "reads": 6725,
+                "private_header_bytes": 218268,
+                "data_record_bytes": 274428,
+                "updates": 2605,
+                "commits": 341,
+                "total_bytes": 4200919
+              },
+              "start_frame": 6949,
+              "end_frame": 16961
+            }
+          ],
+          "controller_metrics": {
+            "llc_misses": 14,
+            "foreground_slots": 34,
+            "foreground_posmap_slots": 15,
+            "public_slots": 256,
+            "application_completed": 16,
+            "foreground_data_slots": 19,
+            "dummy_slots": 222,
+            "llc_evictions": 7,
+            "foreground_writebacks": 5,
+            "llc_hits": 2,
+            "unfinished_foreground": 0,
+            "dirty_resident": 4,
+            "dwb_pending": false,
+            "background_pending": false
+          },
+          "cb_metrics": {
+            "level_transactions": 1447,
+            "logical_consumed_slots": 937,
+            "transfer_slots": 256,
+            "scheduled_rebuilds": 510,
+            "collateral_buckets": 286,
+            "expansions": 343,
+            "maintenance_read_slots": 2574,
+            "neutral_rebuilds": 37,
+            "green_promotions": 23
+          },
+          "schedule": {
+            "slots": 256,
+            "remove_admit_sha256": "3ef8419180c8712958a86d583b1f23d194c53211e57a88bbce1eb6198f5ff9ae"
+          },
+          "inventory": {
+            "remote_real_observations": 1
+          }
+        },
+        {
+          "phase": "measurement",
+          "requests": 64,
+          "slots": 1024,
+          "total_bill": {
+            "rpc": 164474,
+            "request_bytes": 7505493,
+            "response_bytes": 53484954,
+            "control_bytes": 8776960,
+            "routing_metadata_bytes": 3908832,
+            "proof_bytes": 38433792,
+            "reads": 98207,
+            "private_header_bytes": 3987480,
+            "data_record_bytes": 5883383,
+            "updates": 54489,
+            "commits": 5889,
+            "total_bytes": 60990447
+          },
+          "by_level": [
+            {
+              "depth": 1,
+              "bill": {
+                "rpc": 19744,
+                "request_bytes": 1024008,
+                "response_bytes": 4880023,
+                "control_bytes": 1123196,
+                "routing_metadata_bytes": 544352,
+                "proof_bytes": 2860480,
+                "reads": 10007,
+                "private_header_bytes": 587688,
+                "data_record_bytes": 788315,
+                "updates": 7871,
+                "commits": 933,
+                "total_bytes": 5904031
+              },
+              "start_frame": 9015,
+              "end_frame": 28759
+            },
+            {
+              "depth": 2,
+              "bill": {
+                "rpc": 22982,
+                "request_bytes": 1168849,
+                "response_bytes": 6376352,
+                "control_bytes": 1285564,
+                "routing_metadata_bytes": 590180,
+                "proof_bytes": 4062720,
+                "reads": 12138,
+                "private_header_bytes": 632808,
+                "data_record_bytes": 973929,
+                "updates": 9022,
+                "commits": 911,
+                "total_bytes": 7545201
+              },
+              "start_frame": 10681,
+              "end_frame": 33663
+            },
+            {
+              "depth": 3,
+              "bill": {
+                "rpc": 27234,
+                "request_bytes": 1315085,
+                "response_bytes": 8277465,
+                "control_bytes": 1484244,
+                "routing_metadata_bytes": 679325,
+                "proof_bytes": 5662272,
+                "reads": 15404,
+                "private_header_bytes": 692592,
+                "data_record_bytes": 1074117,
+                "updates": 9874,
+                "commits": 978,
+                "total_bytes": 9592550
+              },
+              "start_frame": 12653,
+              "end_frame": 39887
+            },
+            {
+              "depth": 4,
+              "bill": {
+                "rpc": 26963,
+                "request_bytes": 1253751,
+                "response_bytes": 8960661,
+                "control_bytes": 1442338,
+                "routing_metadata_bytes": 639107,
+                "proof_bytes": 6460160,
+                "reads": 15935,
+                "private_header_bytes": 629424,
+                "data_record_bytes": 1043383,
+                "updates": 9300,
+                "commits": 864,
+                "total_bytes": 10214412
+              },
+              "start_frame": 12316,
+              "end_frame": 39279
+            },
+            {
+              "depth": 5,
+              "bill": {
+                "rpc": 27246,
+                "request_bytes": 1173234,
+                "response_bytes": 9730084,
+                "control_bytes": 1415100,
+                "routing_metadata_bytes": 607568,
+                "proof_bytes": 7364160,
+                "reads": 17256,
+                "private_header_bytes": 582612,
+                "data_record_bytes": 933878,
+                "updates": 8314,
+                "commits": 838,
+                "total_bytes": 10903318
+              },
+              "start_frame": 11727,
+              "end_frame": 38973
+            },
+            {
+              "depth": 6,
+              "bill": {
+                "rpc": 40305,
+                "request_bytes": 1570566,
+                "response_bytes": 15260369,
+                "control_bytes": 2026518,
+                "routing_metadata_bytes": 848300,
+                "proof_bytes": 12024000,
+                "reads": 27467,
+                "private_header_bytes": 862356,
+                "data_record_bytes": 1069761,
+                "updates": 10108,
+                "commits": 1365,
+                "total_bytes": 16830935
+              },
+              "start_frame": 16961,
+              "end_frame": 57266
+            }
+          ],
+          "controller_metrics": {
+            "llc_misses": 57,
+            "foreground_slots": 159,
+            "foreground_posmap_slots": 74,
+            "public_slots": 1024,
+            "application_completed": 64,
+            "foreground_data_slots": 85,
+            "dummy_slots": 865,
+            "llc_evictions": 56,
+            "foreground_writebacks": 28,
+            "llc_hits": 7,
+            "unfinished_foreground": 0,
+            "dirty_resident": 2,
+            "dwb_pending": false,
+            "background_pending": false
+          },
+          "cb_metrics": {
+            "level_transactions": 5889,
+            "logical_consumed_slots": 3843,
+            "transfer_slots": 1024,
+            "scheduled_rebuilds": 2046,
+            "collateral_buckets": 1181,
+            "expansions": 1377,
+            "maintenance_read_slots": 10461,
+            "neutral_rebuilds": 175,
+            "green_promotions": 83
+          },
+          "schedule": {
+            "slots": 1024,
+            "remove_admit_sha256": "02814c10ed7eac0b3e9aada19bfad7caa79c7ef63a424d6a69575047d6961045"
+          },
+          "inventory": {
+            "remote_real_observations": 2
+          }
+        }
+      ],
+      "wire": [
+        {
+          "depth": 1,
+          "geometry": {
+            "buckets": 2,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 2,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 1
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_r0_S3_Y3_d1.jsonl.gz",
+            "sha256": "3e89c0413c2e9ca0cd28fa923599e6a111dd4338af000062ae821dd8450465de",
+            "raw_sha256": "06c599d34ac536bea65dadb2772a0e677290271da2017b7d93f0a9b647568c62",
+            "frames": 28759
+          },
+          "bill": {
+            "rpc": 28759,
+            "request_bytes": 1491585,
+            "response_bytes": 7108351,
+            "control_bytes": 1636130,
+            "routing_metadata_bytes": 791594,
+            "proof_bytes": 4166880,
+            "reads": 14573,
+            "private_header_bytes": 853896,
+            "data_record_bytes": 1151436,
+            "updates": 11470,
+            "commits": 1358,
+            "total_bytes": 8599936
+          },
+          "server_rows": 1654,
+          "merkle_bytes": 2016
+        },
+        {
+          "depth": 2,
+          "geometry": {
+            "buckets": 4,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 2
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_r0_S3_Y3_d2.jsonl.gz",
+            "sha256": "5d7de8da59744e8f084ca40d5bd19a701cbbceb4b604f1e870667c46d0420333",
+            "raw_sha256": "1d5fba585466bb2a5f8fed48715f0292fdd7c6a64cf15349b108d0e7e473ac9a",
+            "frames": 33663
+          },
+          "bill": {
+            "rpc": 33663,
+            "request_bytes": 1710147,
+            "response_bytes": 9336255,
+            "control_bytes": 1882134,
+            "routing_metadata_bytes": 864865,
+            "proof_bytes": 5951040,
+            "reads": 17804,
+            "private_header_bytes": 925524,
+            "data_record_bytes": 1422839,
+            "updates": 13191,
+            "commits": 1334,
+            "total_bytes": 11046402
+          },
+          "server_rows": 3200,
+          "merkle_bytes": 4064
+        },
+        {
+          "depth": 3,
+          "geometry": {
+            "buckets": 8,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 3
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_r0_S3_Y3_d3.jsonl.gz",
+            "sha256": "ba0607b4b828e76252443f8e97eb6d994ca2c33f3af7556d0f91b00f9d7b6c74",
+            "raw_sha256": "07dbd9e9c2fbad9b56b7fbcc2c91598bb9a9d800dae735f2a1fc5d1a17ec6435",
+            "frames": 39887
+          },
+          "bill": {
+            "rpc": 39887,
+            "request_bytes": 1924797,
+            "response_bytes": 12119705,
+            "control_bytes": 2173414,
+            "routing_metadata_bytes": 994751,
+            "proof_bytes": 8291808,
+            "reads": 22574,
+            "private_header_bytes": 1015764,
+            "data_record_bytes": 1568765,
+            "updates": 14443,
+            "commits": 1435,
+            "total_bytes": 14044502
+          },
+          "server_rows": 6292,
+          "merkle_bytes": 8160
+        },
+        {
+          "depth": 4,
+          "geometry": {
+            "buckets": 16,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 4
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_r0_S3_Y3_d4.jsonl.gz",
+            "sha256": "e0092795b195eb2acc003f1cdbfc3f91fb564eea2e38ccd6e5a67414f47cd422",
+            "raw_sha256": "d7527a49c9d115fdfc625700c8a820b348277d07e16b2a5e2a8416379456abbf",
+            "frames": 39279
+          },
+          "bill": {
+            "rpc": 39279,
+            "request_bytes": 1809256,
+            "response_bytes": 13015206,
+            "control_bytes": 2094810,
+            "routing_metadata_bytes": 929000,
+            "proof_bytes": 9402624,
+            "reads": 23401,
+            "private_header_bytes": 913116,
+            "data_record_bytes": 1484912,
+            "updates": 13328,
+            "commits": 1275,
+            "total_bytes": 14824462
+          },
+          "server_rows": 12476,
+          "merkle_bytes": 16352
+        },
+        {
+          "depth": 5,
+          "geometry": {
+            "buckets": 32,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 5
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_r0_S3_Y3_d5.jsonl.gz",
+            "sha256": "727fb3fdbfc3d83370d7157d1a8c0df956421c320a8525c73a554cac9aaeb95c",
+            "raw_sha256": "18b8f4c520ac1d8fddb5db966fd341551c4fe2e8dfd38a677fe66d5806971aa5",
+            "frames": 38973
+          },
+          "bill": {
+            "rpc": 38973,
+            "request_bytes": 1683984,
+            "response_bytes": 13918021,
+            "control_bytes": 2028198,
+            "routing_metadata_bytes": 870128,
+            "proof_bytes": 10523808,
+            "reads": 24583,
+            "private_header_bytes": 839796,
+            "data_record_bytes": 1340075,
+            "updates": 11958,
+            "commits": 1216,
+            "total_bytes": 15602005
+          },
+          "server_rows": 24844,
+          "merkle_bytes": 32736
+        },
+        {
+          "depth": 6,
+          "geometry": {
+            "buckets": 64,
+            "base": 4,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 3,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 6
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_r0_S3_Y3_d6.jsonl.gz",
+            "sha256": "c28f09b61e30bb7926488c2ed7cb96ad57621fcd95815d183b557a4f5c464116",
+            "raw_sha256": "23006cfb42addb6b142f6d346b82fb4fd3096c1c0d48428af3ba7e85ee3d54c0",
+            "frames": 57266
+          },
+          "bill": {
+            "rpc": 57266,
+            "request_bytes": 2239878,
+            "response_bytes": 21660895,
+            "control_bytes": 2887432,
+            "routing_metadata_bytes": 1207519,
+            "proof_bytes": 17046400,
+            "reads": 38839,
+            "private_header_bytes": 1248132,
+            "data_record_bytes": 1511290,
+            "updates": 14431,
+            "commits": 1998,
+            "total_bytes": 23900773
+          },
+          "server_rows": 49580,
+          "merkle_bytes": 65504
+        }
+      ],
+      "answer_sha256": "c773b513cb4144915b8702f420fd92611cf26cbaa5cfa3cccfb97c6b2b7e6748",
+      "max_stash": 6,
+      "frontend_memory": {
+        "plb_payload_bytes": 192,
+        "plb_leaf_and_address_bytes": 36,
+        "terminal_leaf_bytes": 4,
+        "stash_reserved_bytes": 8192,
+        "full_private_posmap_present": false,
+        "measured_peak": false
+      },
+      "trusted_cache": "root only for Ring/GC-Ring; R0 root omitted",
+      "formal_performance_sample": false,
+      "native_AB": false
+    },
+    {
+      "kind": "ring",
+      "S": 4,
+      "Y": 2,
+      "N": 64,
+      "B": 64,
+      "population": 73,
+      "L": 6,
+      "map_counts": [
+        64,
+        8,
+        1
+      ],
+      "PLB": 3,
+      "LLC_sets": 4,
+      "LLC_ways": 2,
+      "setup_slots": 219,
+      "phases": [
+        {
+          "phase": "warmup",
+          "requests": 16,
+          "slots": 256,
+          "total_bill": {
+            "rpc": 62385,
+            "request_bytes": 2797610,
+            "response_bytes": 20013110,
+            "control_bytes": 3289746,
+            "routing_metadata_bytes": 1491206,
+            "proof_bytes": 14369504,
+            "reads": 38218,
+            "private_header_bytes": 1353036,
+            "data_record_bytes": 2307228,
+            "updates": 20075,
+            "commits": 2046,
+            "total_bytes": 22810720
+          },
+          "by_level": [
+            {
+              "depth": 1,
+              "bill": {
+                "rpc": 7814,
+                "request_bytes": 399803,
+                "response_bytes": 1934285,
+                "control_bytes": 438820,
+                "routing_metadata_bytes": 220427,
+                "proof_bytes": 1141120,
+                "reads": 4100,
+                "private_header_bytes": 213192,
+                "data_record_bytes": 320529,
+                "updates": 3032,
+                "commits": 341,
+                "total_bytes": 2334088
+              },
+              "start_frame": 6567,
+              "end_frame": 14381
+            },
+            {
+              "depth": 2,
+              "bill": {
+                "rpc": 9530,
+                "request_bytes": 470226,
+                "response_bytes": 2635406,
+                "control_bytes": 522928,
+                "routing_metadata_bytes": 248387,
+                "proof_bytes": 1698816,
+                "reads": 5291,
+                "private_header_bytes": 231240,
+                "data_record_bytes": 404261,
+                "updates": 3557,
+                "commits": 341,
+                "total_bytes": 3105632
+              },
+              "start_frame": 8102,
+              "end_frame": 17632
+            },
+            {
+              "depth": 3,
+              "bill": {
+                "rpc": 10812,
+                "request_bytes": 496450,
+                "response_bytes": 3264212,
+                "control_bytes": 573948,
+                "routing_metadata_bytes": 265881,
+                "proof_bytes": 2269120,
+                "reads": 6509,
+                "private_header_bytes": 232932,
+                "data_record_bytes": 418781,
+                "updates": 3621,
+                "commits": 341,
+                "total_bytes": 3760662
+              },
+              "start_frame": 9272,
+              "end_frame": 20084
+            },
+            {
+              "depth": 4,
+              "bill": {
+                "rpc": 11363,
+                "request_bytes": 494522,
+                "response_bytes": 3734189,
+                "control_bytes": 590494,
+                "routing_metadata_bytes": 262894,
+                "proof_bytes": 2734336,
+                "reads": 7182,
+                "private_header_bytes": 230676,
+                "data_record_bytes": 410311,
+                "updates": 3499,
+                "commits": 341,
+                "total_bytes": 4228711
+              },
+              "start_frame": 8992,
+              "end_frame": 20355
+            },
+            {
+              "depth": 5,
+              "bill": {
+                "rpc": 11761,
+                "request_bytes": 494734,
+                "response_bytes": 4199023,
+                "control_bytes": 603422,
+                "routing_metadata_bytes": 256660,
+                "proof_bytes": 3190752,
+                "reads": 7641,
+                "private_header_bytes": 230676,
+                "data_record_bytes": 412247,
+                "updates": 3438,
+                "commits": 341,
+                "total_bytes": 4693757
+              },
+              "start_frame": 8362,
+              "end_frame": 20123
+            },
+            {
+              "depth": 6,
+              "bill": {
+                "rpc": 11105,
+                "request_bytes": 441875,
+                "response_bytes": 4245995,
+                "control_bytes": 560134,
+                "routing_metadata_bytes": 236957,
+                "proof_bytes": 3335360,
+                "reads": 7495,
+                "private_header_bytes": 214320,
+                "data_record_bytes": 341099,
+                "updates": 2928,
+                "commits": 341,
+                "total_bytes": 4687870
+              },
+              "start_frame": 7402,
+              "end_frame": 18507
+            }
+          ],
+          "controller_metrics": {
+            "llc_misses": 14,
+            "foreground_slots": 34,
+            "foreground_posmap_slots": 15,
+            "public_slots": 256,
+            "application_completed": 16,
+            "foreground_data_slots": 19,
+            "dummy_slots": 222,
+            "llc_evictions": 7,
+            "foreground_writebacks": 5,
+            "llc_hits": 2,
+            "unfinished_foreground": 0,
+            "dirty_resident": 4,
+            "dwb_pending": false,
+            "background_pending": false
+          },
+          "cb_metrics": {
+            "level_transactions": 2046,
+            "logical_consumed_slots": 1536,
+            "transfer_slots": 256,
+            "scheduled_rebuilds": 510,
+            "collateral_buckets": 353,
+            "expansions": 394,
+            "maintenance_read_slots": 3319,
+            "neutral_rebuilds": 48,
+            "green_promotions": 4
+          },
+          "schedule": {
+            "slots": 256,
+            "remove_admit_sha256": "3ef8419180c8712958a86d583b1f23d194c53211e57a88bbce1eb6198f5ff9ae"
+          },
+          "inventory": {
+            "remote_real_observations": 1
+          }
+        },
+        {
+          "phase": "measurement",
+          "requests": 64,
+          "slots": 1024,
+          "total_bill": {
+            "rpc": 247779,
+            "request_bytes": 11105521,
+            "response_bytes": 79451446,
+            "control_bytes": 13067262,
+            "routing_metadata_bytes": 5944645,
+            "proof_bytes": 57050784,
+            "reads": 151804,
+            "private_header_bytes": 5383944,
+            "data_record_bytes": 9110332,
+            "updates": 79595,
+            "commits": 8190,
+            "total_bytes": 90556967
+          },
+          "by_level": [
+            {
+              "depth": 1,
+              "bill": {
+                "rpc": 31176,
+                "request_bytes": 1593103,
+                "response_bytes": 7711304,
+                "control_bytes": 1750248,
+                "routing_metadata_bytes": 880251,
+                "proof_bytes": 4551360,
+                "reads": 16376,
+                "private_header_bytes": 847692,
+                "data_record_bytes": 1274856,
+                "updates": 12070,
+                "commits": 1365,
+                "total_bytes": 9304407
+              },
+              "start_frame": 14381,
+              "end_frame": 45557
+            },
+            {
+              "depth": 2,
+              "bill": {
+                "rpc": 37884,
+                "request_bytes": 1866848,
+                "response_bytes": 10468200,
+                "control_bytes": 2078340,
+                "routing_metadata_bytes": 990095,
+                "proof_bytes": 6749568,
+                "reads": 21051,
+                "private_header_bytes": 918756,
+                "data_record_bytes": 1598289,
+                "updates": 14103,
+                "commits": 1365,
+                "total_bytes": 12335048
+              },
+              "start_frame": 17632,
+              "end_frame": 55516
+            },
+            {
+              "depth": 3,
+              "bill": {
+                "rpc": 42820,
+                "request_bytes": 1969972,
+                "response_bytes": 12927606,
+                "control_bytes": 2275592,
+                "routing_metadata_bytes": 1058284,
+                "proof_bytes": 8980160,
+                "reads": 25718,
+                "private_header_bytes": 929472,
+                "data_record_bytes": 1654070,
+                "updates": 14372,
+                "commits": 1365,
+                "total_bytes": 14897578
+              },
+              "start_frame": 20084,
+              "end_frame": 62904
+            },
+            {
+              "depth": 4,
+              "bill": {
+                "rpc": 45258,
+                "request_bytes": 1958075,
+                "response_bytes": 14850250,
+                "control_bytes": 2347428,
+                "routing_metadata_bytes": 1043612,
+                "proof_bytes": 10887168,
+                "reads": 28734,
+                "private_header_bytes": 915372,
+                "data_record_bytes": 1614745,
+                "updates": 13794,
+                "commits": 1365,
+                "total_bytes": 16808325
+              },
+              "start_frame": 20355,
+              "end_frame": 65613
+            },
+            {
+              "depth": 5,
+              "bill": {
+                "rpc": 45711,
+                "request_bytes": 1901291,
+                "response_bytes": 16259752,
+                "control_bytes": 2338218,
+                "routing_metadata_bytes": 1004748,
+                "proof_bytes": 12378528,
+                "reads": 29921,
+                "private_header_bytes": 897888,
+                "data_record_bytes": 1541661,
+                "updates": 13060,
+                "commits": 1365,
+                "total_bytes": 18161043
+              },
+              "start_frame": 20123,
+              "end_frame": 65834
+            },
+            {
+              "depth": 6,
+              "bill": {
+                "rpc": 44930,
+                "request_bytes": 1816232,
+                "response_bytes": 17234334,
+                "control_bytes": 2277436,
+                "routing_metadata_bytes": 967655,
+                "proof_bytes": 13504000,
+                "reads": 30004,
+                "private_header_bytes": 874764,
+                "data_record_bytes": 1426711,
+                "updates": 12196,
+                "commits": 1365,
+                "total_bytes": 19050566
+              },
+              "start_frame": 18507,
+              "end_frame": 63437
+            }
+          ],
+          "controller_metrics": {
+            "llc_misses": 57,
+            "foreground_slots": 159,
+            "foreground_posmap_slots": 74,
+            "public_slots": 1024,
+            "application_completed": 64,
+            "foreground_data_slots": 85,
+            "dummy_slots": 865,
+            "llc_evictions": 56,
+            "foreground_writebacks": 28,
+            "llc_hits": 7,
+            "unfinished_foreground": 0,
+            "dirty_resident": 2,
+            "dwb_pending": false,
+            "background_pending": false
+          },
+          "cb_metrics": {
+            "level_transactions": 8190,
+            "logical_consumed_slots": 6144,
+            "transfer_slots": 1024,
+            "scheduled_rebuilds": 2046,
+            "collateral_buckets": 1356,
+            "expansions": 1572,
+            "maintenance_read_slots": 13015,
+            "neutral_rebuilds": 188,
+            "green_promotions": 4
+          },
+          "schedule": {
+            "slots": 1024,
+            "remove_admit_sha256": "02814c10ed7eac0b3e9aada19bfad7caa79c7ef63a424d6a69575047d6961045"
+          },
+          "inventory": {
+            "remote_real_observations": 3
+          }
+        }
+      ],
+      "wire": [
+        {
+          "depth": 1,
+          "geometry": {
+            "buckets": 2,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 2,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 1
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_ring_S4_Y2_d1.jsonl.gz",
+            "sha256": "9b843324f1eb17dcf2ca53a47edfddbf1f4e4e8d3531cba5e0e37562a6c57509",
+            "raw_sha256": "9837a2454a111a610c043aa9a20eaa591038db8401f0b591bf9b115e681c0612",
+            "frames": 45557
+          },
+          "bill": {
+            "rpc": 45557,
+            "request_bytes": 2326672,
+            "response_bytes": 11265193,
+            "control_bytes": 2557186,
+            "routing_metadata_bytes": 1287575,
+            "proof_bytes": 6649760,
+            "reads": 23944,
+            "private_header_bytes": 1240236,
+            "data_record_bytes": 1857108,
+            "updates": 17617,
+            "commits": 1998,
+            "total_bytes": 13591865
+          },
+          "server_rows": 2222,
+          "merkle_bytes": 2016
+        },
+        {
+          "depth": 2,
+          "geometry": {
+            "buckets": 4,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 2
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_ring_S4_Y2_d2.jsonl.gz",
+            "sha256": "4c1854290e107b2bc74bd8c7a3b71a7633a8a22226e0b838506e9a20c79a9291",
+            "raw_sha256": "2cc7d6e43390ab1dcf4ebd2e8cbc06fbbbf831645436691716e684d466406249",
+            "frames": 55516
+          },
+          "bill": {
+            "rpc": 55516,
+            "request_bytes": 2737475,
+            "response_bytes": 15344434,
+            "control_bytes": 3046256,
+            "routing_metadata_bytes": 1449905,
+            "proof_bytes": 9891840,
+            "reads": 30830,
+            "private_header_bytes": 1347960,
+            "data_record_bytes": 2345948,
+            "updates": 20690,
+            "commits": 1998,
+            "total_bytes": 18081909
+          },
+          "server_rows": 4336,
+          "merkle_bytes": 4064
+        },
+        {
+          "depth": 3,
+          "geometry": {
+            "buckets": 8,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 3
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_ring_S4_Y2_d3.jsonl.gz",
+            "sha256": "43d69fb7ff76823d0cf986e2c805909e444c30d92fd653f74b67208390e26c10",
+            "raw_sha256": "f1a6718ebe9c425f11b42481f97b422e267477983d15176bc2858e9fa1f9eb30",
+            "frames": 62904
+          },
+          "bill": {
+            "rpc": 62904,
+            "request_bytes": 2890836,
+            "response_bytes": 18988720,
+            "control_bytes": 3341256,
+            "routing_metadata_bytes": 1549794,
+            "proof_bytes": 13195392,
+            "reads": 37822,
+            "private_header_bytes": 1359804,
+            "data_record_bytes": 2433310,
+            "updates": 21086,
+            "commits": 1998,
+            "total_bytes": 21879556
+          },
+          "server_rows": 8564,
+          "merkle_bytes": 8160
+        },
+        {
+          "depth": 4,
+          "geometry": {
+            "buckets": 16,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 4
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_ring_S4_Y2_d4.jsonl.gz",
+            "sha256": "35fd937956229ecfdc27c02c4a6a162ebe363b277d40edd89ca9f7de02248973",
+            "raw_sha256": "caa10ea5578fadaed0b233346e4a788d270ff12807ed236fe640c6b4e810d421",
+            "frames": 65613
+          },
+          "bill": {
+            "rpc": 65613,
+            "request_bytes": 2843516,
+            "response_bytes": 21526950,
+            "control_bytes": 3406398,
+            "routing_metadata_bytes": 1518981,
+            "proof_bytes": 15773952,
+            "reads": 41581,
+            "private_header_bytes": 1334988,
+            "data_record_bytes": 2336147,
+            "updates": 20036,
+            "commits": 1998,
+            "total_bytes": 24370466
+          },
+          "server_rows": 17020,
+          "merkle_bytes": 16352
+        },
+        {
+          "depth": 5,
+          "geometry": {
+            "buckets": 32,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 5
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_ring_S4_Y2_d5.jsonl.gz",
+            "sha256": "444f7f57d1bad4f613a45fc68337aa636500ac9f651142ac8fcc74228800549d",
+            "raw_sha256": "fe12ef56ba95345fc4aa7795773d73892d59a670bdad6c458c3f16a65c1fadf1",
+            "frames": 65834
+          },
+          "bill": {
+            "rpc": 65834,
+            "request_bytes": 2739239,
+            "response_bytes": 23402061,
+            "control_bytes": 3370300,
+            "routing_metadata_bytes": 1447100,
+            "proof_bytes": 17809344,
+            "reads": 43038,
+            "private_header_bytes": 1305096,
+            "data_record_bytes": 2209460,
+            "updates": 18800,
+            "commits": 1998,
+            "total_bytes": 26141300
+          },
+          "server_rows": 33932,
+          "merkle_bytes": 32736
+        },
+        {
+          "depth": 6,
+          "geometry": {
+            "buckets": 64,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 6
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_ring_S4_Y2_d6.jsonl.gz",
+            "sha256": "7f17f9bf31a141e5d1295cb6c30594c6955cf837b4a1de7cfb2094db163040e8",
+            "raw_sha256": "ae9c94127c217b05d8adc9e037c8f1cac7ea1a9857cf9e3cb0705319dadb78a0",
+            "frames": 63437
+          },
+          "bill": {
+            "rpc": 63437,
+            "request_bytes": 2553904,
+            "response_bytes": 24274135,
+            "control_bytes": 3216250,
+            "routing_metadata_bytes": 1361775,
+            "proof_bytes": 19021120,
+            "reads": 42390,
+            "private_header_bytes": 1254900,
+            "data_record_bytes": 1973994,
+            "updates": 17051,
+            "commits": 1998,
+            "total_bytes": 26828039
+          },
+          "server_rows": 67756,
+          "merkle_bytes": 65504
+        }
+      ],
+      "answer_sha256": "c773b513cb4144915b8702f420fd92611cf26cbaa5cfa3cccfb97c6b2b7e6748",
+      "max_stash": 2,
+      "frontend_memory": {
+        "plb_payload_bytes": 192,
+        "plb_leaf_and_address_bytes": 36,
+        "terminal_leaf_bytes": 4,
+        "stash_reserved_bytes": 8192,
+        "full_private_posmap_present": false,
+        "measured_peak": false
+      },
+      "trusted_cache": "root only for Ring/GC-Ring; R0 root omitted",
+      "formal_performance_sample": false,
+      "native_AB": false
+    },
+    {
+      "kind": "gc_ring",
+      "S": 4,
+      "Y": 2,
+      "N": 64,
+      "B": 64,
+      "population": 73,
+      "L": 6,
+      "map_counts": [
+        64,
+        8,
+        1
+      ],
+      "PLB": 3,
+      "LLC_sets": 4,
+      "LLC_ways": 2,
+      "setup_slots": 219,
+      "phases": [
+        {
+          "phase": "warmup",
+          "requests": 16,
+          "slots": 256,
+          "total_bill": {
+            "rpc": 48220,
+            "request_bytes": 2211585,
+            "response_bytes": 15783054,
+            "control_bytes": 2562284,
+            "routing_metadata_bytes": 1118583,
+            "proof_bytes": 11339136,
+            "reads": 28909,
+            "private_header_bytes": 979104,
+            "data_record_bytes": 1995532,
+            "updates": 16417,
+            "commits": 1447,
+            "total_bytes": 17994639
+          },
+          "by_level": [
+            {
+              "depth": 1,
+              "bill": {
+                "rpc": 5774,
+                "request_bytes": 300440,
+                "response_bytes": 1444223,
+                "control_bytes": 326416,
+                "routing_metadata_bytes": 152704,
+                "proof_bytes": 850240,
+                "reads": 2955,
+                "private_header_bytes": 144384,
+                "data_record_bytes": 270919,
+                "updates": 2359,
+                "commits": 230,
+                "total_bytes": 1744663
+              },
+              "start_frame": 4948,
+              "end_frame": 10722
+            },
+            {
+              "depth": 2,
+              "bill": {
+                "rpc": 7044,
+                "request_bytes": 358574,
+                "response_bytes": 1978143,
+                "control_bytes": 390996,
+                "routing_metadata_bytes": 172505,
+                "proof_bytes": 1266816,
+                "reads": 3767,
+                "private_header_bytes": 157920,
+                "data_record_bytes": 348480,
+                "updates": 2831,
+                "commits": 223,
+                "total_bytes": 2336717
+              },
+              "start_frame": 6100,
+              "end_frame": 13144
+            },
+            {
+              "depth": 3,
+              "bill": {
+                "rpc": 7979,
+                "request_bytes": 381536,
+                "response_bytes": 2444219,
+                "control_bytes": 430390,
+                "routing_metadata_bytes": 191626,
+                "proof_bytes": 1682464,
+                "reads": 4602,
+                "private_header_bytes": 164688,
+                "data_record_bytes": 356587,
+                "updates": 2909,
+                "commits": 234,
+                "total_bytes": 2825755
+              },
+              "start_frame": 7410,
+              "end_frame": 15389
+            },
+            {
+              "depth": 4,
+              "bill": {
+                "rpc": 8381,
+                "request_bytes": 381207,
+                "response_bytes": 2797036,
+                "control_bytes": 442030,
+                "routing_metadata_bytes": 190400,
+                "proof_bytes": 2031872,
+                "reads": 5097,
+                "private_header_bytes": 159048,
+                "data_record_bytes": 354893,
+                "updates": 2840,
+                "commits": 222,
+                "total_bytes": 3178243
+              },
+              "start_frame": 6581,
+              "end_frame": 14962
+            },
+            {
+              "depth": 5,
+              "bill": {
+                "rpc": 7937,
+                "request_bytes": 347953,
+                "response_bytes": 2873438,
+                "control_bytes": 412318,
+                "routing_metadata_bytes": 174391,
+                "proof_bytes": 2172384,
+                "reads": 4993,
+                "private_header_bytes": 138744,
+                "data_record_bytes": 323554,
+                "updates": 2550,
+                "commits": 197,
+                "total_bytes": 3221391
+              },
+              "start_frame": 5841,
+              "end_frame": 13778
+            },
+            {
+              "depth": 6,
+              "bill": {
+                "rpc": 11105,
+                "request_bytes": 441875,
+                "response_bytes": 4245995,
+                "control_bytes": 560134,
+                "routing_metadata_bytes": 236957,
+                "proof_bytes": 3335360,
+                "reads": 7495,
+                "private_header_bytes": 214320,
+                "data_record_bytes": 341099,
+                "updates": 2928,
+                "commits": 341,
+                "total_bytes": 4687870
+              },
+              "start_frame": 7402,
+              "end_frame": 18507
+            }
+          ],
+          "controller_metrics": {
+            "llc_misses": 14,
+            "foreground_slots": 34,
+            "foreground_posmap_slots": 15,
+            "public_slots": 256,
+            "application_completed": 16,
+            "foreground_data_slots": 19,
+            "dummy_slots": 222,
+            "llc_evictions": 7,
+            "foreground_writebacks": 5,
+            "llc_hits": 2,
+            "unfinished_foreground": 0,
+            "dirty_resident": 4,
+            "dwb_pending": false,
+            "background_pending": false
+          },
+          "cb_metrics": {
+            "level_transactions": 1447,
+            "logical_consumed_slots": 937,
+            "transfer_slots": 256,
+            "scheduled_rebuilds": 510,
+            "collateral_buckets": 289,
+            "expansions": 323,
+            "maintenance_read_slots": 3104,
+            "neutral_rebuilds": 12,
+            "green_promotions": 4
+          },
+          "schedule": {
+            "slots": 256,
+            "remove_admit_sha256": "3ef8419180c8712958a86d583b1f23d194c53211e57a88bbce1eb6198f5ff9ae"
+          },
+          "inventory": {
+            "remote_real_observations": 1
+          }
+        },
+        {
+          "phase": "measurement",
+          "requests": 64,
+          "slots": 1024,
+          "total_bill": {
+            "rpc": 195334,
+            "request_bytes": 9019389,
+            "response_bytes": 64036379,
+            "control_bytes": 10406480,
+            "routing_metadata_bytes": 4554046,
+            "proof_bytes": 45935200,
+            "reads": 116377,
+            "private_header_bytes": 4004400,
+            "data_record_bytes": 8155642,
+            "updates": 67179,
+            "commits": 5889,
+            "total_bytes": 73055768
+          },
+          "by_level": [
+            {
+              "depth": 1,
+              "bill": {
+                "rpc": 23681,
+                "request_bytes": 1234685,
+                "response_bytes": 5930548,
+                "control_bytes": 1338862,
+                "routing_metadata_bytes": 626094,
+                "proof_bytes": 3490400,
+                "reads": 12109,
+                "private_header_bytes": 592200,
+                "data_record_bytes": 1117677,
+                "updates": 9706,
+                "commits": 933,
+                "total_bytes": 7165233
+              },
+              "start_frame": 10722,
+              "end_frame": 34403
+            },
+            {
+              "depth": 2,
+              "bill": {
+                "rpc": 27985,
+                "request_bytes": 1417622,
+                "response_bytes": 7837298,
+                "control_bytes": 1551782,
+                "routing_metadata_bytes": 689816,
+                "proof_bytes": 5023296,
+                "reads": 15027,
+                "private_header_bytes": 631680,
+                "data_record_bytes": 1358346,
+                "updates": 11136,
+                "commits": 911,
+                "total_bytes": 9254920
+              },
+              "start_frame": 13144,
+              "end_frame": 41129
+            },
+            {
+              "depth": 3,
+              "bill": {
+                "rpc": 33012,
+                "request_bytes": 1593410,
+                "response_bytes": 10133974,
+                "control_bytes": 1787436,
+                "routing_metadata_bytes": 793925,
+                "proof_bytes": 6956544,
+                "reads": 18859,
+                "private_header_bytes": 695976,
+                "data_record_bytes": 1493503,
+                "updates": 12197,
+                "commits": 978,
+                "total_bytes": 11727384
+              },
+              "start_frame": 15389,
+              "end_frame": 48401
+            },
+            {
+              "depth": 4,
+              "bill": {
+                "rpc": 32596,
+                "request_bytes": 1495050,
+                "response_bytes": 10897283,
+                "control_bytes": 1724972,
+                "routing_metadata_bytes": 745948,
+                "proof_bytes": 7902208,
+                "reads": 19663,
+                "private_header_bytes": 616452,
+                "data_record_bytes": 1402753,
+                "updates": 11205,
+                "commits": 864,
+                "total_bytes": 12392333
+              },
+              "start_frame": 14962,
+              "end_frame": 47558
+            },
+            {
+              "depth": 5,
+              "bill": {
+                "rpc": 33130,
+                "request_bytes": 1462390,
+                "response_bytes": 12002942,
+                "control_bytes": 1725992,
+                "routing_metadata_bytes": 730608,
+                "proof_bytes": 9058752,
+                "reads": 20715,
+                "private_header_bytes": 593328,
+                "data_record_bytes": 1356652,
+                "updates": 10739,
+                "commits": 838,
+                "total_bytes": 13465332
+              },
+              "start_frame": 13778,
+              "end_frame": 46908
+            },
+            {
+              "depth": 6,
+              "bill": {
+                "rpc": 44930,
+                "request_bytes": 1816232,
+                "response_bytes": 17234334,
+                "control_bytes": 2277436,
+                "routing_metadata_bytes": 967655,
+                "proof_bytes": 13504000,
+                "reads": 30004,
+                "private_header_bytes": 874764,
+                "data_record_bytes": 1426711,
+                "updates": 12196,
+                "commits": 1365,
+                "total_bytes": 19050566
+              },
+              "start_frame": 18507,
+              "end_frame": 63437
+            }
+          ],
+          "controller_metrics": {
+            "llc_misses": 57,
+            "foreground_slots": 159,
+            "foreground_posmap_slots": 74,
+            "public_slots": 1024,
+            "application_completed": 64,
+            "foreground_data_slots": 85,
+            "dummy_slots": 865,
+            "llc_evictions": 56,
+            "foreground_writebacks": 28,
+            "llc_hits": 7,
+            "unfinished_foreground": 0,
+            "dirty_resident": 2,
+            "dwb_pending": false,
+            "background_pending": false
+          },
+          "cb_metrics": {
+            "level_transactions": 5889,
+            "logical_consumed_slots": 3843,
+            "transfer_slots": 1024,
+            "scheduled_rebuilds": 2046,
+            "collateral_buckets": 1211,
+            "expansions": 1361,
+            "maintenance_read_slots": 12659,
+            "neutral_rebuilds": 50,
+            "green_promotions": 4
+          },
+          "schedule": {
+            "slots": 1024,
+            "remove_admit_sha256": "02814c10ed7eac0b3e9aada19bfad7caa79c7ef63a424d6a69575047d6961045"
+          },
+          "inventory": {
+            "remote_real_observations": 3
+          }
+        }
+      ],
+      "wire": [
+        {
+          "depth": 1,
+          "geometry": {
+            "buckets": 2,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 2,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 1
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_gc_ring_S4_Y2_d1.jsonl.gz",
+            "sha256": "85054c46dff3fb4fcbda90d606f9b101d1e02d7f83a3e7e640ee04731cd7d26f",
+            "raw_sha256": "fe77a057180bb90dbfe823b19e7dfb9d7c4200d1db235d95d487f39d3cb54da4",
+            "frames": 34403
+          },
+          "bill": {
+            "rpc": 34403,
+            "request_bytes": 1793322,
+            "response_bytes": 8614093,
+            "control_bytes": 1945210,
+            "routing_metadata_bytes": 909171,
+            "proof_bytes": 5069920,
+            "reads": 17589,
+            "private_header_bytes": 859536,
+            "data_record_bytes": 1623578,
+            "updates": 14098,
+            "commits": 1358,
+            "total_bytes": 10407415
+          },
+          "server_rows": 2222,
+          "merkle_bytes": 2016
+        },
+        {
+          "depth": 2,
+          "geometry": {
+            "buckets": 4,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 2
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_gc_ring_S4_Y2_d2.jsonl.gz",
+            "sha256": "895c46d620625585331cb4ff7dd48582d9bbe801d47b1921177e8404433200ca",
+            "raw_sha256": "6468e176283dbef182873271ef95b01363abf618cfb8b320746766c3898df09d",
+            "frames": 41129
+          },
+          "bill": {
+            "rpc": 41129,
+            "request_bytes": 2084632,
+            "response_bytes": 11522261,
+            "control_bytes": 2280790,
+            "routing_metadata_bytes": 1012996,
+            "proof_bytes": 7384512,
+            "reads": 22077,
+            "private_header_bytes": 928344,
+            "data_record_bytes": 2000251,
+            "updates": 16384,
+            "commits": 1334,
+            "total_bytes": 13606893
+          },
+          "server_rows": 4336,
+          "merkle_bytes": 4064
+        },
+        {
+          "depth": 3,
+          "geometry": {
+            "buckets": 8,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 3
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_gc_ring_S4_Y2_d3.jsonl.gz",
+            "sha256": "4a9cd36c6884d85f39a80013f6b315ae763be56f74990d97f8fb8e237e21db5f",
+            "raw_sha256": "fc10097034e858ce3adb35d1ff62727013ba5a12a4f59bd3c852146a729ba0b8",
+            "frames": 48401
+          },
+          "bill": {
+            "rpc": 48401,
+            "request_bytes": 2331948,
+            "response_bytes": 14849550,
+            "control_bytes": 2618734,
+            "routing_metadata_bytes": 1165179,
+            "proof_bytes": 10198944,
+            "reads": 27705,
+            "private_header_bytes": 1018584,
+            "data_record_bytes": 2180057,
+            "updates": 17826,
+            "commits": 1435,
+            "total_bytes": 17181498
+          },
+          "server_rows": 8564,
+          "merkle_bytes": 8160
+        },
+        {
+          "depth": 4,
+          "geometry": {
+            "buckets": 16,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 4
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_gc_ring_S4_Y2_d4.jsonl.gz",
+            "sha256": "f041c3f829e178a9fa5fdd7771b0b01d265d3831b2fca30f422205966e53ce11",
+            "raw_sha256": "22dd25992716bf9b819e7901cd5785a648c8ae09e29a21c7397aa70bb06c8baf",
+            "frames": 47558
+          },
+          "bill": {
+            "rpc": 47558,
+            "request_bytes": 2184099,
+            "response_bytes": 15897840,
+            "control_bytes": 2519032,
+            "routing_metadata_bytes": 1087232,
+            "proof_bytes": 11522048,
+            "reads": 28635,
+            "private_header_bytes": 906912,
+            "data_record_bytes": 2046715,
+            "updates": 16373,
+            "commits": 1275,
+            "total_bytes": 18081939
+          },
+          "server_rows": 17020,
+          "merkle_bytes": 16352
+        },
+        {
+          "depth": 5,
+          "geometry": {
+            "buckets": 32,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 5
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_gc_ring_S4_Y2_d5.jsonl.gz",
+            "sha256": "5b796e1ff0b0d8d64434bd1059d9349f5b8507d5d1d1973f8dee68c0a87b4b10",
+            "raw_sha256": "04e8935bf26293ca7956c3abd5e6ee3565126705f4d57647b72e096b33497047",
+            "frames": 46908
+          },
+          "bill": {
+            "rpc": 46908,
+            "request_bytes": 2059147,
+            "response_bytes": 16958344,
+            "control_bytes": 2441148,
+            "routing_metadata_bytes": 1033731,
+            "proof_bytes": 12809088,
+            "reads": 29423,
+            "private_header_bytes": 842052,
+            "data_record_bytes": 1891472,
+            "updates": 15053,
+            "commits": 1216,
+            "total_bytes": 19017491
+          },
+          "server_rows": 33932,
+          "merkle_bytes": 32736
+        },
+        {
+          "depth": 6,
+          "geometry": {
+            "buckets": 64,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 6
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_gc_ring_S4_Y2_d6.jsonl.gz",
+            "sha256": "7f17f9bf31a141e5d1295cb6c30594c6955cf837b4a1de7cfb2094db163040e8",
+            "raw_sha256": "ae9c94127c217b05d8adc9e037c8f1cac7ea1a9857cf9e3cb0705319dadb78a0",
+            "frames": 63437
+          },
+          "bill": {
+            "rpc": 63437,
+            "request_bytes": 2553904,
+            "response_bytes": 24274135,
+            "control_bytes": 3216250,
+            "routing_metadata_bytes": 1361775,
+            "proof_bytes": 19021120,
+            "reads": 42390,
+            "private_header_bytes": 1254900,
+            "data_record_bytes": 1973994,
+            "updates": 17051,
+            "commits": 1998,
+            "total_bytes": 26828039
+          },
+          "server_rows": 67756,
+          "merkle_bytes": 65504
+        }
+      ],
+      "answer_sha256": "c773b513cb4144915b8702f420fd92611cf26cbaa5cfa3cccfb97c6b2b7e6748",
+      "max_stash": 2,
+      "frontend_memory": {
+        "plb_payload_bytes": 192,
+        "plb_leaf_and_address_bytes": 36,
+        "terminal_leaf_bytes": 4,
+        "stash_reserved_bytes": 8192,
+        "full_private_posmap_present": false,
+        "measured_peak": false
+      },
+      "trusted_cache": "root only for Ring/GC-Ring; R0 root omitted",
+      "formal_performance_sample": false,
+      "native_AB": false
+    },
+    {
+      "kind": "r0",
+      "S": 4,
+      "Y": 2,
+      "N": 64,
+      "B": 64,
+      "population": 73,
+      "L": 6,
+      "map_counts": [
+        64,
+        8,
+        1
+      ],
+      "PLB": 3,
+      "LLC_sets": 4,
+      "LLC_ways": 2,
+      "setup_slots": 219,
+      "phases": [
+        {
+          "phase": "warmup",
+          "requests": 16,
+          "slots": 256,
+          "total_bill": {
+            "rpc": 48220,
+            "request_bytes": 2211585,
+            "response_bytes": 15783054,
+            "control_bytes": 2562284,
+            "routing_metadata_bytes": 1118583,
+            "proof_bytes": 11339136,
+            "reads": 28909,
+            "private_header_bytes": 979104,
+            "data_record_bytes": 1995532,
+            "updates": 16417,
+            "commits": 1447,
+            "total_bytes": 17994639
+          },
+          "by_level": [
+            {
+              "depth": 1,
+              "bill": {
+                "rpc": 5774,
+                "request_bytes": 300440,
+                "response_bytes": 1444223,
+                "control_bytes": 326416,
+                "routing_metadata_bytes": 152704,
+                "proof_bytes": 850240,
+                "reads": 2955,
+                "private_header_bytes": 144384,
+                "data_record_bytes": 270919,
+                "updates": 2359,
+                "commits": 230,
+                "total_bytes": 1744663
+              },
+              "start_frame": 4948,
+              "end_frame": 10722
+            },
+            {
+              "depth": 2,
+              "bill": {
+                "rpc": 7044,
+                "request_bytes": 358574,
+                "response_bytes": 1978143,
+                "control_bytes": 390996,
+                "routing_metadata_bytes": 172505,
+                "proof_bytes": 1266816,
+                "reads": 3767,
+                "private_header_bytes": 157920,
+                "data_record_bytes": 348480,
+                "updates": 2831,
+                "commits": 223,
+                "total_bytes": 2336717
+              },
+              "start_frame": 6100,
+              "end_frame": 13144
+            },
+            {
+              "depth": 3,
+              "bill": {
+                "rpc": 7979,
+                "request_bytes": 381536,
+                "response_bytes": 2444219,
+                "control_bytes": 430390,
+                "routing_metadata_bytes": 191626,
+                "proof_bytes": 1682464,
+                "reads": 4602,
+                "private_header_bytes": 164688,
+                "data_record_bytes": 356587,
+                "updates": 2909,
+                "commits": 234,
+                "total_bytes": 2825755
+              },
+              "start_frame": 7410,
+              "end_frame": 15389
+            },
+            {
+              "depth": 4,
+              "bill": {
+                "rpc": 8381,
+                "request_bytes": 381207,
+                "response_bytes": 2797036,
+                "control_bytes": 442030,
+                "routing_metadata_bytes": 190400,
+                "proof_bytes": 2031872,
+                "reads": 5097,
+                "private_header_bytes": 159048,
+                "data_record_bytes": 354893,
+                "updates": 2840,
+                "commits": 222,
+                "total_bytes": 3178243
+              },
+              "start_frame": 6581,
+              "end_frame": 14962
+            },
+            {
+              "depth": 5,
+              "bill": {
+                "rpc": 7937,
+                "request_bytes": 347953,
+                "response_bytes": 2873438,
+                "control_bytes": 412318,
+                "routing_metadata_bytes": 174391,
+                "proof_bytes": 2172384,
+                "reads": 4993,
+                "private_header_bytes": 138744,
+                "data_record_bytes": 323554,
+                "updates": 2550,
+                "commits": 197,
+                "total_bytes": 3221391
+              },
+              "start_frame": 5841,
+              "end_frame": 13778
+            },
+            {
+              "depth": 6,
+              "bill": {
+                "rpc": 11105,
+                "request_bytes": 441875,
+                "response_bytes": 4245995,
+                "control_bytes": 560134,
+                "routing_metadata_bytes": 236957,
+                "proof_bytes": 3335360,
+                "reads": 7495,
+                "private_header_bytes": 214320,
+                "data_record_bytes": 341099,
+                "updates": 2928,
+                "commits": 341,
+                "total_bytes": 4687870
+              },
+              "start_frame": 7402,
+              "end_frame": 18507
+            }
+          ],
+          "controller_metrics": {
+            "llc_misses": 14,
+            "foreground_slots": 34,
+            "foreground_posmap_slots": 15,
+            "public_slots": 256,
+            "application_completed": 16,
+            "foreground_data_slots": 19,
+            "dummy_slots": 222,
+            "llc_evictions": 7,
+            "foreground_writebacks": 5,
+            "llc_hits": 2,
+            "unfinished_foreground": 0,
+            "dirty_resident": 4,
+            "dwb_pending": false,
+            "background_pending": false
+          },
+          "cb_metrics": {
+            "level_transactions": 1447,
+            "logical_consumed_slots": 937,
+            "transfer_slots": 256,
+            "scheduled_rebuilds": 510,
+            "collateral_buckets": 289,
+            "expansions": 323,
+            "maintenance_read_slots": 3104,
+            "neutral_rebuilds": 12,
+            "green_promotions": 4
+          },
+          "schedule": {
+            "slots": 256,
+            "remove_admit_sha256": "3ef8419180c8712958a86d583b1f23d194c53211e57a88bbce1eb6198f5ff9ae"
+          },
+          "inventory": {
+            "remote_real_observations": 1
+          }
+        },
+        {
+          "phase": "measurement",
+          "requests": 64,
+          "slots": 1024,
+          "total_bill": {
+            "rpc": 195334,
+            "request_bytes": 9019389,
+            "response_bytes": 64036379,
+            "control_bytes": 10406480,
+            "routing_metadata_bytes": 4554046,
+            "proof_bytes": 45935200,
+            "reads": 116377,
+            "private_header_bytes": 4004400,
+            "data_record_bytes": 8155642,
+            "updates": 67179,
+            "commits": 5889,
+            "total_bytes": 73055768
+          },
+          "by_level": [
+            {
+              "depth": 1,
+              "bill": {
+                "rpc": 23681,
+                "request_bytes": 1234685,
+                "response_bytes": 5930548,
+                "control_bytes": 1338862,
+                "routing_metadata_bytes": 626094,
+                "proof_bytes": 3490400,
+                "reads": 12109,
+                "private_header_bytes": 592200,
+                "data_record_bytes": 1117677,
+                "updates": 9706,
+                "commits": 933,
+                "total_bytes": 7165233
+              },
+              "start_frame": 10722,
+              "end_frame": 34403
+            },
+            {
+              "depth": 2,
+              "bill": {
+                "rpc": 27985,
+                "request_bytes": 1417622,
+                "response_bytes": 7837298,
+                "control_bytes": 1551782,
+                "routing_metadata_bytes": 689816,
+                "proof_bytes": 5023296,
+                "reads": 15027,
+                "private_header_bytes": 631680,
+                "data_record_bytes": 1358346,
+                "updates": 11136,
+                "commits": 911,
+                "total_bytes": 9254920
+              },
+              "start_frame": 13144,
+              "end_frame": 41129
+            },
+            {
+              "depth": 3,
+              "bill": {
+                "rpc": 33012,
+                "request_bytes": 1593410,
+                "response_bytes": 10133974,
+                "control_bytes": 1787436,
+                "routing_metadata_bytes": 793925,
+                "proof_bytes": 6956544,
+                "reads": 18859,
+                "private_header_bytes": 695976,
+                "data_record_bytes": 1493503,
+                "updates": 12197,
+                "commits": 978,
+                "total_bytes": 11727384
+              },
+              "start_frame": 15389,
+              "end_frame": 48401
+            },
+            {
+              "depth": 4,
+              "bill": {
+                "rpc": 32596,
+                "request_bytes": 1495050,
+                "response_bytes": 10897283,
+                "control_bytes": 1724972,
+                "routing_metadata_bytes": 745948,
+                "proof_bytes": 7902208,
+                "reads": 19663,
+                "private_header_bytes": 616452,
+                "data_record_bytes": 1402753,
+                "updates": 11205,
+                "commits": 864,
+                "total_bytes": 12392333
+              },
+              "start_frame": 14962,
+              "end_frame": 47558
+            },
+            {
+              "depth": 5,
+              "bill": {
+                "rpc": 33130,
+                "request_bytes": 1462390,
+                "response_bytes": 12002942,
+                "control_bytes": 1725992,
+                "routing_metadata_bytes": 730608,
+                "proof_bytes": 9058752,
+                "reads": 20715,
+                "private_header_bytes": 593328,
+                "data_record_bytes": 1356652,
+                "updates": 10739,
+                "commits": 838,
+                "total_bytes": 13465332
+              },
+              "start_frame": 13778,
+              "end_frame": 46908
+            },
+            {
+              "depth": 6,
+              "bill": {
+                "rpc": 44930,
+                "request_bytes": 1816232,
+                "response_bytes": 17234334,
+                "control_bytes": 2277436,
+                "routing_metadata_bytes": 967655,
+                "proof_bytes": 13504000,
+                "reads": 30004,
+                "private_header_bytes": 874764,
+                "data_record_bytes": 1426711,
+                "updates": 12196,
+                "commits": 1365,
+                "total_bytes": 19050566
+              },
+              "start_frame": 18507,
+              "end_frame": 63437
+            }
+          ],
+          "controller_metrics": {
+            "llc_misses": 57,
+            "foreground_slots": 159,
+            "foreground_posmap_slots": 74,
+            "public_slots": 1024,
+            "application_completed": 64,
+            "foreground_data_slots": 85,
+            "dummy_slots": 865,
+            "llc_evictions": 56,
+            "foreground_writebacks": 28,
+            "llc_hits": 7,
+            "unfinished_foreground": 0,
+            "dirty_resident": 2,
+            "dwb_pending": false,
+            "background_pending": false
+          },
+          "cb_metrics": {
+            "level_transactions": 5889,
+            "logical_consumed_slots": 3843,
+            "transfer_slots": 1024,
+            "scheduled_rebuilds": 2046,
+            "collateral_buckets": 1211,
+            "expansions": 1361,
+            "maintenance_read_slots": 12659,
+            "neutral_rebuilds": 50,
+            "green_promotions": 4
+          },
+          "schedule": {
+            "slots": 1024,
+            "remove_admit_sha256": "02814c10ed7eac0b3e9aada19bfad7caa79c7ef63a424d6a69575047d6961045"
+          },
+          "inventory": {
+            "remote_real_observations": 3
+          }
+        }
+      ],
+      "wire": [
+        {
+          "depth": 1,
+          "geometry": {
+            "buckets": 2,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 2,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 1
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_r0_S4_Y2_d1.jsonl.gz",
+            "sha256": "85054c46dff3fb4fcbda90d606f9b101d1e02d7f83a3e7e640ee04731cd7d26f",
+            "raw_sha256": "fe77a057180bb90dbfe823b19e7dfb9d7c4200d1db235d95d487f39d3cb54da4",
+            "frames": 34403
+          },
+          "bill": {
+            "rpc": 34403,
+            "request_bytes": 1793322,
+            "response_bytes": 8614093,
+            "control_bytes": 1945210,
+            "routing_metadata_bytes": 909171,
+            "proof_bytes": 5069920,
+            "reads": 17589,
+            "private_header_bytes": 859536,
+            "data_record_bytes": 1623578,
+            "updates": 14098,
+            "commits": 1358,
+            "total_bytes": 10407415
+          },
+          "server_rows": 2222,
+          "merkle_bytes": 2016
+        },
+        {
+          "depth": 2,
+          "geometry": {
+            "buckets": 4,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 2
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_r0_S4_Y2_d2.jsonl.gz",
+            "sha256": "895c46d620625585331cb4ff7dd48582d9bbe801d47b1921177e8404433200ca",
+            "raw_sha256": "6468e176283dbef182873271ef95b01363abf618cfb8b320746766c3898df09d",
+            "frames": 41129
+          },
+          "bill": {
+            "rpc": 41129,
+            "request_bytes": 2084632,
+            "response_bytes": 11522261,
+            "control_bytes": 2280790,
+            "routing_metadata_bytes": 1012996,
+            "proof_bytes": 7384512,
+            "reads": 22077,
+            "private_header_bytes": 928344,
+            "data_record_bytes": 2000251,
+            "updates": 16384,
+            "commits": 1334,
+            "total_bytes": 13606893
+          },
+          "server_rows": 4336,
+          "merkle_bytes": 4064
+        },
+        {
+          "depth": 3,
+          "geometry": {
+            "buckets": 8,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 3
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_r0_S4_Y2_d3.jsonl.gz",
+            "sha256": "4a9cd36c6884d85f39a80013f6b315ae763be56f74990d97f8fb8e237e21db5f",
+            "raw_sha256": "fc10097034e858ce3adb35d1ff62727013ba5a12a4f59bd3c852146a729ba0b8",
+            "frames": 48401
+          },
+          "bill": {
+            "rpc": 48401,
+            "request_bytes": 2331948,
+            "response_bytes": 14849550,
+            "control_bytes": 2618734,
+            "routing_metadata_bytes": 1165179,
+            "proof_bytes": 10198944,
+            "reads": 27705,
+            "private_header_bytes": 1018584,
+            "data_record_bytes": 2180057,
+            "updates": 17826,
+            "commits": 1435,
+            "total_bytes": 17181498
+          },
+          "server_rows": 8564,
+          "merkle_bytes": 8160
+        },
+        {
+          "depth": 4,
+          "geometry": {
+            "buckets": 16,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 4
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_r0_S4_Y2_d4.jsonl.gz",
+            "sha256": "f041c3f829e178a9fa5fdd7771b0b01d265d3831b2fca30f422205966e53ce11",
+            "raw_sha256": "22dd25992716bf9b819e7901cd5785a648c8ae09e29a21c7397aa70bb06c8baf",
+            "frames": 47558
+          },
+          "bill": {
+            "rpc": 47558,
+            "request_bytes": 2184099,
+            "response_bytes": 15897840,
+            "control_bytes": 2519032,
+            "routing_metadata_bytes": 1087232,
+            "proof_bytes": 11522048,
+            "reads": 28635,
+            "private_header_bytes": 906912,
+            "data_record_bytes": 2046715,
+            "updates": 16373,
+            "commits": 1275,
+            "total_bytes": 18081939
+          },
+          "server_rows": 17020,
+          "merkle_bytes": 16352
+        },
+        {
+          "depth": 5,
+          "geometry": {
+            "buckets": 32,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 5
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_r0_S4_Y2_d5.jsonl.gz",
+            "sha256": "5b796e1ff0b0d8d64434bd1059d9349f5b8507d5d1d1973f8dee68c0a87b4b10",
+            "raw_sha256": "04e8935bf26293ca7956c3abd5e6ee3565126705f4d57647b72e096b33497047",
+            "frames": 46908
+          },
+          "bill": {
+            "rpc": 46908,
+            "request_bytes": 2059147,
+            "response_bytes": 16958344,
+            "control_bytes": 2441148,
+            "routing_metadata_bytes": 1033731,
+            "proof_bytes": 12809088,
+            "reads": 29423,
+            "private_header_bytes": 842052,
+            "data_record_bytes": 1891472,
+            "updates": 15053,
+            "commits": 1216,
+            "total_bytes": 19017491
+          },
+          "server_rows": 33932,
+          "merkle_bytes": 32736
+        },
+        {
+          "depth": 6,
+          "geometry": {
+            "buckets": 64,
+            "base": 6,
+            "extra": 1,
+            "component_cap": 3,
+            "queue_cap": 8,
+            "payload_bytes": 84,
+            "Z": 4,
+            "Y": 2,
+            "address_bound": 73,
+            "leaf_bits": 6,
+            "depth": 6
+          },
+          "wire": {
+            "path": "results\\ab_deadq_cb_wire\\frontend_r0_S4_Y2_d6.jsonl.gz",
+            "sha256": "7f17f9bf31a141e5d1295cb6c30594c6955cf837b4a1de7cfb2094db163040e8",
+            "raw_sha256": "ae9c94127c217b05d8adc9e037c8f1cac7ea1a9857cf9e3cb0705319dadb78a0",
+            "frames": 63437
+          },
+          "bill": {
+            "rpc": 63437,
+            "request_bytes": 2553904,
+            "response_bytes": 24274135,
+            "control_bytes": 3216250,
+            "routing_metadata_bytes": 1361775,
+            "proof_bytes": 19021120,
+            "reads": 42390,
+            "private_header_bytes": 1254900,
+            "data_record_bytes": 1973994,
+            "updates": 17051,
+            "commits": 1998,
+            "total_bytes": 26828039
+          },
+          "server_rows": 67756,
+          "merkle_bytes": 65504
+        }
+      ],
+      "answer_sha256": "c773b513cb4144915b8702f420fd92611cf26cbaa5cfa3cccfb97c6b2b7e6748",
+      "max_stash": 4,
+      "frontend_memory": {
+        "plb_payload_bytes": 192,
+        "plb_leaf_and_address_bytes": 36,
+        "terminal_leaf_bytes": 4,
+        "stash_reserved_bytes": 8192,
+        "full_private_posmap_present": false,
+        "measured_peak": false
+      },
+      "trusted_cache": "root only for Ring/GC-Ring; R0 root omitted",
+      "formal_performance_sample": false,
+      "native_AB": false
+    }
+  ],
+  "active_check": {
+    "commit_error_before_application_result": true,
+    "permanent_stop": true
+  },
+  "recursive_raw_map": true,
+  "inclusive_LLC": true,
+  "pressure_enabled": false,
+  "compressed_map": false,
+  "native_AB": false,
+  "formal_bandwidth_comparison": false,
+  "security_admission": false,
+  "true_peak_measured": false
+}

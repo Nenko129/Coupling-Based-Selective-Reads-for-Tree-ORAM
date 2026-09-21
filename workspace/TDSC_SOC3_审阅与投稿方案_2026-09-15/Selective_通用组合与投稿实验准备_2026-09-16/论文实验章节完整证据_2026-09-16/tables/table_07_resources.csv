@@ -1,0 +1,6 @@
+﻿id,kind,N,B,profile,remote_storage_bytes,local_persistent_bytes,reserved_stash_payload_bytes,terminal_map_bytes,true_client_peak_measured,allocator_index_overhead_included,scope
+TUNE_000,path,16384,4096,4/3/3,550555880,0,1114112,1024,False,False,persistent payload plus declared workspace; not true trusted peak RSS
+TUNE_012,deferred,16384,4096,4/3/3,550555880,0,1114112,1024,False,False,persistent payload plus declared workspace; not true trusted peak RSS
+TUNE_018,sde,16384,4096,4/3/3,550555880,0,1114112,1024,False,False,persistent payload plus declared workspace; not true trusted peak RSS
+TUNE_048,ring,16384,4096,7/6/9,1119110952,0,1114112,1024,False,False,persistent payload plus declared workspace; not true trusted peak RSS
+TUNE_066,r0,16384,4096,7/6/6,912481808,0,1114112,1024,False,False,persistent payload plus declared workspace; not true trusted peak RSS

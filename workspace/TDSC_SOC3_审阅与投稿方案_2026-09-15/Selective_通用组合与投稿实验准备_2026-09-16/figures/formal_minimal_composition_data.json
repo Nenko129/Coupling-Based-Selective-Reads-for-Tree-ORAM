@@ -1,0 +1,519 @@
+{
+  "suite": "formal",
+  "rows": [
+    {
+      "suite": "formal",
+      "family": "free_compressed",
+      "layout": "host",
+      "B": 64,
+      "workload": "uniform",
+      "baseline": "base",
+      "n": 5,
+      "mean_saving_pct": 23.872247990463595,
+      "paired_effects_pct": [
+        23.832218199177202,
+        23.90306303976327,
+        23.86676505837324,
+        23.85328642596084,
+        23.905907229043432
+      ],
+      "ci95": [
+        23.832619163657316,
+        23.911876817269874
+      ],
+      "baseline_bytes": 53935.875,
+      "selective_bytes": 41060.161328125,
+      "baseline_rpc": 6.242578125,
+      "selective_rpc": 6.242578125,
+      "receipts": [
+        {
+          "seed": 101,
+          "base": "results\\formal\\MIN_formal_free_compressed_deferred_B64_seed101.json",
+          "selective": "results\\formal\\MIN_formal_free_compressed_sde_B64_seed101.json",
+          "base_sha256": "18c103cd597b73734f49177a5b70dcaeb8737dc78ab23e006afbc45f82693d41",
+          "selective_sha256": "e97eb186e6ea3a90f71526c12bef0418220fd3aa8e0a3a7dc4385af093962f80"
+        },
+        {
+          "seed": 102,
+          "base": "results\\formal\\MIN_formal_free_compressed_deferred_B64_seed102.json",
+          "selective": "results\\formal\\MIN_formal_free_compressed_sde_B64_seed102.json",
+          "base_sha256": "7c17b1e3ed8b0306a5674f347243e83a8aa9b605da97ee351694ecae2768d73f",
+          "selective_sha256": "3cbbbbb7da9618985075e93723c831c7ac7084734f2567934b79074cfa620f34"
+        },
+        {
+          "seed": 103,
+          "base": "results\\formal\\MIN_formal_free_compressed_deferred_B64_seed103.json",
+          "selective": "results\\formal\\MIN_formal_free_compressed_sde_B64_seed103.json",
+          "base_sha256": "e72ac9257ae1c15eca681fae8b648dbec38a6e31f075bb27e16c69ae330cbbd5",
+          "selective_sha256": "095eca05d96cf81d08c4db661a99ebac5d6d51df745de631e8fe1b7fbe1a55f0"
+        },
+        {
+          "seed": 104,
+          "base": "results\\formal\\MIN_formal_free_compressed_deferred_B64_seed104.json",
+          "selective": "results\\formal\\MIN_formal_free_compressed_sde_B64_seed104.json",
+          "base_sha256": "e8ba942932885083a6133b95ea260bda9a3d66af33668801c731ea9e01c6ce90",
+          "selective_sha256": "0e5d438e57ed043410f7f0b1c8ef3266b67f3360f144fc403e1c46bbc29624e1"
+        },
+        {
+          "seed": 105,
+          "base": "results\\formal\\MIN_formal_free_compressed_deferred_B64_seed105.json",
+          "selective": "results\\formal\\MIN_formal_free_compressed_sde_B64_seed105.json",
+          "base_sha256": "dade7003432b137232146f17049f503b5be1bddc814563c4ea38a649cbbb2a08",
+          "selective_sha256": "434a98b9fc6ccd7e1d8bd090cbb2a090589ff215ea71aa62391b3e42a0601ae1"
+        }
+      ],
+      "needs_more_repeats": false,
+      "headline_eligible": true
+    },
+    {
+      "suite": "formal",
+      "family": "rho",
+      "layout": "host",
+      "B": 64,
+      "workload": "uniform",
+      "baseline": "base",
+      "n": 5,
+      "mean_saving_pct": 9.84695972713328,
+      "paired_effects_pct": [
+        9.841311489791504,
+        9.887839306564917,
+        9.880652859462435,
+        9.80822130915815,
+        9.816773670689393
+      ],
+      "ci95": [
+        9.80197560624134,
+        9.89194384802522
+      ],
+      "baseline_bytes": 53660.1546875,
+      "selective_bytes": 48376.24921875,
+      "baseline_rpc": 8.32353515625,
+      "selective_rpc": 8.32353515625,
+      "receipts": [
+        {
+          "seed": 101,
+          "base": "results\\formal\\MIN_formal_rho_deferred_B64_seed101.json",
+          "selective": "results\\formal\\MIN_formal_rho_sde_B64_seed101.json",
+          "base_sha256": "5cb6e5d1864dc4147aab2d9acd93ca7bb150149b590a6ec6f7942288ac11adc9",
+          "selective_sha256": "4740307c0dcf656bfcf5d4c850a02f2dc79d69c86b252a46bcdade152ffa8909"
+        },
+        {
+          "seed": 102,
+          "base": "results\\formal\\MIN_formal_rho_deferred_B64_seed102.json",
+          "selective": "results\\formal\\MIN_formal_rho_sde_B64_seed102.json",
+          "base_sha256": "600226c15ff07b37302c3338a920ff381fa842287edbfcc03ca8a1e8eecfb144",
+          "selective_sha256": "6704a524644b91b7ab135ee3c7b0aa87cc85fa63a71c871d467827dbb3ee4f83"
+        },
+        {
+          "seed": 103,
+          "base": "results\\formal\\MIN_formal_rho_deferred_B64_seed103.json",
+          "selective": "results\\formal\\MIN_formal_rho_sde_B64_seed103.json",
+          "base_sha256": "ca04688e5fc8bd6f9261fbf717cca801ac547080f64e4223ea91d4913dc9be0b",
+          "selective_sha256": "8f2b1a9f5d28d4b0d2181551b61c00303ea672aeebc3cf0359caf02879c64b7d"
+        },
+        {
+          "seed": 104,
+          "base": "results\\formal\\MIN_formal_rho_deferred_B64_seed104.json",
+          "selective": "results\\formal\\MIN_formal_rho_sde_B64_seed104.json",
+          "base_sha256": "eea74fddb6a6ab811a399a20669fe6196e8ea41de44ac22ba28db5785a8db960",
+          "selective_sha256": "6788990d47a99a1ca619b106bb6a5256ab6b53384454d21e17232f8f37f42d22"
+        },
+        {
+          "seed": 105,
+          "base": "results\\formal\\MIN_formal_rho_deferred_B64_seed105.json",
+          "selective": "results\\formal\\MIN_formal_rho_sde_B64_seed105.json",
+          "base_sha256": "4b91e0e679e10682db0ce333f3b5fe5fbe234539baf9a47f4042907177e7ce63",
+          "selective_sha256": "4f598528807f747312bbec1bc6a08ff8fdd18f3aaf07a6bce132864f9510aeaa"
+        }
+      ],
+      "needs_more_repeats": false,
+      "headline_eligible": true
+    },
+    {
+      "suite": "formal",
+      "family": "IR",
+      "layout": "depth",
+      "B": 64,
+      "workload": "uniform",
+      "baseline": "base",
+      "n": 5,
+      "mean_saving_pct": 20.551403808593754,
+      "paired_effects_pct": [
+        20.49459357010691,
+        20.573756167763158,
+        20.561941046463815,
+        20.5127595600329,
+        20.61396869860198
+      ],
+      "ci95": [
+        20.491707630490243,
+        20.611099986697266
+      ],
+      "baseline_bytes": 10133.333333333334,
+      "selective_bytes": 8050.791080729166,
+      "baseline_rpc": 2.6666666666666665,
+      "selective_rpc": 2.6666666666666665,
+      "receipts": [
+        {
+          "seed": 101,
+          "base": "results\\formal\\MIN_formal_IR_depth_base_B64_seed101.json",
+          "selective": "results\\formal\\MIN_formal_IR_depth_selective_B64_seed101.json",
+          "base_sha256": "41761cf81a83ca05bebf43de65a55e4f0eb352d1d24cd85ff136be23150c9dd7",
+          "selective_sha256": "3c7eeb81f6e3cdddbdaddb4cdd74c0338c464616705e0fab3c1cadb6bc238f88"
+        },
+        {
+          "seed": 102,
+          "base": "results\\formal\\MIN_formal_IR_depth_base_B64_seed102.json",
+          "selective": "results\\formal\\MIN_formal_IR_depth_selective_B64_seed102.json",
+          "base_sha256": "047feed1cc2bcd729852127fdc9c32bc902749d0e5688a85749ad96d38bd46f8",
+          "selective_sha256": "8ef25b31073bb0e65c137c8ea666967864a0c8346dce2a4f215760ee33252a86"
+        },
+        {
+          "seed": 103,
+          "base": "results\\formal\\MIN_formal_IR_depth_base_B64_seed103.json",
+          "selective": "results\\formal\\MIN_formal_IR_depth_selective_B64_seed103.json",
+          "base_sha256": "cc876e1ba78bef6d4dc79292f2bdd78e74d7e88d6861a5266c4cd86634042f96",
+          "selective_sha256": "7437ff0dd033d1bf40cd481fb2ea0c6f64b00b3378984e938fb835968622afbc"
+        },
+        {
+          "seed": 104,
+          "base": "results\\formal\\MIN_formal_IR_depth_base_B64_seed104.json",
+          "selective": "results\\formal\\MIN_formal_IR_depth_selective_B64_seed104.json",
+          "base_sha256": "e19dd93c407ac1700ef7240f64d13881b65b596d22e327d347110754a66890ac",
+          "selective_sha256": "b64ca81633b072a17ce26e3f1e938841a42641ddfe7c4fa59bef31af5a87f7aa"
+        },
+        {
+          "seed": 105,
+          "base": "results\\formal\\MIN_formal_IR_depth_base_B64_seed105.json",
+          "selective": "results\\formal\\MIN_formal_IR_depth_selective_B64_seed105.json",
+          "base_sha256": "ca2a7bd2f8e0832dd8fee90eaaeed20ae0eca2d4a680516d2820b2197c87c2a9",
+          "selective_sha256": "e98c783b8971dc7a96ca87d4c541ec4b06fcc6f55eb626e6c4b3bb40b67d647f"
+        }
+      ],
+      "needs_more_repeats": false,
+      "headline_eligible": true
+    },
+    {
+      "suite": "formal",
+      "family": "AB",
+      "layout": "depth",
+      "B": 64,
+      "workload": "uniform",
+      "baseline": "base",
+      "n": 5,
+      "mean_saving_pct": 25.009581489902907,
+      "paired_effects_pct": [
+        24.97777152116457,
+        25.040581594494704,
+        25.050809622399907,
+        25.018445821086832,
+        24.960298890368527
+      ],
+      "ci95": [
+        24.96077607639483,
+        25.058386903410984
+      ],
+      "baseline_bytes": 18793.147819010417,
+      "selective_bytes": 14093.05908203125,
+      "baseline_rpc": 6.231168619791667,
+      "selective_rpc": 4.782568359375,
+      "receipts": [
+        {
+          "seed": 101,
+          "base": "results\\formal\\MIN_formal_AB_depth_base_B64_seed101.json",
+          "selective": "results\\formal\\MIN_formal_AB_depth_selective_B64_seed101.json",
+          "base_sha256": "9eb77308384e9a8d94434303493a4e01bed8045d58212825a5b59f908205f4dc",
+          "selective_sha256": "0fb0838b6ed6461d08a5816b219b004ba6e1fcb55394063e4d128045539971eb"
+        },
+        {
+          "seed": 102,
+          "base": "results\\formal\\MIN_formal_AB_depth_base_B64_seed102.json",
+          "selective": "results\\formal\\MIN_formal_AB_depth_selective_B64_seed102.json",
+          "base_sha256": "f181607c70e8147656b8270ce42edd17a7109dc79ae92935a680582f6ff4337e",
+          "selective_sha256": "fd73f9888d8b168d6e7b33f56da4f6daff185cc7ca7ceaa734c2a9a88aa7222f"
+        },
+        {
+          "seed": 103,
+          "base": "results\\formal\\MIN_formal_AB_depth_base_B64_seed103.json",
+          "selective": "results\\formal\\MIN_formal_AB_depth_selective_B64_seed103.json",
+          "base_sha256": "c2b6f9a373b018b3cb7d0ba8ee87fc46f665c0ca6045b8007685911136b16879",
+          "selective_sha256": "2ba214ef97dfadf622b84b1b7f514f1d7798dcb0991b6b97555a1bc891740b11"
+        },
+        {
+          "seed": 104,
+          "base": "results\\formal\\MIN_formal_AB_depth_base_B64_seed104.json",
+          "selective": "results\\formal\\MIN_formal_AB_depth_selective_B64_seed104.json",
+          "base_sha256": "9833a5f98c74456fc8cb3089d3cecd58df226dc0028198c2e3e4545010f83ee5",
+          "selective_sha256": "45d58ced882e316567cc1750a3654cf9bf1ee17385defbe7186ccc529233d1c2"
+        },
+        {
+          "seed": 105,
+          "base": "results\\formal\\MIN_formal_AB_depth_base_B64_seed105.json",
+          "selective": "results\\formal\\MIN_formal_AB_depth_selective_B64_seed105.json",
+          "base_sha256": "3e00db854b54edf20a820688233ed2e9080ba14c832a5b56afba7983cad44faa",
+          "selective_sha256": "835238d1c3c8d3904333aab9eb4b9a042e9b2c279c3e49a4d5658b476d2f20df"
+        }
+      ],
+      "needs_more_repeats": false,
+      "headline_eligible": true
+    },
+    {
+      "suite": "formal",
+      "family": "free_compressed",
+      "layout": "host",
+      "B": 4096,
+      "workload": "uniform",
+      "baseline": "base",
+      "n": 5,
+      "mean_saving_pct": 24.20101469451875,
+      "paired_effects_pct": [
+        24.160681179636022,
+        24.232502503033327,
+        24.195208059446436,
+        24.181792377368982,
+        24.23488935310898
+      ],
+      "ci95": [
+        24.160929030987152,
+        24.24110035805035
+      ],
+      "baseline_bytes": 871963.3125,
+      "selective_bytes": 660939.211328125,
+      "baseline_rpc": 6.242578125,
+      "selective_rpc": 6.242578125,
+      "receipts": [
+        {
+          "seed": 101,
+          "base": "results\\formal\\MIN_formal_free_compressed_deferred_B4096_seed101.json",
+          "selective": "results\\formal\\MIN_formal_free_compressed_sde_B4096_seed101.json",
+          "base_sha256": "007011e5f7e4938ff4ad1743d6c5cde2b304d40c204fa822b722dbf614d07e95",
+          "selective_sha256": "c73a5876baa70beb52c79e42bb706068b0f4c037182c033a6e57da9793aa1b68"
+        },
+        {
+          "seed": 102,
+          "base": "results\\formal\\MIN_formal_free_compressed_deferred_B4096_seed102.json",
+          "selective": "results\\formal\\MIN_formal_free_compressed_sde_B4096_seed102.json",
+          "base_sha256": "48e2d96e33196a100911ad1593c5e407b129d0345246a7a473cd82ad9da6e126",
+          "selective_sha256": "893c1f121f87f174fb9d3e780db211a7658e94711fe1c0894134d233f5b88edc"
+        },
+        {
+          "seed": 103,
+          "base": "results\\formal\\MIN_formal_free_compressed_deferred_B4096_seed103.json",
+          "selective": "results\\formal\\MIN_formal_free_compressed_sde_B4096_seed103.json",
+          "base_sha256": "d514a537be011944aad0087622ba51f374c470e40be6200adc7fc74e94c2fea8",
+          "selective_sha256": "30266dfc65da3b279bc3f2c903044363d79a2765140d83b9e4ada59aef039855"
+        },
+        {
+          "seed": 104,
+          "base": "results\\formal\\MIN_formal_free_compressed_deferred_B4096_seed104.json",
+          "selective": "results\\formal\\MIN_formal_free_compressed_sde_B4096_seed104.json",
+          "base_sha256": "429ca4ff635a11407dc1316af8bf603da29cada999f041b3b8c32053ef736b50",
+          "selective_sha256": "7cbc02012f93ec0e6892e8262fe984131e98fc26e92e90a4072ce6f040f93a2e"
+        },
+        {
+          "seed": 105,
+          "base": "results\\formal\\MIN_formal_free_compressed_deferred_B4096_seed105.json",
+          "selective": "results\\formal\\MIN_formal_free_compressed_sde_B4096_seed105.json",
+          "base_sha256": "142c5ace287d117b69a33f320191656f827b713ad0be5fe78bcce82ede621f31",
+          "selective_sha256": "72fc514398616d27b0cb4c294c4133cd16cf27c6ff36dc10fbe3e4f74e224880"
+        }
+      ],
+      "needs_more_repeats": false,
+      "headline_eligible": true
+    },
+    {
+      "suite": "formal",
+      "family": "rho",
+      "layout": "host",
+      "B": 4096,
+      "workload": "uniform",
+      "baseline": "base",
+      "n": 5,
+      "mean_saving_pct": 9.617620912283405,
+      "paired_effects_pct": [
+        9.611969020483002,
+        9.65749719925788,
+        9.650733000279521,
+        9.579649332677798,
+        9.58825600871882
+      ],
+      "ci95": [
+        9.573622311833082,
+        9.661619512733727
+      ],
+      "baseline_bytes": 900424.2546875,
+      "selective_bytes": 813824.67421875,
+      "baseline_rpc": 8.32353515625,
+      "selective_rpc": 8.32353515625,
+      "receipts": [
+        {
+          "seed": 101,
+          "base": "results\\formal\\MIN_formal_rho_deferred_B4096_seed101.json",
+          "selective": "results\\formal\\MIN_formal_rho_sde_B4096_seed101.json",
+          "base_sha256": "0aa3fc540320b925ac297bcdc2dc466b41e585a17c2ed61cc9dc4e47a931f6d8",
+          "selective_sha256": "a8c946664570a0329ffea74601b241606a133935b02e5c2669d9fda451e11ce6"
+        },
+        {
+          "seed": 102,
+          "base": "results\\formal\\MIN_formal_rho_deferred_B4096_seed102.json",
+          "selective": "results\\formal\\MIN_formal_rho_sde_B4096_seed102.json",
+          "base_sha256": "d4c03902ead66c5e7a21741ddad988d67d253eddbb398866466980d9bb1f0d49",
+          "selective_sha256": "232eeb0b2f1fe6ead242cda13afb762e93bc907c0d925b516f99cc36288f9a60"
+        },
+        {
+          "seed": 103,
+          "base": "results\\formal\\MIN_formal_rho_deferred_B4096_seed103.json",
+          "selective": "results\\formal\\MIN_formal_rho_sde_B4096_seed103.json",
+          "base_sha256": "cd3660630103746fc359620154f4e89877570db3d43e3e48a31851adff8f568c",
+          "selective_sha256": "d58b2c3ffdf08b1429567aa472914e9bb3a677544c561f2eef640fb909ea55ef"
+        },
+        {
+          "seed": 104,
+          "base": "results\\formal\\MIN_formal_rho_deferred_B4096_seed104.json",
+          "selective": "results\\formal\\MIN_formal_rho_sde_B4096_seed104.json",
+          "base_sha256": "db73fee986ea65554bc6cbc79ff4692d63e9e963a998c21a7a4d1c4d64ebb35a",
+          "selective_sha256": "18555bbbe202fde6f9d0e47632d150cab8d4d2bb39bab4e49a4d937763fbac18"
+        },
+        {
+          "seed": 105,
+          "base": "results\\formal\\MIN_formal_rho_deferred_B4096_seed105.json",
+          "selective": "results\\formal\\MIN_formal_rho_sde_B4096_seed105.json",
+          "base_sha256": "201894d09e7e4c5b612d55e818f0e1970ed353c413c66923bb58c1b104fb28db",
+          "selective_sha256": "81c214193cccf843cf592ea2aa852663116221f6520a1ad8daadaa1d2d36a020"
+        }
+      ],
+      "needs_more_repeats": false,
+      "headline_eligible": true
+    },
+    {
+      "suite": "formal",
+      "family": "IR",
+      "layout": "depth",
+      "B": 4096,
+      "workload": "uniform",
+      "baseline": "base",
+      "n": 5,
+      "mean_saving_pct": 21.582891282648188,
+      "paired_effects_pct": [
+        21.574875497290137,
+        21.511496005462995,
+        21.54968892340291,
+        21.629233047091223,
+        21.649162939993673
+      ],
+      "ci95": [
+        21.512642758526642,
+        21.653139806769733
+      ],
+      "baseline_bytes": 144533.33333333334,
+      "selective_bytes": 113338.8611328125,
+      "baseline_rpc": 2.6666666666666665,
+      "selective_rpc": 2.6666666666666665,
+      "receipts": [
+        {
+          "seed": 101,
+          "base": "results\\formal\\MIN_formal_IR_depth_base_B4096_seed101.json",
+          "selective": "results\\formal\\MIN_formal_IR_depth_selective_B4096_seed101.json",
+          "base_sha256": "6fe1b8fc58844f26d844d4073b79379a097162c9c70d6df38b7853a91a0de49e",
+          "selective_sha256": "d2115b689b114938ed9a55846b07ae51a74c126b5d9b2ecbb1eceed4e4cadb1a"
+        },
+        {
+          "seed": 102,
+          "base": "results\\formal\\MIN_formal_IR_depth_base_B4096_seed102.json",
+          "selective": "results\\formal\\MIN_formal_IR_depth_selective_B4096_seed102.json",
+          "base_sha256": "b044494d95dba2f61823c0fb2ea15c9aa555a1f14099b64556a1befddceed05d",
+          "selective_sha256": "c9cf66f0e61890a580e0e27e45572e36772e91b2b15a0e5ba42cf1387e1bad4a"
+        },
+        {
+          "seed": 103,
+          "base": "results\\formal\\MIN_formal_IR_depth_base_B4096_seed103.json",
+          "selective": "results\\formal\\MIN_formal_IR_depth_selective_B4096_seed103.json",
+          "base_sha256": "97f42adedd1bfd0235a0cdc965748208b6ea8344a7a230642101873bb61435b1",
+          "selective_sha256": "122877905be3360f6f06e42960dda455ab11429f646aca9e24beec228a3ff636"
+        },
+        {
+          "seed": 104,
+          "base": "results\\formal\\MIN_formal_IR_depth_base_B4096_seed104.json",
+          "selective": "results\\formal\\MIN_formal_IR_depth_selective_B4096_seed104.json",
+          "base_sha256": "6846641a24fe606165b064aca4d222ee4b98b418cc58be505f641b9f9c5c2e11",
+          "selective_sha256": "906faf42573040320bc4390cd54f8bcc216632e30f34a1274d676eea0b9ccf41"
+        },
+        {
+          "seed": 105,
+          "base": "results\\formal\\MIN_formal_IR_depth_base_B4096_seed105.json",
+          "selective": "results\\formal\\MIN_formal_IR_depth_selective_B4096_seed105.json",
+          "base_sha256": "f95f2a1456e94ddd559bf3b6a08210c4164c12a93740be219aa275db6cb96ee8",
+          "selective_sha256": "6304ec7b41322a3569e056ff34b59d96895edccddc8b4e6728dc9dda95308bc3"
+        }
+      ],
+      "needs_more_repeats": false,
+      "headline_eligible": true
+    },
+    {
+      "suite": "formal",
+      "family": "AB",
+      "layout": "depth",
+      "B": 4096,
+      "workload": "uniform",
+      "baseline": "base",
+      "n": 5,
+      "mean_saving_pct": 23.244381965276776,
+      "paired_effects_pct": [
+        23.226929353338242,
+        23.278176285878672,
+        23.17928708421614,
+        23.140457840704066,
+        23.397059262246767
+      ],
+      "ci95": [
+        23.12053481347638,
+        23.368229117077174
+      ],
+      "baseline_bytes": 197446.70693359376,
+      "selective_bytes": 151551.33590494792,
+      "baseline_rpc": 6.228043619791666,
+      "selective_rpc": 4.781656901041667,
+      "receipts": [
+        {
+          "seed": 101,
+          "base": "results\\formal\\MIN_formal_AB_depth_base_B4096_seed101.json",
+          "selective": "results\\formal\\MIN_formal_AB_depth_selective_B4096_seed101.json",
+          "base_sha256": "99cb6be4ba4033e9752aea991546e2a556b2cae8c13eda45fccfc629d9bb2eb9",
+          "selective_sha256": "d829ec620708980269371c436e421fd44142a333c0df6df65e0bca1209a1be41"
+        },
+        {
+          "seed": 102,
+          "base": "results\\formal\\MIN_formal_AB_depth_base_B4096_seed102.json",
+          "selective": "results\\formal\\MIN_formal_AB_depth_selective_B4096_seed102.json",
+          "base_sha256": "b5ac1457addcee9b5e683390c69b25354ef5333d2d5a553e9a83ac45b8244bfb",
+          "selective_sha256": "b82018e21e620a7e7604b16a03eef7dbcb3fb2a01277a8db09aafe2c606e09d3"
+        },
+        {
+          "seed": 103,
+          "base": "results\\formal\\MIN_formal_AB_depth_base_B4096_seed103.json",
+          "selective": "results\\formal\\MIN_formal_AB_depth_selective_B4096_seed103.json",
+          "base_sha256": "14b492d5f8d3580ea4842b9585157c71bf8bf91254b32c737cb24716f7ce682c",
+          "selective_sha256": "45517a3ddf3efca92cd6c455b2701149e12591c28c36491da7b5cc853f79d022"
+        },
+        {
+          "seed": 104,
+          "base": "results\\formal\\MIN_formal_AB_depth_base_B4096_seed104.json",
+          "selective": "results\\formal\\MIN_formal_AB_depth_selective_B4096_seed104.json",
+          "base_sha256": "5b35a2a00380f0e461a0d5e57772a6b535855b11dfad3c4146c58526f55c475e",
+          "selective_sha256": "8cf674fa8f0204c295e78737f2f48bb6f16c126051a09d42025b7126fce93671"
+        },
+        {
+          "seed": 105,
+          "base": "results\\formal\\MIN_formal_AB_depth_base_B4096_seed105.json",
+          "selective": "results\\formal\\MIN_formal_AB_depth_selective_B4096_seed105.json",
+          "base_sha256": "78d34d74a8a8721293e2d29880a1663bb85e4bdbef2c2b4661983e57a59d49e4",
+          "selective_sha256": "2e265eee03e43e5a96fbed79c8c04a8482638080116cadb9dd6b4ab4c2d5e1ea"
+        }
+      ],
+      "needs_more_repeats": false,
+      "headline_eligible": true
+    }
+  ],
+  "source_analysis_sha256": "816a483ad128ec60bfdd1e8a8cc3eebe12ab4530d031bb28cf77fa35c078d4fc",
+  "uncertainty": "paired savings CI retained in data/table; bars show absolute means"
+}

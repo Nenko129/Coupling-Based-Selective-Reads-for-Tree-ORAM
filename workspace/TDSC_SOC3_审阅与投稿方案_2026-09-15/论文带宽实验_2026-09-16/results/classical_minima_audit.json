@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "main_minima": [
+    {
+      "kind": "ring",
+      "profile": [
+        4,
+        3,
+        3
+      ],
+      "minimum_R": 137
+    },
+    {
+      "kind": "ring",
+      "profile": [
+        7,
+        6,
+        9
+      ],
+      "minimum_R": 160
+    },
+    {
+      "kind": "path",
+      "profile": [
+        5,
+        3,
+        3
+      ],
+      "minimum_R": 258
+    }
+  ],
+  "historical_rows_checked": 4,
+  "ledger_sha256": "463a63eb55d99c7bb3aac7d69740ac642590c4214496c5c817a11bfe6c12ad60",
+  "ledger_audit_sha256": "135374574ed74373a69b21078d37b7a426bcb5391ad15f7ac9df701ca14d95bb",
+  "auditor_sha256": "4af26df98171445369ad87ace905de8a62913db9896eb7af3c2b28c8f1bc217e",
+  "interpretation": "minimum for the stated conservative expression, not minimum physically safe stash"
+}

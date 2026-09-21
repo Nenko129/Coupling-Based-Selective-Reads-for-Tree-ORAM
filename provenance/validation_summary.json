@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "workspace_files_byte_identical": 8423,
+  "manuscript_tables_identical": 16,
+  "manuscript_evidence_aliases_verified": [
+    "core_fusion_proof",
+    "core_parameterized_proof",
+    "core_numerical_proof",
+    "complete_reduction",
+    "fusion_receipt",
+    "numerical_receipt",
+    "integrated_receipt",
+    "final_archive_replay",
+    "evidence_audit",
+    "capacity_binding_review",
+    "tuned_window_audit",
+    "composition_contract",
+    "variant_contract",
+    "public_trace_download_receipt",
+    "host_contract_checks",
+    "frontend_reset_checks",
+    "frontend_schedule_pairs"
+  ],
+  "validation": {
+    "smoke": {
+      "mode": "smoke",
+      "integrity": {
+        "release_files": 8473,
+        "original_audit_files_checked": 231,
+        "declared_original_omissions": [
+          "receipts/relocated_evidence.zip",
+          "sources/baselines/path.pdf",
+          "sources/baselines/ring.pdf",
+          "sources/index.html",
+          "sources/README.md",
+          "sources/SDE_R0_完整技术报告.pdf",
+          "sources/source_manifest.json"
+        ]
+      },
+      "replay_matches": "spec, trace, code hashes, answers, bytes, RPC",
+      "status": "passed",
+      "tasks": [
+        {
+          "label": "host-contract",
+          "returncode": 0,
+          "log": "host-contract.log"
+        },
+        {
+          "label": "frontend-reset",
+          "returncode": 0,
+          "log": "frontend-reset.log"
+        },
+        {
+          "label": "MIN_pilot_AB_depth_selective_B64_seed101",
+          "returncode": 0,
+          "log": "MIN_pilot_AB_depth_selective_B64_seed101.log"
+        },
+        {
+          "label": "MIN_pilot_free_compressed_sde_B64_seed101",
+          "returncode": 0,
+          "log": "MIN_pilot_free_compressed_sde_B64_seed101.log"
+        }
+      ],
+      "elapsed_seconds": 28.992550134658813
+    },
+    "statistics": {
+      "mode": "audit-results",
+      "integrity": {
+        "release_files": 8473,
+        "original_audit_files_checked": 231,
+        "declared_original_omissions": [
+          "receipts/relocated_evidence.zip",
+          "sources/baselines/path.pdf",
+          "sources/baselines/ring.pdf",
+          "sources/index.html",
+          "sources/README.md",
+          "sources/SDE_R0_完整技术报告.pdf",
+          "sources/source_manifest.json"
+        ]
+      },
+      "status": "passed",
+      "tasks": [
+        {
+          "label": "audit_completed_core_components.py",
+          "returncode": 0,
+          "log": "audit_completed_core_components.py.log"
+        },
+        {
+          "label": "audit_completed_ablation.py",
+          "returncode": 0,
+          "log": "audit_completed_ablation.py.log"
+        },
+        {
+          "label": "audit_tuned_reference.py",
+          "returncode": 0,
+          "log": "audit_tuned_reference.py.log"
+        },
+        {
+          "label": "minimal-statistics",
+          "returncode": 0,
+          "log": "minimal-statistics.log"
+        }
+      ],
+      "elapsed_seconds": 20.686972618103027
+    },
+    "core_quick": {
+      "mode": "core-quick",
+      "integrity": {
+        "release_files": 8473,
+        "original_audit_files_checked": 231,
+        "declared_original_omissions": [
+          "receipts/relocated_evidence.zip",
+          "sources/baselines/path.pdf",
+          "sources/baselines/ring.pdf",
+          "sources/index.html",
+          "sources/README.md",
+          "sources/SDE_R0_完整技术报告.pdf",
+          "sources/source_manifest.json"
+        ]
+      },
+      "status": "passed",
+      "tasks": [
+        {
+          "label": "core-quick",
+          "returncode": 0,
+          "log": "core-quick.log"
+        }
+      ],
+      "elapsed_seconds": 128.8408796787262
+    }
+  },
+  "complete_experiment_matrix_rerun": false,
+  "full_numeric_kernel_rebuilt_this_packaging": false,
+  "existing_full_numeric_receipts_included": true,
+  "high_confidence_credential_scan": "No private-key blocks or known GitHub/AWS access-token patterns found; not an exhaustive security audit",
+  "measurement_replay_platform": "Windows/Python 3.12; cross-platform identity-key normalization not performed",
+  "packaging_fix": "Windows long-path copying corrected and smoke/statistics rerun successfully; original experimental code unchanged"
+}

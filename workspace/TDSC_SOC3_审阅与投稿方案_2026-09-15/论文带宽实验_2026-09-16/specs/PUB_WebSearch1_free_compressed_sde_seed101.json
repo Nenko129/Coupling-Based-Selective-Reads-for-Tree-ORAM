@@ -1,0 +1,25 @@
+{
+  "id": "PUB_WebSearch1_free_compressed_sde_seed101",
+  "family": "free_compressed",
+  "kind": "sde",
+  "N": 16384,
+  "B": 64,
+  "profile": [
+    4,
+    3,
+    4
+  ],
+  "plb": 8,
+  "llc": 32,
+  "rho": 128,
+  "R": 256,
+  "warmup": 2048,
+  "requests": 4096,
+  "trace_seed": 101,
+  "oram_seed": 1001,
+  "workload": "WebSearch1_startkey",
+  "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed101.json",
+  "trace_file_sha256": "2da3198a7816fb768c4b6ec6cb6451a39e7fe9b5e0357fdcf7b5bef71635afc3",
+  "study": "public_temporal_locality",
+  "experiment_class": "formal_public"
+}

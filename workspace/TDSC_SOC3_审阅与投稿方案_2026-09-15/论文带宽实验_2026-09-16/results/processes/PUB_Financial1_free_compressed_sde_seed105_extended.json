@@ -1,0 +1,39 @@
+{
+  "pid": 56124,
+  "parent_pid": 15408,
+  "command": [
+    "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_extended_composition.py",
+    "--spec",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\PUB_Financial1_free_compressed_sde_seed105.json"
+  ],
+  "spec": {
+    "id": "PUB_Financial1_free_compressed_sde_seed105",
+    "family": "free_compressed",
+    "kind": "sde",
+    "N": 16384,
+    "B": 64,
+    "profile": [
+      4,
+      3,
+      4
+    ],
+    "plb": 8,
+    "llc": 32,
+    "rho": 128,
+    "R": 256,
+    "warmup": 2048,
+    "requests": 4096,
+    "trace_seed": 105,
+    "oram_seed": 1005,
+    "workload": "Financial1_startkey",
+    "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed105.json",
+    "trace_file_sha256": "be5a36c4c10931e37b65ada518f4bbf4353a2d66f3b8ca13c23aaaf88f0ceb41",
+    "study": "public_temporal_locality",
+    "experiment_class": "formal_public"
+  },
+  "started": 1789512169.4207428
+}

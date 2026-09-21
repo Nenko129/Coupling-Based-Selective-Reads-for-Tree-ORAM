@@ -1,0 +1,27 @@
+{
+  "checked_on": "2026-09-17",
+  "entries": [
+    {
+      "key": "R46",
+      "file": "D:\\projects\\SDE-R0\\写论文\\新增参考文献_r5\\R46_Path_Weaver_ORAM.pdf",
+      "source": "C:/Users/12038/Desktop/for gpt/Path_Weaver_ORAM_Improving_ORAM_Throughput_via_Random_Path_Scheduling.pdf",
+      "publication_url": "https://doi.org/10.1109/TC.2025.3644452",
+      "sha256": "72d9e488505bd82cb76b2024bc93d069138fca747147e2c41bef8dd8a8481708"
+    },
+    {
+      "key": "R47",
+      "file": "D:\\projects\\SDE-R0\\写论文\\新增参考文献_r5\\R47_SONIC_USENIX_Security_2026.pdf",
+      "source": "https://www.usenix.org/system/files/usenixsecurity26-talur.pdf",
+      "publication_url": "https://www.usenix.org/system/files/usenixsecurity26-talur.pdf",
+      "sha256": "e5db1f006e1d396ed77ee9d8bd88b2a0c7818d908725067e7dbb2c2865c5e93f"
+    },
+    {
+      "key": "R48",
+      "file": "D:\\projects\\SDE-R0\\写论文\\新增参考文献_r5\\R48_MVP_ORAM_NDSS_2026.pdf",
+      "source": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1809-paper.pdf",
+      "publication_url": "https://www.ndss-symposium.org/wp-content/uploads/2026-f1809-paper.pdf",
+      "sha256": "72313410b1e891b612a4e8ccf06bb0224b61cbe54731f42803c325fe667d5dab"
+    }
+  ],
+  "scope": "Related-work additions only; no new experimental baselines; third-party PDFs excluded from manuscript source archive."
+}

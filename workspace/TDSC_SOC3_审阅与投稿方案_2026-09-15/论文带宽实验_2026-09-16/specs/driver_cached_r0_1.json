@@ -1,0 +1,31 @@
+{
+  "id": "driver_cached_r0_1",
+  "kind": "r0",
+  "N": 32,
+  "B": 4096,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "R": 128,
+  "map_B": 64,
+  "terminal_bytes": 32768,
+  "compact": true,
+  "fusion": true,
+  "warmup": 16,
+  "requests": 32,
+  "trace_seed": 654,
+  "oram_seed": 987,
+  "workload": "uniform",
+  "experiment_class": "driver_checks",
+  "cached_levels": 2,
+  "S_by_depth": [
+    3,
+    2,
+    2,
+    3,
+    3,
+    3
+  ]
+}

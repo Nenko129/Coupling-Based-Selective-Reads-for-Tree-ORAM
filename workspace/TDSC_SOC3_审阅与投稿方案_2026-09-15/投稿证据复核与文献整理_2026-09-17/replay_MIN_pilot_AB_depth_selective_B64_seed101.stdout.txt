@@ -1,0 +1,1 @@
+{"id": "MIN_pilot_AB_depth_selective_B64_seed101", "status": "passed", "bytes_per_request": 12240.572916666666, "seconds": 2.862778663635254}

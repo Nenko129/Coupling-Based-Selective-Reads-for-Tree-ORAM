@@ -1,0 +1,30 @@
+{
+  "status": "generated",
+  "source_sha256": "8d71960805d1bf90ebf328d2e50445d56f966df4072c53338977aae9346f10ad",
+  "generator_sha256": "6727976ade39bc60cbb38ee8f676dff2fd89a09673007c7889674618e0219a5f",
+  "outputs": [
+    {
+      "path": "output\\pdf\\completed_ir_periodic.pdf",
+      "sha256": "e625f299224e8c5cd66725c4752d9f00fb2b0837fb58af3b4e1b9f48ca470254"
+    },
+    {
+      "path": "figures\\completed_ir_periodic.svg",
+      "sha256": "19d081d57d43b55a7fbbd21ee6a1db95a8803c0dfbd210580365049477a448c8"
+    },
+    {
+      "path": "figures\\completed_ir_periodic.png",
+      "sha256": "8593bcdeb85056b510ddea10fa0f2a29c4f5985042014f8242404cf29fdb8f5e"
+    },
+    {
+      "path": "figures\\completed_ir_periodic_data.json",
+      "sha256": "7dee5eb6c7ee52c164c712dd076383e69507879a75405f7fd2740310ecb2b5bf"
+    },
+    {
+      "path": "41_IR完整周期图表与数据核验.md",
+      "sha256": "a83ae9c8f6d61c4a844a553d65d86931c146f8b0b5e491f26f18ac4936335e0f"
+    }
+  ],
+  "runs": 60,
+  "comparisons": 14,
+  "visual_review_pending": true
+}

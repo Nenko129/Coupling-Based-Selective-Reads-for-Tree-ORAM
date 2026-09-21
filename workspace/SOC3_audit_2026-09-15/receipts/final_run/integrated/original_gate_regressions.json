@@ -1,0 +1,8 @@
+{
+  "rejected_profile_or_artifact_mutations": 10,
+  "horizon_rejected_before_IO": true,
+  "numeric_points": {
+    "(4, 3)": 8711,
+    "(7, 6)": 6744
+  }
+}

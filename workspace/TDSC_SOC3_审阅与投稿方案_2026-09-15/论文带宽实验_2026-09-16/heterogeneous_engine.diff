@@ -1,0 +1,220 @@
+--- frozen/optimized_oram.py
++++ evaluation/heterogeneous_oram.py
+@@ -90,11 +90,20 @@
+ 
+ @dataclass(frozen=True)
+ class Config:
+-    kind:str; L:int; N:int; B:int=4096; Z:int=4; A:int=3; S:int=3; R:int=192; tree:int=0; compact:bool=True; fused:bool=True
++    kind:str; L:int; N:int; B:int=4096; Z:int=4; A:int=3; S:int=3; R:int=192; tree:int=0; compact:bool=True; fused:bool=True; Z_by_depth:tuple=(); S_by_depth:tuple=()
+     def __post_init__(self):
+         if self.kind not in KINDS or not(1<=self.L<=30 and 1<=self.Z<=8 and self.A>=1):raise ValueError('unsupported configuration')
+         if self.N<1 or self.N>self.A*(1<<(self.L-1)) or self.B<4 or self.B%4:raise ValueError('N/geometry/block size')
+         if self.n>64 or self.R<0 or (self.ring and self.S<1):raise ValueError('slots/stash/dummies')
++        for profile in (self.Z_by_depth,self.S_by_depth):
++            if profile and len(profile)!=self.L+1:raise ValueError('depth profile length')
++        for d in range(self.L+1):
++            z=self.Z_by_depth[d] if self.Z_by_depth else self.Z
++            ss=self.S_by_depth[d] if self.S_by_depth else self.S
++            if not 1<=z<=8 or (self.ring and ss<1) or z+(ss if self.ring else 0)>64:raise ValueError('depth profile capacity')
++    def at(self,b):
++        return BucketConfig(self,depth(b)) if self.Z_by_depth or self.S_by_depth else self
++
+     @property
+     def ring(self):return self.kind in {'ring','gc_ring','r0'}
+     @property
+@@ -114,7 +123,26 @@
+     @property
+     def W(self):return self.B+NONCE
+     def context(self):
+-        return encode(b'Selective-ORAM-optimization-v3',self.kind.encode(),*[ui(v,8) for v in (self.tree,self.L,self.N,self.B,self.Z,self.A,self.S,self.R,int(self.compact),int(self.fused))])
++        base=encode(b'Selective-ORAM-optimization-v3',self.kind.encode(),*[ui(v,8) for v in (self.tree,self.L,self.N,self.B,self.Z,self.A,self.S,self.R,int(self.compact),int(self.fused))])
++        if self.Z_by_depth or self.S_by_depth:
++            return encode(b'SOC3-DEPTH-PROFILES-EVAL-v1',base,bytes(self.Z_by_depth),bytes(self.S_by_depth))
++        return base
++
++class BucketConfig:
++    """Public per-bucket layout. All crypto uses the full profile context."""
++    def __init__(self,parent,d):self.parent=parent;self.d=d
++    def __getattr__(self,name):return getattr(self.parent,name)
++    @property
++    def Z(self):return self.parent.Z_by_depth[self.d] if self.parent.Z_by_depth else self.parent.Z
++    @property
++    def S(self):return self.parent.S_by_depth[self.d] if self.parent.S_by_depth else self.parent.S
++    @property
++    def n(self):return self.Z+self.S if self.ring else self.Z
++    @property
++    def secret(self):return ((8+(30 if self.compact else 64)*self.Z+31)//32)*32
++    @property
++    def H(self):return PUBLIC+NONCE+self.secret
++
+ 
+ class PRF:
+     def __init__(self,key:bytes):
+@@ -227,12 +255,12 @@
+         op,tree,seq,flags,body=parse_frame(raw);need(flags==0 and tree in self.configs,'server routing')
+         c=self.configs[tree];q=Cursor(body);out=b''
+         if op==INIT:
+-            b=q.uint();need(1<=b<(1<<(c.L+1)),'init bucket')
++            b=q.uint();need(1<=b<(1<<(c.L+1)),'init bucket');bc=c.at(b)
+             if c.rootless and b==1:
+                 bt=q.take(TAG);gt=q.take(TAG);self.buckets[tree,b]=Stored(b'',[],{},bt)
+             else:
+-                hd=q.take(c.H);slots=[q.take(c.W) for _ in range(c.n)]
+-                local={p:q.take(TAG) for p in local_indices(c.n)} if c.ring else {}
++                hd=q.take(bc.H);slots=[q.take(c.W) for _ in range(bc.n)]
++                local={p:q.take(TAG) for p in local_indices(bc.n)} if c.ring else {}
+                 bt=q.take(TAG);gt=q.take(TAG);self.buckets[tree,b]=Stored(hd,slots,local,bt)
+             self.global_tags[tree,b]=gt;q.end()
+         elif op in (OPEN_FULL,OPEN_HEAD,READ_SLOTS,WRITE):
+@@ -250,16 +278,16 @@
+             elif op==READ_SLOTS:
+                 need(c.ring,'partial read on non-Ring')
+                 for d in ds:
+-                    inds=from_bitmap(q.uint(),c.n);s=self.buckets[tree,path[d]]
++                    bc=c.at(path[d]);inds=from_bitmap(q.uint(),bc.n);s=self.buckets[tree,path[d]]
+                     need(bool(inds),'empty subset');out+=b''.join(s.slots[j] for j in inds)
+-                    out+=b''.join(s.local[p] for p in witnesses(c.n,inds))
++                    out+=b''.join(s.local[p] for p in witnesses(bc.n,inds))
+                 q.end()
+             else:
+                 fs=q.uint();full=from_bitmap(fs,c.L+1);need(set(full)<=set(ds),'full-write mask')
+                 for d in ds:
+-                    b=path[d];old=self.buckets[tree,b];hd=q.take(c.H)
+-                    slots=[q.take(c.W) for _ in range(c.n)] if d in full else old.slots
+-                    local=({p:q.take(TAG) for p in local_indices(c.n)} if c.ring else {}) if d in full else old.local
++                    b=path[d];bc=c.at(b);old=self.buckets[tree,b];hd=q.take(bc.H)
++                    slots=[q.take(c.W) for _ in range(bc.n)] if d in full else old.slots
++                    local=({p:q.take(TAG) for p in local_indices(bc.n)} if c.ring else {}) if d in full else old.local
+                     bt=q.take(TAG);self.buckets[tree,b]=Stored(hd,slots,local,bt)
+                 for d in range(max(ds)+1):self.global_tags[tree,path[d]]=q.take(TAG)
+                 q.end()
+@@ -300,7 +328,7 @@
+     def ntag(self,b:int,B:bytes,l:bytes,r:bytes):return self.P.F(b'GLOBAL_NODE',self.ctx,ui(b,8),B,l,r)
+     def droot(self,b:int,slots:list[bytes]):return self.P.F(b'FULL_DATA',self.ctx,ui(b,8),b''.join(slots))
+     def prepare(self,b:int,old:Header,records:list[Record]|None,gamma:int|None=None):
+-        c=self.c
++        c=self.c.at(b)
+         if records is None:
+             h=Header(old.gamma,old.w,old.v+1,old.count,old.used,dict(old.live));slots=None;local=None
+         else:
+@@ -319,6 +347,7 @@
+     def initialize(self):
+         c=self.c
+         def visit(b:int,d:int):
++            bc=c.at(b)
+             left=visit(2*b,d+1) if d<c.L else ZERO
+             right=visit(2*b+1,d+1) if d<c.L else ZERO
+             if c.rootless and b==1:
+@@ -327,8 +356,8 @@
+             else:
+                 h,hd,slots,local,D=self.prepare(b,Header(w=0,v=0),[],0)
+                 bt=self.btag(b,hd,D);gt=self.ntag(b,bt,left,right)
+-                body=ui(b,8)+hd+b''.join(slots)+(b''.join(local[p] for p in local_indices(c.n)) if c.ring else b'')+bt+gt
+-                comp={'headers_upload':c.H,'data_upload':c.n*c.W,'authentication_upload':(len(local)+2)*TAG}
++                body=ui(b,8)+hd+b''.join(slots)+(b''.join(local[p] for p in local_indices(bc.n)) if c.ring else b'')+bt+gt
++                comp={'headers_upload':bc.H,'data_upload':bc.n*c.W,'authentication_upload':(len(local)+2)*TAG}
+             out=self.io.rpc(c,INIT,body,'physical_setup',{'bucket':b},comp);need(out==b'','init ack')
+             return gt
+         self.root=visit(1,0)
+@@ -344,14 +373,14 @@
+     def open_path(self,leaf:int,ds:tuple[int,...],stage:str)->View:
+         c=self.c;op=OPEN_HEAD if c.ring else OPEN_FULL;k=len(ds)
+         skip=len(c.levels)-k
+-        comp={'headers_download':k*c.H,'authentication_download':(c.L+skip+(k if c.ring else 0))*TAG}
+-        if not c.ring:comp['data_download']=k*c.n*c.W
++        comp={'headers_download':sum(c.at(node(leaf,d,c.L)).H for d in ds),'authentication_download':(c.L+skip+(k if c.ring else 0))*TAG}
++        if not c.ring:comp['data_download']=sum(c.at(node(leaf,d,c.L)).n*c.W for d in ds)
+         raw=self.io.rpc(c,op,ui(leaf,8)+ui(bitmap(ds),8),stage,{'leaf':leaf,'depths':list(ds)},comp)
+         q=Cursor(raw);wh={};D={};cts={};B={}
+         for d in ds:
+-            b=node(leaf,d,c.L);wh[b]=q.take(c.H)
++            b=node(leaf,d,c.L);bc=c.at(b);wh[b]=q.take(bc.H)
+             if c.ring:D[b]=q.take(TAG)
+-            else:cts[b]=[q.take(c.W) for _ in range(c.n)];D[b]=self.droot(b,cts[b])
++            else:cts[b]=[q.take(c.W) for _ in range(bc.n)];D[b]=self.droot(b,cts[b])
+             B[b]=self.btag(b,wh[b],D[b])
+         for d in range(c.L+1):
+             b=node(leaf,d,c.L)
+@@ -361,7 +390,7 @@
+         # The entire global opening is authenticated before any header is decrypted.
+         headers={}
+         for b,hd in wh.items():
+-            pub=hd[:PUBLIC];headers[b]=Header.decode(c,pub,self.P.decrypt(self.ctx,self.oid(b),pub,hd[PUBLIC:]))
++            pub=hd[:PUBLIC];headers[b]=Header.decode(c.at(b),pub,self.P.decrypt(self.ctx,self.oid(b),pub,hd[PUBLIC:]))
+             if c.kind!='path':need(headers[b].gamma==generation(self.g,depth(b),b-(1<<depth(b))),'placement generation')
+         plains={}
+         if not c.ring:
+@@ -370,15 +399,15 @@
+     def read_slots(self,view:View,selection:dict[int,tuple[int,...]],stage:str):
+         need(hmac.compare_digest(view.path_tags[1],self.root),'stale local-read view')
+         c=self.c;ds=tuple(sorted(depth(b) for b in selection));count=sum(map(len,selection.values()))
+-        proofcount=sum(len(witnesses(c.n,tuple(sorted(v)))) for v in selection.values())
++        proofcount=sum(len(witnesses(c.at(b).n,tuple(sorted(v)))) for b,v in selection.items())
+         body=ui(view.leaf,8)+ui(bitmap(ds),8)+b''.join(ui(bitmap(selection[node(view.leaf,d,c.L)]),8) for d in ds)
+         raw=self.io.rpc(c,READ_SLOTS,body,stage,{'leaf':view.leaf,'depths':list(ds),'slots':[list(selection[node(view.leaf,d,c.L)]) for d in ds]},
+                         {'data_download':count*c.W,'authentication_download':proofcount*TAG})
+         q=Cursor(raw);allcts={}
+         for d in ds:
+-            b=node(view.leaf,d,c.L);inds=tuple(sorted(selection[b]));cts={j:q.take(c.W) for j in inds}
+-            proof={p:q.take(TAG) for p in witnesses(c.n,inds)}
+-            computed=local_open_root(c,self.P,b,cts,proof)
++            b=node(view.leaf,d,c.L);bc=c.at(b);inds=tuple(sorted(selection[b]));cts={j:q.take(c.W) for j in inds}
++            proof={p:q.take(TAG) for p in witnesses(bc.n,inds)}
++            computed=local_open_root(bc,self.P,b,cts,proof)
+             need(hmac.compare_digest(computed,view.data_roots[b]),'local data opening not current')
+             allcts[b]=cts
+         q.end()
+@@ -392,25 +421,25 @@
+             if slots is not None:full.append(d);dataup+=len(slots)*c.W
+             else:D=view.data_roots[b]
+             bt=self.btag(b,hd,D);newB[b]=bt
+-            serialized[b]=hd+(b''.join(slots) if slots is not None else b'')+(b''.join(local[p] for p in local_indices(c.n)) if slots is not None and c.ring else b'')+bt
++            serialized[b]=hd+(b''.join(slots) if slots is not None else b'')+(b''.join(local[p] for p in local_indices(c.at(b).n)) if slots is not None and c.ring else b'')+bt
+             authup+=TAG*(1+(len(local) if local is not None else 0))
+         root,pt=self.reconstruct(view.leaf,newB,view.siblings);maxd=max(ds);authup+=(maxd+1)*TAG
+         body=ui(view.leaf,8)+ui(bitmap(ds),8)+ui(bitmap(full),8)+b''.join(serialized[node(view.leaf,d,c.L)] for d in ds)+b''.join(pt[node(view.leaf,d,c.L)] for d in range(maxd+1))
+         out=self.io.rpc(c,WRITE,body,stage,{'leaf':view.leaf,'depths':list(ds),'full_depths':full},
+-                        {'headers_upload':len(ds)*c.H,'data_upload':dataup,'authentication_upload':authup})
++                        {'headers_upload':sum(c.at(b).H for b in changes),'data_upload':dataup,'authentication_upload':authup})
+         need(out==b'','write ack');self.root=root;view.bucket_tags=newB;view.path_tags=pt
+         for b,(h,hd,slots,local,D) in changes.items():
+             view.headers[b]=h;view.wire_headers[b]=hd
+             if D is not None:view.data_roots[b]=D
+             if self.observer is not None:self.observer('header',self.c.tree,b,h)
+     def subset(self,b:int,h:Header)->tuple[int,...]:
+-        c=self.c;real=set(h.live);unused=[j for j in range(c.n) if not(h.used>>j&1)];dummy=[j for j in unused if j not in real]
++        c=self.c.at(b);real=set(h.live);unused=[j for j in range(c.n) if not(h.used>>j&1)];dummy=[j for j in unused if j not in real]
+         need(real<=set(unused),'remaining real not unread');k=c.Z-len(real)
+         draw=self.P.draw(self.ctx,b'RMW_SUBSET'+ui(b,8));den=math.comb(len(dummy),k)
+         extra=choose_rank(dummy,k,draw%den)
+         return tuple(sorted(real|set(extra)))
+     def fused_logical(self,view:View,address:int):
+-        from fused_logical import fused_logical
++        from heterogeneous_fusion import fused_logical
+         return fused_logical(self,view,address)
+     def neutral(self,view:View,b:int):
+         h=view.headers[b];selection=self.subset(b,h);plains=self.read_slots(view,{b:selection},'early')
+@@ -427,7 +456,7 @@
+         c=self.c;changes={}
+         for d in reversed(view.selected):
+             b=node(view.leaf,d,c.L)
+-            chosen=[r for r in sorted(pool.values(),key=lambda x:x.uid) if node(r.leaf,d,c.L)==b and (not constrained or d in gc(gamma,r.leaf,c.L))][:c.Z]
++            chosen=[r for r in sorted(pool.values(),key=lambda x:x.uid) if node(r.leaf,d,c.L)==b and (not constrained or d in gc(gamma,r.leaf,c.L))][:c.at(b).Z]
+             for r in chosen:pool.pop(r.uid)
+             changes[b]=self.prepare(b,view.headers[b],chosen,gamma)
+         self.write(view,changes,'path' if c.kind=='path' else 'evict')
+@@ -453,12 +482,12 @@
+             if c.ring:
+                 for d in ds:
+                     b=node(oldleaf,d,c.L)
+-                    if view.headers[b].count==c.S:self.neutral(view,b)
++                    if view.headers[b].count==c.at(b).S:self.neutral(view,b)
+                 selections={}
+                 for d in ds:
+                     b=node(oldleaf,d,c.L);h=view.headers[b];draw=self.P.draw(self.ctx,b'LOGICAL_SLOT'+ui(b,8))
+                     matches=[j for j,x in h.live.items() if x.address==address];need(len(matches)<=1,'multiple target slots')
+-                    dummy=[j for j in range(c.n) if not(h.used>>j&1) and j not in h.live]
++                    dummy=[j for j in range(c.at(b).n) if not(h.used>>j&1) and j not in h.live]
+                     need(bool(dummy),'no fresh dummy')
+                     j=matches[0] if matches else dummy[draw%len(dummy)];selections[b]=(j,)
+                 plains=self.read_slots(view,selections,'logical')

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "rows": 8,
+  "source_sha256": "f8d16610019910024bb44fdd9d517b7c3ac18a31a8d56ed9667c689aa1ca6373",
+  "verifier_sha256": "d5f9eb3ddcc7a02e61c458da50eaee7b62bdb9117aea6f707f99f1f3cb6245b8",
+  "independent_enclosure_degree": 96,
+  "full_security_admission": false
+}

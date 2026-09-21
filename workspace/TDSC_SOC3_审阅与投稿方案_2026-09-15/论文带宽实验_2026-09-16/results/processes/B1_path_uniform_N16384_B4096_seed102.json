@@ -1,0 +1,27 @@
+{
+  "pid": 48612,
+  "started": 1789502259.7926915,
+  "spec": {
+    "id": "B1_path_uniform_N16384_B4096_seed102",
+    "kind": "path",
+    "N": 16384,
+    "B": 4096,
+    "profile": [
+      4,
+      3,
+      3
+    ],
+    "map_B": 512,
+    "terminal_bytes": 32768,
+    "compact": true,
+    "fusion": true,
+    "R": 256,
+    "warmup": 2048,
+    "requests": 4096,
+    "trace_seed": 102,
+    "oram_seed": 1002,
+    "workload": "uniform",
+    "experiment_class": "formal_core"
+  },
+  "log": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\results\\logs\\B1_path_uniform_N16384_B4096_seed102.log"
+}

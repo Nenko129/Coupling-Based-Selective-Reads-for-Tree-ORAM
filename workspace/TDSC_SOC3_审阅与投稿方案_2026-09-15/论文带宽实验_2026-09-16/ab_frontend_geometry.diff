@@ -1,0 +1,17 @@
+--- frozen FreecursiveFront.__init__
++++ GeometryFront.__init__
+@@ -1,4 +1,4 @@
+-    def __init__(self,kind='sde',N=256,B=64,X=None,beta=14,compressed=True,plb=4,seed=0,profile=(4,3,4)):
++    def __init__(self,kind='sde',N=256,B=64,X=None,beta=14,compressed=True,plb=4,seed=0,profile=(4,3,4),L=None):
+         self.N=N;self.B=B;self.compressed=compressed;self.beta=beta
+         self.X=X or (32 if compressed else B//4)
+         need((64+self.X*beta<=8*B) if compressed else (4*self.X<=B),'map packing')
+@@ -7,7 +7,7 @@
+         self.offsets=[];total=0
+         for n in self.counts:self.offsets.append(total);total+=n
+         self.total=total;self.capacity=plb;self.cache=OrderedDict();self.pinned=set()
+-        self.L=max(1,math.ceil(math.log2(2*total/3)))
++        self.L=max(1,math.ceil(math.log2(2*total/3))) if L is None else L
+         self.leaves=Leaves(self.L,seed,b'FREE-MAP');self.padding=Leaves(self.L,seed,b'FREE-DUMMY')
+         Z,A,S=profile
+         self.backend=Backend(kind,self.L,total,B=B,Z=Z,A=A,S=S,R=128)

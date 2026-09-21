@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "source_sha256": "742e33d8d6cda3c9cb6983acbc823d9b1d25b14bf02208540fd832e68e4beda4",
+  "exports_sha256": "293b97e9a23239c5a808fa30040bb0211500e82d7fa2520a9908af1251be41fb",
+  "data_sha256": "c02fde4ee1305db4b65c1a41de1271f4b85487908f4b1df662efdc8393bdebfc",
+  "checker_sha256": "0719dc7536f655480cb17aab357faddbfc911bb3fb6a63ed6f6f3f63f1a91e0c",
+  "raw_runs_checked": 180,
+  "series_recomputed": 54,
+  "svg_bar_widths_checked": 54,
+  "svg_sha256": "cb9cd969a11df5ecc2b013cd8a8655729346a1b89792336fc07a140f16af744a",
+  "png_sha256": "d5a1b0bff23a2114181270c98923db0af77b3c6fefad6856cce4b6b07883d3fc",
+  "vector": true,
+  "fonts_as_paths": true,
+  "visual_review": "separate"
+}

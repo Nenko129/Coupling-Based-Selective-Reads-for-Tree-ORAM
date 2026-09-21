@@ -1,0 +1,227 @@
+{
+  "status": "paired research prototypes, small synthetic workloads",
+  "rows": 216,
+  "profiles_searched": [
+    [
+      4,
+      3,
+      4
+    ],
+    [
+      7,
+      6,
+      6
+    ]
+  ],
+  "global_optimum_claim": false,
+  "aggregate": [
+    {
+      "family": "free_raw",
+      "workload": "uniform",
+      "mean_bytes_per_request": {
+        "Path": 20464.583333333332,
+        "Deferred": 22074.166666666668,
+        "SDE": 17386.402777777777,
+        "Ring43": 32592.63888888889,
+        "GC-Ring43": 26614.055555555555,
+        "R0-43": 24103.972222222223,
+        "Ring76": 35011.36111111111,
+        "R0-76": 23711.36111111111
+      },
+      "pure_GC_vs_Deferred_pct": 21.236425182780284,
+      "SDE_vs_Path_pct": 15.041501238589705,
+      "pure_GC_Ring43_pct": 18.34335462591673,
+      "R0_vs_Ring43_pct": 26.044735731909473,
+      "R0_vs_Ring76_pct": 32.275237641114906,
+      "two_profile_tuned_Ring": "Ring43",
+      "two_profile_tuned_R0": "R0-76",
+      "two_profile_tuned_gain_pct": 27.249336293556414
+    },
+    {
+      "family": "free_raw",
+      "workload": "zipf",
+      "mean_bytes_per_request": {
+        "Path": 16900.416666666668,
+        "Deferred": 18225.416666666668,
+        "SDE": 14335.166666666666,
+        "Ring43": 26961.444444444445,
+        "GC-Ring43": 21957.833333333332,
+        "R0-43": 19891.63888888889,
+        "Ring76": 28862.5,
+        "R0-76": 19515.36111111111
+      },
+      "pure_GC_vs_Deferred_pct": 21.34519101072222,
+      "SDE_vs_Path_pct": 15.178619856512421,
+      "pure_GC_Ring43_pct": 18.55839408538119,
+      "R0_vs_Ring43_pct": 26.221909475671012,
+      "R0_vs_Ring76_pct": 32.38506327895675,
+      "two_profile_tuned_Ring": "Ring43",
+      "two_profile_tuned_R0": "R0-76",
+      "two_profile_tuned_gain_pct": 27.617523789114507
+    },
+    {
+      "family": "free_raw",
+      "workload": "scan",
+      "mean_bytes_per_request": {
+        "Path": 11985.0,
+        "Deferred": 12920.0,
+        "SDE": 10214.013888888889,
+        "Ring43": 19017.88888888889,
+        "GC-Ring43": 15566.027777777777,
+        "R0-43": 14107.388888888889,
+        "Ring76": 20311.416666666668,
+        "R0-76": 13875.5
+      },
+      "pure_GC_vs_Deferred_pct": 20.94416494668043,
+      "SDE_vs_Path_pct": 14.776688453159048,
+      "pure_GC_Ring43_pct": 18.150600896232216,
+      "R0_vs_Ring43_pct": 25.820426382178184,
+      "R0_vs_Ring76_pct": 31.68620275132623,
+      "two_profile_tuned_Ring": "Ring43",
+      "two_profile_tuned_R0": "R0-76",
+      "two_profile_tuned_gain_pct": 27.039746203866542
+    },
+    {
+      "family": "free_compressed",
+      "workload": "uniform",
+      "mean_bytes_per_request": {
+        "Path": 18506.25,
+        "Deferred": 19950.0,
+        "SDE": 15782.958333333334,
+        "Ring43": 29429.194444444445,
+        "GC-Ring43": 24134.38888888889,
+        "R0-43": 21824.722222222223,
+        "Ring76": 31563.38888888889,
+        "R0-76": 21337.833333333332
+      },
+      "pure_GC_vs_Deferred_pct": 20.887426900584792,
+      "SDE_vs_Path_pct": 14.715524034672967,
+      "pure_GC_Ring43_pct": 17.991676821297066,
+      "R0_vs_Ring43_pct": 25.839892548121625,
+      "R0_vs_Ring76_pct": 32.39688739239027,
+      "two_profile_tuned_Ring": "Ring43",
+      "two_profile_tuned_R0": "R0-76",
+      "two_profile_tuned_gain_pct": 27.49433432976136
+    },
+    {
+      "family": "free_compressed",
+      "workload": "zipf",
+      "mean_bytes_per_request": {
+        "Path": 14765.833333333334,
+        "Deferred": 15930.833333333334,
+        "SDE": 12594.166666666666,
+        "Ring43": 23419.472222222223,
+        "GC-Ring43": 19224.472222222223,
+        "R0-43": 17424.055555555555,
+        "Ring76": 25079.944444444445,
+        "R0-76": 17004.0
+      },
+      "pure_GC_vs_Deferred_pct": 20.944708897839625,
+      "SDE_vs_Path_pct": 14.70737626276879,
+      "pure_GC_Ring43_pct": 17.91244465372476,
+      "R0_vs_Ring43_pct": 25.600135689555582,
+      "R0_vs_Ring76_pct": 32.200806753514875,
+      "two_profile_tuned_Ring": "Ring43",
+      "two_profile_tuned_R0": "R0-76",
+      "two_profile_tuned_gain_pct": 27.3937523499557
+    },
+    {
+      "family": "free_compressed",
+      "workload": "scan",
+      "mean_bytes_per_request": {
+        "Path": 11632.5,
+        "Deferred": 12540.0,
+        "SDE": 9865.611111111111,
+        "Ring43": 18536.416666666668,
+        "GC-Ring43": 15126.611111111111,
+        "R0-43": 13702.833333333332,
+        "Ring76": 19794.361111111113,
+        "R0-76": 13561.361111111111
+      },
+      "pure_GC_vs_Deferred_pct": 21.326865142654615,
+      "SDE_vs_Path_pct": 15.189244692790794,
+      "pure_GC_Ring43_pct": 18.395171067163595,
+      "R0_vs_Ring43_pct": 26.0761474035345,
+      "R0_vs_Ring76_pct": 31.48876573996242,
+      "two_profile_tuned_Ring": "Ring43",
+      "two_profile_tuned_R0": "R0-76",
+      "two_profile_tuned_gain_pct": 26.839359758793137
+    },
+    {
+      "family": "rho",
+      "workload": "uniform",
+      "mean_bytes_per_request": {
+        "Path": 28839.333333333332,
+        "Deferred": 29563.083333333332,
+        "SDE": 27463.76388888889,
+        "Ring43": 34386.972222222226,
+        "GC-Ring43": 31672.305555555555,
+        "R0-43": 30517.388888888887,
+        "Ring76": 35452.333333333336,
+        "R0-76": 30283.444444444445
+      },
+      "pure_GC_vs_Deferred_pct": 7.1011518682741475,
+      "SDE_vs_Path_pct": 4.769768526009988,
+      "pure_GC_Ring43_pct": 7.894462615444652,
+      "R0_vs_Ring43_pct": 11.253050452731229,
+      "R0_vs_Ring76_pct": 14.579827060434825,
+      "two_profile_tuned_Ring": "Ring43",
+      "two_profile_tuned_R0": "R0-76",
+      "two_profile_tuned_gain_pct": 11.933379162489677
+    },
+    {
+      "family": "rho",
+      "workload": "zipf",
+      "mean_bytes_per_request": {
+        "Path": 19970.333333333332,
+        "Deferred": 20469.5,
+        "SDE": 18976.847222222223,
+        "Ring43": 23722.027777777777,
+        "GC-Ring43": 21869.38888888889,
+        "R0-43": 21075.222222222223,
+        "Ring76": 24349.805555555555,
+        "R0-76": 20932.416666666668
+      },
+      "pure_GC_vs_Deferred_pct": 7.292082257885035,
+      "SDE_vs_Path_pct": 4.974809856843199,
+      "pure_GC_Ring43_pct": 7.809782984169655,
+      "R0_vs_Ring43_pct": 11.157585600818742,
+      "R0_vs_Ring76_pct": 14.034563360647411,
+      "two_profile_tuned_Ring": "Ring43",
+      "two_profile_tuned_R0": "R0-76",
+      "two_profile_tuned_gain_pct": 11.759581167527122
+    },
+    {
+      "family": "rho",
+      "workload": "scan",
+      "mean_bytes_per_request": {
+        "Path": 34752.0,
+        "Deferred": 35632.0,
+        "SDE": 33084.0,
+        "Ring43": 41387.11111111111,
+        "GC-Ring43": 38101.055555555555,
+        "R0-43": 36704.38888888889,
+        "Ring76": 42676.86111111111,
+        "R0-76": 36370.61111111111
+      },
+      "pure_GC_vs_Deferred_pct": 7.150875617422536,
+      "SDE_vs_Path_pct": 4.799723756906083,
+      "pure_GC_Ring43_pct": 7.939804125814797,
+      "R0_vs_Ring43_pct": 11.314445721158483,
+      "R0_vs_Ring76_pct": 14.776742796480269,
+      "two_profile_tuned_Ring": "Ring43",
+      "two_profile_tuned_R0": "R0-76",
+      "two_profile_tuned_gain_pct": 12.120923314826948
+    }
+  ],
+  "native_full_paper_reproductions": false,
+  "all_frontend_schedules_match_across_backends": true,
+  "source_hashes": {
+    "certificate_gate.py": "30479fc8111c0868158540bd9907a7dd26524ff0ebaa5f5466b99867bb3072da",
+    "check_prototypes.py": "e1c77a5d5ad1158b50df2713d573b8a08eda1625d019b0983a99eefa31e49e86",
+    "check_transfer_reduction.py": "8a54885b79b06f04d43eb1c0cf2a698bea8708486c29ede4ccb88f17bed72358",
+    "frontends.py": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4",
+    "run_experiments.py": "203ba73b80a0af3743220a0228fc2bae21472832019b39f4e00eef337a067ade",
+    "transfer_backend.py": "34d593fa1dee61f412fce3a11269d1e05e0e5f2c893107a436d5d53c73be4ff7"
+  }
+}

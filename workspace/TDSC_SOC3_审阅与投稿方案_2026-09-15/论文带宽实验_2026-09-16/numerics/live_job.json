@@ -1,0 +1,21 @@
+{
+  "profile": "IR43_native_leaf4",
+  "mode": "next",
+  "windows_wsl_pid": 8640,
+  "started": 1789501078.52409,
+  "command": [
+    "wsl",
+    "--exec",
+    "/mnt/d/projects/SDE-R0/TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/numerics/ghost_profile",
+    "280",
+    "25",
+    "128",
+    "1",
+    "next",
+    "/mnt/d/projects/SDE-R0/TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/numerics/grids/IR43_native_leaf4_next_c280",
+    "/mnt/d/projects/SDE-R0/TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/numerics/profiles/IR43_native_leaf4.txt"
+  ],
+  "kernel_sha256": "ca3959eefab2e38e836cca71677bdfedeedbd6f5d10b3b9b8258897d6acc6f26",
+  "binary_sha256": "bc4b58e100d39557f226c405188f1a61c69a8063501e5ed753202dcf879b65d9",
+  "profile_sha256": "37dadeecb1e5eeb0d412254d99f4ab690e45b65e123129ab6f4355a154a7e0f8"
+}

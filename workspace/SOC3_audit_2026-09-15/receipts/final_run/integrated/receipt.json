@@ -1,0 +1,1574 @@
+{
+  "identities": {
+    "original_SOC2_manifest_files": 77,
+    "received_SOC3_contract_files": 24,
+    "received_SOC3_manifest_files": 55,
+    "audited_contract_files": 28,
+    "original_kernel_protocol_and_cost_byte_identical": true,
+    "original_numeric_receipt_verified": true
+  },
+  "profiles": [
+    {
+      "label": "SDE-v3-512",
+      "plan": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 23,
+            "N": 12582912,
+            "B": 4096,
+            "R": 192,
+            "offset": 2,
+            "height": 24,
+            "threshold": 190,
+            "Q": 18446744073709539328,
+            "fixed_time_upper": "5.76581627979380929009792122937619579510357729031956648319197E-63",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 16,
+            "N": 98304,
+            "B": 512,
+            "R": 160,
+            "offset": 2,
+            "height": 17,
+            "threshold": 158,
+            "Q": 18446744073709637632,
+            "fixed_time_upper": "1.93346063667241313442753418257075578828299928706885711469497E-66",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          }
+        ],
+        "online_horizon": 18446744073696956416,
+        "stash_lifetime_upper": "1.06396203342925722292600407341919232196176515051709529327204E-43",
+        "stash_limit": "1.06434402085941773768220260143408759949596493586984013265747E-43",
+        "primitive_calls_upper": 154742504910672982138077184,
+        "conditional_advantage_upper": "3.67554777038650697684815368696635612782725339521380769530140E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1261568,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "bytes_recomputed": {
+        "lower": "565470.8591690063476562499999999999999999999999999999999999999999999999999999999999999999999999999998",
+        "upper": "565470.8591690063476562500000000000000000000000000000000000000000000000000000000000000000000000000002"
+      }
+    },
+    {
+      "label": "SDE-v3-best-two",
+      "plan": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 23,
+            "N": 12582912,
+            "B": 4096,
+            "R": 192,
+            "offset": 2,
+            "height": 24,
+            "threshold": 190,
+            "Q": 18446744073709539328,
+            "fixed_time_upper": "5.76581627979380929009792122937619579510357729031956648319197E-63",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 17,
+            "N": 144632,
+            "B": 348,
+            "R": 165,
+            "offset": 2,
+            "height": 18,
+            "threshold": 163,
+            "Q": 18446744073709683960,
+            "fixed_time_upper": "2.58892885721395274310312587874136185038754456429696845607435E-66",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          }
+        ],
+        "online_horizon": 18446744073696956416,
+        "stash_lifetime_upper": "1.06408294597438502060082811001353872776378545024892325651161E-43",
+        "stash_limit": "1.06434402085941773768220260143408759949596493586984013265747E-43",
+        "primitive_calls_upper": 154742504910673177525627376,
+        "conditional_advantage_upper": "3.67554801221159723244350333503954482063885743581327135122788E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1422380,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "bytes_recomputed": {
+        "lower": "553877.2218399047851562499999999999999999999999999999999999999999999999999999999999999999999999999999",
+        "upper": "553877.2218399047851562500000000000000000000000000000000000000000000000000000000000000000000000000001"
+      }
+    },
+    {
+      "label": "R0-v3-Z4-512",
+      "plan": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 23,
+            "N": 12582912,
+            "B": 4096,
+            "R": 192,
+            "offset": 6,
+            "height": 24,
+            "threshold": 186,
+            "Q": 18446744073709539328,
+            "fixed_time_upper": "1.30521616658184122700696406456784694742155096185638137994064E-61",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 16,
+            "N": 98304,
+            "B": 512,
+            "R": 159,
+            "offset": 6,
+            "height": 17,
+            "threshold": 153,
+            "Q": 18446744073709637632,
+            "fixed_time_upper": "2.65436109385476089865724693681864727738302464361402537677257E-64",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          }
+        ],
+        "online_horizon": 18446744073696956416,
+        "stash_lifetime_upper": "2.41259529055810132673002313148704428252490827068347561965245E-42",
+        "stash_limit": "2.41354357549688730567047816390270500803741826114412064025024E-42",
+        "primitive_calls_upper": 154742504910672982138077184,
+        "conditional_advantage_upper": "3.72167175213081048893690214144925862883382803032644301710790E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1261056,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "bytes_recomputed": {
+        "lower": "521624.5356844048849631727868176558689031761692347693630737187952183073268446067867615880763100385236",
+        "upper": "521624.5356844048849631727868176558689031761692347693630737187952183073268446067867615880763100426623"
+      }
+    },
+    {
+      "label": "R0-v3-Z4-best-two",
+      "plan": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 23,
+            "N": 12582912,
+            "B": 4096,
+            "R": 192,
+            "offset": 6,
+            "height": 24,
+            "threshold": 186,
+            "Q": 18446744073709539328,
+            "fixed_time_upper": "1.30521616658184122700696406456784694742155096185638137994064E-61",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 17,
+            "N": 144632,
+            "B": 348,
+            "R": 164,
+            "offset": 6,
+            "height": 18,
+            "threshold": 158,
+            "Q": 18446744073709683960,
+            "fixed_time_upper": "3.02615591640610674542690761982409156742872539271068116075535E-64",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          }
+        ],
+        "online_horizon": 18446744073696956416,
+        "stash_lifetime_upper": "2.41328113095205483728305192117981225955275226273668966798012E-42",
+        "stash_limit": "2.41354357549688730567047816390270500803741826114412064025024E-42",
+        "primitive_calls_upper": 154742504910673177525627376,
+        "conditional_advantage_upper": "3.72168546893868955914796271724311398837438491016750729807446E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1422032,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "bytes_recomputed": {
+        "lower": "512338.2071961352452658220031206115458030350712342239735840652956617074862451374201358304852568369480",
+        "upper": "512338.2071961352452658220031206115458030350712342239735840652956617074862451374201358304852568410891"
+      }
+    },
+    {
+      "label": "Hybrid-v3-Z4-512",
+      "plan": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 23,
+            "N": 12582912,
+            "B": 4096,
+            "R": 192,
+            "offset": 6,
+            "height": 24,
+            "threshold": 186,
+            "Q": 18446744073709539328,
+            "fixed_time_upper": "1.30521616658184122700696406456784694742155096185638137994064E-61",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 16,
+            "N": 98304,
+            "B": 512,
+            "R": 155,
+            "offset": 2,
+            "height": 17,
+            "threshold": 153,
+            "Q": 18446744073709637632,
+            "fixed_time_upper": "2.65436109385476089865724693681864727738302464361402537677257E-64",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          }
+        ],
+        "online_horizon": 18446744073696956416,
+        "stash_lifetime_upper": "2.41259529055810132673002313148704428252490827068347561965245E-42",
+        "stash_limit": "2.41354357549688730567047816390270500803741826114412064025024E-42",
+        "primitive_calls_upper": 154742504910672982138077184,
+        "conditional_advantage_upper": "3.72167175213081048893690214144925862883382803032644301710790E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1259008,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "bytes_recomputed": {
+        "lower": "519122.4601668848563780112456062654125516990924533227733623481426445933138235898629302209226088183510",
+        "upper": "519122.4601668848563780112456062654125516990924533227733623481426445933138235898629302209226088224839"
+      }
+    },
+    {
+      "label": "Hybrid-v3-Z4-best-two",
+      "plan": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 23,
+            "N": 12582912,
+            "B": 4096,
+            "R": 192,
+            "offset": 6,
+            "height": 24,
+            "threshold": 186,
+            "Q": 18446744073709539328,
+            "fixed_time_upper": "1.30521616658184122700696406456784694742155096185638137994064E-61",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 17,
+            "N": 144632,
+            "B": 348,
+            "R": 160,
+            "offset": 2,
+            "height": 18,
+            "threshold": 158,
+            "Q": 18446744073709683960,
+            "fixed_time_upper": "3.02615591640610674542690761982409156742872539271068116075535E-64",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          }
+        ],
+        "online_horizon": 18446744073696956416,
+        "stash_lifetime_upper": "2.41328113095205483728305192117981225955275226273668966798012E-42",
+        "stash_limit": "2.41354357549688730567047816390270500803741826114412064025024E-42",
+        "primitive_calls_upper": 154742504910673177525627376,
+        "conditional_advantage_upper": "3.72168546893868955914796271724311398837438491016750729807446E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1420640,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "bytes_recomputed": {
+        "lower": "507528.8228377832938780112456062654125516990924533227733623481426445933138235898629302209226088183510",
+        "upper": "507528.8228377832938780112456062654125516990924533227733623481426445933138235898629302209226088224839"
+      }
+    },
+    {
+      "label": "R0-v3-Z7-512",
+      "plan": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 7,
+            "A": 6,
+            "S": 6,
+            "L": 22,
+            "N": 12582912,
+            "B": 4096,
+            "R": 149,
+            "offset": 12,
+            "height": 23,
+            "threshold": 137,
+            "Q": 18446744073709539328,
+            "fixed_time_upper": "4.83867083380755784459327302463682661586468454345713185379750E-62",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 24
+          },
+          {
+            "tree": 1,
+            "kind": "r0",
+            "Z": 7,
+            "A": 6,
+            "S": 6,
+            "L": 15,
+            "N": 98304,
+            "B": 512,
+            "R": 147,
+            "offset": 12,
+            "height": 16,
+            "threshold": 135,
+            "Q": 18446744073709637632,
+            "fixed_time_upper": "1.83704012153099589681648791593642290348824190866517458087326E-64",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 24
+          }
+        ],
+        "online_horizon": 18446744073696956416,
+        "stash_lifetime_upper": "8.95965966179209502546598196990119527315815079297621151342065E-43",
+        "stash_limit": "2.41354357549688730567047816390270500803741826114412064025024E-42",
+        "primitive_calls_upper": 154742504910672912881729536,
+        "conditional_advantage_upper": "3.69133916564323265245323364275932013372964616649872592774170E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1078784,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "bytes_recomputed": {
+        "lower": "454657.5335526131734500422409864694176955312407696612040937949025514063232898622271276787690383582268",
+        "upper": "454657.5335526131734500422409864694176955312407696612040937949025514063232898622271276787690383619995"
+      }
+    },
+    {
+      "label": "R0-v3-Z7-best-two",
+      "plan": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 7,
+            "A": 6,
+            "S": 6,
+            "L": 22,
+            "N": 12582912,
+            "B": 4096,
+            "R": 149,
+            "offset": 12,
+            "height": 23,
+            "threshold": 137,
+            "Q": 18446744073709539328,
+            "fixed_time_upper": "4.83867083380755784459327302463682661586468454345713185379750E-62",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 24
+          },
+          {
+            "tree": 1,
+            "kind": "r0",
+            "Z": 7,
+            "A": 6,
+            "S": 5,
+            "L": 16,
+            "N": 193584,
+            "B": 260,
+            "R": 148,
+            "offset": 12,
+            "height": 17,
+            "threshold": 136,
+            "Q": 18446744073709732912,
+            "fixed_time_upper": "2.73181189773697904896348113144726793206752767721802102385128E-64",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 24
+          }
+        ],
+        "online_horizon": 18446744073696956416,
+        "stash_lifetime_upper": "8.97616528775214565161647223843187643857817463436992552740102E-43",
+        "stash_limit": "2.41354357549688730567047816390270500803741826114412064025024E-42",
+        "primitive_calls_upper": 154742504910673313052076128,
+        "conditional_advantage_upper": "3.69137217689515275370553462329638149606048621418151335576966E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1423120,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "bytes_recomputed": {
+        "lower": "441034.4730334506864445606210656532396452064268124762908352015084965816124289821598293717170352890682",
+        "upper": "441034.4730334506864445606210656532396452064268124762908352015084965816124289821598293717170352928443"
+      }
+    },
+    {
+      "label": "R0-v3-Z7-best-with-path-budget",
+      "plan": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 7,
+            "A": 6,
+            "S": 6,
+            "L": 22,
+            "N": 12582912,
+            "B": 4096,
+            "R": 149,
+            "offset": 12,
+            "height": 23,
+            "threshold": 137,
+            "Q": 18446744073709539328,
+            "fixed_time_upper": "4.83867083380755784459327302463682661586468454345713185379750E-62",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 24
+          },
+          {
+            "tree": 1,
+            "kind": "r0",
+            "Z": 7,
+            "A": 6,
+            "S": 5,
+            "L": 16,
+            "N": 124584,
+            "B": 404,
+            "R": 148,
+            "offset": 12,
+            "height": 17,
+            "threshold": 136,
+            "Q": 18446744073709663912,
+            "fixed_time_upper": "2.73181189773697904896348113144726793206752767721802102385128E-64",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 24
+          }
+        ],
+        "online_horizon": 18446744073696956416,
+        "stash_lifetime_upper": "8.97616528775214546312145129458032206009797656450843821474161E-43",
+        "stash_limit": "2.41354357549688730567047816390270500803741826114412064025024E-42",
+        "primitive_calls_upper": 154742504910673023644962128,
+        "conditional_advantage_upper": "3.69137217689515275332854458140867838730352581804179038114434E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1168432,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "bytes_recomputed": {
+        "lower": "450762.2076264756097440817277388050503791641254547389133205207207897085580525615317245078329253647754",
+        "upper": "450762.2076264756097440817277388050503791641254547389133205207207897085580525615317245078329253685548"
+      }
+    },
+    {
+      "label": "Hybrid-v3-Z7-512",
+      "plan": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 7,
+            "A": 6,
+            "S": 6,
+            "L": 22,
+            "N": 12582912,
+            "B": 4096,
+            "R": 149,
+            "offset": 12,
+            "height": 23,
+            "threshold": 137,
+            "Q": 18446744073709539328,
+            "fixed_time_upper": "4.83867083380755784459327302463682661586468454345713185379750E-62",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 24
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 16,
+            "N": 98304,
+            "B": 512,
+            "R": 155,
+            "offset": 2,
+            "height": 17,
+            "threshold": 153,
+            "Q": 18446744073709637632,
+            "fixed_time_upper": "2.65436109385476089865724693681864727738302464361402537677257E-64",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          }
+        ],
+        "online_horizon": 18446744073696956416,
+        "stash_lifetime_upper": "8.97473657259462703627011659959270648073101201257333533303525E-43",
+        "stash_limit": "2.41354357549688730567047816390270500803741826114412064025024E-42",
+        "primitive_calls_upper": 154742504910672913418600448,
+        "conditional_advantage_upper": "3.69136931946483771647484191201870315614479188893792017538092E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1082880,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "bytes_recomputed": {
+        "lower": "458666.5538067786907490871861584331013644654337773042733083494373507914864955867966371063775976339033",
+        "upper": "458666.5538067786907490871861584331013644654337773042733083494373507914864955867966371063775976376710"
+      }
+    },
+    {
+      "label": "Hybrid-v3-Z7-best-two",
+      "plan": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 7,
+            "A": 6,
+            "S": 6,
+            "L": 22,
+            "N": 12582912,
+            "B": 4096,
+            "R": 149,
+            "offset": 12,
+            "height": 23,
+            "threshold": 137,
+            "Q": 18446744073709539328,
+            "fixed_time_upper": "4.83867083380755784459327302463682661586468454345713185379750E-62",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 24
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 17,
+            "N": 190651,
+            "B": 264,
+            "R": 160,
+            "offset": 2,
+            "height": 18,
+            "threshold": 158,
+            "Q": 18446744073709729979,
+            "fixed_time_upper": "3.02615591640610674542690761982409156742872539271068116075535E-64",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          }
+        ],
+        "online_horizon": 18446744073696956416,
+        "stash_lifetime_upper": "8.98159497653416228106107361361301256881031368979034565781443E-43",
+        "stash_limit": "2.41354357549688730567047816390270500803741826114412064025024E-42",
+        "primitive_calls_upper": 154742504910673301823918454,
+        "conditional_advantage_upper": "3.69138303627271678696442382604674376832095049229235419603048E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1415148,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "bytes_recomputed": {
+        "lower": "439475.2026104896282490871861584331013644654337773042733083494373507914864955867966371063775976339033",
+        "upper": "439475.2026104896282490871861584331013644654337773042733083494373507914864955867966371063775976376709"
+      }
+    },
+    {
+      "label": "Hybrid-v3-Z7-best-with-path-budget",
+      "plan": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 7,
+            "A": 6,
+            "S": 6,
+            "L": 22,
+            "N": 12582912,
+            "B": 4096,
+            "R": 149,
+            "offset": 12,
+            "height": 23,
+            "threshold": 137,
+            "Q": 18446744073709539328,
+            "fixed_time_upper": "4.83867083380755784459327302463682661586468454345713185379750E-62",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 24
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 17,
+            "N": 123362,
+            "B": 408,
+            "R": 160,
+            "offset": 2,
+            "height": 18,
+            "threshold": 158,
+            "Q": 18446744073709662690,
+            "fixed_time_upper": "3.02615591640610674542690761982409156742872539271068116075535E-64",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          }
+        ],
+        "online_horizon": 18446744073696956416,
+        "stash_lifetime_upper": "8.98159497653416207743406815456249577577912685944704817710293E-43",
+        "stash_limit": "2.41354357549688730567047816390270500803741826114412064025024E-42",
+        "primitive_calls_upper": 154742504910673019593262020,
+        "conditional_advantage_upper": "3.69138303627271678655716981512864273473488811863166760106906E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1169032,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "bytes_recomputed": {
+        "lower": "452499.8549542396282490871861584331013644654337773042733083494373507914864955867966371063775976339033",
+        "upper": "452499.8549542396282490871861584331013644654337773042733083494373507914864955867966371063775976376709"
+      }
+    }
+  ],
+  "boundaries": {
+    "nontrivial_boundary_rejections": [
+      "h25",
+      "h31",
+      "r281",
+      "negative_threshold",
+      "wrong_A",
+      "uncertified_Z7_SDE"
+    ],
+    "h24_accepted": true,
+    "h25_deterministic_exception": {
+      "tree": 0,
+      "kind": "r0",
+      "Z": 7,
+      "A": 6,
+      "S": 6,
+      "L": 24,
+      "N": 10,
+      "B": 64,
+      "R": 10,
+      "offset": 12,
+      "height": 25,
+      "threshold": -2,
+      "Q": 10,
+      "fixed_time_upper": "0",
+      "rule": "deterministic current count <= N",
+      "certified_height_max": null
+    },
+    "physical_mutations_rejected": [
+      {
+        "file": "src/fused_logical.py",
+        "case": 0,
+        "rejected": true
+      },
+      {
+        "file": "numerics/z7a6_up_c280_h24_meta.json",
+        "case": 1,
+        "rejected": true
+      },
+      {
+        "file": "numerics/z7a6_up_c280_h24_meta.json",
+        "case": 2,
+        "rejected": true
+      },
+      {
+        "file": "numerics/z7a6_up_c280_h24_meta.json",
+        "case": 3,
+        "rejected": true
+      },
+      {
+        "file": "numerics/z7a6_up_c280_h24.csv",
+        "case": 4,
+        "rejected": true
+      },
+      {
+        "file": "numerics/z7a6_up_c280_h24.csv",
+        "case": 5,
+        "rejected": true
+      }
+    ]
+  },
+  "regression_oracles": {
+    "results": {
+      "integrated_protocol": {
+        "totals": {
+          "top_requests": 2700,
+          "layer_accesses": 5448,
+          "per_token_depth_comparisons": 154980,
+          "canonical_comparisons": 5448,
+          "field_recurrence_comparisons": 5448,
+          "frames_checked": 23699,
+          "whole_snapshot_nodes": 468
+        },
+        "runs": [
+          {
+            "kind": "sde",
+            "seed": 0,
+            "requests": 400,
+            "setup_layer_accesses": [
+              48,
+              60
+            ],
+            "online_layer_accesses": [
+              400,
+              400
+            ],
+            "invoice": {
+              "events_checked": 2132,
+              "total": {
+                "data_download": 2685056,
+                "data_upload": 936320,
+                "headers_download": 787848,
+                "headers_upload": 787848,
+                "authentication_download": 366848,
+                "authentication_upload": 588288,
+                "framing_and_control": 196144
+              },
+              "total_bytes": 6348352,
+              "by_stage": {
+                "logical": {
+                  "data_download": 1748736,
+                  "data_upload": 0,
+                  "headers_download": 516528,
+                  "headers_upload": 516528,
+                  "authentication_download": 298752,
+                  "authentication_upload": 418048,
+                  "framing_and_control": 147200
+                },
+                "evict": {
+                  "data_download": 936320,
+                  "data_upload": 936320,
+                  "headers_download": 271320,
+                  "headers_upload": 271320,
+                  "authentication_download": 68096,
+                  "authentication_upload": 170240,
+                  "framing_and_control": 48944
+                }
+              },
+              "by_tree": {
+                "1": {
+                  "data_download": 202240,
+                  "data_upload": 68096,
+                  "headers_download": 322320,
+                  "headers_upload": 322320,
+                  "authentication_download": 137664,
+                  "authentication_upload": 237568,
+                  "framing_and_control": 98072
+                },
+                "0": {
+                  "data_download": 2482816,
+                  "data_upload": 868224,
+                  "headers_download": 465528,
+                  "headers_upload": 465528,
+                  "authentication_download": 229184,
+                  "authentication_upload": 350720,
+                  "framing_and_control": 98072
+                }
+              }
+            },
+            "primitive_calls_online": 98882,
+            "nonce_allocations_online": 9182,
+            "max_stash": [
+              3,
+              2
+            ],
+            "elapsed_including_test_oracle_seconds": 0.8919852619999986,
+            "timer_warning": "Not a performance benchmark: includes external shadow and assertion work."
+          },
+          {
+            "kind": "sde",
+            "seed": 1,
+            "requests": 400,
+            "setup_layer_accesses": [
+              48,
+              60
+            ],
+            "online_layer_accesses": [
+              400,
+              400
+            ],
+            "invoice": {
+              "events_checked": 2132,
+              "total": {
+                "data_download": 2719232,
+                "data_upload": 936320,
+                "headers_download": 796416,
+                "headers_upload": 796416,
+                "authentication_download": 364160,
+                "authentication_upload": 590976,
+                "framing_and_control": 196144
+              },
+              "total_bytes": 6399664,
+              "by_stage": {
+                "logical": {
+                  "data_download": 1782912,
+                  "data_upload": 0,
+                  "headers_download": 525096,
+                  "headers_upload": 525096,
+                  "authentication_download": 296064,
+                  "authentication_upload": 420736,
+                  "framing_and_control": 147200
+                },
+                "evict": {
+                  "data_download": 936320,
+                  "data_upload": 936320,
+                  "headers_download": 271320,
+                  "headers_upload": 271320,
+                  "authentication_download": 68096,
+                  "authentication_upload": 170240,
+                  "framing_and_control": 48944
+                }
+              },
+              "by_tree": {
+                "1": {
+                  "data_download": 203776,
+                  "data_upload": 68096,
+                  "headers_download": 324768,
+                  "headers_upload": 324768,
+                  "authentication_download": 136896,
+                  "authentication_upload": 238336,
+                  "framing_and_control": 98072
+                },
+                "0": {
+                  "data_download": 2515456,
+                  "data_upload": 868224,
+                  "headers_download": 471648,
+                  "headers_upload": 471648,
+                  "authentication_download": 227264,
+                  "authentication_upload": 352640,
+                  "framing_and_control": 98072
+                }
+              }
+            },
+            "primitive_calls_online": 99704,
+            "nonce_allocations_online": 9224,
+            "max_stash": [
+              2,
+              2
+            ],
+            "elapsed_including_test_oracle_seconds": 0.8985057310000002,
+            "timer_warning": "Not a performance benchmark: includes external shadow and assertion work."
+          },
+          {
+            "kind": "sde",
+            "seed": 2,
+            "requests": 400,
+            "setup_layer_accesses": [
+              48,
+              60
+            ],
+            "online_layer_accesses": [
+              400,
+              400
+            ],
+            "invoice": {
+              "events_checked": 2132,
+              "total": {
+                "data_download": 2723840,
+                "data_upload": 936320,
+                "headers_download": 800700,
+                "headers_upload": 800700,
+                "authentication_download": 362816,
+                "authentication_upload": 592320,
+                "framing_and_control": 196144
+              },
+              "total_bytes": 6412840,
+              "by_stage": {
+                "logical": {
+                  "data_download": 1787520,
+                  "data_upload": 0,
+                  "headers_download": 529380,
+                  "headers_upload": 529380,
+                  "authentication_download": 294720,
+                  "authentication_upload": 422080,
+                  "framing_and_control": 147200
+                },
+                "evict": {
+                  "data_download": 936320,
+                  "data_upload": 936320,
+                  "headers_download": 271320,
+                  "headers_upload": 271320,
+                  "authentication_download": 68096,
+                  "authentication_upload": 170240,
+                  "framing_and_control": 48944
+                }
+              },
+              "by_tree": {
+                "1": {
+                  "data_download": 206208,
+                  "data_upload": 68096,
+                  "headers_download": 328644,
+                  "headers_upload": 328644,
+                  "authentication_download": 135680,
+                  "authentication_upload": 239552,
+                  "framing_and_control": 98072
+                },
+                "0": {
+                  "data_download": 2517632,
+                  "data_upload": 868224,
+                  "headers_download": 472056,
+                  "headers_upload": 472056,
+                  "authentication_download": 227136,
+                  "authentication_upload": 352768,
+                  "framing_and_control": 98072
+                }
+              }
+            },
+            "primitive_calls_online": 99959,
+            "nonce_allocations_online": 9245,
+            "max_stash": [
+              3,
+              2
+            ],
+            "elapsed_including_test_oracle_seconds": 0.9428469179999972,
+            "timer_warning": "Not a performance benchmark: includes external shadow and assertion work."
+          },
+          {
+            "kind": "r0",
+            "seed": 0,
+            "requests": 400,
+            "setup_layer_accesses": [
+              48,
+              60
+            ],
+            "online_layer_accesses": [
+              400,
+              400
+            ],
+            "invoice": {
+              "events_checked": 3198,
+              "total": {
+                "data_download": 1217664,
+                "data_upload": 1526896,
+                "headers_download": 636480,
+                "headers_upload": 636480,
+                "authentication_download": 1091648,
+                "authentication_upload": 1628544,
+                "framing_and_control": 314912
+              },
+              "total_bytes": 7052624,
+              "by_stage": {
+                "logical": {
+                  "data_download": 443072,
+                  "data_upload": 171360,
+                  "headers_download": 419424,
+                  "headers_upload": 419424,
+                  "authentication_download": 781824,
+                  "authentication_upload": 521984,
+                  "framing_and_control": 234048
+                },
+                "evict": {
+                  "data_download": 774592,
+                  "data_upload": 1355536,
+                  "headers_download": 217056,
+                  "headers_upload": 217056,
+                  "authentication_download": 309824,
+                  "authentication_upload": 1106560,
+                  "framing_and_control": 80864
+                }
+              },
+              "by_tree": {
+                "1": {
+                  "data_download": 82880,
+                  "data_upload": 104608,
+                  "headers_download": 242556,
+                  "headers_upload": 242556,
+                  "authentication_download": 411200,
+                  "authentication_upload": 630976,
+                  "framing_and_control": 154488
+                },
+                "0": {
+                  "data_download": 1134784,
+                  "data_upload": 1422288,
+                  "headers_download": 393924,
+                  "headers_upload": 393924,
+                  "authentication_download": 680448,
+                  "authentication_upload": 997568,
+                  "framing_and_control": 160424
+                }
+              }
+            },
+            "primitive_calls_online": 115306,
+            "nonce_allocations_online": 11768,
+            "max_stash": [
+              5,
+              5
+            ],
+            "elapsed_including_test_oracle_seconds": 1.1655380700000002,
+            "timer_warning": "Not a performance benchmark: includes external shadow and assertion work."
+          },
+          {
+            "kind": "r0",
+            "seed": 1,
+            "requests": 400,
+            "setup_layer_accesses": [
+              48,
+              60
+            ],
+            "online_layer_accesses": [
+              400,
+              400
+            ],
+            "invoice": {
+              "events_checked": 3198,
+              "total": {
+                "data_download": 1239072,
+                "data_upload": 1552208,
+                "headers_download": 645660,
+                "headers_upload": 645660,
+                "authentication_download": 1101056,
+                "authentication_upload": 1638592,
+                "framing_and_control": 315272
+              },
+              "total_bytes": 7137520,
+              "by_stage": {
+                "logical": {
+                  "data_download": 464480,
+                  "data_upload": 196672,
+                  "headers_download": 428604,
+                  "headers_upload": 428604,
+                  "authentication_download": 790336,
+                  "authentication_upload": 532032,
+                  "framing_and_control": 234408
+                },
+                "evict": {
+                  "data_download": 774592,
+                  "data_upload": 1355536,
+                  "headers_download": 217056,
+                  "headers_upload": 217056,
+                  "authentication_download": 310720,
+                  "authentication_upload": 1106560,
+                  "framing_and_control": 80864
+                }
+              },
+              "by_tree": {
+                "1": {
+                  "data_download": 82528,
+                  "data_upload": 103264,
+                  "headers_download": 243984,
+                  "headers_upload": 243984,
+                  "authentication_download": 414720,
+                  "authentication_upload": 626048,
+                  "framing_and_control": 154544
+                },
+                "0": {
+                  "data_download": 1156544,
+                  "data_upload": 1448944,
+                  "headers_download": 401676,
+                  "headers_upload": 401676,
+                  "authentication_download": 686336,
+                  "authentication_upload": 1012544,
+                  "framing_and_control": 160728
+                }
+              }
+            },
+            "primitive_calls_online": 116683,
+            "nonce_allocations_online": 11877,
+            "max_stash": [
+              5,
+              5
+            ],
+            "elapsed_including_test_oracle_seconds": 1.198140753999997,
+            "timer_warning": "Not a performance benchmark: includes external shadow and assertion work."
+          },
+          {
+            "kind": "r0",
+            "seed": 2,
+            "requests": 400,
+            "setup_layer_accesses": [
+              48,
+              60
+            ],
+            "online_layer_accesses": [
+              400,
+              400
+            ],
+            "invoice": {
+              "events_checked": 3198,
+              "total": {
+                "data_download": 1230736,
+                "data_upload": 1550640,
+                "headers_download": 641172,
+                "headers_upload": 641172,
+                "authentication_download": 1096448,
+                "authentication_upload": 1630912,
+                "framing_and_control": 315096
+              },
+              "total_bytes": 7106176,
+              "by_stage": {
+                "logical": {
+                  "data_download": 456144,
+                  "data_upload": 195104,
+                  "headers_download": 424116,
+                  "headers_upload": 424116,
+                  "authentication_download": 787712,
+                  "authentication_upload": 524352,
+                  "framing_and_control": 234232
+                },
+                "evict": {
+                  "data_download": 774592,
+                  "data_upload": 1355536,
+                  "headers_download": 217056,
+                  "headers_upload": 217056,
+                  "authentication_download": 308736,
+                  "authentication_upload": 1106560,
+                  "framing_and_control": 80864
+                }
+              },
+              "by_tree": {
+                "1": {
+                  "data_download": 82080,
+                  "data_upload": 101696,
+                  "headers_download": 245412,
+                  "headers_upload": 245412,
+                  "authentication_download": 416064,
+                  "authentication_upload": 620224,
+                  "framing_and_control": 154600
+                },
+                "0": {
+                  "data_download": 1148656,
+                  "data_upload": 1448944,
+                  "headers_download": 395760,
+                  "headers_upload": 395760,
+                  "authentication_download": 680384,
+                  "authentication_upload": 1010688,
+                  "framing_and_control": 160496
+                }
+              }
+            },
+            "primitive_calls_online": 116114,
+            "nonce_allocations_online": 11799,
+            "max_stash": [
+              5,
+              5
+            ],
+            "elapsed_including_test_oracle_seconds": 1.2410249859999993,
+            "timer_warning": "Not a performance benchmark: includes external shadow and assertion work."
+          },
+          {
+            "kind": "sde",
+            "payload_4096": true,
+            "requests": 150,
+            "invoice": {
+              "events_checked": 800,
+              "total": {
+                "data_download": 24227904,
+                "data_upload": 8224000,
+                "headers_download": 300492,
+                "headers_upload": 300492,
+                "authentication_download": 136128,
+                "authentication_upload": 222272,
+                "framing_and_control": 73600
+              },
+              "total_bytes": 33484888,
+              "by_stage": {
+                "logical": {
+                  "data_download": 16003904,
+                  "data_upload": 0,
+                  "headers_download": 198492,
+                  "headers_upload": 198492,
+                  "authentication_download": 110528,
+                  "authentication_upload": 158272,
+                  "framing_and_control": 55200
+                },
+                "evict": {
+                  "data_download": 8224000,
+                  "data_upload": 8224000,
+                  "headers_download": 102000,
+                  "headers_upload": 102000,
+                  "authentication_download": 25600,
+                  "authentication_upload": 64000,
+                  "framing_and_control": 18400
+                }
+              },
+              "by_tree": {
+                "1": {
+                  "data_download": 5296256,
+                  "data_upload": 1644800,
+                  "headers_download": 65688,
+                  "headers_upload": 65688,
+                  "authentication_download": 17792,
+                  "authentication_upload": 46208,
+                  "framing_and_control": 36800
+                },
+                "0": {
+                  "data_download": 18931648,
+                  "data_upload": 6579200,
+                  "headers_download": 234804,
+                  "headers_upload": 234804,
+                  "authentication_download": 118336,
+                  "authentication_upload": 176064,
+                  "framing_and_control": 36800
+                }
+              }
+            },
+            "terminal_position_bytes": 4
+          },
+          {
+            "kind": "r0",
+            "payload_4096": true,
+            "requests": 150,
+            "invoice": {
+              "events_checked": 1200,
+              "total": {
+                "data_download": 10571952,
+                "data_upload": 13211856,
+                "headers_download": 243576,
+                "headers_upload": 243576,
+                "authentication_download": 413952,
+                "authentication_upload": 615680,
+                "framing_and_control": 118352
+              },
+              "total_bytes": 25418944,
+              "by_stage": {
+                "logical": {
+                  "data_download": 3992752,
+                  "data_upload": 1698256,
+                  "headers_download": 161976,
+                  "headers_upload": 161976,
+                  "authentication_download": 298432,
+                  "authentication_upload": 199680,
+                  "framing_and_control": 87952
+                },
+                "evict": {
+                  "data_download": 6579200,
+                  "data_upload": 11513600,
+                  "headers_download": 81600,
+                  "headers_upload": 81600,
+                  "authentication_download": 115520,
+                  "authentication_upload": 416000,
+                  "framing_and_control": 30400
+                }
+              },
+              "by_tree": {
+                "1": {
+                  "data_download": 1624240,
+                  "data_upload": 1870960,
+                  "headers_download": 40800,
+                  "headers_upload": 40800,
+                  "authentication_download": 60352,
+                  "authentication_upload": 96640,
+                  "framing_and_control": 56000
+                },
+                "0": {
+                  "data_download": 8947712,
+                  "data_upload": 11340896,
+                  "headers_download": 202776,
+                  "headers_upload": 202776,
+                  "authentication_download": 353600,
+                  "authentication_upload": 519040,
+                  "framing_and_control": 62352
+                }
+              }
+            },
+            "terminal_position_bytes": 4
+          }
+        ]
+      },
+      "original_active_attacks": {
+        "cases": [
+          {
+            "kind": "sde",
+            "case": "header_flip",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "sde",
+            "case": "proof_flip",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "sde",
+            "case": "slot_flip",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "sde",
+            "case": "header_truncate",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "sde",
+            "case": "replay",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "sde",
+            "case": "parent_after_map_commit",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "sde",
+            "case": "write_ack",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": false
+          },
+          {
+            "kind": "sde",
+            "case": "blind_cover_flip",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "r0",
+            "case": "header_flip",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "r0",
+            "case": "proof_flip",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "r0",
+            "case": "slot_flip",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "r0",
+            "case": "header_truncate",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "r0",
+            "case": "replay",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "r0",
+            "case": "parent_after_map_commit",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "r0",
+            "case": "write_ack",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": false
+          },
+          {
+            "kind": "r0",
+            "case": "blind_cover_flip",
+            "unchanged_committed_anchor": true,
+            "fail_stop": true,
+            "corrupt_opening_rejected_before_decryption": true
+          },
+          {
+            "kind": "sde",
+            "case": "current_root_vs_replayed_header_body",
+            "rejected_before_decryption": true
+          },
+          {
+            "kind": "r0",
+            "case": "current_root_vs_replayed_header_body",
+            "rejected_before_decryption": true
+          },
+          {
+            "kind": "sde",
+            "case": "guaranteed_dummy_stash_hit",
+            "no_eviction_yet": true,
+            "rejected_before_payload_decryption": true
+          },
+          {
+            "kind": "r0",
+            "case": "guaranteed_dummy_stash_hit",
+            "no_eviction_yet": true,
+            "rejected_before_payload_decryption": true
+          }
+        ],
+        "count": 20
+      },
+      "local_openings": {
+        "local_openings_checked": 987,
+        "all_combination_ranks_checked": true
+      },
+      "Z7_actual_shadow_field": [
+        {
+          "label": "z7_pure",
+          "online_top_requests": 360,
+          "layer_checks": 1491,
+          "token_depth_checks": 214398,
+          "field_checks": 1491,
+          "frames": 5475,
+          "coverage": {
+            "neutral_buckets": 134,
+            "neutral_with_target": 6,
+            "multiple_neutrals": 4,
+            "mixed_single_and_multi": 51
+          },
+          "observed_online_bytes": 49072496,
+          "max_stash": [
+            11,
+            3
+          ]
+        },
+        {
+          "label": "z7_mixed",
+          "online_top_requests": 360,
+          "layer_checks": 1491,
+          "token_depth_checks": 214398,
+          "field_checks": 1491,
+          "frames": 4854,
+          "coverage": {
+            "neutral_buckets": 46,
+            "neutral_with_target": 2,
+            "multiple_neutrals": 2,
+            "mixed_single_and_multi": 44
+          },
+          "observed_online_bytes": 49646720,
+          "max_stash": [
+            12,
+            2
+          ]
+        },
+        {
+          "label": "z7_mixed_small",
+          "online_top_requests": 360,
+          "layer_checks": 1494,
+          "token_depth_checks": 216645,
+          "field_checks": 1494,
+          "frames": 4866,
+          "coverage": {
+            "neutral_buckets": 58,
+            "neutral_with_target": 7,
+            "multiple_neutrals": 6,
+            "mixed_single_and_multi": 52
+          },
+          "observed_online_bytes": 50030160,
+          "max_stash": [
+            11,
+            2
+          ]
+        },
+        {
+          "label": "z7_frequent_neutral",
+          "online_top_requests": 360,
+          "layer_checks": 1512,
+          "token_depth_checks": 230316,
+          "field_checks": 1512,
+          "frames": 4938,
+          "coverage": {
+            "neutral_buckets": 2192,
+            "neutral_with_target": 168,
+            "multiple_neutrals": 602,
+            "mixed_single_and_multi": 504
+          },
+          "observed_online_bytes": 12020368,
+          "max_stash": [
+            11,
+            2
+          ]
+        }
+      ],
+      "Z7_structural": {
+        "field_count_equalities": 1280,
+        "commutations": 1280,
+        "root_shifts": 640,
+        "marking_snapshots": 108,
+        "nonzero_marks": 23281
+      },
+      "original_gate_regressions": {
+        "rejected_profile_or_artifact_mutations": 10,
+        "horizon_rejected_before_IO": true,
+        "numeric_points": {
+          "(4, 3)": 8711,
+          "(7, 6)": 6744
+        }
+      }
+    },
+    "imports_within_bundle": {
+      "optimized_oram": "research_20260914/optimization_v1/src/optimized_oram.py",
+      "fused_logical": "research_20260914/optimization_v1/src/fused_logical.py",
+      "optimized_gate": "research_20260914/optimization_v1/src/optimized_gate.py",
+      "optimized_cost": "research_20260914/optimization_v1/src/optimized_cost.py",
+      "variant_tests": "research_20260914/optimization_v1/src/variant_tests.py",
+      "new_profile_tests": "research_20260914/optimization_v1/src/new_profile_tests.py",
+      "structural_and_gate_tests": "research_20260914/optimization_v1/src/structural_and_gate_tests.py",
+      "core_state_tests": "selective_oram_final_chain_2026-09-11/legacy/core_state_tests.py",
+      "reduction_checks": "selective_oram_final_chain_2026-09-11/src/reduction_checks.py",
+      "certified_driver": "selective_oram_final_chain_2026-09-11/src/certified_driver.py",
+      "integrated_oram": "selective_oram_final_chain_2026-09-11/src/integrated_oram.py",
+      "unified_cost": "selective_oram_final_chain_2026-09-11/src/unified_cost.py"
+    }
+  }
+}

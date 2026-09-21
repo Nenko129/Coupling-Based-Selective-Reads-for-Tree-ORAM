@@ -1,0 +1,13 @@
+{
+  "model": "m2-depth-profile-independent-Poisson-ghost",
+  "cap": 480,
+  "height": 13,
+  "poisson_cutoff": 128,
+  "arithmetic": "up",
+  "Z_root_to_leaf": [4,4,4,4,4,4,2,2,2,3,3,4,4],
+  "rate_root_to_leaf": [1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5,1.5],
+  "seed_upper_root_to_leaf": ["0x1.c8f87724b5c1ep-3","0x1.c8f87724b5c1ep-3","0x1.c8f87724b5c1ep-3","0x1.c8f87724b5c1ep-3","0x1.c8f87724b5c1ep-3","0x1.c8f87724b5c1ep-3","0x1.c8f87724b5c1ep-3","0x1.c8f87724b5c1ep-3","0x1.c8f87724b5c1ep-3","0x1.c8f87724b5c1ep-3","0x1.c8f87724b5c1ep-3","0x1.c8f87724b5c1ep-3","0x1.c8f87724b5c1ep-3"],
+  "rounding_self_test": true,
+  "renormalized": false,
+  "positive_states_discarded": false
+}

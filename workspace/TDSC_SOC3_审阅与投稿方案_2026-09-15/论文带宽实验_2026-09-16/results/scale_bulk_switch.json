@@ -1,0 +1,6 @@
+{
+  "reason": "Use independently checked byte-equivalent bulk HMAC evaluation for future scale-only runs; no child run was stopped",
+  "pid": 25248,
+  "command": "\"C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" -B -X utf8 TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/src/dispatch_extended.py --queue TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/extended_scale_queue.json",
+  "time": "2026-09-16T05:07:15.4574663+08:00"
+}

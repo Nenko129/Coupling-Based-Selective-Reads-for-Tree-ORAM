@@ -1,0 +1,1706 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "id": "CAL_path_43_seed101",
+      "status": "passed",
+      "bytes_per_request": 11280.0
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 52569.0234375
+    },
+    {
+      "id": "SENS_free_compressed_plb4_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 47336.2890625
+    },
+    {
+      "id": "CAL_deferred_43_seed101",
+      "status": "passed",
+      "bytes_per_request": 12160.0
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 40938.44140625
+    },
+    {
+      "id": "SENS_free_compressed_plb4_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 37017.208984375
+    },
+    {
+      "id": "CAL_sde_43_seed101",
+      "status": "passed",
+      "bytes_per_request": 9631.432291666666
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 77917.3515625
+    },
+    {
+      "id": "SENS_free_compressed_plb4_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 70198.96484375
+    },
+    {
+      "id": "CAL_ring_43_seed101",
+      "status": "passed",
+      "bytes_per_request": 18193.791666666668
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 59142.42578125
+    },
+    {
+      "id": "SENS_free_compressed_plb4_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 53075.68359375
+    },
+    {
+      "id": "CAL_gc_ring_43_seed101",
+      "status": "passed",
+      "bytes_per_request": 14397.270833333334
+    },
+    {
+      "id": "PUB_Financial1_rho_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 26574.75
+    },
+    {
+      "id": "SENS_free_compressed_plb4_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 47211.11328125
+    },
+    {
+      "id": "CAL_r0_43_seed101",
+      "status": "passed",
+      "bytes_per_request": 13076.291666666666
+    },
+    {
+      "id": "PUB_Financial1_rho_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 24162.5390625
+    },
+    {
+      "id": "SENS_free_compressed_plb4_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 36918.16015625
+    },
+    {
+      "id": "CAL_ring_76_seed101",
+      "status": "passed",
+      "bytes_per_request": 17267.859375
+    },
+    {
+      "id": "PUB_Financial1_rho_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 31854.75
+    },
+    {
+      "id": "SENS_free_compressed_plb4_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 70021.2734375
+    },
+    {
+      "id": "CAL_r0_76_seed101",
+      "status": "passed",
+      "bytes_per_request": 11692.463541666666
+    },
+    {
+      "id": "PUB_Financial1_rho_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 27954.3359375
+    },
+    {
+      "id": "SENS_free_compressed_plb4_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 52889.6015625
+    },
+    {
+      "id": "CAL_path_43_seed102",
+      "status": "passed",
+      "bytes_per_request": 11280.0
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 55264.3359375
+    },
+    {
+      "id": "SENS_free_compressed_plb4_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 47345.13671875
+    },
+    {
+      "id": "CAL_deferred_43_seed102",
+      "status": "passed",
+      "bytes_per_request": 12160.0
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 43083.310546875
+    },
+    {
+      "id": "SENS_free_compressed_plb4_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 37002.951171875
+    },
+    {
+      "id": "CAL_sde_43_seed102",
+      "status": "passed",
+      "bytes_per_request": 9584.747395833334
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 81965.7109375
+    },
+    {
+      "id": "SENS_free_compressed_plb4_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 70219.484375
+    },
+    {
+      "id": "CAL_ring_43_seed102",
+      "status": "passed",
+      "bytes_per_request": 18228.708333333332
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 62243.4921875
+    },
+    {
+      "id": "SENS_free_compressed_plb4_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 53034.71875
+    },
+    {
+      "id": "CAL_gc_ring_43_seed102",
+      "status": "passed",
+      "bytes_per_request": 14437.489583333334
+    },
+    {
+      "id": "PUB_Financial1_rho_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 27202.734375
+    },
+    {
+      "id": "SENS_free_compressed_plb4_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 47460.44921875
+    },
+    {
+      "id": "CAL_r0_43_seed102",
+      "status": "passed",
+      "bytes_per_request": 13106.223958333334
+    },
+    {
+      "id": "PUB_Financial1_rho_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 24726.18359375
+    },
+    {
+      "id": "SENS_free_compressed_plb4_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 37120.21875
+    },
+    {
+      "id": "CAL_ring_76_seed102",
+      "status": "passed",
+      "bytes_per_request": 17330.375
+    },
+    {
+      "id": "PUB_Financial1_rho_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 32586.8203125
+    },
+    {
+      "id": "SENS_free_compressed_plb4_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 70417.296875
+    },
+    {
+      "id": "CAL_r0_76_seed102",
+      "status": "passed",
+      "bytes_per_request": 11705.473958333334
+    },
+    {
+      "id": "PUB_Financial1_rho_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 28589.3359375
+    },
+    {
+      "id": "SENS_free_compressed_plb4_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 53166.890625
+    },
+    {
+      "id": "CAL_path_43_seed103",
+      "status": "passed",
+      "bytes_per_request": 11280.0
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 55179.140625
+    },
+    {
+      "id": "SENS_free_compressed_plb4_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 47380.625
+    },
+    {
+      "id": "CAL_deferred_43_seed103",
+      "status": "passed",
+      "bytes_per_request": 12160.0
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 43034.728515625
+    },
+    {
+      "id": "SENS_free_compressed_plb4_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 37057.1015625
+    },
+    {
+      "id": "CAL_sde_43_seed103",
+      "status": "passed",
+      "bytes_per_request": 9581.4296875
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 81863.12109375
+    },
+    {
+      "id": "SENS_free_compressed_plb4_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 70330.4609375
+    },
+    {
+      "id": "CAL_ring_43_seed103",
+      "status": "passed",
+      "bytes_per_request": 18200.708333333332
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 62162.94921875
+    },
+    {
+      "id": "SENS_free_compressed_plb4_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 53146.46875
+    },
+    {
+      "id": "CAL_gc_ring_43_seed103",
+      "status": "passed",
+      "bytes_per_request": 14446.484375
+    },
+    {
+      "id": "PUB_Financial1_rho_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 28100.2734375
+    },
+    {
+      "id": "SENS_free_compressed_plb32_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 23661.73828125
+    },
+    {
+      "id": "CAL_r0_43_seed103",
+      "status": "passed",
+      "bytes_per_request": 13123.1875
+    },
+    {
+      "id": "PUB_Financial1_rho_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 25543.38671875
+    },
+    {
+      "id": "SENS_free_compressed_plb32_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 18495.533203125
+    },
+    {
+      "id": "CAL_ring_76_seed103",
+      "status": "passed",
+      "bytes_per_request": 17276.598958333332
+    },
+    {
+      "id": "PUB_Financial1_rho_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 33674.66015625
+    },
+    {
+      "id": "SENS_free_compressed_plb32_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 35091.6171875
+    },
+    {
+      "id": "CAL_r0_76_seed103",
+      "status": "passed",
+      "bytes_per_request": 11674.036458333334
+    },
+    {
+      "id": "PUB_Financial1_rho_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 29537.984375
+    },
+    {
+      "id": "SENS_free_compressed_plb32_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 26497.69921875
+    },
+    {
+      "id": "CAL_path_43_seed104",
+      "status": "passed",
+      "bytes_per_request": 11280.0
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 55223.4375
+    },
+    {
+      "id": "SENS_free_compressed_plb32_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 23859.82421875
+    },
+    {
+      "id": "CAL_deferred_43_seed104",
+      "status": "passed",
+      "bytes_per_request": 12160.0
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 43048.27734375
+    },
+    {
+      "id": "SENS_free_compressed_plb32_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 18630.701171875
+    },
+    {
+      "id": "CAL_sde_43_seed104",
+      "status": "passed",
+      "bytes_per_request": 9589.25
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 81920.0390625
+    },
+    {
+      "id": "SENS_free_compressed_plb32_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 35351.12890625
+    },
+    {
+      "id": "CAL_ring_43_seed104",
+      "status": "passed",
+      "bytes_per_request": 18200.0
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 62185.05859375
+    },
+    {
+      "id": "SENS_free_compressed_plb32_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 26699.29296875
+    },
+    {
+      "id": "CAL_gc_ring_43_seed104",
+      "status": "passed",
+      "bytes_per_request": 14461.734375
+    },
+    {
+      "id": "PUB_Financial1_rho_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 31029.2109375
+    },
+    {
+      "id": "SENS_free_compressed_plb32_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 23661.73828125
+    },
+    {
+      "id": "CAL_r0_43_seed104",
+      "status": "passed",
+      "bytes_per_request": 13110.692708333334
+    },
+    {
+      "id": "PUB_Financial1_rho_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 28204.123046875
+    },
+    {
+      "id": "SENS_free_compressed_plb32_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 18493.578125
+    },
+    {
+      "id": "CAL_ring_76_seed104",
+      "status": "passed",
+      "bytes_per_request": 17288.96875
+    },
+    {
+      "id": "PUB_Financial1_rho_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 37178.80859375
+    },
+    {
+      "id": "SENS_free_compressed_plb32_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 35088.671875
+    },
+    {
+      "id": "CAL_r0_76_seed104",
+      "status": "passed",
+      "bytes_per_request": 11672.28125
+    },
+    {
+      "id": "PUB_Financial1_rho_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 32616.8203125
+    },
+    {
+      "id": "SENS_free_compressed_plb32_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 26501.3671875
+    },
+    {
+      "id": "CAL_path_43_seed105",
+      "status": "passed",
+      "bytes_per_request": 11280.0
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 55149.609375
+    },
+    {
+      "id": "SENS_free_compressed_plb32_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 23895.3125
+    },
+    {
+      "id": "CAL_deferred_43_seed105",
+      "status": "passed",
+      "bytes_per_request": 12160.0
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 42981.380859375
+    },
+    {
+      "id": "SENS_free_compressed_plb32_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 18683.4296875
+    },
+    {
+      "id": "CAL_sde_43_seed105",
+      "status": "passed",
+      "bytes_per_request": 9626.9296875
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 81749.359375
+    },
+    {
+      "id": "SENS_free_compressed_plb32_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 35475.203125
+    },
+    {
+      "id": "CAL_ring_43_seed105",
+      "status": "passed",
+      "bytes_per_request": 18206.802083333332
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 62070.06640625
+    },
+    {
+      "id": "SENS_free_compressed_plb32_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 26770.27734375
+    },
+    {
+      "id": "CAL_gc_ring_43_seed105",
+      "status": "passed",
+      "bytes_per_request": 14422.791666666666
+    },
+    {
+      "id": "PUB_Financial1_rho_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 27564.4921875
+    },
+    {
+      "id": "SENS_free_compressed_plb32_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 23610.48828125
+    },
+    {
+      "id": "CAL_r0_43_seed105",
+      "status": "passed",
+      "bytes_per_request": 13080.125
+    },
+    {
+      "id": "PUB_Financial1_rho_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 25057.015625
+    },
+    {
+      "id": "SENS_free_compressed_plb32_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 18447.66015625
+    },
+    {
+      "id": "CAL_ring_76_seed105",
+      "status": "passed",
+      "bytes_per_request": 17291.588541666668
+    },
+    {
+      "id": "PUB_Financial1_rho_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 33023.51953125
+    },
+    {
+      "id": "SENS_free_compressed_plb32_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 34991.12890625
+    },
+    {
+      "id": "CAL_r0_76_seed105",
+      "status": "passed",
+      "bytes_per_request": 11698.223958333334
+    },
+    {
+      "id": "PUB_Financial1_rho_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 28993.21484375
+    },
+    {
+      "id": "SENS_free_compressed_plb32_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 26437.30078125
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 56301.328125
+    },
+    {
+      "id": "SENS_free_compressed_beta4_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 74604.23828125
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 43892.625
+    },
+    {
+      "id": "SENS_free_compressed_beta4_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 58339.41015625
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 83560.984375
+    },
+    {
+      "id": "SENS_free_compressed_beta4_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 110609.6015625
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 63445.42578125
+    },
+    {
+      "id": "SENS_free_compressed_beta4_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 83579.49609375
+    },
+    {
+      "id": "PUB_WebSearch1_rho_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 48756.09375
+    },
+    {
+      "id": "SENS_free_compressed_beta4_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 74409.1015625
+    },
+    {
+      "id": "PUB_WebSearch1_rho_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 44315.755859375
+    },
+    {
+      "id": "SENS_free_compressed_beta4_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 58130.943359375
+    },
+    {
+      "id": "PUB_WebSearch1_rho_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 58462.40234375
+    },
+    {
+      "id": "SENS_free_compressed_beta4_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 110391.390625
+    },
+    {
+      "id": "PUB_WebSearch1_rho_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 51256.75
+    },
+    {
+      "id": "SENS_free_compressed_beta4_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 83360.23828125
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 56614.8046875
+    },
+    {
+      "id": "SENS_free_compressed_beta4_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 75170.9375
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 44138.5625
+    },
+    {
+      "id": "SENS_free_compressed_beta4_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 58729.974609375
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 83943.8046875
+    },
+    {
+      "id": "SENS_free_compressed_beta4_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 111555.71875
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 63773.30078125
+    },
+    {
+      "id": "SENS_free_compressed_beta4_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 84176.90625
+    },
+    {
+      "id": "PUB_WebSearch1_rho_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 48766.4765625
+    },
+    {
+      "id": "SENS_free_compressed_beta4_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 75385.80078125
+    },
+    {
+      "id": "PUB_WebSearch1_rho_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 44318.8515625
+    },
+    {
+      "id": "SENS_free_compressed_beta4_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 58941.4609375
+    },
+    {
+      "id": "PUB_WebSearch1_rho_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 58433.1171875
+    },
+    {
+      "id": "SENS_free_compressed_beta4_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 111804.546875
+    },
+    {
+      "id": "PUB_WebSearch1_rho_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 51277.99609375
+    },
+    {
+      "id": "SENS_free_compressed_beta4_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 84500.8046875
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 56773.828125
+    },
+    {
+      "id": "SENS_free_compressed_beta4_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 73768.4765625
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 44271.814453125
+    },
+    {
+      "id": "SENS_free_compressed_beta4_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 57705.19921875
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 84235.734375
+    },
+    {
+      "id": "SENS_free_compressed_beta4_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 109459.22265625
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 64002.3046875
+    },
+    {
+      "id": "SENS_free_compressed_beta4_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 82755.0703125
+    },
+    {
+      "id": "PUB_WebSearch1_rho_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 48766.4765625
+    },
+    {
+      "id": "SENS_free_raw_B4096_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 366897.88671875
+    },
+    {
+      "id": "PUB_WebSearch1_rho_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 44322.583984375
+    },
+    {
+      "id": "SENS_free_raw_B4096_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 278502.65234375
+    },
+    {
+      "id": "PUB_WebSearch1_rho_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 58415.66015625
+    },
+    {
+      "id": "SENS_free_raw_B4096_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 318965.875
+    },
+    {
+      "id": "PUB_WebSearch1_rho_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 51275.8046875
+    },
+    {
+      "id": "SENS_free_raw_B4096_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 248282.3828125
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 56327.4609375
+    },
+    {
+      "id": "SENS_free_raw_B4096_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 366897.88671875
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 43892.09765625
+    },
+    {
+      "id": "SENS_free_raw_B4096_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 278992.365234375
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 83574.13671875
+    },
+    {
+      "id": "SENS_free_raw_B4096_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 318783.234375
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 63419.296875
+    },
+    {
+      "id": "SENS_free_raw_B4096_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 248357.98828125
+    },
+    {
+      "id": "PUB_WebSearch1_rho_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 48766.4765625
+    },
+    {
+      "id": "SENS_free_raw_B4096_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 366897.88671875
+    },
+    {
+      "id": "PUB_WebSearch1_rho_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 44321.33984375
+    },
+    {
+      "id": "SENS_free_raw_B4096_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 277910.05859375
+    },
+    {
+      "id": "PUB_WebSearch1_rho_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 58436.125
+    },
+    {
+      "id": "SENS_free_raw_B4096_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 318758.8359375
+    },
+    {
+      "id": "PUB_WebSearch1_rho_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 51262.76171875
+    },
+    {
+      "id": "SENS_free_raw_B4096_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 248115.953125
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 56324.0625
+    },
+    {
+      "id": "SENS_free_raw_B4096_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 366897.88671875
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 43904.517578125
+    },
+    {
+      "id": "SENS_free_raw_B4096_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 278535.57421875
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 83438.34375
+    },
+    {
+      "id": "SENS_free_raw_B4096_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 319616.9609375
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 63435.01171875
+    },
+    {
+      "id": "SENS_free_raw_B4096_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 248794.71875
+    },
+    {
+      "id": "PUB_WebSearch1_rho_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 48766.4765625
+    },
+    {
+      "id": "SENS_free_raw_B4096_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 366897.88671875
+    },
+    {
+      "id": "PUB_WebSearch1_rho_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 44337.3359375
+    },
+    {
+      "id": "SENS_free_raw_B4096_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 278745.451171875
+    },
+    {
+      "id": "PUB_WebSearch1_rho_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 58425.4375
+    },
+    {
+      "id": "SENS_free_raw_B4096_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 317686.98828125
+    },
+    {
+      "id": "PUB_WebSearch1_rho_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 51272.6171875
+    },
+    {
+      "id": "SENS_free_raw_B4096_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 248190.984375
+    },
+    {
+      "id": "SENS_free_compressed_B4096_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 366897.88671875
+    },
+    {
+      "id": "SENS_free_compressed_B4096_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 278412.1171875
+    },
+    {
+      "id": "SENS_free_compressed_B4096_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 317687.95703125
+    },
+    {
+      "id": "SENS_free_compressed_B4096_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 247778.46875
+    },
+    {
+      "id": "SENS_free_compressed_B4096_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 366897.88671875
+    },
+    {
+      "id": "SENS_free_compressed_B4096_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 278716.64453125
+    },
+    {
+      "id": "SENS_free_compressed_B4096_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 318634.92578125
+    },
+    {
+      "id": "SENS_free_compressed_B4096_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 248320.93359375
+    },
+    {
+      "id": "SENS_free_compressed_B4096_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 366897.88671875
+    },
+    {
+      "id": "SENS_free_compressed_B4096_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 278897.71484375
+    },
+    {
+      "id": "SENS_free_compressed_B4096_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 319268.12890625
+    },
+    {
+      "id": "SENS_free_compressed_B4096_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 248901.02734375
+    },
+    {
+      "id": "SENS_free_compressed_B4096_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 366897.88671875
+    },
+    {
+      "id": "SENS_free_compressed_B4096_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 279128.16796875
+    },
+    {
+      "id": "SENS_free_compressed_B4096_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 319165.9765625
+    },
+    {
+      "id": "SENS_free_compressed_B4096_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 248983.59765625
+    },
+    {
+      "id": "SENS_free_compressed_B4096_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 366897.88671875
+    },
+    {
+      "id": "SENS_free_compressed_B4096_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 278387.42578125
+    },
+    {
+      "id": "SENS_free_compressed_B4096_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 319074.0234375
+    },
+    {
+      "id": "SENS_free_compressed_B4096_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 248340.14453125
+    },
+    {
+      "id": "SENS_rho_llc8_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 14495.38671875
+    },
+    {
+      "id": "SENS_rho_llc8_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 13287.1484375
+    },
+    {
+      "id": "SENS_rho_llc8_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 17109.50390625
+    },
+    {
+      "id": "SENS_rho_llc8_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 15116.85546875
+    },
+    {
+      "id": "SENS_rho_llc8_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 14644.34765625
+    },
+    {
+      "id": "SENS_rho_llc8_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 13423.134765625
+    },
+    {
+      "id": "SENS_rho_llc8_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 17299.19921875
+    },
+    {
+      "id": "SENS_rho_llc8_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 15283.35546875
+    },
+    {
+      "id": "SENS_rho_llc8_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 14485.453125
+    },
+    {
+      "id": "SENS_rho_llc8_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 13281.658203125
+    },
+    {
+      "id": "SENS_rho_llc8_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 17116.62109375
+    },
+    {
+      "id": "SENS_rho_llc8_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 15128.35546875
+    },
+    {
+      "id": "SENS_rho_llc8_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 14711.87890625
+    },
+    {
+      "id": "SENS_rho_llc8_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 13487.64453125
+    },
+    {
+      "id": "SENS_rho_llc8_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 17381.4765625
+    },
+    {
+      "id": "SENS_rho_llc8_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 15354.82421875
+    },
+    {
+      "id": "SENS_rho_llc8_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 14519.21875
+    },
+    {
+      "id": "SENS_rho_llc8_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 13313.11328125
+    },
+    {
+      "id": "SENS_rho_llc8_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 17157.20703125
+    },
+    {
+      "id": "SENS_rho_llc8_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 15156.1171875
+    },
+    {
+      "id": "SENS_rho_llc128_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 4312.06640625
+    },
+    {
+      "id": "SENS_rho_llc128_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 3958.375
+    },
+    {
+      "id": "SENS_rho_llc128_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 5099.4453125
+    },
+    {
+      "id": "SENS_rho_llc128_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 4510.03125
+    },
+    {
+      "id": "SENS_rho_llc128_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 4659.65625
+    },
+    {
+      "id": "SENS_rho_llc128_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 4272.55078125
+    },
+    {
+      "id": "SENS_rho_llc128_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 5501.48828125
+    },
+    {
+      "id": "SENS_rho_llc128_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 4859.703125
+    },
+    {
+      "id": "SENS_rho_llc128_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 4524.59375
+    },
+    {
+      "id": "SENS_rho_llc128_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 4154.1953125
+    },
+    {
+      "id": "SENS_rho_llc128_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 5359.85546875
+    },
+    {
+      "id": "SENS_rho_llc128_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 4736.26171875
+    },
+    {
+      "id": "SENS_rho_llc128_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 4480.89453125
+    },
+    {
+      "id": "SENS_rho_llc128_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 4109.962890625
+    },
+    {
+      "id": "SENS_rho_llc128_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 5292.828125
+    },
+    {
+      "id": "SENS_rho_llc128_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 4685.18359375
+    },
+    {
+      "id": "SENS_rho_llc128_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 4466.99609375
+    },
+    {
+      "id": "SENS_rho_llc128_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 4096.064453125
+    },
+    {
+      "id": "SENS_rho_llc128_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 5269.375
+    },
+    {
+      "id": "SENS_rho_llc128_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 4657.5
+    },
+    {
+      "id": "SENS_rho_rho32_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 30106.5625
+    },
+    {
+      "id": "SENS_rho_rho32_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 27294.44921875
+    },
+    {
+      "id": "SENS_rho_rho32_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 36294.72265625
+    },
+    {
+      "id": "SENS_rho_rho32_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 31633.32421875
+    },
+    {
+      "id": "SENS_rho_rho32_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 30123.921875
+    },
+    {
+      "id": "SENS_rho_rho32_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 27319.451171875
+    },
+    {
+      "id": "SENS_rho_rho32_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 36288.18359375
+    },
+    {
+      "id": "SENS_rho_rho32_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 31657.69140625
+    },
+    {
+      "id": "SENS_rho_rho32_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 30303.9453125
+    },
+    {
+      "id": "SENS_rho_rho32_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 27477.080078125
+    },
+    {
+      "id": "SENS_rho_rho32_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 36525.7890625
+    },
+    {
+      "id": "SENS_rho_rho32_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 31843.94140625
+    },
+    {
+      "id": "SENS_rho_rho32_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 30492.6484375
+    },
+    {
+      "id": "SENS_rho_rho32_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 27638.056640625
+    },
+    {
+      "id": "SENS_rho_rho32_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 36761.140625
+    },
+    {
+      "id": "SENS_rho_rho32_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 32034.31640625
+    },
+    {
+      "id": "SENS_rho_rho32_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 29952.578125
+    },
+    {
+      "id": "SENS_rho_rho32_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 27146.15234375
+    },
+    {
+      "id": "SENS_rho_rho32_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 36099.8125
+    },
+    {
+      "id": "SENS_rho_rho32_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 31453.5546875
+    },
+    {
+      "id": "SENS_rho_rho512_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 24505.35546875
+    },
+    {
+      "id": "SENS_rho_rho512_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 22688.021484375
+    },
+    {
+      "id": "SENS_rho_rho512_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 28532.875
+    },
+    {
+      "id": "SENS_rho_rho512_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 25497.77734375
+    },
+    {
+      "id": "SENS_rho_rho512_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 23754.80859375
+    },
+    {
+      "id": "SENS_rho_rho512_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 21993.994140625
+    },
+    {
+      "id": "SENS_rho_rho512_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 27642.98828125
+    },
+    {
+      "id": "SENS_rho_rho512_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 24716.9296875
+    },
+    {
+      "id": "SENS_rho_rho512_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 24644.27734375
+    },
+    {
+      "id": "SENS_rho_rho512_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 22799.927734375
+    },
+    {
+      "id": "SENS_rho_rho512_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 28687.8359375
+    },
+    {
+      "id": "SENS_rho_rho512_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 25627.1328125
+    },
+    {
+      "id": "SENS_rho_rho512_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 24692.9921875
+    },
+    {
+      "id": "SENS_rho_rho512_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 22847.220703125
+    },
+    {
+      "id": "SENS_rho_rho512_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 28759.94140625
+    },
+    {
+      "id": "SENS_rho_rho512_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 25691.34765625
+    },
+    {
+      "id": "SENS_rho_rho512_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 23807.48828125
+    },
+    {
+      "id": "SENS_rho_rho512_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 22019.8359375
+    },
+    {
+      "id": "SENS_rho_rho512_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 27703.54296875
+    },
+    {
+      "id": "SENS_rho_rho512_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 24750.83984375
+    },
+    {
+      "id": "SENS_rho_ratio1_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 26839.28515625
+    },
+    {
+      "id": "SENS_rho_ratio1_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 23033.814453125
+    },
+    {
+      "id": "SENS_rho_ratio1_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 35208.1171875
+    },
+    {
+      "id": "SENS_rho_ratio1_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 28904.01171875
+    },
+    {
+      "id": "SENS_rho_ratio1_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 26814.2109375
+    },
+    {
+      "id": "SENS_rho_ratio1_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 23029.712890625
+    },
+    {
+      "id": "SENS_rho_ratio1_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 35188.30859375
+    },
+    {
+      "id": "SENS_rho_ratio1_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 28917.48828125
+    },
+    {
+      "id": "SENS_rho_ratio1_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 26770.65234375
+    },
+    {
+      "id": "SENS_rho_ratio1_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 23006.23828125
+    },
+    {
+      "id": "SENS_rho_ratio1_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 35148.17578125
+    },
+    {
+      "id": "SENS_rho_ratio1_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 28851.1640625
+    },
+    {
+      "id": "SENS_rho_ratio1_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 26864.359375
+    },
+    {
+      "id": "SENS_rho_ratio1_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 23071.330078125
+    },
+    {
+      "id": "SENS_rho_ratio1_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 35229.5234375
+    },
+    {
+      "id": "SENS_rho_ratio1_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 28948.54296875
+    },
+    {
+      "id": "SENS_rho_ratio1_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 26804.96875
+    },
+    {
+      "id": "SENS_rho_ratio1_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 23016.205078125
+    },
+    {
+      "id": "SENS_rho_ratio1_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 35171.53515625
+    },
+    {
+      "id": "SENS_rho_ratio1_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 28895.42578125
+    },
+    {
+      "id": "SENS_rho_ratio5_deferred_seed101",
+      "status": "passed",
+      "bytes_per_request": 62741.5234375
+    },
+    {
+      "id": "SENS_rho_ratio5_sde_seed101",
+      "status": "passed",
+      "bytes_per_request": 59064.376953125
+    },
+    {
+      "id": "SENS_rho_ratio5_ring_seed101",
+      "status": "passed",
+      "bytes_per_request": 70852.41796875
+    },
+    {
+      "id": "SENS_rho_ratio5_r0_seed101",
+      "status": "passed",
+      "bytes_per_request": 64749.64453125
+    },
+    {
+      "id": "SENS_rho_ratio5_deferred_seed102",
+      "status": "passed",
+      "bytes_per_request": 62612.91015625
+    },
+    {
+      "id": "SENS_rho_ratio5_sde_seed102",
+      "status": "passed",
+      "bytes_per_request": 58925.98828125
+    },
+    {
+      "id": "SENS_rho_ratio5_ring_seed102",
+      "status": "passed",
+      "bytes_per_request": 70710.8125
+    },
+    {
+      "id": "SENS_rho_ratio5_r0_seed102",
+      "status": "passed",
+      "bytes_per_request": 64597.44921875
+    },
+    {
+      "id": "SENS_rho_ratio5_deferred_seed103",
+      "status": "passed",
+      "bytes_per_request": 62608.9453125
+    },
+    {
+      "id": "SENS_rho_ratio5_sde_seed103",
+      "status": "passed",
+      "bytes_per_request": 58925.044921875
+    },
+    {
+      "id": "SENS_rho_ratio5_ring_seed103",
+      "status": "passed",
+      "bytes_per_request": 70715.8828125
+    },
+    {
+      "id": "SENS_rho_ratio5_r0_seed103",
+      "status": "passed",
+      "bytes_per_request": 64606.421875
+    },
+    {
+      "id": "SENS_rho_ratio5_deferred_seed104",
+      "status": "passed",
+      "bytes_per_request": 62502.8515625
+    },
+    {
+      "id": "SENS_rho_ratio5_sde_seed104",
+      "status": "passed",
+      "bytes_per_request": 58852.009765625
+    },
+    {
+      "id": "SENS_rho_ratio5_ring_seed104",
+      "status": "passed",
+      "bytes_per_request": 70599.04296875
+    },
+    {
+      "id": "SENS_rho_ratio5_r0_seed104",
+      "status": "passed",
+      "bytes_per_request": 64505.6484375
+    },
+    {
+      "id": "SENS_rho_ratio5_deferred_seed105",
+      "status": "passed",
+      "bytes_per_request": 62498.88671875
+    },
+    {
+      "id": "SENS_rho_ratio5_sde_seed105",
+      "status": "passed",
+      "bytes_per_request": 58845.201171875
+    },
+    {
+      "id": "SENS_rho_ratio5_ring_seed105",
+      "status": "passed",
+      "bytes_per_request": 70590.78515625
+    },
+    {
+      "id": "SENS_rho_ratio5_r0_seed105",
+      "status": "passed",
+      "bytes_per_request": 64508.484375
+    }
+  ],
+  "queue_sha256": "b005fe3fdba39a2725e540e6fcb43d4a5f701a7b4f6e48e87237c781b2fa1c6e"
+}

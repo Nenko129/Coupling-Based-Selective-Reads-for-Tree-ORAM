@@ -1,0 +1,5 @@
+{
+  "source_sha256": "34d593fa1dee61f412fce3a11269d1e05e0e5f2c893107a436d5d53c73be4ff7",
+  "fixed_sha256": "6adc12ca99d32a2628f14a1fdac557eda95161fc2851ee11019d4f2b7526bb18",
+  "change": "Path duplicate admission must use the pool after removal, not stale self.stash; existing Path pool duplicate guard retained"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "source_sha256": "0fd54075dc6accd334674fd0de61282c415040aa59a6ac56c42a75784a8a443d",
+  "export_sha256": "790e12e25763e581d8be4384a6d2e0aebf844ddcff1f7660a0bf882f9adf98f1",
+  "data_sha256": "f4fff9d5bd646685e369f6d8a6f20d95eadb0fa26c3c56bb27e470bbf64141e9",
+  "checker_sha256": "63088c2c1fd31389bbf59a875ccdc2f19fdb8cb2ebe522ed6f7ff3c47e1d541a",
+  "statistics_checker_sha256": "fea8a2496bab1b6dd0794f1d2f07b537e87215ea2f6ee7efbca1ed6ed5447599",
+  "raw_runs_checked": 160,
+  "series_recomputed": 32,
+  "pages": 1,
+  "pdf_sha256": "a1cd73f8471a9e11d61ca64f2abd7286123d3aaac09767ae12346a3fabc4a828",
+  "vector": true,
+  "embedded_fonts": true,
+  "visual_review": "separate final rendering inspection"
+}

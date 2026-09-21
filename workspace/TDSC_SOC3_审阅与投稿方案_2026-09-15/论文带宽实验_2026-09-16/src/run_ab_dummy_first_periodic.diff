@@ -1,0 +1,40 @@
+--- run_ab_paced_periodic.py
++++ run_ab_dummy_first_periodic.py
+@@ -2,7 +2,7 @@
+ from common import *
+ import argparse,dataclasses,time,traceback
+ from collections import Counter
+-import ab_cb_runtime as rt
++import ab_dummy_first_runtime as rt
+ import ab_paced_frontend as bootstrap
+ from ab_paced_frontend import PacedGeometryStepwiseFront as GeometryStepwiseFront
+ from ab_cb_controller import PressureController
+@@ -15,7 +15,7 @@
+ 
+ 
+ def run(s):
+-    started=time.time();source=identity();proofpath=PACKAGE/'results/ab_cb_frontend_checks.json'
++    started=time.time();source=identity();proofpath=PACKAGE/'results/ab_dummy_first_frontend_checks.json'
+     proof=json.loads(proofpath.read_text());assert proof['status']=='passed' and proof['source_hashes']==rt.identity()
+     rt.install(dict(seed=s['oram_seed'],R=s['R'],cached_levels=s['cached_levels'],Y=s['Y'],bottom_dummy=s['bottom_dummy']))
+     bootstrap.Backend=rt.Backend
+@@ -59,7 +59,7 @@
+         assert (init_t+start)%period==0 and (init_t+c.clock)%period==0
+         offset+=len(part);progress(s,phase,completed=W,total=W)
+     assert source==identity()
+-    m=phases['measurement'];row=dict(status='passed',spec=s,source_hashes=source,frontend_proof_sha256=sha(proofpath),trace=trace,
++    m=phases['measurement'];row=dict(status='passed',cb_selection_policy='dummy_first_v1',spec=s,source_hashes=source,frontend_proof_sha256=sha(proofpath),trace=trace,
+         configs=[dataclasses.asdict(b.c)],population_including_maps=f.total,leaf_load=f.total/(1<<b.c.L),
+         setup=setup,setup_peak_boundary_stash=setup_peak,alignment=alignment,initialization=initialization,
+         periodic_extension=dict(period_slots=period,warmup_complete_periods=1,measurement_complete_periods=4,no_steady_state_claim=True),
+@@ -70,8 +70,8 @@
+         final_clock=dict(t=b.tree.t,g=b.tree.g,uid=b.tree.uid),max_boundary_stash=b.tree.max_boundary,
+         answer_sha256=answers.hexdigest(),correctness_checked_requests=len(seq),elapsed_seconds=time.time()-started,
+         measurement='one aligned period warmup, four periods measurement; same offered application requests and fixed public slots; dirty LLC remains resident',
+-        scope='authenticated CB + static bottom dummy allocation + prefix cache + raw recursive map + inclusive LLC; pressure slots use ordinary CB dummy reads',
+-        background_policy='ordinary CB dummy Transfer, which can promote green records; not the native strict-dummy wording',
++        scope='authenticated CB + static bottom dummy allocation + prefix cache + raw recursive map + inclusive LLC; all Transfer slots prefer unused dummies before green',
++        background_policy='dummy-first CB Transfer; green fallback remains possible when no unused dummy exists; not strict-dummy-only',
+         native_full_paper_reproduction=False,deadq_implemented=False,capacity_certificate=False,adaptive_security_proof=False,
+         latency_claim=False,true_client_peak_measured=False)
+     save(PACKAGE/'results'/s['experiment_class']/f"{s['id']}.json",row);progress(s,'passed',elapsed_seconds=row['elapsed_seconds'])

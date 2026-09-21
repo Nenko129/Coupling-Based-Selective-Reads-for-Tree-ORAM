@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "source_sha256": "463a63eb55d99c7bb3aac7d69740ac642590c4214496c5c817a11bfe6c12ad60",
+  "checker_sha256": "dd0c1ef4f74403c2b7ebe5aad3f10ad2ac9bd8b0767566c9905f15ac7829547a",
+  "validated_configurations": 5,
+  "independent_exp_degree": 128,
+  "damaged_ledger_checks": [
+    {
+      "case": "remove_phase_reserve",
+      "rejected": true
+    },
+    {
+      "case": "omit_initialization",
+      "rejected": true
+    },
+    {
+      "case": "omit_recursive_layer",
+      "rejected": true
+    },
+    {
+      "case": "claim_Z4_admitted",
+      "rejected": true
+    },
+    {
+      "case": "change_supplemental_R",
+      "rejected": true
+    },
+    {
+      "case": "shrink_lifetime_bound",
+      "rejected": true
+    }
+  ],
+  "full_security_admission": false
+}

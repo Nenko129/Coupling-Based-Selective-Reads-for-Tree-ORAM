@@ -1,0 +1,43 @@
+{
+  "status": "evidence_consistent",
+  "executions": 4224,
+  "input_hashes": {
+    "ir_initialization_alignment_model.json": "e23df904c66b051969d97b276ee9112a4e58d43c43c5abc49f5d8f20b982d033",
+    "ir_initialization_alignment_crosscheck.json": "36f1af2316902d8aff3b60c8e8ff3dfe1dc01972ff1c28b929b4134a27e92965",
+    "ir_z4_skip_projection.json": "2daa39cf7a86ad615df4d3ad6ac597b79a740144c4df2e99a26093424a072f0d"
+  },
+  "checker_sha256": "b998f261c786fcb3d0f918d26ef414e0c27ddf4bd1939f63256e54f275ce7138",
+  "document_sha256": "07274e70b97f16439fb28772ab1e2da4bf1423412270f5ead811f00b08adf98d",
+  "coarse_z4_witness": [
+    {
+      "queries": [
+        0,
+        0
+      ],
+      "pmf": {
+        "00": "3/8",
+        "01": "1/4",
+        "10": "1/16",
+        "11": "5/16"
+      }
+    },
+    {
+      "queries": [
+        0,
+        1
+      ],
+      "pmf": {
+        "00": "15/32",
+        "01": "5/32",
+        "10": "5/32",
+        "11": "7/32"
+      }
+    }
+  ],
+  "z4_second_region1_probabilities": [
+    "9/16",
+    "3/8"
+  ],
+  "security_admission": false,
+  "native_paper_attack_claim": false
+}

@@ -1,0 +1,35 @@
+{
+  "inputs": {
+    "results\\fair_tuning_candidates.json": "15e9401ae44bcfdf46e14a79d5ccef98180463192a543619c2751582772c2333",
+    "results\\paired_statistics.json": "4c2ae0aa15b6c5bfbc7bd7bc01fbfad238143de2bf874812cf62d96377c6f861"
+  },
+  "outputs": [
+    {
+      "path": "figures\\finite_tuning_model.pdf",
+      "sha256": "d2174fd35e1d2e5adb7cc7662ed5a8d4afa767747911bb7a535ea5728d3ee222"
+    },
+    {
+      "path": "figures\\finite_tuning_model.svg",
+      "sha256": "bf0aef8d8eb7d3e3873eb525506301887177586a572d397871e8a155776955be"
+    },
+    {
+      "path": "figures\\finite_tuning_model.png",
+      "sha256": "7956d2ba550f745f417b0e54a579769ef3971b380114e4547d4a40877374dab2"
+    },
+    {
+      "path": "figures\\composition_paired_progress.pdf",
+      "sha256": "62b2e6fc3b50d85523303d27edc2fce4eb9e5dfc68b909e5396b48009728a7c3"
+    },
+    {
+      "path": "figures\\composition_paired_progress.svg",
+      "sha256": "0bd56597a367e37b7488d18c5f199f7e05dbf27bb53ce38150c3fed238c1ec61"
+    },
+    {
+      "path": "figures\\composition_paired_progress.png",
+      "sha256": "884043cb83f223b241d6867f181e6f228b496366adb91b1babf8a507bf49e5ca"
+    }
+  ],
+  "matplotlib_version": "3.11.2",
+  "generator_sha256": "85785b9751de4b454bab9c0913740d98072c1d3e2d3f72fb84dc8bb70c031c82",
+  "final_chapter_complete": false
+}

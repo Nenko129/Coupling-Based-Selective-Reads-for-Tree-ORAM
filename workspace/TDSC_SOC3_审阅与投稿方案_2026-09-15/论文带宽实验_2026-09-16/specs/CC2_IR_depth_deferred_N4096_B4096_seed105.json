@@ -1,0 +1,40 @@
+{
+  "id": "CC2_IR_depth_deferred_N4096_B4096_seed105",
+  "family": "IR",
+  "layout": "depth",
+  "kind": "deferred",
+  "N": 4096,
+  "B": 4096,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "compact": true,
+  "fusion": true,
+  "R": 480,
+  "map_B": 512,
+  "terminal_bytes": 32768,
+  "warmup": 2048,
+  "requests": 4096,
+  "cached_levels": 6,
+  "workload": "uniform",
+  "trace_seed": 105,
+  "oram_seed": 1005,
+  "experiment_class": "formal_cached_admitted",
+  "Z_by_depth": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4
+  ]
+}

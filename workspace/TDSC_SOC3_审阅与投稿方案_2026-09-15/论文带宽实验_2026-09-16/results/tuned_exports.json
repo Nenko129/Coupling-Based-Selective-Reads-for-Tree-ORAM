@@ -1,0 +1,33 @@
+{
+  "status": "generated",
+  "source_sha256": "95cce6875213b6ac718b6816a57f4d7fb470de5ff286270c09edaa79b65890ea",
+  "generator_sha256": "8d57f7b8a374949543fbf9d52f00891e623d64d3ce7530f2f21661c134be52f7",
+  "data_sha256": "0087713d4937163b0506e9e19f9094d398683cc59f93291001d9e3d7991b5e36",
+  "outputs": [
+    {
+      "path": "output\\pdf\\completed_tuned_bandwidth.pdf",
+      "sha256": "83ae3e3e3f7f55c072a5146bd076367cdf79fa912c94ed37470970797dfdb10b"
+    },
+    {
+      "path": "figures\\completed_tuned_bandwidth.svg",
+      "sha256": "327cc2f0e5690c1f725df7e0c39294de9cea095c2abd7dd1eee5cae64f49a01b"
+    },
+    {
+      "path": "figures\\completed_tuned_bandwidth.png",
+      "sha256": "35672a142a4b5b6006640f279c87712d615fe5ef7446b3e756b802835b98ac78"
+    },
+    {
+      "path": "tables\\tuned_50_runs.csv",
+      "sha256": "9f97c668856edd3fa37c958030736c9663466ca134cf6c98437d088c34bb02cd"
+    },
+    {
+      "path": "tables\\tuned_6_comparisons.csv",
+      "sha256": "94cb08435597a7e6b16d24833fd8bbc1c204c2d99833ea7dc2b5a7dc7331c279"
+    },
+    {
+      "path": "47_调优主比较完整图表.md",
+      "sha256": "b932deea5047eefe66106f2b4f5e7c536405d9f9cf18d956f942327ceddf5b22"
+    }
+  ],
+  "visual_review_pending": true
+}

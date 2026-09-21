@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "id": "C1_path5_uniform_seed101",
+      "status": "passed",
+      "bytes_per_request": 657456.0
+    },
+    {
+      "id": "C1_path5_hot90_seed101",
+      "status": "passed",
+      "bytes_per_request": 657456.0
+    },
+    {
+      "id": "C1_path5_uniform_seed102",
+      "status": "passed",
+      "bytes_per_request": 657456.0
+    },
+    {
+      "id": "C1_path5_hot90_seed102",
+      "status": "passed",
+      "bytes_per_request": 657456.0
+    },
+    {
+      "id": "C1_path5_uniform_seed103",
+      "status": "passed",
+      "bytes_per_request": 657456.0
+    },
+    {
+      "id": "C1_path5_hot90_seed103",
+      "status": "passed",
+      "bytes_per_request": 657456.0
+    },
+    {
+      "id": "C1_path5_uniform_seed104",
+      "status": "passed",
+      "bytes_per_request": 657456.0
+    },
+    {
+      "id": "C1_path5_hot90_seed104",
+      "status": "passed",
+      "bytes_per_request": 657456.0
+    },
+    {
+      "id": "C1_path5_uniform_seed105",
+      "status": "passed",
+      "bytes_per_request": 657456.0
+    },
+    {
+      "id": "C1_path5_hot90_seed105",
+      "status": "passed",
+      "bytes_per_request": 657456.0
+    }
+  ],
+  "queue_sha256": "43f02dbe0000b848571fbaf975f48aa146ea966f813cf8fbfa77de5bbd7a9eb9"
+}

@@ -1,0 +1,27 @@
+{
+  "pid": 50560,
+  "started": 1789497722.2238102,
+  "spec": {
+    "id": "pilot_sde_N256_B4096",
+    "kind": "sde",
+    "N": 256,
+    "B": 4096,
+    "profile": [
+      4,
+      3,
+      3
+    ],
+    "map_B": 512,
+    "terminal_bytes": 32768,
+    "compact": true,
+    "fusion": true,
+    "R": 256,
+    "warmup": 64,
+    "requests": 128,
+    "trace_seed": 901,
+    "oram_seed": 1901,
+    "workload": "uniform",
+    "experiment_class": "pilot"
+  },
+  "log": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\results\\logs\\pilot_sde_N256_B4096.log"
+}

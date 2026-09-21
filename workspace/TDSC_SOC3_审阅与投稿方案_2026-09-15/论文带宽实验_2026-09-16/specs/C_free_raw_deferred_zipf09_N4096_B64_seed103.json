@@ -1,0 +1,22 @@
+{
+  "id": "C_free_raw_deferred_zipf09_N4096_B64_seed103",
+  "family": "free_raw",
+  "kind": "deferred",
+  "N": 4096,
+  "B": 64,
+  "profile": [
+    4,
+    3,
+    4
+  ],
+  "plb": 8,
+  "llc": 32,
+  "rho": 128,
+  "R": 256,
+  "warmup": 2048,
+  "requests": 4096,
+  "trace_seed": 103,
+  "oram_seed": 1003,
+  "workload": "zipf09",
+  "experiment_class": "formal_composition"
+}

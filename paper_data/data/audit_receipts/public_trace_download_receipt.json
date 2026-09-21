@@ -1,0 +1,31 @@
+{
+  "source_page": "https://traces.cs.umass.edu/docs/traces/storage/",
+  "license_page": "https://traces.cs.umass.edu/",
+  "attribution": "UMass Trace Repository; HP, IBM and Storage Performance Council",
+  "license": "Repository states CC BY 4.0 unless otherwise specified; preserve SPC documentation copyright notice",
+  "files": [
+    {
+      "filename": "SPC-Traces.pdf",
+      "url": "https://skulddata.cs.umass.edu/traces/storage/SPC-Traces.pdf",
+      "downloaded_utc": "2026-09-15T18:52:38Z",
+      "bytes": 127256,
+      "sha256": "442b3c6c64fec10ebcc7221b088640925f0ca3cc3f6e2c6e9f30acf7e9c9ae06"
+    },
+    {
+      "filename": "Financial1.spc.bz2",
+      "url": "https://skulddata.cs.umass.edu/traces/storage/Financial1.spc.bz2",
+      "downloaded_utc": "2026-09-15T18:52:46Z",
+      "bytes": 27315696,
+      "sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "first_record": "0,303567,3584,w,0.000000"
+    },
+    {
+      "filename": "WebSearch1.spc.bz2",
+      "url": "https://skulddata.cs.umass.edu/traces/storage/WebSearch1.spc.bz2",
+      "downloaded_utc": "2026-09-15T18:52:49Z",
+      "bytes": 7963620,
+      "sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "first_record": "0,657728,8192,R,0.011413"
+    }
+  ]
+}

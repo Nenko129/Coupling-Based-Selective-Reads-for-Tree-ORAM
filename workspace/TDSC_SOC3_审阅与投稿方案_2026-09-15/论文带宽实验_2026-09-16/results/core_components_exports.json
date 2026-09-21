@@ -1,0 +1,37 @@
+{
+  "status": "generated",
+  "source_sha256": "f1992ab2e079bdfebaa40a5652852cf1e2e053b395e3e9f6c09f43e2d36f1489",
+  "generator_sha256": "c77bd11d21012da0f7719b0dbc5c221cc7b546000b756129a043c6d051b201fd",
+  "data_sha256": "ef86d49f084326caf4b0677b261d67dbc93da7cc255c375dafa4a0f3c9f11b0a",
+  "outputs": [
+    {
+      "path": "output\\pdf\\completed_core_bandwidth.pdf",
+      "sha256": "ffbcff87844ba65610eb740308286facf0702f1aa86ef26a5035c5b89a9bb186"
+    },
+    {
+      "path": "figures\\completed_core_bandwidth.svg",
+      "sha256": "4681fedaae20e1d7a168411a30f823c25b19bb88de789e0bbf6bbbd1cef4801a"
+    },
+    {
+      "path": "figures\\completed_core_bandwidth.png",
+      "sha256": "a9cb7adaf84b0dc263a29bd38c14baa2975ca6e2045aea7fb01c680e90f36e8b"
+    },
+    {
+      "path": "output\\pdf\\completed_static_components.pdf",
+      "sha256": "bf2ad36958dc9427dd210c60930fd16b2d0b1da79fa6e736ed9df5d45ba1eda0"
+    },
+    {
+      "path": "figures\\completed_static_components.svg",
+      "sha256": "4bba2ee15f37d1c34850791e358fc481c7b87e7cedaccafe0db6a753d933a602"
+    },
+    {
+      "path": "figures\\completed_static_components.png",
+      "sha256": "b64b785117ad574d432b371cc34c8f5002beb4533a8306d4e1c421cac8287b5a"
+    },
+    {
+      "path": "37_核心及静态组件图表核验.md",
+      "sha256": "8d8a3cf36b227af0d9438a13b2bb5c987d200925c68da79408c12fcc4584c322"
+    }
+  ],
+  "visual_review_pending": true
+}

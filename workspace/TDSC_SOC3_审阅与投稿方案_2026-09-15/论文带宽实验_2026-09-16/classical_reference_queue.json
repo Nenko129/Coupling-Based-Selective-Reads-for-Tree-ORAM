@@ -1,0 +1,1411 @@
+{
+  "items": [
+    {
+      "entry": "core",
+      "spec": {
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          5,
+          3,
+          3
+        ],
+        "map_B": 256,
+        "terminal_bytes": 8192,
+        "compact": true,
+        "fusion": true,
+        "R": 258,
+        "id": "C1_path5_uniform_seed101",
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "uniform",
+        "experiment_class": "formal_classical_reference",
+        "study": "published_bound_path_reference"
+      },
+      "paired_original_path_id": "B3_path_uniform_seed101",
+      "paired_sde_id": "B3_sde_uniform_seed101",
+      "expected_periodic_cost": {
+        "components": {
+          "data_download": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "data_upload": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "headers_download": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "headers_upload": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "authentication_download": {
+            "lower": "1408",
+            "upper": "1408"
+          },
+          "authentication_upload": {
+            "lower": "3072",
+            "upper": "3072"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "657456",
+          "upper": "657456"
+        }
+      },
+      "stash_ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "path",
+              "L": 14,
+              "N": 16384,
+              "B": 4096,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": true,
+            "rule": "Path JACM Theorem 5.1 with working-set upper bound 2^L",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "17515064999520236328382413135497324192391575201874671386942207878184545151350570928566222913417810799748269858109161328875646",
+              "denominator": "2159042138773611156346587965700099892779000091109070346255925867542147950790606764492876875868072056640136823486537415899248774736707986673413250944264518693671561777591705322265625"
+            },
+            "lifetime_bound": {
+              "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+              "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+            }
+          },
+          {
+            "config": {
+              "kind": "path",
+              "L": 8,
+              "N": 256,
+              "B": 256,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16640,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944576",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": true,
+        "errors": [],
+        "lifetime_stash_upper": {
+          "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+          "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+        },
+        "log2_lifetime_upper": -130.32976837282325,
+        "ideal_stash_budget_passed": true,
+        "full_security_admission": false
+      }
+    },
+    {
+      "entry": "core",
+      "spec": {
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          5,
+          3,
+          3
+        ],
+        "map_B": 256,
+        "terminal_bytes": 8192,
+        "compact": true,
+        "fusion": true,
+        "R": 258,
+        "id": "C1_path5_hot90_seed101",
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "hot90",
+        "experiment_class": "formal_classical_reference",
+        "study": "published_bound_path_reference"
+      },
+      "paired_original_path_id": "B3_path_hot90_seed101",
+      "paired_sde_id": "B3_sde_hot90_seed101",
+      "expected_periodic_cost": {
+        "components": {
+          "data_download": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "data_upload": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "headers_download": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "headers_upload": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "authentication_download": {
+            "lower": "1408",
+            "upper": "1408"
+          },
+          "authentication_upload": {
+            "lower": "3072",
+            "upper": "3072"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "657456",
+          "upper": "657456"
+        }
+      },
+      "stash_ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "path",
+              "L": 14,
+              "N": 16384,
+              "B": 4096,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": true,
+            "rule": "Path JACM Theorem 5.1 with working-set upper bound 2^L",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "17515064999520236328382413135497324192391575201874671386942207878184545151350570928566222913417810799748269858109161328875646",
+              "denominator": "2159042138773611156346587965700099892779000091109070346255925867542147950790606764492876875868072056640136823486537415899248774736707986673413250944264518693671561777591705322265625"
+            },
+            "lifetime_bound": {
+              "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+              "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+            }
+          },
+          {
+            "config": {
+              "kind": "path",
+              "L": 8,
+              "N": 256,
+              "B": 256,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16640,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944576",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": true,
+        "errors": [],
+        "lifetime_stash_upper": {
+          "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+          "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+        },
+        "log2_lifetime_upper": -130.32976837282325,
+        "ideal_stash_budget_passed": true,
+        "full_security_admission": false
+      }
+    },
+    {
+      "entry": "core",
+      "spec": {
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          5,
+          3,
+          3
+        ],
+        "map_B": 256,
+        "terminal_bytes": 8192,
+        "compact": true,
+        "fusion": true,
+        "R": 258,
+        "id": "C1_path5_uniform_seed102",
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "uniform",
+        "experiment_class": "formal_classical_reference",
+        "study": "published_bound_path_reference"
+      },
+      "paired_original_path_id": "B3_path_uniform_seed102",
+      "paired_sde_id": "B3_sde_uniform_seed102",
+      "expected_periodic_cost": {
+        "components": {
+          "data_download": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "data_upload": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "headers_download": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "headers_upload": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "authentication_download": {
+            "lower": "1408",
+            "upper": "1408"
+          },
+          "authentication_upload": {
+            "lower": "3072",
+            "upper": "3072"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "657456",
+          "upper": "657456"
+        }
+      },
+      "stash_ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "path",
+              "L": 14,
+              "N": 16384,
+              "B": 4096,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": true,
+            "rule": "Path JACM Theorem 5.1 with working-set upper bound 2^L",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "17515064999520236328382413135497324192391575201874671386942207878184545151350570928566222913417810799748269858109161328875646",
+              "denominator": "2159042138773611156346587965700099892779000091109070346255925867542147950790606764492876875868072056640136823486537415899248774736707986673413250944264518693671561777591705322265625"
+            },
+            "lifetime_bound": {
+              "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+              "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+            }
+          },
+          {
+            "config": {
+              "kind": "path",
+              "L": 8,
+              "N": 256,
+              "B": 256,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16640,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944576",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": true,
+        "errors": [],
+        "lifetime_stash_upper": {
+          "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+          "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+        },
+        "log2_lifetime_upper": -130.32976837282325,
+        "ideal_stash_budget_passed": true,
+        "full_security_admission": false
+      }
+    },
+    {
+      "entry": "core",
+      "spec": {
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          5,
+          3,
+          3
+        ],
+        "map_B": 256,
+        "terminal_bytes": 8192,
+        "compact": true,
+        "fusion": true,
+        "R": 258,
+        "id": "C1_path5_hot90_seed102",
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "hot90",
+        "experiment_class": "formal_classical_reference",
+        "study": "published_bound_path_reference"
+      },
+      "paired_original_path_id": "B3_path_hot90_seed102",
+      "paired_sde_id": "B3_sde_hot90_seed102",
+      "expected_periodic_cost": {
+        "components": {
+          "data_download": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "data_upload": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "headers_download": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "headers_upload": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "authentication_download": {
+            "lower": "1408",
+            "upper": "1408"
+          },
+          "authentication_upload": {
+            "lower": "3072",
+            "upper": "3072"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "657456",
+          "upper": "657456"
+        }
+      },
+      "stash_ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "path",
+              "L": 14,
+              "N": 16384,
+              "B": 4096,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": true,
+            "rule": "Path JACM Theorem 5.1 with working-set upper bound 2^L",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "17515064999520236328382413135497324192391575201874671386942207878184545151350570928566222913417810799748269858109161328875646",
+              "denominator": "2159042138773611156346587965700099892779000091109070346255925867542147950790606764492876875868072056640136823486537415899248774736707986673413250944264518693671561777591705322265625"
+            },
+            "lifetime_bound": {
+              "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+              "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+            }
+          },
+          {
+            "config": {
+              "kind": "path",
+              "L": 8,
+              "N": 256,
+              "B": 256,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16640,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944576",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": true,
+        "errors": [],
+        "lifetime_stash_upper": {
+          "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+          "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+        },
+        "log2_lifetime_upper": -130.32976837282325,
+        "ideal_stash_budget_passed": true,
+        "full_security_admission": false
+      }
+    },
+    {
+      "entry": "core",
+      "spec": {
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          5,
+          3,
+          3
+        ],
+        "map_B": 256,
+        "terminal_bytes": 8192,
+        "compact": true,
+        "fusion": true,
+        "R": 258,
+        "id": "C1_path5_uniform_seed103",
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "uniform",
+        "experiment_class": "formal_classical_reference",
+        "study": "published_bound_path_reference"
+      },
+      "paired_original_path_id": "B3_path_uniform_seed103",
+      "paired_sde_id": "B3_sde_uniform_seed103",
+      "expected_periodic_cost": {
+        "components": {
+          "data_download": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "data_upload": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "headers_download": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "headers_upload": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "authentication_download": {
+            "lower": "1408",
+            "upper": "1408"
+          },
+          "authentication_upload": {
+            "lower": "3072",
+            "upper": "3072"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "657456",
+          "upper": "657456"
+        }
+      },
+      "stash_ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "path",
+              "L": 14,
+              "N": 16384,
+              "B": 4096,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": true,
+            "rule": "Path JACM Theorem 5.1 with working-set upper bound 2^L",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "17515064999520236328382413135497324192391575201874671386942207878184545151350570928566222913417810799748269858109161328875646",
+              "denominator": "2159042138773611156346587965700099892779000091109070346255925867542147950790606764492876875868072056640136823486537415899248774736707986673413250944264518693671561777591705322265625"
+            },
+            "lifetime_bound": {
+              "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+              "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+            }
+          },
+          {
+            "config": {
+              "kind": "path",
+              "L": 8,
+              "N": 256,
+              "B": 256,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16640,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944576",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": true,
+        "errors": [],
+        "lifetime_stash_upper": {
+          "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+          "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+        },
+        "log2_lifetime_upper": -130.32976837282325,
+        "ideal_stash_budget_passed": true,
+        "full_security_admission": false
+      }
+    },
+    {
+      "entry": "core",
+      "spec": {
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          5,
+          3,
+          3
+        ],
+        "map_B": 256,
+        "terminal_bytes": 8192,
+        "compact": true,
+        "fusion": true,
+        "R": 258,
+        "id": "C1_path5_hot90_seed103",
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "hot90",
+        "experiment_class": "formal_classical_reference",
+        "study": "published_bound_path_reference"
+      },
+      "paired_original_path_id": "B3_path_hot90_seed103",
+      "paired_sde_id": "B3_sde_hot90_seed103",
+      "expected_periodic_cost": {
+        "components": {
+          "data_download": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "data_upload": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "headers_download": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "headers_upload": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "authentication_download": {
+            "lower": "1408",
+            "upper": "1408"
+          },
+          "authentication_upload": {
+            "lower": "3072",
+            "upper": "3072"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "657456",
+          "upper": "657456"
+        }
+      },
+      "stash_ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "path",
+              "L": 14,
+              "N": 16384,
+              "B": 4096,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": true,
+            "rule": "Path JACM Theorem 5.1 with working-set upper bound 2^L",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "17515064999520236328382413135497324192391575201874671386942207878184545151350570928566222913417810799748269858109161328875646",
+              "denominator": "2159042138773611156346587965700099892779000091109070346255925867542147950790606764492876875868072056640136823486537415899248774736707986673413250944264518693671561777591705322265625"
+            },
+            "lifetime_bound": {
+              "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+              "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+            }
+          },
+          {
+            "config": {
+              "kind": "path",
+              "L": 8,
+              "N": 256,
+              "B": 256,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16640,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944576",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": true,
+        "errors": [],
+        "lifetime_stash_upper": {
+          "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+          "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+        },
+        "log2_lifetime_upper": -130.32976837282325,
+        "ideal_stash_budget_passed": true,
+        "full_security_admission": false
+      }
+    },
+    {
+      "entry": "core",
+      "spec": {
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          5,
+          3,
+          3
+        ],
+        "map_B": 256,
+        "terminal_bytes": 8192,
+        "compact": true,
+        "fusion": true,
+        "R": 258,
+        "id": "C1_path5_uniform_seed104",
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "uniform",
+        "experiment_class": "formal_classical_reference",
+        "study": "published_bound_path_reference"
+      },
+      "paired_original_path_id": "B3_path_uniform_seed104",
+      "paired_sde_id": "B3_sde_uniform_seed104",
+      "expected_periodic_cost": {
+        "components": {
+          "data_download": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "data_upload": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "headers_download": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "headers_upload": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "authentication_download": {
+            "lower": "1408",
+            "upper": "1408"
+          },
+          "authentication_upload": {
+            "lower": "3072",
+            "upper": "3072"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "657456",
+          "upper": "657456"
+        }
+      },
+      "stash_ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "path",
+              "L": 14,
+              "N": 16384,
+              "B": 4096,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": true,
+            "rule": "Path JACM Theorem 5.1 with working-set upper bound 2^L",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "17515064999520236328382413135497324192391575201874671386942207878184545151350570928566222913417810799748269858109161328875646",
+              "denominator": "2159042138773611156346587965700099892779000091109070346255925867542147950790606764492876875868072056640136823486537415899248774736707986673413250944264518693671561777591705322265625"
+            },
+            "lifetime_bound": {
+              "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+              "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+            }
+          },
+          {
+            "config": {
+              "kind": "path",
+              "L": 8,
+              "N": 256,
+              "B": 256,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16640,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944576",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": true,
+        "errors": [],
+        "lifetime_stash_upper": {
+          "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+          "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+        },
+        "log2_lifetime_upper": -130.32976837282325,
+        "ideal_stash_budget_passed": true,
+        "full_security_admission": false
+      }
+    },
+    {
+      "entry": "core",
+      "spec": {
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          5,
+          3,
+          3
+        ],
+        "map_B": 256,
+        "terminal_bytes": 8192,
+        "compact": true,
+        "fusion": true,
+        "R": 258,
+        "id": "C1_path5_hot90_seed104",
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "hot90",
+        "experiment_class": "formal_classical_reference",
+        "study": "published_bound_path_reference"
+      },
+      "paired_original_path_id": "B3_path_hot90_seed104",
+      "paired_sde_id": "B3_sde_hot90_seed104",
+      "expected_periodic_cost": {
+        "components": {
+          "data_download": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "data_upload": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "headers_download": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "headers_upload": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "authentication_download": {
+            "lower": "1408",
+            "upper": "1408"
+          },
+          "authentication_upload": {
+            "lower": "3072",
+            "upper": "3072"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "657456",
+          "upper": "657456"
+        }
+      },
+      "stash_ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "path",
+              "L": 14,
+              "N": 16384,
+              "B": 4096,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": true,
+            "rule": "Path JACM Theorem 5.1 with working-set upper bound 2^L",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "17515064999520236328382413135497324192391575201874671386942207878184545151350570928566222913417810799748269858109161328875646",
+              "denominator": "2159042138773611156346587965700099892779000091109070346255925867542147950790606764492876875868072056640136823486537415899248774736707986673413250944264518693671561777591705322265625"
+            },
+            "lifetime_bound": {
+              "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+              "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+            }
+          },
+          {
+            "config": {
+              "kind": "path",
+              "L": 8,
+              "N": 256,
+              "B": 256,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16640,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944576",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": true,
+        "errors": [],
+        "lifetime_stash_upper": {
+          "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+          "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+        },
+        "log2_lifetime_upper": -130.32976837282325,
+        "ideal_stash_budget_passed": true,
+        "full_security_admission": false
+      }
+    },
+    {
+      "entry": "core",
+      "spec": {
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          5,
+          3,
+          3
+        ],
+        "map_B": 256,
+        "terminal_bytes": 8192,
+        "compact": true,
+        "fusion": true,
+        "R": 258,
+        "id": "C1_path5_uniform_seed105",
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "uniform",
+        "experiment_class": "formal_classical_reference",
+        "study": "published_bound_path_reference"
+      },
+      "paired_original_path_id": "B3_path_uniform_seed105",
+      "paired_sde_id": "B3_sde_uniform_seed105",
+      "expected_periodic_cost": {
+        "components": {
+          "data_download": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "data_upload": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "headers_download": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "headers_upload": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "authentication_download": {
+            "lower": "1408",
+            "upper": "1408"
+          },
+          "authentication_upload": {
+            "lower": "3072",
+            "upper": "3072"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "657456",
+          "upper": "657456"
+        }
+      },
+      "stash_ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "path",
+              "L": 14,
+              "N": 16384,
+              "B": 4096,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": true,
+            "rule": "Path JACM Theorem 5.1 with working-set upper bound 2^L",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "17515064999520236328382413135497324192391575201874671386942207878184545151350570928566222913417810799748269858109161328875646",
+              "denominator": "2159042138773611156346587965700099892779000091109070346255925867542147950790606764492876875868072056640136823486537415899248774736707986673413250944264518693671561777591705322265625"
+            },
+            "lifetime_bound": {
+              "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+              "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+            }
+          },
+          {
+            "config": {
+              "kind": "path",
+              "L": 8,
+              "N": 256,
+              "B": 256,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16640,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944576",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": true,
+        "errors": [],
+        "lifetime_stash_upper": {
+          "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+          "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+        },
+        "log2_lifetime_upper": -130.32976837282325,
+        "ideal_stash_budget_passed": true,
+        "full_security_admission": false
+      }
+    },
+    {
+      "entry": "core",
+      "spec": {
+        "kind": "path",
+        "N": 16384,
+        "B": 4096,
+        "profile": [
+          5,
+          3,
+          3
+        ],
+        "map_B": 256,
+        "terminal_bytes": 8192,
+        "compact": true,
+        "fusion": true,
+        "R": 258,
+        "id": "C1_path5_hot90_seed105",
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "hot90",
+        "experiment_class": "formal_classical_reference",
+        "study": "published_bound_path_reference"
+      },
+      "paired_original_path_id": "B3_path_hot90_seed105",
+      "paired_sde_id": "B3_sde_hot90_seed105",
+      "expected_periodic_cost": {
+        "components": {
+          "data_download": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "data_upload": {
+            "lower": "320640",
+            "upper": "320640"
+          },
+          "headers_download": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "headers_upload": {
+            "lower": "5664",
+            "upper": "5664"
+          },
+          "authentication_download": {
+            "lower": "1408",
+            "upper": "1408"
+          },
+          "authentication_upload": {
+            "lower": "3072",
+            "upper": "3072"
+          },
+          "framing_and_control": {
+            "lower": "368",
+            "upper": "368"
+          }
+        },
+        "total": {
+          "lower": "657456",
+          "upper": "657456"
+        }
+      },
+      "stash_ledger": {
+        "points": [
+          {
+            "config": {
+              "kind": "path",
+              "L": 14,
+              "N": 16384,
+              "B": 4096,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 0,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16384,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944320",
+            "covered": true,
+            "rule": "Path JACM Theorem 5.1 with working-set upper bound 2^L",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "17515064999520236328382413135497324192391575201874671386942207878184545151350570928566222913417810799748269858109161328875646",
+              "denominator": "2159042138773611156346587965700099892779000091109070346255925867542147950790606764492876875868072056640136823486537415899248774736707986673413250944264518693671561777591705322265625"
+            },
+            "lifetime_bound": {
+              "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+              "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+            }
+          },
+          {
+            "config": {
+              "kind": "path",
+              "L": 8,
+              "N": 256,
+              "B": 256,
+              "Z": 5,
+              "A": 3,
+              "S": 3,
+              "R": 258,
+              "tree": 1,
+              "compact": true,
+              "fused": true
+            },
+            "initialization_accesses": 16640,
+            "online_accesses": "72057594037927936",
+            "checked_boundary_count": "72057594037944576",
+            "covered": true,
+            "rule": "deterministic current-record count",
+            "offset": 0,
+            "fixed_boundary_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            },
+            "lifetime_bound": {
+              "numerator": "0",
+              "denominator": "1"
+            }
+          }
+        ],
+        "online_horizon": "72057594037927936",
+        "stash_budget": {
+          "numerator": "1",
+          "denominator": "1361129467683753853853498429727072845824"
+        },
+        "all_points_covered": true,
+        "errors": [],
+        "lifetime_stash_upper": {
+          "numerator": "252418688656727323059445259235540108225448768643400120889539129550160473765408678383224477660954333279026767664634365131814077670041350406144",
+          "denominator": "431808427754722231269317593140019978555800018221814069251185173508429590158121352898575375173614411328027364697307483179849754947341597334682650188852903738734312355518341064453125"
+        },
+        "log2_lifetime_upper": -130.32976837282325,
+        "ideal_stash_budget_passed": true,
+        "full_security_admission": false
+      }
+    }
+  ],
+  "workers": 1,
+  "dependencies": [],
+  "source_plan_hashes": {
+    "formal_classical_reference_plan.json": "63e75b9f7022d09d2c42e5d062b99294a53bc2d7e7776fec7150d23bb213cce3",
+    "results\\classical_stash_execution_ledger.json": "463a63eb55d99c7bb3aac7d69740ac642590c4214496c5c817a11bfe6c12ad60",
+    "results\\classical_stash_execution_ledger_audit.json": "135374574ed74373a69b21078d37b7a426bcb5391ad15f7ac9df701ca14d95bb"
+  }
+}

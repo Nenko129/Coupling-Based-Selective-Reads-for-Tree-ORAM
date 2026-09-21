@@ -1,0 +1,25 @@
+{
+  "id": "PUB_WebSearch1_rho_deferred_seed103",
+  "family": "rho",
+  "kind": "deferred",
+  "N": 16384,
+  "B": 64,
+  "profile": [
+    4,
+    3,
+    4
+  ],
+  "plb": 8,
+  "llc": 32,
+  "rho": 128,
+  "R": 256,
+  "warmup": 2048,
+  "requests": 4096,
+  "trace_seed": 103,
+  "oram_seed": 1003,
+  "workload": "WebSearch1_startkey",
+  "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed103.json",
+  "trace_file_sha256": "d5b45aa7f189be7d8edf51012f4f5806e67cf5ee40b35a0a0c805853426789d6",
+  "study": "public_temporal_locality",
+  "experiment_class": "formal_public"
+}

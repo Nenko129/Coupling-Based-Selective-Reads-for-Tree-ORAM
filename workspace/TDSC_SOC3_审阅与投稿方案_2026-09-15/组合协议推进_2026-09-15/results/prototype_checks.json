@@ -1,0 +1,424 @@
+{
+  "status": "passed",
+  "functional_cases": [
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": false,
+      "beta": 14,
+      "kind": "path",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "plb_evictions": 45
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": false,
+      "beta": 14,
+      "kind": "deferred",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "plb_evictions": 45
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": false,
+      "beta": 14,
+      "kind": "sde",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "plb_evictions": 45
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": false,
+      "beta": 14,
+      "kind": "ring",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "plb_evictions": 45
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": false,
+      "beta": 14,
+      "kind": "gc_ring",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "plb_evictions": 45
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": false,
+      "beta": 14,
+      "kind": "r0",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "plb_evictions": 45
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": true,
+      "beta": 14,
+      "kind": "path",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "plb_evictions": 45
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": true,
+      "beta": 14,
+      "kind": "deferred",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "plb_evictions": 45
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": true,
+      "beta": 14,
+      "kind": "sde",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "plb_evictions": 45
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": true,
+      "beta": 14,
+      "kind": "ring",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "plb_evictions": 45
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": true,
+      "beta": 14,
+      "kind": "gc_ring",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "plb_evictions": 45
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": true,
+      "beta": 14,
+      "kind": "r0",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "plb_evictions": 45
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": true,
+      "beta": 2,
+      "kind": "path",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "group_resets": 26,
+        "group_backend_slots": 98,
+        "plb_evictions": 45,
+        "group_cached_rotations": 2
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": true,
+      "beta": 2,
+      "kind": "deferred",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "group_resets": 26,
+        "group_backend_slots": 98,
+        "plb_evictions": 45,
+        "group_cached_rotations": 2
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": true,
+      "beta": 2,
+      "kind": "sde",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "group_resets": 26,
+        "group_backend_slots": 98,
+        "plb_evictions": 45,
+        "group_cached_rotations": 2
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": true,
+      "beta": 2,
+      "kind": "ring",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "group_resets": 26,
+        "group_backend_slots": 98,
+        "plb_evictions": 45,
+        "group_cached_rotations": 2
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": true,
+      "beta": 2,
+      "kind": "gc_ring",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "group_resets": 26,
+        "group_backend_slots": 98,
+        "plb_evictions": 45,
+        "group_cached_rotations": 2
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "Freecursive scoped",
+      "compressed": true,
+      "beta": 2,
+      "kind": "r0",
+      "application_requests": 96,
+      "metrics": {
+        "plb_misses": 48,
+        "application_requests": 96,
+        "plb_hits": 85,
+        "group_resets": 26,
+        "group_backend_slots": 98,
+        "plb_evictions": 45,
+        "group_cached_rotations": 2
+      },
+      "ownership_checked": true
+    },
+    {
+      "frontend": "rho scoped",
+      "kind": "path",
+      "application_requests": 100,
+      "metrics": {
+        "frames": 50,
+        "llc_misses": 99,
+        "rho_misses": 29,
+        "rho_dummy_slots": 53,
+        "rho_hits": 70,
+        "back_dummy_slots": 21,
+        "llc_hits": 1,
+        "application_requests": 100
+      },
+      "exclusive_ownership_checked": true,
+      "public_frame_checked": true
+    },
+    {
+      "frontend": "rho scoped",
+      "kind": "deferred",
+      "application_requests": 100,
+      "metrics": {
+        "frames": 50,
+        "llc_misses": 99,
+        "rho_misses": 29,
+        "rho_dummy_slots": 53,
+        "rho_hits": 70,
+        "back_dummy_slots": 21,
+        "llc_hits": 1,
+        "application_requests": 100
+      },
+      "exclusive_ownership_checked": true,
+      "public_frame_checked": true
+    },
+    {
+      "frontend": "rho scoped",
+      "kind": "sde",
+      "application_requests": 100,
+      "metrics": {
+        "frames": 50,
+        "llc_misses": 99,
+        "rho_misses": 29,
+        "rho_dummy_slots": 53,
+        "rho_hits": 70,
+        "back_dummy_slots": 21,
+        "llc_hits": 1,
+        "application_requests": 100
+      },
+      "exclusive_ownership_checked": true,
+      "public_frame_checked": true
+    },
+    {
+      "frontend": "rho scoped",
+      "kind": "ring",
+      "application_requests": 100,
+      "metrics": {
+        "frames": 50,
+        "llc_misses": 99,
+        "rho_misses": 29,
+        "rho_dummy_slots": 53,
+        "rho_hits": 70,
+        "back_dummy_slots": 21,
+        "llc_hits": 1,
+        "application_requests": 100
+      },
+      "exclusive_ownership_checked": true,
+      "public_frame_checked": true
+    },
+    {
+      "frontend": "rho scoped",
+      "kind": "gc_ring",
+      "application_requests": 100,
+      "metrics": {
+        "frames": 50,
+        "llc_misses": 99,
+        "rho_misses": 29,
+        "rho_dummy_slots": 53,
+        "rho_hits": 70,
+        "back_dummy_slots": 21,
+        "llc_hits": 1,
+        "application_requests": 100
+      },
+      "exclusive_ownership_checked": true,
+      "public_frame_checked": true
+    },
+    {
+      "frontend": "rho scoped",
+      "kind": "r0",
+      "application_requests": 100,
+      "metrics": {
+        "frames": 50,
+        "llc_misses": 99,
+        "rho_misses": 29,
+        "rho_dummy_slots": 53,
+        "rho_hits": 70,
+        "back_dummy_slots": 21,
+        "llc_hits": 1,
+        "application_requests": 100
+      },
+      "exclusive_ownership_checked": true,
+      "public_frame_checked": true
+    }
+  ],
+  "tamper_cases": [
+    {
+      "kind": "sde",
+      "opcode": 1,
+      "stage": "logical",
+      "rejected_and_no_retry_io": true
+    },
+    {
+      "kind": "sde",
+      "opcode": 4,
+      "stage": "logical",
+      "rejected_and_no_retry_io": true
+    },
+    {
+      "kind": "sde",
+      "opcode": 4,
+      "stage": "evict",
+      "rejected_and_no_retry_io": true
+    },
+    {
+      "kind": "r0",
+      "opcode": 2,
+      "stage": "logical",
+      "rejected_and_no_retry_io": true
+    },
+    {
+      "kind": "r0",
+      "opcode": 3,
+      "stage": "logical",
+      "rejected_and_no_retry_io": true
+    },
+    {
+      "kind": "r0",
+      "opcode": 4,
+      "stage": "logical",
+      "rejected_and_no_retry_io": true
+    }
+  ],
+  "negative_interface_example": {
+    "A": 2,
+    "L": 2,
+    "N": 4,
+    "unclocked_appended_blocks": 4,
+    "old_fresh_offset": 1,
+    "conclusion": "batch append with no service ticks violates the A-1 fresh-token premise"
+  },
+  "scope": "small functional and authentication checks; not full native Freecursive/rho artifacts"
+}

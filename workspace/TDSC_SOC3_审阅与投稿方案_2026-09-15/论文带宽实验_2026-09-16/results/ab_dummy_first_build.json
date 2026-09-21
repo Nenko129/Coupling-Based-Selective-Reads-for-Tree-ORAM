@@ -1,0 +1,8 @@
+{
+  "status": "generated",
+  "base_sha256": "e51db2104fd652099e10cb2fdfda206b2fedf61c089cc58f8a15bb0beb8b6a8c",
+  "output_sha256": "64487257ffddf8a805e123a5de42f99f27608d458b3ac459a72e3ca3b1b6bff6",
+  "generator_sha256": "867ca94c66e72b59d21dcc7f94d4c721e8b70d99a4f5e1e4837ff0c12c35c266",
+  "policy_sha256": "115fee5592364fdbc845d2a70da785a090416ed164ef0397b3f71ff49902feff",
+  "change": "selection helper and descriptive docstring only; authentication, fusion, nonce allocation and commits retained"
+}

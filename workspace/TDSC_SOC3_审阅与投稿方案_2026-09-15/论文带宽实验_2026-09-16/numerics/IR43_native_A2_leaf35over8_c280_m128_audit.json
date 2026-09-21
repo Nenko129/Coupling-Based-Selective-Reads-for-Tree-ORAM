@@ -1,0 +1,46 @@
+{
+  "status": "numerical_structure_audited",
+  "profile": "IR43_native_A2_leaf35over8",
+  "height": 25,
+  "cap": 280,
+  "poisson_cutoff": 128,
+  "period": 2,
+  "identity": {
+    "kernel_sha256": "ca3959eefab2e38e836cca71677bdfedeedbd6f5d10b3b9b8258897d6acc6f26",
+    "binary_sha256": "bc4b58e100d39557f226c405188f1a61c69a8063501e5ed753202dcf879b65d9",
+    "profile_sha256": "24a66e8db39a47c7a55789d9683a480af73707f8917c0dab4284ed585f208a28",
+    "profile_spec_sha256": "185485f8a02476803bed67996bd47c9678fcd589460f49b45723793503b29b56"
+  },
+  "jobs": [
+    {
+      "mode": "up",
+      "prefix": "numerics\\grids\\IR43_native_A2_leaf35over8_up_c280_m128",
+      "grid_sha256": "f865e1372f35905401673e9ceef397fbfe7869796324473e714ca3d93b50d0cf",
+      "meta_sha256": "89f229abf1ddf3b3d5b346d4a4a6b8a8eb185ce04569c25a4fc91224b155ae7d",
+      "log_sha256": "b23e6c29b2126077188135744790094b3aadd20ef7186ec28a6a7fd736db404e"
+    },
+    {
+      "mode": "next",
+      "prefix": "numerics\\grids\\IR43_native_A2_leaf35over8_next_c280_m128",
+      "grid_sha256": "1f9971ffb067f4226132b6058f698a35507de9304478d42cdce461938787c9f2",
+      "meta_sha256": "28ab5b88846bea9dc273a95aebcbd933c26c7e823b6c4b703ab9c7bb70353810",
+      "log_sha256": "931491b96e3c17f6f3d5091c4b8c8b2db8f74f5da4c31855ff0aa429feab8eb0"
+    }
+  ],
+  "offset": 1,
+  "Q": 72057594037927936,
+  "target_exact": "1/5444517870735015415413993718908291383296",
+  "minimum_R_within_grid": null,
+  "proposed_R_rounded32": null,
+  "tested": [
+    {
+      "R": 256,
+      "lifetime_bound_exact": "5218706941631222705254429429535342592",
+      "lifetime_log2": 121.97310380511823,
+      "admitted": false
+    }
+  ],
+  "auditor_sha256": "5cbbb7730e9871203cdb6d910c73d80272fa3f6e308989f1dba9fde15fb80397",
+  "protocol_closure": false,
+  "independent_third_party_audit": false
+}

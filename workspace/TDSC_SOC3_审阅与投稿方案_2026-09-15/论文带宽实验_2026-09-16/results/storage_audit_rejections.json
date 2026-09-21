@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "rejected": [
+    "balanced_header_inflation",
+    "same_total_wrong_components",
+    "missing_bucket_record",
+    "wrong_terminal_size",
+    "unreported_cache_object",
+    "wrong_cache_cut",
+    "missing_rho_stash_reservation",
+    "hidden_full_posmap"
+  ],
+  "checker_sha256": "4695234cdcd2d2c5febf86b19758e47089baffb648c256f0daea4b3aa0d4ebca",
+  "resource_auditor_sha256": "445fe7de35d5a6e9c0658e2b1571bf3f218f4fa24f36e905ec434b295cffcbd2",
+  "resource_receipt_sha256": "6df6515006aa81cd66ac25b35b6d5b324a39e3da83746bd976d6ea62b3cb9186",
+  "true_client_peak_measured": false
+}

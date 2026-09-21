@@ -1,0 +1,124 @@
+{
+  "rows": [
+    {
+      "family": "free_compressed",
+      "workload": "uniform",
+      "kind": "deferred",
+      "n": 5,
+      "components_bytes_per_request": {
+        "data_slots_excluding_nonce": 12984.5625,
+        "data_nonce": 3246.140625,
+        "headers": 16555.3171875,
+        "authentication": 7590.975,
+        "framing": 574.3171875
+      }
+    },
+    {
+      "family": "free_compressed",
+      "workload": "uniform",
+      "kind": "sde",
+      "n": 5,
+      "components_bytes_per_request": {
+        "data_slots_excluding_nonce": 9839.35,
+        "data_nonce": 2459.8375,
+        "headers": 11542.634765625,
+        "authentication": 7590.975,
+        "framing": 574.3171875
+      }
+    },
+    {
+      "family": "free_compressed",
+      "workload": "uniform",
+      "kind": "ring",
+      "n": 5,
+      "components_bytes_per_request": {
+        "data_slots_excluding_nonce": 10912.053125,
+        "data_nonce": 2728.01328125,
+        "headers": 16555.3171875,
+        "authentication": 29402.859375,
+        "framing": 1173.6046875
+      }
+    },
+    {
+      "family": "free_compressed",
+      "workload": "uniform",
+      "kind": "r0",
+      "n": 5,
+      "components_bytes_per_request": {
+        "data_slots_excluding_nonce": 8523.25,
+        "data_nonce": 2130.8125,
+        "headers": 10677.646875,
+        "authentication": 23499.125,
+        "framing": 1058.35625
+      }
+    },
+    {
+      "family": "rho",
+      "workload": "uniform",
+      "kind": "deferred",
+      "n": 5,
+      "components_bytes_per_request": {
+        "data_slots_excluding_nonce": 13440.7,
+        "data_nonce": 3360.175,
+        "headers": 17694.589453125,
+        "authentication": 9015.0375,
+        "framing": 765.765234375
+      }
+    },
+    {
+      "family": "rho",
+      "workload": "uniform",
+      "kind": "sde",
+      "n": 5,
+      "components_bytes_per_request": {
+        "data_slots_excluding_nonce": 12149.975,
+        "data_nonce": 3037.49375,
+        "headers": 15637.496484375,
+        "authentication": 9015.0375,
+        "framing": 765.765234375
+      }
+    },
+    {
+      "family": "rho",
+      "workload": "uniform",
+      "kind": "ring",
+      "n": 5,
+      "components_bytes_per_request": {
+        "data_slots_excluding_nonce": 12578.409375,
+        "data_nonce": 3144.60234375,
+        "headers": 17694.589453125,
+        "authentication": 17947.796875,
+        "framing": 1011.633984375
+      }
+    },
+    {
+      "family": "rho",
+      "workload": "uniform",
+      "kind": "r0",
+      "n": 5,
+      "components_bytes_per_request": {
+        "data_slots_excluding_nonce": 11600.71875,
+        "data_nonce": 2900.1796875,
+        "headers": 15283.1859375,
+        "authentication": 15528.3375,
+        "framing": 964.3515625
+      }
+    }
+  ],
+  "source_sha256": "67a938c35ec978ad8ccdcb519406054cfa4fe5e0836b4c7dbf8784f9b32aeff0",
+  "generator_sha256": "eb4dc76a98f267dae44b2df127b61e75ff11b25f064f23836321eb7c3cac776f",
+  "outputs": [
+    {
+      "path": "figures\\frontend_bandwidth_breakdown.pdf",
+      "sha256": "c85a2243bf1872b3baef4c03c6a999d5f628e8955027d140e2122aad62afa91b"
+    },
+    {
+      "path": "figures\\frontend_bandwidth_breakdown.svg",
+      "sha256": "88e24884cd291cb8913c47a08a01c8ca60cd3e2f2b45b91293cf745c32e693e1"
+    },
+    {
+      "path": "figures\\frontend_bandwidth_breakdown.png",
+      "sha256": "1470e6200e105299025ba08787cb32fd5a1a47cf286122bedbd96dbd54205059"
+    }
+  ]
+}

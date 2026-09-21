@@ -1,0 +1,8 @@
+{
+  "stage": "scalar_validation",
+  "input_contract_sha256": "b40155e23d2d62cead87a89321cb88463ac0b36126782967fd490a813d41d19e",
+  "executed_in_this_stage": true,
+  "outputs_sha256": {
+    "legacy/scalar_validation_results.json": "e774f75213638d5efedeea598b6f46c2225a7fbaa05d4c1e882d57a63d41f04b"
+  }
+}

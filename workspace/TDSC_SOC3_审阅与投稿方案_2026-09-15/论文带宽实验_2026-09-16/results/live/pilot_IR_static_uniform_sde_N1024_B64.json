@@ -1,0 +1,8 @@
+{
+  "id": "pilot_IR_static_uniform_sde_N1024_B64",
+  "pid": 19524,
+  "stage": "passed",
+  "time": 1789498353.1356661,
+  "receipt": "results\\pilot_components\\pilot_IR_static_uniform_sde_N1024_B64.json",
+  "elapsed_seconds": 6.276711702346802
+}

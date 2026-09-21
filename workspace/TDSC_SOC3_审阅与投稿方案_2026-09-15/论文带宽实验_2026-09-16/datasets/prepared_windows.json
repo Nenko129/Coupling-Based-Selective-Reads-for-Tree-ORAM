@@ -1,0 +1,266 @@
+{
+  "status": "prepared_not_executed",
+  "windows": [
+    {
+      "source": "datasets\\raw\\Financial1.spc.bz2",
+      "source_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "source_records": [
+        0,
+        6144
+      ],
+      "N": 16384,
+      "warmup": 2048,
+      "requests": 4096,
+      "trace_seed": 101,
+      "unique_start_keys": 2872,
+      "source_read_fraction": 0.3170572916666667,
+      "source_mean_request_bytes": 5574.666666666667,
+      "first_timestamp": "0.000000",
+      "last_timestamp": "190.139602",
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ],
+      "actual_storage_application_claim": false
+    },
+    {
+      "source": "datasets\\raw\\Financial1.spc.bz2",
+      "source_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "source_records": [
+        6144,
+        12288
+      ],
+      "N": 16384,
+      "warmup": 2048,
+      "requests": 4096,
+      "trace_seed": 102,
+      "unique_start_keys": 3157,
+      "source_read_fraction": 0.53515625,
+      "source_mean_request_bytes": 5323.666666666667,
+      "first_timestamp": "190.139602",
+      "last_timestamp": "297.487579",
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ],
+      "actual_storage_application_claim": false
+    },
+    {
+      "source": "datasets\\raw\\Financial1.spc.bz2",
+      "source_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "source_records": [
+        12288,
+        18432
+      ],
+      "N": 16384,
+      "warmup": 2048,
+      "requests": 4096,
+      "trace_seed": 103,
+      "unique_start_keys": 3207,
+      "source_read_fraction": 0.4934895833333333,
+      "source_mean_request_bytes": 5903.083333333333,
+      "first_timestamp": "297.533447",
+      "last_timestamp": "384.270324",
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ],
+      "actual_storage_application_claim": false
+    },
+    {
+      "source": "datasets\\raw\\Financial1.spc.bz2",
+      "source_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "source_records": [
+        18432,
+        24576
+      ],
+      "N": 16384,
+      "warmup": 2048,
+      "requests": 4096,
+      "trace_seed": 104,
+      "unique_start_keys": 3488,
+      "source_read_fraction": 0.69482421875,
+      "source_mean_request_bytes": 7009.75,
+      "first_timestamp": "384.309661",
+      "last_timestamp": "479.926696",
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ],
+      "actual_storage_application_claim": false
+    },
+    {
+      "source": "datasets\\raw\\Financial1.spc.bz2",
+      "source_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "source_records": [
+        24576,
+        30720
+      ],
+      "N": 16384,
+      "warmup": 2048,
+      "requests": 4096,
+      "trace_seed": 105,
+      "unique_start_keys": 3111,
+      "source_read_fraction": 0.5935872395833334,
+      "source_mean_request_bytes": 5815.916666666667,
+      "first_timestamp": "479.926696",
+      "last_timestamp": "559.566040",
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ],
+      "actual_storage_application_claim": false
+    },
+    {
+      "source": "datasets\\raw\\WebSearch1.spc.bz2",
+      "source_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "source_records": [
+        0,
+        6144
+      ],
+      "N": 16384,
+      "warmup": 2048,
+      "requests": 4096,
+      "trace_seed": 101,
+      "unique_start_keys": 6143,
+      "source_read_fraction": 0.9996744791666666,
+      "source_mean_request_bytes": 16084.333333333334,
+      "first_timestamp": "0.011413",
+      "last_timestamp": "14.094023",
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ],
+      "actual_storage_application_claim": false
+    },
+    {
+      "source": "datasets\\raw\\WebSearch1.spc.bz2",
+      "source_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "source_records": [
+        6144,
+        12288
+      ],
+      "N": 16384,
+      "warmup": 2048,
+      "requests": 4096,
+      "trace_seed": 102,
+      "unique_start_keys": 6144,
+      "source_read_fraction": 1.0,
+      "source_mean_request_bytes": 15530.666666666666,
+      "first_timestamp": "14.098404",
+      "last_timestamp": "27.570666",
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ],
+      "actual_storage_application_claim": false
+    },
+    {
+      "source": "datasets\\raw\\WebSearch1.spc.bz2",
+      "source_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "source_records": [
+        12288,
+        18432
+      ],
+      "N": 16384,
+      "warmup": 2048,
+      "requests": 4096,
+      "trace_seed": 103,
+      "unique_start_keys": 6144,
+      "source_read_fraction": 0.9996744791666666,
+      "source_mean_request_bytes": 14598.666666666666,
+      "first_timestamp": "27.572935",
+      "last_timestamp": "44.052802",
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ],
+      "actual_storage_application_claim": false
+    },
+    {
+      "source": "datasets\\raw\\WebSearch1.spc.bz2",
+      "source_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "source_records": [
+        18432,
+        24576
+      ],
+      "N": 16384,
+      "warmup": 2048,
+      "requests": 4096,
+      "trace_seed": 104,
+      "unique_start_keys": 6144,
+      "source_read_fraction": 1.0,
+      "source_mean_request_bytes": 15454.666666666666,
+      "first_timestamp": "44.058969",
+      "last_timestamp": "59.606607",
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ],
+      "actual_storage_application_claim": false
+    },
+    {
+      "source": "datasets\\raw\\WebSearch1.spc.bz2",
+      "source_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "source_records": [
+        24576,
+        30720
+      ],
+      "N": 16384,
+      "warmup": 2048,
+      "requests": 4096,
+      "trace_seed": 105,
+      "unique_start_keys": 6144,
+      "source_read_fraction": 0.9996744791666666,
+      "source_mean_request_bytes": 15628.0,
+      "first_timestamp": "59.606768",
+      "last_timestamp": "76.509480",
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ],
+      "actual_storage_application_claim": false
+    }
+  ],
+  "selection": "first five consecutive 6144-command windows, fixed before ORAM evaluation"
+}

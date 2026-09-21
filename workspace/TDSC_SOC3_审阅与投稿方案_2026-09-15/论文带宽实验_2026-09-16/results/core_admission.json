@@ -1,0 +1,326 @@
+{
+  "status": "partial_admission",
+  "rows": [
+    {
+      "kind": "path",
+      "configs": [
+        {
+          "kind": "path",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "path",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "performance_run_eligibility": true,
+      "common_boundary_stash_blocks": 256,
+      "common_crypto_serializer": true,
+      "published_core_lifetime_admission": false,
+      "existing_gate_rejection": "unsupported core",
+      "outstanding": "Need baseline-specific capacity/lifetime/active-crypto binding; the selective certificate is not assigned by similarity."
+    },
+    {
+      "kind": "deferred",
+      "configs": [
+        {
+          "kind": "deferred",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "deferred",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "performance_run_eligibility": true,
+      "common_boundary_stash_blocks": 256,
+      "common_crypto_serializer": true,
+      "published_core_lifetime_admission": false,
+      "existing_gate_rejection": "unsupported core",
+      "outstanding": "Need baseline-specific capacity/lifetime/active-crypto binding; the selective certificate is not assigned by similarity."
+    },
+    {
+      "kind": "sde",
+      "configs": [
+        {
+          "kind": "sde",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "sde",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "performance_run_eligibility": true,
+      "common_boundary_stash_blocks": 256,
+      "common_crypto_serializer": true,
+      "published_core_lifetime_admission": true,
+      "gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 14,
+            "N": 16384,
+            "B": 4096,
+            "R": 256,
+            "offset": 2,
+            "height": 15,
+            "threshold": 254,
+            "Q": 72057594037944320,
+            "fixed_time_upper": "6.90787526142003457491764879136726300925036927530317532826447E-116",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "sde",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 7,
+            "N": 128,
+            "B": 512,
+            "R": 256,
+            "offset": 2,
+            "height": 8,
+            "threshold": 254,
+            "Q": 72057594037944448,
+            "fixed_time_upper": "0",
+            "rule": "deterministic current count <= N",
+            "certified_height_max": null
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "4.97764871252163344304783966364672182199034018737029406615170E-99",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 604462909807452833726720,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491277350471495E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1180160,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "qualification": "Existing SOC3 core gate + transport differential binding, conditional PRF model. No new independent security audit."
+    },
+    {
+      "kind": "ring",
+      "configs": [
+        {
+          "kind": "ring",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "ring",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "performance_run_eligibility": true,
+      "common_boundary_stash_blocks": 256,
+      "common_crypto_serializer": true,
+      "published_core_lifetime_admission": false,
+      "existing_gate_rejection": "unsupported core",
+      "outstanding": "Need baseline-specific capacity/lifetime/active-crypto binding; the selective certificate is not assigned by similarity."
+    },
+    {
+      "kind": "gc_ring",
+      "configs": [
+        {
+          "kind": "gc_ring",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "gc_ring",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "performance_run_eligibility": true,
+      "common_boundary_stash_blocks": 256,
+      "common_crypto_serializer": true,
+      "published_core_lifetime_admission": false,
+      "existing_gate_rejection": "unsupported core",
+      "outstanding": "Need baseline-specific capacity/lifetime/active-crypto binding; the selective certificate is not assigned by similarity."
+    },
+    {
+      "kind": "r0",
+      "configs": [
+        {
+          "kind": "r0",
+          "L": 14,
+          "N": 16384,
+          "B": 4096,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 0,
+          "compact": true,
+          "fused": true
+        },
+        {
+          "kind": "r0",
+          "L": 7,
+          "N": 128,
+          "B": 512,
+          "Z": 4,
+          "A": 3,
+          "S": 3,
+          "R": 256,
+          "tree": 1,
+          "compact": true,
+          "fused": true
+        }
+      ],
+      "performance_run_eligibility": true,
+      "common_boundary_stash_blocks": 256,
+      "common_crypto_serializer": true,
+      "published_core_lifetime_admission": true,
+      "gate": {
+        "points": [
+          {
+            "tree": 0,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 14,
+            "N": 16384,
+            "B": 4096,
+            "R": 256,
+            "offset": 6,
+            "height": 15,
+            "threshold": 250,
+            "Q": 72057594037944320,
+            "fixed_time_upper": "5.29101832904229246556259282309492195754356581376472846075597E-114",
+            "rule": "certified stop-loss grid",
+            "certified_height_max": 31
+          },
+          {
+            "tree": 1,
+            "kind": "r0",
+            "Z": 4,
+            "A": 3,
+            "S": 3,
+            "L": 7,
+            "N": 128,
+            "B": 512,
+            "R": 256,
+            "offset": 6,
+            "height": 8,
+            "threshold": 250,
+            "Q": 72057594037944448,
+            "fixed_time_upper": "0",
+            "rule": "deterministic current count <= N",
+            "certified_height_max": null
+          }
+        ],
+        "online_horizon": 72057594037927936,
+        "stash_lifetime_upper": "3.81258050801452011915814334080783711987576611852597890123948E-97",
+        "stash_limit": "7.34683969263929692480460335763903548636665972982554700942970E-40",
+        "primitive_calls_upper": 604462909807452833726720,
+        "conditional_advantage_upper": "3.67341984631964846240230167881951774318332986491277350472248E-40",
+        "passes_2m128": true,
+        "persistent_payload_plus_terminal": 1180160,
+        "hashes_checked": true,
+        "scope": "Research-level reduction, numerical enclosure and serialized execution; fixed histories independent of ORAM coins; one serial nonrollback fail-stop client; variable-input PRF hybrid assumption <=2^-132 at this call bound; no crash/concurrent/local-timing theorem."
+      },
+      "qualification": "Existing SOC3 core gate + transport differential binding, conditional PRF model. No new independent security audit."
+    }
+  ],
+  "bank_variant_hashes_checked": true,
+  "all_baselines_same_certified_lifetime": false,
+  "comparison_claim": "same public geometry, serializer and reserved stash; full same-guarantee label remains pending"
+}

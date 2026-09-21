@@ -1,0 +1,329 @@
+{
+  "method": "title-token screen of first two PDF pages; absent DOI in an author version is not automatically an error",
+  "screened_pdf_count": 46,
+  "needs_manual_identity_review": [],
+  "rows": [
+    {
+      "id": "R01",
+      "title": "Software Protection and Simulation on Oblivious RAMs",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": false,
+      "pages": 43
+    },
+    {
+      "id": "R02",
+      "title": "Oblivious RAM with O((log N)^3) Worst-Case Cost",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 18
+    },
+    {
+      "id": "R03",
+      "title": "Path ORAM: An Extremely Simple Oblivious RAM Protocol",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 26
+    },
+    {
+      "id": "R04",
+      "title": "Constants Count: Practical Improvements to Oblivious RAM",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 17
+    },
+    {
+      "id": "R05",
+      "title": "Circuit ORAM: On Tightness of the Goldreich–Ostrovsky Lower Bound",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 38
+    },
+    {
+      "id": "R06",
+      "title": "Optimizing ORAM and Using It Efficiently for Secure Computation",
+      "title_token_overlap_first_two_pages": 0.8333333333333334,
+      "doi_in_first_two_pages": false,
+      "pages": 18
+    },
+    {
+      "id": "R07",
+      "title": "Yes, There Is an Oblivious RAM Lower Bound!",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": false,
+      "pages": 21
+    },
+    {
+      "id": "R08",
+      "title": "OptORAMa: Optimal Oblivious RAM",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 75
+    },
+    {
+      "id": "R09",
+      "title": "Design Space Exploration and Optimization of Path Oblivious RAM in Secure Processors",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 12
+    },
+    {
+      "id": "R10",
+      "title": "Freecursive ORAM: [Nearly] Free Recursion and Integrity Verification for Position-Based Oblivious RAM",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 14
+    },
+    {
+      "id": "R11",
+      "title": "Fork Path: Improving Efficiency of ORAM by Removing Redundant Memory Accesses",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 13
+    },
+    {
+      "id": "R12",
+      "title": "IR-ORAM: Path Access Type Based Memory Intensity Reduction for Path-ORAM",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": false,
+      "pages": 13
+    },
+    {
+      "id": "R13",
+      "title": "AB-ORAM: Constructing Adjustable Buckets for Space Reduction in Ring ORAM",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 13
+    },
+    {
+      "id": "R14",
+      "title": "Streamline Ring ORAM Accesses through Spatial and Temporal Optimization",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 12
+    },
+    {
+      "id": "R15",
+      "title": "PrORAM: Dynamic Prefetcher for Oblivious RAM",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 13
+    },
+    {
+      "id": "R16",
+      "title": "PageORAM: An Efficient DRAM Page Aware ORAM Strategy",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 17
+    },
+    {
+      "id": "R17",
+      "title": "Hitchhiker: Accelerating ORAM With Dynamic Scheduling",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 15
+    },
+    {
+      "id": "R18",
+      "title": "Palermo: Improving the Performance of Oblivious Memory using Protocol-Hardware Co-Design",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": false,
+      "pages": 14
+    },
+    {
+      "id": "R19",
+      "title": "EP-ORAM: Efficient NVM-Friendly Path Eviction for Ring ORAM in Hybrid Memory",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 6
+    },
+    {
+      "id": "R20",
+      "title": "Onion ORAM: A Constant Bandwidth Blowup Oblivious RAM",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 31
+    },
+    {
+      "id": "R21",
+      "title": "Design and Implementation of the Ascend Secure Processor",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 13
+    },
+    {
+      "id": "R22",
+      "title": "Connecting the Dots: Privacy Leakage via Write-Access Patterns to the Main Memory",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": false,
+      "pages": 8
+    },
+    {
+      "id": "R23",
+      "title": "Loco-Store: Locality-Based Oblivious Data Storage",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 12
+    },
+    {
+      "id": "R24",
+      "title": "Tianji: Securing a Practical Asynchronous Multi-User ORAM",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 13
+    },
+    {
+      "id": "R25",
+      "title": "MP-ORAM: A Novel ORAM Design for Multicore Processor Systems",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 15
+    },
+    {
+      "id": "R26",
+      "title": "PEO-Store: Delegation-Proof Based Oblivious Storage With Secure Redundancy Elimination",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 12
+    },
+    {
+      "id": "R26-preprint",
+      "title": "PEO-Store: Practical and Economical Oblivious Store with Peer-to-Peer Delegation",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 25
+    },
+    {
+      "id": "R27",
+      "title": "BOMAP: A Round-Efficient Construction of Oblivious Maps",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 15
+    },
+    {
+      "id": "R28",
+      "title": "Burst ORAM: Minimizing ORAM Response Times for Bursty Access Patterns",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 17
+    },
+    {
+      "id": "R29",
+      "title": "ObliviStore: High Performance Oblivious Cloud Storage",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 15
+    },
+    {
+      "id": "R30",
+      "title": "Shroud: Ensuring Private Access to Large-Scale Data in the Data Center",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 15
+    },
+    {
+      "id": "R31",
+      "title": "TaoStore: Overcoming Asynchronicity in Oblivious Data Storage",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": false,
+      "pages": 20
+    },
+    {
+      "id": "R32",
+      "title": "ConcurORAM: High-Throughput Stateless Parallel Multi-Client ORAM",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 15
+    },
+    {
+      "id": "R33",
+      "title": "QuORAM: A Quorum-Replicated Fault Tolerant ORAM Datastore",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 19
+    },
+    {
+      "id": "R34",
+      "title": "V-ORAM: A Versatile and Adaptive ORAM Framework with Service Transformation for Dynamic Workloads",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 21
+    },
+    {
+      "id": "R35",
+      "title": "FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": false,
+      "pages": 22
+    },
+    {
+      "id": "R36",
+      "title": "LatORAM: ORAMs from Lateral Stashes and Delayed Shuffling",
+      "title_token_overlap_first_two_pages": 0.8333333333333334,
+      "doi_in_first_two_pages": null,
+      "pages": 39
+    },
+    {
+      "id": "R37",
+      "title": "MacORAMa: Optimal Oblivious RAM with Integrity",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": false,
+      "pages": 89
+    },
+    {
+      "id": "R38",
+      "title": "Integrity Verification for Path Oblivious-RAM",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 6
+    },
+    {
+      "id": "R39",
+      "title": "Access Pattern Disclosure on Searchable Encryption: Ramification, Attack and Mitigation",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 15
+    },
+    {
+      "id": "R40",
+      "title": "Suppressing the Oblivious RAM Timing Channel While Making Information Leakage and Program Efficiency Trade-offs",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 12
+    },
+    {
+      "id": "R41",
+      "title": "Benchmarking Cloud Serving Systems with YCSB",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": false,
+      "pages": 12
+    },
+    {
+      "id": "R42",
+      "title": "Rigorous Benchmarking in Reasonable Time",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 12
+    },
+    {
+      "id": "R43",
+      "title": "IEEE Standard for Floating-Point Arithmetic",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": false,
+      "pages": 84
+    },
+    {
+      "id": "X01",
+      "title": "SONIC: Concurrent Oblivious RAM & Data Structures for Low-Latency and High-Throughput",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": null,
+      "pages": 21
+    },
+    {
+      "id": "X02",
+      "title": "ρ: Relaxed Hierarchical ORAM",
+      "title_token_overlap_first_two_pages": 1.0,
+      "doi_in_first_two_pages": true,
+      "pages": 13
+    }
+  ]
+}

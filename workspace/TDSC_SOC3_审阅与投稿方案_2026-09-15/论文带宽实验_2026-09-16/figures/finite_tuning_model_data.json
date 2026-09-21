@@ -1,0 +1,36 @@
+{
+  "source_sha256": "15e9401ae44bcfdf46e14a79d5ccef98180463192a543619c2751582772c2333",
+  "selected": [
+    {
+      "kind": "path",
+      "candidate_id": "TUNE_000",
+      "server_MiB": 525.0510025024414,
+      "periodic_KiB_per_request": 515.296875
+    },
+    {
+      "kind": "deferred",
+      "candidate_id": "TUNE_012",
+      "server_MiB": 525.0510025024414,
+      "periodic_KiB_per_request": 436.5625
+    },
+    {
+      "kind": "sde",
+      "candidate_id": "TUNE_018",
+      "server_MiB": 525.0510025024414,
+      "periodic_KiB_per_request": 330.9580879211426
+    },
+    {
+      "kind": "ring",
+      "candidate_id": "TUNE_048",
+      "server_MiB": 1067.2673721313477,
+      "periodic_KiB_per_request": 333.4197878202784
+    },
+    {
+      "kind": "r0",
+      "candidate_id": "TUNE_066",
+      "server_MiB": 870.2104644775391,
+      "periodic_KiB_per_request": 251.46942419941
+    }
+  ],
+  "evidence": "periodic model, not measurement"
+}

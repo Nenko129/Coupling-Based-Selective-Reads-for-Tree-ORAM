@@ -1,0 +1,27 @@
+{
+  "pid": 51708,
+  "started": 1789501532.0072913,
+  "spec": {
+    "id": "C2_rho_ring_scan_N4096_B64_seed101",
+    "family": "rho",
+    "kind": "ring",
+    "N": 4096,
+    "B": 64,
+    "profile": [
+      4,
+      3,
+      4
+    ],
+    "plb": 8,
+    "llc": 32,
+    "rho": 128,
+    "R": 256,
+    "warmup": 2048,
+    "requests": 4096,
+    "trace_seed": 101,
+    "oram_seed": 1001,
+    "workload": "scan",
+    "experiment_class": "formal_rho_fixed"
+  },
+  "log": "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\results\\logs\\C2_rho_ring_scan_N4096_B64_seed101.log"
+}

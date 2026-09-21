@@ -1,0 +1,42 @@
+{
+  "id": "IRDWB_depth_path_dwb0_hot90_seed104",
+  "kind": "path",
+  "N": 4096,
+  "B": 64,
+  "X": 16,
+  "profile": [
+    4,
+    3,
+    3
+  ],
+  "R": 480,
+  "cached_levels": 6,
+  "Z_by_depth": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    2,
+    2,
+    3,
+    3,
+    4,
+    4
+  ],
+  "plb": 8,
+  "llc_sets": 8,
+  "llc_ways": 2,
+  "layout": "depth",
+  "dwb": false,
+  "warmup": 128,
+  "requests": 256,
+  "arrival_gap": 8,
+  "slots_per_request": 8,
+  "trace_seed": 104,
+  "oram_seed": 1004,
+  "workload": "hot90",
+  "experiment_class": "formal_ir_dwb"
+}

@@ -1,0 +1,12 @@
+{
+  "reason": "Pause future dispatch after IR R256 numerical admission failure; preserve running child and completed results",
+  "stoppedParent": 31080,
+  "command": "\"C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" -B -X utf8 TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/src/queued_cached_components.py",
+  "activeChildren": [
+    {
+      "ProcessId": 30356,
+      "CommandLine": "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe -B -X utf8 D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_cached_component.py --spec D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\CC_IR_uniform_sde_N4096_B4096_seed101.json"
+    }
+  ],
+  "time": "2026-09-16T04:03:06.6162938+08:00"
+}

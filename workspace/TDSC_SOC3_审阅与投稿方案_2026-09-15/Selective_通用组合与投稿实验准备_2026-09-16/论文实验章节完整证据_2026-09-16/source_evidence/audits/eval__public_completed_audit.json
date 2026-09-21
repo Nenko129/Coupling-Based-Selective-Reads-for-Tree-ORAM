@@ -1,0 +1,1494 @@
+{
+  "status": "passed",
+  "runs": 80,
+  "comparisons": 8,
+  "cells": [
+    {
+      "family": "free_compressed",
+      "workload": "Financial1_startkey",
+      "kind": "deferred",
+      "n": 5,
+      "mean": 54677.109375,
+      "range": [
+        52569.0234375,
+        55264.3359375
+      ],
+      "rpc_mean": 7.232421875,
+      "ids": [
+        "PUB_Financial1_free_compressed_deferred_seed101",
+        "PUB_Financial1_free_compressed_deferred_seed102",
+        "PUB_Financial1_free_compressed_deferred_seed103",
+        "PUB_Financial1_free_compressed_deferred_seed104",
+        "PUB_Financial1_free_compressed_deferred_seed105"
+      ]
+    },
+    {
+      "family": "free_compressed",
+      "workload": "Financial1_startkey",
+      "kind": "sde",
+      "n": 5,
+      "mean": 42617.227734375,
+      "range": [
+        40938.44140625,
+        43083.310546875
+      ],
+      "rpc_mean": 7.232421875,
+      "ids": [
+        "PUB_Financial1_free_compressed_sde_seed101",
+        "PUB_Financial1_free_compressed_sde_seed102",
+        "PUB_Financial1_free_compressed_sde_seed103",
+        "PUB_Financial1_free_compressed_sde_seed104",
+        "PUB_Financial1_free_compressed_sde_seed105"
+      ]
+    },
+    {
+      "family": "free_compressed",
+      "workload": "Financial1_startkey",
+      "kind": "ring",
+      "n": 5,
+      "mean": 81083.11640625,
+      "range": [
+        77917.3515625,
+        81965.7109375
+      ],
+      "rpc_mean": 10.8486328125,
+      "ids": [
+        "PUB_Financial1_free_compressed_ring_seed101",
+        "PUB_Financial1_free_compressed_ring_seed102",
+        "PUB_Financial1_free_compressed_ring_seed103",
+        "PUB_Financial1_free_compressed_ring_seed104",
+        "PUB_Financial1_free_compressed_ring_seed105"
+      ]
+    },
+    {
+      "family": "free_compressed",
+      "workload": "Financial1_startkey",
+      "kind": "r0",
+      "n": 5,
+      "mean": 61560.7984375,
+      "range": [
+        59142.42578125,
+        62243.4921875
+      ],
+      "rpc_mean": 10.8486328125,
+      "ids": [
+        "PUB_Financial1_free_compressed_r0_seed101",
+        "PUB_Financial1_free_compressed_r0_seed102",
+        "PUB_Financial1_free_compressed_r0_seed103",
+        "PUB_Financial1_free_compressed_r0_seed104",
+        "PUB_Financial1_free_compressed_r0_seed105"
+      ]
+    },
+    {
+      "family": "free_compressed",
+      "workload": "WebSearch1_startkey",
+      "kind": "deferred",
+      "n": 5,
+      "mean": 56468.296875,
+      "range": [
+        56301.328125,
+        56773.828125
+      ],
+      "rpc_mean": 7.4693359375,
+      "ids": [
+        "PUB_WebSearch1_free_compressed_deferred_seed101",
+        "PUB_WebSearch1_free_compressed_deferred_seed102",
+        "PUB_WebSearch1_free_compressed_deferred_seed103",
+        "PUB_WebSearch1_free_compressed_deferred_seed104",
+        "PUB_WebSearch1_free_compressed_deferred_seed105"
+      ]
+    },
+    {
+      "family": "free_compressed",
+      "workload": "WebSearch1_startkey",
+      "kind": "sde",
+      "n": 5,
+      "mean": 44019.9234375,
+      "range": [
+        43892.09765625,
+        44271.814453125
+      ],
+      "rpc_mean": 7.4693359375,
+      "ids": [
+        "PUB_WebSearch1_free_compressed_sde_seed101",
+        "PUB_WebSearch1_free_compressed_sde_seed102",
+        "PUB_WebSearch1_free_compressed_sde_seed103",
+        "PUB_WebSearch1_free_compressed_sde_seed104",
+        "PUB_WebSearch1_free_compressed_sde_seed105"
+      ]
+    },
+    {
+      "family": "free_compressed",
+      "workload": "WebSearch1_startkey",
+      "kind": "ring",
+      "n": 5,
+      "mean": 83750.60078125,
+      "range": [
+        83438.34375,
+        84235.734375
+      ],
+      "rpc_mean": 11.20400390625,
+      "ids": [
+        "PUB_WebSearch1_free_compressed_ring_seed101",
+        "PUB_WebSearch1_free_compressed_ring_seed102",
+        "PUB_WebSearch1_free_compressed_ring_seed103",
+        "PUB_WebSearch1_free_compressed_ring_seed104",
+        "PUB_WebSearch1_free_compressed_ring_seed105"
+      ]
+    },
+    {
+      "family": "free_compressed",
+      "workload": "WebSearch1_startkey",
+      "kind": "r0",
+      "n": 5,
+      "mean": 63615.06796875,
+      "range": [
+        63419.296875,
+        64002.3046875
+      ],
+      "rpc_mean": 11.20400390625,
+      "ids": [
+        "PUB_WebSearch1_free_compressed_r0_seed101",
+        "PUB_WebSearch1_free_compressed_r0_seed102",
+        "PUB_WebSearch1_free_compressed_r0_seed103",
+        "PUB_WebSearch1_free_compressed_r0_seed104",
+        "PUB_WebSearch1_free_compressed_r0_seed105"
+      ]
+    },
+    {
+      "family": "rho",
+      "workload": "Financial1_startkey",
+      "kind": "deferred",
+      "n": 5,
+      "mean": 28094.2921875,
+      "range": [
+        26574.75,
+        31029.2109375
+      ],
+      "rpc_mean": 4.99267578125,
+      "ids": [
+        "PUB_Financial1_rho_deferred_seed101",
+        "PUB_Financial1_rho_deferred_seed102",
+        "PUB_Financial1_rho_deferred_seed103",
+        "PUB_Financial1_rho_deferred_seed104",
+        "PUB_Financial1_rho_deferred_seed105"
+      ]
+    },
+    {
+      "family": "rho",
+      "workload": "Financial1_startkey",
+      "kind": "sde",
+      "n": 5,
+      "mean": 25538.649609375,
+      "range": [
+        24162.5390625,
+        28204.123046875
+      ],
+      "rpc_mean": 4.99267578125,
+      "ids": [
+        "PUB_Financial1_rho_sde_seed101",
+        "PUB_Financial1_rho_sde_seed102",
+        "PUB_Financial1_rho_sde_seed103",
+        "PUB_Financial1_rho_sde_seed104",
+        "PUB_Financial1_rho_sde_seed105"
+      ]
+    },
+    {
+      "family": "rho",
+      "workload": "Financial1_startkey",
+      "kind": "ring",
+      "n": 5,
+      "mean": 33663.71171875,
+      "range": [
+        31854.75,
+        37178.80859375
+      ],
+      "rpc_mean": 5.760791015625,
+      "ids": [
+        "PUB_Financial1_rho_ring_seed101",
+        "PUB_Financial1_rho_ring_seed102",
+        "PUB_Financial1_rho_ring_seed103",
+        "PUB_Financial1_rho_ring_seed104",
+        "PUB_Financial1_rho_ring_seed105"
+      ]
+    },
+    {
+      "family": "rho",
+      "workload": "Financial1_startkey",
+      "kind": "r0",
+      "n": 5,
+      "mean": 29538.33828125,
+      "range": [
+        27954.3359375,
+        32616.8203125
+      ],
+      "rpc_mean": 5.760791015625,
+      "ids": [
+        "PUB_Financial1_rho_r0_seed101",
+        "PUB_Financial1_rho_r0_seed102",
+        "PUB_Financial1_rho_r0_seed103",
+        "PUB_Financial1_rho_r0_seed104",
+        "PUB_Financial1_rho_r0_seed105"
+      ]
+    },
+    {
+      "family": "rho",
+      "workload": "WebSearch1_startkey",
+      "kind": "deferred",
+      "n": 5,
+      "mean": 48764.4,
+      "range": [
+        48756.09375,
+        48766.4765625
+      ],
+      "rpc_mean": 8.66611328125,
+      "ids": [
+        "PUB_WebSearch1_rho_deferred_seed101",
+        "PUB_WebSearch1_rho_deferred_seed102",
+        "PUB_WebSearch1_rho_deferred_seed103",
+        "PUB_WebSearch1_rho_deferred_seed104",
+        "PUB_WebSearch1_rho_deferred_seed105"
+      ]
+    },
+    {
+      "family": "rho",
+      "workload": "WebSearch1_startkey",
+      "kind": "sde",
+      "n": 5,
+      "mean": 44323.1734375,
+      "range": [
+        44315.755859375,
+        44337.3359375
+      ],
+      "rpc_mean": 8.66611328125,
+      "ids": [
+        "PUB_WebSearch1_rho_sde_seed101",
+        "PUB_WebSearch1_rho_sde_seed102",
+        "PUB_WebSearch1_rho_sde_seed103",
+        "PUB_WebSearch1_rho_sde_seed104",
+        "PUB_WebSearch1_rho_sde_seed105"
+      ]
+    },
+    {
+      "family": "rho",
+      "workload": "WebSearch1_startkey",
+      "kind": "ring",
+      "n": 5,
+      "mean": 58434.5484375,
+      "range": [
+        58415.66015625,
+        58462.40234375
+      ],
+      "rpc_mean": 9.99931640625,
+      "ids": [
+        "PUB_WebSearch1_rho_ring_seed101",
+        "PUB_WebSearch1_rho_ring_seed102",
+        "PUB_WebSearch1_rho_ring_seed103",
+        "PUB_WebSearch1_rho_ring_seed104",
+        "PUB_WebSearch1_rho_ring_seed105"
+      ]
+    },
+    {
+      "family": "rho",
+      "workload": "WebSearch1_startkey",
+      "kind": "r0",
+      "n": 5,
+      "mean": 51269.1859375,
+      "range": [
+        51256.75,
+        51277.99609375
+      ],
+      "rpc_mean": 9.99931640625,
+      "ids": [
+        "PUB_WebSearch1_rho_r0_seed101",
+        "PUB_WebSearch1_rho_r0_seed102",
+        "PUB_WebSearch1_rho_r0_seed103",
+        "PUB_WebSearch1_rho_r0_seed104",
+        "PUB_WebSearch1_rho_r0_seed105"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "family": "free_compressed",
+      "workload": "Financial1_startkey",
+      "baseline": "deferred",
+      "variant": "sde",
+      "n": 5,
+      "mean": 22.057194699817014,
+      "range": [
+        22.00906351896451,
+        22.124401920986326
+      ],
+      "ci95": null,
+      "per_window": [
+        {
+          "seed": 101,
+          "baseline_id": "PUB_Financial1_free_compressed_deferred_seed101",
+          "variant_id": "PUB_Financial1_free_compressed_sde_seed101",
+          "baseline_bytes": 52569.0234375,
+          "variant_bytes": 40938.44140625,
+          "saving_pct": 22.124401920986326
+        },
+        {
+          "seed": 102,
+          "baseline_id": "PUB_Financial1_free_compressed_deferred_seed102",
+          "variant_id": "PUB_Financial1_free_compressed_sde_seed102",
+          "baseline_bytes": 55264.3359375,
+          "variant_bytes": 43083.310546875,
+          "saving_pct": 22.041385613320074
+        },
+        {
+          "seed": 103,
+          "baseline_id": "PUB_Financial1_free_compressed_deferred_seed103",
+          "variant_id": "PUB_Financial1_free_compressed_sde_seed103",
+          "baseline_bytes": 55179.140625,
+          "variant_bytes": 43034.728515625,
+          "saving_pct": 22.00906351896451
+        },
+        {
+          "seed": 104,
+          "baseline_id": "PUB_Financial1_free_compressed_deferred_seed104",
+          "variant_id": "PUB_Financial1_free_compressed_sde_seed104",
+          "baseline_bytes": 55223.4375,
+          "variant_bytes": 43048.27734375,
+          "saving_pct": 22.047088532382652
+        },
+        {
+          "seed": 105,
+          "baseline_id": "PUB_Financial1_free_compressed_deferred_seed105",
+          "variant_id": "PUB_Financial1_free_compressed_sde_seed105",
+          "baseline_bytes": 55149.609375,
+          "variant_bytes": 42981.380859375,
+          "saving_pct": 22.0640339134315
+        }
+      ],
+      "baseline_mean": 54677.109375,
+      "variant_mean": 42617.227734375
+    },
+    {
+      "family": "free_compressed",
+      "workload": "Financial1_startkey",
+      "baseline": "ring",
+      "variant": "r0",
+      "n": 5,
+      "mean": 24.077105332118478,
+      "range": [
+        24.06154784046034,
+        24.095949624506975
+      ],
+      "ci95": null,
+      "per_window": [
+        {
+          "seed": 101,
+          "baseline_id": "PUB_Financial1_free_compressed_ring_seed101",
+          "variant_id": "PUB_Financial1_free_compressed_r0_seed101",
+          "baseline_bytes": 77917.3515625,
+          "variant_bytes": 59142.42578125,
+          "saving_pct": 24.095949624506975
+        },
+        {
+          "seed": 102,
+          "baseline_id": "PUB_Financial1_free_compressed_ring_seed102",
+          "variant_id": "PUB_Financial1_free_compressed_r0_seed102",
+          "baseline_bytes": 81965.7109375,
+          "variant_bytes": 62243.4921875,
+          "saving_pct": 24.06154784046034
+        },
+        {
+          "seed": 103,
+          "baseline_id": "PUB_Financial1_free_compressed_ring_seed103",
+          "variant_id": "PUB_Financial1_free_compressed_r0_seed103",
+          "baseline_bytes": 81863.12109375,
+          "variant_bytes": 62162.94921875,
+          "saving_pct": 24.064770084247435
+        },
+        {
+          "seed": 104,
+          "baseline_id": "PUB_Financial1_free_compressed_ring_seed104",
+          "variant_id": "PUB_Financial1_free_compressed_r0_seed104",
+          "baseline_bytes": 81920.0390625,
+          "variant_bytes": 62185.05859375,
+          "saving_pct": 24.090540842752052
+        },
+        {
+          "seed": 105,
+          "baseline_id": "PUB_Financial1_free_compressed_ring_seed105",
+          "variant_id": "PUB_Financial1_free_compressed_r0_seed105",
+          "baseline_bytes": 81749.359375,
+          "variant_bytes": 62070.06640625,
+          "saving_pct": 24.072718268625582
+        }
+      ],
+      "baseline_mean": 81083.11640625,
+      "variant_mean": 61560.7984375
+    },
+    {
+      "family": "free_compressed",
+      "workload": "WebSearch1_startkey",
+      "baseline": "deferred",
+      "variant": "sde",
+      "n": 5,
+      "mean": 22.044934982533064,
+      "range": [
+        22.02073399797717,
+        22.07691075414897
+      ],
+      "ci95": null,
+      "per_window": [
+        {
+          "seed": 101,
+          "baseline_id": "PUB_WebSearch1_free_compressed_deferred_seed101",
+          "variant_id": "PUB_WebSearch1_free_compressed_sde_seed101",
+          "baseline_bytes": 56301.328125,
+          "variant_bytes": 43892.625,
+          "saving_pct": 22.03980534429
+        },
+        {
+          "seed": 102,
+          "baseline_id": "PUB_WebSearch1_free_compressed_deferred_seed102",
+          "variant_id": "PUB_WebSearch1_free_compressed_sde_seed102",
+          "baseline_bytes": 56614.8046875,
+          "variant_bytes": 44138.5625,
+          "saving_pct": 22.03706655240768
+        },
+        {
+          "seed": 103,
+          "baseline_id": "PUB_WebSearch1_free_compressed_deferred_seed103",
+          "variant_id": "PUB_WebSearch1_free_compressed_sde_seed103",
+          "baseline_bytes": 56773.828125,
+          "variant_bytes": 44271.814453125,
+          "saving_pct": 22.02073399797717
+        },
+        {
+          "seed": 104,
+          "baseline_id": "PUB_WebSearch1_free_compressed_deferred_seed104",
+          "variant_id": "PUB_WebSearch1_free_compressed_sde_seed104",
+          "baseline_bytes": 56327.4609375,
+          "variant_bytes": 43892.09765625,
+          "saving_pct": 22.07691075414897
+        },
+        {
+          "seed": 105,
+          "baseline_id": "PUB_WebSearch1_free_compressed_deferred_seed105",
+          "variant_id": "PUB_WebSearch1_free_compressed_sde_seed105",
+          "baseline_bytes": 56324.0625,
+          "variant_bytes": 43904.517578125,
+          "saving_pct": 22.050158263841503
+        }
+      ],
+      "baseline_mean": 56468.296875,
+      "variant_mean": 44019.9234375
+    },
+    {
+      "family": "free_compressed",
+      "workload": "WebSearch1_startkey",
+      "baseline": "ring",
+      "variant": "r0",
+      "n": 5,
+      "mean": 24.042280808181843,
+      "range": [
+        23.97378846730763,
+        24.11612088985925
+      ],
+      "ci95": null,
+      "per_window": [
+        {
+          "seed": 101,
+          "baseline_id": "PUB_WebSearch1_free_compressed_ring_seed101",
+          "variant_id": "PUB_WebSearch1_free_compressed_r0_seed101",
+          "baseline_bytes": 83560.984375,
+          "variant_bytes": 63445.42578125,
+          "saving_pct": 24.072907642490893
+        },
+        {
+          "seed": 102,
+          "baseline_id": "PUB_WebSearch1_free_compressed_ring_seed102",
+          "variant_id": "PUB_WebSearch1_free_compressed_r0_seed102",
+          "baseline_bytes": 83943.8046875,
+          "variant_bytes": 63773.30078125,
+          "saving_pct": 24.028579573369726
+        },
+        {
+          "seed": 103,
+          "baseline_id": "PUB_WebSearch1_free_compressed_ring_seed103",
+          "variant_id": "PUB_WebSearch1_free_compressed_r0_seed103",
+          "baseline_bytes": 84235.734375,
+          "variant_bytes": 64002.3046875,
+          "saving_pct": 24.02000746788171
+        },
+        {
+          "seed": 104,
+          "baseline_id": "PUB_WebSearch1_free_compressed_ring_seed104",
+          "variant_id": "PUB_WebSearch1_free_compressed_r0_seed104",
+          "baseline_bytes": 83574.13671875,
+          "variant_bytes": 63419.296875,
+          "saving_pct": 24.11612088985925
+        },
+        {
+          "seed": 105,
+          "baseline_id": "PUB_WebSearch1_free_compressed_ring_seed105",
+          "variant_id": "PUB_WebSearch1_free_compressed_r0_seed105",
+          "baseline_bytes": 83438.34375,
+          "variant_bytes": 63435.01171875,
+          "saving_pct": 23.97378846730763
+        }
+      ],
+      "baseline_mean": 83750.60078125,
+      "variant_mean": 63615.06796875
+    },
+    {
+      "family": "rho",
+      "workload": "Financial1_startkey",
+      "baseline": "deferred",
+      "variant": "sde",
+      "n": 5,
+      "mean": 9.09633052412636,
+      "range": [
+        9.077078570823804,
+        9.10460757869538
+      ],
+      "ci95": null,
+      "per_window": [
+        {
+          "seed": 101,
+          "baseline_id": "PUB_Financial1_rho_deferred_seed101",
+          "variant_id": "PUB_Financial1_rho_sde_seed101",
+          "baseline_bytes": 26574.75,
+          "variant_bytes": 24162.5390625,
+          "saving_pct": 9.077078570823804,
+          "front_bytes": 15589.125,
+          "backend_share": 0.41338582677165353,
+          "backend_saving_pct": 21.9578853046595
+        },
+        {
+          "seed": 102,
+          "baseline_id": "PUB_Financial1_rho_deferred_seed102",
+          "variant_id": "PUB_Financial1_rho_sde_seed102",
+          "baseline_bytes": 27202.734375,
+          "variant_bytes": 24726.18359375,
+          "saving_pct": 9.104050891023707,
+          "front_bytes": 15959.296875,
+          "backend_share": 0.4133201223452376,
+          "backend_saving_pct": 22.02663359181745
+        },
+        {
+          "seed": 103,
+          "baseline_id": "PUB_Financial1_rho_deferred_seed103",
+          "variant_id": "PUB_Financial1_rho_sde_seed103",
+          "baseline_bytes": 28100.2734375,
+          "variant_bytes": 25543.38671875,
+          "saving_pct": 9.099152449306125,
+          "front_bytes": 16483.125,
+          "backend_share": 0.4134176296660814,
+          "backend_saving_pct": 22.00958981032216
+        },
+        {
+          "seed": 104,
+          "baseline_id": "PUB_Financial1_rho_deferred_seed104",
+          "variant_id": "PUB_Financial1_rho_sde_seed104",
+          "baseline_bytes": 31029.2109375,
+          "variant_bytes": 28204.123046875,
+          "saving_pct": 9.10460757869538,
+          "front_bytes": 18201.28125,
+          "backend_share": 0.41341462769834575,
+          "backend_saving_pct": 22.02294492912499
+        },
+        {
+          "seed": 105,
+          "baseline_id": "PUB_Financial1_rho_deferred_seed105",
+          "variant_id": "PUB_Financial1_rho_sde_seed105",
+          "baseline_bytes": 27564.4921875,
+          "variant_bytes": 25057.015625,
+          "saving_pct": 9.096763130782781,
+          "front_bytes": 16168.828125,
+          "backend_share": 0.4134182478307265,
+          "backend_saving_pct": 22.003777478413188
+        }
+      ],
+      "baseline_mean": 28094.2921875,
+      "variant_mean": 25538.649609375
+    },
+    {
+      "family": "rho",
+      "workload": "Financial1_startkey",
+      "baseline": "ring",
+      "variant": "r0",
+      "n": 5,
+      "mean": 12.254107627314268,
+      "range": [
+        12.20434631047167,
+        12.284239134280428
+      ],
+      "ci95": null,
+      "per_window": [
+        {
+          "seed": 101,
+          "baseline_id": "PUB_Financial1_rho_ring_seed101",
+          "variant_id": "PUB_Financial1_rho_r0_seed101",
+          "baseline_bytes": 31854.75,
+          "variant_bytes": 27954.3359375,
+          "saving_pct": 12.244371914706598,
+          "front_bytes": 15589.125,
+          "backend_share": 0.5106185105831941,
+          "backend_saving_pct": 23.979490874159463
+        },
+        {
+          "seed": 102,
+          "baseline_id": "PUB_Financial1_rho_ring_seed102",
+          "variant_id": "PUB_Financial1_rho_r0_seed102",
+          "baseline_bytes": 32586.8203125,
+          "variant_bytes": 28589.3359375,
+          "saving_pct": 12.26718144533605,
+          "front_bytes": 15959.296875,
+          "backend_share": 0.5102530187985796,
+          "backend_saving_pct": 24.04136966052615
+        },
+        {
+          "seed": 103,
+          "baseline_id": "PUB_Financial1_rho_ring_seed103",
+          "variant_id": "PUB_Financial1_rho_r0_seed103",
+          "baseline_bytes": 33674.66015625,
+          "variant_bytes": 29537.984375,
+          "saving_pct": 12.284239134280428,
+          "front_bytes": 16483.125,
+          "backend_share": 0.5105184455160495,
+          "backend_saving_pct": 24.06228265045956
+        },
+        {
+          "seed": 104,
+          "baseline_id": "PUB_Financial1_rho_ring_seed104",
+          "variant_id": "PUB_Financial1_rho_r0_seed104",
+          "baseline_bytes": 37178.80859375,
+          "variant_bytes": 32616.8203125,
+          "saving_pct": 12.270399331776593,
+          "front_bytes": 18201.28125,
+          "backend_share": 0.5104393621408365,
+          "backend_saving_pct": 24.038897157760815
+        },
+        {
+          "seed": 105,
+          "baseline_id": "PUB_Financial1_rho_ring_seed105",
+          "variant_id": "PUB_Financial1_rho_r0_seed105",
+          "baseline_bytes": 33023.51953125,
+          "variant_bytes": 28993.21484375,
+          "saving_pct": 12.20434631047167,
+          "front_bytes": 16168.828125,
+          "backend_share": 0.5103844667525667,
+          "backend_saving_pct": 23.912064542489908
+        }
+      ],
+      "baseline_mean": 33663.71171875,
+      "variant_mean": 29538.33828125
+    },
+    {
+      "family": "rho",
+      "workload": "WebSearch1_startkey",
+      "baseline": "deferred",
+      "variant": "sde",
+      "n": 5,
+      "mean": 9.107518101054543,
+      "range": [
+        9.082347008038472,
+        9.120250863930767
+      ],
+      "ci95": null,
+      "per_window": [
+        {
+          "seed": 101,
+          "baseline_id": "PUB_WebSearch1_rho_deferred_seed101",
+          "variant_id": "PUB_WebSearch1_rho_sde_seed101",
+          "baseline_bytes": 48756.09375,
+          "variant_bytes": 44315.755859375,
+          "saving_pct": 9.10724701079032,
+          "front_bytes": 28601.015625,
+          "backend_share": 0.41338582677165353,
+          "backend_saving_pct": 22.030864197530864
+        },
+        {
+          "seed": 102,
+          "baseline_id": "PUB_WebSearch1_rho_deferred_seed102",
+          "variant_id": "PUB_WebSearch1_rho_sde_seed102",
+          "baseline_bytes": 48766.4765625,
+          "variant_bytes": 44318.8515625,
+          "saving_pct": 9.120250863930767,
+          "front_bytes": 28608.0,
+          "backend_share": 0.4133675012724065,
+          "backend_saving_pct": 22.063299209195883
+        },
+        {
+          "seed": 103,
+          "baseline_id": "PUB_WebSearch1_rho_deferred_seed103",
+          "variant_id": "PUB_WebSearch1_rho_sde_seed103",
+          "baseline_bytes": 48766.4765625,
+          "variant_bytes": 44322.583984375,
+          "saving_pct": 9.112597200721739,
+          "front_bytes": 28608.0,
+          "backend_share": 0.4133675012724065,
+          "backend_saving_pct": 22.04478381264085
+        },
+        {
+          "seed": 104,
+          "baseline_id": "PUB_WebSearch1_rho_deferred_seed104",
+          "variant_id": "PUB_WebSearch1_rho_sde_seed104",
+          "baseline_bytes": 48766.4765625,
+          "variant_bytes": 44321.33984375,
+          "saving_pct": 9.11514842179142,
+          "front_bytes": 28608.0,
+          "backend_share": 0.4133675012724065,
+          "backend_saving_pct": 22.05095561149253
+        },
+        {
+          "seed": 105,
+          "baseline_id": "PUB_WebSearch1_rho_deferred_seed105",
+          "variant_id": "PUB_WebSearch1_rho_sde_seed105",
+          "baseline_bytes": 48766.4765625,
+          "variant_bytes": 44337.3359375,
+          "saving_pct": 9.082347008038472,
+          "front_bytes": 28608.0,
+          "backend_share": 0.4133675012724065,
+          "backend_saving_pct": 21.971603911970963
+        }
+      ],
+      "baseline_mean": 48764.4,
+      "variant_mean": 44323.1734375
+    },
+    {
+      "family": "rho",
+      "workload": "WebSearch1_startkey",
+      "baseline": "ring",
+      "variant": "r0",
+      "n": 5,
+      "mean": 12.262192881468318,
+      "range": [
+        12.222502407149626,
+        12.325275826644733
+      ],
+      "ci95": null,
+      "per_window": [
+        {
+          "seed": 101,
+          "baseline_id": "PUB_WebSearch1_rho_ring_seed101",
+          "variant_id": "PUB_WebSearch1_rho_r0_seed101",
+          "baseline_bytes": 58462.40234375,
+          "variant_bytes": 51256.75,
+          "saving_pct": 12.325275826644733,
+          "front_bytes": 28601.015625,
+          "backend_share": 0.5107793303321613,
+          "backend_saving_pct": 24.130333971481512
+        },
+        {
+          "seed": 102,
+          "baseline_id": "PUB_WebSearch1_rho_ring_seed102",
+          "variant_id": "PUB_WebSearch1_rho_r0_seed102",
+          "baseline_bytes": 58433.1171875,
+          "variant_bytes": 51277.99609375,
+          "saving_pct": 12.244975859820507,
+          "front_bytes": 28608.0,
+          "backend_share": 0.5104146179947453,
+          "backend_saving_pct": 23.990253076855574
+        },
+        {
+          "seed": 103,
+          "baseline_id": "PUB_WebSearch1_rho_ring_seed103",
+          "variant_id": "PUB_WebSearch1_rho_r0_seed103",
+          "baseline_bytes": 58415.66015625,
+          "variant_bytes": 51275.8046875,
+          "saving_pct": 12.222502407149626,
+          "front_bytes": 28608.0,
+          "backend_share": 0.510268309499894,
+          "backend_saving_pct": 23.953089344562095
+        },
+        {
+          "seed": 104,
+          "baseline_id": "PUB_WebSearch1_rho_ring_seed104",
+          "variant_id": "PUB_WebSearch1_rho_r0_seed104",
+          "baseline_bytes": 58436.125,
+          "variant_bytes": 51262.76171875,
+          "saving_pct": 12.275562900945259,
+          "front_bytes": 28608.0,
+          "backend_share": 0.5104398178352859,
+          "backend_saving_pct": 24.048991618648508
+        },
+        {
+          "seed": 105,
+          "baseline_id": "PUB_WebSearch1_rho_ring_seed105",
+          "variant_id": "PUB_WebSearch1_rho_r0_seed105",
+          "baseline_bytes": 58425.4375,
+          "variant_bytes": 51272.6171875,
+          "saving_pct": 12.24264741278146,
+          "front_bytes": 28608.0,
+          "backend_share": 0.5103502648140205,
+          "backend_saving_pct": 23.988715705365358
+        }
+      ],
+      "baseline_mean": 58434.5484375,
+      "variant_mean": 51269.1859375
+    }
+  ],
+  "receipts": [
+    {
+      "id": "PUB_Financial1_free_compressed_deferred_seed101",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_deferred_seed101.json",
+      "sha256": "d6f586319fd44c47def3f3a103d860e33ad3fc2ffd2b140711c112733aa88132"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_sde_seed101",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_sde_seed101.json",
+      "sha256": "1a49736f7f1dea1c7a18b148f818974158e53c9b268321d4435e0fc19bd68907"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_ring_seed101",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_ring_seed101.json",
+      "sha256": "dbfb89de392180f5f15f3764826e085a797d56b8ff347e65d35067e5dc4fd895"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_r0_seed101",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_r0_seed101.json",
+      "sha256": "3651bd3b9c7a4a8fec28aa46887d44a28c9b31a78f0865a5f00b9b0c4b74bf25"
+    },
+    {
+      "id": "PUB_Financial1_rho_deferred_seed101",
+      "path": "results\\formal_public\\PUB_Financial1_rho_deferred_seed101.json",
+      "sha256": "63cbd75f13320ac6aaee4beaaee3558faef956b7ce1f511061176060a91cf238"
+    },
+    {
+      "id": "PUB_Financial1_rho_sde_seed101",
+      "path": "results\\formal_public\\PUB_Financial1_rho_sde_seed101.json",
+      "sha256": "202b179cf9044b9a3105d1676de13be4a466be072a53dc1908aef31c0c1ea3ee"
+    },
+    {
+      "id": "PUB_Financial1_rho_ring_seed101",
+      "path": "results\\formal_public\\PUB_Financial1_rho_ring_seed101.json",
+      "sha256": "095501358579a1d309d8e8e0ae9b7d350c92553f9dfd63c256dbf812944f19a3"
+    },
+    {
+      "id": "PUB_Financial1_rho_r0_seed101",
+      "path": "results\\formal_public\\PUB_Financial1_rho_r0_seed101.json",
+      "sha256": "c7afb23dcdab874d963eda6cf03a8a681311658d6d8ffb937a4db95fa71e701a"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_deferred_seed102",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_deferred_seed102.json",
+      "sha256": "bbd6f9f929503b1004fd746d56d3aaf2835d211b11a965f97ae07b3c77c74c7a"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_sde_seed102",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_sde_seed102.json",
+      "sha256": "fadc4fcb216723dc273d18845e6e91b4239f65c21e6c810b8ac0efeda5ae15a5"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_ring_seed102",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_ring_seed102.json",
+      "sha256": "67b7d59ee4d05f94aa34ec94be3a0b5adb2214a4ac340e0efbb4ad91dd6e4633"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_r0_seed102",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_r0_seed102.json",
+      "sha256": "6cecac0ac4802df42539a83086140d6569f51848851d2c1fde21b7d29ecdbf97"
+    },
+    {
+      "id": "PUB_Financial1_rho_deferred_seed102",
+      "path": "results\\formal_public\\PUB_Financial1_rho_deferred_seed102.json",
+      "sha256": "04a3e989e0c31e22fda3f0bf49397ef57e32030d26f313226dfd1993e063ba69"
+    },
+    {
+      "id": "PUB_Financial1_rho_sde_seed102",
+      "path": "results\\formal_public\\PUB_Financial1_rho_sde_seed102.json",
+      "sha256": "76d412ef3eae92194da6c1a707af88aace2dc562c8d4f85f0b568f57e7b9f32c"
+    },
+    {
+      "id": "PUB_Financial1_rho_ring_seed102",
+      "path": "results\\formal_public\\PUB_Financial1_rho_ring_seed102.json",
+      "sha256": "d89b9846e3f734360e0e8d896b686cecef7c68f34317bc1b397a6be016082252"
+    },
+    {
+      "id": "PUB_Financial1_rho_r0_seed102",
+      "path": "results\\formal_public\\PUB_Financial1_rho_r0_seed102.json",
+      "sha256": "8e2d5808c815d2bea3761a8289b7f858e90825e8b17377100db143ed411936fc"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_deferred_seed103",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_deferred_seed103.json",
+      "sha256": "9c67403cec387df960e27947dfb40f815519f950fd0c6b9b3214efbd1be29d2a"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_sde_seed103",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_sde_seed103.json",
+      "sha256": "c8dce022308c0489f65b89384040e3fc5809181ab6c1a736d226e3397157a25e"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_ring_seed103",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_ring_seed103.json",
+      "sha256": "4f4de6186d09626368ca68718262b1018fa7f731c7a8e7e5f5f5e0264ef335b3"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_r0_seed103",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_r0_seed103.json",
+      "sha256": "59c6ade894038231104e0cddb7b050e954cc9cd84d54d46a68f02e758e8f82a9"
+    },
+    {
+      "id": "PUB_Financial1_rho_deferred_seed103",
+      "path": "results\\formal_public\\PUB_Financial1_rho_deferred_seed103.json",
+      "sha256": "04619197cd2f4c5557d2716828f076d1328623d6a73213833f40b6dc1e19b992"
+    },
+    {
+      "id": "PUB_Financial1_rho_sde_seed103",
+      "path": "results\\formal_public\\PUB_Financial1_rho_sde_seed103.json",
+      "sha256": "8e9dd798acdf5836003a054abd5e08c93d6bcc54199edf9d44b9dbd69c156d68"
+    },
+    {
+      "id": "PUB_Financial1_rho_ring_seed103",
+      "path": "results\\formal_public\\PUB_Financial1_rho_ring_seed103.json",
+      "sha256": "cde8e9b5bdece8638a83eede9b6f5f46c2ac55626dc3c8ab1aa66850e2445e8f"
+    },
+    {
+      "id": "PUB_Financial1_rho_r0_seed103",
+      "path": "results\\formal_public\\PUB_Financial1_rho_r0_seed103.json",
+      "sha256": "03e92b26bc2774c8fdf6e7a9397ecbd57eb8cdce07ba3637f5398bb3bed22337"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_deferred_seed104",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_deferred_seed104.json",
+      "sha256": "7ef9a61e99305fb6bcaf71e389a4f035db396731b1d59170de3820902c201543"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_sde_seed104",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_sde_seed104.json",
+      "sha256": "6ea27d1e86531f0d11bdfe6f8e82dc3961b4b3f64a68434e8c0f73936dd9b473"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_ring_seed104",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_ring_seed104.json",
+      "sha256": "f65f3a3d3556634dde385a89114360dcbf16187c4031fca6cbdfe290c3cfcbc9"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_r0_seed104",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_r0_seed104.json",
+      "sha256": "7ef7ca4c8e02a95529beb8d83fa58fe2025c6465dd6dd4189a10139ac9e24bc8"
+    },
+    {
+      "id": "PUB_Financial1_rho_deferred_seed104",
+      "path": "results\\formal_public\\PUB_Financial1_rho_deferred_seed104.json",
+      "sha256": "fc9e8c6bc888f50a07d4495c7383b3bf670503cfa424fe841f3d5634ffbf6be7"
+    },
+    {
+      "id": "PUB_Financial1_rho_sde_seed104",
+      "path": "results\\formal_public\\PUB_Financial1_rho_sde_seed104.json",
+      "sha256": "b5fc1bfd156937cddbe06b97a1ceb947aa85b5d42217e206c71c9ffbb1a3b27a"
+    },
+    {
+      "id": "PUB_Financial1_rho_ring_seed104",
+      "path": "results\\formal_public\\PUB_Financial1_rho_ring_seed104.json",
+      "sha256": "43d82ad81cbdd0d0e87459a2ed326e423cd5b88e98aa6e5b9e01b6d25e4d1fe6"
+    },
+    {
+      "id": "PUB_Financial1_rho_r0_seed104",
+      "path": "results\\formal_public\\PUB_Financial1_rho_r0_seed104.json",
+      "sha256": "273628b761cd47f2e16197a5ddb605522cff8c05cce581091348019d5fa28af1"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_deferred_seed105",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_deferred_seed105.json",
+      "sha256": "8af17c103a80bbb57143cc5777ba6436aaa95ee21cb259daeea312eaf67f96e3"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_sde_seed105",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_sde_seed105.json",
+      "sha256": "55ac6fd9091c05c8418b480fd09ec862bb7a72d328da85aaf08cd60e39aa2907"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_ring_seed105",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_ring_seed105.json",
+      "sha256": "5c19cd0a595902f803f4382294785029dfd8b85dac008af45a04894c583e2ed1"
+    },
+    {
+      "id": "PUB_Financial1_free_compressed_r0_seed105",
+      "path": "results\\formal_public\\PUB_Financial1_free_compressed_r0_seed105.json",
+      "sha256": "94fb37fa9628663444034652c4854645e3d2393ad51f4da3efdcda9b36d2e737"
+    },
+    {
+      "id": "PUB_Financial1_rho_deferred_seed105",
+      "path": "results\\formal_public\\PUB_Financial1_rho_deferred_seed105.json",
+      "sha256": "6787f43f04cb8d701b66d2a817a04357f4491b5bdcfd52a5a60d2a013804671c"
+    },
+    {
+      "id": "PUB_Financial1_rho_sde_seed105",
+      "path": "results\\formal_public\\PUB_Financial1_rho_sde_seed105.json",
+      "sha256": "63fc5eb2aa8da89a0db5b18f9bb679fc4670857a28c29a3fc79edfca91e41665"
+    },
+    {
+      "id": "PUB_Financial1_rho_ring_seed105",
+      "path": "results\\formal_public\\PUB_Financial1_rho_ring_seed105.json",
+      "sha256": "d58b15f255a353833140ab804cc4d089936d050fc325be1d87a83515c22dc6ac"
+    },
+    {
+      "id": "PUB_Financial1_rho_r0_seed105",
+      "path": "results\\formal_public\\PUB_Financial1_rho_r0_seed105.json",
+      "sha256": "45fb97f6908985c89cb2461d7a8498af3027481e50c1f25d2edc040e570dff76"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_deferred_seed101",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_deferred_seed101.json",
+      "sha256": "36e7c8551c122220fd269b6515ab0b3d95ea31620036f8faa687f1aea9c4d884"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_sde_seed101",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_sde_seed101.json",
+      "sha256": "5f2e8ba81bf73fb781654e6484be35e9b35ec525dbcee60a69692e3e6b58774f"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_ring_seed101",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_ring_seed101.json",
+      "sha256": "0cfa41de85fce57bbd1c108e7ee9819faeaa2cf11fb6942f82139e518484ef29"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_r0_seed101",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_r0_seed101.json",
+      "sha256": "9692867dc302095d98ca1a8ad23e23fb0654b980d4c14d3ed13d7262f5f730d3"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_deferred_seed101",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_deferred_seed101.json",
+      "sha256": "d974fd8de9cedcf023431de5618ab32573a66aa994212ab2204b7a90cdc1561e"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_sde_seed101",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_sde_seed101.json",
+      "sha256": "94b70807ddfc102b6afb1268f3e1a43f44b25e7c5db44e4b93353108cda089f5"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_ring_seed101",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_ring_seed101.json",
+      "sha256": "03a6ae235cded5f3dbdd785f5a56807c09eacb7e89ec61d848d425bafb2a4fd2"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_r0_seed101",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_r0_seed101.json",
+      "sha256": "c295f7cc7a9bfe6d53ccbcaff6e43249254f373fd85c2b04bbc911a43023a40c"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_deferred_seed102",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_deferred_seed102.json",
+      "sha256": "9b5ffa6d5be4ecb098ee8adcc33f2687a84c5dc04e4ee05ce3a76120490dc83f"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_sde_seed102",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_sde_seed102.json",
+      "sha256": "bd78057304717a4f7c5779e91f64c37ca51ac311d5fea21cc911302631938b95"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_ring_seed102",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_ring_seed102.json",
+      "sha256": "b98a1588d5992ba5b1685f3eb3c29a7692e291b34330846dd9aa01ffb85aa57f"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_r0_seed102",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_r0_seed102.json",
+      "sha256": "12a2985abd7fb89e9d25d4bb2d3ee7100d0077af5de65ddffe2362f6906dbe1e"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_deferred_seed102",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_deferred_seed102.json",
+      "sha256": "4f975643757cdeb19d078ad4c5a4725568db6850b792f8dacb8f4ad736df06c4"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_sde_seed102",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_sde_seed102.json",
+      "sha256": "b1ae3e40fded67d697e2b5bcde416805d4ec8e3df214d8819ea4060adb39d341"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_ring_seed102",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_ring_seed102.json",
+      "sha256": "6f34d8b967049c96f7fda2c5279a807de7848e797b91e376afe59400b5a71e8b"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_r0_seed102",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_r0_seed102.json",
+      "sha256": "ad6e67b2fdcdf16781a8ef34c79d6f7f61b7f381b6ccf157cfc82ce034975cd4"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_deferred_seed103",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_deferred_seed103.json",
+      "sha256": "9c29391fa52d818a15400a9d9e1106264e59565f3ca88251a493499fbffda311"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_sde_seed103",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_sde_seed103.json",
+      "sha256": "4a1f16427ce1eed15c9891bf6baeb547d85b4ccb789deaab7eb03ca07064499a"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_ring_seed103",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_ring_seed103.json",
+      "sha256": "8c30ce6d1e47f4d063198efa4815b72538ce437d34b9808bb61c265ae7592286"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_r0_seed103",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_r0_seed103.json",
+      "sha256": "2cc7f235b69b6adccfdd957181f531c096551a13d4e0b11a9dd4035cf1636194"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_deferred_seed103",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_deferred_seed103.json",
+      "sha256": "b48ed51a293fdb256f4669a31ef0942b6e2f6c84013b3b70eb8326b73f9930da"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_sde_seed103",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_sde_seed103.json",
+      "sha256": "8caab08267b029dcdd42ed35b024da9eec9117736fb05dade7e93e14137c6916"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_ring_seed103",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_ring_seed103.json",
+      "sha256": "3a4cc78fa2dd7bf20e242eb073b6128030741f4356f6c00307c946c1167caf44"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_r0_seed103",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_r0_seed103.json",
+      "sha256": "58ce82226890c59be6cae4cfc9b66bcdf2f624086bf36bead5cc6e457b10633e"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_deferred_seed104",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_deferred_seed104.json",
+      "sha256": "964bfab334fcf45643b9358833696f17cb056be07f180c819d9521ac2b173efa"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_sde_seed104",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_sde_seed104.json",
+      "sha256": "f5c394155e9d77612e4d1a454246e180081623a547b5ae0a8f7ce88ee0dcebf4"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_ring_seed104",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_ring_seed104.json",
+      "sha256": "0be5cd2af56996587e65f13dd6629331f7fc025011c026aefc68bdd25013f8d3"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_r0_seed104",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_r0_seed104.json",
+      "sha256": "1cff7d188f34ae6dfe97b99f47eafd2b4eb61b690bc6efb2e375484782649a1e"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_deferred_seed104",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_deferred_seed104.json",
+      "sha256": "8e847cf648f80a8d519e21bd8a16105de8e0efab0f25516bee3fcd3bb0e8cb9d"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_sde_seed104",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_sde_seed104.json",
+      "sha256": "9a5f49a3272107416a5dcafc9f82f8e0f2f90e1e70c5296988671c48ed5832c4"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_ring_seed104",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_ring_seed104.json",
+      "sha256": "4cac23c177c3f836ddd14b05ad0a6a10ef231e50fbe4642e43f18d0fd8581fcb"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_r0_seed104",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_r0_seed104.json",
+      "sha256": "44c3b9338c4c2cf4abadb3da5689082119794e2e17bb4b4df7ef91b3e1fa68c4"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_deferred_seed105",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_deferred_seed105.json",
+      "sha256": "371496777c099106cb7118defcd7b6241a9111ddc54973f88bd9494804374b38"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_sde_seed105",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_sde_seed105.json",
+      "sha256": "cbba1ba1b291f4f9c3d9195cfe06bb4c413b82965d52ac87c7e66b392eb50cb7"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_ring_seed105",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_ring_seed105.json",
+      "sha256": "e8257bbed3a8438827a752c2f3c3868f2852f57f042e2047a7ac45ee88bb86b0"
+    },
+    {
+      "id": "PUB_WebSearch1_free_compressed_r0_seed105",
+      "path": "results\\formal_public\\PUB_WebSearch1_free_compressed_r0_seed105.json",
+      "sha256": "1b465e8f1fdd3d6c02724d643b98506b0da6842751d82754df6c10f9f15d4137"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_deferred_seed105",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_deferred_seed105.json",
+      "sha256": "c4d686cf443891ce647bb228105d7ce3fc1ec608843c3ef348b1d0241f02ee4a"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_sde_seed105",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_sde_seed105.json",
+      "sha256": "8a1bae7469b2bd3e9b50c49c922d85bcd240c206d6305b0c037960065537a570"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_ring_seed105",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_ring_seed105.json",
+      "sha256": "ebda776619071f6025292faf2d67ae9f4dd5f8b0eb85371f57c057fcb6f2628e"
+    },
+    {
+      "id": "PUB_WebSearch1_rho_r0_seed105",
+      "path": "results\\formal_public\\PUB_WebSearch1_rho_r0_seed105.json",
+      "sha256": "149f9a3bf280c7c31c11f929fd04c3278327d283be696d63456a4aaea64e21ec"
+    }
+  ],
+  "windows": [
+    {
+      "path": "datasets\\prepared\\Financial1_startkey_N16384_seed101.json",
+      "sha256": "50140a41c6955f7b3cc365b18aa68db77e35ffff9cfde2826b9d7127ede4a7f4",
+      "source": "datasets\\raw\\Financial1.spc.bz2",
+      "source_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "source_records": [
+        0,
+        6144
+      ],
+      "unique_keys": 2872,
+      "read_fraction": 0.3170572916666667,
+      "answer_sha256": "0ad555a209f0469c3a629f3b1df9d07c0ff2525d288a008f758b1c450191a167",
+      "commands": 6144,
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ]
+    },
+    {
+      "path": "datasets\\prepared\\Financial1_startkey_N16384_seed102.json",
+      "sha256": "b39b54d7f4b2b7d20af4951efbab50b70380a72d4d29acc7ce3c81f024655040",
+      "source": "datasets\\raw\\Financial1.spc.bz2",
+      "source_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "source_records": [
+        6144,
+        12288
+      ],
+      "unique_keys": 3157,
+      "read_fraction": 0.53515625,
+      "answer_sha256": "7a919c2e9090c1d4da092bf588b6377a2fd5991bfe200228bf00da2d15a9e65c",
+      "commands": 6144,
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ]
+    },
+    {
+      "path": "datasets\\prepared\\Financial1_startkey_N16384_seed103.json",
+      "sha256": "a6b3280289a2f78eeb83063cb636614bfadaa68db46303f9c4e8a918e3e46a8a",
+      "source": "datasets\\raw\\Financial1.spc.bz2",
+      "source_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "source_records": [
+        12288,
+        18432
+      ],
+      "unique_keys": 3207,
+      "read_fraction": 0.4934895833333333,
+      "answer_sha256": "c9dfc2389fd8d6d5f07057281273e4b84df1bf98708c2234ed9a2c660a70fcb8",
+      "commands": 6144,
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ]
+    },
+    {
+      "path": "datasets\\prepared\\Financial1_startkey_N16384_seed104.json",
+      "sha256": "7915e1e15ce07f032f24707f227be0e9443b992be721004f951776572f17cd6a",
+      "source": "datasets\\raw\\Financial1.spc.bz2",
+      "source_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "source_records": [
+        18432,
+        24576
+      ],
+      "unique_keys": 3488,
+      "read_fraction": 0.69482421875,
+      "answer_sha256": "d1093b3762b45ef960f8d980c3081514f260c33b77ef3f1b76eebb62d70f585a",
+      "commands": 6144,
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ]
+    },
+    {
+      "path": "datasets\\prepared\\Financial1_startkey_N16384_seed105.json",
+      "sha256": "be5a36c4c10931e37b65ada518f4bbf4353a2d66f3b8ca13c23aaaf88f0ceb41",
+      "source": "datasets\\raw\\Financial1.spc.bz2",
+      "source_sha256": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+      "source_records": [
+        24576,
+        30720
+      ],
+      "unique_keys": 3111,
+      "read_fraction": 0.5935872395833334,
+      "answer_sha256": "8cc524f3839db4e3d0339fbd7a7347d2b32b0d0e028d2b14a7758034b7a27b03",
+      "commands": 6144,
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ]
+    },
+    {
+      "path": "datasets\\prepared\\WebSearch1_startkey_N16384_seed101.json",
+      "sha256": "2da3198a7816fb768c4b6ec6cb6451a39e7fe9b5e0357fdcf7b5bef71635afc3",
+      "source": "datasets\\raw\\WebSearch1.spc.bz2",
+      "source_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "source_records": [
+        0,
+        6144
+      ],
+      "unique_keys": 6143,
+      "read_fraction": 0.9996744791666666,
+      "answer_sha256": "d47d17c14e879aaca94a7a5e9a6e658d70b95663dff4aec565c4b49605304bf8",
+      "commands": 6144,
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ]
+    },
+    {
+      "path": "datasets\\prepared\\WebSearch1_startkey_N16384_seed102.json",
+      "sha256": "32893680920d2f5bdf6f46404a3e26fc2bd9b406d4bca22a9578885ed2d03e26",
+      "source": "datasets\\raw\\WebSearch1.spc.bz2",
+      "source_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "source_records": [
+        6144,
+        12288
+      ],
+      "unique_keys": 6144,
+      "read_fraction": 1.0,
+      "answer_sha256": "ec872d4916cd0587822b8166e3f7be2dcb4863b9ac72a9acded46eb43ef9fca8",
+      "commands": 6144,
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ]
+    },
+    {
+      "path": "datasets\\prepared\\WebSearch1_startkey_N16384_seed103.json",
+      "sha256": "d5b45aa7f189be7d8edf51012f4f5806e67cf5ee40b35a0a0c805853426789d6",
+      "source": "datasets\\raw\\WebSearch1.spc.bz2",
+      "source_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "source_records": [
+        12288,
+        18432
+      ],
+      "unique_keys": 6144,
+      "read_fraction": 0.9996744791666666,
+      "answer_sha256": "a703db75b98cc26240ceac67e4bf654abc482a5f7244d69bcdc0c04cbe348309",
+      "commands": 6144,
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ]
+    },
+    {
+      "path": "datasets\\prepared\\WebSearch1_startkey_N16384_seed104.json",
+      "sha256": "c6eeb76f6cb80e7bb5886b02a47b75bc4cc03eb2e8a5650b82fd3787f02c83ad",
+      "source": "datasets\\raw\\WebSearch1.spc.bz2",
+      "source_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "source_records": [
+        18432,
+        24576
+      ],
+      "unique_keys": 6144,
+      "read_fraction": 1.0,
+      "answer_sha256": "31e2750ee14574f2a09933b55d5f9ea24cfdc877fe137268ca07c04d450f10a0",
+      "commands": 6144,
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ]
+    },
+    {
+      "path": "datasets\\prepared\\WebSearch1_startkey_N16384_seed105.json",
+      "sha256": "89be1b84961feb04530248506745e6b38a2d18f9dcc6489b8656634baf94f065",
+      "source": "datasets\\raw\\WebSearch1.spc.bz2",
+      "source_sha256": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a",
+      "source_records": [
+        24576,
+        30720
+      ],
+      "unique_keys": 6144,
+      "read_fraction": 0.9996744791666666,
+      "answer_sha256": "42a91440878a3378cdcaef6518990e22d7a1c2d40bdffc3859c9d34160f865b6",
+      "commands": 6144,
+      "semantics": "one fixed-size ORAM record per source command start key (ASU,LBA); temporal locality replay",
+      "restrictions": [
+        "not full block-device replay",
+        "source lengths not expanded or charged as ORAM useful bytes",
+        "timestamps not used for pacing",
+        "bijective randomized mapping preserves repeated-key equality, not physical spatial distances",
+        "no modulo folding; source LBA byte unit not assumed"
+      ]
+    }
+  ],
+  "raw_hashes": {
+    "datasets\\raw\\Financial1.spc.bz2": "0c40999c48102f5f0b6a33c754e2d766bd4b5d1578b07a7323b4580bf4c132a5",
+    "datasets\\raw\\WebSearch1.spc.bz2": "af0fdbd26834387c8b8ad3d5052c8a1310136a1fd3514f00f663726bd679b15a"
+  },
+  "plan_sha256": "ef71a373c070214ecd15181fd4bcdacd54ee627538772d57ab19d8101a08e526",
+  "auditor_sha256": "a4090d09512fd69aa9546133f6018dd5c20a75d2eda3916745d0ab517ab514d2",
+  "helper_sha256": "271d7d1909d51d2205a3052200dcef37b1e5180a3dbc273415bcf317931eaf49",
+  "source_runtime": {
+    "core": {
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\common.py": "16477ef2a8b073471329565b1dad6b69cb0aa84f82dda5c2c824cc0f0cfc736d",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\meter.py": "e21eb67465ff29545d6459dc2893299857120e36e6a12b8878fedee53d56d077",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\workloads.py": "1a23687ebe8fc74bd5dea88356be30bf327b2ea49331be602a16dd4a2ede4496",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_core.py": "2acd345945fdeae8868a0298eadedeef5b84f4b4df21939f8047cc0d515eed78",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\compare_profiles.py": "a627c9b3a08c2e43770372cb10b0259e2ff3ac923047b89e72129ed9df3a632a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fair_baseline_tests.py": "14fad5126b147f5da0fe87287f8f7fdf729895fce35cf4664aa2e52043a42b17",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\fused_logical.py": "260c4e6e1dfb48d977ed90888405276f402fe5d6fc54eae154adc4db23435d7a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\new_profile_tests.py": "ef6ef42122705cdaa2ea69aeed7ee4fc554f0cb0bf3a67683ecb360db48d694a",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_cost.py": "2980ecf3fde7b6a29048b40432ada49743015710fe4d8879fedacb3fc80ca6b6",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_gate.py": "a86cba85903d6ea8913603bcacf27b65e3c65dd2e6d77f3ca2f39003d3c6030b",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\optimized_oram.py": "7e6b76d95beecebb862f55efdc3d83b655a87a10378c3c396db5c23947f36644",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\structural_and_gate_tests.py": "6a39cff67e43184f6f4aeda42fd84cbc8fb5996137be50947dae5479abe41d20",
+      "SOC3_audit_2026-09-15\\research_20260914\\optimization_v1\\src\\variant_tests.py": "6e8b2f883c6f3b9cba5fbe7f5a6e399156737934fc16f74096673b20aa9623cf"
+    },
+    "composition": {
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\frontends.py": "9a0e4eac496ff188bcca2c780c8613b5e8738c544516a6094ca1cadab7ad59e4",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\组合协议推进_2026-09-15\\src\\transfer_backend.py": "34d593fa1dee61f412fce3a11269d1e05e0e5f2c893107a436d5d53c73be4ff7",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\composition_runtime.py": "f00534055545cf47a8e39c657f2ba392864d9895a55fa6bb8bf8a733e7a492cb",
+      "TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_composition.py": "2d979c9682b3053b4276671b2a40e48f0a90479d06c6ec416dfbb7ce266d85a2"
+    },
+    "extended_adapter": {
+      "run_extended_composition.py": "3407c9375b553346c428a34d4a39d5aeaa669ead5a804ae34087322cea8db37d",
+      "public_trace.py": "9a5b4b42132108d5bd951c3be42af4dc427e95bf16c99119a8219a30fb61a1bd",
+      "fast_prf.py": "910f2a4deb1ece922c2ab51d6031d1a966e604e9a2101d90e619f0c4cc7b4d84",
+      "transfer_backend_fixed.py": "6adc12ca99d32a2628f14a1fdac557eda95161fc2851ee11019d4f2b7526bb18"
+    }
+  },
+  "statistical_unit": "five preselected adjacent window/seed pairs per workload; mean and observed range, no iid CI",
+  "security_proof": false,
+  "native_full_system": false,
+  "latency_claim": false,
+  "full_paper_complete": false
+}

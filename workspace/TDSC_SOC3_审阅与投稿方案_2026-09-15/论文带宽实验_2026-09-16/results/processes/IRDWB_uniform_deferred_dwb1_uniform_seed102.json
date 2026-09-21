@@ -1,0 +1,42 @@
+{
+  "pid": 55548,
+  "parent_pid": 22552,
+  "command": [
+    "C:\\Users\\12038\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\src\\run_ir_dwb.py",
+    "--spec",
+    "D:\\projects\\SDE-R0\\TDSC_SOC3_审阅与投稿方案_2026-09-15\\论文带宽实验_2026-09-16\\specs\\IRDWB_uniform_deferred_dwb1_uniform_seed102.json"
+  ],
+  "spec": {
+    "id": "IRDWB_uniform_deferred_dwb1_uniform_seed102",
+    "kind": "deferred",
+    "N": 4096,
+    "B": 64,
+    "X": 16,
+    "profile": [
+      4,
+      3,
+      3
+    ],
+    "R": 480,
+    "cached_levels": 6,
+    "Z_by_depth": [],
+    "plb": 8,
+    "llc_sets": 8,
+    "llc_ways": 2,
+    "layout": "uniform",
+    "dwb": true,
+    "warmup": 128,
+    "requests": 256,
+    "arrival_gap": 8,
+    "slots_per_request": 8,
+    "trace_seed": 102,
+    "oram_seed": 1002,
+    "workload": "uniform",
+    "experiment_class": "formal_ir_dwb"
+  },
+  "started": 1789509690.2354515
+}

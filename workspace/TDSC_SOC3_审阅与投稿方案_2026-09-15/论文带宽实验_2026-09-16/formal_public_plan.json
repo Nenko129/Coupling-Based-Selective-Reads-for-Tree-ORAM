@@ -1,0 +1,2247 @@
+{
+  "items": [
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_deferred_seed101",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "50140a41c6955f7b3cc365b18aa68db77e35ffff9cfde2826b9d7127ede4a7f4",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_sde_seed101",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "50140a41c6955f7b3cc365b18aa68db77e35ffff9cfde2826b9d7127ede4a7f4",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_ring_seed101",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "50140a41c6955f7b3cc365b18aa68db77e35ffff9cfde2826b9d7127ede4a7f4",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_r0_seed101",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "50140a41c6955f7b3cc365b18aa68db77e35ffff9cfde2826b9d7127ede4a7f4",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_deferred_seed101",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "50140a41c6955f7b3cc365b18aa68db77e35ffff9cfde2826b9d7127ede4a7f4",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_sde_seed101",
+        "family": "rho",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "50140a41c6955f7b3cc365b18aa68db77e35ffff9cfde2826b9d7127ede4a7f4",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_ring_seed101",
+        "family": "rho",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "50140a41c6955f7b3cc365b18aa68db77e35ffff9cfde2826b9d7127ede4a7f4",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_r0_seed101",
+        "family": "rho",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "50140a41c6955f7b3cc365b18aa68db77e35ffff9cfde2826b9d7127ede4a7f4",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_deferred_seed102",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "b39b54d7f4b2b7d20af4951efbab50b70380a72d4d29acc7ce3c81f024655040",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_sde_seed102",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "b39b54d7f4b2b7d20af4951efbab50b70380a72d4d29acc7ce3c81f024655040",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_ring_seed102",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "b39b54d7f4b2b7d20af4951efbab50b70380a72d4d29acc7ce3c81f024655040",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_r0_seed102",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "b39b54d7f4b2b7d20af4951efbab50b70380a72d4d29acc7ce3c81f024655040",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_deferred_seed102",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "b39b54d7f4b2b7d20af4951efbab50b70380a72d4d29acc7ce3c81f024655040",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_sde_seed102",
+        "family": "rho",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "b39b54d7f4b2b7d20af4951efbab50b70380a72d4d29acc7ce3c81f024655040",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_ring_seed102",
+        "family": "rho",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "b39b54d7f4b2b7d20af4951efbab50b70380a72d4d29acc7ce3c81f024655040",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_r0_seed102",
+        "family": "rho",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "b39b54d7f4b2b7d20af4951efbab50b70380a72d4d29acc7ce3c81f024655040",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_deferred_seed103",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "a6b3280289a2f78eeb83063cb636614bfadaa68db46303f9c4e8a918e3e46a8a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_sde_seed103",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "a6b3280289a2f78eeb83063cb636614bfadaa68db46303f9c4e8a918e3e46a8a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_ring_seed103",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "a6b3280289a2f78eeb83063cb636614bfadaa68db46303f9c4e8a918e3e46a8a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_r0_seed103",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "a6b3280289a2f78eeb83063cb636614bfadaa68db46303f9c4e8a918e3e46a8a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_deferred_seed103",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "a6b3280289a2f78eeb83063cb636614bfadaa68db46303f9c4e8a918e3e46a8a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_sde_seed103",
+        "family": "rho",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "a6b3280289a2f78eeb83063cb636614bfadaa68db46303f9c4e8a918e3e46a8a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_ring_seed103",
+        "family": "rho",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "a6b3280289a2f78eeb83063cb636614bfadaa68db46303f9c4e8a918e3e46a8a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_r0_seed103",
+        "family": "rho",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "a6b3280289a2f78eeb83063cb636614bfadaa68db46303f9c4e8a918e3e46a8a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_deferred_seed104",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "7915e1e15ce07f032f24707f227be0e9443b992be721004f951776572f17cd6a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_sde_seed104",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "7915e1e15ce07f032f24707f227be0e9443b992be721004f951776572f17cd6a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_ring_seed104",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "7915e1e15ce07f032f24707f227be0e9443b992be721004f951776572f17cd6a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_r0_seed104",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "7915e1e15ce07f032f24707f227be0e9443b992be721004f951776572f17cd6a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_deferred_seed104",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "7915e1e15ce07f032f24707f227be0e9443b992be721004f951776572f17cd6a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_sde_seed104",
+        "family": "rho",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "7915e1e15ce07f032f24707f227be0e9443b992be721004f951776572f17cd6a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_ring_seed104",
+        "family": "rho",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "7915e1e15ce07f032f24707f227be0e9443b992be721004f951776572f17cd6a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_r0_seed104",
+        "family": "rho",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "7915e1e15ce07f032f24707f227be0e9443b992be721004f951776572f17cd6a",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_deferred_seed105",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "be5a36c4c10931e37b65ada518f4bbf4353a2d66f3b8ca13c23aaaf88f0ceb41",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_sde_seed105",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "be5a36c4c10931e37b65ada518f4bbf4353a2d66f3b8ca13c23aaaf88f0ceb41",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_ring_seed105",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "be5a36c4c10931e37b65ada518f4bbf4353a2d66f3b8ca13c23aaaf88f0ceb41",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_free_compressed_r0_seed105",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "be5a36c4c10931e37b65ada518f4bbf4353a2d66f3b8ca13c23aaaf88f0ceb41",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_deferred_seed105",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "be5a36c4c10931e37b65ada518f4bbf4353a2d66f3b8ca13c23aaaf88f0ceb41",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_sde_seed105",
+        "family": "rho",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "be5a36c4c10931e37b65ada518f4bbf4353a2d66f3b8ca13c23aaaf88f0ceb41",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_ring_seed105",
+        "family": "rho",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "be5a36c4c10931e37b65ada518f4bbf4353a2d66f3b8ca13c23aaaf88f0ceb41",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_Financial1_rho_r0_seed105",
+        "family": "rho",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "Financial1_startkey",
+        "trace_file": "datasets\\prepared\\Financial1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "be5a36c4c10931e37b65ada518f4bbf4353a2d66f3b8ca13c23aaaf88f0ceb41",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_deferred_seed101",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "2da3198a7816fb768c4b6ec6cb6451a39e7fe9b5e0357fdcf7b5bef71635afc3",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_sde_seed101",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "2da3198a7816fb768c4b6ec6cb6451a39e7fe9b5e0357fdcf7b5bef71635afc3",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_ring_seed101",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "2da3198a7816fb768c4b6ec6cb6451a39e7fe9b5e0357fdcf7b5bef71635afc3",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_r0_seed101",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "2da3198a7816fb768c4b6ec6cb6451a39e7fe9b5e0357fdcf7b5bef71635afc3",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_deferred_seed101",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "2da3198a7816fb768c4b6ec6cb6451a39e7fe9b5e0357fdcf7b5bef71635afc3",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_sde_seed101",
+        "family": "rho",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "2da3198a7816fb768c4b6ec6cb6451a39e7fe9b5e0357fdcf7b5bef71635afc3",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_ring_seed101",
+        "family": "rho",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "2da3198a7816fb768c4b6ec6cb6451a39e7fe9b5e0357fdcf7b5bef71635afc3",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_r0_seed101",
+        "family": "rho",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 101,
+        "oram_seed": 1001,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed101.json",
+        "trace_file_sha256": "2da3198a7816fb768c4b6ec6cb6451a39e7fe9b5e0357fdcf7b5bef71635afc3",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_deferred_seed102",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "32893680920d2f5bdf6f46404a3e26fc2bd9b406d4bca22a9578885ed2d03e26",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_sde_seed102",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "32893680920d2f5bdf6f46404a3e26fc2bd9b406d4bca22a9578885ed2d03e26",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_ring_seed102",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "32893680920d2f5bdf6f46404a3e26fc2bd9b406d4bca22a9578885ed2d03e26",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_r0_seed102",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "32893680920d2f5bdf6f46404a3e26fc2bd9b406d4bca22a9578885ed2d03e26",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_deferred_seed102",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "32893680920d2f5bdf6f46404a3e26fc2bd9b406d4bca22a9578885ed2d03e26",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_sde_seed102",
+        "family": "rho",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "32893680920d2f5bdf6f46404a3e26fc2bd9b406d4bca22a9578885ed2d03e26",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_ring_seed102",
+        "family": "rho",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "32893680920d2f5bdf6f46404a3e26fc2bd9b406d4bca22a9578885ed2d03e26",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_r0_seed102",
+        "family": "rho",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 102,
+        "oram_seed": 1002,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed102.json",
+        "trace_file_sha256": "32893680920d2f5bdf6f46404a3e26fc2bd9b406d4bca22a9578885ed2d03e26",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_deferred_seed103",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "d5b45aa7f189be7d8edf51012f4f5806e67cf5ee40b35a0a0c805853426789d6",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_sde_seed103",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "d5b45aa7f189be7d8edf51012f4f5806e67cf5ee40b35a0a0c805853426789d6",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_ring_seed103",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "d5b45aa7f189be7d8edf51012f4f5806e67cf5ee40b35a0a0c805853426789d6",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_r0_seed103",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "d5b45aa7f189be7d8edf51012f4f5806e67cf5ee40b35a0a0c805853426789d6",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_deferred_seed103",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "d5b45aa7f189be7d8edf51012f4f5806e67cf5ee40b35a0a0c805853426789d6",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_sde_seed103",
+        "family": "rho",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "d5b45aa7f189be7d8edf51012f4f5806e67cf5ee40b35a0a0c805853426789d6",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_ring_seed103",
+        "family": "rho",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "d5b45aa7f189be7d8edf51012f4f5806e67cf5ee40b35a0a0c805853426789d6",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_r0_seed103",
+        "family": "rho",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 103,
+        "oram_seed": 1003,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed103.json",
+        "trace_file_sha256": "d5b45aa7f189be7d8edf51012f4f5806e67cf5ee40b35a0a0c805853426789d6",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_deferred_seed104",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "c6eeb76f6cb80e7bb5886b02a47b75bc4cc03eb2e8a5650b82fd3787f02c83ad",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_sde_seed104",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "c6eeb76f6cb80e7bb5886b02a47b75bc4cc03eb2e8a5650b82fd3787f02c83ad",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_ring_seed104",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "c6eeb76f6cb80e7bb5886b02a47b75bc4cc03eb2e8a5650b82fd3787f02c83ad",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_r0_seed104",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "c6eeb76f6cb80e7bb5886b02a47b75bc4cc03eb2e8a5650b82fd3787f02c83ad",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_deferred_seed104",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "c6eeb76f6cb80e7bb5886b02a47b75bc4cc03eb2e8a5650b82fd3787f02c83ad",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_sde_seed104",
+        "family": "rho",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "c6eeb76f6cb80e7bb5886b02a47b75bc4cc03eb2e8a5650b82fd3787f02c83ad",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_ring_seed104",
+        "family": "rho",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "c6eeb76f6cb80e7bb5886b02a47b75bc4cc03eb2e8a5650b82fd3787f02c83ad",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_r0_seed104",
+        "family": "rho",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 104,
+        "oram_seed": 1004,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed104.json",
+        "trace_file_sha256": "c6eeb76f6cb80e7bb5886b02a47b75bc4cc03eb2e8a5650b82fd3787f02c83ad",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_deferred_seed105",
+        "family": "free_compressed",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "89be1b84961feb04530248506745e6b38a2d18f9dcc6489b8656634baf94f065",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_sde_seed105",
+        "family": "free_compressed",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "89be1b84961feb04530248506745e6b38a2d18f9dcc6489b8656634baf94f065",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_ring_seed105",
+        "family": "free_compressed",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "89be1b84961feb04530248506745e6b38a2d18f9dcc6489b8656634baf94f065",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_free_compressed_r0_seed105",
+        "family": "free_compressed",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "89be1b84961feb04530248506745e6b38a2d18f9dcc6489b8656634baf94f065",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_deferred_seed105",
+        "family": "rho",
+        "kind": "deferred",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "89be1b84961feb04530248506745e6b38a2d18f9dcc6489b8656634baf94f065",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_sde_seed105",
+        "family": "rho",
+        "kind": "sde",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "89be1b84961feb04530248506745e6b38a2d18f9dcc6489b8656634baf94f065",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_ring_seed105",
+        "family": "rho",
+        "kind": "ring",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "89be1b84961feb04530248506745e6b38a2d18f9dcc6489b8656634baf94f065",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    },
+    {
+      "spec": {
+        "id": "PUB_WebSearch1_rho_r0_seed105",
+        "family": "rho",
+        "kind": "r0",
+        "N": 16384,
+        "B": 64,
+        "profile": [
+          4,
+          3,
+          4
+        ],
+        "plb": 8,
+        "llc": 32,
+        "rho": 128,
+        "R": 256,
+        "warmup": 2048,
+        "requests": 4096,
+        "trace_seed": 105,
+        "oram_seed": 1005,
+        "workload": "WebSearch1_startkey",
+        "trace_file": "datasets\\prepared\\WebSearch1_startkey_N16384_seed105.json",
+        "trace_file_sha256": "89be1b84961feb04530248506745e6b38a2d18f9dcc6489b8656634baf94f065",
+        "study": "public_temporal_locality",
+        "experiment_class": "formal_public"
+      },
+      "entry": "composition"
+    }
+  ],
+  "source_window_audit_sha256": "7d565b798ba5c2c1838aff30617b9de51eea9371ee2e1a5216fffb86ac692617",
+  "statistical_unit": "five preselected adjacent window/seed pairs; show paired mean and range, not an iid workload-population CI",
+  "design": "trace locality evaluated where caches matter: Freecursive and rho components; source commands are not split into device blocks"
+}

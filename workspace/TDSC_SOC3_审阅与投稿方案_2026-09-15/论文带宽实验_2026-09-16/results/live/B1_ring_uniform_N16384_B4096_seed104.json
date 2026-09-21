@@ -1,0 +1,8 @@
+{
+  "id": "B1_ring_uniform_N16384_B4096_seed104",
+  "pid": 36880,
+  "stage": "passed",
+  "time": 1789516434.4375622,
+  "receipt": "results\\formal_core\\B1_ring_uniform_N16384_B4096_seed104.json",
+  "elapsed_seconds": 648.9358580112457
+}

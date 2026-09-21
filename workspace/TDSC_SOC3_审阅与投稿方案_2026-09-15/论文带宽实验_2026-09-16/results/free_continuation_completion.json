@@ -1,0 +1,901 @@
+{
+  "rows": [
+    {
+      "id": "C_free_raw_deferred_uniform_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_sde_uniform_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_ring_uniform_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_r0_uniform_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_sde_uniform_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_deferred_uniform_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_r0_uniform_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_ring_uniform_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_deferred_hot90_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_sde_hot90_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_ring_hot90_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_r0_hot90_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_deferred_hot90_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_sde_hot90_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_ring_hot90_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_r0_hot90_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_deferred_zipf09_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_sde_zipf09_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_ring_zipf09_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_r0_zipf09_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_deferred_zipf09_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_sde_zipf09_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_ring_zipf09_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_r0_zipf09_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_deferred_scan_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_sde_scan_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_ring_scan_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_r0_scan_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_deferred_scan_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_sde_scan_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_ring_scan_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_compressed_r0_scan_N4096_B64_seed101",
+      "status": "reused"
+    },
+    {
+      "id": "C_free_raw_sde_uniform_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 58.81998610496521,
+      "bytes_per_request": 38352.833984375
+    },
+    {
+      "id": "C_free_raw_deferred_uniform_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 74.96422505378723,
+      "bytes_per_request": 49107.36328125
+    },
+    {
+      "id": "C_free_raw_r0_uniform_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 107.11698365211487,
+      "bytes_per_request": 54982.97265625
+    },
+    {
+      "id": "C_free_raw_ring_uniform_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 139.38415575027466,
+      "bytes_per_request": 72829.6953125
+    },
+    {
+      "id": "C_free_compressed_deferred_uniform_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 70.92612862586975,
+      "bytes_per_request": 41054.19921875
+    },
+    {
+      "id": "C_free_compressed_sde_uniform_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 55.330639362335205,
+      "bytes_per_request": 32075.947265625
+    },
+    {
+      "id": "C_free_compressed_r0_uniform_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 98.01917862892151,
+      "bytes_per_request": 45984.5234375
+    },
+    {
+      "id": "C_free_compressed_ring_uniform_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 128.40737462043762,
+      "bytes_per_request": 60931.71484375
+    },
+    {
+      "id": "C_free_raw_deferred_hot90_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 82.424396276474,
+      "bytes_per_request": 46157.5390625
+    },
+    {
+      "id": "C_free_raw_sde_hot90_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 63.83349585533142,
+      "bytes_per_request": 36076.978515625
+    },
+    {
+      "id": "C_free_raw_r0_hot90_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 109.02840304374695,
+      "bytes_per_request": 51719.484375
+    },
+    {
+      "id": "C_free_raw_ring_hot90_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 143.35180401802063,
+      "bytes_per_request": 68476.59765625
+    },
+    {
+      "id": "C_free_compressed_deferred_hot90_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 71.1622531414032,
+      "bytes_per_request": 39029.82421875
+    },
+    {
+      "id": "C_free_compressed_sde_hot90_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 56.702290058135986,
+      "bytes_per_request": 30539.80859375
+    },
+    {
+      "id": "C_free_compressed_r0_hot90_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 95.77022123336792,
+      "bytes_per_request": 43775.828125
+    },
+    {
+      "id": "C_free_compressed_ring_hot90_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 125.9477014541626,
+      "bytes_per_request": 57865.71875
+    },
+    {
+      "id": "C_free_raw_deferred_zipf09_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 85.07752466201782,
+      "bytes_per_request": 47972.94921875
+    },
+    {
+      "id": "C_free_raw_sde_zipf09_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 66.38228964805603,
+      "bytes_per_request": 37444.853515625
+    },
+    {
+      "id": "C_free_raw_r0_zipf09_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 111.8004903793335,
+      "bytes_per_request": 53670.40625
+    },
+    {
+      "id": "C_free_raw_ring_zipf09_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 148.41967177391052,
+      "bytes_per_request": 71145.90625
+    },
+    {
+      "id": "C_free_compressed_deferred_zipf09_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 73.32559657096863,
+      "bytes_per_request": 40180.0
+    },
+    {
+      "id": "C_free_compressed_sde_zipf09_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 57.84961462020874,
+      "bytes_per_request": 31391.390625
+    },
+    {
+      "id": "C_free_compressed_r0_zipf09_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 98.59507250785828,
+      "bytes_per_request": 45015.46484375
+    },
+    {
+      "id": "C_free_compressed_ring_zipf09_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 127.78424119949341,
+      "bytes_per_request": 59616.109375
+    },
+    {
+      "id": "C_free_raw_deferred_scan_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 44.37639021873474,
+      "bytes_per_request": 18722.01171875
+    },
+    {
+      "id": "C_free_raw_sde_scan_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 35.6064293384552,
+      "bytes_per_request": 14644.4296875
+    },
+    {
+      "id": "C_free_raw_r0_scan_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 59.3188853263855,
+      "bytes_per_request": 20953.1796875
+    },
+    {
+      "id": "C_free_raw_ring_scan_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 77.18581128120422,
+      "bytes_per_request": 27720.5625
+    },
+    {
+      "id": "C_free_compressed_deferred_scan_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 42.99801564216614,
+      "bytes_per_request": 18071.5234375
+    },
+    {
+      "id": "C_free_compressed_sde_scan_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 34.34708118438721,
+      "bytes_per_request": 14103.78125
+    },
+    {
+      "id": "C_free_compressed_r0_scan_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 57.58134865760803,
+      "bytes_per_request": 20185.984375
+    },
+    {
+      "id": "C_free_compressed_ring_scan_N4096_B64_seed102",
+      "status": "passed",
+      "seconds": 75.01675939559937,
+      "bytes_per_request": 26781.34765625
+    },
+    {
+      "id": "C_free_raw_sde_uniform_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 67.21845388412476,
+      "bytes_per_request": 38186.251953125
+    },
+    {
+      "id": "C_free_raw_deferred_uniform_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 86.77066206932068,
+      "bytes_per_request": 48841.25
+    },
+    {
+      "id": "C_free_raw_r0_uniform_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 114.56946539878845,
+      "bytes_per_request": 54709.12890625
+    },
+    {
+      "id": "C_free_raw_ring_uniform_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 149.8055441379547,
+      "bytes_per_request": 72416.4296875
+    },
+    {
+      "id": "C_free_compressed_deferred_uniform_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 75.31720352172852,
+      "bytes_per_request": 40894.55078125
+    },
+    {
+      "id": "C_free_compressed_sde_uniform_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 58.37584614753723,
+      "bytes_per_request": 31964.8203125
+    },
+    {
+      "id": "C_free_compressed_r0_uniform_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 99.48533129692078,
+      "bytes_per_request": 45844.16015625
+    },
+    {
+      "id": "C_free_compressed_ring_uniform_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 131.28794527053833,
+      "bytes_per_request": 60719.59375
+    },
+    {
+      "id": "C_free_raw_deferred_hot90_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 84.51961922645569,
+      "bytes_per_request": 46237.36328125
+    },
+    {
+      "id": "C_free_raw_sde_hot90_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 66.95680260658264,
+      "bytes_per_request": 36193.060546875
+    },
+    {
+      "id": "C_free_raw_r0_hot90_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 112.66159772872925,
+      "bytes_per_request": 51868.69921875
+    },
+    {
+      "id": "C_free_raw_ring_hot90_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 148.1661696434021,
+      "bytes_per_request": 68588.20703125
+    },
+    {
+      "id": "C_free_compressed_deferred_hot90_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 78.78449201583862,
+      "bytes_per_request": 39068.26171875
+    },
+    {
+      "id": "C_free_compressed_sde_hot90_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 62.00372910499573,
+      "bytes_per_request": 30533.634765625
+    },
+    {
+      "id": "C_free_compressed_r0_hot90_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 102.81108021736145,
+      "bytes_per_request": 43751.26171875
+    },
+    {
+      "id": "C_free_compressed_ring_hot90_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 134.93801927566528,
+      "bytes_per_request": 57902.9140625
+    },
+    {
+      "id": "C_free_raw_sde_zipf09_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 72.44030928611755,
+      "bytes_per_request": 37366.416015625
+    },
+    {
+      "id": "C_free_raw_deferred_zipf09_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 91.94912648200989,
+      "bytes_per_request": 47780.76171875
+    },
+    {
+      "id": "C_free_raw_r0_zipf09_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 121.02378582954407,
+      "bytes_per_request": 53549.578125
+    },
+    {
+      "id": "C_free_raw_ring_zipf09_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 159.5494260787964,
+      "bytes_per_request": 70888.65234375
+    },
+    {
+      "id": "C_free_compressed_deferred_zipf09_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 78.53985404968262,
+      "bytes_per_request": 40039.0625
+    },
+    {
+      "id": "C_free_compressed_sde_zipf09_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 60.24504995346069,
+      "bytes_per_request": 31329.189453125
+    },
+    {
+      "id": "C_free_compressed_r0_zipf09_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 90.8601462841034,
+      "bytes_per_request": 44909.62109375
+    },
+    {
+      "id": "C_free_compressed_ring_zipf09_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 119.66828751564026,
+      "bytes_per_request": 59443.41796875
+    },
+    {
+      "id": "C_free_raw_deferred_scan_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 39.02659273147583,
+      "bytes_per_request": 18722.01171875
+    },
+    {
+      "id": "C_free_raw_sde_scan_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 31.32082223892212,
+      "bytes_per_request": 14639.453125
+    },
+    {
+      "id": "C_free_raw_r0_scan_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 52.38502478599548,
+      "bytes_per_request": 20942.8125
+    },
+    {
+      "id": "C_free_raw_ring_scan_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 67.79753041267395,
+      "bytes_per_request": 27774.1171875
+    },
+    {
+      "id": "C_free_compressed_deferred_scan_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 37.79235768318176,
+      "bytes_per_request": 18071.5234375
+    },
+    {
+      "id": "C_free_compressed_sde_scan_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 29.78846549987793,
+      "bytes_per_request": 14133.107421875
+    },
+    {
+      "id": "C_free_compressed_r0_scan_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 50.502846240997314,
+      "bytes_per_request": 20232.97265625
+    },
+    {
+      "id": "C_free_compressed_ring_scan_N4096_B64_seed103",
+      "status": "passed",
+      "seconds": 66.0964777469635,
+      "bytes_per_request": 26812.203125
+    },
+    {
+      "id": "C_free_raw_sde_uniform_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 59.2737979888916,
+      "bytes_per_request": 38255.958984375
+    },
+    {
+      "id": "C_free_raw_deferred_uniform_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 75.1130530834198,
+      "bytes_per_request": 48953.61328125
+    },
+    {
+      "id": "C_free_raw_r0_uniform_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 100.59011101722717,
+      "bytes_per_request": 54891.7578125
+    },
+    {
+      "id": "C_free_raw_ring_uniform_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 131.39191317558289,
+      "bytes_per_request": 72666.54296875
+    },
+    {
+      "id": "C_free_compressed_deferred_uniform_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 61.17557382583618,
+      "bytes_per_request": 40769.375
+    },
+    {
+      "id": "C_free_compressed_sde_uniform_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 47.92498803138733,
+      "bytes_per_request": 31871.9921875
+    },
+    {
+      "id": "C_free_compressed_r0_uniform_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 80.60977029800415,
+      "bytes_per_request": 45733.640625
+    },
+    {
+      "id": "C_free_compressed_ring_uniform_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 105.53632378578186,
+      "bytes_per_request": 60511.52734375
+    },
+    {
+      "id": "C_free_raw_sde_hot90_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 51.32275629043579,
+      "bytes_per_request": 36476.263671875
+    },
+    {
+      "id": "C_free_raw_deferred_hot90_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 65.14631795883179,
+      "bytes_per_request": 46650.3125
+    },
+    {
+      "id": "C_free_raw_r0_hot90_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 82.30333304405212,
+      "bytes_per_request": 52303.203125
+    },
+    {
+      "id": "C_free_raw_ring_hot90_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 108.20948338508606,
+      "bytes_per_request": 69249.1015625
+    },
+    {
+      "id": "C_free_compressed_deferred_hot90_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 52.233352184295654,
+      "bytes_per_request": 39142.1875
+    },
+    {
+      "id": "C_free_compressed_sde_hot90_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 41.161258697509766,
+      "bytes_per_request": 30596.71875
+    },
+    {
+      "id": "C_free_compressed_r0_hot90_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 70.0257306098938,
+      "bytes_per_request": 43903.33203125
+    },
+    {
+      "id": "C_free_compressed_ring_hot90_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 91.36865091323853,
+      "bytes_per_request": 58130.6796875
+    },
+    {
+      "id": "C_free_raw_sde_zipf09_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 48.4981906414032,
+      "bytes_per_request": 37325.650390625
+    },
+    {
+      "id": "C_free_raw_deferred_zipf09_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 61.04240798950195,
+      "bytes_per_request": 47749.23828125
+    },
+    {
+      "id": "C_free_raw_r0_zipf09_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 86.81568717956543,
+      "bytes_per_request": 53487.34765625
+    },
+    {
+      "id": "C_free_raw_ring_zipf09_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 112.86056590080261,
+      "bytes_per_request": 70846.875
+    },
+    {
+      "id": "C_free_compressed_deferred_zipf09_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 53.71400690078735,
+      "bytes_per_request": 39849.82421875
+    },
+    {
+      "id": "C_free_compressed_sde_zipf09_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 42.19429087638855,
+      "bytes_per_request": 31158.791015625
+    },
+    {
+      "id": "C_free_compressed_r0_zipf09_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 75.38734412193298,
+      "bytes_per_request": 44657.41796875
+    },
+    {
+      "id": "C_free_compressed_ring_zipf09_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 98.06680941581726,
+      "bytes_per_request": 59113.0859375
+    },
+    {
+      "id": "C_free_raw_deferred_scan_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 33.904865741729736,
+      "bytes_per_request": 18722.01171875
+    },
+    {
+      "id": "C_free_raw_sde_scan_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 26.899576902389526,
+      "bytes_per_request": 14654.02734375
+    },
+    {
+      "id": "C_free_raw_r0_scan_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 43.770363092422485,
+      "bytes_per_request": 20962.4296875
+    },
+    {
+      "id": "C_free_raw_ring_scan_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 57.74518275260925,
+      "bytes_per_request": 27734.71484375
+    },
+    {
+      "id": "C_free_compressed_deferred_scan_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 31.76274561882019,
+      "bytes_per_request": 18071.5234375
+    },
+    {
+      "id": "C_free_compressed_sde_scan_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 25.091933250427246,
+      "bytes_per_request": 14110.357421875
+    },
+    {
+      "id": "C_free_compressed_r0_scan_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 42.322577238082886,
+      "bytes_per_request": 20192.6328125
+    },
+    {
+      "id": "C_free_compressed_ring_scan_N4096_B64_seed104",
+      "status": "passed",
+      "seconds": 56.69139742851257,
+      "bytes_per_request": 26776.21875
+    },
+    {
+      "id": "C_free_raw_sde_uniform_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 56.3577196598053,
+      "bytes_per_request": 38251.58984375
+    },
+    {
+      "id": "C_free_raw_deferred_uniform_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 71.30850219726562,
+      "bytes_per_request": 48930.9375
+    },
+    {
+      "id": "C_free_raw_r0_uniform_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 94.40839529037476,
+      "bytes_per_request": 54811.57421875
+    },
+    {
+      "id": "C_free_raw_ring_uniform_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 124.48245668411255,
+      "bytes_per_request": 72600.48828125
+    },
+    {
+      "id": "C_free_compressed_deferred_uniform_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 62.21266317367554,
+      "bytes_per_request": 40971.42578125
+    },
+    {
+      "id": "C_free_compressed_sde_uniform_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 49.085598945617676,
+      "bytes_per_request": 32010.236328125
+    },
+    {
+      "id": "C_free_compressed_r0_uniform_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 82.81256365776062,
+      "bytes_per_request": 45854.1484375
+    },
+    {
+      "id": "C_free_compressed_ring_uniform_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 108.51647329330444,
+      "bytes_per_request": 60758.3046875
+    },
+    {
+      "id": "C_free_raw_sde_hot90_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 53.75773215293884,
+      "bytes_per_request": 36337.904296875
+    },
+    {
+      "id": "C_free_raw_deferred_hot90_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 69.08944702148438,
+      "bytes_per_request": 46499.51171875
+    },
+    {
+      "id": "C_free_raw_r0_hot90_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 90.60506510734558,
+      "bytes_per_request": 52118.44140625
+    },
+    {
+      "id": "C_free_raw_ring_hot90_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 118.97728300094604,
+      "bytes_per_request": 68983.21484375
+    },
+    {
+      "id": "C_free_compressed_deferred_hot90_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 59.3186411857605,
+      "bytes_per_request": 39036.73828125
+    },
+    {
+      "id": "C_free_compressed_sde_hot90_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 46.7364935874939,
+      "bytes_per_request": 30516.685546875
+    },
+    {
+      "id": "C_free_compressed_r0_hot90_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 79.42481827735901,
+      "bytes_per_request": 43785.50390625
+    },
+    {
+      "id": "C_free_compressed_ring_hot90_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 105.1862313747406,
+      "bytes_per_request": 57923.16015625
+    },
+    {
+      "id": "C_free_raw_deferred_zipf09_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 69.8290467262268,
+      "bytes_per_request": 47928.61328125
+    },
+    {
+      "id": "C_free_raw_sde_zipf09_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 55.44577193260193,
+      "bytes_per_request": 37488.673828125
+    },
+    {
+      "id": "C_free_raw_r0_zipf09_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 93.64201283454895,
+      "bytes_per_request": 53710.00390625
+    },
+    {
+      "id": "C_free_raw_ring_zipf09_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 123.1918613910675,
+      "bytes_per_request": 71118.69140625
+    },
+    {
+      "id": "C_free_compressed_deferred_zipf09_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 60.89249539375305,
+      "bytes_per_request": 40106.07421875
+    },
+    {
+      "id": "C_free_compressed_sde_zipf09_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 47.95726037025452,
+      "bytes_per_request": 31368.65234375
+    },
+    {
+      "id": "C_free_compressed_r0_zipf09_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 81.26214075088501,
+      "bytes_per_request": 44936.36328125
+    },
+    {
+      "id": "C_free_compressed_ring_zipf09_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 106.42578673362732,
+      "bytes_per_request": 59489.8671875
+    },
+    {
+      "id": "C_free_raw_deferred_scan_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 37.02338242530823,
+      "bytes_per_request": 18722.01171875
+    },
+    {
+      "id": "C_free_raw_sde_scan_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 29.484462022781372,
+      "bytes_per_request": 14621.146484375
+    },
+    {
+      "id": "C_free_raw_r0_scan_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 49.737732887268066,
+      "bytes_per_request": 20952.2734375
+    },
+    {
+      "id": "C_free_raw_ring_scan_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 63.88191628456116,
+      "bytes_per_request": 27768.328125
+    },
+    {
+      "id": "C_free_compressed_deferred_scan_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 35.811121463775635,
+      "bytes_per_request": 18071.5234375
+    },
+    {
+      "id": "C_free_compressed_sde_scan_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 28.680379629135132,
+      "bytes_per_request": 14125.8203125
+    },
+    {
+      "id": "C_free_compressed_r0_scan_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 48.00043511390686,
+      "bytes_per_request": 20214.0234375
+    },
+    {
+      "id": "C_free_compressed_ring_scan_N4096_B64_seed105",
+      "status": "passed",
+      "seconds": 62.106290102005005,
+      "bytes_per_request": 26754.28515625
+    }
+  ],
+  "passed": true
+}
