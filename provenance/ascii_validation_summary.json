@@ -1,0 +1,122 @@
+{
+  "status": "passed",
+  "all_published_paths_ascii": true,
+  "unchanged_research_files": 8457,
+  "original_paper_text_modified": false,
+  "replay": {
+    "smoke": {
+      "mode": "smoke",
+      "integrity": {
+        "release_files": 8489,
+        "original_audit_files_checked": 231,
+        "declared_original_omissions": [
+          "receipts/relocated_evidence.zip",
+          "sources/baselines/path.pdf",
+          "sources/baselines/ring.pdf",
+          "sources/index.html",
+          "sources/README.md",
+          "sources/SDE_R0_\u5b8c\u6574\u6280\u672f\u62a5\u544a.pdf",
+          "sources/source_manifest.json"
+        ]
+      },
+      "replay_matches": "spec, trace, code hashes, answers, bytes, RPC",
+      "status": "passed",
+      "tasks": [
+        {
+          "label": "host-contract",
+          "returncode": 0,
+          "log": "host-contract.log"
+        },
+        {
+          "label": "frontend-reset",
+          "returncode": 0,
+          "log": "frontend-reset.log"
+        },
+        {
+          "label": "MIN_pilot_AB_depth_selective_B64_seed101",
+          "returncode": 0,
+          "log": "MIN_pilot_AB_depth_selective_B64_seed101.log"
+        },
+        {
+          "label": "MIN_pilot_free_compressed_sde_B64_seed101",
+          "returncode": 0,
+          "log": "MIN_pilot_free_compressed_sde_B64_seed101.log"
+        }
+      ],
+      "elapsed_seconds": 32.36319303512573
+    },
+    "statistics": {
+      "mode": "audit-results",
+      "integrity": {
+        "release_files": 8489,
+        "original_audit_files_checked": 231,
+        "declared_original_omissions": [
+          "receipts/relocated_evidence.zip",
+          "sources/baselines/path.pdf",
+          "sources/baselines/ring.pdf",
+          "sources/index.html",
+          "sources/README.md",
+          "sources/SDE_R0_\u5b8c\u6574\u6280\u672f\u62a5\u544a.pdf",
+          "sources/source_manifest.json"
+        ]
+      },
+      "status": "passed",
+      "tasks": [
+        {
+          "label": "audit_completed_core_components.py",
+          "returncode": 0,
+          "log": "audit_completed_core_components.py.log"
+        },
+        {
+          "label": "audit_completed_ablation.py",
+          "returncode": 0,
+          "log": "audit_completed_ablation.py.log"
+        },
+        {
+          "label": "audit_tuned_reference.py",
+          "returncode": 0,
+          "log": "audit_tuned_reference.py.log"
+        },
+        {
+          "label": "minimal-statistics",
+          "returncode": 0,
+          "log": "minimal-statistics.log"
+        }
+      ],
+      "elapsed_seconds": 23.98914384841919
+    },
+    "core_quick": {
+      "mode": "core-quick",
+      "integrity": {
+        "release_files": 8489,
+        "original_audit_files_checked": 231,
+        "declared_original_omissions": [
+          "receipts/relocated_evidence.zip",
+          "sources/baselines/path.pdf",
+          "sources/baselines/ring.pdf",
+          "sources/index.html",
+          "sources/README.md",
+          "sources/SDE_R0_\u5b8c\u6574\u6280\u672f\u62a5\u544a.pdf",
+          "sources/source_manifest.json"
+        ]
+      },
+      "status": "passed",
+      "tasks": [
+        {
+          "label": "core-quick",
+          "returncode": 0,
+          "log": "core-quick.log"
+        }
+      ],
+      "elapsed_seconds": 121.54235243797302
+    }
+  },
+  "nested_archives": [
+    {
+      "archive": "workspace/SOC3_audit_2026-09-15/provenance/SOC3_received.zip",
+      "members": 56,
+      "all_ascii": true
+    }
+  ],
+  "note": "Historical source strings and document contents are retained; temporary replay directories restore original names outside the repository."
+}

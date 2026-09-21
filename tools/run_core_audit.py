@@ -7,7 +7,7 @@ from pathlib import Path
 import sys,json
 from reproduce import ROOT,verify
 report={'integrity':verify()}
-sys.path.insert(0,str(ROOT/'workspace/SOC3_audit_2026-09-15/audit'))
+sys.path.insert(0,str(Path(sys.argv[3])/'SOC3_audit_2026-09-15/audit'))
 import fusion,integrated,numerical
 out=Path(sys.argv[2]);out.mkdir(parents=True)
 report['original_identities']=integrated.identities()

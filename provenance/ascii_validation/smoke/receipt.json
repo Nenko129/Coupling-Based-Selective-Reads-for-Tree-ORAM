@@ -1,0 +1,41 @@
+{
+  "mode": "smoke",
+  "integrity": {
+    "release_files": 8489,
+    "original_audit_files_checked": 231,
+    "declared_original_omissions": [
+      "receipts/relocated_evidence.zip",
+      "sources/baselines/path.pdf",
+      "sources/baselines/ring.pdf",
+      "sources/index.html",
+      "sources/README.md",
+      "sources/SDE_R0_\u5b8c\u6574\u6280\u672f\u62a5\u544a.pdf",
+      "sources/source_manifest.json"
+    ]
+  },
+  "replay_matches": "spec, trace, code hashes, answers, bytes, RPC",
+  "status": "passed",
+  "tasks": [
+    {
+      "label": "host-contract",
+      "returncode": 0,
+      "log": "host-contract.log"
+    },
+    {
+      "label": "frontend-reset",
+      "returncode": 0,
+      "log": "frontend-reset.log"
+    },
+    {
+      "label": "MIN_pilot_AB_depth_selective_B64_seed101",
+      "returncode": 0,
+      "log": "MIN_pilot_AB_depth_selective_B64_seed101.log"
+    },
+    {
+      "label": "MIN_pilot_free_compressed_sde_B64_seed101",
+      "returncode": 0,
+      "log": "MIN_pilot_free_compressed_sde_B64_seed101.log"
+    }
+  ],
+  "elapsed_seconds": 32.36319303512573
+}

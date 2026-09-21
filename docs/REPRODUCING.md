@@ -32,7 +32,7 @@ rebuilding is substantially more expensive than `core-quick`.
 The original specs are executable inputs. For example:
 
 ```sh
-python -B -X utf8 tools/reproduce.py replay-spec --out ../csoram-one-run --driver "TDSC_SOC3_审阅与投稿方案_2026-09-15/Selective_通用组合与投稿实验准备_2026-09-16/src/run_minimal.py" --spec "TDSC_SOC3_审阅与投稿方案_2026-09-15/Selective_通用组合与投稿实验准备_2026-09-16/specs/pilot/MIN_pilot_AB_depth_selective_B64_seed101.json"
+python -B -X utf8 tools/reproduce.py replay-spec --out ../csoram-one-run --driver "submission_study_2026-09-15/selective_composition_2026-09-16/src/run_minimal.py" --spec "submission_study_2026-09-15/selective_composition_2026-09-16/specs/pilot/MIN_pilot_AB_depth_selective_B64_seed101.json"
 ```
 
 Use `run_minimal.py` for minimal IR/AB specs and `run_frontend_minimal.py` for
@@ -45,7 +45,7 @@ For the broader bandwidth matrix, original plans and their dispatchers are in
 the bandwidth experiment directory. Several execution revisions exist
 (`run_core.py`, `run_fast.py`, `run_bulk_scale.py` and frontend drivers); use the
 driver recorded by that plan/receipt. Merely switching to the fastest driver
-changes source identity. Original code is preserved so the existing per-run hashes
+changes source identity. Original code contents are preserved so the existing per-run hashes
 and equivalence checks remain meaningful.
 
 Historical dispatch scripts include machine-specific orchestration. Prefer the

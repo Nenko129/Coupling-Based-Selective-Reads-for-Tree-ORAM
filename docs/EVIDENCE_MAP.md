@@ -1,12 +1,12 @@
 # Claim-to-evidence map (r8.6)
 
-Below, `E` abbreviates `workspace/TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16`
-and `M` abbreviates `workspace/TDSC_SOC3_审阅与投稿方案_2026-09-15/Selective_通用组合与投稿实验准备_2026-09-16`.
+Below, `E` abbreviates `workspace/submission_study_2026-09-15/bandwidth_experiments_2026-09-16`
+and `M` abbreviates `workspace/submission_study_2026-09-15/selective_composition_2026-09-16`.
 
 | Evidence | Manuscript data | Source and replay |
 |---|---|---|
 | Tuned core comparison | table_01_tuned_main.csv | E/formal_tuned_plan.json, E/results; audit_tuned_reference.py |
-| Scale and block-size slices | table_02_scale.csv; table_13_scale_raw_125.csv | M/论文实验章节完整证据_2026-09-16/source_evidence/receipts_scale_125; E/specs and E/src |
+| Scale and block-size slices | table_02_scale.csv; table_13_scale_raw_125.csv | M/paper_evidence_2026-09-16/source_evidence/receipts_scale_125; E/specs and E/src |
 | Minimal IR/AB/frontend reuse | table_03_minimal_composition.csv; table_12_minimal_raw_120.csv | M/formal_plan.json; M/results/formal; M/src/run_minimal.py and run_frontend_minimal.py |
 | Placement attribution | table_04_attribution_controls.csv | M full-probe vs selective arms; check_minimal_contract.py |
 | Auxiliary optimization ablation | table_05_ablation.csv | E/formal_ablation_plan.json; audit_completed_ablation.py |

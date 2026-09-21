@@ -22,10 +22,10 @@ python -B -X utf8 tools/reproduce.py core-quick --out ../csoram-core-quick
 ```
 
 Every output directory must be new and outside this repository. Replay and
-statistics commands copy the workspace there before executing historical tools,
+statistics commands reconstruct the historical workspace there before executing historical tools,
 so original results are not overwritten. Allow roughly 1 GB of free disk space
 per copy. On Windows, use a short checkout path (for example `D:/csoram`) because
-the original Unicode paths are preserved for reproducible source hashes.
+historical paths are restored only in the external replay workspace.
 Use Linux/WSL for the optional numerical rebuild. Historical measurement receipts
 contain Windows path strings in source-identity dictionaries; the measurement
 replay/statistics commands are validated on Windows, not claimed portable across
@@ -44,6 +44,16 @@ operating systems. See the reproduction guide.
   seed validation, certificate boundary rejection, and original source identity
   checks using the original audit functions.
 
+## English file and directory names
+
+All published paths use ASCII English names. Historical source code, receipts,
+and proof notes retain their exact contents and original SHA256 identities.
+`provenance/path_migration.json` records the reversible old/new path mapping.
+Use `tools/reproduce.py` instead of executing historical drivers in place: it
+restores their original layout only in an external, disposable workspace.
+Two redundant historical review ZIPs were omitted; their extracted experiments
+and receipts remain available. See `docs/PATH_MIGRATION.md`.
+
 ## Contents
 
 | Location | Contents |
@@ -53,8 +63,8 @@ operating systems. See the reproduction guide.
 | `docs/REPRODUCING.md` | Full run entry points, certificate rebuilding, dependencies |
 | `workspace/SOC3_audit_2026-09-15/` | Frozen protocol, fusion, certificate kernels, proofs and audit receipts |
 | `workspace/selective_oram_final_chain_2026-09-11/` | Original reduction and authenticated implementation dependencies |
-| `workspace/TDSC_SOC3_审阅与投稿方案_2026-09-15/论文带宽实验_2026-09-16/` | Main experiment engines, specifications, traces, receipts and historical diagnostics |
-| `workspace/TDSC_SOC3_审阅与投稿方案_2026-09-15/Selective_通用组合与投稿实验准备_2026-09-16/` | Minimal IR/AB and frontend experiments; final paper evidence tables/figures |
+| `workspace/submission_study_2026-09-15/bandwidth_experiments_2026-09-16/` | Main experiment engines, specifications, traces, receipts and historical diagnostics |
+| `workspace/submission_study_2026-09-15/selective_composition_2026-09-16/` | Minimal IR/AB and frontend experiments; final paper evidence tables/figures |
 | `provenance/` | Original source hashes, declared omissions, packaging validation |
 | `MANIFEST.json` | SHA256 identity of every delivered file except this manifest |
 
